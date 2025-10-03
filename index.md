@@ -2,7 +2,7 @@
 layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
-image: "https://adrianmociulschi.github.io/adrian-leonard-mociulschi/assets/og/og-cover-adi-futura-1200x630.png"
+image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-09-23T00:00:00+03:00"
 lang: en
 keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, blockchain, symbolic ecology, ORCID, academic"
@@ -29,6 +29,8 @@ Philosophical and conceptual exploration of how intelligent algorithms intersect
 
 <!-- test -->
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
+
+[Home][h] · [About][a] · [Writing][w] · [Blog][b]
 
 [h]: /adrian-leonard-mociulschi/
 [a]: /adrian-leonard-mociulschi/about
