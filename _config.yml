@@ -6,11 +6,11 @@ tagline: "A Symbolic Ambassador of Technoculture"
 
 show_downloads: false
 
-url: "https://adrianmociulschi.github.io"
-baseurl: "/adrian-mociulschi-blog"
+url: "https://adrian-leonard-mociulschi.github.io"
+baseurl: ""  # pentru site principal, lasă gol
 
-image: "https://adrianmociulschi.github.io/adrian-mociulschi-blog/assets/og/og-cover-adi-futura-1200x630.png"
-logo:  "https://adrian-mociulschi.github.io/adrian-mociulschi-blog/assets/og/og-cover-adi-futura-1200x630.png"
+image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
+logo:  "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 
 lang: en
 author: "Adrian Leonard Mociulschi"
@@ -23,7 +23,4 @@ plugins:
   - jekyll-seo-tag
 
 include:
-  
-include:
-  - assets/1333087d9f454e628b03b0158939a57f.txt
-
+  - assets/
