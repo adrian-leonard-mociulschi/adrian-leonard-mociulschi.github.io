@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://adrianmociulschi.github.io/adrian-leonard-mociulschi/sitemap.xml
+
+# Finis codicis: silentium algorithmicum
