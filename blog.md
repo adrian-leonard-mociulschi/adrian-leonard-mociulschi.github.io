@@ -28,10 +28,10 @@ lang: en
   <p>Text in progress...</p>
 </div>
 
-[h]: /adrian-leonard-mociulschi/
-[a]: /adrian-leonard-mociulschi/about
-[b]: /adrian-leonard-mociulschi/blog
-[w]: /adrian-leonard-mociulschi/writing
+[h]: {{ site.baseurl }}/
+[a]: {{ site.baseurl }}/about
+[w]: {{ site.baseurl }}/writing
+[b]: {{ site.baseurl }}/blog
 
 <!--
 Tempus sigillatum in verba cadit,  
