@@ -20,7 +20,7 @@ This collection includes public contributions relevant to my symbolic mission as
 
 This article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
 
-- [The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock](https://nineoclock.ro/2025/09/11/the-murmur-of-code-on-the-ethics-of-algorithmic-presence)
+- [The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock](https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/)
 
 This article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
 
