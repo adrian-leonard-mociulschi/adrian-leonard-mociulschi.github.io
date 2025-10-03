@@ -27,10 +27,10 @@ This article analyzes how algorithms reshape online visibility, influence politi
 
 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
 
-[h]: /adrian-leonard-mociulschi/
-[a]: /adrian-leonard-mociulschi/about
-[b]: /adrian-leonard-mociulschi/blog
-[w]: /adrian-leonard-mociulschi/writing
+[h]: {{ site.baseurl }}/
+[a]: {{ site.baseurl }}/about
+[w]: {{ site.baseurl }}/writing
+[b]: {{ site.baseurl }}/blog
 
 <!--
 Scriptura vivit in fluxu tacito,  
