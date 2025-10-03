@@ -2,7 +2,7 @@
 layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
-image: "https://adrianmociulschi.github.io/adrian-mociulschi-blog/assets/og/og-cover-adi-futura-1200x630.png"
+image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-09-23T00:00:00+03:00"
 lang: en
 ---
@@ -27,10 +27,10 @@ This article analyzes how algorithms reshape online visibility, influence politi
 
 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
 
-[h]: /adrian-mociulschi-blog/
-[a]: /adrian-mociulschi-blog/about
-[b]: /adrian-mociulschi-blog/blog
-[w]: /adrian-mociulschi-blog/writing
+[h]: /adrian-leonard-mociulschi/
+[a]: /adrian-leonard-mociulschi/about
+[b]: /adrian-leonard-mociulschi/blog
+[w]: /adrian-leonard-mociulschi/writing
 
 
 <!--
