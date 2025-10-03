@@ -1,13 +1,10 @@
 ---
 layout: default
-title: "Adrian Leonard Mociulschi"
-tagline: "A Symbolic Ambassador of Technoculture"
-image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-09-23T00:00:00+03:00"
-lang: en
+title: "About"
+permalink: /about
 ---
 
-[Home][h] · [About][a] · [Writing][w] · [Blog][b]
+[Home](/) · [About](/about) · [Writing](/writing) · [Blog](/blog)
 
 ## About me
 
@@ -38,15 +35,3 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> algorithmic imagination </span>
   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> posthuman meaning </span>
 </div>
-
-[h]: /adrian-leonard-mociulschi/
-[a]: /adrian-leonard-mociulschi/about
-[b]: /adrian-leonard-mociulschi/blog
-[w]: /adrian-leonard-mociulschi/writing
-
-<!--
-Mens algorithmica somnia texit,  
-Veritas latet in structura levis.  
-Numerus loquitur, sed sensus manet,  
-In pagina obscura, lumen persistit.
--->
