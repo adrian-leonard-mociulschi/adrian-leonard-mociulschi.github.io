@@ -1,18 +1,19 @@
 theme: jekyll-theme-cayman
-title: "Adrian Leonard Mociulschi"
-description: "Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research."
-tagline: "A Symbolic Ambassador of Technoculture"
+title: Adrian Leonard Mociulschi
+description: Exploring ethical AI, technoculture, and the future of meaning through
+  artifacts, essays, and research.
+tagline: A Symbolic Ambassador of Technoculture
 show_downloads: false
-url: "https://adrian-leonard-mociulschi.github.io"
-baseurl: "/adrian-leonard-mociulschi"
-image: "https://adrian-leonard-mociulschi.github.io/adrian-leonard-mociulschi/assets/og/og-cover-adi-futura-1200x630.png"
-logo: "https://adrian-leonard-mociulschi.github.io/adrian-leonard-mociulschi/assets/og/og-cover-adi-futura-1200x630.png"
+url: https://adrian-leonard-mociulschi.github.io
+baseurl: /adrian-leonard-mociulschi
+image: https://adrian-leonard-mociulschi.github.io/adrian-leonard-mociulschi/assets/og/og-cover-adi-futura-1200x630.png
+logo: https://adrian-leonard-mociulschi.github.io/adrian-leonard-mociulschi/assets/og/og-cover-adi-futura-1200x630.png
 lang: en
-author: "Adrian Leonard Mociulschi"
+author: Adrian Leonard Mociulschi
 social:
-  orcid: "https://orcid.org/0009-0006-9328-8518"
+  orcid: https://orcid.org/0009-0006-9328-8518
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-seo-tag
 include:
-  - assets/1333087d9f454e628b03b0158939a57f.txt
+- assets/1333087d9f454e628b03b0158939a57f.txt
