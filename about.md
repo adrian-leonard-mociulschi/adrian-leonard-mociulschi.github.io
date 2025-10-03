@@ -37,14 +37,12 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> blockchain technology </span>
   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> algorithmic imagination </span>
   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> posthuman meaning </span>
-
 </div>
 
 [h]: /adrian-leonard-mociulschi/
 [a]: /adrian-leonard-mociulschi/about
 [b]: /adrian-leonard-mociulschi/blog
 [w]: /adrian-leonard-mociulschi/writing
-
 
 <!--
 Mens algorithmica somnia texit,  
