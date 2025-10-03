@@ -43,4 +43,3 @@ Verba abscondita sensum creant.
 Forma fugitiva manet in scriptis,  
 Spiritus algoritmi cantat in umbris.
 -->
-
