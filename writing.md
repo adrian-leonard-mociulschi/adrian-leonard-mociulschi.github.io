@@ -32,11 +32,9 @@ If you wish to connect professionally or follow symbolic updates, you may visit 
 [b]: /adrian-leonard-mociulschi/blog
 [w]: /adrian-leonard-mociulschi/writing
 
-
 <!--
 Scriptura vivit in fluxu tacito,  
 Verbum se mutat, sed anima manet.  
 Pagina non loquitur, sed resonat,  
 Memoria codicis est forma futura.
 -->
-
