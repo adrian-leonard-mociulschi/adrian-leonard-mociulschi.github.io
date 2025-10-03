@@ -32,10 +32,10 @@ Philosophical and conceptual exploration of how intelligent algorithms intersect
 
 [Home][h] · [About][a] · [Writing][w] · [Blog][b]
 
-[h]: /adrian-leonard-mociulschi/
-[a]: /adrian-leonard-mociulschi/about
-[b]: /adrian-leonard-mociulschi/blog
-[w]: /adrian-leonard-mociulschi/writing
+[h]: {{ site.baseurl }}/
+[a]: {{ site.baseurl }}/about
+[w]: {{ site.baseurl }}/writing
+[b]: {{ site.baseurl }}/blog
 
 <!--
 In codice tacito lux resonat,  
