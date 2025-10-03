@@ -22,7 +22,7 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
 
 <figure style="clear:both; margin:0;">
   <img
-    src="https://adrianmociulschi.github.io/adrian-mociulschi-blog/assets/img/Cod_QR_ORCID.png"
+    src="https://adrian-leonard-mociulschi.github.io/assets/img/Cod_QR_ORCID.png"
     alt="QR code linking to Adrian Leonard Mociulschi's ORCID profile"
     width="150"
     style="display:block; height:auto; margin:0 0 6px 0;">
