@@ -9,7 +9,7 @@ keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, blockchain, sym
 permalink: / 
 ---
 
-[Home](/) · [About](/about) · [Writing](/writing) · [Press room](/blog)
+[Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog)
 
 ## Welcome to my GitHub
 At the intersection of culture and code, this space invites reflection—not commits. A lucid archive of symbolic ecologies, **Web3 visions**, and ethical **AI**. No crowdsourcing, just presence. No noise, just resonance.
