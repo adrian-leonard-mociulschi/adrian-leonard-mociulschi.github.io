@@ -29,3 +29,68 @@ The visual code above links to my ORCID identifier. These identifiers are unique
 ![Adrian Leonard Mociulschi — portret oficial](/assets/img/Adrian-Leonard-Mociulschi.jpg){: style="max-width:520px;width:100%;height:auto;border-radius:8px;" loading="lazy" decoding="async" }
 
 **License**: **CC BY 4.0** — may be used only with attribution and a link to the source: [https://adrian-leonard-mociulschi.github.io/](https://adrian-leonard-mociulschi.github.io/)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://adrian-leonard-mociulschi.github.io/about",
+  "url": "https://adrian-leonard-mociulschi.github.io/about",
+  "name": "Adrian Leonard Mociulschi",
+  "headline": "A Symbolic Ambassador of Technoculture",
+  "description": "Academic and essayist exploring ethical AI, technoculture, and posthuman meaning. Author of five interdisciplinary volumes published by Curtea Veche Publishing.",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/#website"
+  },
+  "about": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
+    "width": 3066,
+    "height": 3066,
+    "encodingFormat": "image/jpeg"
+  },
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+    "name": "Adrian Leonard Mociulschi",
+    "jobTitle": "University Lecturer, Essayist",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "National University of Music Bucharest",
+      "url": "https://www.unmb.ro/"
+    },
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0009-0006-9328-8518",
+      "url": "https://orcid.org/0009-0006-9328-8518"
+    },
+    "sameAs": [
+      "https://orcid.org/0009-0006-9328-8518",
+      "https://www.unmb.ro/profesor/mociulschi-adrian/",
+      "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
+      "https://romanialibera.ro/author/adrian-mociulschi/",
+      "https://revistacultura.ro/author/leonard/",
+      "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
+      "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
+      "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
+    ],
+    "knowsAbout": [
+      {"@type":"Thing","name":"AI ethics"},
+      {"@type":"Thing","name":"Technoculture"},
+      {"@type":"Thing","name":"Blockchain"},
+      {"@type":"Thing","name":"Music Theory"},
+      {"@type":"Thing","name":"Posthumanism"},
+      {"@type":"Thing","name":"Strategic foresight"}
+    ],
+    "nationality": {
+      "@type": "Country",
+      "name": "Romania"
+    }
+  }
+}
+</script>
