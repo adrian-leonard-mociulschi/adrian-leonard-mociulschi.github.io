@@ -6,7 +6,7 @@ image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futur
 date: "2025-09-23T00:00:00+03:00"
 lang: en
 keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, blockchain, symbolic ecology, ORCID, academic"
-permalink: / 
+permalink: /
 ---
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog)
