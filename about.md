@@ -23,7 +23,7 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
 
 ![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
 
-Ethical AI, symbolic technoculture, blockchain technology, algorithmic imagination, posthuman meaning
+The code above links to my ORCID identifier, which is a unique identifier for researchers that allows for seamless connection and identification in the research community.
 
 ### Poza oficială
 
