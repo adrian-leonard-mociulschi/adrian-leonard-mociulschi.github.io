@@ -28,3 +28,8 @@ permalink: /blog
   <p><em>This was recorded on [to be added]</em></p>
   <p>Text in progress...</p>
 </div>
+
+## Contact
+
+If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
+
