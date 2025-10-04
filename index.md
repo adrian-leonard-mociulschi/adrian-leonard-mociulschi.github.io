@@ -33,4 +33,5 @@ From academies to algorithms: *Can culture shift from vertical monopolies of mea
 **This symbolic decentralization is not limited to cultural codes—it extends into the realm of embodied intelligence**.
 
 Philosophical and conceptual exploration of how intelligent algorithms intersect with physical systems — from the ethics of autonomy to the symbolic logic of swarm coordination. My focus is on ideas: how robotics, AI, and symbolic computation can inspire adaptive infrastructures for a posthuman ecology of meaning.
+
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
