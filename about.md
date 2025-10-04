@@ -39,3 +39,16 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> algorithmic imagination </span>
   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> posthuman meaning </span>
 </div>
+
+## Poza oficială
+
+<figure style="margin:0;">
+  <img
+    src="/assets/img/Adrian-Leonard-Mociulschi.jpg"
+    alt="Adrian Leonard Mociulschi — portret oficial"
+    width="520"
+    loading="lazy"
+    decoding="async"
+    style="display:block; max-width:100%; height:auto; border-radius:8px; margin:0 0 rong> — 
+  <span style="user-select:all;">https://adrian-leonard-mociulschi.github.io/</span>
+</p>
