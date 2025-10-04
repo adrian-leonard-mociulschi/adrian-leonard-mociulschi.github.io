@@ -25,8 +25,9 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
 
 The code above links to my ORCID identifier, which is a unique identifier for researchers that allows for seamless connection and identification in the research community.
 
-### Poza oficială
+### Official photo
 
 ![Adrian Leonard Mociulschi — portret oficial](/assets/img/Adrian-Leonard-Mociulschi.jpg){: style="max-width:520px;width:100%;height:auto;border-radius:8px;" loading="lazy" decoding="async" }
 
-Licență: poate fi folosită doar cu citarea sursei — https://adrian-leonard-mociulschi.github.io/
+**License**: May only be used with attribution.
+Link: https://adrian-leonard-mociulschi.github.io/
