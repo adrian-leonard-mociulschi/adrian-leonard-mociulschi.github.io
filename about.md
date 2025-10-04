@@ -22,7 +22,7 @@ I advocate for **ethical** AI and a **posthuman ecology of meaning**, while cont
 
 ![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
 
-The code above links to my ORCID identifier. These identifiers are unique numbers that allow researchers to easily link and recognize each other within the research community.
+The visual code above links to my ORCID identifier. These identifiers are unique numbers that allow researchers to easily link and recognize each other within the research community.
 
 ## Official photo
 
