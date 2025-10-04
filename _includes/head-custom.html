@@ -1,8 +1,27 @@
+# File: _includes/head-custom.html
+# Purpose: minimal, safe-to-drop-in head include for Cayman + Markdown (EN site)
+
+<!-- Robots -->
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow,max-image-preview:large">
 
+<!-- Viewport + Canonical -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ page.url | absolute_url }}
+
 <!-- Favicon -->
-<link rel="icon" href="https://adrian-leonard-mociulschi.github.io/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://adrian-leonard-mociulschi.githubpen Graph / Twitter (minimal, aligned with JSON-LD values) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ page.image | default: '/assets/og/og-cover-adi-futura-1200x630.png' | absolute_url }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+<meta name="twitter:image" content="{{ page.image | default: '/assets/og/og-cover-adi-futura-1200x630.png' | absolute_url }}">
 
 <!-- JSON-LD4KG -->
 <script type="application/ld+json">
@@ -69,6 +88,17 @@
         {"@type":"Thing","name":"Strategic foresight"}
       ],
       "nationality": { "@type": "Country", "name": "Romania" }
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}#webpage",
+      "url": "{{ page.url | absolute_url }}",
+      "name": "{{ page.title | default: site.title | escape }}",
+      "description": "{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}",
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "inLanguage": "en",
+      "primaryImageOfPage": "{{ page.image | default: '/assets/og/og-cover-adi-futura-1200x630.png' | absolute_url }}"
     }
   ]
 }
