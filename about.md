@@ -8,7 +8,7 @@ lang: en
 permalink: /about
 ---
 
-[Home](/) · [About](/about) · [Writing](/writing) · [Blog](/blog)
+[Home](/) · [About](/about) · [Writing](/writing) · [Press room](/blog)
 
 ## About me
 
