@@ -21,27 +21,12 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
 
 ## QR Code
 
-<figure style="clear:both; margin:0;">
-  <img
-    src="/assets/img/Cod_QR_ORCID.png"
-    alt="QR code linking to Adrian Leonard Mociulschi's ORCID profile"
-    width="150"
-    style="display:block; height:auto; margin:0 0   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">Ethical AI</span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">symbolic technoculture</span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">blockchain technology</span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">algorithmic imagination</span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">posthuman meaning</span>
-</div>
+![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
+
+Ethical AI, symbolic technoculture, blockchain technology, algorithmic imagination, posthuman meaning
 
 ### Poza oficială
 
-<figure style="margin:10px 0 0 0;">
-  <img
-    src="/assets/img/Adrian-Leonard-Mociulschi.jpg"
-    alt="Adrian Leonard Mociulschi — portret oficial"
-    loading="lazy"
-    decoding="async"
-    style="display:block; max-width:520px; width:100%; height:auto; border-radius:8px; margin:0 0 64.0</a> — utilizare permisă
-  <strong>doar cu citarea sursei</strong>:
-  <span style="user-select:all;">https://adrian-leonard-mociulschi.github.io/</span>
-</p>
+![Adrian Leonard Mociulschi — portret oficial](/assets/img/Adrian-Leonard-Mociulschi.jpg){: style="max-width:520px;width:100%;height:auto;border-radius:8px;" loading="lazy" decoding="async" }
+
+Licență: poate fi folosită doar cu citarea sursei — https://adrian-leonard-mociulschi.github.io/
