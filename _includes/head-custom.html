@@ -7,8 +7,10 @@
 {{ page.url | absolute_url }}
 
 <!-- Favicon -->
-<link rel="icon" href="https://adrian-leonard-mociulschi.githubpen Graph / Twitter (minimal, aligned with JSON-LD values) -->
-<meta property="og:type" content="website">
+https://adrian-leonard-mociulschi.github.io/favicon.ico
+
+<!-- Open Graph / Twitter (minimal, aligned with JSON-LD values) -->
+<meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'article' %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ site.title | escape }}">
 <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
 <meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
@@ -56,7 +58,6 @@
       "jobTitle": "University Lecturer, Essayist",
       "affiliation": {
         "@type": "Organization",
-        "@id": "https://www.unmb.ro/#org",
         "name": "National University of Music Bucharest",
         "url": "https://www.unmb.ro/"
       },
@@ -95,10 +96,9 @@
       "description": "{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}",
       "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
       "inLanguage": "en",
-      "primaryImageOfPage": "{{ page.image | default: '/assets/og/og-cover-adi-futura-1200x630.png' | absolute_url }}"
+      "primaryImageOfPage": { "@id": "https://adrian-leonard-mociulschi.github.io/#og-image" }
     }
   ]
 }
 </script>
 
-<!-- meta: Automata silentia: vigilia sine praesentia -->
