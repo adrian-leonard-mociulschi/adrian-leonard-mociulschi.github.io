@@ -24,6 +24,10 @@ This article examines the ethical and strategic implications of autonomous syste
 
 This article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
 
+- [Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock](https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi)
+
+This article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,7 +75,3 @@ This article analyzes how algorithms reshape online visibility, influence politi
   ]
 }
 </script>
-
-- [Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock](https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi)
-
-This article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
