@@ -28,8 +28,9 @@ In a world where authority is fragmenting, **blockchain and decentralized autono
 
 ## Epistemic Futures
 
-From academies to algorithms: *how do we move, within the cultural framework, from institutional **symbolic monopolies** to distributed legitimacy?* **Blockchain, NFTs, and DAO ecosystems are not buzzwords—they are symbolic infrastructures for a culture of transparency, co-creation, and resilience**.
+From academies to algorithms: *Can culture shift from vertical monopolies of meaning to horizontal ecologies of legitimacy?* Perhaps it already has—through blockchain, NFTs, and DAO ecosystems, which are not mere buzzwords but symbolic infrastructures enabling transparency, co-creation, and cultural resilience.
 
-Philosophical and conceptual exploration of how intelligent algorithms intersect with physical systems — from the ethics of autonomy to the symbolic logic of swarm coordination. My focus is on ideas: how robotics, AI, and symbolic computation can inspire adaptive infrastructures for a posthuman ecology of meaning. 
+**This symbolic decentralization is not limited to cultural codes—it extends into the realm of embodied intelligence**.
 
+Philosophical and conceptual exploration of how intelligent algorithms intersect with physical systems — from the ethics of autonomy to the symbolic logic of swarm coordination. My focus is on ideas: how robotics, AI, and symbolic computation can inspire adaptive infrastructures for a posthuman ecology of meaning.
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
