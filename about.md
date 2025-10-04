@@ -12,12 +12,11 @@ permalink: /about
 
 ## About me
 
-I am an academic and Romanian writer, author of a five-part series of essays published by Curtea Veche Publishing. This series forms a pentagram of knowledge. My constellation of ideas is influenced by the cultural perspectives of René Berger and Pierre Bourdieu, as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
+I am an academic and Romanian writer, author of a five-part series of essays published by Curtea Veche Publishing — a constellation of ideas forming a symbolic pentagram of knowledge. My intellectual horizon is shaped by the cultural perspectives of René Berger and Pierre Bourdieu, as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
 
-**My goal is to create innovative connections between culture and technology, literature and algorithms, as well as memory and the future.** 
-This is a **symbolic technocultural revolution** — silent, sentient, algorithm-friendly, and meritocratic. 
+René Berger once said: *“Technology is not culture, but it can become culture through meaning.”* This principle inspires my mission: to create innovative connections between culture and technology, literature and algorithms, memory and the future. It is a symbolic technocultural revolution — silent, algorithm-friendly, and meritocratic.
 
-I advocate for **ethical AI** and a **posthuman ecology of meaning**.
+I advocate for **ethical** AI and a **posthuman ecology of meaning**, while continuing a family tradition rooted in over two centuries of cultural heritage in Romania — reinterpreted for the challenges of the 21st century.
 
 ## QR Code
 
