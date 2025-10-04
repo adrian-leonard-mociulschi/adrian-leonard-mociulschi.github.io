@@ -12,19 +12,23 @@ permalink: /
 [Home](/) · [About](/about) · [Writing](/writing) · [Press room](/blog)
 
 ## Welcome to my GitHub
-At the intersection of culture and code, this space invites reflection — not commits.
-A lucid archive of symbolic ecologies, Web3 visions, and ethical AI.
-No crowdsourcing, just presence. No noise, just resonance.
+At the intersection of culture and code, this space invites reflection—not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
 
 ## Mission
 
-I build progressive bridges between culture and technology, between literature and algorithms, and between memory and the future. And I challenge one of modernity’s greatest misconceptions: that music is merely sound. Whoever believes that music is only about sound is mistaken. Music is about number — and number is the logos of all sciences. This is not my claim, but the legacy of great thinkers from Pythagoras to Leonardo da Vinci and Johannes Kepler.
+I build progressive bridges between culture and technology, between literature and algorithms, and between memory and the future. And I challenge one of modernity’s greatest misconceptions: that music is merely sound. Whoever believes that music is only about sound is mistaken. Music is also about number—and number is the logos of all sciences. This is not my claim, but the legacy of great thinkers from Pythagoras to Leonardo da Vinci and Johannes Kepler.
+
+I also believe the future of knowledge cannot rely solely on centralized institutions. It requires **new forms of epistemic legitimacy**—open, transparent, and distributed—enabled by decentralized technologies such as **DAO frameworks, blockchain, and tokenized trust models**.
 
 ## Symbolic Technoculture  
 
-Between ethics and imagination, between code and culture — I explore the symbolic frontier of Artificial Intelligence, blockchain technology, and posthuman meaning, through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures. 
+Between ethics and imagination, between code and culture—I explore the symbolic frontier of Artificial Intelligence, blockchain technology, and posthuman meaning, through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures.
 
-## Advanced Robotics & Mechatronics
+In a world where authority is fragmenting, **blockchain and decentralized autonomous organizations are not just technologies—they are architectures of trust, capable of redefining how knowledge is validated and shared**. 
+
+## Epistemic Futures
+
+From academies to algorithms: how do we move from institutional monopolies to distributed legitimacy? Blockchain, NFTs, and DAO ecosystems are not buzzwords—they are symbolic infrastructures for a culture of transparency, co-creation, and resilience.
 
 Philosophical and conceptual exploration of how intelligent algorithms intersect with physical systems — from the ethics of autonomy to the symbolic logic of swarm coordination. My focus is on ideas: how robotics, AI, and symbolic computation can inspire adaptive infrastructures for a posthuman ecology of meaning. 
 
