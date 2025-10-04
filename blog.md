@@ -8,9 +8,9 @@ lang: en
 permalink: /blog
 ---
 
-[Home](/) · [About](/about) · [Writing](/writing) · [Blog](/blog)
+[Home](/) · [About](/about) · [Writing](/writing) · [Press room](/blog)
 
-## Blog
+## Press room
 
 <!-- Blog Entry · 2025-09-24 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
