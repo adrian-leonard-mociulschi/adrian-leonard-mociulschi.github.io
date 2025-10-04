@@ -14,19 +14,31 @@
       "@id": "https://adrian-leonard-mociulschi.github.io/#website",
       "url": "https://adrian-leonard-mociulschi.github.io/",
       "name": "Adrian Leonard Mociulschi",
-      "inLanguage": "ro",
-      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://adrian-leonard-mociulschi.github.io/#og-image",
+        "url": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+        "width": 1200,
+        "height": 630
+      },
       "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
     },
+
     {
       "@type": "Person",
       "@id": "https://adrian-leonard-mociulschi.github.io/#person",
       "name": "Adrian Leonard Mociulschi",
       "url": "https://adrian-leonard-mociulschi.github.io/",
-      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+        /* "width": 800,
+           "height": 800  // dacă știi dimensiunile reale, adaugă-le */
+      },
       "jobTitle": "University Lecturer, Essayist",
       "affiliation": {
         "@type": "Organization",
+        "@id": "https://www.unmb.ro/#org",     /* opțional @id pentru reutilizare */
         "name": "National University of Music Bucharest",
         "url": "https://www.unmb.ro/"
       },
@@ -45,6 +57,7 @@
         "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
         "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
         "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
+        /* poți adăuga și LinkedIn dacă vrei ca punct de contact */
       ],
       "knowsAbout": [
         {"@type":"Thing","name":"AI ethics"},
@@ -54,9 +67,24 @@
         {"@type":"Thing","name":"Posthumanism"},
         {"@type":"Thing","name":"Strategic foresight"}
       ],
-      "nationality": { "@type": "Country", "name": "România" }
+      "nationality": { "@type": "Country", "name": "Romania" }
+    },
+
+    /* Opțional: definește și pagina Home, mai ales dacă e în engleză */
+    {
+      "@type": "WebPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#home",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Home",
+      "headline": "A Symbolic Ambassador of Technoculture",
+      "description": "A lucid archive at the intersection of culture and code: symbolic ecologies, Web3 visions, and ethical AI.",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "about": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "primaryImageOfPage": { "@id": "https://adrian-leonard-mociulschi.github.io/#og-image" }
     }
   ]
 }
 </script>
+
 <!-- meta: Automata silentia: vigilia sine praesentia -->
