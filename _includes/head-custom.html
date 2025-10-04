@@ -10,37 +10,54 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://adrian-leonard-mociulschi.github.io/#A.L.M.",
-  "name": "Adrian Leonard Mociulschi",
-  "alternateName": ["A.L.M.","Adrian-Leonard Mociulschi"],
-  "jobTitle": "Lector universitar doctor",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "Universitatea Națională de Muzică București",
-    "url": "https://www.unmb.ro/"
-  },
-  "url": "https://adrian-leonard-mociulschi.github.io/",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
-  "sameAs": [
-    "https://orcid.org/0009-0006-9328-8518",
-    "https://www.unmb.ro/profesor/mociulschi-adrian/",
-    "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
-    "https://romanialibera.ro/author/adrian-mociulschi/",
-    "https://revistacultura.ro/author/leonard/",
-    "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
-    "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
-    "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
-  ],
-  "knowsAbout": [
-    {"@type":"Thing","name":"AI ethics"},
-    {"@type":"Thing","name":"Technocultură"},
-    {"@type":"Thing","name":"Blockchain"},
-    {"@type":"Thing","name":"Teorie muzicală"},
-    {"@type":"Thing","name":"Postumanism"},
-    {"@type":"Thing","name":"Filosofia culturii"}
-  ],
-  "nationality": "RO",
-  "inLanguage": "ro"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Adrian Leonard Mociulschi",
+      "inLanguage": "ro",
+      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "jobTitle": "Lector universitar doctor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universitatea Națională de Muzică București",
+        "url": "https://www.unmb.ro/"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0006-9328-8518",
+        "url": "https://orcid.org/0009-0006-9328-8518"
+      },
+      "sameAs": [
+        "https://orcid.org/0009-0006-9328-8518",
+        "https://www.unmb.ro/profesor/mociulschi-adrian/",
+        "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
+        "https://romanialibera.ro/author/adrian-mociulschi/",
+        "https://revistacultura.ro/author/leonard/",
+        "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
+        "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
+        "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
+      ],
+      "knowsAbout": [
+        {"@type":"Thing","name":"AI ethics"},
+        {"@type":"Thing","name":"Technocultură"},
+        {"@type":"Thing","name":"Blockchain"},
+        {"@type":"Thing","name":"Teorie muzicală"},
+        {"@type":"Thing","name":"Postumanism"},
+        {"@type":"Thing","name":"Filosofia culturii"}
+      ],
+      "nationality": { "@type": "Country", "name": "România" }
+    }
+  ]
 }
 </script>
