@@ -117,5 +117,6 @@ Philosophical and conceptual exploration of how intelligent algorithms intersect
   ]
 }
 </script>
+
 <!-- meta: [la] Ultima linea: ubi forma transit in sensum -->
 
