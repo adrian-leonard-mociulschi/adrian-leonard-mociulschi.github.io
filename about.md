@@ -29,5 +29,4 @@ The code above links to my ORCID identifier, which is a unique identifier for re
 
 ![Adrian Leonard Mociulschi — portret oficial](/assets/img/Adrian-Leonard-Mociulschi.jpg){: style="max-width:520px;width:100%;height:auto;border-radius:8px;" loading="lazy" decoding="async" }
 
-**License**: May only be used with attribution.
-Link: https://adrian-leonard-mociulschi.github.io/
+**License**: **CC BY 4.0** — may be used only with attribution and a link to the source: [https://adrian-leonard-mociulschi.github.io/](https://adrian-leonard-mociulschi.github.io/)
