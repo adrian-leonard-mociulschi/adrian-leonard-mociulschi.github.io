@@ -23,32 +23,25 @@ I advocate for **ethical AI** and a **posthuman ecology of meaning**.
 
 <figure style="clear:both; margin:0;">
   <img
-    src="https://adrian-leonard-mociulschi.github.io/assets/img/Cod_QR_ORCID.png"
+    src="/assets/img/Cod_QR_ORCID.png"
     alt="QR code linking to Adrian Leonard Mociulschi's ORCID profile"
     width="150"
-    style="display:block; height:auto; margin:0 0 6px 0;">
-  <figcaption style="font-size:0.95em;"></figcaption>
-</figure>
-
-<br><br>
-
-<div style="display:flex; flex-wrap:wrap; gap:8px; font-family:sans-serif;">
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> Ethical AI </span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> symbolic technoculture </span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> blockchain technology </span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> algorithmic imagination </span>
-  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;"> posthuman meaning </span>
+    style="display:block; height:auto; margin:0 0   <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">Ethical AI</span>
+  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">symbolic technoculture</span>
+  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">blockchain technology</span>
+  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">algorithmic imagination</span>
+  <span style="background-color:rgba(0,0,0,0.1); padding:6px 12px; border-radius:12px; font-size:0.95em;">posthuman meaning</span>
 </div>
 
-## Poza oficială
+### Poza oficială
 
-<figure style="margin:0;">
+<figure style="margin:10px 0 0 0;">
   <img
     src="/assets/img/Adrian-Leonard-Mociulschi.jpg"
     alt="Adrian Leonard Mociulschi — portret oficial"
-    width="520"
     loading="lazy"
     decoding="async"
-    style="display:block; max-width:100%; height:auto; border-radius:8px; margin:0 0 rong> — 
+    style="display:block; max-width:520px; width:100%; height:auto; border-radius:8px; margin:0 0 64.0</a> — utilizare permisă
+  <strong>doar cu citarea sursei</strong>:
   <span style="user-select:all;">https://adrian-leonard-mociulschi.github.io/</span>
 </p>
