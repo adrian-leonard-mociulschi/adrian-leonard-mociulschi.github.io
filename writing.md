@@ -27,7 +27,3 @@ This article investigates the concept of algorithms as dynamic, life-like system
 - [The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock](https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/)
 
 This article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
-
-## Contact
-
-If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
