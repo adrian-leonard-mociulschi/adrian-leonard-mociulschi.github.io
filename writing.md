@@ -24,6 +24,54 @@ This article examines the ethical and strategic implications of autonomous syste
 
 This article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://adrian-leonard-mociulschi.github.io/writing",
+  "url": "https://adrian-leonard-mociulschi.github.io/writing",
+  "name": "Writings by Adrian Leonard Mociulschi",
+  "headline": "Symbolic Writings on Technoculture and Ethical AI",
+  "description": "A curated selection of essays and articles by Adrian Leonard Mociulschi, exploring technoculture, ethical AI, and symbolic infrastructures.",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/#website"
+  },
+  "about": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+  },
+  "mainEntity": [
+    {
+      "@type": "Article",
+      "headline": "The Future Has No Autopilot",
+      "url": "https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/",
+      "author": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      },
+      "datePublished": "2025-10-02"
+    },
+    {
+      "@type": "Article",
+      "headline": "The Murmur of Code: On the Ethics of Algorithmic Presence",
+      "url": "https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/",
+      "author": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      },
+      "datePublished": "2025-09-27"
+    },
+    {
+      "@type": "Article",
+      "headline": "Algorithms as Living Forms: Rethinking Coexistence in a World of Code",
+      "url": "https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi",
+      "author": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      },
+      "datePublished": "2025-08-13"
+    }
+  ]
+}
+</script>
+
 - [Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock](https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi)
 
 This article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
