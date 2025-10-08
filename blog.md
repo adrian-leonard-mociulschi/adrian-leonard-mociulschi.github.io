@@ -17,9 +17,9 @@ permalink: /blog
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     New Op-Ed Published: <em>Girl in a Jacket</em>
   </p>
-  <p style="font-style: italic; color: #555;">Editorial Update — October 8, 2025</p>
-  <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi signs a provocative essay in <em>România Liberă</em>, addressing feminism in the algorithmic age. The text explores how a simple garment becomes a cultural code, questioning stereotypes and reclaiming agency in a world mediated by technology.</p>
-<p>This op-ed, written in Romanian, invites readers to reflect on gender, identity, and symbolic power, beyond the binary logic of code and convention.</p>
+<p style="font-style: italic; color: #555;">Editorial Update — October 8, 2025</p>
+  <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi signs an essay in <em>România Liberă</em> that turns a search engine snippet into a cultural cipher. Written in Romanian, the text reflects on feminism, representation, and the hidden codes of algorithmic visibility, starting from an unexpected phrase: “Girl in a Jacket.”</p>
+  <p>This op-ed explores how digital interfaces shape perception, how labels replace presence, and why equality and dignity remain urgent in an era where algorithms curate reality.</p>
   <p>
     <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
