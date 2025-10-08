@@ -12,6 +12,19 @@ permalink: /blog
 
 ## Press room
 
+<!-- Press Release · 2025-10-08 -->
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    New Article in România Liberă: <em>Girl in a Jacket</em>
+  </p>
+  <p style="font-style: italic; color: #555;">Press Release — October 8, 2025</p>
+  <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi publishes a new essay in <em>România Liberă</em>, exploring the symbolic interplay between fashion, identity, and cultural codes in the algorithmic age.</p>
+  <p>This article reflects on how a simple garment becomes a narrative device, bridging aesthetics and ethics in a world mediated by technology.</p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/" target="_blank" rel="noopener" style="color:#>
+  </p>
+</div>
+
 <!-- Press Release · 2025-10-04 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">Launch of Adrian Leonard Mociulschi's Platform</p>
