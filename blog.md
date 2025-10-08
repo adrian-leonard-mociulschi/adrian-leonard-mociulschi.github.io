@@ -18,8 +18,8 @@ permalink: /blog
     New Article in România Liberă: <em>Girl in a Jacket</em>
   </p>
   <p style="font-style: italic; color: #555;">Press Release — October 8, 2025</p>
-  <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi publishes a new essay in <em>România Liberă</em>, exploring the symbolic interplay between fashion, identity, and cultural codes in the algorithmic age.</p>
-  <p>This article reflects on how a simple garment becomes a narrative device, bridging aesthetics and ethics in a world mediated by technology.</p>
+  <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi signs a provocative essay in <em>România Liberă</em>, addressing feminism in the algorithmic age. The text explores how a simple garment becomes a cultural code, questioning stereotypes and reclaiming agency in a world mediated by technology.</p>
+<p>This op-ed invites readers to reflect on gender, identity, and symbolic power, beyond the binary logic of code and convention.</p>
   <p>
     <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
