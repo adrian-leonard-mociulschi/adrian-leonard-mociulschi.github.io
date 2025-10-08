@@ -53,9 +53,8 @@ This is not collapse—it is metamorphosis. A future where survival is not just 
 
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
 
-<p style="text-align:center; margin-top:40px;">
-  <a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
-</p>
+<!-- Link to go back to top -->
+<a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
 
 <!-- meta: [la] Ultima linea: ubi forma transit in sensum -->
 
