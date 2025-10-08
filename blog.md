@@ -21,6 +21,11 @@ permalink: /blog
   <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi publishes a new essay in <em>România Liberă</em>, exploring the symbolic interplay between fashion, identity, and cultural codes in the algorithmic age.</p>
   <p>This article reflects on how a simple garment becomes a narrative device, bridging aesthetics and ethics in a world mediated by technology.</p>
   <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
+</div>
 
 <!-- Press Release · 2025-10-04 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
