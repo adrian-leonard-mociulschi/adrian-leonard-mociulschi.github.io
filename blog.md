@@ -33,7 +33,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
 <!-- Press Release · 2025-10-04 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">Launch of Adrian Leonard Mociulschi's Platform</p>
-  <p style="font-style: italic; color: #555;">Press Release — October 4, 2025</p>
+  <p style="font-style: italic; color: #555;">Opening Note — October 4, 2025</p>
   <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi, university lecturer, essayist, and cultural theorist, announces the official launch of his personal platform: a digital sanctuary where culture meets code, and symbolic thought finds its voice in the age of algorithms.</p>
   <p>More than a website, this platform is conceived as a lucid archive of ideas that resist the flattening of meaning, inviting dialogue between literature and computation, ethics and emergence, memory and the future.</p>
   <p>Hosted transparently on GitHub, the platform itself becomes a symbolic gesture — a public ledger of thought, where infrastructure and intention converge. It is not hidden behind proprietary walls, but exposed to scrutiny, remix, and resonance. This is not politics of promise, but architecture of presence.</p>
