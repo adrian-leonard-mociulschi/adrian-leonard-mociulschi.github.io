@@ -6,7 +6,10 @@ image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futur
 date: "2025-09-23T00:00:00+03:00"
 lang: en
 permalink: /blog
+description: "Press Room – Official updates by Adrian Leonard Mociulschi: essays, op-eds, and cultural projects. Latest: Girl in a Jacket – a reflection on feminism, representation, and algorithmic visibility."
+keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liberă, op-ed, algorithmic culture, gender equality, representation, technoculture"
 ---
+
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog)
 
