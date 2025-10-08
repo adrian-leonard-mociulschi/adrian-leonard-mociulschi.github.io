@@ -12,7 +12,7 @@ permalink: /
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog)
 
-## Welcome to my GitHub
+## Welcome to my GitHub {#top}
 
 At the intersection of culture and code, this space invites reflection—not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
 
@@ -50,6 +50,8 @@ This is not collapse—it is metamorphosis. A future where survival is not just 
 
 
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
+
+🔝 Back to Top
 
 <!-- meta: [la] Ultima linea: ubi forma transit in sensum -->
 
