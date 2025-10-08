@@ -15,7 +15,7 @@ permalink: /blog
 <!-- Press Release · 2025-10-08 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    New Article in România Liberă: <em>Girl in a Jacket</em>
+    New Op-Ed Published: <em>Girl in a Jacket</em>
   </p>
   <p style="font-style: italic; color: #555;">Editorial Update — October 8, 2025</p>
   <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi signs a provocative essay in <em>România Liberă</em>, addressing feminism in the algorithmic age. The text explores how a simple garment becomes a cultural code, questioning stereotypes and reclaiming agency in a world mediated by technology.</p>
