@@ -32,6 +32,7 @@ I also believe the future of knowledge cannot rely solely on centralized institu
 
 As a lifelong lover of speculative literature, I imagine a world of tomorrow where the spirit of future technologies intertwines with the spirit of medieval arts.  
 Inspired by the universe of *Dune*, masterfully envisioned by Frank Herbert, I see a symbolic convergence: where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.  
+
 This is not nostalgia—it is a vision of continuity, where the posthuman does not erase the human, but deepens its resonance.
 
 <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
