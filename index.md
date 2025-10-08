@@ -34,6 +34,8 @@ As a lifelong lover of speculative literature, I imagine a world of tomorrow whe
 Inspired by the universe of *Dune*, masterfully envisioned by Frank Herbert, I see a symbolic convergence: where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.  
 This is not nostalgia—it is a vision of continuity, where the posthuman does not erase the human, but deepens its resonance.
 
+<img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+
 ## Symbolic Technoculture  
 
 Between ethics and imagination, between code and culture—I explore the symbolic frontier of Artificial Intelligence, blockchain technology, and posthuman meaning, through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures.
