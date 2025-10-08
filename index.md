@@ -26,9 +26,13 @@ Posts are created and updated manually — not out of ignorance, but out of a de
 
 ## Mission
 
-I build progressive bridges between culture and technology, between literature and algorithms, and between memory and the future. And I challenge one of modernity’s greatest misconceptions: that music is merely sound. Whoever believes that music is only about sound is mistaken. Music is also about **number**—and number is the logos of all sciences. This is not my claim, but the legacy of great thinkers from Pythagoras to Leonardo da Vinci and Johannes Kepler.
+I build progressive bridges between culture and technology, between literature and algorithms, and between memory and the future. And I challenge one of modernity’s greatest misconceptions: that music is merely sound. Whoever believes that music is only about sound is mistaken. Music is also about number—and number is the logos of all sciences. This is not my claim, but the legacy of great thinkers from Pythagoras to Leonardo da Vinci and Johannes Kepler.
 
-I also believe the future of knowledge cannot rely solely on centralized institutions. It requires **new forms of epistemic legitimacy**—open, transparent, and distributed—enabled by decentralized technologies such as **DAO frameworks, blockchain, and tokenized trust models**.
+I also believe the future of knowledge cannot rely solely on centralized institutions. It requires new forms of epistemic legitimacy—open, transparent, and distributed—enabled by decentralized technologies such as DAO frameworks, blockchain, and tokenized trust models.
+
+As a lifelong lover of speculative literature, I imagine a world of tomorrow where the spirit of future technologies intertwines with the spirit of medieval arts.  
+Inspired by the universe of *Dune*, masterfully envisioned by Frank Herbert, I see a symbolic convergence: where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.  
+This is not nostalgia—it is a vision of continuity, where the posthuman does not erase the human, but deepens its resonance.
 
 ## Symbolic Technoculture  
 
