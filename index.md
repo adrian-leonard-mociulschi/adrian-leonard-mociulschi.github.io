@@ -21,6 +21,8 @@ I build progressive bridges between culture and technology, between literature a
 
 I also believe the future of knowledge cannot rely solely on centralized institutions. It requires **new forms of epistemic legitimacy**—open, transparent, and distributed—enabled by decentralized technologies such as **DAO frameworks, blockchain, and tokenized trust models**.
 
+![Creative study co-created with AI as a source of inspiration for my articles](/assets/img/Girl-in-a-plane.png{: style="max-width:520px;width:100%;height:auto;border-radius:8px;" loading="lazy" decoding="async" }
+
 ## Symbolic Technoculture  
 
 Between ethics and imagination, between code and culture—I explore the symbolic frontier of Artificial Intelligence, blockchain technology, and posthuman meaning, through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures.
