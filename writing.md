@@ -10,7 +10,7 @@ permalink: /writing
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog)
 
-## Writing
+## Writings
 
 This collection includes public contributions relevant to my symbolic mission as an ambassador of technoculture.
 
