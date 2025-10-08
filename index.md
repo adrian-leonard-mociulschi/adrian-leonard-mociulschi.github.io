@@ -15,6 +15,8 @@ permalink: /
 ## Welcome to my GitHub
 At the intersection of culture and code, this space invites reflection—not commits. A lucid archive of symbolic ecologies, **Web3 visions**, and ethical **AI**. No crowdsourcing, just presence. No noise, just resonance.
 
+<img src="/assets/img/Girl-in-a-plane.png" alt="Adrian Leonard Mociulschi — portret oficial" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+
 ## Mission
 
 I build progressive bridges between culture and technology, between literature and algorithms, and between memory and the future. And I challenge one of modernity’s greatest misconceptions: that music is merely sound. Whoever believes that music is only about sound is mistaken. Music is also about **number**—and number is the logos of all sciences. This is not my claim, but the legacy of great thinkers from Pythagoras to Leonardo da Vinci and Johannes Kepler.
