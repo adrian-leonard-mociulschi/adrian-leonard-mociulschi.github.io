@@ -12,7 +12,8 @@ permalink: /
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog)
 
-## Welcome to my GitHub {#top}
+<a id="top"></a>
+## Welcome to my GitHub
 
 At the intersection of culture and code, this space invites reflection—not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
 
