@@ -40,15 +40,12 @@ This is not nostalgia—it is a vision of continuity, where the posthuman does n
 
 Between ethics and imagination, between code and culture—I explore the symbolic frontier of Artificial Intelligence, blockchain technology, and posthuman meaning, through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures.
 
-In a world where authority is fragmenting, **blockchain and decentralized autonomous organizations are not just technologies—they are architectures of trust, capable of redefining how knowledge is validated and shared**. 
+In a world where authority is fragmenting, blockchain and decentralized autonomous organizations are not just technologies—they are architectures of trust, capable of redefining how knowledge is validated and shared.
 
-## Epistemic Futures
+As a lover of speculative futures, I imagine a planet reshaped by climate crisis—where desertification has transformed landscapes into vast, arid expanses. Ornithopters will carve the sky, some as autonomous e-VTOLs, others manually piloted, echoing the elegance of flight in a post-carbon world. Cities may become nomadic oases, wandering through the sands like sentient sanctuaries—evoking the cinematic dystopia of *Mortal Engines*, yet infused with symbolic resilience and technocultural grace.  
 
-From academies to algorithms: *Can culture shift from vertical monopolies of meaning to horizontal ecologies of legitimacy?* Perhaps it already has—through blockchain, NFTs, and DAO ecosystems, which are not mere buzzwords but symbolic infrastructures enabling transparency, co-creation, and cultural resilience.
+This is not collapse—it is metamorphosis. A future where survival is not just technical, but poetic.
 
-**This symbolic decentralization is not limited to cultural codes—it extends into the realm of embodied intelligence**.
-
-Philosophical and conceptual exploration of how intelligent algorithms intersect with physical systems — from the ethics of autonomy to the symbolic logic of swarm coordination. My focus is on ideas: how robotics, AI, and symbolic computation can inspire adaptive infrastructures for a posthuman ecology of meaning.
 
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
 
