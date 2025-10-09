@@ -3,7 +3,7 @@ layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-09T00:00:00+03:00"
+date: "2025-10-10T00:00:00+03:00"
 lang: ro
 permalink: /blog
 description: "Press Room – Official updates by Adrian Leonard Mociulschi: essays, op-eds, and cultural projects. Latest: Girl in a Jacket – a reflection on feminism, representation, and algorithmic visibility."
