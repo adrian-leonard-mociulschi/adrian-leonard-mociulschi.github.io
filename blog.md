@@ -126,6 +126,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
+</div>
 
   <!-- Entry A· 2025-07-09 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
@@ -153,6 +154,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
+</div>
 
   <!-- Entry A· 2025-06-25 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
@@ -166,7 +168,6 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
-</div>
 </div>
 
 ## Contact
