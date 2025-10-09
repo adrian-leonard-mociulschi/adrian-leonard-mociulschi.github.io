@@ -17,7 +17,7 @@ Welcome to **AI Muse** — a curated space where art meets algorithm. Each week,
 
 ### Featured Image of the Week
 
-<img src="/assets/img/ai-muse-placeholder.png" alt="AI-generated portrait placeholder" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+<img src="/assets/img/AI-Muse-study-01.png" alt="AI-generated portrait placeholder" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
 *Caption:* *This is a placeholder for the first AI-generated image. Future updates will include a symbolic description and context for each portrait.*
 
