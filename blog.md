@@ -30,17 +30,21 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Press Release · 2025-10-04 -->
+<!-- Press Release · 2025-09-12 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">Launch of Adrian Leonard Mociulschi's Platform</p>
-  <p style="font-style: italic; color: #555;">Opening Note — October 4, 2025</p>
-  <p><strong>Bucharest, Romania —</strong> Adrian Leonard Mociulschi, university lecturer, essayist, and cultural theorist, announces the official launch of his personal platform: a digital sanctuary where culture meets code, and symbolic thought finds its voice in the age of algorithms.</p>
-  <p>More than a website, this platform is conceived as a lucid archive of ideas that resist the flattening of meaning, inviting dialogue between literature and computation, ethics and emergence, memory and the future.</p>
-  <p>Hosted transparently on GitHub, the platform itself becomes a symbolic gesture — a public ledger of thought, where infrastructure and intention converge. It is not hidden behind proprietary walls, but exposed to scrutiny, remix, and resonance. This is not politics of promise, but architecture of presence.</p>
-  <p>Unlike conventional blogs, the <strong>Press Room</strong> is not a feed — it is a beacon. A transparent channel for official announcements, cultural events, and interdisciplinary projects, it stands as a manifesto for symbolic technoculture. Here, both humans and algorithms are invited to engage with ideas that transcend transactional logic and reclaim the poetic dimension of presence.</p>
+  <p style="font-style: italic; color: #555;">Editorial — 12 Septembrie 2025</p>
+  <p><strong>București, România —</strong> Educația nu mai este aceeași între tablă și blockchain. În era digitală, școala traversează o metamorfoză profundă: de la manualul tipărit la platformele interactive și promisiunile descentralizării din Web 3.0. Alfabetizarea tehnologică nu mai este opțională, ci un proces continuu, vital pentru formarea competențelor viitorului. Lecțiile nu se limitează la sala de clasă, ci se extind în biblioteci virtuale, spații colaborative și ecosisteme hibride, unde analogicul și digitalul coexistă. Pandemia a accelerat această transformare, arătând că ecranul nu este soluție de avarie, ci parte stabilă a pedagogiei.</p>
+  <p>Viitorul educației cere mai mult decât tehnologie: cere sens. Web 1.0, Web 2.0 și Web 3.0 nu se exclud, ci se suprapun, iar blockchain-ul promite diplome digitale și guvernanță colectivă. Însă provocarea reală nu este integrarea instrumentelor, ci cultivarea gândirii critice și a adaptabilității într-o piață a muncii fluidă. Algoritmii pot personaliza ritmul învățării, realitatea virtuală poate transforma lecțiile în experiențe imersive, dar profesorul rămâne mentorul sensului. În acest echilibru dintre cod și conștiință se joacă miza educației: formarea unor oameni pregătiți nu doar să navigheze rețele, ci să le înțeleagă direcțiile.</p>
+  </p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/de-la-tabla-la-blockchain-lectia-pe-care-scoala-nu-o-poate-amana/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
 </div>
 
-<!-- Blog Entry · [to be added] -->
+<!-- To Delete -->
 <div style="border: 2px dashed #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.1); padding: 15px; margin: 20px 0;">
   <p><strong>Pending New Entry</strong></p>
   <p><em>This was recorded on [to be added]</em></p>
