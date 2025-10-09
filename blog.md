@@ -140,7 +140,6 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     </a>
   </p>
 </div>
-</div>
 
 <!-- Entry B· 2025-07-02 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
