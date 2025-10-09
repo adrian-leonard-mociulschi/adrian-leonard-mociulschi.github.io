@@ -126,6 +126,20 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
+
+  <!-- Entry A· 2025-07-09 -->
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    <em>De la Heron la AI: Ce ne spune istoria despre viitor</em>
+  </p>
+<p style="font-style: italic; color: #555;">Editorial — 09 Iulie 2025</p>
+  <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că istoria tehnologiei este o spirală, nu o linie dreaptă. Articolul pornește de la Heron din Alexandria, inventatorul mecanismelor automate din Antichitate, pentru a arăta că fascinația pentru mașini nu este nouă, ci recurentă. De la roata hidraulică la motorul cu aburi, de la calculatorul mecanic la algoritmii de astăzi, progresul nu este doar tehnic, ci cultural: fiecare inovație schimbă felul în care oamenii gândesc, lucrează și își imaginează viitorul. În acest sens, AI-ul nu este o ruptură, ci o continuare a unei lungi tradiții de a delega sarcini către artefacte.</p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/de-la-heron-la-ai-ce-ne-spune-istoria-despre-viitor/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
+</div>
 </div>
 
 ## Contact
