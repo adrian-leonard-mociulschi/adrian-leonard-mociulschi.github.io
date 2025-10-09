@@ -18,6 +18,12 @@ René Berger once said: *“Technology is not culture, but it can become culture
 
 I advocate for **ethical** AI and a **posthuman ecology of meaning**, while continuing a family tradition rooted in over two centuries of cultural heritage in Romania — reinterpreted for the challenges of the 21st century.
 
+## About this website
+
+Hosted on GitHub, the platform serves as a public repository where users can explore infrastructure and intention. Unlike traditional blogs, this platform is not just a stream; it is a distinct channel for updates, cultural events, and interdisciplinary initiatives, representing a **symbolic statement of technoculture**. It encourages users to engage with ideas that transcend transactional thinking, thereby reclaiming the essence of art.
+
+This platform serves as an online archive and research tool that delves into complex ideas that go beyond mere interpretations. Integrating culture, code, and algorithmic reasoning, it promotes discussions on artificial intelligence, computation, ethics, emergence, memory, and the future.
+
 ## QR Code
 
 ![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
