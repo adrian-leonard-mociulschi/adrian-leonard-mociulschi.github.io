@@ -21,5 +21,3 @@ Welcome to **AI Muse** — a curated space where art meets algorithm. Each week,
 
 *Caption:* *This is a placeholder for the first AI-generated image. Future updates will include a symbolic description and context for each portrait.*
 
----
-
