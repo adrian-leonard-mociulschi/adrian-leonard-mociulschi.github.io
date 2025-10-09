@@ -22,19 +22,19 @@ I advocate for **ethical** AI and a **posthuman ecology of meaning**, while cont
 
 Hosted on GitHub, the platform serves as a public repository where users can explore infrastructure and intention. Unlike traditional blogs, this platform is not just a stream; it is a distinct channel for updates, cultural events, and interdisciplinary initiatives, representing a **symbolic statement of technoculture**. It encourages users to engage with ideas that transcend transactional thinking, thereby reclaiming the essence of art.
 
-This platform serves as an online archive and research tool that delves into complex ideas that go beyond mere interpretations. Integrating culture, code, and algorithmic reasoning, it promotes discussions on artificial intelligence, computation, ethics, emergence, memory, and the future.
-
-## QR Code
-
-![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
-
-The visual code above links to my ORCID identifier. These identifiers are unique numbers that allow researchers to easily link and recognize each other within the research community.
+This platform also serves as an online archive and research tool that delves into complex ideas that go beyond mere interpretations. Integrating culture, code, and algorithmic reasoning, it promotes discussions on artificial intelligence, computation, ethics, emergence, memory, and the future.
 
 ## Official photo
 
 ![Adrian Leonard Mociulschi — portret oficial](/assets/img/Adrian-Leonard-Mociulschi.jpg){: style="max-width:520px;width:100%;height:auto;border-radius:8px;" loading="lazy" decoding="async" }
 
 **License**: **CC BY 4.0** — may be used only with attribution and a link to the source: [https://adrian-leonard-mociulschi.github.io/](https://adrian-leonard-mociulschi.github.io/)
+
+## QR Code
+
+![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
+
+The visual code above links to my ORCID identifier. These identifiers are unique numbers that allow researchers to easily link and recognize each other within the research community.
 
 <script type="application/ld+json">
 {
