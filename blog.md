@@ -100,6 +100,20 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
+<!-- Entry A· 2025-08-06 -->
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    <em>Zborul între chemare și destin: De la Miorița la Space Oddity</em>
+  </p>
+<p style="font-style: italic; color: #555;">Editorial — 06 August 2025</p>
+  <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că zborul nu este doar o performanță tehnică, ci o metaforă a destinului. Articolul construiește o paralelă între mitul mioritic și figura astronautului Major Tom din „Space Oddity”, explorând tensiunea dintre chemare și fatalitate. Într-o zi dedicată Aviației Române, textul reabilitează simbolic personajul lui Bowie, prezentându-l nu ca pe un aventurier romantic, ci ca pe un profesionist al necunoscutului. Între balada Miorița și cântecul spațial, se conturează o reflecție despre curaj, responsabilitate și fragilitatea umană în fața infinitului.</p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/zborul-intre-chemare-si-destin-de-la-miorita-la-space-oddity/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
+</div>
+
 ## Contact
 
 📬 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
