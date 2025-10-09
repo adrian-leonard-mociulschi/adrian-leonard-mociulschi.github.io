@@ -32,7 +32,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
 
 <!-- Press Release · 2025-09-12 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">De la tablă la blockchain: Lecția pe care școala nu o poate amâna</p>
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    <em>De la tablă la blockchain: Lecția pe care școala nu o poate amâna</em>
+    </p>
   <p style="font-style: italic; color: #555;">Editorial — 12 Septembrie 2025</p>
   <p><strong>București, România —</strong> Educația nu mai este aceeași între tablă și blockchain. În era digitală, școala traversează o metamorfoză profundă: de la manualul tipărit la platformele interactive și promisiunile descentralizării din Web 3.0. Alfabetizarea tehnologică nu mai este opțională, ci un proces continuu, vital pentru formarea competențelor viitorului. Lecțiile nu se limitează la sala de clasă, ci se extind în biblioteci virtuale, spații colaborative și ecosisteme hibride, unde analogicul și digitalul coexistă. Pandemia a accelerat această transformare, arătând că ecranul nu este soluție de avarie, ci parte stabilă a pedagogiei.</p>
   <p>Viitorul educației cere mai mult decât tehnologie: cere sens. Web 1.0, Web 2.0 și Web 3.0 nu se exclud, ci se suprapun, iar blockchain-ul promite diplome digitale și guvernanță colectivă. Însă provocarea reală nu este integrarea instrumentelor, ci cultivarea gândirii critice și a adaptabilității într-o piață a muncii fluidă. Algoritmii pot personaliza ritmul învățării, realitatea virtuală poate transforma lecțiile în experiențe imersive, dar profesorul rămâne mentorul sensului. În acest echilibru dintre cod și conștiință se joacă miza educației: formarea unor oameni pregătiți nu doar să navigheze rețele, ci să le înțeleagă direcțiile.
