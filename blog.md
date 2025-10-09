@@ -91,7 +91,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Responsabilitatea tehnologică: România și șansa unei ecologii inteligente</em>
     </p>
-  <p style="font-style: italic; color: #555;">Editorial — 31 Iuliea 2025</p>
+  <p style="font-style: italic; color: #555;">Editorial — 31 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că tehnologia nu este doar infrastructură, ci responsabilitate. Articolul argumentează că România are oportunitatea de a transforma tranziția energetică și digitală într-un proiect de ecologie inteligentă, unde inovația servește nu doar eficiența, ci și sustenabilitatea. În contextul crizei climatice și al presiunilor geopolitice, soluțiile nu pot fi fragmentare: ele trebuie să integreze energie verde, inteligență artificială și politici publice orientate spre reducerea amprentei de carbon. Tehnologia devine astfel un instrument de solidaritate, nu doar de profit.</p>
   <p>
     <a href="https://romanialibera.ro/op-ed/opinii/responsabilitatea-tehnologica-romania-si-sansa-unei-ecologii-inteligente/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
@@ -109,6 +109,20 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că zborul nu este doar o performanță tehnică, ci o metaforă a destinului. Articolul construiește o paralelă între mitul mioritic și figura astronautului Major Tom din „Space Oddity”, explorând tensiunea dintre chemare și fatalitate. Într-o zi dedicată Aviației Române, textul reabilitează simbolic personajul lui Bowie, prezentându-l nu ca pe un aventurier romantic, ci ca pe un profesionist al necunoscutului. Între balada Miorița și cântecul spațial, se conturează o reflecție despre curaj, responsabilitate și fragilitatea umană în fața infinitului.</p>
   <p>
     <a href="https://romanialibera.ro/op-ed/opinii/zborul-intre-chemare-si-destin-de-la-miorita-la-space-oddity/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
+</div>
+
+<!-- Entry B· 2025-07-15 -->
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    <em>Economia vibrațiilor și vioara societății</em>
+    </p>
+  <p style="font-style: italic; color: #555;">Editorial — 15 Iulie 2025</p>
+  <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că societatea nu este doar o structură economică, ci un instrument care vibrează. Articolul propune o metaforă muzicală pentru a înțelege dinamica socială: vioara, cu tensiunile și armoniile ei, devine imaginea unei economii bazate pe rezonanță, nu pe simpla acumulare. În locul unei viziuni mecaniciste, textul sugerează că relațiile, fluxurile și deciziile sunt influențate de vibrații simbolice – valori, emoții, ritmuri culturale – care dau sens mișcării colective. Economia nu este doar cifră, ci și sonoritate.</p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/economia-vibratiilor-si-vioara-societatii/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
