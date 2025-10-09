@@ -11,7 +11,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
 ---
 
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog)
+[Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog) · [AI Muse](/ai-muse)
 
 ## Press room
 
