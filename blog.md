@@ -72,6 +72,20 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
+<!-- Entry A· 2025-08-06 -->
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    <em>„Codul stelelor”: Inteligența artificială și limbajul cosmic</em>
+  </p>
+<p style="font-style: italic; color: #555;">Editorial — 06 August 2025</p>
+  <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că algoritmul nu este doar un instrument, ci o formă de creație. Articolul explorează întâlnirea simbolică dintre Leonardo da Vinci, robotul Sophia și estetica digitală, arătând cum proporțiile lui Fibonacci și armonia matematică devin punți între artă și tehnologie. Într-o economie guvernată de coduri, algoritmul nu mai este doar un mecanism de calcul, ci un actor cultural care modelează percepția și gustul. De la Mona Lisa la Sophia, frumusețea nu mai este doar o întrebare deschisă, ci o matrice generativă, unde inteligența artificială transformă estetica într-un proces dinamic.</p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/codul-stelelor-inteligenta-artificiala-si-limbajul-cosmic/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
+</div>
+
 ## Contact
 
 📬 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
