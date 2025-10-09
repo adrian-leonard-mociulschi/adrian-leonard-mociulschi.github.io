@@ -142,6 +142,34 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
 </div>
 </div>
 
+<!-- Entry B· 2025-07-02 -->
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    <em>Codul Cetății: Cultura, Moneda și Viitorul Urban</em>
+    </p>
+  <p style="font-style: italic; color: #555;">Editorial — 02 Iulie 2025</p>
+  <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că orașul nu este doar un spațiu fizic, ci un cod cultural. Articolul analizează cum infrastructura urbană se transformă sub presiunea tehnologiilor emergente și a economiei digitale. De la agora antică la metavers, cetatea rămâne un simbol al coexistenței, dar astăzi codurile blockchain și monedele digitale devin noi instrumente de guvernanță. În locul zidurilor, avem rețele; în locul piețelor tradiționale, platforme descentralizate. Viitorul urban nu se reduce la smart cities, ci implică o reconfigurare a sensului: cum se păstrează demnitatea și cultura într-un spațiu algoritmic?</p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/codul-cetatii-cultura-moneda-si-viitorul-urban/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
+
+  <!-- Entry A· 2025-06-25 -->
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+    <em>Cultura 3.0: De la Mecenat la Metavers</em>
+  </p>
+<p style="font-style: italic; color: #555;">Editorial — 25 Iunie 2025</p>
+  <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că valoarea culturii nu mai este doar patrimoniu, ci infrastructură digitală. Articolul analizează tranziția de la mecenatul clasic la ecosistemele culturale din era Web 3.0, unde blockchain, NFT-urile și metaversul devin instrumente de autenticitate și co-creație. În locul unui model bazat pe sponsorizare și centralizare, apare o paradigmă descentralizată, în care artiștii și publicul participă la guvernanța simbolică a culturii. Cultura 3.0 nu înseamnă doar digitalizare, ci o reconfigurare a sensului: de la obiect la experiență, de la colecție la rețea.</p>
+  <p>
+    <a href="https://romanialibera.ro/opera-classical-music/cultura-3-0-de-la-mecenat-la-metavers/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Citește articolul pe România Liberă
+    </a>
+  </p>
+</div>
+</div>
+
 ## Contact
 
 📬 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
