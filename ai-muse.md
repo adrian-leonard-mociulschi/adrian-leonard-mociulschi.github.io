@@ -11,7 +11,7 @@ date: "2025-10-09T00:00:00+03:00"
 
 ## AI Muse
 
-Welcome to **AI Muse** — a curated space where art meets algorithm. Each week, we showcase an AI-generated portrait, exploring the aesthetics of machine imagination and the symbolic dialogue between human creativity and artificial intelligence.
+Welcome to **AI Muse** — a curated space where art meets algorithm. Each month, we showcase an AI-generated portrait, exploring the aesthetics of machine imagination and the symbolic dialogue between human creativity and artificial intelligence.
 
 ---
 
