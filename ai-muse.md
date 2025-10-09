@@ -7,7 +7,7 @@ lang: en
 date: "2025-10-09T00:00:00+03:00"
 ---
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Press room](/blog) · [AI Muse](/ai-muse)
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
 
 ## AI Muse
 
