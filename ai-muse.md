@@ -15,7 +15,7 @@ Welcome to **AI Muse** — a curated space where art meets algorithm. Each week,
 
 ---
 
-### Featured Image of the Week
+### Featured Image of the Month
 
 <img src="/assets/img/AI-Muse-study-01.png" alt="AI Muse" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
