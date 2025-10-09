@@ -29,5 +29,4 @@ Welcome to **AI Muse** — a curated space where art meets algorithm. Each week,
 
 *Associated with October, the image resonates with the muted palette of autumn — ochre, rust, and rain-washed blue. It evokes a season of introspection, where poetry and music drift like leaves, and the digital face becomes a mirror for inner weather.*
 
-*Within the logic of HMCM, the image functions as a node of meaning, not a representation — an artifact of the posthuman era, where beauty is not asserted, but attuned.*
 
