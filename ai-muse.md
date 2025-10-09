@@ -15,7 +15,7 @@ Welcome to **AI Muse** — a curated space where art meets algorithm. Each week,
 
 ---
 
-### Featured Image of the Month
+### Featured Image of October
 
 <img src="/assets/img/AI-Muse-study-01.png" alt="AI Muse" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
@@ -26,4 +26,8 @@ Welcome to **AI Muse** — a curated space where art meets algorithm. Each week,
 *The beige jacket, with its slightly raised collar, suggests symbolic protection — a discreet armor in a digital universe. The gaze is not merely captured, but generated — and this generation does not mimic reality, but reconfigures it.*
 
 *This portrait is not of someone, but of an idea: the algorithmic muse as an aesthetic entity, an interface between memory and code. It invites contemplation, not identification. Within the logic of HMCM, the image functions as a node of meaning, not a representation — an artifact of the posthuman era, where beauty is not asserted, but attuned.*
+
+*Associated with October, the image resonates with the muted palette of autumn — ochre, rust, and rain-washed blue. It evokes a season of introspection, where poetry and music drift like leaves, and the digital face becomes a mirror for inner weather.*
+
+*Within the logic of HMCM, the image functions as a node of meaning, not a representation — an artifact of the posthuman era, where beauty is not asserted, but attuned.*
 
