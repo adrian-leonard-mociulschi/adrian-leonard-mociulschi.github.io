@@ -2,8 +2,8 @@
   display: none !important; 
 }
 
-/* Elimină orice caracter decorativ adăugat de tema în footer la linkuri */
-.site-footer a::before,
-.site-footer a::after {
+/* Curăță orice pseudo-element din footer (linkuri, imagini, span-uri etc.) */
+.site-footer *::before,
+.site-footer *::after {
   content: none !important;
 }
