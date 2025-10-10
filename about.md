@@ -35,3 +35,7 @@ This platform also serves as an online archive and research tool that delves int
 ![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
 
 The visual code above links to my ORCID identifier. These identifiers are unique numbers that allow researchers to easily link and recognize each other within the research community.
+
+## Contact
+
+📬 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
