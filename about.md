@@ -38,4 +38,4 @@ The visual code above links to my ORCID identifier. These identifiers are unique
 
 ## Contact
 
-📬 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
+📬 If you wish to connect professionally, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
