@@ -96,3 +96,6 @@ Published on August 13, 2025, this article investigates the concept of algorithm
   ]
 }
 </script>
+
+<!-- Link to go back to top -->
+<a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
