@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Adrian Leonard Mociulschi — A Symbolic Ambassador of Technoculture</title>
+    <link>https://adrian-leonard-mociulschi.github.io/</link>
+    <description>Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.</description>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 10 Oct 2025 12:00:00 +0300</lastBuildDate>
+
+    <item>
+      <title>The Future Has No Autopilot — Nine O’Clock</title>
+      <link>https://www.nineoclock.ro/2025/10/03/the-future-has-no-autopilot/</link>
+      <guid isPermaLink="true">https://www.nineoclock.ro/2025/10/03/the-future-has-no-autopilot/</guid>
+      <pubDate>Fri, 03 Oct 2025 09:00:00 +0300</pubDate>
+      <description><![CDATA[
+        This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond, arguing for meaningful human control where speed and certainty collide with conscience.
+      ]]></description>
+    </item>
+
+    <item>
+      <title>The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock</title>
+      <link>https://www.nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/</link>
+      <guid isPermaLink="true">https://www.nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/</guid>
+      <pubDate>Sat, 27 Sep 2025 09:00:00 +0300</pubDate>
+      <description><![CDATA[
+        How algorithms reshape online visibility, influence political discourse within the EU, and challenge the ethics of the attention economy—advocating transparency and a human‑centered digital presence.
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Girl in a Jacket: O poveste în cod binar — România Liberă</title>
+      <link>https://romanialibera.ro/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/</link>
+      <guid isPermaLink="true">https://romanialibera.ro/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/</guid>
+      <pubDate>Thu, 25 Sep 2025 09:00:00 +0300</pubDate>
+      <description><![CDATA[
+        Un eseu despre interfețe digitale, reprezentare și codurile vizibilității algoritmice—unde etichetele tind să înlocuiască prezența, iar egalitatea rămâne urgentă.
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>
