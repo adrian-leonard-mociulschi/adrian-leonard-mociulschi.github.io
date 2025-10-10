@@ -50,16 +50,6 @@ The visual code above links to my ORCID identifier. These identifiers are unique
     "@id": "https://adrian-leonard-mociulschi.github.io/#website"
   },
   "about": {
-    "@id": "https://adrian-leonard-mociulschi.github.io/#person"
-  },
-  "primaryImageOfPage": {
-    "@type": "ImageObject",
-    "url": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
-    "width": 3066,
-    "height": 3066,
-    "encodingFormat": "image/jpeg"
-  },
-  "mainEntity": {
     "@type": "Person",
     "@id": "https://adrian-leonard-mociulschi.github.io/#person",
     "name": "Adrian Leonard Mociulschi",
@@ -86,17 +76,28 @@ The visual code above links to my ORCID identifier. These identifiers are unique
       "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
     ],
     "knowsAbout": [
-      {"@type":"Thing","name":"AI ethics"},
-      {"@type":"Thing","name":"Technoculture"},
-      {"@type":"Thing","name":"Blockchain"},
-      {"@type":"Thing","name":"Music Theory"},
-      {"@type":"Thing","name":"Posthumanism"},
-      {"@type":"Thing","name":"Strategic foresight"}
+      {"@type": "Thing", "name": "AI ethics"},
+      {"@type": "Thing", "name": "Technoculture"},
+      {"@type": "Thing", "name": "Blockchain"},
+      {"@type": "Thing", "name": "Music Theory"},
+      {"@type": "Thing", "name": "Posthumanism"},
+      {"@type": "Thing", "name": "Strategic foresight"}
     ],
     "nationality": {
       "@type": "Country",
       "name": "Romania"
     }
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
+    "width": 3066,
+    "height": 3066,
+    "encodingFormat": "image/jpeg"
+  },
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://adrian-leonard-mociulschi.github.io/#person"
   }
 }
 </script>
