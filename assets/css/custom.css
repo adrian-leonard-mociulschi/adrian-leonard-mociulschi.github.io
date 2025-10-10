@@ -6,6 +6,16 @@
   border-bottom: 0 !important;
 }
 
+.site-footer .icon-wrap {
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+  border: 0;
+}
+.site-footer a:hover .icon-wrap {
+  text-decoration: none;
+}
+
 /* imaginea din link devine block, ca să nu mai “moștenească” baseline-ul */
 .site-footer a img {
   display: block;
