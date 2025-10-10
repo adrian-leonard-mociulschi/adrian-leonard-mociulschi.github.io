@@ -1,0 +1,27 @@
+/* --- Footer: elimină sublinierea și baseline-ul sub imagini --- */
+.site-footer a,
+.site-footer a:hover,
+.site-footer a:focus {
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
+
+/* imaginea din link devine block, ca să nu mai “moștenească” baseline-ul */
+.site-footer a img {
+  display: block;
+}
+
+/* linie de bază zero pentru link (nu mai rămâne nimic de subliniat) */
+.site-footer a {
+  line-height: 0;
+}
+
+/* opțional: curăță orice pseudo-elemente decorative injectate de temă */
+footer.site-footer::before,
+footer.site-footer::after,
+footer.site-footer a::before,
+footer.site-footer a::after,
+footer.site-footer *::before,
+footer.site-footer *::after {
+  content: "" !important;
+}
