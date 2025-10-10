@@ -17,7 +17,7 @@ This collection includes public contributions relevant to my symbolic mission as
 ## Recent articles
 
 <img src="/assets/img/coperta-31-1920x1357.png" 
-     alt="Illustration for the 2/10/25 Nine O'Clock article." 
+     alt="Illustration for the 25/10/02 Nine O'Clock article." 
      style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
      loading="lazy" decoding="async">
 
@@ -25,9 +25,19 @@ This collection includes public contributions relevant to my symbolic mission as
 
 This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for **meaningful human control** in an age where speed and certainty collide with conscience.
 
+<img src="/assets/img/coperta-27-1920x1357" 
+     alt="Illustration for the 25/09/27 Nine O'Clock article." 
+     style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
+     loading="lazy" decoding="async">
+
 <a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer"><strong>The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock</strong></a>
 
 This article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
+
+<img src="/assets/img/Adrian_Leonard_Mociulschi2494171" 
+     alt="Illustration for the 25/08/13 Nine O'Clock article." 
+     style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
+     loading="lazy" decoding="async">
 
 <a href="https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi" target="_blank" rel="noopener noreferrer"><strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong></a>
 
