@@ -34,7 +34,7 @@ This article examines the ethical and strategic implications of autonomous syste
 
 This article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
 
-<img src="/assets/img/Adrian_Leonard_Mociulschi2494171.png" 
+<img src="/assets/img/Adrian_Leonard_Mociulschi2494171.jpg" 
      alt="Illustration for the 25/08/13 Nine O'Clock article." 
      style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
      loading="lazy" decoding="async">
