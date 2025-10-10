@@ -1,6 +1,10 @@
 ---
 layout: default
-title: "AI Muse"
+title: "Adrian Leonard Mociulschi"
+tagline: "A Symbolic Ambassador of Technoculture"
+image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
+date: "2025-10-10T00:00:00+03:00"
+lang: "ro"
 description: "A weekly gallery of AI-generated portraits — where art meets algorithm and imagination becomes visible."
 permalink: /ai-muse
 lang: "en-US"
