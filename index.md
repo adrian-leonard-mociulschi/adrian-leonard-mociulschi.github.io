@@ -22,7 +22,7 @@ In this virtual space, algorithmically free, beauty is created through code, thr
 It is a return to Web 1 — far from the noise of metrics, far from the opaque filtering of algorithms.  
 But it is also a return to the **craft spirit of the Middle Ages**.  
 
-Posts are created and updated manually — not out of ignorance, but out of a desire to **recover the spirit of the Renaissance**.
+Posts are crafted manually — **as a gesture of Renaissance spirit** — while every image emerges from cutting-edge convolutional architectures, where code becomes a canvas.
 
 <img src="/assets/img/Girl-in-a-plane.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
