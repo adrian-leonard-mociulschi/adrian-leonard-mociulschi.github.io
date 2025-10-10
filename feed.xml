@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adrian Leonard Mociulschi — A Symbolic Ambassador of Technoculture</title>
     <link>https://adrian-leonard-mociulschi.github.io/</link>
     <description>Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Oct 2025 18:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 15:00:00 GMT</lastBuildDate>
+    <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
-<!-- Article Nine O'Clock - Octomber 02, 2025 -->
+    <!-- Article Nine O'Clock - October 02, 2025 -->
     <item>
       <title>The Future Has No Autopilot — Nine O’Clock</title>
       <link>https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/</link>
       <guid isPermaLink="true">https://www.nineoclock.ro/2025/10/02/the-future-has-no-autopilot/</guid>
-      <pubDate>Thu, 02 Oct 2025 09:00:00 +0300</pubDate>
+      <pubDate>Thu, 02 Oct 2025 09:00:00 GMT</pubDate>
       <description><![CDATA[
         This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond, arguing for meaningful human control where speed and certainty collide with conscience.
       ]]></description>
     </item>
 
-<!-- Article Nine O'Clock - September 27, 2025 -->
+    <!-- Article Nine O'Clock - September 27, 2025 -->
     <item>
       <title>The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock</title>
       <link>https://www.nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/</link>
       <guid isPermaLink="true">https://www.nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/</guid>
-      <pubDate>Sat, 27 Sep 2025 09:00:00 +0300</pubDate>
+      <pubDate>Sat, 27 Sep 2025 09:00:00 GMT</pubDate>
       <description><![CDATA[
         How algorithms reshape online visibility, influence political discourse within the EU, and challenge the ethics of the attention economy—advocating transparency and a human‑centered digital presence.
       ]]></description>
     </item>
 
-<!-- Article Nine O'Clock - August 13, 2025 -->
+    <!-- Article Nine O'Clock - August 13, 2025 -->
     <item>
-  <title>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</title>
-  <link>https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi/</link>
-  <guid isPermaLink="true">https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code/</guid>
-  <pubDate>Wed, 13 Aug 2025 09:00:00 +0300</pubDate>
-  <description><![CDATA[
-    This essay explores the symbolic and ethical dimensions of algorithms as living forms, proposing a new framework for coexistence between human and machine intelligences in a shared cultural space.
-  ]]></description>
-</item>
+      <title>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</title>
+      <link>https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi/</link>
+      <guid isPermaLink="true">https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code/</guid>
+      <pubDate>Wed, 13 Aug 2025 09:00:00 GMT</pubDate>
+      <description><![CDATA[
+        This essay explores the symbolic and ethical dimensions of algorithms as living forms, proposing a new framework for coexistence between human and machine intelligences in a shared cultural space.
+      ]]></description>
+    </item>
 
   </channel>
 </rss>
