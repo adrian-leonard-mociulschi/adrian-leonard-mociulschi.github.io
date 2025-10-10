@@ -13,7 +13,7 @@ date: "2025-10-09T00:00:00+03:00"
 
 *An aesthetic statement*
 
-Welcome to AI Muse — a curated space where art meets algorithm. This image is not part of a series, but a singular gesture: a symbolic portrait of the feminine ideal in the age of code.
+Welcome to AI Muse — a curated space where art meets algorithm. This image is not part of a series, but a singular gesture: a symbolic portrait of my feminine ideal in the age of code.
 
 ---
 
