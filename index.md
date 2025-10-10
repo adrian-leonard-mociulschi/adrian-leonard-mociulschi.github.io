@@ -50,7 +50,7 @@ As a lover of speculative futures, I imagine a planet reshaped by climate crisis
 
 This is not collapse—it is metamorphosis. A future where survival is not just technical, but poetic.
 
-<img src="/assets/img/Princess-study.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+<img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
 
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
