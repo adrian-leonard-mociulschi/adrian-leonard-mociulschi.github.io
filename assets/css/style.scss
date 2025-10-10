@@ -1,1 +1,9 @@
-.btn-github { display: none !important; }
+.btn-github {
+  display: none !important; 
+}
+
+/* Elimină orice caracter decorativ adăugat de tema în footer la linkuri */
+.site-footer a::before,
+.site-footer a::after {
+  content: none !important;
+}
