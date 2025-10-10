@@ -10,6 +10,8 @@ permalink: /writing
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
 
+<a id="top"></a>
+
 ## Writings
 
 This collection includes public contributions relevant to my symbolic mission as an ambassador of technoculture.
