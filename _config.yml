@@ -13,4 +13,6 @@ social:
   orcid: "https://orcid.org/0009-0006-9328-8518"
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-seo-tag
+
