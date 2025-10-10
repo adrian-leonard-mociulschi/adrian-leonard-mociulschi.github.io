@@ -16,6 +16,11 @@ This collection includes public contributions relevant to my symbolic mission as
 
 ## Recent articles
 
+<img src="/assets/img/coperta-31-1920x1357.png" 
+     alt="Illustration for the 2/10/25 Nine O'Clock article." 
+     style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
+     loading="lazy" decoding="async">
+
 <a href="https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/" target="_blank" rel="noopener noreferrer"><strong>The Future Has No Autopilot — Nine O’Clock</strong></a>
 
 This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for **meaningful human control** in an age where speed and certainty collide with conscience.
