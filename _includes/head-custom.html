@@ -1,10 +1,31 @@
+<!-- Robots -->
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow,max-image-preview:large">
 
 <!-- Favicon -->
 <link rel="icon" href="https://adrian-leonard-mociulschi.github.io/favicon.ico" type="image/x-icon">
 
-<!-- JSON-LD4KG -->
+<!-- Canonical (Jekyll-aware) -->
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Adrian Leonard Mociulschi">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Adrian Leonard Mociulschi">
+<meta property="og:description" content="Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.">
+<meta property="og:url" content="https://adrian-leonard-mociulschi.github.io/">
+<meta property="og:image" content="https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Adrian Leonard Mociulschi">
+<meta name="twitter:description" content="Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.">
+<meta name="twitter:image" content="https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png">
+
+<!-- JSON-LD4KG (optimized) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -15,30 +36,39 @@
       "url": "https://adrian-leonard-mociulschi.github.io/",
       "name": "Adrian Leonard Mociulschi",
       "inLanguage": "en",
-      "image": {
-        "@type": "ImageObject",
-        "@id": "https://adrian-leonard-mociulschi.github.io/#og-image",
-        "url": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
-        "width": 1200,
-        "height": 630
-      },
-      "publisher": {
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      "image": { "@id": "https://adrian-leonard-mociulschi.github.io/#og-image" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
+      /* Optional: enable this only if you want a site search box
+      ,"potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.google.com/search?q=site:adrian-leonard-mociulschi.github.io+{search_term_string}",
+        "query-input": "required name=search_term_string"
       }
+      */
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#og-image",
+      "url": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "width": 1200,
+      "height": 630,
+      "encodingFormat": "image/png"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person-image",
+      "url": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
+      "contentUrl": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
+      "encodingFormat": "image/jpeg",
+      "width": 3066,
+      "height": 3066
     },
     {
       "@type": "Person",
       "@id": "https://adrian-leonard-mociulschi.github.io/#person",
       "name": "Adrian Leonard Mociulschi",
       "url": "https://adrian-leonard-mociulschi.github.io/",
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
-        "contentUrl": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
-        "encodingFormat": "image/jpeg",
-        "width": 3066,
-        "height": 3066
-      },
+      "image": { "@id": "https://adrian-leonard-mociulschi.github.io/#person-image" },
       "jobTitle": "University Lecturer, Essayist",
       "affiliation": {
         "@type": "Organization",
@@ -63,90 +93,30 @@
         "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
       ],
       "knowsAbout": [
-        {
-          "@type": "Thing",
-          "name": "AI ethics"
-        },
-        {
-          "@type": "Thing",
-          "name": "Technoculture"
-        },
-        {
-          "@type": "Thing",
-          "name": "Blockchain"
-        },
-        {
-          "@type": "Thing",
-          "name": "Music Theory"
-        },
-        {
-          "@type": "Thing",
-          "name": "Posthumanism"
-        },
-        {
-          "@type": "Thing",
-          "name": "Strategic foresight"
-        }
+        { "@type": "Thing", "name": "AI ethics" },
+        { "@type": "Thing", "name": "Technoculture" },
+        { "@type": "Thing", "name": "Blockchain" },
+        { "@type": "Thing", "name": "Music Theory" },
+        { "@type": "Thing", "name": "Posthumanism" },
+        { "@type": "Thing", "name": "Strategic foresight" }
       ],
-      "nationality": {
-        "@type": "Country",
-        "name": "Romania"
-      }
+      "nationality": { "@type": "Country", "name": "Romania" }
     },
     {
-      "@type": "ProfilePage",
-      "@id": "https://adrian-leonard-mociulschi.github.io/about",
+      "@type": "AboutPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/about#about",
       "url": "https://adrian-leonard-mociulschi.github.io/about",
-      "name": "Adrian Leonard Mociulschi",
+      "name": "About — Adrian Leonard Mociulschi",
       "headline": "A Symbolic Ambassador of Technoculture",
       "description": "Academic and essayist exploring ethical AI, technoculture, and posthuman meaning. Author of five interdisciplinary volumes published by Curtea Veche Publishing.",
       "inLanguage": "en",
-      "isPartOf": {
-        "@id": "https://adrian-leonard-mociulschi.github.io/#website"
-      },
-      "about": {
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
-      },
-      "primaryImageOfPage": {
-        "@type": "ImageObject",
-        "url": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg",
-        "width": 3066,
-        "height": 3066,
-        "encodingFormat": "image/jpeg"
-      },
-      "mainEntity": {
-        "@type": "Person",
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person",
-        "name": "Adrian Leonard Mociulschi"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "author": {
-        "@type": "Person",
-        "name": "Adrian Leonard Mociulschi"
-      },
-      "dateModified": "2025-09-22T21:00:00+00:00",
-      "datePublished": "2025-09-22T21:00:00+00:00",
-      "description": "Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.",
-      "headline": "Adrian Leonard Mociulschi",
-      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://adrian-leonard-mociulschi.github.io/about"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Adrian Leonard Mociulschi",
-        "url": "https://adrian-leonard-mociulschi.github.io/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-        }
-      },
-      "url": "https://adrian-leonard-mociulschi.github.io/about"
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "about": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "primaryImageOfPage": { "@id": "https://adrian-leonard-mociulschi.github.io/#person-image" },
+      "mainEntity": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
     }
   ]
 }
 </script>
+
 <!-- meta: Automata silentia: vigilia sine praesentia -->
