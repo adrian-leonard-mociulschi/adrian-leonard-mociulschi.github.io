@@ -20,9 +20,9 @@ I advocate for **ethical** AI and a **posthuman ecology of meaning**, while cont
 
 ## About this website
 
-Hosted on GitHub, the platform serves as a public repository where users can explore infrastructure and intention. Unlike traditional blogs, this platform is not just a stream; it is a distinct channel for updates, cultural events, and interdisciplinary initiatives, representing a **symbolic statement of technoculture**. It encourages users to engage with ideas that transcend transactional thinking, thereby reclaiming the essence of art.
+Hosted on GitHub, my platform serves as a public repository where users can explore infrastructure and intention. Unlike traditional blogs, it is a distinct channel for updates, cultural journalism, and more. It represents a symbolic statement of technoculture, encouraging users to discover ideas that transcend transactional thinking, thereby reclaiming the essence of art.
 
-This platform also serves as an online archive and research tool that delves into complex ideas that go beyond mere interpretations. Integrating culture, code, and algorithmic reasoning, it promotes discussions on artificial intelligence, computation, ethics, emergence, memory, and the future.
+This platform serves as an online archive and research tool that explores complex ideas beyond mere interpretations. By integrating culture, code, and algorithmic reasoning, it promotes discussions on artificial intelligence, computation, ethics, emergence, memory, and the future.
 
 ## Official photo
 
