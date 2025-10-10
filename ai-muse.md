@@ -17,7 +17,11 @@ Welcome to AI Muse — a curated space where art meets algorithm. This image is 
 
 ---
 
-<a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/" target="_blank" rel="noopener noreferrer"><strong>Girl in a Jacket</strong></a>
+<h2>
+  <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/"
+     Girl in a Jacket
+  </a>
+</h2>
 
 <img src="/assets/img/AI-Muse-study-01.png" alt="AI Muse" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
