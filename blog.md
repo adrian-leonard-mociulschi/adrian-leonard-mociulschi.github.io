@@ -15,7 +15,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
 
 ## Op-Ed Hub
 
-Op-Ed Hub showcases original essays by Adrian Leonard Mociulschi, published in *România Liberă*, one of Romania’s oldest national newspapers (est. 1877). he articles are written in Romanian; English translations are available on the author's profiles on ResearchGate and Academia.edu.
+Op-Ed Hub showcases original essays by Adrian Leonard Mociulschi, published in *România Liberă*, one of Romania’s oldest national newspapers (est. 1877). The articles are written in Romanian; English translations are available on the author's profiles on ResearchGate and Academia.edu.
 
 <!-- Entry A· 2025-10-08 -->
 <div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
