@@ -37,7 +37,7 @@ This article investigates the concept of algorithms as dynamic, life-like system
   "name": "Writings by Adrian Leonard Mociulschi",
   "headline": "Symbolic Writings on Technoculture and Ethical AI",
   "description": "A curated selection of essays and articles by Adrian Leonard Mociulschi, exploring technoculture, ethical AI, and symbolic infrastructures.",
-  "inLanguage": "en",
+  "inLanguage": "en-US",
   "isPartOf": {
     "@id": "https://adrian-leonard-mociulschi.github.io/#website"
   },
