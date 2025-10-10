@@ -3,7 +3,7 @@
 }
 
 /* Curăță orice pseudo-element din footer (linkuri, imagini, span-uri etc.) */
-.site-footer *::before,
-.site-footer *::after {
+.site-footer *:hover::before,
+.site-footer *:hover::after {
   content: none !important;
 }
