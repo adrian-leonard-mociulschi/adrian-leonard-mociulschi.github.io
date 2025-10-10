@@ -39,6 +39,36 @@ The visual code above links to my ORCID identifier. These identifiers are unique
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "dateModified": "2025-09-22T21:00:00+00:00",
+  "datePublished": "2025-09-22T21:00:00+00:00",
+  "description": "Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.",
+  "headline": "Adrian Leonard Mociulschi",
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adrian-leonard-mociulschi.github.io/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://adrian-leonard-mociulschi.github.io/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
+    }
+  },
+  "url": "https://adrian-leonard-mociulschi.github.io/about"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "ProfilePage",
   "@id": "https://adrian-leonard-mociulschi.github.io/about",
   "url": "https://adrian-leonard-mociulschi.github.io/about",
@@ -76,12 +106,12 @@ The visual code above links to my ORCID identifier. These identifiers are unique
       "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
     ],
     "knowsAbout": [
-      {"@type": "Thing", "name": "AI ethics"},
-      {"@type": "Thing", "name": "Technoculture"},
-      {"@type": "Thing", "name": "Blockchain"},
-      {"@type": "Thing", "name": "Music Theory"},
-      {"@type": "Thing", "name": "Posthumanism"},
-      {"@type": "Thing", "name": "Strategic foresight"}
+      { "@type": "Thing", "name": "AI ethics" },
+      { "@type": "Thing", "name": "Technoculture" },
+      { "@type": "Thing", "name": "Blockchain" },
+      { "@type": "Thing", "name": "Music Theory" },
+      { "@type": "Thing", "name": "Posthumanism" },
+      { "@type": "Thing", "name": "Strategic foresight" }
     ],
     "nationality": {
       "@type": "Country",
@@ -97,7 +127,8 @@ The visual code above links to my ORCID identifier. These identifiers are unique
   },
   "mainEntity": {
     "@type": "Person",
-    "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+    "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+    "name": "Adrian Leonard Mociulschi"
   }
 }
 </script>
