@@ -12,6 +12,8 @@ permalink: /
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
 
+---
+
 <a id="top"></a>
 
 ## Welcome to my GitHub
