@@ -10,6 +10,8 @@ permalink: /about
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
 
+---
+
 ## About me
 
 I am an academic and Romanian writer, author of a five-part series of essays published by Curtea Veche Publishing — a constellation of ideas forming a symbolic pentagram of knowledge. My intellectual horizon is shaped by the cultural perspectives of René Berger and Pierre Bourdieu, as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
