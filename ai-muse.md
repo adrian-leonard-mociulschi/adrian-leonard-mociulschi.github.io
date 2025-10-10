@@ -11,6 +11,8 @@ description: "A weekly gallery of AI-generated portraits — where art meets alg
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
 
+---
+
 ## AI Muse
 
 *An aesthetic statement*
