@@ -7,3 +7,9 @@
 .site-footer *:hover::after {
   content: none !important;
 }
+
+<!-- ✅ CSS to align the badge to the right in the footer -->
+.rss-validator {
+  float: right;
+  margin-right: 10px;
+  margin-top: 4px;
