@@ -170,7 +170,3 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-## Contact
-
-📬 If you wish to connect professionally or follow symbolic updates, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
-
