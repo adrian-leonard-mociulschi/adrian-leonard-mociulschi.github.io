@@ -3,7 +3,7 @@ layout: default
 title: "AI Muse"
 description: "A weekly gallery of AI-generated portraits — where art meets algorithm and imagination becomes visible."
 permalink: /ai-muse
-lang: en
+lang: "en-US"
 date: "2025-10-09T00:00:00+03:00"
 ---
 
