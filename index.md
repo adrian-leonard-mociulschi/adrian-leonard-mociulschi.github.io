@@ -104,33 +104,6 @@ of illuminated manuscripts.
 0009-0006-9328-8518
 </a>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Adrian Leonard Mociulschi",
-  "alternateName": "Dr. Adrian Leonard Mociulschi",
-  "url": "https://adrian-leonard-mociulschi.github.io",
-  "sameAs": [
-    "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
-    "https://nineoclock.ro/tag/adrian-leonard-mociulschi/",
-    "https://revistacultura.ro/author/leonard/",
-    "https://www.contributors.ro/author/adrian-leonard-mociulschi",
-    "https://orcid.org/0000-0000-0000-0000"
-  ],
-  "jobTitle": "Author, Researcher, Essayist, University Lecturer, Ph.D.",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "Bucharest National University of Music"
-  },
-  "description": "Adrian Leonard Mociulschi is a Romanian author and researcher exploring technoculture, symbolic infrastructures, and ethical AI through essays and editorial writing.",
-  "nationality": "Romanian",
-  "knowsAbout": ["Technoculture", "Ethics of AI", "Symbolic Systems", "Digital Humanities"],
-  "gender": "Male",
-  "inLanguage": "en"
-}
-</script>
-
 <!-- Link to go back to top -->
 <a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
 
