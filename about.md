@@ -61,6 +61,4 @@ et verba mea sunt sigilla temporis.
 
 Non sum solus — sum echo stirpis meae,
 et in codice vitae, nomen meum fulget.
-
-— A.L.M.
 -->
