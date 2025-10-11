@@ -124,6 +124,4 @@ Magia non est fuga sensus,
 sed intensio pura, ordinata.
 Verbum meum est pontifex temporis,
 et scriptura — ars transfigurandi.
-
-— A.L.M.
 -->
