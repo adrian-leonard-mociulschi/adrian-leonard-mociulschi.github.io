@@ -38,19 +38,13 @@ They remind us that even in the deepest layers of code,
 life pulses with mystery, and the future is written not in metrics,
 but in myth, resonance, and symbolic continuity.
 
-<picture>
-  <source type="image/avif" srcset="/assets/img/Girl-in-a-plane.avif">
-  <source type="image/webp" srcset="/assets/img/Girl-in-a-plane.webp">
-  <img
-    src="/assets/img/Girl-in-a-plane.png"
-    alt="Creative study co-created with AI (girl in a plane)"
-    width="1600"
-    height="1067"
-    loading="lazy"
-    decoding="async"
-    style="width:80%;max-width:400px;height:auto;border-radius:8px;"
-  >
-</picture>
+<img
+  src="https://adrian-leonard-mociulschi.github.io/assets/img/Girl-in-a-plane.png?v=2"
+  alt="Creative study co-created with AI (girl in a plane)"
+  width="1600"
+  height="1067"
+  loading="lazy"
+  decoding="async"
 
 ---
 
