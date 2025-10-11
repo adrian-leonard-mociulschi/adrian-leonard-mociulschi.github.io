@@ -110,7 +110,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
 </div>
 
 <!-- Entry A· 2025-07-31 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Responsabilitatea tehnologică: România și șansa unei ecologii inteligente</em>
     </p>
