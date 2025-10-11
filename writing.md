@@ -28,7 +28,7 @@ This collection includes public contributions relevant to my symbolic mission as
 
 <a href="https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/" target="_blank" rel="noopener noreferrer"><strong>The Future Has No Autopilot — Nine O’Clock</strong></a>
 
-Published on October 2, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for **meaningful human control** in an age where speed and certainty collide with conscience.
+Published on *October 2*, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for **meaningful human control** in an age where speed and certainty collide with conscience.
 
 <br>
 
@@ -42,7 +42,7 @@ Published on October 2, 2025, this article examines the ethical and strategic im
 
 <a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer"><strong>The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock</strong></a>
 
-Published on September 27, 2025, this article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
+Published on *September 27*, 2025, this article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
 
 <br>
 
@@ -58,7 +58,7 @@ Published on September 27, 2025, this article analyzes how algorithms reshape on
 
   <strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong></a>
 
-Published on August 13, 2025, this article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
+Published on *August 13*, 2025, this article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
 
 <script type="application/ld+json">
 {
