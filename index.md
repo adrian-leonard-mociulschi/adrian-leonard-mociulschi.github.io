@@ -72,7 +72,7 @@ a longing, a convergence, a moment of lucid entanglement.
 Sing to us like Merlin once did,
 not to soothe, but to awaken.
 Let the verses rise like spice from the dunes,
-and let memory dance with resonance.**
+and let memory dance with resonance.*
 
 <picture>
   <source type="image/avif" srcset="/assets/img/Elven-girl-study.avif">
