@@ -20,17 +20,17 @@ permalink: /
 
 *Pro*-**LOG**
 
-**At the intersection of culture and code**, this space invites reflection — not commits.  
+At the intersection of culture and code**, this space invites reflection — not commits.  
 A lucid archive of symbolic ecologies, Web3 visions, and ethical AI.  
-**No crowdsourcing, just presence. No noise, just resonance.**
+No crowdsourcing, just presence. No noise, just resonance.
 
 Here, there are **no ads**, no metrics, no filters.  
 Just code, word, and idea — in their purest form.  
-It is a return to **Web 1**, far from the noise of quantification,  
-and a return to the **craft spirit of the Middle Ages**,  
+It is a return to Web 1, far from the noise of quantification,  
+and a return to the craft spirit of the Middle Ages,  
 where each post is manually crafted as a gesture of Renaissance ethos.
 
-Every image emerges from **cutting-edge convolutional architectures**,  
+Every image emerges from cutting-edge convolutional architectures,  
 where code becomes canvas, and presence becomes form.
 
 <img src="/assets/img/Girl-in-a-plane.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
