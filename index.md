@@ -67,10 +67,10 @@ Not as formula, but as friction between destinies.
 Here, even the most abstract architectures may conceal a pulse —
 a longing, a convergence, a moment of lucid entanglement.
 
-*Gurney, with your baliset — where are you now?
-Sing to us like Merlin once did,
-not to soothe, but to awaken.
-Let the verses rise like spice from the dunes,
+*Gurney, with your baliset — where are you now?<br>
+Sing to us like Merlin once did,<br>
+not to soothe, but to awaken.<br>
+Let the verses rise like spice from the dunes,<br>
 and let memory dance with resonance.*
 
 <picture>
