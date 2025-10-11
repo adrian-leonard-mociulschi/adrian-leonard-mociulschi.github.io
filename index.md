@@ -126,7 +126,5 @@ omnia se inclinant ad centrum.
 
 Centrum est algorithmus — et amor,
 duae orbitae aleatorii destinis.
-
-— A.L.M.
 -->
 
