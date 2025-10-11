@@ -34,7 +34,12 @@ This platform is an online archive and research tool that delves into complex id
 
 ## Official photo
 
-![Adrian Leonard Mociulschi — portret oficial](/assets/img/Adrian-Leonard-Mociulschi.jpg){: style="max-width:520px;width:100%;height:auto;border-radius:8px;" loading="lazy" decoding="async" }
+**Adrian Leonard Mociulschi — Official Photo**
+<picture>
+  <source type="image/avif" srcset="/assets/img/Adrian-Leonard-Mociulschi.avif">
+  <source type="image/webp" srcset="/assets/img/AAdrian-Leonard-Mociulschi.webp">
+  <img src="/assets/img/Adrian-Leonard-Mociulschi.png" alt="Official Photo of Adrian Leonard Mociulschi" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+</picture>
 
 **License**: **CC BY 4.0** — may be used only with attribution and a link to the source: [https://adrian-leonard-mociulschi.github.io/](https://adrian-leonard-mociulschi.github.io/)
 
