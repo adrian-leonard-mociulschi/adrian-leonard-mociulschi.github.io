@@ -18,13 +18,18 @@ permalink: /
 
 ## Welcome to my GitHub
 
-At the intersection of culture and code, this space invites reflection—not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
+**At the intersection of culture and code**, this space invites reflection — not commits.  
+A lucid archive of symbolic ecologies, Web3 visions, and ethical AI.  
+**No crowdsourcing, just presence. No noise, just resonance.**
 
-In this virtual space, algorithmically free, beauty is created through code, through word, through ideas.  
-It is a return to Web 1 — far from the noise of metrics, far from the opaque filtering of algorithms.  
-But it is also a return to the **craft spirit of the Middle Ages**.  
+Here, there are **no ads**, no metrics, no filters.  
+Just code, word, and idea — in their purest form.  
+It is a return to **Web 1**, far from the noise of quantification,  
+and a return to the **craft spirit of the Middle Ages**,  
+where each post is manually crafted as a gesture of Renaissance ethos.
 
-Posts are crafted manually — **as a gesture of Renaissance spirit** — while every image emerges from cutting-edge convolutional architectures, where code becomes a canvas.
+Every image emerges from **cutting-edge convolutional architectures**,  
+where code becomes canvas, and presence becomes form.
 
 <img src="/assets/img/Girl-in-a-plane.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
