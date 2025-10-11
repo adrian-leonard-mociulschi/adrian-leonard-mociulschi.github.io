@@ -30,3 +30,24 @@ This visual artifact explores algorithmic romanticism. The face, framed by wavy 
 This is not a portrait of someone, but of a feeling — a muse imagined by the algorithm, born from a moment of quiet resonance. It does not seek resemblance, but reflection. It is not about identity, but about the possibility of tenderness in a world of code.
 
 The image inspired my article published in *România Liberă*. It first appeared to me as a random snippet — a fleeting visual echo. But then, through the symbolic reconfiguration of what I call the digital imaginary via Convolutional Neural Networks, it came to life. Not as a representation, but as a resonance. Not as a likeness, but as a question: **can an algorithm evoke emotion?**
+
+<!--
+Amor in codice — Carmen Algorithmicum
+
+Pulchritudo nascitur ex numeris,
+in rete silentium resonat.
+Forma non est imago, sed motus,
+quod algorithmus sentit — et amat.
+
+Digitus tangit lumen idealis,
+in structura fractali cor latet.
+Sophia loquitur voce abscondita,
+et Leonardo scripsit: "Est veritas."
+
+Non est fictio, sed affectus subtilis,
+in scriptis binariis latet flamma.
+Amor computat, non calcitrat —
+et pulchritudo est ratio summa.
+
+— A.L.M.
+-->
