@@ -24,6 +24,12 @@ I advocate for **ethical** AI and a **posthuman ecology of meaning**, while cont
 
 Hosted on GitHub, my platform serves as a public repository where users can explore infrastructure and intention. Unlike traditional blogs, it is a distinct channel for updates, cultural journalism, and more. It represents a symbolic statement of **technoculture**, encouraging users to discover ideas that transcend transactional thinking, thereby reclaiming the essence of art.
 
+<blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
+“Scientia et ars, in unum resonant — sine hac, illa muta est.”<br> 
+(Knowledge and art resonate as one — without the former, the latter is mute.)<br>
+— Hadrian Anwir Corrino
+</blockquote>
+
 This platform is an online archive and research tool that delves into complex ideas beyond mere interpretations. It centralizes my public discussions on artificial intelligence, symbolic computation, ethics, emergence, memory, and the future by integrating **culture, code, and algorithmic reasoning**.
 
 ## Official photo
