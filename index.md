@@ -18,7 +18,7 @@ permalink: /
 
 ## Welcome to my GitHub
 
-*Prologue*
+*Pro*-**LOG**
 
 **At the intersection of culture and code**, this space invites reflection — not commits.  
 A lucid archive of symbolic ecologies, Web3 visions, and ethical AI.  
