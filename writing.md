@@ -105,3 +105,24 @@ Published on August 13, 2025, this article investigates the concept of algorithm
 
 <!-- Link to go back to top -->
 <a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
+
+<!--
+Carmen de Verbo Creatore — Scriptum Magicae
+
+Cogitatio nascitur in silentio,
+ut scintilla inter astra mentis.
+Verbum sequitur — forma visibilis,
+quod anima tangit, et digitus scribit.
+
+Scriptum est incantatio lucida,
+non fictio, sed actus realitatis.
+In pagina, mundus se reconfigurat,
+et codex devinit oraculum.
+
+Magia non est fuga sensus,
+sed intensio pura, ordinata.
+Verbum meum est pontifex temporis,
+et scriptura — ars transfigurandi.
+
+— A.L.M.
+-->
