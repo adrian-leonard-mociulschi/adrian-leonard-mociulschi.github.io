@@ -25,10 +25,10 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   <a href="https://unmb.academia.edu/AdrianMociulschi" target="_blank" rel="noopener noreferrer">Academia.edu</a>.
 </p>
 
-<!-- Entry A· 2025-09-25 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+<!-- Entry A · 2025-09-25 -->
+<div role="article" aria-label="Articol: Girl in a Jacket — O poveste în cod binar"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>Girl in a Jacket: O poveste în cod binar</em>
   </p>
 <p style="font-style: italic; color: #555;">Editorial — 25 Septembrie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care transformă un fragment dintr-un motor de căutare într-un cod cultural. Scris în limba română, textul reflectă asupra feminismului, reprezentării și codurilor ascunse ale vizibilității algoritmice, pornind de la un snippet neașteptat: “Girl in a Jacket.” Acest articol de opinie explorează modul în care interfețele digitale modelează percepția, cum etichetele înlocuiesc prezența și de ce egalitatea și demnitatea rămân urgente într-o eră în care algoritmii propun un nou curatoriat al realității.</p>
@@ -39,8 +39,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry B· 2025-09-12 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+<!-- Entry B · 2025-09-12 -->
+<div role="article" aria-label="Articol: De la tablă la blockchain — Lecția pe care școala nu o poate amâna"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>De la tablă la blockchain: Lecția pe care școala nu o poate amâna</em>
     </p>
@@ -53,8 +54,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry A· 2025-09-03 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+!-- Entry A · 2025-09-03 -->
+<div role="article" aria-label="Articol: România 2055 — Viitorul ca prag între trecut și posibil"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>România 2055: Viitorul ca prag între trecut și posibil</em>
   </p>
@@ -67,11 +69,12 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry B· 2025-08-26 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+<!-- Entry B · 2025-08-26 -->
+<div role="article" aria-label="Articol: De la automatizare la armonie — Algoritmi, oameni și viitorul muncii"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>De la automatizare la armonie: Algoritmi, oameni și viitorul muncii</em>
-    </p>
+  </p>
   <p style="font-style: italic; color: #555;">Editorial — 26 August 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că automatizarea nu este sfârșitul muncii, ci începutul unei noi ecologii a sensului. Articolul explorează cum algoritmii și inteligența artificială nu vin să înlocuiască omul, ci să-i redefinească rolul într-un ecosistem în care creativitatea și adaptabilitatea devin resurse strategice. În locul unei viziuni apocaliptice, textul propune o lectură lucidă: automatizarea preia sarcinile repetitive, eliberând timp pentru activități cu valoare simbolică și cognitivă. Provocarea nu este tehnologia în sine, ci modul în care societatea gestionează tranziția, evitând polarizarea între „muncă umană” și „muncă algoritmică”.</p>
   <p>
@@ -81,11 +84,12 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry A· 2025-08-15 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+!-- Entry A · 2025-08-15 -->
+<div role="article" aria-label="Articol: Arta algoritmilor — Cum se întâlnesc Leonardo, robotul Sophia și economia digitală"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Arta algoritmilor: Cum se întâlnesc Leonardo, robotul Sophia și economia digitală</em>
-    </p>
+  </p>
   <p style="font-style: italic; color: #555;">Editorial — 15 August 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că tehnologia nu este doar infrastructură, ci responsabilitate. Articolul argumentează că România are oportunitatea de a transforma tranziția energetică și digitală într-un proiect de ecologie inteligentă, unde inovația servește nu doar eficiența, ci și sustenabilitatea. În contextul crizei climatice și al presiunilor geopolitice, soluțiile nu pot fi fragmentare: ele trebuie să integreze energie verde, inteligență artificială și politici publice orientate spre reducerea amprentei de carbon. Tehnologia devine astfel un instrument de solidaritate, nu doar de profit.</p>
   <p>
@@ -95,8 +99,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry B· 2025-08-06 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+<!-- Entry B · 2025-08-06 -->
+<div role="article" aria-label="Articol: Codul stelelor — Inteligența artificială și limbajul cosmic"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>„Codul stelelor”: Inteligența artificială și limbajul cosmic</em>
   </p>
@@ -109,11 +114,12 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry A· 2025-07-31 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+<!-- Entry A · 2025-07-31 -->
+<div role="article" aria-label="Articol: Responsabilitatea tehnologică — România și șansa unei ecologii inteligente"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Responsabilitatea tehnologică: România și șansa unei ecologii inteligente</em>
-    </p>
+  </p>
   <p style="font-style: italic; color: #555;">Editorial — 31 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că tehnologia nu este doar infrastructură, ci responsabilitate. Articolul argumentează că România are oportunitatea de a transforma tranziția energetică și digitală într-un proiect de ecologie inteligentă, unde inovația servește nu doar eficiența, ci și sustenabilitatea. În contextul crizei climatice și al presiunilor geopolitice, soluțiile nu pot fi fragmentare: ele trebuie să integreze energie verde, inteligență artificială și politici publice orientate spre reducerea amprentei de carbon. Tehnologia devine astfel un instrument de solidaritate, nu doar de profit.</p>
   <p>
@@ -123,8 +129,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry B· 2025-07-22 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+<!-- Entry B · 2025-07-22 -->
+<div role="article" aria-label="Articol: Zborul între chemare și destin — De la Miorița la Space Oddity"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Zborul între chemare și destin: De la Miorița la Space Oddity</em>
   </p>
@@ -140,8 +147,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
 <!-- Entry A · 2025-07-15 -->
 <div role="article" aria-label="Articol: Economia vibrațiilor și vioara societății"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Economia vibrațiilor și vioara societății</em>
-    </p>
+  </p>
   <p style="font-style: italic; color: #555;">Editorial — 15 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că societatea nu este doar o structură economică, ci un instrument care vibrează. Articolul propune o metaforă muzicală pentru a înțelege dinamica socială: vioara, cu tensiunile și armoniile ei, devine imaginea unei economii bazate pe rezonanță, nu pe simpla acumulare. În locul unei viziuni mecaniciste, textul sugerează că relațiile, fluxurile și deciziile sunt influențate de vibrații simbolice – valori, emoții, ritmuri culturale – care dau sens mișcării colective. Economia nu este doar cifră, ci și sonoritate.</p>
   <p>
@@ -151,8 +159,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-  <!-- Entry B· 2025-07-09 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+<!-- Entry B · 2025-07-09 -->
+<div role="article" aria-label="Articol: De la Heron la AI — Ce ne spune istoria despre viitor"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>De la Heron la AI: Ce ne spune istoria despre viitor</em>
   </p>
@@ -165,11 +174,12 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry A· 2025-07-02 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
+!-- Entry A · 2025-07-02 -->
+<div role="article" aria-label="Articol: Codul Cetății — Cultura, Moneda și Viitorul Urban"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Codul Cetății: Cultura, Moneda și Viitorul Urban</em>
-    </p>
+  </p>
   <p style="font-style: italic; color: #555;">Editorial — 02 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că orașul nu este doar un spațiu fizic, ci un cod cultural. Articolul analizează cum infrastructura urbană se transformă sub presiunea tehnologiilor emergente și a economiei digitale. De la agora antică la metavers, cetatea rămâne un simbol al coexistenței, dar astăzi codurile blockchain și monedele digitale devin noi instrumente de guvernanță. În locul zidurilor, avem rețele; în locul piețelor tradiționale, platforme descentralizate. Viitorul urban nu se reduce la smart cities, ci implică o reconfigurare a sensului: cum se păstrează demnitatea și cultura într-un spațiu algoritmic?</p>
   <p>
@@ -179,8 +189,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-  <!-- Entry B· 2025-06-25 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+<!-- Entry B · 2025-06-25 -->
+<div role="article" aria-label="Articol: Cultura 3.0 — De la Mecenat la Metavers"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
   <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
     <em>Cultura 3.0: De la Mecenat la Metavers</em>
   </p>
