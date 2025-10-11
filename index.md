@@ -39,17 +39,10 @@ life pulses with mystery, and the future is written not in metrics,
 but in myth, resonance, and symbolic continuity.
 
 <picture>
-  <source type="image/avif" srcset="/assets/img/Girl-in-a-plane.avif">
-  <source type="image/webp" srcset="/assets/img/Girl-in-a-plane.webp">
-  <img
-    src="/assets/img/Girl-in-a-plane.png"
-    alt="Creative study co-created with AI (girl in a plane)"
-    width="1600"
-    height="1067"
-    loading="lazy"
-    decoding="async"
-    style="width:80%;max-width:400px;height:auto;border-radius:8px;"
-  >
+  <source type="image/avif" srcset="/assets/img/Elven-girl-study.avif">
+  <source type="image/webp" srcset="/assets/img/Elven-girl-study.webp">
+  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (elven girl)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;"
+    >
 </picture>
 
 ---
@@ -81,7 +74,11 @@ not to soothe, but to awaken.
 Let the verses rise like spice from the dunes,
 and let memory dance with resonance.**
 
-<img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+<picture>
+  <source type="image/avif" srcset="/assets/img/Elven-girl-study.avif">
+  <source type="image/webp" srcset="/assets/img/Elven-girl-study.webp">
+  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (elven girl)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+</picture>
 
 ---
 
