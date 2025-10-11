@@ -3,7 +3,7 @@ layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-11T00:00:00+03:00"
+date: "2025-10-12T00:00:00+03:00"
 lang: "en-US"
 permalink: /blog
 description: "Press Room – Official updates by Adrian Leonard Mociulschi: essays, op-eds, and cultural projects. Latest: Girl in a Jacket – a reflection on feminism, representation, and algorithmic visibility."
@@ -25,7 +25,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   <a href="https://unmb.academia.edu/AdrianMociulschi" target="_blank" rel="noopener noreferrer">Academia.edu</a>.
 </p>
 
-<!-- Entry A · 2025-09-25 -->
+<!-- Entry A · 2025-09-25 XII -->
 <div role="article"
      aria-label="Articol: Girl in a Jacket — O poveste în cod binar"
      aria-description="Eseu despre feminism, vizibilitate algoritmică și curatoriat digital în era AI"
@@ -47,166 +47,243 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry B · 2025-09-12 -->
-<div role="article" aria-label="Articol: De la tablă la blockchain — Lecția pe care școala nu o poate amâna"
+<!-- Entry B · 2025-09-12 XI -->
+<div role="article"
+     aria-label="Articol: De la tablă la blockchain — Lecția pe care școala nu o poate amâna"
+     aria-description="Eseu despre transformarea educației în era digitală, de la tablă la blockchain"
+     data-summary="Adrian Leonard Mociulschi analizează în România Liberă metamorfoza educației între analogic și digital."
+     data-keywords="educație, blockchain, digitalizare, Web 3.0, România Liberă, pedagogie, pandemie, alfabetizare tehnologică"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>De la tablă la blockchain: Lecția pe care școala nu o poate amâna</em>
-    </p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">De la tablă la blockchain: Lecția pe care școala nu o poate amâna</h2>
   <p style="font-style: italic; color: #555;">Editorial — 12 Septembrie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că educația, între tablă și blockchain, nu mai este aceeași. În era digitală, școala traversează o metamorfoză profundă: de la manualul tipărit la platformele interactive și promisiunile descentralizării din Web 3.0. Alfabetizarea tehnologică nu mai este opțională, ci un proces continuu, vital pentru formarea competențelor viitorului. Lecțiile nu se limitează la sala de clasă, ci se extind în biblioteci virtuale, spații colaborative și ecosisteme hibride, unde analogicul și digitalul coexistă. Pandemia va fi accelerat această transformare, arătând că ecranul nu este soluție de avarie, ci parte stabilă a pedagogiei.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/de-la-tabla-la-blockchain-lectia-pe-care-scoala-nu-o-poate-amana/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/de-la-tabla-la-blockchain-lectia-pe-care-scoala-nu-o-poate-amana/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry A · 2025-09-03 -->
-<div role="article" aria-label="Articol: România 2055 — Viitorul ca prag între trecut și posibil"
+<!-- Entry A · 2025-09-03 X -->
+<div role="article"
+     aria-label="Articol: România 2055 — Viitorul ca prag între trecut și posibil"
+     aria-description="Eseu despre România ca laborator al tehnologiilor emergente și regenerării culturale"
+     data-summary="Adrian Leonard Mociulschi semnează un eseu în România Liberă despre viitor, memorie digitală și imaginație ca motor al progresului."
+     data-keywords="România, viitor, tehnologii emergente, AI, internet, regenerare, cultură, România Liberă, eseu"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>România 2055: Viitorul ca prag între trecut și posibil</em>
-  </p>
-<p style="font-style: italic; color: #555;">Editorial — 03 Septembrie 2025</p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">România 2055: Viitorul ca prag între trecut și posibil</h2>
+  <p style="font-style: italic; color: #555;">Editorial — 03 Septembrie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că între predicție și prezență se află o fereastră – nu spre certitudine, ci spre sens. Articolul reflectează asupra modului în care România ar putea deveni un laborator al tehnologiilor emergente, integrând infrastructuri economice, energetice și culturale sub codul regenerării. Privind înapoi la anii ’90, când procesoarele 286 și conexiunile dial-up marcau începutul fascinației digitale, textul contrastează speranțele timpurii de prosperitate prin informație cu realitatea actuală: internetul este omniprezent, AI-ul a trecut de la speculație la viața cotidiană, dar multe visuri futuriste rămân încă îndepărtate. Lecția nu este despre oportunități ratate, ci despre cum imaginația modelează progresul.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/romania-2055-viitorul-ca-prag-intre-trecut-si-posibil/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/romania-2055-viitorul-ca-prag-intre-trecut-si-posibil/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry B · 2025-08-26 -->
-<div role="article" aria-label="Articol: De la automatizare la armonie — Algoritmi, oameni și viitorul muncii"
+<!-- Entry B · 2025-08-26 IX -->
+<div role="article"
+     aria-label="Articol: De la automatizare la armonie — Algoritmi, oameni și viitorul muncii"
+     aria-description="Eseu despre redefinirea muncii în era automatizării și a inteligenței artificiale"
+     data-summary="Adrian Leonard Mociulschi analizează în România Liberă cum algoritmii pot coexista cu creativitatea umană într-un nou ecosistem profesional."
+     data-keywords="automatizare, muncă, algoritmi, AI, România Liberă, viitorul muncii, creativitate, tranziție digitală"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>De la automatizare la armonie: Algoritmi, oameni și viitorul muncii</em>
-  </p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">De la automatizare la armonie: Algoritmi, oameni și viitorul muncii</h2>
   <p style="font-style: italic; color: #555;">Editorial — 26 August 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că automatizarea nu este sfârșitul muncii, ci începutul unei noi ecologii a sensului. Articolul explorează cum algoritmii și inteligența artificială nu vin să înlocuiască omul, ci să-i redefinească rolul într-un ecosistem în care creativitatea și adaptabilitatea devin resurse strategice. În locul unei viziuni apocaliptice, textul propune o lectură lucidă: automatizarea preia sarcinile repetitive, eliberând timp pentru activități cu valoare simbolică și cognitivă. Provocarea nu este tehnologia în sine, ci modul în care societatea gestionează tranziția, evitând polarizarea între „muncă umană” și „muncă algoritmică”.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/de-la-automatizare-la-armonie-algoritmi-oameni-si-viitorul-muncii/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/de-la-automatizare-la-armonie-algoritmi-oameni-si-viitorul-muncii/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry A · 2025-08-15 -->
-<div role="article" aria-label="Articol: Arta algoritmilor — Cum se întâlnesc Leonardo, robotul Sophia și economia digitală"
+<!-- Entry A · 2025-08-15 VIII -->
+<div role="article"
+     aria-label="Articol: Arta algoritmilor — Cum se întâlnesc Leonardo, robotul Sophia și economia digitală"
+     aria-description="Eseu despre responsabilitatea tehnologică, sustenabilitate și ecologie digitală în România"
+     data-summary="Adrian Leonard Mociulschi argumentează în România Liberă că tehnologia trebuie să servească solidaritatea și sustenabilitatea, nu doar eficiența."
+     data-keywords="tehnologie, sustenabilitate, AI, energie verde, România Liberă, Sophia, Leonardo, ecologie digitală"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>Arta algoritmilor: Cum se întâlnesc Leonardo, robotul Sophia și economia digitală</em>
-  </p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">Arta algoritmilor: Cum se întâlnesc Leonardo, robotul Sophia și economia digitală</h2>
   <p style="font-style: italic; color: #555;">Editorial — 15 August 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că tehnologia nu este doar infrastructură, ci responsabilitate. Articolul argumentează că România are oportunitatea de a transforma tranziția energetică și digitală într-un proiect de ecologie inteligentă, unde inovația servește nu doar eficiența, ci și sustenabilitatea. În contextul crizei climatice și al presiunilor geopolitice, soluțiile nu pot fi fragmentare: ele trebuie să integreze energie verde, inteligență artificială și politici publice orientate spre reducerea amprentei de carbon. Tehnologia devine astfel un instrument de solidaritate, nu doar de profit.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/arta-algoritmilor-cum-se-intalnesc-leonardo-robotul-sophia-si-economia-digitala/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/arta-algoritmilor-cum-se-intalnesc-leonardo-robotul-sophia-si-economia-digitala/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry B · 2025-08-06 -->
-<div role="article" aria-label="Articol: Codul stelelor — Inteligența artificială și limbajul cosmic"
+<!-- Entry B · 2025-08-06 VII -->
+<div role="article"
+     aria-label="Articol: Codul stelelor — Inteligența artificială și limbajul cosmic"
+     aria-description="Eseu despre algoritmi ca formă de creație și estetică digitală în era AI"
+     data-summary="Adrian Leonard Mociulschi explorează în România Liberă cum algoritmii devin actori culturali între artă, tehnologie și percepție."
+     data-keywords="inteligență artificială, algoritmi, estetică digitală, Fibonacci, Sophia, Leonardo, România Liberă, cultură algoritmică"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>„Codul stelelor”: Inteligența artificială și limbajul cosmic</em>
-  </p>
-<p style="font-style: italic; color: #555;">Editorial — 06 August 2025</p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">„Codul stelelor”: Inteligența artificială și limbajul cosmic</h2>
+  <p style="font-style: italic; color: #555;">Editorial — 06 August 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că algoritmul nu este doar un instrument, ci o formă de creație. Articolul explorează întâlnirea simbolică dintre Leonardo da Vinci, robotul Sophia și estetica digitală, arătând cum proporțiile lui Fibonacci și armonia matematică devin punți între artă și tehnologie. Într-o economie guvernată de coduri, algoritmul nu mai este doar un mecanism de calcul, ci un actor cultural care modelează percepția și gustul. De la Mona Lisa la Sophia, frumusețea nu mai este doar o întrebare deschisă, ci o matrice generativă, unde inteligența artificială transformă estetica într-un proces dinamic.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/codul-stelelor-inteligenta-artificiala-si-limbajul-cosmic/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/codul-stelelor-inteligenta-artificiala-si-limbajul-cosmic/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry A · 2025-07-31 -->
-<div role="article" aria-label="Articol: Responsabilitatea tehnologică — România și șansa unei ecologii inteligente"
+<!-- Entry A · 2025-07-31 VI -->
+<div role="article"
+     aria-label="Articol: Responsabilitatea tehnologică — România și șansa unei ecologii inteligente"
+     aria-description="Eseu despre tranziția digitală și energetică ca proiect de ecologie inteligentă în România"
+     data-summary="Adrian Leonard Mociulschi argumentează în România Liberă că tehnologia trebuie să servească sustenabilitatea și solidaritatea."
+     data-keywords="tehnologie, sustenabilitate, ecologie inteligentă, energie verde, AI, România Liberă, politici publice, criza climatică"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>Responsabilitatea tehnologică: România și șansa unei ecologii inteligente</em>
-  </p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">Responsabilitatea tehnologică: România și șansa unei ecologii inteligente</h2>
   <p style="font-style: italic; color: #555;">Editorial — 31 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că tehnologia nu este doar infrastructură, ci responsabilitate. Articolul argumentează că România are oportunitatea de a transforma tranziția energetică și digitală într-un proiect de ecologie inteligentă, unde inovația servește nu doar eficiența, ci și sustenabilitatea. În contextul crizei climatice și al presiunilor geopolitice, soluțiile nu pot fi fragmentare: ele trebuie să integreze energie verde, inteligență artificială și politici publice orientate spre reducerea amprentei de carbon. Tehnologia devine astfel un instrument de solidaritate, nu doar de profit.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/responsabilitatea-tehnologica-romania-si-sansa-unei-ecologii-inteligente/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/responsabilitatea-tehnologica-romania-si-sansa-unei-ecologii-inteligente/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry B · 2025-07-22 -->
-<div role="article" aria-label="Articol: Zborul între chemare și destin — De la Miorița la Space Oddity"
+<!-- Entry B · 2025-07-22 V -->
+<div role="article"
+     aria-label="Articol: Zborul între chemare și destin — De la Miorița la Space Oddity"
+     aria-description="Eseu despre zborul ca metaforă culturală între mitul mioritic și explorarea spațială"
+     data-summary="Adrian Leonard Mociulschi explorează în România Liberă tensiunea dintre chemare și fatalitate, între Miorița și Major Tom."
+     data-keywords="zbor, Miorița, Space Oddity, Major Tom, România Liberă, mit, astronaut, curaj, destin"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>Zborul între chemare și destin: De la Miorița la Space Oddity</em>
-  </p>
-<p style="font-style: italic; color: #555;">Editorial — 22 Iulie 2025</p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">Zborul între chemare și destin: De la Miorița la Space Oddity</h2>
+  <p style="font-style: italic; color: #555;">Editorial — 22 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că zborul nu este doar o performanță tehnică, ci o metaforă a destinului. Articolul construiește o paralelă între mitul mioritic și figura astronautului Major Tom din „Space Oddity”, explorând tensiunea dintre chemare și fatalitate. Într-o zi dedicată Aviației Române, textul reabilitează simbolic personajul lui Bowie, prezentându-l nu ca pe un aventurier romantic, ci ca pe un profesionist al necunoscutului. Între balada Miorița și cântecul spațial, se conturează o reflecție despre curaj, responsabilitate și fragilitatea umană în fața infinitului.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/zborul-intre-chemare-si-destin-de-la-miorita-la-space-oddity/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/zborul-intre-chemare-si-destin-de-la-miorita-la-space-oddity/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry A · 2025-07-15 -->
-<div role="article" aria-label="Articol: Economia vibrațiilor și vioara societății"
+<!-- Entry A · 2025-07-15 IV -->
+<div role="article"
+     aria-label="Articol: Economia vibrațiilor și vioara societății"
+     aria-description="Eseu despre dinamica socială și metafora muzicală a economiei ca instrument de rezonanță"
+     data-summary="Adrian Leonard Mociulschi propune în România Liberă o viziune simbolică asupra economiei, văzută ca vioară a societății."
+     data-keywords="economie, societate, vioară, vibrații, România Liberă, metaforă muzicală, rezonanță, cultură"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>Economia vibrațiilor și vioara societății</em>
-  </p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">Economia vibrațiilor și vioara societății</h2>
   <p style="font-style: italic; color: #555;">Editorial — 15 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că societatea nu este doar o structură economică, ci un instrument care vibrează. Articolul propune o metaforă muzicală pentru a înțelege dinamica socială: vioara, cu tensiunile și armoniile ei, devine imaginea unei economii bazate pe rezonanță, nu pe simpla acumulare. În locul unei viziuni mecaniciste, textul sugerează că relațiile, fluxurile și deciziile sunt influențate de vibrații simbolice – valori, emoții, ritmuri culturale – care dau sens mișcării colective. Economia nu este doar cifră, ci și sonoritate.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/economia-vibratiilor-si-vioara-societatii/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/economia-vibratiilor-si-vioara-societatii/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry B · 2025-07-09 -->
-<div role="article" aria-label="Articol: De la Heron la AI — Ce ne spune istoria despre viitor"
+<!-- Entry B · 2025-07-09 III -->
+<div role="article"
+     aria-label="Articol: De la Heron la AI — Ce ne spune istoria despre viitor"
+     aria-description="Eseu despre istoria tehnologiei ca spirală culturală, de la Heron la inteligența artificială"
+     data-summary="Adrian Leonard Mociulschi argumentează în România Liberă că AI-ul continuă o tradiție istorică de automatizare și delegare către artefacte."
+     data-keywords="Heron, AI, istoria tehnologiei, automatizare, artefacte, România Liberă, cultură, inovație"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>De la Heron la AI: Ce ne spune istoria despre viitor</em>
-  </p>
-<p style="font-style: italic; color: #555;">Editorial — 09 Iulie 2025</p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">De la Heron la AI: Ce ne spune istoria despre viitor</h2>
+  <p style="font-style: italic; color: #555;">Editorial — 09 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că istoria tehnologiei este o spirală, nu o linie dreaptă. Articolul pornește de la Heron din Alexandria, inventatorul mecanismelor automate din Antichitate, pentru a arăta că fascinația pentru mașini nu este nouă, ci recurentă. De la roata hidraulică la motorul cu aburi, de la calculatorul mecanic la algoritmii de astăzi, progresul nu este doar tehnic, ci cultural: fiecare inovație schimbă felul în care oamenii gândesc, lucrează și își imaginează viitorul. În acest sens, AI-ul nu este o ruptură, ci o continuare a unei lungi tradiții de a delega sarcini către artefacte.</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/de-la-heron-la-ai-ce-ne-spune-istoria-despre-viitor/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/de-la-heron-la-ai-ce-ne-spune-istoria-despre-viitor/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry A · 2025-07-02 -->
-<div role="article" aria-label="Articol: Codul Cetății — Cultura, Moneda și Viitorul Urban"
+<!-- Entry A · 2025-07-02 II -->
+<div role="article"
+     aria-label="Articol: Codul Cetății — Cultura, Moneda și Viitorul Urban"
+     aria-description="Eseu despre reconfigurarea spațiului urban sub influența tehnologiei și economiei digitale"
+     data-summary="Adrian Leonard Mociulschi analizează în România Liberă cum cetatea devine un spațiu algoritmic, între blockchain și cultură."
+     data-keywords="urbanism, cultură, blockchain, monedă digitală, România Liberă, metavers, smart cities, algoritmi"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>Codul Cetății: Cultura, Moneda și Viitorul Urban</em>
-  </p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">Codul Cetății: Cultura, Moneda și Viitorul Urban</h2>
   <p style="font-style: italic; color: #555;">Editorial — 02 Iulie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi consemnează în <em>România Liberă</em> că orașul nu este doar un spațiu fizic, ci un cod cultural. Articolul analizează cum infrastructura urbană se transformă sub presiunea tehnologiilor emergente și a economiei digitale. De la agora antică la metavers, cetatea rămâne un simbol al coexistenței, dar astăzi codurile blockchain și monedele digitale devin noi instrumente de guvernanță. În locul zidurilor, avem rețele; în locul piețelor tradiționale, platforme descentralizate. Viitorul urban nu se reduce la smart cities, ci implică o reconfigurare a sensului: cum se păstrează demnitatea și cultura într-un spațiu algoritmic?</p>
   <p>
-    <a href="https://romanialibera.ro/op-ed/opinii/codul-cetatii-cultura-moneda-si-viitorul-urban/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/op-ed/opinii/codul-cetatii-cultura-moneda-si-viitorul-urban/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
 </div>
 
-<!-- Entry B · 2025-06-25 -->
-<div role="article" aria-label="Articol: Cultura 3.0 — De la Mecenat la Metavers"
+<!-- Entry B · 2025-06-25 I -->
+<div role="article"
+     aria-label="Articol: Cultura 3.0 — De la Mecenat la Metavers"
+     aria-description="Eseu despre tranziția culturală de la mecenat clasic la ecosisteme digitale în Web 3.0"
+     data-summary="Adrian Leonard Mociulschi analizează în România Liberă cum cultura devine infrastructură digitală, între NFT-uri și metavers."
+     data-keywords="cultură, Web 3.0, mecenat, metavers, NFT, blockchain, România Liberă, descentralizare, experiență digitală"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
-    <em>Cultura 3.0: De la Mecenat la Metavers</em>
-  </p>
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">Cultura 3.0: De la Mecenat la Metavers</h2>
   <p style="font-style: italic; color: #555;">Editorial — 25 Iunie 2025</p>
   <p><strong>Sumar —</strong> Adrian Leonard Mociulschi semnează un eseu în <em>România Liberă</em> care arată că valoarea culturii nu mai este doar patrimoniu, ci infrastructură digitală. Articolul analizează tranziția de la mecenatul clasic la ecosistemele culturale din era Web 3.0, unde blockchain, NFT-urile și metaversul devin instrumente de autenticitate și co-creație. În locul unui model bazat pe sponsorizare și centralizare, apare o paradigmă descentralizată, în care artiștii și publicul participă la guvernanța simbolică a culturii. Cultura 3.0 nu înseamnă doar digitalizare, ci o reconfigurare a sensului: de la obiect la experiență, de la colecție la rețea.</p>
   <p>
-    <a href="https://romanialibera.ro/opera-classical-music/cultura-3-0-de-la-mecenat-la-metavers/" target="_blank" rel="noopener noreferrer" style="color:#003366; font-weight:bold; text-decoration:none;">
+    <a href="https://romanialibera.ro/opera-classical-music/cultura-3-0-de-la-mecenat-la-metavers/"
+       target="_blank" rel="noopener noreferrer"
+       title="Citește articolul complet pe România Liberă"
+       hreflang="ro"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
       ➤ Citește articolul pe România Liberă
     </a>
   </p>
@@ -235,7 +312,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-06-25",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/opera-classical-music/cultura-3-0-de-la-mecenat-la-metavers/"
@@ -265,7 +342,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-07-02",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/codul-cetatii-cultura-moneda-si-viitorul-urban/"
@@ -273,7 +350,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi consemnează în România Liberă că orașul nu este doar un spațiu fizic, ci un cod cultural. Articolul analizează cum infrastructura urbană se transformă sub presiunea tehnologiilor emergente și a economiei digitale, explorând viitorul cetății în era blockchain și a monedelor digitale.",
   "keywords": "cetate, cultură urbană, blockchain, monedă digitală, smart cities, guvernanță, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -295,7 +372,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-07-09",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/de-la-heron-la-ai-ce-ne-spune-istoria-despre-viitor/"
@@ -303,7 +380,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi semnează un eseu în România Liberă care arată că istoria tehnologiei este o spirală, nu o linie dreaptă. De la Heron din Alexandria la AI, articolul explorează cum fiecare inovație schimbă felul în care oamenii gândesc, lucrează și își imaginează viitorul.",
   "keywords": "Heron, AI, istoria tehnologiei, automatizare, spirală istorică, artefacte, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -325,7 +402,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-07-15",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/economia-vibratiilor-si-vioara-societatii/"
@@ -333,7 +410,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi consemnează în România Liberă că societatea nu este doar o structură economică, ci un instrument care vibrează. Articolul propune o metaforă muzicală pentru a înțelege dinamica socială: vioara devine imaginea unei economii bazate pe rezonanță, nu pe simpla acumulare.",
   "keywords": "economie simbolică, vibrații, vioară, societate, metaforă muzicală, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -355,7 +432,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-07-22",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/zborul-intre-chemare-si-destin-de-la-miorita-la-space-oddity/"
@@ -363,7 +440,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi semnează un eseu în România Liberă care arată că zborul nu este doar o performanță tehnică, ci o metaforă a destinului. Articolul construiește o paralelă între mitul mioritic și figura astronautului Major Tom din „Space Oddity”, explorând tensiunea dintre chemare și fatalitate.",
   "keywords": "zbor, Miorița, Space Oddity, Major Tom, mit, destin, Aviația Română, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -385,7 +462,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-07-31",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/responsabilitatea-tehnologica-romania-si-sansa-unei-ecologii-inteligente/"
@@ -393,7 +470,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi consemnează în România Liberă că tehnologia nu este doar infrastructură, ci responsabilitate. România are oportunitatea de a transforma tranziția energetică și digitală într-un proiect de ecologie inteligentă, unde inovația servește sustenabilitatea și solidaritatea.",
   "keywords": "responsabilitate tehnologică, ecologie inteligentă, energie verde, AI, sustenabilitate, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -415,7 +492,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-08-06",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/codul-stelelor-inteligenta-artificiala-si-limbajul-cosmic/"
@@ -423,7 +500,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi semnează un eseu în România Liberă care arată că algoritmul nu este doar un instrument, ci o formă de creație. Articolul explorează întâlnirea simbolică dintre Leonardo da Vinci, robotul Sophia și estetica digitală, arătând cum proporțiile lui Fibonacci și armonia matematică devin punți între artă și tehnologie.",
   "keywords": "Codul stelelor, AI, algoritmi, estetică digitală, Fibonacci, Sophia, Leonardo da Vinci, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -445,7 +522,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-08-15",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/arta-algoritmilor-cum-se-intalnesc-leonardo-robotul-sophia-si-economia-digitala/"
@@ -453,7 +530,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi consemnează în România Liberă că algoritmul nu este doar un instrument, ci o formă de creație. Articolul explorează întâlnirea simbolică dintre Leonardo da Vinci, robotul Sophia și estetica digitală, arătând cum proporțiile lui Fibonacci și armonia matematică devin punți între artă și tehnologie.",
   "keywords": "arta algoritmilor, Leonardo da Vinci, Sophia, AI, economie digitală, Fibonacci, estetică digitală, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -475,15 +552,15 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-08-26",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+    "@id": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
   },
   "description": "Adrian Leonard Mociulschi consemnează în România Liberă că automatizarea nu este sfârșitul muncii, ci începutul unei noi ecologii a sensului. Algoritmii nu înlocuiesc omul, ci îi redefineesc rolul într-un ecosistem în care creativitatea și adaptabilitatea devin resurse strategice.",
   "keywords": "automatizare, algoritmi, muncă, AI, ecologie a sensului, viitorul muncii, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -505,7 +582,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-09-03",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/romania-2055-viitorul-ca-prag-intre-trecut-si-posibil/"
@@ -513,7 +590,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi semnează un eseu în România Liberă care arată că între predicție și prezență se află o fereastră – nu spre certitudine, ci spre sens. România ar putea deveni un laborator al tehnologiilor emergente, integrând infrastructuri economice, energetice și culturale sub codul regenerării.",
   "keywords": "România 2055, viitor, tehnologii emergente, AI, infrastructură, cultură, regenerare, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
 
@@ -535,7 +612,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-09-12",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/de-la-tabla-la-blockchain-lectia-pe-care-scoala-nu-o-poate-amana/"
@@ -543,7 +620,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi consemnează în România Liberă că educația, între tablă și blockchain, nu mai este aceeași. Alfabetizarea tehnologică devine vitală, iar lecțiile se extind dincolo de sala de clasă, în ecosisteme hibride unde analogicul și digitalul coexistă.",
   "keywords": "educație digitală, blockchain, Web 3.0, pedagogie, descentralizare, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 
 <!-- JSON-LD · 2025-09-25 -->
@@ -564,7 +641,7 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
     "url": "https://romanialibera.ro"
   },
   "datePublished": "2025-09-25",
-  "dateModified": "2025-10-11",
+  "dateModified": "2025-10-12",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/"
@@ -572,10 +649,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "description": "Adrian Leonard Mociulschi semnează un eseu în România Liberă care transformă un fragment dintr-un motor de căutare într-un cod cultural. Textul reflectă asupra feminismului, reprezentării și codurilor ascunse ale vizibilității algoritmice, pornind de la un snippet neașteptat: “Girl in a Jacket.”",
   "keywords": "feminism, algoritmi, vizibilitate, cod binar, reprezentare, cultură digitală, România Liberă",
   "inLanguage": "ro",
-  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.webp"
 }
 </script>
-
 
 <!--
 Scriptum Digitale — Carmen de Communicatio
