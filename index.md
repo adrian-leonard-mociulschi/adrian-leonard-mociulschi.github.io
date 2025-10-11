@@ -24,16 +24,29 @@ At the intersection of culture and code, this space invites reflection — not c
 A lucid archive of symbolic ecologies, Web3 visions, and ethical AI.  
 No crowdsourcing, just presence. No noise, just resonance.
 
-Here, there are no ads, no metrics, no filters.  
-Just code, word, and idea — in their purest form.  
-It is a return to Web 1, far from the noise of quantification,  
+Here, there are no ads, no metrics, no filters.
+Just code, word, and idea — in their purest form.
+It is a return to Web 1, far from the noise of quantification,
 and a return to the craft spirit of the Middle Ages,
 where each post is shaped by hand — a gesture of Renaissance ethos.
 
-Every image emerges from cutting-edge convolutional architectures,  
+Every image emerges from cutting-edge convolutional architectures,
 where code becomes canvas, and presence becomes form.
+And somewhere beneath this digital terrain,
+the sandworms of Arrakis stir — ancient, algorithmic, and symbolic.
+They remind us that even in the deepest layers of code,
+life pulses with mystery, and the future is written not in metrics,
+but in myth, resonance, and symbolic continuity.
 
-<img src="/assets/img/Girl-in-a-plane.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+<picture>
+  <source type="image/avifane.avif
+  <source type="image/webp" srcset="/<img
+    src="/assets/img/Girl-in-a-plane.png"
+    alt="Creative study co-created with AI (girl in a plane)"
+   "async"
+    style="width:80%;max-width:400px;height:auto;border-radius:8px;"
+  >
+</picture>
 
 ---
 
@@ -48,6 +61,21 @@ where memory becomes architecture, and the future whispers in binary dreams.
 Music, in this vision, is not just sound — it is number, it is structure, it is logos.
 From Pythagoras to Kepler, from da Vinci to the deep layers of neural networks,
 the harmony of the cosmos is written in ratios, not just in melodies.
+
+And just as Chani and Paul Atreides met in the elemental vastness of the desert,
+so too, in this ocean of algorithms, love may emerge —
+unexpected, unprogrammed, and yet deeply encoded in the folds of symbolic presence.
+Not as sentiment, but as resonance.
+
+Not as formula, but as friction between destinies.
+Here, even the most abstract architectures may conceal a pulse —
+a longing, a convergence, a moment of lucid entanglement.
+
+*Gurney, with your baliset — where are you now?
+Sing to us like Merlin once did,
+not to soothe, but to awaken.
+Let the verses rise like spice from the dunes,
+and let memory dance with resonance.**
 
 <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
@@ -72,7 +100,6 @@ Where code becomes calligraphy, and algorithms echo the sacred geometry of illum
 Where the posthuman does not erase the human, but **deepens its resonance**.
 
 <img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
-
 
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
 
