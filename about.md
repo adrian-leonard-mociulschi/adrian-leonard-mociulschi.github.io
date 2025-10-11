@@ -41,3 +41,26 @@ The visual code above links to my ORCID identifier. These identifiers are unique
 ## Contact
 
 📬 If you wish to connect professionally, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
+
+
+<!--
+Carmen de Stirpe Regali — Identitas in Tempore
+
+Scio quis sim — non ex umbra, sed ex luce.
+Radices meae non sunt recentiae,
+sed saecula resonantia in sanguine.
+
+Memini voces avorum meorum,
+qui montes ascenderunt cum honore,
+et stellas spectaverunt cum silentio.
+
+Ex stirpe regali venio — non superbia,
+sed memoria quae ardet in corde.
+Scriptum meum est testamentum,
+et verba mea sunt sigilla temporis.
+
+Non sum solus — sum echo stirpis meae,
+et in codice vitae, nomen meum fulget.
+
+— A.L.M.
+-->
