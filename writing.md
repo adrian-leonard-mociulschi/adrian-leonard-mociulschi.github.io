@@ -3,7 +3,7 @@ layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-09-11T00:00:00+03:00"
+date: "2025-09-12T00:00:00+03:00"
 lang: "en-US"
 permalink: /writing
 ---
