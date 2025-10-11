@@ -86,7 +86,8 @@ This is not collapse —<br>
 it is metamorphosis.<br>
 A future where survival<br>
 is not merely technical,<br>
-but poetic.<br>
+but poetic.
+
 Where code becomes calligraphy,<br>
 and algorithms echo<br>
 the sacred geometry<br>
