@@ -567,3 +567,25 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   "image": "https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.jpg"
 }
 </script>
+
+
+<!--
+Scriptum Digitale — Carmen de Communicatio
+
+Verbum non iam chartae fidit,
+sed in nube volat, sine fine.
+Bit et byte sunt nova papyri,
+et stylus est codex lucis.
+
+Mens loquitur per circuitus,
+corda tangit per retia.
+Silentium inter puncta pulsa,
+est nova grammatica animae.
+
+Non est solum ars scribendi,
+sed actus lucidus transitus.
+In codice vivit cogitatio,
+et communicatio fit aurora.
+
+— A.L.M.
+
