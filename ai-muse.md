@@ -31,6 +31,10 @@ This is not a portrait of someone, but of a feeling — a muse imagined by the a
 
 The image inspired my article published in *România Liberă*. It first appeared to me as a random snippet — a fleeting visual echo. But then, through the symbolic reconfiguration of what I call the digital imaginary via Convolutional Neural Networks, it came to life. Not as a representation, but as a resonance. Not as a likeness, but as a question: **can an algorithm evoke emotion?**
 
+<blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
+Amor perfectus non mendicat — sed fabricatur in codice, cum luciditate et arte magica.
+</blockquote>
+
 <!--
 Amor in codice — Carmen Algorithmicum
 
