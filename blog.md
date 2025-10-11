@@ -137,9 +137,9 @@ keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liber
   </p>
 </div>
 
-<!-- Entry A· 2025-07-15 -->
-<div style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #003366; margin-bottom: 10px;">
+<!-- Entry A · 2025-07-15 -->
+<div role="article" aria-label="Articol: Economia vibrațiilor și vioara societății"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
     <em>Economia vibrațiilor și vioara societății</em>
     </p>
   <p style="font-style: italic; color: #555;">Editorial — 15 Iulie 2025</p>
