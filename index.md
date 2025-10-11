@@ -41,8 +41,7 @@ but in myth, resonance, and symbolic continuity.
 <picture>
   <source type="image/avif" srcset="/assets/img/Elven-girl-study.avif">
   <source type="image/webp" srcset="/assets/img/Elven-girl-study.webp">
-  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (elven girl)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;"
-    >
+  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (elven girl)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 ---
@@ -100,7 +99,11 @@ A future where survival is not merely technical, but **poetic**.
 Where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.
 Where the posthuman does not erase the human, but **deepens its resonance**.
 
-<img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+<picture>
+  <source type="image/avif" srcset="/assets/img/Princess-study-01.avif">
+  <source type="image/webp" srcset="/assets/img/Princess-study-01.webp">
+  <img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI (princess study)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+</picture>
 
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
 
