@@ -24,7 +24,7 @@ At the intersection of culture and code**, this space invites reflection — not
 A lucid archive of symbolic ecologies, Web3 visions, and ethical AI.  
 No crowdsourcing, just presence. No noise, just resonance.
 
-Here, there are **no ads**, no metrics, no filters.  
+Here, there are no ads, no metrics, no filters.  
 Just code, word, and idea — in their purest form.  
 It is a return to Web 1, far from the noise of quantification,  
 and a return to the craft spirit of the Middle Ages,  
