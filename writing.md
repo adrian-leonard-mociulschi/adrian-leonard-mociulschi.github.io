@@ -20,6 +20,15 @@ This collection includes public contributions relevant to my symbolic mission as
 
 ## Recent articles
 
+<picture>
+  <source type="image/avif" srcset="/assets/img/coperta-31-1920x1357.avif">
+  <source type="image/webp" srcset="/assets/img/coperta-31-1920x1357.webp">
+  <img src="/assets/img/coperta-31-1920x1357.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+</picture>
+
+<a href="https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/" target="_blank" rel="noopener noreferrer"><strong>The Future Has No Autopilot — Nine O’Clock</strong></a>
+
+Published on *October 2*, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for **meaningful human control** in an age where speed and certainty collide with conscience.
 
 <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
 ---
@@ -35,34 +44,9 @@ This collection includes public contributions relevant to my symbolic mission as
        style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "The Future Has No Autopilot — Nine O’Clock",
-  "alternativeHeadline": "Editorial Nine O’Clock — October 2, 2025",
-  "author": {
-    "@type": "Person",
-    "name": "Adrian Leonard Mociulschi",
-    "url": "https://www.curteaveche.ro/a/adrian-leonard-mociulschi"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Nine O’Clock",
-    "url": "https://nineoclock.ro"
-  },
-  "datePublished": "2025-10-02",
-  "dateModified": "2025-10-12",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/"
-  },
-  "description": "This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for meaningful human control in an age where speed and certainty collide with conscience.",
-  "keywords": "autonomous systems, ethics, warfare, drones, AI, responsibility, human control, Nine O’Clock",
-  "inLanguage": "en",
-  "image": "https://nineoclock.ro/wp-content/uploads/2025/10/future-no-autopilot-cover.jpg"
-}
-</script>
+<a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer"><strong>The Future Has No Autopilot — Nine O’Clock</strong></a>
+
+Published on *September 27*, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for meaningful human control in an age where speed and certainty collide with conscience.
 
 <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
 ---
