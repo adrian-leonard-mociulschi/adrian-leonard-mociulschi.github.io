@@ -23,7 +23,11 @@ Welcome to AI Muse — a curated space where art meets algorithm. This image is 
 
 <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/" target="_blank" rel="noopener noreferrer"><strong>Girl in a Jacket</strong></a>
 
-<img src="/assets/img/AI-Muse-study-01.png" alt="AI Muse" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
+<picture>
+  <source type="image/avif" srcset="/assets/img/AI-Muse-study-01.avif">
+  <source type="image/webp" srcset="/assets/img/AI-Muse-study-01.webp">
+  <img src="/assets/img/AI-Muse-study-01.png" alt="Creative study co-created with AI (AI Muse study)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+</picture>
 
 This visual artifact explores algorithmic romanticism. The face, framed by wavy hair and piercing blue eyes, emerges from a dark background — a metaphor for presence within the network. The beige jacket, with its raised collar, evokes symbolic protection: a discreet armor in a digital universe.
 
