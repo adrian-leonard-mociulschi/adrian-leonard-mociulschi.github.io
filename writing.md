@@ -30,7 +30,6 @@ This collection includes public contributions relevant to my symbolic mission as
 
 Published on *October 2*, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for **meaningful human control** in an age where speed and certainty collide with conscience.
 
-<br>
 <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
 ---
 
@@ -44,7 +43,6 @@ Published on *October 2*, 2025, this article examines the ethical and strategic 
 
 Published on *September 27*, 2025, this article analyzes how algorithms reshape online visibility, influence political discourse within the European Union, and challenge the ethics of the attention economy. It explores the need for transparency and advocates for a human-centered approach to digital presence.
 
-<br>
 <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
 ---
 
