@@ -48,12 +48,15 @@ Published on September 27, 2025, this article analyzes how algorithms reshape on
 
 ---
 
-<img src="/assets/img/Adrian_Leonard_Mociulschi2494171.jpg" 
-     alt="Illustration for the 25/08/13 Nine O'Clock article." 
-     style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
-     loading="lazy" decoding="async">
+<picture>
+  <source type="image/avif" srcset="/assets/img/Adrian_Leonard_Mociulschi2494171.avif">
+  <source type="image/webp" srcset="/assets/img/Adrian_Leonard_Mociulschi2494171.webp">
+  <img src="/assets/img/Adrian_Leonard_Mociulschi2494171.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+</picture>
 
-<a href="https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi" target="_blank" rel="noopener noreferrer"><strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong></a>
+<a href="https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi" target="_blank" rel="noopener noreferrer">
+
+  <strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong></a>
 
 Published on August 13, 2025, this article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
 
