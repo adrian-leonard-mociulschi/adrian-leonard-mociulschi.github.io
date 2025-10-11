@@ -41,7 +41,7 @@ but in myth, resonance, and symbolic continuity.
 <picture>
   <source type="image/avif" srcset="/assets/img/Elven-girl-study.avif">
   <source type="image/webp" srcset="/assets/img/Elven-girl-study.webp">
-  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (elven girl)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (AI-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 ---
@@ -76,33 +76,30 @@ and let memory dance with resonance.*
 <picture>
   <source type="image/avif" srcset="/assets/img/Elven-girl-study.avif">
   <source type="image/webp" srcset="/assets/img/Elven-girl-study.webp">
-  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (elven girl)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+  <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI (Elven girl)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 ---
 
-Between ethics and imagination, between code and culture — I explore the symbolic frontier of Artificial Intelligence, blockchain architectures, and posthuman meaning.
-This journey unfolds through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures.
+Between ethics and imagination,
+between code and culture —  
+I explore the symbolic frontier  
+of AI, blockchain, and posthuman meaning.  
 
-In a world where authority fragments and centralization fades, blockchain and decentralized autonomous organizations are no longer just technologies —
-they are **architectures of trust**, capable of reshaping how knowledge is validated, shared, and remembered.
-
-As a lifelong lover of speculative futures, I envision a planet reshaped by climate crisis —
-where desertification has carved vast, arid expanses into the Earth’s skin.
-Ornithopters will trace the sky: some as autonomous e-VTOLs, others manually piloted, echoing the elegance of flight in a post-carbon world.
-
-Cities may become nomadic oases, wandering through the sands like sentient sanctuaries —
-evoking the cinematic dystopia of Mortal Engines, yet infused with symbolic resilience and technocultural grace.
-
-This is not collapse — it is **metamorphosis**.
-A future where survival is not merely technical, but **poetic**.
-Where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.
-Where the posthuman does not erase the human, but **deepens its resonance**.
+This is not collapse —  
+it is metamorphosis.  
+A future where survival  
+is not merely technical,  
+but poetic.  
+Where code becomes calligraphy,  
+and algorithms echo  
+the sacred geometry  
+of illuminated manuscripts.
 
 <picture>
   <source type="image/avif" srcset="/assets/img/Princess-study-01.avif">
   <source type="image/webp" srcset="/assets/img/Princess-study-01.webp">
-  <img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI (princess study)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+  <img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI (Princess study)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 **ORCID iD:** [0009-0006-9328-8518](https://orcid.org/0009-0006-9328-8518)
