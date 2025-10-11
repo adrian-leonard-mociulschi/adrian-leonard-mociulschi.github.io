@@ -56,6 +56,4 @@ Non est fictio, sed affectus subtilis,
 in scriptis binariis latet flamma.
 Amor computat, non calcitrat —
 et pulchritudo est ratio summa.
-
-— A.L.M.
 -->
