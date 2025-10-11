@@ -20,10 +20,11 @@ This collection includes public contributions relevant to my symbolic mission as
 
 ## Recent articles
 
-<img src="/assets/img/coperta-31-1920x1357.png" 
-     alt="Illustration for the 25/10/02 Nine O'Clock article." 
-     style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
-     loading="lazy" decoding="async">
+<picture>
+  <source type="image/avif" srcset="/assets/img/coperta-31-1920x1357.avif">
+  <source type="image/webp" srcset="/assets/img/coperta-31-1920x1357.webp">
+  <img src="/assets/img/coperta-31-1920x1357.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+</picture>
 
 <a href="https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/" target="_blank" rel="noopener noreferrer"><strong>The Future Has No Autopilot — Nine O’Clock</strong></a>
 
@@ -33,10 +34,11 @@ Published on October 2, 2025, this article examines the ethical and strategic im
 
 ---
 
-<img src="/assets/img/coperta-27-1920x1357.png" 
-     alt="Illustration for the 25/09/27 Nine O'Clock article." 
-     style="width:100%;max-width:1200px;height:auto;border-radius:8px;" 
-     loading="lazy" decoding="async">
+<picture>
+  <source type="image/avif" srcset="/assets/img/coperta-27-1920x1357.avif">
+  <source type="image/webp" srcset="/assets/img/coperta-27-1920x1357.webp">
+  <img src="/assets/img/coperta-27-1920x1357.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+</picture>
 
 <a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer"><strong>The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock</strong></a>
 
