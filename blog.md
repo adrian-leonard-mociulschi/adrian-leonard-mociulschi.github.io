@@ -586,6 +586,4 @@ Non est solum ars scribendi,
 sed actus lucidus transitus.
 In codice vivit cogitatio,
 et communicatio fit aurora.
-
-— A.L.M.
-
+-->
