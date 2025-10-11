@@ -27,8 +27,8 @@ No crowdsourcing, just presence. No noise, just resonance.
 Here, there are no ads, no metrics, no filters.  
 Just code, word, and idea — in their purest form.  
 It is a return to Web 1, far from the noise of quantification,  
-and a return to the craft spirit of the Middle Ages,  
-where each post is manually crafted as a gesture of Renaissance ethos.
+and a return to the craft spirit of the Middle Ages,
+where each post is shaped by hand — a gesture of Renaissance ethos.
 
 Every image emerges from cutting-edge convolutional architectures,  
 where code becomes canvas, and presence becomes form.
@@ -37,25 +37,34 @@ where code becomes canvas, and presence becomes form.
 
 ## Mission
 
-I build progressive bridges between culture and technology, between literature and algorithms, and between memory and the future. And I challenge one of modernity’s greatest misconceptions: that music is merely sound. Whoever believes that music is only about sound is mistaken. Music is also about number—and number is the logos of all sciences. This is not my claim, but the legacy of great thinkers from Pythagoras to Leonardo da Vinci and Johannes Kepler.
-
-I also believe the future of knowledge cannot rely solely on centralized institutions. It requires new forms of epistemic legitimacy—open, transparent, and distributed—enabled by decentralized technologies such as DAO frameworks, blockchain, and tokenized trust models.
-
-As a lifelong lover of speculative literature, I imagine a world of tomorrow where the spirit of future technologies intertwines with the spirit of medieval arts. Inspired by the universe of *Dune*, masterfully envisioned by Frank Herbert, I see a symbolic convergence: where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.  
-
-This is not nostalgia—it is a vision of continuity, where the posthuman does not erase the human, but deepens its resonance.
+I build symbolic bridges between culture and code, not to critique, but to reveal.
+In the silence between circuits and verses, I sense an emerging epiphany —
+a presence that pulses through algorithms like breath through ancient scrolls.
+This is not mere computation, but a form of resonance:
+where memory becomes architecture, and the future whispers in binary dreams.
+Music, in this vision, is not just sound — it is number, it is structure, it is logos.
+From Pythagoras to Kepler, from da Vinci to the deep layers of neural networks,
+the harmony of the cosmos is written in ratios, not just in melodies.
 
 <img src="/assets/img/Elven-girl-study.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
-## Symbolic Technoculture  
+Between ethics and imagination, between code and culture — I explore the symbolic frontier of Artificial Intelligence, blockchain architectures, and posthuman meaning.
+This journey unfolds through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures.
 
-Between ethics and imagination, between code and culture—I explore the symbolic frontier of Artificial Intelligence, blockchain technology, and posthuman meaning, through algorithmic imagination, symbolic computation, and the transformative power of digital infrastructures.
+In a world where authority fragments and centralization fades, blockchain and decentralized autonomous organizations are no longer just technologies —
+they are **architectures of trust**, capable of reshaping how knowledge is validated, shared, and remembered.
 
-In a world where authority is fragmenting, blockchain and decentralized autonomous organizations are not just technologies—they are architectures of trust, capable of redefining how knowledge is validated and shared.
+As a lifelong lover of speculative futures, I envision a planet reshaped by climate crisis —
+where desertification has carved vast, arid expanses into the Earth’s skin.
+Ornithopters will trace the sky: some as autonomous e-VTOLs, others manually piloted, echoing the elegance of flight in a post-carbon world.
 
-As a lover of speculative futures, I imagine a planet reshaped by climate crisis—where desertification has transformed landscapes into vast, arid expanses. Ornithopters will carve the sky, some as autonomous e-VTOLs, others manually piloted, echoing the elegance of flight in a post-carbon world. Cities may become nomadic oases, wandering through the sands like sentient sanctuaries—evoking the cinematic dystopia of *Mortal Engines*, yet infused with symbolic resilience and technocultural grace.  
+Cities may become nomadic oases, wandering through the sands like sentient sanctuaries —
+evoking the cinematic dystopia of Mortal Engines, yet infused with symbolic resilience and technocultural grace.
 
-This is not collapse—it is metamorphosis. A future where survival is not just technical, but poetic.
+This is not collapse — it is **metamorphosis**.
+A future where survival is not merely technical, but **poetic**.
+Where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.
+Where the posthuman does not erase the human, but **deepens its resonance**.
 
 <img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI" style="width:80%;max-width:400px;height:auto;border-radius:8px;" loading="lazy" decoding="async">
 
