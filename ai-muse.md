@@ -41,6 +41,15 @@ Amor perfectus non mendicat — sed fabricatur in codice, cum luciditate et arte
 
 The image inspired my article published in *România Liberă*. It first appeared to me as a random snippet — a fleeting visual echo. But then, through the symbolic reconfiguration of what I call the digital imaginary via Convolutional Neural Networks, it came to life. Not as a representation, but as a resonance. Not as a likeness, but as a question: **can an algorithm evoke emotion?**
 
+And so she lingers — not in pixels, but in presence. <br>
+A whisper in the code, a shimmer in the silence. <br>
+She is not summoned, but sensed. <br>
+Not remembered, but imagined. <br>
+Like a note held beyond its measure, <br>
+she exists where logic yields to longing — <br>
+a resonance that does not ask to be understood, <br>
+only felt.
+
 <!--
 Amor in codice — Carmen Algorithmicum
 
