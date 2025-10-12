@@ -97,6 +97,7 @@ Published on *August 13*, 2025, this article investigates the concept of algorit
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
         "datePublished": "2025-10-02",
+        "dateModified": "2025-10-12",
         "description": "An essay on ethical autonomy and human control in warfare and AI systems.",
         "keywords": "autonomous systems, ethics, warfare, drones, AI, responsibility, human control"
       },
@@ -109,6 +110,7 @@ Published on *August 13*, 2025, this article investigates the concept of algorit
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
         "datePublished": "2025-09-27",
+        "dateModified": "2025-10-12",
         "description": "A reflection on algorithmic visibility, symbolic presence, and ethical design in digital systems.",
         "keywords": "algorithms, ethics, visibility, symbolic presence, digital culture"
       },
@@ -121,6 +123,7 @@ Published on *August 13*, 2025, this article investigates the concept of algorit
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
         "datePublished": "2025-08-13",
+        "dateModified": "2025-10-12",
         "description": "An exploration of algorithms as dynamic entities shaping coexistence and symbolic infrastructures.",
         "keywords": "algorithms, coexistence, symbolic systems, technoculture, digital ethics"
       }
