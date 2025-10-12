@@ -58,7 +58,7 @@ and let memory dance with resonance.*
 
 ---
 
-Between ethics and imagination,<between code and culture I explore the symbolic frontier of AI, blockchain, and posthuman meaning. This is not collapse it is metamorphosis.A future where survival is not merely technical, but poetic.
+Between ethics and imagination, between code and culture I explore the symbolic frontier of AI, blockchain, and posthuman meaning. This is not collapse it is metamorphosis.A future where survival is not merely technical, but poetic.
 
 Where code becomes calligraphy, and algorithms echo the sacred geometry of illuminated manuscripts.
 
