@@ -64,6 +64,7 @@ The visual code above links to my ORCID identifier. These identifiers are unique
     "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
     "https://nineoclock.ro/tag/adrian-leonard-mociulschi/",
     "https://revistacultura.ro/author/leonard/",
+    "https://romanialibera.ro/author/adrian-mociulschi/",
     "https://www.contributors.ro/author/adrian-leonard-mociulschi",
     "https://orcid.org/0000-0000-0000-0000"
   ],
@@ -72,7 +73,7 @@ The visual code above links to my ORCID identifier. These identifiers are unique
     "@type": "Organization",
     "name": "Bucharest National University of Music"
   },
-  "description": "Adrian Leonard Mociulschi is a Romanian author and researcher exploring technoculture, symbolic infrastructures, and ethical AI through essays and editorial writing.",
+  "description": "Adrian Leonard Mociulschi is a Romanian academic, author and researcher exploring technoculture, symbolic    infrastructures, and ethical AI through essays and editorial writing.",
   "nationality": "Romanian",
   "knowsAbout": ["Technoculture", "Ethics of AI", "Symbolic Systems", "Digital Humanities"],
   "gender": "Male",
