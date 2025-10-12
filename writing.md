@@ -44,7 +44,7 @@ Published on *October 2*, 2025, this article examines the ethical and strategic 
        style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
 
-<a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer"><strong>The Future Has No Autopilot — Nine O’Clock</strong></a>
+<a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer"><strong>The Murmur of Code: On the Ethics of Algorithmic Presence</strong></a>
 
 Published on *September 27*, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for meaningful human control in an age where speed and certainty collide with conscience.
 
@@ -137,21 +137,21 @@ Published on *August 13*, 2025, this article investigates the concept of algorit
     "url": "https://adrian-leonard-mociulschi.github.io",
     "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg",
     "sameAs": [
-    "https://orcid.org/0009-0006-9328-8518"
-    "https://revistacultura.ro/author/leonard/"
-    "https://romanialibera.ro/author/adrian-mociulschi/"
-    "https://unmb.academia.edu/AdrianMociulschi"
-    "https://www.contributors.ro/author/adrian-leonard-mociulschi/"
-    "https://www.curteaveche.ro/a/adrian-leonard-mociulschi"
-    "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html"
-    "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
+    "https://orcid.org/0009-0006-9328-8518",
+    "https://revistacultura.ro/author/leonard/",
+    "https://romanialibera.ro/author/adrian-mociulschi/",
+    "https://unmb.academia.edu/AdrianMociulschi",
+    "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
+    "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
+    "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
+    "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
     "https://www.unmb.ro/profesor/mociulschi-adrian/"
     ],
     "jobTitle": "University Lecturer, Author",
     "affiliation": {
       "@type": "Organization",
       "@id": "https://www.unmb.ro/#org",
-      "name": "National University of Music Bucharest",
+      "name": "Universitatea Națională de Muzică București (UNMB)",
       "url": "https://www.unmb.ro/"
     }
   }
