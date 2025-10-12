@@ -150,7 +150,9 @@ Published on *August 13*, 2025, this article investigates the concept of algorit
     "jobTitle": "University Lecturer, Author",
     "affiliation": {
       "@type": "Organization",
-      "name": "National University of Music Bucharest"
+      "@id": "https://www.unmb.ro/#org",
+      "name": "National University of Music Bucharest",
+      "url": "https://www.unmb.ro/"
     }
   }
 ]
