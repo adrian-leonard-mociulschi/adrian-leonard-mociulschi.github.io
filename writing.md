@@ -137,14 +137,15 @@ Published on *August 13*, 2025, this article investigates the concept of algorit
     "url": "https://adrian-leonard-mociulschi.github.io",
     "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg",
     "sameAs": [
-      "https://orcid.org/0009-0006-9328-8518",
-      "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
-      "https://romanialibera.ro/author/adrian-mociulschi",
-      "https://www.contributors.ro/author/adrian-leonard-mociulschi",
-      "https://revistacultura.ro/author/leonard",
-      "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
-      "https://unmb.academia.edu/AdrianMociulschi",
-      "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html"
+    "https://orcid.org/0009-0006-9328-8518"
+    "https://revistacultura.ro/author/leonard/"
+    "https://romanialibera.ro/author/adrian-mociulschi/"
+    "https://unmb.academia.edu/AdrianMociulschi"
+    "https://www.contributors.ro/author/adrian-leonard-mociulschi/"
+    "https://www.curteaveche.ro/a/adrian-leonard-mociulschi"
+    "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html"
+    "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi"
+    "https://www.unmb.ro/profesor/mociulschi-adrian/"
     ],
     "jobTitle": "University Lecturer, Author",
     "affiliation": {
