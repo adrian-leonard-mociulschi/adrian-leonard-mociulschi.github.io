@@ -62,57 +62,94 @@ Published on *September 27*, 2025, this article examines the ethical and strateg
 Published on *August 13*, 2025, this article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "@id": "https://adrian-leonard-mociulschi.github.io/writing",
-  "url": "https://adrian-leonard-mociulschi.github.io/writing",
-  "name": "Writings by Adrian Leonard Mociulschi",
-  "headline": "Symbolic Writings on Technoculture and Ethical AI",
-  "description": "A curated selection of essays and articles by Adrian Leonard Mociulschi, exploring technoculture, ethical AI, and symbolic infrastructures.",
-  "inLanguage": "en-US",
-  "isPartOf": {
-    "@id": "https://adrian-leonard-mociulschi.github.io/#website"
-  },
-  "about": {
-    "@id": "https://adrian-leonard-mociulschi.github.io/#person"
-  },
-  "mainEntity": [
-    {
-      "@type": "Article",
-      "headline": "The Future Has No Autopilot",
-      "url": "https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/",
-      "author": {
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
-      },
-      "datePublished": "2025-10-02",
-      "description": "An essay on ethical autonomy and human control in warfare and AI systems.",
-      "keywords": "autonomous systems, ethics, warfare, drones, AI, responsibility, human control"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://adrian-leonard-mociulschi.github.io/writing",
+    "url": "https://adrian-leonard-mociulschi.github.io/writing",
+    "name": "Writings by Adrian Leonard Mociulschi",
+    "headline": "Symbolic Writings on Technoculture and Ethical AI",
+    "description": "A curated selection of essays and articles by Adrian Leonard Mociulschi, exploring technoculture, ethical AI, and symbolic infrastructures.",
+    "inLanguage": "en-US",
+    "image": "https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/writing"
     },
-    {
-      "@type": "Article",
-      "headline": "The Murmur of Code: On the Ethics of Algorithmic Presence",
-      "url": "https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/",
-      "author": {
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
-      },
-      "datePublished": "2025-09-27",
-      "description": "A reflection on algorithmic visibility, symbolic presence, and ethical design in digital systems.",
-      "keywords": "algorithms, ethics, visibility, symbolic presence, digital culture"
+    "isPartOf": {
+      "@id": "https://adrian-leonard-mociulschi.github.io/#website"
     },
-    {
-      "@type": "Article",
-      "headline": "Algorithms as Living Forms: Rethinking Coexistence in a World of Code",
-      "url": "https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi",
-      "author": {
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+    "about": {
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+    },
+    "publisher": {
+      "@type": "Person",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+    },
+    "mainEntity": [
+      {
+        "@type": "Article",
+        "headline": "The Future Has No Autopilot",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png",
+        "url": "https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/",
+        "author": {
+          "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+        },
+        "datePublished": "2025-10-02",
+        "description": "An essay on ethical autonomy and human control in warfare and AI systems.",
+        "keywords": "autonomous systems, ethics, warfare, drones, AI, responsibility, human control"
       },
-      "datePublished": "2025-08-13",
-      "description": "An exploration of algorithms as dynamic entities shaping coexistence and symbolic infrastructures.",
-      "keywords": "algorithms, coexistence, symbolic systems, technoculture, digital ethics"
+      {
+        "@type": "Article",
+        "headline": "The Murmur of Code: On the Ethics of Algorithmic Presence",
+        "url": "https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/09/coperta-27-1920x1357.png",
+        "author": {
+          "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+        },
+        "datePublished": "2025-09-27",
+        "description": "A reflection on algorithmic visibility, symbolic presence, and ethical design in digital systems.",
+        "keywords": "algorithms, ethics, visibility, symbolic presence, digital culture"
+      },
+      {
+        "@type": "Article",
+        "headline": "Algorithms as Living Forms: Rethinking Coexistence in a World of Code",
+        "url": "https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg",
+        "author": {
+          "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+        },
+        "datePublished": "2025-08-13",
+        "description": "An exploration of algorithms as dynamic entities shaping coexistence and symbolic infrastructures.",
+        "keywords": "algorithms, coexistence, symbolic systems, technoculture, digital ethics"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://adrian-leonard-mociulschi.github.io",
+    "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg",
+    "sameAs": [
+      "https://orcid.org/0009-0006-9328-8518",
+      "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
+      "https://romanialibera.ro/author/adrian-mociulschi",
+      "https://www.contributors.ro/author/adrian-leonard-mociulschi",
+      "https://revistacultura.ro/author/leonard",
+      "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
+      "https://unmb.academia.edu/AdrianMociulschi",
+      "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html"
+    ],
+    "jobTitle": "University Lecturer, Author",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "National University of Music Bucharest"
     }
-  ]
-}
+  }
+]
 </script>
 
 <!-- Link to go back to top -->
