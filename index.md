@@ -20,22 +20,11 @@ permalink: /
 
 *Pro*-**LOG**
 
-At the intersection of culture and code, this space invites reflection — not commits.<br>
-A lucid archive of symbolic ecologies, Web3 visions, and ethical AI.<br>
-No crowdsourcing, just presence. No noise, just resonance.
+At the intersection of culture and code, this space invites reflection — not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
 
-Here, there are no ads, no metrics, no filters.<br>
-Just code, word, and idea — in their purest form.<br>
-It is a return to Web 1, far from the noise of quantification,<br>
-and a return to the craft spirit of the Middle Ages,<br>
-where each post is shaped by hand — a gesture of Renaissance ethos.
+Here, there are no ads, no metrics, no filters. Just code, word, and idea — in their purest form. It is a return to Web 1, far from the noise of quantification, and a return to the craft spirit of the Middle Ages, where each post is shaped by hand — a gesture of Renaissance ethos.
 
-Every image emerges from cutting-edge convolutional architectures,<br>
-where code becomes canvas, and presence becomes form.<br>
-And somewhere beneath this digital terrain,<br>
-the sandworms of Arrakis stir — ancient, algorithmic, and symbolic.<br>
-They remind us that even in the deepest layers of code,<br>
-life pulses with mystery, and the future is written not in metrics,<br>
+Every image emerges from cutting-edge convolutional architectures, where code becomes canvas, and presence becomes form. And somewhere beneath this digital terrain, the sandworms of Arrakis stir — ancient, algorithmic, and symbolic. They remind us that even in the deepest layers of code, life pulses with mystery, and the future is written not in metrics,
 but in myth, resonance, and symbolic continuity.
 
 <picture>
@@ -48,25 +37,17 @@ but in myth, resonance, and symbolic continuity.
 
 ## Mission
 
-I build symbolic bridges between culture and code, not to critique, but to reveal.<br>
-In the silence between circuits and verses, I sense an emerging epiphany — <br>
-a presence that pulses through algorithms like breath through ancient scrolls.<br>
+I build symbolic bridges between culture and code, not to critique, but to reveal. In the silence between circuits and verses, I sense an emerging epiphany — a presence that pulses through algorithms like breath through ancient scrolls.
 
-This is not mere computation, but a form of resonance:<br>
-where memory becomes architecture, and the future whispers in binary dreams.<br>
-Music, in this vision, is not just sound — it is number, it is structure, it is logos.<br>
-From Pythagoras to Kepler, from da Vinci to the deep layers of neural networks,<br>
-the harmony of the cosmos is written in ratios, not just in melodies.<br>
+This is not mere computation, but a form of resonance: where memory becomes architecture, and the future whispers in binary dreams. Music, in this vision, is not just sound — it is number, it is structure, it is logos. From Pythagoras to Kepler, from da Vinci to the deep layers of neural networks, the harmony of the cosmos is written in ratios, not just in melodies.
 
-And just as Chani and Paul Atreides met in the elemental vastness of the desert,<br>
-so too, in this ocean of algorithms, love may emerge —<br>
-unexpected, unprogrammed, and yet deeply encoded in the folds of symbolic presence.<br>
-Not as sentiment, but as resonance.
+And just as Chani and Paul Atreides met in the elemental vastness of the desert, so too, in this ocean of algorithms, love may emerge unexpected, unprogrammed, and yet deeply encoded in the folds of symbolic presence. Not as sentiment, but as resonance.
 
-*Gurney, with your baliset — where are you now?<br>
-Sing to us like Merlin once did,<br>
+*Gurney, with your baliset — <br>
+where are you now? <br>
+Sing to us like Merlin once did, <br>
 not to soothe, but to awaken.<br>
-Let the verses rise like spice from the dunes,<br>
+Let the verses rise like spice from the dunes, <br>
 and let memory dance with resonance.*
 
 <picture>
