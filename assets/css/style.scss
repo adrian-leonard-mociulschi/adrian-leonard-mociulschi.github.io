@@ -2,13 +2,13 @@
   display: none !important; 
 }
 
-/* Curăță orice pseudo-element din footer (linkuri, imagini, span-uri etc.) */
+/* --- Remove any pseudo-elements from the footer, such as links, images, and spans.--- */
 .site-footer *:hover::before,
 .site-footer *:hover::after {
   content: none !important;
 }
 
-<!-- ✅ CSS to align the badge to the right in the footer -->
+/* --- CSS is needed to align the badge to the right in the footer. --- */
 .rss-validator {
   float: right;
   margin-right: 10px;
