@@ -37,7 +37,7 @@ This platform is an online archive and research tool that delves into complex id
 **Adrian Leonard Mociulschi — Official Photo**
 <picture>
   <source type="image/avif" srcset="/assets/img/Adrian-Leonard-Mociulschi.avif">
-  <source type="image/webp" srcset="/assets/img/AAdrian-Leonard-Mociulschi.webp">
+  <source type="image/webp" srcset="/assets/img/Adrian-Leonard-Mociulschi.webp">
   <img src="/assets/img/Adrian-Leonard-Mociulschi.png" alt="Official Photo of Adrian Leonard Mociulschi" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
@@ -66,12 +66,12 @@ The visual code above links to my ORCID identifier. These identifiers are unique
     "https://revistacultura.ro/author/leonard/",
     "https://romanialibera.ro/author/adrian-mociulschi/",
     "https://www.contributors.ro/author/adrian-leonard-mociulschi",
-    "https://orcid.org/0000-0000-0000-0000"
+    "https://orcid.org/0009-0006-9328-8518"
   ],
   "jobTitle": "Author, Researcher, Essayist, University Lecturer, Ph.D.",
   "affiliation": {
     "@type": "Organization",
-    "name": "Bucharest National University of Music"
+    "name": "Universitatea Națională de Muzică București (UNMB)"
   },
   "description": "Adrian Leonard Mociulschi is a Romanian academic, author and researcher exploring technoculture, symbolic    infrastructures, and ethical AI through essays and editorial writing.",
   "nationality": "Romanian",
