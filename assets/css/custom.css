@@ -1,4 +1,4 @@
-/* --- Footer: elimină sublinierea și baseline-ul sub imagini --- */
+/* --- Footer: Remove the underline and baseline from under images. --- */
 .site-footer a,
 .site-footer a:hover,
 .site-footer a:focus {
@@ -16,17 +16,17 @@
   text-decoration: none;
 }
 
-/* imaginea din link devine block, ca să nu mai “moștenească” baseline-ul */
+/* --- The image in the link becomes a block, which means it no longer "inherits" the baseline. --- */
 .site-footer a img {
   display: block;
 }
 
-/* linie de bază zero pentru link (nu mai rămâne nimic de subliniat) */
+/* --- There is a zero baseline for the link, so there is nothing left to underline. --- */
 .site-footer a {
   line-height: 0;
 }
 
-/* opțional: curăță orice pseudo-elemente decorative injectate de temă */
+/* --- Optional: Remove any pseudo-decorative elements that were injected by the theme. --- */
 footer.site-footer::before,
 footer.site-footer::after,
 footer.site-footer a::before,
