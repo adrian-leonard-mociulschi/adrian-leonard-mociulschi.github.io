@@ -20,7 +20,7 @@ permalink: /
 
 <div style="text-align:center;">
   <iframe width="720" height="405" src="https://www.youtube.com/embed/Lvft-iMmYNY" 
-    title="RSS Clip by Adrian Leonard Mociulschi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    title="Clip by Adrian Leonard Mociulschi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen style="border-radius:12px;">
   </iframe>
 </div>
