@@ -18,6 +18,11 @@ permalink: /
 
 ## Welcome to my GitHub
 
+<video width="100%" controls style="border-radius:12px;max-width:720px;margin:auto;display:block;">
+  /assets/video/rss.mp4
+  Your browser does not support the video tag.
+</video>
+
 *Pro*-**LOG**
 
 At the intersection of culture and code, this space invites reflection — not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
