@@ -6,8 +6,8 @@ description: "Official updates by Adrian Leonard Mociulschi: essays, op-eds, and
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-12T00:00:00+03:00"
 lang: "en-US"
-permalink: /blog
 keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liberă, op-ed, algorithmic culture, gender equality, representation, technoculture"
+permalink: /blog
 ---
 
 
