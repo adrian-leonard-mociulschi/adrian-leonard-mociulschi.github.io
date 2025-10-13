@@ -2,11 +2,12 @@
 layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
+description: "A weekly gallery of AI-generated portraits — where art meets algorithm and imagination becomes visible."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-12T00:00:00+03:00"
-permalink: /ai-muse
 lang: "en-US"
-description: "A weekly gallery of AI-generated portraits — where art meets algorithm and imagination becomes visible."
+keywords: "Adrian Leonard Mociulschi, AI Muse, algorithmic art, digital aesthetics, neural networks, symbolic portrait, technoculture, Romania, creative AI, Girl in a Jacket"
+permalink: /ai-muse
 ---
 
 [Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
