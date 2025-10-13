@@ -18,6 +18,13 @@ permalink: /
 
 ## Welcome to my GitHub
 
+<div style="text-align:center;">
+  <iframe src="https://player.vimeo.com/video/1126958157?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+    width="720" height="405" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" title="RSS" style="border-radius:12px;">
+  </iframe>
+</div>
+
 *Pro*-**LOG**
 
 At the intersection of culture and code, this space invites reflection — not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
