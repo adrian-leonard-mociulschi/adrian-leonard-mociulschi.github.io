@@ -29,7 +29,6 @@ Welcome to *Chronicles in Motion* — a curated space where memory becomes motio
   </p>
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
     https://www.youtube.com/embed/MXrgyl5H7Ag
-    </iframe>
   </div>
 </section>
 
