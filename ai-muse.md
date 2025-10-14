@@ -32,8 +32,7 @@ Welcome to *Chronicles in Motion* — a curated space where memory becomes motio
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-Amor perfectus non mendicat — sed fabricatur in codice, cum luciditate et arte magica.<br>
-“Perfect love does not beg — it is forged in code, with lucidity and magical art.”<br>
+Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se ad revelationem arcani.<br>
 — Eryndor Valen, the Elven Sage of Lórien Archives
 </blockquote>
 
