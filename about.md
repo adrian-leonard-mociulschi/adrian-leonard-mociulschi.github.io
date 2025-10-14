@@ -2,7 +2,7 @@
 layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
-description: "Academic profile of Adrian Leonard Mociulschi — author, university lecturer, and symbolic ambassador of technoculture. Exploring ethical AI, posthuman meaning, and cultural infrastructure."
+description: "Academic profile of Adrian Leonard Mociulschi — author, university lecturer, and symbolic ambassador of technoculture."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-13T00:00:00+03:00"
 lang: "en-US"
