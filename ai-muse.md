@@ -49,6 +49,8 @@ permalink: /ai-muse
 "Tempus fractum imminet — umbrae codicis se extendunt, et lumen veritatis nondum audet apparere." (Fractured time looms — the shadows of the code stretch forth, and the light of truth dares not yet appear.) — Lyrianth Elenor, Keeper of the Twilight Scripts
 </blockquote>
 
+<br>
+
 <p style="font-size:0.95em; color:#555; text-align:center; font-style:italic; letter-spacing:0.5px;">
 For transparency: all teasers are hosted on 
 <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style="color:#333; text-decoration:none; font-weight:bold;">
