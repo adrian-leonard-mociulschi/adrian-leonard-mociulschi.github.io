@@ -22,15 +22,10 @@ Welcome to *Chronicles in Motion* — a curated space where memory becomes motio
 
 ---
 
-<section style="text-align: center; padding: 2em;">
-  <h2 style="font-family: 'Georgia', serif; font-size: 2em; margin-bottom: 0.5em;">A Name, A Chronicle, A Presence</h2>
-  <p style="font-family: 'Georgia', serif; font-size: 1em; color: #555; margin-bottom: 2em;">
-    A symbolic teaser by Adrian Leonard Mociulschi — echoing memory, honor, and digital presence.
-  </p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-    https://www.youtube.com/embed/MXrgyl5H7Ag
-  </div>
-</section>
+
+<iframe width="560" height="315" 
+        https://www.youtube.com/embed/MXrgyl5H7Ag
+</iframe>
 
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
