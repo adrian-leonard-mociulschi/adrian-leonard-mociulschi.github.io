@@ -18,14 +18,6 @@ permalink: /ai-muse
 <p><em>An aesthetic statement</em></p>
 
 <p>Welcome to <strong>Chronicles in Motion</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, honor, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
-
-<p style="font-size:0.95em; color:#555; text-align:center; font-style:italic; letter-spacing:0.5px;">
-For transparency: all teasers are hosted on 
-<a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style="color:#333; text-decoration:none; font-weight:bold;">
-YouTube
-</a>.
-</p>
-
                                               
 ---
 <!-- Container 16:9 -->
@@ -56,6 +48,13 @@ YouTube
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
 "Tempus fractum imminet — umbrae codicis se extendunt, et lumen veritatis nondum audet apparere." (Fractured time looms — the shadows of the code stretch forth, and the light of truth dares not yet appear.) — Lyrianth Elenor, Keeper of the Twilight Scripts
 </blockquote>
+
+<p style="font-size:0.95em; color:#555; text-align:center; font-style:italic; letter-spacing:0.5px;">
+For transparency: all teasers are hosted on 
+<a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style="color:#333; text-decoration:none; font-weight:bold;">
+YouTube
+</a>.
+</p>
 
 <!--
 Amor in codice — Carmen Algorithmicum
