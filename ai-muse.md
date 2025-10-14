@@ -19,8 +19,13 @@ permalink: /ai-muse
 
 <p>Welcome to <strong>Chronicles in Motion</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, honor, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
 
-<p style="font-size:0.9em; color:#666; text-align:center;">
-For transparency: all teasers are hosted on <a href="https://www.youtube.com" target="_blank
+<p style="font-size:0.95em; color:#555; text-align:center; font-style:italic; letter-spacing:0.5px;">
+For transparency: all teasers are hosted on 
+<a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style="color:#333; text-decoration:none; font-weight:bold;">
+YouTube
+</a>.
+</p>
+
                                               
 ---
 <!-- Container 16:9 -->
