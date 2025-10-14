@@ -11,7 +11,7 @@ permalink: /blog
 ---
 
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [Visual Archive](/ai-muse)
 
 ---
 
