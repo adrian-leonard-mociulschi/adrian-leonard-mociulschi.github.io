@@ -32,8 +32,7 @@ Welcome to *Chronicles in Motion* — a curated space where memory becomes motio
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se ad revelationem arcani.<br>
-— Eryndor Valen, the Elven Sage of Lórien Archives
+Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se ad revelationem arcani. — Eryndor Valen, the Elven Sage of Lórien Archives
 </blockquote>
 
 ---
@@ -46,6 +45,10 @@ Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se a
     allowfullscreen>
   </iframe>
 </div>
+
+<blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
+Tempus fractum imminet — umbrae codicis se extendunt, et lumen veritatis nondum audet apparere. — Lyrianth Elenor, Keeper of the Twilight Scripts
+</blockquote>
 
 <!--
 Amor in codice — Carmen Algorithmicum
