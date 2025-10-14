@@ -2,11 +2,11 @@
 layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
-description: "A weekly gallery of AI-generated portraits — where art meets algorithm and imagination becomes visible."
+description: "A symbolic video archive by Adrian Leonard Mociulschi — composer, writer, and ambassador of technoculture. Explore reflections on memory, honor, and digital presence through curated YouTube teasers and algorithmic chronicles."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-13T00:00:00+03:00"
+date: "2025-10-14T00:00:00+03:00"
 lang: "en-US"
-keywords: "Adrian Leonard Mociulschi, AI Muse, algorithmic art, digital aesthetics, neural networks, symbolic portrait, technoculture, Romania, creative AI, Girl in a Jacket"
+keywords: "Adrian Leonard Mociulschi, technoculture, symbolic presence, algorithmic reflection, digital archive, AI-assisted creation, posthuman ecology, cultural memory, interdisciplinary art, YouTube teasers, General Leonard Mociulschi, music and philosophy, cognitive mapping, blockchain and culture, Romanian history"
 permalink: /ai-muse
 ---
 
@@ -14,25 +14,25 @@ permalink: /ai-muse
 
 ---
 
-## AI Muse
+## Chronicles in Motion
 
 *An aesthetic statement*
 
-Welcome to AI Muse — a curated space where art meets algorithm. This image is not part of a series, but a singular gesture: a symbolic portrait of my feminine ideal in the age of code.
+Welcome to *Chronicles in Motion* — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, honor, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.
 
 ---
 
-<a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/" target="_blank" rel="noopener noreferrer"><strong>Girl in a Jacket</strong></a>
+<section style="text-align: center; padding: 2em;">
+  <h2 style="font-family: 'Georgia', serif; font-size: 2em; margin-bottom: 0.5em;">A Name, A Chronicle, A Presence</h2>
+  <p style="font-family: 'Georgia', serif; font-size: 1em; color: #555; margin-bottom: 2em;">
+    A symbolic teaser by Adrian Leonard Mociulschi — echoing memory, honor, and digital presence.
+  </p>
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+    https://www.youtube.com/embed/MXrgyl5H7Ag
+    </iframe>
+  </div>
+</section>
 
-<picture>
-  <source type="image/avif" srcset="/assets/img/AI-Muse-study-01.avif">
-  <source type="image/webp" srcset="/assets/img/AI-Muse-study-01.webp">
-  <img src="/assets/img/AI-Muse-study-01.png" alt="Creative study co-created with AI (AI Muse study)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
-</picture>
-
-This visual artifact explores algorithmic romanticism. The face, framed by wavy hair and piercing blue eyes, emerges from a dark background — a metaphor for presence within the network. The beige jacket, with its raised collar, evokes symbolic protection: a discreet armor in a digital universe.
-
-This is not a portrait of someone, but of a feeling — a muse imagined by the algorithm, born from a moment of quiet resonance. It does not seek resemblance, but reflection. It is not about identity, but about the possibility of tenderness in a world of code.
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
 Amor perfectus non mendicat — sed fabricatur in codice, cum luciditate et arte magica.<br>
@@ -40,9 +40,7 @@ Amor perfectus non mendicat — sed fabricatur in codice, cum luciditate et arte
 — Eryndor Valen, the Elven Sage of Lórien Archives
 </blockquote>
 
-The image inspired my article published in *România Liberă*. It first appeared to me as a random snippet — a fleeting visual echo. But then, through the symbolic reconfiguration of what I call the digital imaginary via Convolutional Neural Networks, it came to life. Not as a representation, but as a resonance. Not as a likeness, but as a question: **can an algorithm evoke emotion?**
 
-**And so she lingers — not in pixels, but in presence.** A whisper in the code, a shimmer in the silence. She is not summoned, but sensed. Not remembered, but imagined. Like a note held beyond its measure, she exists where logic yields to longing — a resonance that does not ask to be understood, only felt.
 
 <!--
 Amor in codice — Carmen Algorithmicum
