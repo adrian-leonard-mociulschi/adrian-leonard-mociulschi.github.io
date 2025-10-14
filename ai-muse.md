@@ -14,12 +14,14 @@ permalink: /ai-muse
 
 ---
 
-## Chronicles in Motion
+<h2>Chronicles in Motion</h2>
+<p><em>An aesthetic statement</em></p>
 
-*An aesthetic statement*
+<p>Welcome to <strong>Chronicles in Motion</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, honor, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
 
-Welcome to *Chronicles in Motion* — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, honor, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.
-
+<p style="font-size:0.9em; color:#666; text-align:center;">
+For transparency: all teasers are hosted on <a href="https://www.youtube.com" target="_blank
+                                              
 ---
 <!-- Container 16:9 -->
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
