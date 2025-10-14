@@ -17,7 +17,7 @@ permalink: /ai-muse
 <h2>Chronicles in Motion</h2>
 <p><em>An aesthetic statement</em></p>
 
-<p>Welcome to <strong>Chronicles in Motion</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, honor, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
+<p>Welcome to <strong>Visual Archive</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, honor, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
                                               
 ---
 <!-- Container 16:9 -->
