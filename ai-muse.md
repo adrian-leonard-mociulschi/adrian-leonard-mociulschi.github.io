@@ -37,6 +37,7 @@ Amor perfectus non mendicat — sed fabricatur in codice, cum luciditate et arte
 — Eryndor Valen, the Elven Sage of Lórien Archives
 </blockquote>
 
+---
 <!-- Container 16:9 -->
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
   <iframe src="https://www.youtube.com/embed/MXrgyl5H7Ag" 
