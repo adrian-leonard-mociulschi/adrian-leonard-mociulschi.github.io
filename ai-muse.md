@@ -2,7 +2,7 @@
 layout: default
 title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
-description: "A symbolic video archive by Adrian Leonard Mociulschi — Ambassador of technoculture. Explore reflections on memory, honor, and digital presence through curated YouTube algorithmic chronicles."
+description: "A symbolic video archive by Adrian Leonard Mociulschi. Explore reflections on memory, honor, and digital presence through curated YouTube algorithmic chronicles."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-14T00:00:00+03:00"
 lang: "en-US"
