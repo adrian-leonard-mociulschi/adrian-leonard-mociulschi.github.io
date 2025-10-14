@@ -4,7 +4,7 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "A symbolic video archive by Adrian Leonard Mociulschi. Explore reflections on memory, honor, and digital presence."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-14T00:00:00+03:00"
+date: "2025-10-15T00:00:00+03:00"
 lang: "en-US"
 keywords: "Adrian Leonard Mociulschi, technoculture, symbolic presence, algorithmic reflection, digital archive, AI-assisted creation, posthuman ecology, cultural memory, interdisciplinary art, YouTube teasers, General Leonard Mociulschi, music and philosophy, cognitive mapping, blockchain and culture, Romanian history"
 permalink: /ai-muse
