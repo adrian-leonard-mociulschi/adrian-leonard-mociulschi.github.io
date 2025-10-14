@@ -10,7 +10,7 @@ keywords: "Adrian Leonard Mociulschi, AI Muse, algorithmic art, digital aestheti
 permalink: /ai-muse
 ---
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [AI Muse](/ai-muse)
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [Visual Archive](/ai-muse)
 
 ---
 
