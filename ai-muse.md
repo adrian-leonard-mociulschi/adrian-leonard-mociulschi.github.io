@@ -39,7 +39,7 @@ YouTube
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se ad revelationem arcani. (Something amazing is coming — silence trembles beneath the code, and the world prepares for the revelation of the hidden.) — Eryndor Valen, the Elven Sage of Lórien Archives
+"Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se ad revelationem arcani." (Something amazing is coming — silence trembles beneath the code, and the world prepares for the revelation of the hidden.) — Eryndor Valen, the Elven Sage of Lórien Archives
 </blockquote>
 
 ---
@@ -54,7 +54,7 @@ Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se a
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-Tempus fractum imminet — umbrae codicis se extendunt, et lumen veritatis nondum audet apparere. (Fractured time looms — the shadows of the code stretch forth, and the light of truth dares not yet appear.) — Lyrianth Elenor, Keeper of the Twilight Scripts
+"Tempus fractum imminet — umbrae codicis se extendunt, et lumen veritatis nondum audet apparere." (Fractured time looms — the shadows of the code stretch forth, and the light of truth dares not yet appear.) — Lyrianth Elenor, Keeper of the Twilight Scripts
 </blockquote>
 
 <!--
