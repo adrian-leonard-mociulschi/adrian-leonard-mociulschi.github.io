@@ -14,6 +14,8 @@ permalink: /ai-muse
 
 ---
 
+<a id="top"></a>
+
 <h2>Chronicles in Motion</h2>
 <p><em>An aesthetic statement</em></p>
 
