@@ -28,9 +28,9 @@ Every image emerges from cutting-edge convolutional architectures, where code be
 but in myth, resonance, and symbolic continuity.
 
 <picture>
-  <source type="image/avif" srcset="/assets/img/E-Violin.avif">
-  <source type="image/webp" srcset="/assets/img/E-Violin.webp">
-  <img src="/assets/img/E-Violin.png" alt="Creative study co-created with AI (AI-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+  <source type="image/avif" srcset="/assets/img/E-Q1.avif">
+  <source type="image/webp" srcset="/assets/img/E-Q1.webp">
+  <img src="/assets/img/E-Q1.png" alt="Creative study co-created with AI (AI-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 ---
