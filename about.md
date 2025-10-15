@@ -14,6 +14,8 @@ permalink: /about
 
 ---
 
+<a id="top"></a>
+
 ## About me
 
 I am an academic and Romanian writer, author of a five-part series of essays published by Curtea Veche Publishing — a constellation of ideas forming a symbolic pentagram of knowledge. My intellectual horizon is shaped by the cultural perspectives of René Berger and Pierre Bourdieu, as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
@@ -80,6 +82,9 @@ The visual code above links to my ORCID identifier. These identifiers are unique
   "inLanguage": "en"
 }
 </script>
+
+<!-- Link to go back to top -->
+<a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
 
 <!--
 Carmen de Stirpe Regali — Identitas in Tempore
