@@ -53,7 +53,11 @@ Published on *September 27*, 2025, this article examines the ethical and strateg
 <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
 ---
 
-<img src="/assets/img/AdrianLM_NineOClock_2025.png" alt="Illustration for the 25/10/02 Nine O'Clock article." style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+<picture>
+  <source type="image/avif" srcset="/assets/img/AdrianLM_NineOClock_2025.avif">
+  <source type="image/webp" srcset="/assets/img/AdrianLM_NineOClock_2025.webp">
+  <img src="/assets/img/AdrianLM_NineOClock_2025.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+</picture>
 
 <a href="https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi" target="_blank" rel="noopener noreferrer"><strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong></a>
 
