@@ -54,9 +54,9 @@ Published on *September 27*, 2025, this article examines the ethical and strateg
 ---
 
 <picture>
-  <source type="image/avif" srcset="/assets/img/Adrian_Leonard_Mociulschi2494171_1v=2.avif">
-  <source type="image/webp" srcset="/assets/img/Adrian_Leonard_Mociulschi2494171_1v=2.webp">
-  <img src="/assets/img/Adrian_Leonard_Mociulschi2494171_1v=2.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+  <source type="image/avif" srcset="/assets/img/Adrian_Leonard_Mociulschi2494171_1.avif?v=2">
+  <source type="image/webp" srcset="/assets/img/Adrian_Leonard_Mociulschi2494171_1.webp?v=2">
+  <img src="/assets/img/Adrian_Leonard_Mociulschi2494171_1.png?v=2" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
 
 <a href="https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi" target="_blank" rel="noopener noreferrer"><strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong></a>
