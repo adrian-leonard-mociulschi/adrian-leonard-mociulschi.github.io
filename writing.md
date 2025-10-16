@@ -54,8 +54,8 @@ Published on *September 27*, 2025, this article examines the ethical and strateg
 ---
 
 <picture>
-  <source type="image/webp" srcset="/assets/img/AdrianLM_NineOClock_2025.avif">
-  <source type="image/avif" srcset="/assets/img/AdrianLM_NineOClock_2025.webp">
+  <source type="image/avif" srcset="/assets/img/AdrianLM_NineOClock_2025.avif">
+  <source type="image/webp" srcset="/assets/img/AdrianLM_NineOClock_2025.webp">
   <img src="/assets/img/AdrianLM_NineOClock_2025.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
 
