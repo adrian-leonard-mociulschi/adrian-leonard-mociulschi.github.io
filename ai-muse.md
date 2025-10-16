@@ -33,7 +33,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-"Magnum aliquid appropinquat — silentium tremit sub codice, et orbis parat se ad revelationem arcani." (Something amazing is coming — silence trembles beneath the code, and the world prepares for the revelation of the hidden.) — Eryndor Valen, the Elven Sage of Lórien Archives
+<strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes power."</strong> — A.L.M., Ambassador of Technoculture
 </blockquote>
 
 ---
