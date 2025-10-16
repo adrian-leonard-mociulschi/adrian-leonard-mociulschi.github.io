@@ -36,7 +36,6 @@ permalink: /ai-muse
 <strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes power."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
 </blockquote>
 
----
 <!-- Container 16:9 -->
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
   <iframe src="https://www.youtube.com/embed/JcMGs1ZFqxI" 
