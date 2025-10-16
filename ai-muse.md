@@ -20,8 +20,7 @@ permalink: /ai-muse
 <p><em>An aesthetic statement</em></p>
 
 <p>Welcome to <strong>Visual Archive</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, education, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
-                                              
----
+
 <!-- Container 16:9 -->
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
   <iframe src="https://www.youtube.com/embed/IijGsRbI-iE" 
@@ -33,7 +32,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-<strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes power."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
+<strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes knowledge."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
 </blockquote>
 
 <!-- Container 16:9 -->
