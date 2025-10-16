@@ -33,7 +33,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-<strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes power."</strong> — A.L.M. ⚛ Ambassador of Technoculture
+<strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes power."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
 </blockquote>
 
 ---
@@ -48,7 +48,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-<strong>"In the age of synthetic minds, true intelligence lies not in computation — but in the courage to question the algorithm."</strong> — A.L.M. ⚛ Ambassador of Technoculture
+<strong>"In the age of synthetic minds, true intelligence lies not in computation — but in the courage to question the algorithm."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
 </blockquote>
 
 <br>
