@@ -46,7 +46,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-<strong>"In the age of synthetic minds, true intelligence lies not in computation — but in the courage to question the algorithm."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
+<strong>"In today's age of AI, true intelligence emerges from asking questions that reveal what algorithms can understand and where their limits lie."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
 </blockquote>
 
 <br>
