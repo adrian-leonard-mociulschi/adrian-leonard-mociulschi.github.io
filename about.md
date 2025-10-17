@@ -40,6 +40,16 @@ permalink: /about
   </p>
 </section>
 
+ <picture>
+    <source type="image/avif" srcset="/assets/img/grandma.avif">
+    <source type="image/webp" srcset="/assets/img/grandma.webp">
+    <img src="/assets/img/grandma.png" 
+         alt="Official portrait of Adrian Leonard Mociulschi" 
+         width="800" height="1067" 
+         loading="lazy" decoding="async" 
+         style="width:100%;max-width:400px;height:auto;border-radius:8px;">
+  </picture>
+
 <section id="about-website">
   <h2>About This Website</h2>
   <p>
