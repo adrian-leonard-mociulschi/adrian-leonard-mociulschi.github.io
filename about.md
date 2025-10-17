@@ -77,12 +77,6 @@ permalink: /about
          style="width:100%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
 
-  <p>
-    <a href="https://adrian-leonard-mociulschi.github.io/" target="_blank" rel="noopener">
-      Visit my official website
-    </a>
-  </p>
-
   <p style="font-size: 0.9em; color: #555; margin-top: 1em;">
     This photograph is licensed under a <strong>Creative Commons Attribution (CC BY)</strong> license.
     It may be reused with proper attribution to the source:
