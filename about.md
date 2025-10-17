@@ -37,10 +37,7 @@ permalink: /about
     I advocate for <strong>ethical</strong> AI and a <strong>posthuman ecology of meaning</strong>, 
     while continuing a family tradition rooted in over two centuries of cultural heritage in Romania — 
     reinterpreted for the challenges of the 21st century.
-  </p>
-</section>
-
- <picture>
+     <picture>
     <source type="image/avif" srcset="/assets/img/grandma.avif">
     <source type="image/webp" srcset="/assets/img/grandma.webp">
     <img src="/assets/img/grandma.png" 
@@ -49,6 +46,8 @@ permalink: /about
          loading="lazy" decoding="async" 
          style="width:100%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
+  </p>
+</section>
 
 <section id="about-website">
   <h2>About This Website</h2>
