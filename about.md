@@ -10,7 +10,7 @@ keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, posthumanism, s
 permalink: /about
 ---
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [V-Archive](/ai-muse)
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [V-Box](/ai-muse)
 
 ---
 
