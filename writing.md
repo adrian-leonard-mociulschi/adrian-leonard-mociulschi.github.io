@@ -4,7 +4,7 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "Curated writings by Adrian Leonard Mociulschi — essays, op-eds, and interdisciplinary reflections on technoculture."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-09-13T00:00:00+03:00"
+date: "2025-09-17T00:00:00+03:00"
 lang: "en-US"
 keywords: "Adrian Leonard Mociulschi, essays, op-eds, technoculture, ethical AI, symbolic meaning, interdisciplinary writing, Romania, Curtea Veche Publishing, cultural reflections"
 permalink: /writing
@@ -16,11 +16,16 @@ permalink: /writing
 
 <a id="top"></a>
 
-## Writings
+<section id="writings">
+  <h2>Writings</h2>
+  <p>
+    This collection includes public contributions relevant to my symbolic mission as an ambassador of technoculture.
+  </p>
+</section>
 
-This collection includes public contributions relevant to my symbolic mission as an ambassador of technoculture.
-
-## Recent articles
+<section id="recent-articles">
+  <h2>Recent Articles</h2>
+</section>
 
 <picture>
   <source type="image/avif" srcset="/assets/img/coperta-31-1920x1357.avif">
@@ -28,41 +33,52 @@ This collection includes public contributions relevant to my symbolic mission as
   <img src="/assets/img/coperta-31-1920x1357.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
 
-<a href="https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/" target="_blank" rel="noopener noreferrer"><strong>The Future Has No Autopilot — Nine O’Clock</strong></a>
-
-Published on *October 2*, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for **meaningful human control** in an age where speed and certainty collide with conscience.
-
+<p>
+  <a href="https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/" target="_blank" rel="noopener noreferrer">
+    <strong>The Future Has No Autopilot — Nine O’Clock</strong>
+  </a>
+</p>
+<p>
+  Published on <em>October 2</em>, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond.
+  It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk.
+  Through historical parallels, fictional scenarios, and legal principles, it argues for <strong>meaningful human control</strong> in an age where speed and certainty collide with conscience.
+</p>
 <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
----
+<hr>
 
 <picture>
   <source type="image/avif" srcset="/assets/img/coperta-27-1920x1357.avif">
   <source type="image/webp" srcset="/assets/img/coperta-27-1920x1357.webp">
-  <img src="/assets/img/coperta-27-1920x1357.png"
-       alt="Visual metaphor for the article 'The Future Has No Autopilot' by Adrian Leonard Mociulschi, published in Nine O'Clock"
-       title="The Future Has No Autopilot — Nine O'Clock illustration"
-       width="1920" height="1357"
-       loading="lazy" decoding="async"
-       style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+  <img src="/assets/img/coperta-27-1920x1357.png" alt="Visual metaphor for the article 'The Future Has No Autopilot' by Adrian Leonard Mociulschi, published in Nine O'Clock" title="The Future Has No Autopilot — Nine O'Clock illustration" width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
-
-<a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer"><strong>The Murmur of Code: On the Ethics of Algorithmic Presence</strong></a>
-
-Published on *September 27*, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond. It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk. Through historical parallels, fictional scenarios, and legal principles, it argues for meaningful human control in an age where speed and certainty collide with conscience.
-
+<p>
+  <a href="https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/" target="_blank" rel="noopener noreferrer">
+    <strong>The Murmur of Code: On the Ethics of Algorithmic Presence</strong>
+  </a>
+</p>
+<p>
+  Published on <em>September 27</em>, 2025, this article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond.
+  It traces the evolution of distance—from primitive tools to drones—highlighting how automation reshapes responsibility and risk.
+  Through historical parallels, fictional scenarios, and legal principles, it argues for meaningful human control in an age where speed and certainty collide with conscience.
+</p>
 <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
----
+<hr>
 
 <picture>
   <source type="image/avif" srcset="/assets/img/AdrianLM_NineOClock_2025.avif">
   <source type="image/webp" srcset="/assets/img/AdrianLM_NineOClock_2025.webp">
   <img src="/assets/img/AdrianLM_NineOClock_2025.png" alt="Illustration for the 25/10/02 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
+<p>
+  <a href="https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi" target="_blank" rel="noopener noreferrer">
+    <strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong>
+  </a>
+</p>
+<p>
+  Published on <em>August 13</em>, 2025, this article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
+</p>
 
-<a href="https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi" target="_blank" rel="noopener noreferrer"><strong>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</strong></a>
-
-Published on *August 13*, 2025, this article investigates the concept of algorithms as dynamic, life-like systems, drawing on examples from musique concrète, symbolic ecologies, and collaborative creation. It addresses the ethical dimensions of digital imagination and examines how algorithmic processes shape cultural and creative practices.
-
+<!-- JSON-LD AREA -->
 <script type="application/ld+json">
 [
   {
