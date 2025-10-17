@@ -92,7 +92,7 @@ permalink: /about
     It may be reused with proper attribution to the source:
     <a href="https://adrian-leonard-mociulschi.github.io/" target="_blank" rel="noopener">
       adrian-leonard-mociulschi.github.io
-    </a>.
+    </a>
   </p>
 </section>
 
