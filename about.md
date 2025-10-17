@@ -27,10 +27,7 @@ permalink: /about
     My intellectual horizon is shaped by the cultural perspectives of René Berger and Pierre Bourdieu, 
     as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
   </p>
-  <blockquote>
-    <p><em>“Technology is not culture, but it can become culture through meaning.”</em></p>
-    <footer>— Adrian Leonard Mociulschi</footer>
-  </blockquote>
+ 
   <p>
     This principle inspires my mission: to create innovative connections between culture and technology, 
     literature and algorithms, memory and the future. It is a symbolic technocultural revolution — 
