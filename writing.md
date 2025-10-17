@@ -10,7 +10,7 @@ keywords: "Adrian Leonard Mociulschi, essays, op-eds, technoculture, ethical AI,
 permalink: /writing
 ---
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [V-Archive](/ai-muse)
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [V-Box](/ai-muse)
 
 ---
 
