@@ -45,10 +45,10 @@ And just as Chani and Paul Atreides met in the elemental vastness of the desert,
 
 *Gurney, with your baliset — <br>
 where are you now? <br>
-Sing to us like Merlin once did, <br>
-not to soothe, but to awaken.<br>
-Let the verses rise like spice from the dunes, <br>
-and let memory dance with resonance.*
+Sing to us like Merlin did, <br>
+not to soothe, but to allow.<br>
+Let the verses rise from the dunes, <br>
+and keep memory somehow.*
 
 <picture>
   <source type="image/avif" srcset="/assets/img/Girl-in-a-plane.avif">
