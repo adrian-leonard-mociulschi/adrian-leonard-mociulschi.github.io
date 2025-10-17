@@ -52,7 +52,7 @@ permalink: /ai-muse
 <br>
 
 <p style="font-size:0.95em; color:#555; text-align:center; font-style:italic; letter-spacing:0.5px;">
-For transparency: all teasers are hosted on 
+For transparency: all videos are hosted on 
 <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style="color:#333; text-decoration:none; font-weight:bold;">
 YouTube
 </a>.
