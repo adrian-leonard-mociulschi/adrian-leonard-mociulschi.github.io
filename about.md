@@ -63,8 +63,7 @@ permalink: /about
   </p>
   <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
     “Scientia et ars, in unum resonant — sine hac, illa muta est.”<br>
-    <span style="font-size:0.95em;">(Knowledge and art resonate as one — without the former, the latter is mute.)</span><br>
-    — Hadrian Anwir Corrino
+    <span style="font-size:0.95em;">(Knowledge and art resonate as one — without the former, the latter is mute.)</span>
   </blockquote>
   <p>
     This platform is an online archive and research tool that delves into complex ideas beyond mere interpretations.
