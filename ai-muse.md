@@ -19,7 +19,7 @@ permalink: /ai-muse
 <h2>Adrian's Virtual Box</h2>
 <p><em>An aesthetic statement</em></p>
 
-<p>Welcome to <strong>Virtual Box</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, education, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
+<p>Welcome to my <strong>Virtual Box</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, education, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.</p>
 
 <!-- Container 16:9 -->
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
