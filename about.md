@@ -16,44 +16,94 @@ permalink: /about
 
 <a id="top"></a>
 
-## About me
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am an academic and Romanian writer, author of a five-part series of essays published by 
+    <a href="https://www.curteaveche.ro/a/adrian-leonard-mociulschi" target="_blank" rel="noopener">Curtea Veche Publishing</a> — 
+    a constellation of ideas forming a symbolic pentagram of knowledge.
+  </p>
+  <p>
+    My intellectual horizon is shaped by the cultural perspectives of René Berger and Pierre Bourdieu, 
+    as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
+  </p>
+  <blockquote>
+    <p><em>“Technology is not culture, but it can become culture through meaning.”</em></p>
+    <footer>— Adrian Leonard Mociulschi</footer>
+  </blockquote>
+  <p>
+    This principle inspires my mission: to create innovative connections between culture and technology, 
+    literature and algorithms, memory and the future. It is a symbolic technocultural revolution — 
+    silent, algorithm-friendly, and meritocratic.
+  </p>
+  <p>
+    I advocate for <strong>ethical</strong> AI and a <strong>posthuman ecology of meaning</strong>, 
+    while continuing a family tradition rooted in over two centuries of cultural heritage in Romania — 
+    reinterpreted for the challenges of the 21st century.
+  </p>
+</section>
 
-I am an academic and Romanian writer, author of a five-part series of essays published by Curtea Veche Publishing — a constellation of ideas forming a symbolic pentagram of knowledge. My intellectual horizon is shaped by the cultural perspectives of René Berger and Pierre Bourdieu, as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
+<section id="about-website">
+  <h2>About This Website</h2>
+  <p>
+    Hosted on GitHub, my platform serves as a public repository where users can explore infrastructure and intention.
+    Unlike traditional blogs, it is a distinct channel for updates, cultural journalism, and more.
+    It represents a symbolic statement of <strong>technoculture</strong>, encouraging users to discover ideas that transcend transactional thinking,
+    thereby reclaiming the essence of art.
+  </p>
+  <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
+    “Scientia et ars, in unum resonant — sine hac, illa muta est.”<br>
+    <span style="font-size:0.95em;">(Knowledge and art resonate as one — without the former, the latter is mute.)</span><br>
+    — Hadrian Anwir Corrino
+  </blockquote>
+  <p>
+    This platform is an online archive and research tool that delves into complex ideas beyond mere interpretations.
+    It centralizes my public discussions on artificial intelligence, symbolic computation, ethics, emergence, memory, and the future
+    by integrating <strong>culture, code, and algorithmic reasoning</strong>.
+  </p>
+</section>
 
-René Berger once said: *“Technology is not culture, but it can become culture through meaning.”* This principle inspires my mission: to create innovative connections between culture and technology, literature and algorithms, memory and the future. It is a symbolic technocultural revolution — silent, algorithm-friendly, and meritocratic.
+<section id="official-photo">
+  <h2>Official Photo</h2>
+  <p><strong>Adrian Leonard Mociulschi — Official Photo</strong></p>
+</section>
 
-I advocate for **ethical** AI and a **posthuman ecology of meaning**, while continuing a family tradition rooted in over two centuries of cultural heritage in Romania — reinterpreted for the challenges of the 21st century.
-
-## About this website
-
-Hosted on GitHub, my platform serves as a public repository where users can explore infrastructure and intention. Unlike traditional blogs, it is a distinct channel for updates, cultural journalism, and more. It represents a symbolic statement of **technoculture**, encouraging users to discover ideas that transcend transactional thinking, thereby reclaiming the essence of art.
-
-<blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-“Scientia et ars, in unum resonant — sine hac, illa muta est.” (Knowledge and art resonate as one — without the former, the latter is mute.) — Hadrian Anwir Corrino
-</blockquote>
-
-This platform is an online archive and research tool that delves into complex ideas beyond mere interpretations. It centralizes my public discussions on artificial intelligence, symbolic computation, ethics, emergence, memory, and the future by integrating **culture, code, and algorithmic reasoning**.
-
-## Official photo
-
-**Adrian Leonard Mociulschi — Official Photo**
 <picture>
   <source type="image/avif" srcset="/assets/img/Adrian-Leonard-Mociulschi.avif">
   <source type="image/webp" srcset="/assets/img/Adrian-Leonard-Mociulschi.webp">
   <img src="/assets/img/Adrian-Leonard-Mociulschi.png" alt="Official Photo of Adrian Leonard Mociulschi" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
-**License**: **CC BY 4.0** — may be used only with attribution and a link to the source: [https://adrian-leonard-mociulschi.github.io/](https://adrian-leonard-mociulschi.github.io/)
+<section id="official-photo">
+  <h2>Official Photo</h2>
+  <p><strong>Adrian Leonard Mociulschi — Official Photo</strong></p>
+  <p>
+    <a href="https://adrian-leonard-mociulschi.github.io/" target="_blank" rel="noopener">
+      Visit my official website
+    </a>
+  </p>
+</section>
 
-## QR Code
+<section id="qr-code">
+  <h2>QR Code</h2>
+  <p>
+    <img src="/assets/img/Cod_QR_ORCID.png" alt="QR code linking to Adrian Leonard Mociulschi's ORCID profile" width="150">
+  </p>
+  <p>
+    The visual code above links to my ORCID identifier. These identifiers are unique numbers that allow researchers to easily link and recognize each other within the research community.
+  </p>
+</section>
 
-![QR code linking to Adrian Leonard Mociulschi's ORCID profile](/assets/img/Cod_QR_ORCID.png){: width="150" }
-
-The visual code above links to my ORCID identifier. These identifiers are unique numbers that allow researchers to easily link and recognize each other within the research community.
-
-## Contact
-
-📧 If you wish to connect professionally, you may visit my [LinkedIn profile](https://www.linkedin.com/in/adrian-mociulschi)
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    <span style="font-size: 1.5em;">📧</span>
+    If you wish to connect professionally, you may visit my
+    <a href="https://www.linkedin.com/in/adrian-mociulschi" target="_blank" rel="noopener">
+      LinkedIn profile
+    </a>.
+  </p>
+</section>
 
 <script type="application/ld+json">
 {
