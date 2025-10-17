@@ -4,13 +4,13 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "Curated writings by Adrian Leonard Mociulschi — essays, op-eds, and interdisciplinary reflections on technoculture."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-09-17T00:00:00+03:00"
+date: "2025-09-18T00:00:00+03:00"
 lang: "en-US"
 keywords: "Adrian Leonard Mociulschi, essays, op-eds, technoculture, ethical AI, symbolic meaning, interdisciplinary writing, Romania, Curtea Veche Publishing, cultural reflections"
 permalink: /writing
 ---
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [Visual Archive](/ai-muse)
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [V-Archive](/ai-muse)
 
 ---
 
