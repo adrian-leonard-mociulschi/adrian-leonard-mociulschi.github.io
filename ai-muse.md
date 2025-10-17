@@ -55,7 +55,7 @@ permalink: /ai-muse
 For transparency: all videos are hosted on 
 <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" style="color:#333; text-decoration:none; font-weight:bold;">
 YouTube
-</a>.
+</a>
 </p>
 
 <!-- Link to go back to top -->
