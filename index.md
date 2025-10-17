@@ -48,7 +48,7 @@ where are you now? <br>
 Sing to us like Merlin did, <br>
 not to soothe, but to allow.<br>
 Let the verses rise from the dunes, <br>
-and keep memory forbid.*
+and keep memory. Forbid.*
 
 <picture>
   <source type="image/avif" srcset="/assets/img/Girl-in-a-plane.avif">
