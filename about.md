@@ -66,21 +66,17 @@ permalink: /about
 <section id="official-photo">
   <h2>Official Photo</h2>
   <p><strong>Adrian Leonard Mociulschi — Official Photo</strong></p>
-</section>
-
-<picture>
-  <source type="image/avif" srcset="/assets/img/Adrian-Leonard-Mociulschi.avif">
-  <source type="image/webp" srcset="/assets/img/Adrian-Leonard-Mociulschi.webp">
-  <img src="/assets/img/Adrian-Leonard-Mociulschi.png" alt="Official Photo of Adrian Leonard Mociulschi" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
-</picture>
-
-<section id="official-photo">
-  <h2>Official Photo</h2>
-  <p><strong>Adrian Leonard Mociulschi — Official Photo</strong></p>
   <p>
     <a href="https://adrian-leonard-mociulschi.github.io/" target="_blank" rel="noopener">
       Visit my official website
     </a>
+  </p>
+  <p style="font-size: 0.9em; color: #555; margin-top: 1em;">
+    This photograph is licensed under a <strong>Creative Commons Attribution (CC BY)</strong> license.
+    It may be reused with proper attribution to the source:
+    <a href="https://adrian-leonard-mociulschi.github.io/" target="_blank" rel="noopener">
+      adrian-leonard-mociulschi.github.io
+    </a>.
   </p>
 </section>
 
