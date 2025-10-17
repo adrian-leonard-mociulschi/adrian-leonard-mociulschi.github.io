@@ -17,7 +17,9 @@ permalink: /blog
 
 <a id="top"></a>
 
-## Op-Ed Hub
+<section id="op-ed-hub">
+  <h2>Op-Ed Hub</h2>
+</section>
 
 <p>
   <strong>Op-Ed Hub</strong> showcases original essays by Adrian Leonard Mociulschi, published in <em>România Liberă</em>, one of Romania’s oldest national newspapers (est. 1877). The articles are written in Romanian; English translations are available on the author's profiles on 
