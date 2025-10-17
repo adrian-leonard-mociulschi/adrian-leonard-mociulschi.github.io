@@ -39,9 +39,9 @@ permalink: /about
   </p>
   <p>
      <picture>
-    <source type="image/avif" srcset="/assets/img/grandma.avif">
-    <source type="image/webp" srcset="/assets/img/grandma.webp">
-    <img src="/assets/img/grandma.png" 
+    <source type="image/avif" srcset="/assets/img/VRA1.avif">
+    <source type="image/webp" srcset="/assets/img/VRA1.webp">
+    <img src="/assets/img/VRA1.png" 
          alt="Official portrait of Adrian Leonard Mociulschi" 
          width="800" height="1067" 
          loading="lazy" decoding="async" 
