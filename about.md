@@ -47,6 +47,9 @@ permalink: /about
          loading="lazy" decoding="async" 
          style="width:100%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
+  <p style="font-size:0.95em; color:#555; margin-top:0.5em;">
+    This is my grandmother, photographed over 100 years ago in Brăila, on the Mociulschi family estate. The image has been digitally restored.
+  </p>
   </p>
 </section>
 
