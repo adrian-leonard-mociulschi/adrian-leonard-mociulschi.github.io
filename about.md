@@ -4,13 +4,13 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "Academic profile of Adrian Leonard Mociulschi — author, university lecturer, and symbolic ambassador of technoculture."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-17T00:00:00+03:00"
+date: "2025-10-18T00:00:00+03:00"
 lang: "en-US"
 keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, posthumanism, symbolic computation, cultural infrastructure, Curtea Veche Publishing, academic profile, Romanian essayist"
 permalink: /about
 ---
 
-[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [Visual Archive](/ai-muse)
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [V-Archive](/ai-muse)
 
 ---
 
