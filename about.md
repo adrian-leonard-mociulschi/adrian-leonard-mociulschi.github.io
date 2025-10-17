@@ -42,7 +42,7 @@ permalink: /about
     <source type="image/avif" srcset="/assets/img/VRA1.avif">
     <source type="image/webp" srcset="/assets/img/VRA1.webp">
     <img src="/assets/img/VRA1.png" 
-         alt="Official portrait of Adrian Leonard Mociulschi" 
+         alt="Adrian Leonard Mociulschi's grandmother" 
          width="800" height="1067" 
          loading="lazy" decoding="async" 
          style="width:100%;max-width:400px;height:auto;border-radius:8px;">
