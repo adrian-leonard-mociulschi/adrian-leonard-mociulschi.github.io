@@ -27,7 +27,6 @@ permalink: /about
     My intellectual horizon is shaped by the cultural perspectives of René Berger and Pierre Bourdieu, 
     as well as the prophetic insights of Isaac Asimov and Arthur C. Clarke.
   </p>
- 
   <p>
     This principle inspires my mission: to create innovative connections between culture and technology, 
     literature and algorithms, memory and the future. It is a symbolic technocultural revolution — 
@@ -37,6 +36,8 @@ permalink: /about
     I advocate for <strong>ethical</strong> AI and a <strong>posthuman ecology of meaning</strong>, 
     while continuing a family tradition rooted in over two centuries of cultural heritage in Romania — 
     reinterpreted for the challenges of the 21st century.
+  </p>
+  <p>
      <picture>
     <source type="image/avif" srcset="/assets/img/grandma.avif">
     <source type="image/webp" srcset="/assets/img/grandma.webp">
