@@ -112,11 +112,15 @@ permalink: /about
     <span style="font-size: 1.5em;">📧</span>
     If you wish to connect professionally, you may visit my
     <a href="https://www.linkedin.com/in/adrian-mociulschi" target="_blank" rel="noopener">
-      LinkedIn profile
-    </a>.
+      LinkedIn profile.
+    </a>
   </p>
 </section>
 
+<!-- Link to go back to top -->
+<a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
+
+<!-- JSON-LD AREA -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -144,9 +148,6 @@ permalink: /about
   "inLanguage": "en"
 }
 </script>
-
-<!-- Link to go back to top -->
-<a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
 
 <!--
 Carmen de Stirpe Regali — Identitas in Tempore
