@@ -46,7 +46,7 @@ And just as Chani and Paul Atreides met in the elemental vastness of the desert,
 *Gurney, with your baliset — <br>
 tell me where are you now? <br>
 Sing to us like Merlin did, <br>
-not to soothe, but to allow.<br>
+not to soothe in time. Allow.<br>
 Let the verses rise from dunes, <br>
 and keep memory. Forbid.*
 
