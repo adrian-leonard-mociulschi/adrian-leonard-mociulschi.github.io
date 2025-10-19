@@ -4,7 +4,7 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "A lucid archive at the intersection of culture and code: symbolic ecologies, Web3 visions, and ethical AI."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-18T00:00:00+03:00"
+date: "2025-10-19T00:00:00+03:00"
 lang: "en-US"
 keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, blockchain, symbolic ecology, ORCID, academic"
 permalink: /
@@ -28,9 +28,9 @@ Every image emerges from cutting-edge convolutional architectures, where code be
 but in myth, resonance, and symbolic continuity.
 
 <picture>
-  <source type="image/avif" srcset="/assets/img/EQ4.avif">
-  <source type="image/webp" srcset="/assets/img/EQ4.webp">
-  <img src="/assets/img/EQ4.png" alt="Creative study co-created with AI (AI-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+  <source type="image/avif" srcset="/assets/img/EQ7.avif">
+  <source type="image/webp" srcset="/assets/img/EQ7.webp">
+  <img src="/assets/img/EQ7.png" alt="An experimental quire co-created with AI (Princess-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 ---
@@ -51,9 +51,9 @@ Let the verses rise from dunes, <br>
 and keep memory. Forbid.*
 
 <picture>
-  <source type="image/avif" srcset="/assets/img/Girl-in-a-plane.avif">
-  <source type="image/webp" srcset="/assets/img/Girl-in-a-plane.webp">
-  <img src="/assets/img/Girl-in-a-plane.png" alt="Creative study co-created with AI (AI-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+  <source type="image/avif" srcset="/assets/img/EQ8.avif">
+  <source type="image/webp" srcset="/assets/img/EQ8.webp">
+  <img src="/assets/img/EQ8.png" alt="An experimental quire co-created with AI (Elven-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 ---
@@ -63,9 +63,9 @@ Between ethics and imagination, between code and culture I explore the symbolic 
 In this unfolding metamorphosis, the archive becomes a garden, and the ledger a constellation. Blockchain is no longer a vault, but a vessel of memory — a mnemonic architecture where truth is not stored, but cultivated. AI does not predict, it listens. It does not replace, it refracts. Between the silence of data and the murmur of meaning, we trace new grammars of presence. The posthuman is not a machine, but a Queen — touched by culture, ethics, and imagination.
 
 <picture>
-  <source type="image/avif" srcset="/assets/img/Princess-study-01.avif">
-  <source type="image/webp" srcset="/assets/img/Princess-study-01.webp">
-  <img src="/assets/img/Princess-study-01.png" alt="Creative study co-created with AI (Princess study)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+  <source type="image/avif" srcset="/assets/img/EQ9.avif">
+  <source type="image/webp" srcset="/assets/img/EQ9.webp">
+  <img src="/assets/img/EQ9.png" alt="An experimental quire co-created with AI (Witch-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </picture>
 
 <strong>ORCID iD:</strong> 
