@@ -35,3 +35,22 @@ footer.site-footer *::before,
 footer.site-footer *::after {
   content: "" !important;
 }
+
+/* Custom footer demarcator */
+.site-footer-credits {
+  display: block;
+  border-top: 1px solid #ccc; /* Linie subțire, gri */
+  padding-top: 10px; /* Spațiu între linie și text */
+  margin-top: 20px; /* Spațiu față de conținutul anterior */
+  font-size: 0.9em; /* Text ușor mai mic pentru subtilitate */
+  color: #555; /* Gri închis pentru text */
+}
+
+/* Responsivitate: păstrează proporțiile pe ecrane mici */
+@media (max-width: 600px) {
+  .site-footer-credits {
+    font-size: 0.85em;
+    padding-top: 8px;
+    margin-top: 15px;
+  }
+}
