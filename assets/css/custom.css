@@ -54,3 +54,37 @@ footer.site-footer *::after {
     margin-top: 15px;
   }
 }
+
+# FOOTER RSS – Pachet cod (CSS + HTML)
+# Folosește ce variantă preferi. Instrucțiuni rapide:
+# 1) Adaugă CSS-ul în assets/css/custom.css (la final).
+# 2) Alege UNA dintre variantele HTML (IMG extern sau SVG inline) și pune-o în _layouts/default.html (în <footer>),
+#    în locul blocului RSS curent.
+
+====================================
+[1] CSS – FIX MINIMAL (recomandat)
+====================================
+/* Asigură vizibilitatea și spațierea pentru linkul RSS */
+.site-footer a[title="RSS Feed"] {
+  display: inline-block;     /* permite margin-left din HTML */
+  line-height: 1;            /* evită colapsarea verticală */
+  vertical-align: middle;    /* aliniere plăcută cu restul elementelor */
+}
+
+/* Imaginea RSS: forțează afișarea ca element inline vizibil */
+.site-footer a[title="RSS Feed"] img {
+  display: inline-block !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Păstrează demarcatorul deasupra creditelor */
+.site-footer-credits {
+  display: block;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
+
