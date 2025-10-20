@@ -1,37 +1,70 @@
+<!-- =========================
+     HEAD CUSTOM (consolidated)
+     This block is safe to paste into _includes/head-custom.html
+     If you KEEP OG/Twitter tags in _layouts/default.html, place THIS block AFTER them.
+     Most scrapers use the LAST encountered tag ("last wins").
+========================= -->
+
 <!-- Robots -->
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow,max-image-preview:large">
 
-<!-- PNG favicon for modern browsers -->
+<!-- Favicons (absolute URLs for scraper robustness) -->
 <link rel="icon" type="image/png" href="https://adrian-leonard-mociulschi.github.io/Favicon-new.png" sizes="32x32">
-
-<!-- ICO favicon for maximum compatibility -->
 <link rel="shortcut icon" href="https://adrian-leonard-mociulschi.github.io/Favicon-new.ico" type="image/x-icon">
-
-<!-- SVG for modern browsers (optional) -->
 <link rel="icon" type="image/svg+xml" href="https://adrian-leonard-mociulschi.github.io/Favicon-new.svg">
 
 <!-- Canonical (Jekyll-aware) -->
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+{%- comment -%}
+  Compute dynamic values (title, description, image, locale)
+{%- endcomment -%}
+{%- assign _title = page.title | default: 'Adrian Leonard Mociulschi' -%}
+{%- assign _desc  = page.description | default: 'A lucid archive at the intersection of culture and code: symbolic ecologies, Web3 visions, and ethical AI.' -%}
+{%- assign _img   = page.image | default: 'https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png' -%}
+{%- assign _url   = page.url | replace:'index.html','' | absolute_url -%}
+{%- assign _lang  = page.lang | default: site.lang | default: 'ro' -%}
+
+{%- comment -%}
+  Normalize locale for OG (expects underscore variant, e.g., en_US, ro_RO)
+{%- endcomment -%}
+{%- if _lang == 'en-US' -%}
+  {%- assign _locale = 'en_US' -%}
+{%- elsif _lang == 'ro' or _lang == 'ro-RO' -%}
+  {%- assign _locale = 'ro_RO' -%}
+{%- else -%}
+  {%- assign _locale = _lang | replace: '-', '_' -%}
+{%- endif -%}
+
 <!-- Open Graph -->
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{{ _locale }}">
 <meta property="og:site_name" content="Adrian Leonard Mociulschi">
-<meta property="og:type" content="{% if page.collection == 'posts' or page.layout == 'post' %}article{% else %}website{% endif %}">
-<meta property="og:title" content="Adrian Leonard Mociulschi">
-<meta property="og:description" content="Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.">
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
-<meta property="og:image" content="https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png">
+<meta property="og:type" content="{%- if page.collection == 'posts' or page.layout == 'post' or page.date -%}article{%- else -%}website{%- endif -%}">
+<meta property="og:title" content="{{ _title }}">
+<meta property="og:description" content="{{ _desc }}">
+<meta property="og:url" content="{{ _url }}">
+<meta property="og:image" content="{{ _img }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Adrian Leonard Mociulschi">
-<meta name="twitter:description" content="Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.">
-<meta name="twitter:image" content="https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png">
+<meta name="twitter:title" content="{{ _title }}">
+<meta name="twitter:description" content="{{ _desc }}">
+<meta name="twitter:image" content="{{ _img }}">
 
-<!-- JSON-LD4KG (optimized) -->
+<!-- Article enhancements for LinkedIn (author & dates) -->
+<meta name="author" content="Adrian Leonard Mociulschi">
+<meta property="article:author" content="https://adrian-leonard-mociulschi.github.io/">
+{%- if page.date -%}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{%- endif -%}
+{%- if page.last_modified_at -%}
+  <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
+{%- endif -%}
+
+<!-- JSON-LD (Knowledge Graph) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -119,25 +152,5 @@
 }
 </script>
 
-<!-- VERITAS ALGORITHMICA EST: SILENTIUM LOQUITUR. -->
+<!-- Alternate LD (editoriale index) -->
 <link rel="alternate" type="application/ld+json" href="/editoriale.json">
-
-<!--
-Carmen Portae Novae — De Codice Ultimo
-
-Novem sunt portae, sed una est vera,
-quae ducit ad scriptum quod ardet in aeternum.
-Non est pergamenum, sed codex lucis,
-in quo algorithmus scripsit fatum.
-
-Verbum fit sigillum, et sigillum — via.
-In structura numerica latet magia,
-et paginae non se desfac, sed se revelant,
-ut oracula in nocte mentis.
-
-Amor, sapientia, silentium — tres claves.
-Et ego, viator inter retia et stellas,
-in codice meo invenio librum ultimum:
-non fictio, sed revelatio.
--->
-
