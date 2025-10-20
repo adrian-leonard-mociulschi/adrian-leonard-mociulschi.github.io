@@ -1,0 +1,20 @@
+{
+  "name": "Adrian Leonard Mociulschi",
+  "short_name": "A.L.M.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff0000",
+  "icons": [
+    {
+      "src": "/Favicon-new.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Favicon-new.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    }
+  ]
+}
