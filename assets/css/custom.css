@@ -1,3 +1,4 @@
+
 /* --- Footer: Remove the underline and baseline from under images. --- */
 .site-footer a,
 .site-footer a:hover,
@@ -55,15 +56,15 @@ footer.site-footer *::after {
   }
 }
 
-# FOOTER RSS – Pachet cod (CSS + HTML)
-# Folosește ce variantă preferi. Instrucțiuni rapide:
-# 1) Adaugă CSS-ul în assets/css/custom.css (la final).
-# 2) Alege UNA dintre variantele HTML (IMG extern sau SVG inline) și pune-o în _layouts/default.html (în <footer>),
-#    în locul blocului RSS curent.
+/* FOOTER RSS – Pachet cod (CSS + HTML)
+   Folosește ce variantă preferi. Instrucțiuni rapide:
+   1) Adaugă CSS-ul în assets/css/custom.css (la final).
+   2) Alege UNA dintre variantele HTML (IMG extern sau SVG inline) și pune-o în _layouts/default.html (în <footer>),
+      în locul blocului RSS curent. */
 
-====================================
-[1] CSS – FIX MINIMAL (recomandat)
-====================================
+/* ====================================
+   [1] CSS – FIX MINIMAL (recomandat)
+   ==================================== */
 /* Asigură vizibilitatea și spațierea pentru linkul RSS */
 .site-footer a[title="RSS Feed"] {
   display: inline-block;     /* permite margin-left din HTML */
@@ -87,4 +88,3 @@ footer.site-footer *::after {
   font-size: 0.9em;
   color: #555;
 }
-
