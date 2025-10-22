@@ -34,7 +34,7 @@ permalink: /blog
      data-keywords="Feminism, Algorithms, Visibility, AI, România Liberă, Digital curation, Girl in a Jacket"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">Girl in a Jacket: O poveste în cod binar</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">Girl in a Jacket: A Story in Binary Code</h2>
   <p style="font-style: italic; color: #555;">Editorial — September 25, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> that transforms a snippet from a search engine into a cultural code. Written in Romanian, the text reflects on feminism, representation, and the hidden codes of algorithmic visibility, starting from an unexpected snippet: Girl in a Jacket.</p>
   <p>
