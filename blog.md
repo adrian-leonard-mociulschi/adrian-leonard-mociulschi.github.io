@@ -36,7 +36,7 @@ permalink: /blog
 
   <h2 style="color: #003366; font-family: Georgia, serif;">Girl in a Jacket: A Story in Binary Code</h2>
   <p style="font-style: italic; color: #555;">Editorial — September 25, 2025</p>
-  <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> that transforms a snippet from a search engine into a cultural code. It explores the semiotics of algorithmic mediation through the lens of a seemingly trivial anomaly: the phrase “Girl in a jacket” extracted by a search engine snippet. What appears as an error becomes a cipher, revealing how digital infrastructures encode gendered representations through metadata, ranking systems, and interface aesthetics. Moving from the liminal space between intention and display to the cultural logic of voice assistants and humanoid robots, the text interrogates the persistence of feminine tropes in algorithmic design.</p>
+  <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> that explores the semiotics of algorithmic mediation through the lens of a seemingly trivial anomaly: the phrase “Girl in a jacket” extracted by a search engine snippet. What appears as an error becomes a cipher, revealing how digital infrastructures encode gendered representations through metadata, ranking systems, and interface aesthetics. Moving from the liminal space between intention and display to the cultural logic of voice assistants and humanoid robots, the text interrogates the persistence of feminine tropes in algorithmic design.</p>
   <p>
     <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/"
        target="_blank" rel="noopener noreferrer"
