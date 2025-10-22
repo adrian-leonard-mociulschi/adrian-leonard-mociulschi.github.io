@@ -4,7 +4,7 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "Curated writings by Adrian Leonard Mociulschi — essays, op-eds, and interdisciplinary reflections on technoculture."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-09-18T00:00:00+03:00"
+date: "2025-09-22T00:00:00+03:00"
 lang: "en-US"
 keywords: "Adrian Leonard Mociulschi, essays, op-eds, technoculture, ethical AI, symbolic meaning, interdisciplinary writing, Romania, Curtea Veche Publishing, cultural reflections"
 permalink: /writing
@@ -117,7 +117,7 @@ permalink: /writing
         "datePublished": "2025-10-02",
         "dateModified": "2025-10-12",
         "description": "An essay on ethical autonomy and human control in warfare and AI systems.",
-        "keywords": "autonomous systems, ethics, warfare, drones, AI, responsibility, human control"
+        "keywords": "Autonomous systems, Ethics, warfare, Drones, AI, Responsibility, Human control"
       },
       {
         "@type": "Article",
@@ -130,7 +130,7 @@ permalink: /writing
         "datePublished": "2025-09-27",
         "dateModified": "2025-10-12",
         "description": "A reflection on algorithmic visibility, symbolic presence, and ethical design in digital systems.",
-        "keywords": "algorithms, ethics, visibility, symbolic presence, digital culture"
+        "keywords": "Algorithms, Ethics, Visibility, Symbolic presence, Digital culture"
       },
       {
         "@type": "Article",
@@ -143,7 +143,7 @@ permalink: /writing
         "datePublished": "2025-08-13",
         "dateModified": "2025-10-12",
         "description": "An exploration of algorithms as dynamic entities shaping coexistence and symbolic infrastructures.",
-        "keywords": "algorithms, coexistence, symbolic systems, technoculture, digital ethics"
+        "keywords": "Algorithms, Coexistence, Symbolic systems, Technoculture, Digital ethics"
       }
     ]
   },
