@@ -36,7 +36,7 @@ permalink: /blog
 
   <h2 style="color: #003366; font-family: Georgia, serif;">Girl in a Jacket: O poveste în cod binar</h2>
   <p style="font-style: italic; color: #555;">Editorial — September 25, 2025</p>
-  <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> that transforms a snippet from a search engine into a cultural code. Written in Romanian, the text reflects on feminism, representation, and the hidden codes of algorithmic visibility, starting from an unexpected snippet: “Girl in a Jacket.” The text, written in Romanian, reflects on feminism, representation, and the hidden codes of algorithmic visibility. It starts from an unexpected snippet: "Girl in a Jacket." The essay explores how digital interfaces shape perception, how labels replace presence, and why equality and dignity remain urgent issues in an era where algorithms propose a new curation of reality.</p>
+  <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> that transforms a snippet from a search engine into a cultural code. Written in Romanian, the text reflects on feminism, representation, and the hidden codes of algorithmic visibility, starting from an unexpected snippet: Girl in a Jacket.</p>
   <p>
     <a href="https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/"
        target="_blank" rel="noopener noreferrer"
