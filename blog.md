@@ -55,7 +55,7 @@ permalink: /blog
      data-keywords="România Liberă, Pedagogy, Pandemic, Technological literacy, Web 3.0, Education, Blockchain, Digitization"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">De la tablă la blockchain: Lecția pe care școala nu o poate amâna</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">From Blackboard to Blockchain: The Lesson Schools Can't Put Off</h2>
   <p style="font-style: italic; color: #555;">Editorial — September 12, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> demonstrating that education, from blackboards to blockchain technology, has changed dramatically. In the digital age, schools are undergoing a profound transformation: a shift from printed textbooks to interactive platforms and the decentralization promises of Web 3.0. Technological literacy is no longer optional but rather a continuous process vital for developing future skills. Lessons are no longer confined to the classroom but also extend to virtual libraries, collaborative spaces, and hybrid ecosystems where the analog and digital worlds coexist. The pandemic will accelerate this transformation, demonstrating that screens are not just a temporary solution but a permanent part of pedagogy.</p>
   <p>
@@ -76,7 +76,7 @@ permalink: /blog
      data-keywords="Romania, Future, Emerging technologies, AI, Internet, Regeneration, Culture, România Liberă, Essay"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">România 2055: Viitorul ca prag între trecut și posibil</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">Romania 2055: The Future as a Threshold Between the Past and the Possible</h2>
   <p style="font-style: italic; color: #555;">Editorial — September 03, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi wrote an essay in <em>România Liberă</em> which shows that there is a window between prediction and presence—not to certainty, but to meaning. The article reflects on how Romania could become a laboratory for emerging technologies by integrating its economic, energy, and cultural infrastructures under the banner of regeneration. Reflecting on the 1990s, when 286 processors and dial-up connections ushered in the era of digital fascination, the text contrasts the initial optimism about achieving prosperity through information technology with the present reality. While the internet has become ubiquitous and AI has transitioned from speculation to everyday life, many futuristic aspirations remain elusive. The lesson is not about missed opportunities but how imagination shapes progress.</p>
   <p>
@@ -97,7 +97,7 @@ permalink: /blog
      data-keywords="The future of work, Creativity, Digital transition, România Liberă, Algorithms, AI, Automation, Work"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">De la automatizare la armonie: Algoritmi, oameni și viitorul muncii</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">From Automation to Harmony: Algorithms, People, and the Future of Work</h2>
   <p style="font-style: italic; color: #555;">Editorial — August 26, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> demonstrating that automation is not the end of work, but rather the beginning of a new ecology of meaning. The article explores how, rather than replacing humans, algorithms and artificial intelligence redefine their role in an ecosystem where creativity and adaptability become strategic resources. Rather than offering an apocalyptic vision, the text provides a clear interpretation: Automation takes over repetitive tasks, freeing up time for activities with symbolic and cognitive value. The challenge lies not in technology itself but in how society manages the transition, avoiding polarization between "human work" and "algorithmic work."</p>
   <p>
@@ -118,7 +118,7 @@ permalink: /blog
      data-keywords="Technology, Sustainability, AI, Green energy, România Liberă, Sophia, Leonardo, Digital ecology"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">Arta algoritmilor: Cum se întâlnesc Leonardo, robotul Sophia și economia digitală</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">The Art of Algorithms: How Leonardo, Sophia the Robot, and the Digital Economy Intersect</h2>
   <p style="font-style: italic; color: #555;">Editorial — August 15, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi wrote an essay in <em>România Liberă</em> which shows that technology is not just infrastructure; it is also a matter of responsibility. The article argues that Romania has the opportunity to transform the energy and digital transitions into a smart ecology project where innovation serves efficiency and sustainability. In the context of the climate crisis and geopolitical pressures, fragmented solutions are insufficient; rather, they must integrate green energy, artificial intelligence, and public policies aimed at reducing the carbon footprint. Thus, technology becomes an instrument of solidarity, not just profit.</p>
   <p>
@@ -139,7 +139,7 @@ permalink: /blog
      data-keywords="Algorithmic culture, Fibonacci, România Liberă, Sophia, Digital aesthetics, Artificial intelligence, Algorithms"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">„Codul stelelor”: Inteligența artificială și limbajul cosmic</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">The Code of the Stars: Artificial Intelligence and Cosmic Language</h2>
   <p style="font-style: italic; color: #555;">Editorial — August 06, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> demonstrating that the algorithm is not just a tool, but also a form of creation. The article explores the symbolic intersection of Leonardo da Vinci, robot Sophia, and digital aesthetics. It demonstrates how Fibonacci's proportions and mathematical harmony bridge the gap between art and technology. In an economy governed by codes, algorithms are not just calculation mechanisms; they are cultural actors that shape perception and taste. From the Mona Lisa to Sophia, beauty is not just a subjective concept, but a generative matrix where artificial intelligence transforms aesthetics into a dynamic process.</p>
   <p>
@@ -160,7 +160,7 @@ permalink: /blog
      data-keywords="Technology, Sustainability, Smart ecology, Green energy, AI, România Liberă, Public policy, Climate crisis"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">Responsabilitatea tehnologică: România și șansa unei ecologii inteligente</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">Technological responsibility in Romania and the opportunity for intelligent ecology</h2>
   <p style="font-style: italic; color: #555;">Editorial — July 31, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi wrote an essay in <em>România Liberă</em> which shows that technology is not just infrastructure; it is also a matter of responsibility. The article argues that Romania has the opportunity to transform the energy and digital transitions into a smart ecology project where innovation serves efficiency and sustainability. In the context of the climate crisis and geopolitical pressures, fragmented solutions are insufficient; rather, they must integrate green energy, artificial intelligence, and public policies aimed at reducing the carbon footprint. Thus, technology becomes an instrument of solidarity, not just profit.</p>
   <p>
@@ -181,7 +181,7 @@ permalink: /blog
      data-keywords="Flight, Miorița, Space Oddity, Major Tom, România Liberă, Myth, Astronauts, Courage, Destiny"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">Zborul între chemare și destin: De la Miorița la Space Oddity</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">Flight Between Calling and Destiny: From Miorița to Space Oddity</h2>
   <p style="font-style: italic; color: #555;">Editorial — July 22, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> demonstrating that flying is not only a technical achievement but also a metaphor for destiny. The article draws a parallel between the Mioritic myth and Major Tom from "Space Oddity," examining the tension between calling and fate. On a day dedicated to Romanian aviation, the text symbolically rehabilitates Bowie's character, presenting him not as a romantic adventurer but as a professional navigator of the unknown. A reflection on courage, responsibility, and human fragility in the face of infinity emerges between the ballad "Miorița" and the space song.</p>
   <p>
@@ -202,7 +202,7 @@ permalink: /blog
      data-keywords="Economy, Society, Violin, Vibrations, România Liberă, Musical metaphor, Resonance, Culture"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">Economia vibrațiilor și vioara societății</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">The Economy of Vibrations and the Violin of Society</h2>
   <p style="font-style: italic; color: #555;">Editorial — July 15, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi wrote an essay in <em>România Liberă</em> which shows that the society is not just an economic structure; it is also a vibrating instrument. The article uses the metaphor of a violin to explain social dynamics. With its tensions and harmonies, the violin represents an economy based on resonance, not mere accumulation. Rather than a mechanistic view, the text suggests that relationships, flows, and decisions are influenced by symbolic vibrations—such as values, emotions, and cultural rhythms—that give meaning to collective movement. The economy is not just numbers; it is also sound.</p>
   <p>
@@ -223,7 +223,7 @@ permalink: /blog
      data-keywords="România Liberă, Culture, Innovation, History of technology, Artifacts, AI, Automation, Heron"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">De la Heron la AI: Ce ne spune istoria despre viitor</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">From Heron to AI: What History Tells Us About the Future</h2>
   <p style="font-style: italic; color: #555;">Editorial — July 09, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> demonstrating that the history of technology is cyclical, not linear. The article begins with Heron of Alexandria, the ancient inventor of automatic mechanisms, to demonstrate that fascination with machines is not a new phenomenon, but a recurring one. From the water wheel to the steam engine and from mechanical computers to today's algorithms, technological progress is also cultural. Each innovation changes the way people think, work, and imagine the future. In this sense, AI is not a break with tradition, but rather a continuation of the long tradition of delegating tasks to artifacts.</p>
   <p>
@@ -244,7 +244,7 @@ permalink: /blog
      data-keywords="Urban planning, Culture, Blockchain, Digital currency, România Liberă, Metaverse, Smart cities, Algorithms"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(240, 248, 255, 0.3); padding: 20px; margin: 20px 0; font-family: Georgia, serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">Codul Cetății: Cultura, Moneda și Viitorul Urban</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">The Code of the City: Culture, Currency, and the Urban Future</h2>
   <p style="font-style: italic; color: #555;">Editorial — July 02, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi wrote an essay in <em>România Liberă</em> which shows that the city is not just a physical space; it is also a cultural code. This article analyzes how urban infrastructure is changing due to emerging technologies and the digital economy. From the ancient marketplace to the metaverse, the city has remained a symbol of coexistence. Today, however, blockchain technology and digital currencies are emerging as new instruments of governance. Instead of walls, we have networks, and instead of traditional markets, we have decentralized platforms. The urban future extends beyond smart cities and involves a reconfiguration of meaning. How can dignity and culture be preserved in an algorithmic space?</p>
   <p>
@@ -265,7 +265,7 @@ permalink: /blog
      data-keywords="Culture, Web 3.0, Patronage, Metaverse, NFT, Blockchain, România Liberă, Decentralization, Digital experience"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
 
-  <h2 style="color: #003366; font-family: Georgia, serif;">Cultura 3.0: De la Mecenat la Metavers</h2>
+  <h2 style="color: #003366; font-family: Georgia, serif;">Culture 3.0: From Patronage to the Metaverse</h2>
   <p style="font-style: italic; color: #555;">Editorial — June 25, 2025</p>
   <p><strong>Summary —</strong> Adrian Leonard Mociulschi pens an essay in <em>România Liberă</em> demonstrating that the value of culture is not just heritage, but also digital infrastructure. The article analyzes the transition from traditional patronage to cultural ecosystems in the Web 3.0 era, where blockchain technology, non-fungible tokens (NFTs), and the metaverse serve as tools for authenticity and co-creation. Rather than a model based on sponsorship and centralization, a new, decentralized paradigm is emerging in which artists and audiences participate in the governance of culture. Culture 3.0 is not merely about digitization; it is a reconfiguration of meaning, shifting the focus from objects to experiences and from collections to networks.</p>
   <p>
