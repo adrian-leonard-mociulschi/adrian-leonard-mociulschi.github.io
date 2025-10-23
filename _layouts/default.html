@@ -152,8 +152,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   btn.addEventListener('click', function(e){
     e.preventDefault();
-    container.style.display = 'none';
     var target = buildTranslateUrl(location.href);
+    container.style.display = 'none'; // ascunde butonul doar după click
     try {
       window.location.replace(target);
     } catch(_) {
