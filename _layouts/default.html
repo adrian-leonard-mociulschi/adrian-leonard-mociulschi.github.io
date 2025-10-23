@@ -130,28 +130,4 @@
     </script>
     -->
   </body>
- <script>
-document.addEventListener('DOMContentLoaded', function () {
-  function buildTranslateUrl(orig){
-    var base = 'https://translate.google.com/translate?hl=ro&sl=auto&tl=ro&u=';
-    return base + encodeURIComponent(orig);
-  }
-
-  var container = document.getElementById('translator-container');
-  var btn = document.getElementById('btnTranslate');
-
-  if (!container || !btn) return;
-
-  btn.addEventListener('click', function(e){
-    e.preventDefault();
-    container.style.display = 'none'; // ascunde doar după click
-    var target = buildTranslateUrl(location.href);
-    try {
-      window.location.replace(target);
-    } catch(_) {
-      window.location.href = target;
-    }
-  });
-});
-</script>
 </html>
