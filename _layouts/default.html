@@ -132,9 +132,6 @@
   </body>
  <script>
 document.addEventListener('DOMContentLoaded', function () {
-  function isGTranslateHost(h){
-    return /(^|\.)translate\.google(?:usercontent)?\.com$/.test(h);
-  }
   function buildTranslateUrl(orig){
     var base = 'https://translate.google.com/translate?hl=ro&sl=auto&tl=ro&u=';
     return base + encodeURIComponent(orig);
@@ -145,15 +142,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (!container || !btn) return;
 
-  if (isGTranslateHost(location.hostname)) {
-    container.style.display = 'none';
-    return;
-  }
-
   btn.addEventListener('click', function(e){
     e.preventDefault();
+    container.style.display = 'none'; // ascunde doar după click
     var target = buildTranslateUrl(location.href);
-    container.style.display = 'none'; // ascunde butonul doar după click
     try {
       window.location.replace(target);
     } catch(_) {
