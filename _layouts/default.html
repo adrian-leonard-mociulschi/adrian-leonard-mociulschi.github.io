@@ -130,19 +130,41 @@
     </script>
     -->
   </body>
-  <!-- Microsoft Translator Widget: EN ↔ RO -->
-<div id="translator-container" style="position:fixed;bottom:20px;right:20px;z-index:9999;display:flex;gap:8px;">
-  <button onclick="translateTo('ro')" style="padding:8px 12px;background:#0078D7;color:#fff;border:none;border-radius:4px;cursor:pointer;">RO</button>
-  <button onclick="translateTo('en')" style="padding:8px 12px;background:#555;color:#fff;border:none;border-radius:4px;cursor:pointer;">EN</button>
+  <!-- Translate buttons: RO ↔ EN (no account needed) -->
+<div id="translator-container"
+     style="position:fixed;bottom:20px;right:20px;z-index:9999;display:flex;gap:8px;">
+  <button onclick="translatePage('ro')"
+          style="padding:8px 12px;background:#0078D7;color:#fff;border:none;border-radius:4px;cursor:pointer;">
+    RO
+  </button>
+  <button onclick="translatePage('en')"
+          style="padding:8px 12px;background:#555;color:#fff;border:none;border-radius:4px;cursor:pointer;">
+    EN
+  </button>
 </div>
 
-<script type="text/javascript">
-  function translateTo(lang) {
-    var s = document.createElement("script");
-    s.type = "text/javascript";
-    s.charset = "UTF-8";
-    s.src = "//www.microsoftTranslator.com/ajax/v3/WidgetV3.ashx?from=en&to=" + lang;
-    document.body.appendChild(s);
+<script>
+  function isGoogleTranslatedHost(h) {
+    return /(^|\.)translate\.googleusercontent\.com$|(^|\.)translate\.google\.com$/.test(h);
+  }
+  function originalFromGoogleTranslateUrl() {
+    const u = new URLSearchParams(location.search).get('u');
+    return u ? decodeURIComponent(u) : location.href;
+  }
+  function translatePage(lang) {
+    if (lang === 'ro') {
+      // Open current page translated to Romanian via Google Translate (EN -> RO)
+      const target = 'https://translate.google.com/translate?sl=en&tl=ro&u='
+                     + encodeURIComponent(location.href);
+      location.href = target; // same-tab to avoid popup blocking
+    } else if (lang === 'en') {
+      // If on a Google-translated URL, go back to the original page; else just reload
+      if (isGoogleTranslatedHost(location.hostname)) {
+        location.href = originalFromGoogleTranslateUrl();
+      } else {
+        location.reload();
+      }
+    }
   }
 </script>
 </html>
