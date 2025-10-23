@@ -130,7 +130,7 @@
     </script>
     -->
   </body>
-  <!-- Translate button (Google Translate): single icon -->
+ <!-- Translate button: single icon; hides itself on Google Translate pages -->
 <div id="translator-container" style="position:fixed;bottom:20px;right:20px;z-index:9999;">
   <button type="button" id="btnTranslate"
           style="padding:10px 14px;font-size:18px;background:#0078D7;color:#fff;border:none;border-radius:50%;cursor:pointer;"
@@ -140,23 +140,26 @@
 <script>
 (function(){
   function isGTranslateHost(h){
-    return /(^|\.)translate\.googleusercontent\.com$|(^|\.)translate\.google\.com$/.test(h);
-  }
-  function getOriginalUrl(){
-    var p = new URLSearchParams(location.search);
-    var u = p.get('u');
-    return u ? decodeURIComponent(u) : location.href;
+    return /(^|\.)translate\.google(?:usercontent)?\.com$/.test(h);
   }
   function buildTranslateUrl(orig){
-    // auto-detect source; default target Romanian; UI language = ro
+    // auto-detect source; default target Romanian; Google UI in RO
     var base = 'https://translate.google.com/translate?hl=ro&sl=auto&tl=ro&u=';
     return base + encodeURIComponent(orig);
   }
-  document.getElementById('btnTranslate').addEventListener('click', function(e){
+
+  var container = document.getElementById('translator-container');
+  var btn = document.getElementById('btnTranslate');
+
+  // If we are already on a Google-translated URL, hide the button to avoid re-translation errors
+  if (isGTranslateHost(location.hostname)) {
+    container.style.display = 'none';
+    return; // don't bind click handler
+  }
+
+  btn.addEventListener('click', function(e){
     e.preventDefault();
-    var orig = isGTranslateHost(location.hostname) ? getOriginalUrl() : location.href;
-    var target = buildTranslateUrl(orig);
-    // Use replace to avoid history clutter and some interstitials
+    var target = buildTranslateUrl(location.href);
     try { window.location.replace(target); } catch(_) { window.location.href = target; }
   });
 })();
