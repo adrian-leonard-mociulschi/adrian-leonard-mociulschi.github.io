@@ -133,6 +133,7 @@ permalink: /about
     "https://revistacultura.ro/author/leonard/",
     "https://romanialibera.ro/author/adrian-mociulschi/",
     "https://www.contributors.ro/author/adrian-leonard-mociulschi",
+    "https://cimro.ro/adrian-mociulschi/",
     "https://orcid.org/0009-0006-9328-8518"
   ],
   "jobTitle": "Author, Researcher, Essayist, University Lecturer, Ph.D.",
