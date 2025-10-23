@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 
-/* --- The image in the link becomes a block, which means it no longer "inherits" the baseline. --- */
+/* --- The image in the link becomes a block, which means it no longer "inherits" the baseline --- */
 .site-footer a img {
   display: block;
 }
@@ -47,7 +47,7 @@ footer.site-footer *::after {
   color: #555; /* Gri închis pentru text */
 }
 
-/* Responsivitate: păstrează proporțiile pe ecrane mici */
+/* Responsiveness maintains proportions on small screens */
 @media (max-width: 600px) {
   .site-footer-credits {
     font-size: 0.85em;
