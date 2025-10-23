@@ -131,7 +131,7 @@
     -->
   </body>
  <script>
-(function(){
+document.addEventListener('DOMContentLoaded', function () {
   function isGTranslateHost(h){
     return /(^|\.)translate\.google(?:usercontent)?\.com$/.test(h);
   }
@@ -143,6 +143,8 @@
   var container = document.getElementById('translator-container');
   var btn = document.getElementById('btnTranslate');
 
+  if (!container || !btn) return;
+
   if (isGTranslateHost(location.hostname)) {
     container.style.display = 'none';
     return;
@@ -150,7 +152,7 @@
 
   btn.addEventListener('click', function(e){
     e.preventDefault();
-    container.style.display = 'none'; // 🔴 Ascunde butonul imediat
+    container.style.display = 'none';
     var target = buildTranslateUrl(location.href);
     try {
       window.location.replace(target);
@@ -158,6 +160,6 @@
       window.location.href = target;
     }
   });
-})();
+});
 </script>
 </html>
