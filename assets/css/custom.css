@@ -155,3 +155,94 @@ footer.site-footer *::after {
   .go-top{ transition: none; }
 }
 /* ========================================================================= */
+
+style>
+:root {
+  --menu-color:        #1a1a1a;
+  --menu-hover-color:  #000000;
+  --dot-color:         #999999;
+}
+
+.site-nav {
+  display: block;
+  margin: 0.75rem 0 1rem;
+  text-align: center;
+}
+
+.site-nav .menu-list {
+  display: inline-flex;
+  gap: 1.1rem;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.site-nav .menu-list > li {
+  position: relative;
+}
+
+.site-nav .menu-list > li:not(:last-child)::after {
+  content: "·";
+  position: absolute;
+  right: -0.65rem;
+  color: var(--dot-color);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.site-nav .menu-link {
+  position: relative;
+  display: inline-block;
+  color: var(--menu-color);
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  padding: 2px 1px;
+  border-radius: 4px;
+  transform: translateZ(0);
+  transition:
+    color .25s ease,
+    transform .25s cubic-bezier(.2,.7,.2,1),
+    text-shadow .25s ease,
+    background-size .25s ease;
+}
+
+.site-nav .menu-link:hover,
+.site-nav .menu-link:focus-visible {
+  color: var(--menu-hover-color);
+  transform: translateY(-1.5px);
+  text-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.25),
+    0 1px 0   rgba(255, 255, 255, 0.15);
+  background-size: 100% 1px;
+  outline: none;
+}
+
+.site-nav .menu-link:active {
+  transform: translateY(0);
+  text-shadow: 0 2px 6px rgba(0,0,0,.20);
+}
+
+.site-nav .menu-link[aria-current="page"] {
+  font-weight: 600;
+  background-size: 100% 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-nav .menu-link {
+    transition: color .2s ease, background-size .2s ease;
+  }
+  .site-nav .menu-link:hover,
+  .site-nav .menu-link:focus-visible {
+    transform: none;
+  }
+}
+</style>
+<!-- END: Navigation Menu -->
+
