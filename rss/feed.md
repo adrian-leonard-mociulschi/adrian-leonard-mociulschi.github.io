@@ -25,7 +25,7 @@ RSS is a standardized format that news aggregators (like Feedly, Inoreader, and 
 
 <div class="rss-actions" style="display:flex; flex-wrap:wrap; gap:12px; margin: 18px 0 8px; justify-content:flex-start;">
   <a class="btn rss-btn" href="https://feedly.com/i/subscription/feed/{{ feed_url }}" target="_blank" rel="noopener">
-    <span class="icon" aria-hidden="true">🟧</span>
+    <span class="icon" aria-hidden="true">📡</span>
     <span>Sign up for a subscription to Feedly</span>
   </a>
   <a class="btn rss-btn ghost" href="{{ feed_url }}" target="_blank" rel="noopener">
@@ -38,7 +38,7 @@ RSS is a standardized format that news aggregators (like Feedly, Inoreader, and 
   </button>
 </div>
 
-* If you use Outlook, Apple Mail, or similar applications, simply copy the RSS link. Then, insert it into your application.
+In the application, insert the RSS link into the "Follow Source" field. This will enable you to explore and subscribe to our news feed.
 </section>
 
 <style>
