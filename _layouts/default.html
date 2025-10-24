@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="msvalidate.01" content="F96E9C5720D3D6021656350BF92CB55F" />
 
-    <!-- Titlu + descriere personalizate (fallback dacă pagina nu definește propriile valori) -->
+    <!-- Titlu + descriere (fallback dacă pagina nu definește propriile valori) -->
     <title>{{ page.title | default: 'Adrian Leonard Mociulschi — University lecturer, essayist, Ambassador of technoculture' }}</title>
     <meta name="description" content="{{ page.description | default: 'Lecturer, essayist, and technoculture ambassador. Published five volumes on AI, culture, and future explorations.' }}">
 
@@ -41,37 +41,39 @@
     {% assign og_desc  = page.description | default: 'Lecturer, essayist, and technoculture ambassador. Published five volumes on AI, culture, and future explorations.' %}
     {% assign og_img   = page.image | default: '/Favicon-new.png' %}
 
+    <!-- URL canonic + OG/Twitter URL (fără hack-uri cu replace) -->
     {% if site.url %}
-      <link rel="canonical" href="{{ page.url | replace:'feed.md','' | absolute_url }}">
-      <meta property="og:url" content="{{ page.url | replace:'feed.md','' | absolute_url }}">
-      <meta name="twitter:url" content="{{ page.url | replace:'feed.md','' | absolute_url }}">
+      <link rel="canonical" href="{{ page.url | absolute_url }}">
+      <meta property="og:url" content="{{ page.url | absolute_url }}">
+      <meta name="twitter:url" content="{{ page.url | absolute_url }}">
     {% else %}
       <!-- Fallback pentru GitHub Pages dacă site.url nu e setat în _config.yml -->
-      <link rel="canonical" href="{{ site.github.url }}{{ page.url | replace:'feed.md','' }}">
-      <meta property="og:url" content="{{ site.github.url }}{{ page.url | replace:'feed.md','' }}">
-      <meta name="twitter:url" content="{{ site.github.url }}{{ page.url | replace:'feed.md','' }}">
+      <link rel="canonical" href="{{ site.github.url }}{{ page.url }}">
+      <meta property="og:url" content="{{ site.github.url }}{{ page.url }}">
+      <meta name="twitter:url" content="{{ site.github.url }}{{ page.url }}">
     {% endif %}
 
     <meta property="og:title" content="{{ og_title }}">
     <meta property="og:site_name" content="Adrian Leonard Mociulschi">
     <meta property="og:description" content="{{ og_desc }}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ og_img | relative_url }}">
+    <meta property="og:image" content="{{ og_img | absolute_url }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ og_title }}">
     <meta name="twitter:description" content="{{ og_desc }}">
-    <meta name="twitter:image" content="{{ og_img | relative_url }}">
+    <meta name="twitter:image" content="{{ og_img | absolute_url }}">
 
     <!-- Stiluri -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-    <!-- RSS autodiscovery -->
+    <!-- RSS autodiscovery (principalul feed XML) -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: 'Adrian Leonard Mociulschi' }} RSS" href="{{ '/feed.xml' | relative_url }}">
 
     {% include head-custom.html %}
   </head>
   <body>
+    <a id="top"></a>
     <a id="skip-to-content" href="#content">Sari la conținut</a>
 
     <header class="page-header" role="banner">
@@ -86,15 +88,16 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
+    </main>
 
-  <footer>
+    <footer>
       <span class="site-footer-credits">
         This page was generated with <a href="https://pages.github.com">GitHub Pages</a>.
       </span>
 
-      <!-- RSS premium (link către /rss/) -->
+      <!-- RSS premium: link spre pagina nouă la /rss/feed/ (nu spre .md) -->
       <div class="rss-widget premium">
-        <a href="{{ '/rss/' | relative_url }}" class="rss-button rss-button--glass" target="_blank" rel="noopener" title="Subscribe to RSS" aria-label="Subscribe to RSS">
+        <a href="{{ '/rss/feed/' | absolute_url }}" class="rss-button rss-button--glass" target="_blank" rel="noopener" title="Subscribe to RSS" aria-label="Subscribe to RSS">
           <svg class="rss-svg" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M6.18 17.82a2.18 2.18 0 1 1 0-4.36 2.18 2.18 0 0 1 0 4.36zm-2.18-7.82v3.09c5.52 0 10 4.48 10 10h3.09c0-7.22-5.87-13.09-13.09-13.09zm0-5v3.09c9.39 0 17 7.61 17 17h3.09c0-11.08-9.01-20.09-20.09-20.09z"/>
           </svg>
