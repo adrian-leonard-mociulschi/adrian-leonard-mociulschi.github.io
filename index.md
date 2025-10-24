@@ -85,7 +85,7 @@ permalink: /
     <img src="/assets/img/EQ9.png" alt="An experimental quire co-created with AI (Witch-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
 </section>
-
+<br>
 <section id="orcid">
   <p><strong>ORCID iD:</strong> 
     <a href="https://orcid.org/0009-0006-9328-8518" target="_blank" rel="noopener noreferrer">
