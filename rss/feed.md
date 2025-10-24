@@ -42,11 +42,8 @@ In the application, insert the RSS link into the "Follow Source" field. This wil
 </section>
 
 <style>
-  /* override potential center alignment from theme */
   .main-content { text-align:left; }
-
   .rule{ border:0; height:1px; background:#ccc; margin:16px 0; }
-
   .rss-landing h2 { color:#1e6bb8; margin: 0 0 8px; }
   .rss-btn{
     display:inline-flex; align-items:center; justify-content:flex-start; gap:10px;
@@ -75,6 +72,10 @@ In the application, insert the RSS link into the "Follow Source" field. This wil
   .rss-btn.outline{
     background: transparent; color:#1e6bb8;
     border-color: rgba(30,107,184,.45);
+    appearance: none;
+    -webkit-appearance: none;
+    text-align: left;
+    padding-left: 14px;
   }
   .rss-btn.outline:hover, .rss-btn.outline:focus-visible{
     background: rgba(30,107,184,.08);
@@ -110,9 +111,8 @@ In the application, insert the RSS link into the "Follow Source" field. This wil
     btn.innerHTML = '<span class="icon" aria-hidden="true">✅</span><span>Copiat!</span>';
     setTimeout(function(){
       btn.classList.remove('copied');
-      btn.innerHTML = '<span class=\"icon\" aria-hidden=\"true\">🔗</span><span>Copiază linkul RSS</span>';
+      btn.innerHTML = '<span class="icon" aria-hidden="true">🔗</span><span>Copiază linkul RSS</span>';
     }, 1800);
   });
 })();
 </script>
-
