@@ -88,27 +88,3 @@ In the application, insert the RSS link into the "Follow Source" field. This wil
   }
   @media (prefers-color-scheme: dark){ .rss-btn{ box-shadow: 0 12px 28px rgba(0,0,0,.45); } }
 </style>
-
-<script>
-(function(){
-  var btn = document.getElementById('copyRssBtn');
-  if(!btn) return;
-  btn.addEventListener('click', function(){
-    var url = btn.getAttribute('data-rss');
-    if (!navigator.clipboard) {
-      var ta = document.createElement('textarea');
-      ta.value = url; document.body.appendChild(ta);
-      ta.select(); try { document.execCommand('copy'); } catch(_){ }
-      document.body.removeChild(ta);
-    } else {
-      navigator.clipboard.writeText(url).catch(function(){});
-    }
-    btn.classList.add('copied');
-    btn.innerHTML = '<span class="icon" aria-hidden="true">✅</span><span>Copiat!</span>';
-    setTimeout(function(){
-      btn.classList.remove('copied');
-      btn.innerHTML = '<span class="icon" aria-hidden="true">🔗</span><span>Copiază linkul RSS</span>';
-    }, 1800);
-  });
-})();
-</script>
