@@ -4,9 +4,9 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "Curated writings by Adrian Leonard Mociulschi — essays, op-eds, and interdisciplinary reflections on technoculture."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-09-22T00:00:00+03:00"
+date: "2025-09-24T00:00:00+03:00"
 lang: "en-US"
-keywords: "Adrian Leonard Mociulschi, essays, op-eds, technoculture, ethical AI, symbolic meaning, interdisciplinary writing, Romania, Curtea Veche Publishing, cultural reflections"
+keywords: "Adrian Leonard Mociulschi, Essays, Op-eds, Technoculture, Ethical AI, Symbolic meaning, Nine O'Clock, Romania, Curtea Veche Publishing, Contributors, Cultural reflections"
 permalink: /writing
 ---
 
@@ -35,6 +35,23 @@ permalink: /writing
 <section id="recent-articles">
   <h2>Recent Articles</h2>
 </section>
+
+<picture>
+  <source type="image/avif" srcset="/assets/img/B21VM_2007.avif">
+  <source type="image/webp" srcset="/assets/img/B21VM_2007.webp">
+  <img src="/assets/img/B21VM_2007.png" alt="Illustration for the 25/10/24 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+</picture>
+
+<p>
+  <a href="https://nineoclock.ro/2025/10/24/honor-and-algorithms-the-romanian-militarys-new-frontline/" target="_blank" rel="noopener noreferrer">
+    <strong>Honor and Algorithms – The Romanian Military’s New Frontline</strong>
+  </a>
+</p>
+<p>
+  Published on <em>October 25</em>, 2025. In an era of hybrid warfare and digital frontlines, <strong>Romania’s Armed Forces</strong> reaffirm their role as both a shield of sovereignty and a living conscience of the nation, rooted in the legacy of October 25th, 1944. Through the voices of military leaders like Colonel (Ret.) Gheorghe Suman, Colonel Cristian-Tiberiu Cristescu and General (Ret.) Cristian Teglas, the article traces the evolution of the mountain troops from the trenches of WWII to today’s algorithm-driven defense systems. In this new strategic landscape, <strong>honor becomes the unbreakable code</strong>, and dignity the enduring algorithm that guides Romania’s military ethos across land, air, sea, and cyberspace.
+</p>
+<p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
+<hr>
 
 <picture>
   <source type="image/avif" srcset="/assets/img/coperta-31-1920x1357.avif">
@@ -115,18 +132,18 @@ permalink: /writing
       "@id": "https://adrian-leonard-mociulschi.github.io/#person"
     },
     "mainEntity": [
-      {
+       {
         "@type": "Article",
-        "headline": "The Future Has No Autopilot",
-        "image": "https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png",
-        "url": "https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/",
+        "headline": "Algorithms as Living Forms: Rethinking Coexistence in a World of Code",
+        "url": "https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg",
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
-        "datePublished": "2025-10-02",
-        "dateModified": "2025-10-12",
-        "description": "An essay on ethical autonomy and human control in warfare and AI systems.",
-        "keywords": "Autonomous systems, Ethics, warfare, Drones, AI, Responsibility, Human control"
+        "datePublished": "2025-08-13",
+        "dateModified": "2025-10-24",
+        "description": "An exploration of algorithms as dynamic entities shaping coexistence and symbolic infrastructures.",
+        "keywords": "Algorithms, Coexistence, Symbolic systems, Technoculture, Digital ethics"
       },
       {
         "@type": "Article",
@@ -137,22 +154,35 @@ permalink: /writing
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
         "datePublished": "2025-09-27",
-        "dateModified": "2025-10-12",
+        "dateModified": "2025-10-24",
         "description": "A reflection on algorithmic visibility, symbolic presence, and ethical design in digital systems.",
         "keywords": "Algorithms, Ethics, Visibility, Symbolic presence, Digital culture"
       },
       {
         "@type": "Article",
-        "headline": "Algorithms as Living Forms: Rethinking Coexistence in a World of Code",
-        "url": "https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi",
-        "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg",
+        "headline": "The Future Has No Autopilot",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png",
+        "url": "https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/",
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
-        "datePublished": "2025-08-13",
-        "dateModified": "2025-10-12",
-        "description": "An exploration of algorithms as dynamic entities shaping coexistence and symbolic infrastructures.",
-        "keywords": "Algorithms, Coexistence, Symbolic systems, Technoculture, Digital ethics"
+        "datePublished": "2025-10-02",
+        "dateModified": "2025-10-24",
+        "description": "An essay on ethical autonomy and human control in warfare and AI systems.",
+        "keywords": "Autonomous systems, Ethics, warfare, Drones, AI, Responsibility, Human control"
+       },
+      {
+        "@type": "Article",
+        "headline": "Honor and Algorithms – The Romanian Military’s New Frontline",
+        "url": "https://nineoclock.ro/2025/10/24/honor-and-algorithms-the-romanian-militarys-new-frontline/",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/10/solemnitate-1024x683.jpg",
+        "author": {
+          "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+        },
+        "datePublished": "2025-10-25",
+        "dateModified": "2025-10-24",
+        "description": "Romania’s Armed Forces redefine national defense by merging the legacy of mountain troops with cutting-edge military technologies in the age of hybrid warfare.",
+        "keywords": "Romanian Armed Forces, Mountain Troops, Hybrid Warfare, NATO Eastern Flank, Military Tradition, Defense Innovation, IAR-330 Puma Naval, Romanian Aeronautical Industry"
       }
     ]
   },
@@ -167,11 +197,12 @@ permalink: /writing
     "https://orcid.org/0009-0006-9328-8518",
     "https://revistacultura.ro/author/leonard/",
     "https://romanialibera.ro/author/adrian-mociulschi/",
-    "https://unmb.academia.edu/AdrianMociulschi",
     "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
     "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
     "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
     "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
+    "https://unmb.academia.edu/AdrianMociulschi",
+    "https://cimro.ro/adrian-mociulschi/",
     "https://www.unmb.ro/profesor/mociulschi-adrian/"
     ],
     "jobTitle": "University Lecturer, Author",
