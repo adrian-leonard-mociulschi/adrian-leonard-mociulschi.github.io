@@ -16,8 +16,6 @@ permalink: /rss/feed/
 
 <a id="top"></a>
 
-<hr class="rule">
-
 <section markdown="1" class="rss-landing" style="max-width: 720px; margin: 0; text-align:left;">
 ## Become a subscriber to receive news via RSS.
 
