@@ -16,7 +16,7 @@ permalink: /about
     <li><a href="/" class="menu-link">Home</a></li>
     <li><a href="/about" class="menu-link" aria-current="page">About</a></li>
     <li><a href="/writing" class="menu-link">Writings</a></li>
-    <li><a href="/blog" class="menu-link">Op&amp;Ed</a></li>
+    <li><a href="/blog" class="menu-link">Op&Ed</a></li>
     <li><a href="/ai-muse" class="menu-link">V-Box</a></li>
   </ul>
 </nav>
