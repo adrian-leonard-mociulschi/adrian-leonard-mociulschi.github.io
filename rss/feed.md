@@ -24,7 +24,7 @@ RSS is a standardized format that news aggregators (like Feedly, Inoreader, and 
 {% assign feed_url = '/feed.xml' | absolute_url %}
 
 <div class="rss-actions" style="display:flex; flex-wrap:wrap; gap:12px; margin: 18px 0 8px; justify-content:flex-start;">
-  <a class="btn rss-btn" href="https://feedly.com/i/subscription/feed/{{ feed_url }}" target="_blank" rel="noopener">
+  <a class="btn rss-btn" href="https://adrian-leonard-mociulschi.github.io/" target="_blank" rel="noopener">
     <span class="icon" aria-hidden="true">📡</span>
     <span>Sign up for a subscription to Feedly</span>
   </a>
