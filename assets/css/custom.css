@@ -88,3 +88,43 @@ footer.site-footer *::after {
   font-size: 0.9em;
   color: #555;
 }
+/* === Go To Top (floating button) ========================================= */
+.go-top {
+  position: fixed;
+  right: clamp(12px, 2.5vw, 20px);
+  bottom: calc(clamp(12px, 2.5vw, 20px) + env(safe-area-inset-bottom, 0px));
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,51,102,.55); /* semitransparent în tonul tău */
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,.28);
+  backdrop-filter: saturate(160%) blur(6px);
+  opacity: 0;
+  transform: translateY(12px) scale(.96);
+  transition: opacity .28s ease, transform .28s ease;
+  pointer-events: none;
+  z-index: 9999;
+  text-decoration: none;
+}
+.go-top.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+.go-top:hover,
+.go-top:focus-visible {
+  background: rgba(0,51,102,.85);
+  outline: none;
+}
+.go-top svg {
+  width: 26px;
+  height: 26px;
+}
+@media (prefers-reduced-motion: reduce){
+  .go-top { transition: none; }
+}
+/* ========================================================================= */
