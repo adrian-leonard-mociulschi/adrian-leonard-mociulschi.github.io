@@ -10,7 +10,7 @@ keywords: "Adrian Leonard Mociulschi, Articles, România Liberă, Nine O'Clock, 
 permalink: /rss/
 ---
 
-<nav style="text-align:center; margin: 0 auto 16px;">
+<nav style="text-align:left; margin: 0 0 16px;">
   <a href="https://adrian-leonard-mociulschi.github.io/">Home</a> ·
   <a href="https://adrian-leonard-mociulschi.github.io/about">About</a> ·
   <a href="https://adrian-leonard-mociulschi.github.io/writing">Writings</a> ·
@@ -18,13 +18,12 @@ permalink: /rss/
   <a href="https://adrian-leonard-mociulschi.github.io/ai-muse">V-Box</a>
 </nav>
 
-<section class="rss-landing" style="max-width: 720px; margin: 0 auto;">
+<section class="rss-landing" style="max-width: 720px; margin: 0 auto; text-align:left;">
   <h2 style="margin-top: 12px;">Become a subscriber to receive news via RSS.</h2>
   <p>
     RSS is a standardized format that news aggregators (like Feedly, Inoreader, and Outlook) use to distribute new articles.
     Please choose your preferred option from the list below.
   </p>
-</section>
 
   {% assign feed_url = '/feed.xml' | absolute_url %}
 
@@ -33,12 +32,6 @@ permalink: /rss/
     <a class="btn rss-btn" href="https://feedly.com/i/subscription/feed/{{ feed_url }}" target="_blank" rel="noopener">
       <span class="icon" aria-hidden="true">🟧</span>
       <span>Sign up for a subscription to Feedly</span>
-    </a>
-
-    <!-- Inoreader -->
-    <a class="btn rss-btn" href="https://www.inoreader.com/?add_feed={{ feed_url }}" target="_blank" rel="noopener">
-      <span class="icon" aria-hidden="true">📰</span>
-      <span>Sign up for a subscription to Inoreader.</span>
     </a>
 
     <!-- Open feed (RSS XML) -->
@@ -60,6 +53,9 @@ permalink: /rss/
 </section>
 
 <style>
+  /* Fortare aliniere la stanga pentru continut, daca tema aplica center */
+  .main-content { text-align: left; }
+
   .rss-landing h2 { color:#1e6bb8; }
   .rss-btn{
     display:inline-flex; align-items:center; gap:10px;
@@ -122,12 +118,11 @@ permalink: /rss/
       navigator.clipboard.writeText(url).catch(function(){});
     }
     btn.classList.add('copied');
-    btn.innerHTML = '<span class="icon" aria-hidden="true">✅</span><span>Copiat!</span>';
+    btn.innerHTML = '<span class="icon" aria-hidden="true">✅</span><span>Copied!</span>';
     setTimeout(function(){
       btn.classList.remove('copied');
-      btn.innerHTML = '<span class="icon" aria-hidden="true">🔗</span><span>Copiază linkul RSS</span>';
+      btn.innerHTML = '<span class="icon" aria-hidden="true">🔗</span><span>Copy RSS link</span>';
     }, 1800);
   });
 })();
 </script>
-
