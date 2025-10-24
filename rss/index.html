@@ -6,7 +6,7 @@ description: "RSS Feed: essays, op-eds, and projects on technoculture by Adrian 
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-24T00:00:00+03:00"
 lang: "en-US"
-keywords: "Adrian Leonard Mociulschi, articles, România Liberă, op-ed, RSS Feed, news, cultural journalism"
+keywords: "Adrian Leonard Mociulschi, Articles, România Liberă, Nine O'Clock, Contributors, Op-ed, RSS Feed, News, Cultural journalism"
 permalink: /rss/
 ---
 
@@ -15,8 +15,8 @@ permalink: /rss/
 <section class="rss-landing" style="max-width: 720px; margin: 0 auto;">
   <h2 style="margin-top:0">Abonare la noutăți (RSS)</h2>
   <p>
-    RSS este un flux standard pe care cititoarele de știri (Feedly, Inoreader, Outlook etc.) îl folosesc pentru a-ți livra articolele noi.
-    Alege opțiunea preferată de mai jos:
+    RSS is a standardized format that news aggregators (like Feedly, Inoreader, and Outlook) use to distribute new articles.
+    Please choose your preferred option from the list below.
   </p>
 
   {% assign feed_url = '/feed.xml' | absolute_url %}
@@ -25,30 +25,30 @@ permalink: /rss/
     <!-- Feedly -->
     <a class="btn rss-btn" href="https://feedly.com/i/subscription/feed/{{ feed_url }}" target="_blank" rel="noopener">
       <span class="icon" aria-hidden="true">🟧</span>
-      <span>Abonează-te în Feedly</span>
+      <span>Sign up for a subscription to Feedly</span>
     </a>
 
     <!-- Inoreader -->
     <a class="btn rss-btn" href="https://www.inoreader.com/?add_feed={{ feed_url }}" target="_blank" rel="noopener">
       <span class="icon" aria-hidden="true">📰</span>
-      <span>Abonează-te în Inoreader</span>
+      <span>Sign up for a subscription to Inoreader.</span>
     </a>
 
-    <!-- Deschide feed-ul (RSS XML) -->
+    <!-- Open feed (RSS XML) -->
     <a class="btn rss-btn ghost" href="{{ feed_url }}" target="_blank" rel="noopener">
       <span class="icon" aria-hidden="true">🧩</span>
-      <span>Deschide feed-ul RSS</span>
+      <span>Open RSS Feed</span>
     </a>
 
-    <!-- Copiază linkul RSS -->
+    <!-- Copy link (RSS) -->
     <button class="btn rss-btn outline" type="button" id="copyRssBtn" data-rss="{{ feed_url }}">
       <span class="icon" aria-hidden="true">🔗</span>
-      <span>Copiază linkul RSS</span>
+      <span>Copy RSS link</span>
     </button>
   </div>
 
   <p style="font-size:.95em; color:#555; margin-top:8px;">
-    * Dacă folosești Outlook / Apple Mail / alte aplicații, copiază linkul RSS și lipește-l în aplicația ta.
+    * If you use Outlook, Apple Mail, or similar applications, simply copy the RSS link. Then, insert it into your application.
   </p>
 </section>
 
