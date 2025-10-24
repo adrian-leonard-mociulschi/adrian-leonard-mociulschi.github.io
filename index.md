@@ -16,7 +16,7 @@ permalink: /
 
 <a id="top"></a>
 
-<section id="Prolegomena">
+<section id="Between human, machine, and meaning">
   <h2>Welcome to my GitHub</h2>
     <p><strong>Pro-LOG</strong></p>
     <p>
@@ -35,7 +35,7 @@ permalink: /
     </picture>
 </section>
 
-<section id="mission">
+<section id="A poetic interface">
   <h2>Mission</h2>
   <p>
     I build symbolic bridges between culture and code, not to critique, but to reveal. In the silence between circuits and verses, I sense an emerging epiphany — a presence that pulses through algorithms like breath through ancient scrolls.
@@ -63,7 +63,8 @@ permalink: /
   </picture>
 </section>
 
-<section id="symbolic-frontier">
+<section id="An experimental archive">
+  <h2>The Quire</h2>
   <p>
     Between ethics and imagination, between code and culture I explore the symbolic frontier of AI, blockchain, and posthuman meaning. This is not collapse — it is metamorphosis.
   </p>
