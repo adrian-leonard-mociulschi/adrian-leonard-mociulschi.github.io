@@ -17,7 +17,7 @@ permalink: /blog
 
 <a id="top"></a>
 
-<section id="op-ed-hub">
+<section id="Where algorithms echo meaning, and verses rise from dunes">
   <h2>Op-Ed Hub</h2>
 </section>
 
