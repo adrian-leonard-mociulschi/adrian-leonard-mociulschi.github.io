@@ -149,7 +149,7 @@ permalink: /writing
         "@type": "Article",
         "headline": "The Murmur of Code: On the Ethics of Algorithmic Presence",
         "url": "https://nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/",
-        "image": "https://nineoclock.ro/wp-content/uploads/2025/09/coperta-27-1920x1357.png",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171.jpg",
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
@@ -175,7 +175,7 @@ permalink: /writing
         "@type": "Article",
         "headline": "Honor and Algorithms – The Romanian Military’s New Frontline",
         "url": "https://nineoclock.ro/2025/10/24/honor-and-algorithms-the-romanian-militarys-new-frontline/",
-        "image": "https://nineoclock.ro/wp-content/uploads/2025/10/solemnitate-1024x683.jpg",
+        "image": "https://nineoclock.ro/wp-content/uploads/2025/10/solemnitate.jpg",
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
