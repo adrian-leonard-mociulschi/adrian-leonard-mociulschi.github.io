@@ -6,7 +6,7 @@ description: "RSS Feed: essays, op-eds, and projects on technoculture by Adrian 
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-24T00:00:00+03:00"
 lang: "en-US"
-keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, blockchain, symbolic ecology, ORCID, academic"
+keywords: "Adrian Leonard Mociulschi, Articles, România Liberă, Nine O'Clock, Contributors, Op-ed, RSS Feed, News, Cultural journalism"
 permalink: /rss/feed/
 ---
 
