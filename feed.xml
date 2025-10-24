@@ -7,7 +7,7 @@
     <link>https://adrian-leonard-mociulschi.github.io/</link>
     <description>Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 24 Oct 2025 11:41:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 20:52:13 GMT</lastBuildDate>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
     <image>
@@ -20,6 +20,19 @@
 
     <media:content url="https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
                    medium="image" width="1200" height="630" />
+
+       <!-- Article Nine O'Clock - October 25, 2025 -->
+    <item>
+      <title>Honor and Algorithms – The Romanian Military’s New Frontline — Nine O’Clock</title>
+      <link>https://nineoclock.ro/2025/10/24/honor-and-algorithms-the-romanian-militarys-new-frontline/</link>
+      <guid isPermaLink="false">honor-and-algorithms</guid>
+      <pubDate>Thu, 24 Oct 2025 09:00:00 GMT</pubDate>
+      <description><![CDATA[
+        Through the voices of military leaders like Colonel (Ret.) Gheorghe Suman, Colonel Cristian-Tiberiu Cristescu and General (Ret.) Cristian Teglas, the article traces the evolution of the mountain troops from the trenches of WWII to today’s algorithm-driven defense systems.
+      ]]></description>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/10/solemnitate-1024x683.jpg"
+                     medium="image" width="960" height="679" type="image/png" />
+    </item>
 
     <!-- Article Nine O'Clock - October 02, 2025 -->
     <item>
