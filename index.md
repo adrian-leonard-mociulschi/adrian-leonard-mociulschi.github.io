@@ -4,7 +4,7 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "A lucid archive at the intersection of culture and code: symbolic ecologies, Web3 visions, and ethical AI."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-19T00:00:00+03:00"
+date: "2025-10-24T00:00:00+03:00"
 lang: "en-US"
 keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, blockchain, symbolic ecology, ORCID, academic"
 permalink: /
