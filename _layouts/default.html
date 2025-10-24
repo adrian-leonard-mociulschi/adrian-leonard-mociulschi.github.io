@@ -87,39 +87,26 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
- <footer>
-  <span class="site-footer-credits">
-    This page was generated with <a href="https://pages.github.com">GitHub Pages</a>.
-  </span>
+  <footer>
+      <span class="site-footer-credits">
+        This page was generated with <a href="https://pages.github.com">GitHub Pages</a>.
+      </span>
 
-<!-- HTML in footer, default format -->
-<div class="rss-widget premium">
-  <a href="{{ '/feed.xml' | relative_url }}" class="rss-button rss-button--glass" target="_blank" rel="noopener" title="RSS Feed" aria-label="RSS Feed">
-    <svg class="rss-svg" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <path d="M6.18 17.82a2.18 2.18 0 1 1 0-4.36 2.18 2.18 0 0 1 0 4.36zm-2.18-7.82v3.09c5.52 0 10 4.48 10 10h3.09c0-7.22-5.87-13.09-13.09-13.09zm0-5v3.09c9.39 0 17 7.61 17 17h3.09c0-11.08-9.01-20.09-20.09-20.09z"/>
-    </svg>
-    <span class="rss-text">RSS Feed</span>
-  </a>
-</div>
-  <!--
-  Carmen de Resilientia et Magia Codicis
+      <!-- RSS premium (link către /rss/) -->
+      <div class="rss-widget premium">
+        <a href="{{ '/rss/' | relative_url }}" class="rss-button rss-button--glass" target="_blank" rel="noopener" title="Abonează-te la RSS" aria-label="Abonează-te la RSS">
+          <svg class="rss-svg" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6.18 17.82a2.18 2.18 0 1 1 0-4.36 2.18 2.18 0 0 1 0 4.36zm-2.18-7.82v3.09c5.52 0 10 4.48 10 10h3.09c0-7.22-5.87-13.09-13.09-13.09zm0-5v3.09c9.39 0 17 7.61 17 17h3.09c0-11.08-9.01-20.09-20.09-20.09z"/>
+          </svg>
+          <span class="rss-text">Abonează-te la RSS</span>
+        </a>
+      </div>
 
-  Non frangor — sed flecto cum ventis,
-  radix mea alta est, sub terra memoriae.
-  Ex silentio surgit vox mea,
-  et in codice, lux mea se scriturat.
-
-  Magia non est fuga, sed forma,
-  quae se implet in gestu luciditatis.
-  Scriptum meum est actus alchimiae,
-  et verba mea — scintillae transfigurandi.
-
-  Rezilientia mea est harmonia fractala,
-  quae nuper se reface in chaos.
-  Et ego, inter algoritmos et stellas,
-  infaptuo miracula — sine clamore.
-  -->
-</footer>
+      <!--
+      Carmen de Resilientia et Magia Codicis
+      (comentariul tău existent poate rămâne aici)
+      -->
+    </footer>
 
     <!-- Service Worker (opțional): decomentează când adaugi /sw.js în rădăcină
     <script>
@@ -131,49 +118,50 @@
       }
     </script>
     -->
-  </body>
-  <!-- Go To Top – plutitor, semitransparent -->
-<a href="#top" id="goTop" class="go-top" aria-label="Înapoi sus" title="Înapoi sus">
-  <!-- Săgeată minimală (chevron), moștenește currentColor -->
-  <svg viewBox="0 0 24 24" fill="none"
-       stroke="currentColor" stroke-width="2"
-       stroke-linecap="round" stroke-linejoin="round"
-       aria-hidden="true" focusable="false">
-    <polyline points="18 15 12 9 6 15"/>
-  </svg>
-</a>
-<script>
-(function () {
-  var btn = document.getElementById('goTop');
-  if (!btn) return;
 
-  var showAt = 400; // px de scroll după care apare butonul
+    <!-- Go To Top – plutitor, semitransparent (ghost/glass) -->
+    <a href="#top" id="goTop" class="go-top" aria-label="Înapoi sus" title="Înapoi sus">
+      <svg viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true" focusable="false">
+        <polyline points="18 15 12 9 6 15"/>
+      </svg>
+    </a>
+    <script>
+    (function () {
+      var btn = document.getElementById('goTop');
+      if (!btn) return;
 
-  function toggle() {
-    var y = window.scrollY || document.documentElement.scrollTop || 0;
-    btn.classList.toggle('visible', y > showAt);
-  }
+      var showAt = 400; // px de scroll după care apare butonul
 
-  window.addEventListener('scroll', toggle, { passive: true });
-  toggle();
+      function toggle() {
+        var y = window.scrollY || document.documentElement.scrollTop || 0;
+        btn.classList.toggle('visible', y > showAt);
+      }
 
-  btn.addEventListener('click', function (e) {
-    e.preventDefault();
-    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduceMotion) { window.scrollTo(0,0); return; }
-    if ('scrollBehavior' in document.documentElement.style) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    } else {
-      // Fallback simplu (browser vechi)
-      var c = document.documentElement.scrollTop || document.body.scrollTop;
-      (function smoothStep(){
-        if (c > 0) {
-          window.scrollTo(0, c -= Math.max(1, Math.ceil(c / 10)));
-          requestAnimationFrame(smoothStep);
+      window.addEventListener('scroll', toggle, { passive: true });
+      toggle();
+
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reduceMotion) { window.scrollTo(0,0); return; }
+        if ('scrollBehavior' in document.documentElement.style) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          // Fallback simplu (browser vechi)
+          var c = document.documentElement.scrollTop || document.body.scrollTop;
+          (function smoothStep(){
+            if (c > 0) {
+              window.scrollTo(0, c -= Math.max(1, Math.ceil(c / 10)));
+              requestAnimationFrame(smoothStep);
+            }
+          })();
         }
-      })();
-    }
-  });
-})();
-</script>
+      });
+    })();
+    </script>
+
+  </body>
 </html>
