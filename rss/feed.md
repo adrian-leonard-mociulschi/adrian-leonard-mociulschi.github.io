@@ -10,8 +10,11 @@ keywords: "Adrian Leonard Mociulschi, technoculture, ethical AI, blockchain, sym
 permalink: /rss/feed/
 ---
 
-[Home]({{ "/" | absolute_url }}) · [About]({{ "/about" | absolute_url }}) · [Writings]({{ "/writing" | absolute_url }}) · [Op & Ed]({{ "/blog" | absolute_url }}) · [V-Box]({{ "/ai-muse" | absolute_url }}) · **[RSS]({{ "/rss/feed/" | absolute_url }})**
-{: style="text-align:left" }
+[Home](/) · [About](/about) · [Writings](/writing) · [Op & Ed](/blog) · [V-Box](/ai-muse)
+
+---
+
+<a id="top"></a>
 
 <hr class="rule">
 
