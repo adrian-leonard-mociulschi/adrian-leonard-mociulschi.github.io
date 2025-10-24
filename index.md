@@ -34,7 +34,7 @@ permalink: /
       <img src="/assets/img/EQ7.png" alt="An experimental quire co-created with AI (Princess-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
     </picture>
 </section>
-<br>
+<div style="height: 8px;"></div>
 <section id="A poetic interface">
   <h2>Mission</h2>
   <p>
@@ -62,7 +62,7 @@ permalink: /
     <img src="/assets/img/EQ8.png" alt="An experimental quire co-created with AI (Elven-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
 </section>
-<br>
+<div style="height: 8px;"></div>
 <section id="An experimental archive">
   <h2>The Quire</h2>
   <p>
@@ -86,7 +86,7 @@ permalink: /
     <img src="/assets/img/EQ9.png" alt="An experimental quire co-created with AI (Witch-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
 </section>
-
+<div style="height: 8px;"></div>
 <section id="orcid">
   <p><strong>ORCID iD:</strong> 
     <a href="https://orcid.org/0009-0006-9328-8518" target="_blank" rel="noopener noreferrer">
