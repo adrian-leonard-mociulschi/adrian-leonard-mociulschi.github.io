@@ -15,7 +15,7 @@ permalink: /ai-muse
 ---
 
 <a id="top"></a>
-  <section id="Multimedia">
+  <section id="Symbolic Echoes & Verses">
     <h2>Adrian's Virtual Box</h2>
     <p><em>An aesthetic statement</em></p>
 
