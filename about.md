@@ -125,33 +125,65 @@ permalink: /about
   </p>
 </section>
 
-<!-- JSON-LD AREA -->
+<!-- JSON-LD: Person (optimized for About page) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://adrian-leonard-mociulschi.github.io/#person",
   "name": "Adrian Leonard Mociulschi",
   "alternateName": "Dr. Adrian Leonard Mociulschi",
-  "url": "https://adrian-leonard-mociulschi.github.io",
+  "url": "https://adrian-leonard-mociulschi.github.io/",
+  "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+  "description": "Adrian Leonard Mociulschi is a Romanian academic, author, and researcher exploring technoculture, symbolic infrastructures, and ethical AI through essays and public scholarship.",
+  "jobTitle": "Author, Researcher, Essayist, University Lecturer, Ph.D.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Universitatea Națională de Muzică București (UNMB)",
+    "url": "https://www.unmb.ro/"
+  },
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Universitatea Națională de Muzică București (UNMB)",
+    "url": "https://www.unmb.ro/"
+  },
+  "nationality": "Romanian",
+  "gender": "Male",
+  "inLanguage": "en",
+  "knowsAbout": [
+    "Technoculture",
+    "Ethics of AI",
+    "Blockchain",
+    "Web3",
+    "Symbolic Systems",
+    "Symbolic Ecology",
+    "Digital Humanities",
+    "Musicology",
+    "Aesthetics",
+    "Philosophy of Culture"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "ORCID",
+    "value": "0009-0006-9328-8518",
+    "url": "https://orcid.org/0009-0006-9328-8518"
+  },
+  "award": "Himalaya Trophy (1995), China Radio International, Beijing",
   "sameAs": [
+    "https://orcid.org/0009-0006-9328-8518",
     "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
     "https://nineoclock.ro/tag/adrian-leonard-mociulschi/",
     "https://revistacultura.ro/author/leonard/",
     "https://romanialibera.ro/author/adrian-mociulschi/",
     "https://www.contributors.ro/author/adrian-leonard-mociulschi",
     "https://cimro.ro/adrian-mociulschi/",
-    "https://orcid.org/0009-0006-9328-8518"
+    "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
+    "https://github.com/adrian-leonard-mociulschi"
   ],
-  "jobTitle": "Author, Researcher, Essayist, University Lecturer, Ph.D.",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "Universitatea Națională de Muzică București (UNMB)"
-  },
-  "description": "Adrian Leonard Mociulschi is a Romanian academic, author and researcher exploring technoculture, symbolic    infrastructures, and ethical AI through essays and editorial writing.",
-  "nationality": "Romanian",
-  "knowsAbout": ["Technoculture", "Ethics of AI", "Symbolic Systems", "Digital Humanities"],
-  "gender": "Male",
-  "inLanguage": "en"
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adrian-leonard-mociulschi.github.io/about"
+  }
 }
 </script>
 
