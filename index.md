@@ -73,9 +73,6 @@ In this unfolding metamorphosis, the archive becomes a garden, and the ledger a 
 0009-0006-9328-8518
 </a>
 
-<!-- Link to go back to top -->
-<a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
-
 <!--
 Carmen Centralitatis — De Algorithmo et Amore
 
