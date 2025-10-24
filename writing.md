@@ -16,7 +16,7 @@ permalink: /writing
 
 <a id="top"></a>
 
-<section id="writings">
+<section id="Where AI becomes muse, and memory becomes form">
   <h2>Writings</h2>
   <p>
     This collection includes public contributions relevant to my symbolic mission as an ambassador of technoculture.
