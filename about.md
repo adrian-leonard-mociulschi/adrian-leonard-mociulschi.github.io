@@ -116,9 +116,6 @@ permalink: /about
   </p>
 </section>
 
-<!-- Link to go back to top -->
-<a href="#top" style="font-weight:bold; color:#003366; text-decoration:none;">🔝 Back to Top</a>
-
 <!-- JSON-LD AREA -->
 <script type="application/ld+json">
 {
