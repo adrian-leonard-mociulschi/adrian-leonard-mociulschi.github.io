@@ -87,7 +87,6 @@ permalink: /
 </section>
 
 <section id="orcid">
-  <h2>ORCID</h2>
   <p><strong>ORCID iD:</strong> 
     <a href="https://orcid.org/0009-0006-9328-8518" target="_blank" rel="noopener noreferrer">
       0009-0006-9328-8518
