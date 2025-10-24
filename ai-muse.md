@@ -16,7 +16,7 @@ permalink: /ai-muse
 
 <a id="top"></a>
   <section id="Symbolic Echoes & Verses">
-    <h2>Adrian's Virtual Box</h2>
+    <h2>Virtual Box for Education</h2>
     <p><em>An aesthetic statement</em></p>
 
 <p>Welcome to my <strong>Virtual Box</strong> — a curated space where memory becomes motion and presence becomes code. These video fragments are not mere content, but symbolic gestures: echoes of thought, education, and technocultural reflection. Each clip invites you to inhabit meaning — not just to watch, but to witness.
