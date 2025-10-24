@@ -16,7 +16,7 @@ permalink: /about
 
 <a id="top"></a>
 
-<section id="about">
+<section id="Not poetry, but symbolic architecture">
   <h2>About Me</h2>
   <p>
     I am an academic and Romanian writer, author of a five-part series of essays published by 
@@ -53,7 +53,7 @@ permalink: /about
   </p>
 </section>
 
-<section id="about-website">
+<section id="Codex of Presence">
   <h2>About This Website</h2>
   <p>
     Hosted on GitHub, my platform serves as a public repository where users can explore infrastructure and intention.
@@ -72,7 +72,7 @@ permalink: /about
   </p>
 </section>
 
-<section id="official-photo">
+<section id="Fragments from the frontier between ethics and imagination">
   <h2>Official Photo</h2>
   <p><strong>Adrian Leonard Mociulschi — Official Photo</strong></p>
 
