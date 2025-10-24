@@ -19,7 +19,7 @@ permalink: /rss/feed/
 <section markdown="1" class="rss-landing" style="max-width: 720px; margin: 0; text-align:left;">
 ## Become a subscriber to receive news via RSS.
 
-RSS is a standardized format that news aggregators (like Feedly, Inoreader, and Outlook) use to distribute new articles. Please choose your preferred option from the list below.
+RSS is a standardized format that news aggregators (like Feedly, Inoreader, and Outlook) use to distribute new articles.
 
 {% assign feed_url = '/feed.xml' | absolute_url %}
 
