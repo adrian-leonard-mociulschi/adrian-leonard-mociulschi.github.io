@@ -15,8 +15,9 @@ permalink: /
 ---
 
 <a id="top"></a>
-<section id="Prolegomena">
-  <h2>Welcome to my GitHub</h2>
+<main>
+  <section id="welcome">
+    <h2>Welcome to my GitHub</h2>
     <p><strong>Pro-LOG</strong></p>
     <p>
       At the intersection of culture and code, this space invites reflection — not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
