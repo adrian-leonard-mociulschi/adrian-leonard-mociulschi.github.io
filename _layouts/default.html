@@ -130,4 +130,48 @@
     </script>
     -->
   </body>
+  <!-- Go To Top – plutitor, semitransparent -->
+<a href="#top" id="goTop" class="go-top" aria-label="Înapoi sus" title="Înapoi sus">
+  <!-- Săgeată minimală (chevron), moștenește currentColor -->
+  <svg viewBox="0 0 24 24" fill="none"
+       stroke="currentColor" stroke-width="2"
+       stroke-linecap="round" stroke-linejoin="round"
+       aria-hidden="true" focusable="false">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</a>
+<script>
+(function () {
+  var btn = document.getElementById('goTop');
+  if (!btn) return;
+
+  var showAt = 400; // px de scroll după care apare butonul
+
+  function toggle() {
+    var y = window.scrollY || document.documentElement.scrollTop || 0;
+    btn.classList.toggle('visible', y > showAt);
+  }
+
+  window.addEventListener('scroll', toggle, { passive: true });
+  toggle();
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) { window.scrollTo(0,0); return; }
+    if ('scrollBehavior' in document.documentElement.style) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      // Fallback simplu (browser vechi)
+      var c = document.documentElement.scrollTop || document.body.scrollTop;
+      (function smoothStep(){
+        if (c > 0) {
+          window.scrollTo(0, c -= Math.max(1, Math.ceil(c / 10)));
+          requestAnimationFrame(smoothStep);
+        }
+      })();
+    }
+  });
+})();
+</script>
 </html>
