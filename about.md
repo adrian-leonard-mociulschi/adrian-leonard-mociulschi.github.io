@@ -13,10 +13,10 @@ permalink: /about
 <!-- START: Navigation Menu with Elegant Hover Effect -->
 <nav class="site-nav" aria-label="Primary">
   <ul class="menu-list">
-    <li><a href="/" class="menu-link" aria-current="page">Home</a></li>
-    <li><a href="/about" class="menu-link">About</a></li>
+    <li><a href="/" class="menu-link">Home</a></li>
+    <li><a href="/about" class="menu-link" aria-current="page">About</a></li>
     <li><a href="/writing" class="menu-link">Writings</a></li>
-    <li><a href="/blog" class="menu-link">Op&Ed</a></li>
+    <li><a href="/blog" class="menu-link">Op&amp;Ed</a></li>
     <li><a href="/ai-muse" class="menu-link">V-Box</a></li>
   </ul>
 </nav>
