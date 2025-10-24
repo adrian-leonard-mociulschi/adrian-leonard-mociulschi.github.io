@@ -90,7 +90,7 @@ permalink: /writing
     "headline": "Symbolic Writings on Technoculture and Ethical AI",
     "description": "A curated selection of essays and articles by Adrian Leonard Mociulschi, exploring technoculture, ethical AI, and symbolic infrastructures.",
     "inLanguage": "en-US",
-    "image": "https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png",
+    "image": "https://adrian-leonard-mociulschi.github.io/assets/img/AdrianLM_NineOClock_2025.png",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://adrian-leonard-mociulschi.github.io/writing"
