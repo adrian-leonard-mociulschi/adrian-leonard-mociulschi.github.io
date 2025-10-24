@@ -27,7 +27,6 @@
     <link rel="icon" type="image/png" href="{{ '/Favicon-new.png' | relative_url }}" sizes="32x32">
     <link rel="shortcut icon" href="{{ '/Favicon-new.ico' | relative_url }}" type="image/x-icon">
     <link rel="icon" type="image/svg+xml" href="{{ '/Favicon-new.svg' | relative_url }}">
-    <!-- Safari pinned tab (opțional, dacă SVG-ul e compatibil monocrom) -->
     <link rel="mask-icon" href="{{ '/Favicon-new.svg' | relative_url }}" color="#ff0000">
 
     <!-- iOS (Add to Home Screen) -->
@@ -41,14 +40,11 @@
     {% assign og_desc  = page.description | default: 'Lecturer, essayist, and technoculture ambassador. Published five volumes on AI, culture, and future explorations.' %}
     {% assign og_img   = page.image | default: '/Favicon-new.png' %}
 
-    <!-- URL canonic + OG/Twitter URL (fără hack-uri cu replace) -->
+    <!-- OG/Twitter URL fără etichetă canonică duplicată -->
     {% if site.url %}
-      <link rel="canonical" href="{{ page.url | absolute_url }}">
       <meta property="og:url" content="{{ page.url | absolute_url }}">
       <meta name="twitter:url" content="{{ page.url | absolute_url }}">
     {% else %}
-      <!-- Fallback pentru GitHub Pages dacă site.url nu e setat în _config.yml -->
-      <link rel="canonical" href="{{ site.github.url }}{{ page.url }}">
       <meta property="og:url" content="{{ site.github.url }}{{ page.url }}">
       <meta name="twitter:url" content="{{ site.github.url }}{{ page.url }}">
     {% endif %}
@@ -94,11 +90,6 @@
       <span class="site-footer-credits">
         This page was generated with <a href="https://pages.github.com">GitHub Pages</a>.
       </span>
-
-      <!--
-      Carmen de Resilientia et Magia Codicis
-      (comentariul tău existent poate rămâne aici)
-      -->
     </footer>
 
     <!-- Service Worker (opțional): decomentează când adaugi /sw.js în rădăcină
@@ -126,7 +117,7 @@
       var btn = document.getElementById('goTop');
       if (!btn) return;
 
-      var showAt = 400; // px de scroll după care apare butonul
+      var showAt = 400;
 
       function toggle() {
         var y = window.scrollY || document.documentElement.scrollTop || 0;
@@ -143,7 +134,6 @@
         if ('scrollBehavior' in document.documentElement.style) {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
-          // Fallback simplu (browser vechi)
           var c = document.documentElement.scrollTop || document.body.scrollTop;
           (function smoothStep(){
             if (c > 0) {
