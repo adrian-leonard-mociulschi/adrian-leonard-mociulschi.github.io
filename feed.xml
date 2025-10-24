@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Adrian Leonard Mociulschi — A Symbolic Ambassador of Technoculture</title>
     <link>https://adrian-leonard-mociulschi.github.io/</link>
     <description>Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.</description>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 Oct 2025 15:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 11:20:05 GMT</lastBuildDate>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- Channel logo (square recommended) -->
+    <image>
+      <url>https://adrian-leonard-mociulschi.github.io/Favicon-new.png</url>
+      <title>Adrian Leonard Mociulschi — A Symbolic Ambassador of Technoculture</title>
+      <link>https://adrian-leonard-mociulschi.github.io/</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+
+    <!-- Optional big cover used by some readers as a generic preview -->
+    <media:content url="https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
+                   medium="image" width="1200" height="630" />
 
     <!-- Article Nine O'Clock - October 02, 2025 -->
     <item>
@@ -18,6 +32,8 @@
       <description><![CDATA[
         This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond, arguing for meaningful human control where speed and certainty collide with conscience.
       ]]></description>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png"
+                     medium="image" width="960" height="679" type="image/png" />
     </item>
 
     <!-- Article Nine O'Clock - September 27, 2025 -->
@@ -29,17 +45,21 @@
       <description><![CDATA[
         How algorithms reshape online visibility, influence political discourse within the EU, and challenge the ethics of the attention economy—advocating transparency and a human‑centered digital presence.
       ]]></description>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/09/coperta-27-1920x1357.png"
+                     medium="image" width="1920" height="1357" type="image/png" />
     </item>
 
     <!-- Article Nine O'Clock - August 13, 2025 -->
     <item>
       <title>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</title>
-      <link>https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi/</link>
-      <guid isPermaLink="true">https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code/</guid>
+      <link>https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi</link>
+      <guid isPermaLink="true">https://www.nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code/</guid>
       <pubDate>Wed, 13 Aug 2025 09:00:00 GMT</pubDate>
       <description><![CDATA[
         This essay explores the symbolic and ethical dimensions of algorithms as living forms, proposing a new framework for coexistence between human and machine intelligences in a shared cultural space.
       ]]></description>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg"
+                     medium="image" width="960" height="640" type="image/jpeg" />
     </item>
 
   </channel>
