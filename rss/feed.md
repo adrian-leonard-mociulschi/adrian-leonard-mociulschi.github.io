@@ -32,10 +32,6 @@ RSS is a standardized format that news aggregators (like Feedly, Inoreader, and 
     <span class="icon" aria-hidden="true">🧩</span>
     <span>Open RSS Feed</span>
   </a>
-  <button class="btn rss-btn outline" type="button" id="copyRssBtn" data-rss="{{ index.md_url }}">
-    <span class="icon" aria-hidden="true">🔗</span>
-    <span>Copy RSS link</span>
-  </button>
 </div>
 
 In the application, insert the RSS link into the "Follow Source" field. This will enable you to explore and subscribe to our news feed.
