@@ -33,7 +33,7 @@ permalink: /ai-muse
 
 <!-- Container 16:9 -->
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
-  <iframe src="https://www.youtube.com/embed/ABazphal8Ug" 
+  <iframe src="https://www.youtube.com/embed/Yz5spfppJM0" 
     style="position:absolute; top:0; left:0; width:100%; height:100%;" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -43,6 +43,20 @@ permalink: /ai-muse
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
 <strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes knowledge."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
+</blockquote>
+
+<!-- Container 16:9 -->
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
+  <iframe src="https://www.youtube.com/embed/ABazphal8Ug" 
+    style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
+<strong>"Visual education is the art of navigating symbolic space — where neural networks trace memory, and every image becomes a question of meaning.</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
 </blockquote>
 
 <!-- Container 16:9 -->
