@@ -156,7 +156,7 @@ permalink: /blog
        title="Link to the original article in România Liberă"
        hreflang="en-US"
        style="color:#003366; font-weight:bold; text-decoration:none;">
-      ➤ Citește articolul pe România Liberă
+      ➤ Read the original article in România Liberă
     </a>
   </p>
 </div>
