@@ -37,9 +37,9 @@ permalink: /writing
 </section>
 
 <picture>
-  <source type="image/avif" srcset="/assets/img/B21VM_2007.avif">
-  <source type="image/webp" srcset="/assets/img/B21VM_2007.webp">
-  <img src="/assets/img/B21VM_2007.png" alt="Illustration for the 25/10/24 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
+  <source type="image/avif" srcset="/assets/img/B21VM_1728x1152.avif">
+  <source type="image/webp" srcset="/assets/img/B21VM_1728x1152.webp">
+  <img src="/assets/img/B21VM_1728x1152.png" alt="Illustration for the 25/10/24 Nine O'Clock article." width="1920" height="1357" loading="lazy" decoding="async" style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
 </picture>
 
 <p>
