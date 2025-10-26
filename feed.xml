@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:media="http://search.yahoo.com/mrss/">
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Adrian Leonard Mociulschi — A Symbolic Ambassador of Technoculture</title>
     <link>https://adrian-leonard-mociulschi.github.io/</link>
@@ -18,17 +19,24 @@
       <height>144</height>
     </image>
 
-       <!-- Article Nine O'Clock - October 25, 2025 -->
+    <!-- Article Nine O'Clock - October 25, 2025 -->
     <item>
       <title>Honor and Algorithms – The Romanian Military’s New Frontline — Nine O’Clock</title>
       <link>https://nineoclock.ro/2025/10/24/honor-and-algorithms-the-romanian-militarys-new-frontline/</link>
       <guid isPermaLink="false">honor-and-algorithms-v2</guid>
-      <pubDate>Thu, 24 Oct 2025 17:35:00 GMT</pubDate>
+      <pubDate>Thu, 24 Oct 2025 09:00:00 GMT</pubDate>
       <description><![CDATA[
         Through the voices of military leaders like Colonel (Ret.) Gheorghe Suman, Colonel Cristian-Tiberiu Cristescu and General (Ret.) Cristian Teglas, the article traces the evolution of the mountain troops from the trenches of WWII to today’s algorithm-driven defense systems.
       ]]></description>
-      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.png"
-                     medium="image" width="400" height="400" type="image/png" />
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://nineoclock.ro/wp-content/uploads/2025/10/solemnitate.jpg"
+               width="1920" height="1280" alt="Nine O'Clock cover image">
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://nineoclock.ro/wp-content/uploads/2025/10/solemnitate.jpg" width="1920" height="1280"/>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/10/solemnitate.jpg"
+                     medium="image" width="1920" height="1280" type="image/jpeg" />
     </item>
 
     <!-- Article Nine O'Clock - October 02, 2025 -->
@@ -40,8 +48,15 @@
       <description><![CDATA[
         This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond, arguing for meaningful human control where speed and certainty collide with conscience.
       ]]></description>
-      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.png"
-                     medium="image" width="400" height="400" type="image/png" />
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png"
+               width="960" height="679" alt="Nine O'Clock cover image">
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png" width="960" height="679"/>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/10/coperta-31-960x679.png"
+                     medium="image" width="960" height="679" type="image/png" />
     </item>
 
     <!-- Article Nine O'Clock - September 27, 2025 -->
@@ -53,21 +68,35 @@
       <description><![CDATA[
         How algorithms reshape online visibility, influence political discourse within the EU, and challenge the ethics of the attention economy—advocating transparency and a human‑centered digital presence.
       ]]></description>
-      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.png"
-                     medium="image" width="400" height="400" type="image/png" />
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://nineoclock.ro/wp-content/uploads/2025/09/coperta-27-960x679.png"
+               width="960" height="679" alt="Nine O'Clock cover image">
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://nineoclock.ro/wp-content/uploads/2025/09/coperta-27-960x679.png" width="960" height="679"/>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/09/coperta-27-960x679.png"
+                     medium="image" width="960" height="679" type="image/png" />
     </item>
 
     <!-- Article Nine O'Clock - August 13, 2025 -->
     <item>
       <title>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</title>
-      <link>https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi</link>
+      <link>https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi/</link>
       <guid isPermaLink="false">algorithms-as-living-forms-v2</guid>
       <pubDate>Wed, 13 Aug 2025 09:00:00 GMT</pubDate>
       <description><![CDATA[
         This essay explores the symbolic and ethical dimensions of algorithms as living forms, proposing a new framework for coexistence between human and machine intelligences in a shared cultural space.
       ]]></description>
-      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/Adrian-Leonard-Mociulschi.png"
-                     medium="image" width="400" height="400" type="image/jpeg" />
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171.jpg"
+               width="1196" height="797" alt="Nine O'Clock cover image">
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171.jpg" width="1196" height="797"/>
+      <media:content url="https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171.jpg"
+                     medium="image" width="1196" height="797" type="image/jpeg" />
     </item>
 
   </channel>
