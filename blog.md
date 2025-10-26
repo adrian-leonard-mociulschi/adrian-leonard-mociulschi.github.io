@@ -314,7 +314,7 @@ permalink: /blog
   },
   "description": "In an essay published in Romania Libera, Adrian Leonard Mociulschi argues that culture is not just heritage anymore, but also digital infrastructure. The article analyzes the transition from traditional patronage to cultural ecosystems in the Web 3.0 era, where blockchain technology, non-fungible tokens (NFTs), and the metaverse are emerging as tools for authenticity and co-creation.",
   "keywords": "Cultura 3.0, mecenat, metavers, blockchain, NFT, co-creație, Web 3.0, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -344,7 +344,7 @@ permalink: /blog
   },
   "description": "In his article in Romania Libera, Adrian Leonard Mociulschi writes that cities are not just physical spaces, but cultural codes. In the article, he analyzes how urban infrastructure is changing under the pressure of emerging technologies and the digital economy. He also explores the future of the city in the era of blockchain and digital currencies.",
   "keywords": "City, Urban culture, Blockchain, Digital currency, Smart cities, Governance, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -374,7 +374,7 @@ permalink: /blog
   },
   "description": "In an essay published in Romania Libera, Adrian Leonard Mociulschi argues that the history of technology is cyclical, not linear. From Heron of Alexandria to AI, the essay explores how innovations change the way people think, work, and imagine the future.",
   "keywords": "Heron, AI, History of technology, Automation, Historical spiral, Artifacts, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -404,7 +404,7 @@ permalink: /blog
   },
   "description": "In Romania Libera, Adrian Leonard Mociulschi writes that society is not merely an economic structure, but rather, a vibrating instrument. In the article, he uses a musical metaphor to explain social dynamics: the violin represents an economy based on resonance rather than simple accumulation.",
   "keywords": "Symbolic economy, Vibrations, Violin, Society, Musical metaphor, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -434,7 +434,7 @@ permalink: /blog
   },
   "description": "In an essay published in România Liberă, Adrian Leonard Mociulschi argues that flying is not merely a technical feat, but also a metaphor for destiny. The essay draws a parallel between the Mioritic myth and Major Tom from Space Oddity, examining the tension between calling and fate.",
   "keywords": "Flight, Miorița, Space Oddity, Major Tom, Myth, Destiny, Romanian Aviation, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -464,7 +464,7 @@ permalink: /blog
   },
   "description": "In Romania Libera, Adrian Leonard Mociulschi writes that technology is not just infrastructure; it is also a matter of responsibility. Romania has the opportunity to transform the energy and digital transitions into a smart ecology project where innovation serves sustainability and solidarity.",
   "keywords": "Technological responsibility, Smart ecology, Green energy, AI, Sustainability, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -494,7 +494,7 @@ permalink: /blog
   },
   "description": "In an essay published in Romania Libera, Adrian Leonard Mociulschi argues that algorithms are not merely tools, but rather a form of creation. The article explores the symbolic intersection of Leonardo da Vinci, robot Sophia, and digital aesthetics. It demonstrates how Fibonacci proportions and mathematical harmony bridge the gap between art and technology.",
   "keywords": "The code of the stars, AI, Algorithms, Digital aesthetics, Fibonacci, Sophia, Leonardo da Vinci, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -524,7 +524,7 @@ permalink: /blog
   },
   "description": "In România Liberă, Adrian Leonard Mociulschi writes that algorithms are not merely tools, but rather a form of creation. In the article, he explores the symbolic encounter between Leonardo da Vinci, the robot Sophia, and digital aesthetics. He shows how Fibonacci proportions and mathematical harmony bridge the gap between art and technology.",
   "keywords": "The Art of Algorithms, Leonardo da Vinci, Sophia, AI, Digital economy, Fibonacci, Digital aesthetics, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -554,7 +554,7 @@ permalink: /blog
   },
   "description": "In România Liberă, Adrian Leonard Mociulschi writes that automation is not the end of work, but rather the beginning of a new ecology of meaning. Rather than replacing humans, algorithms redefine their role in an ecosystem where creativity and adaptability become strategic resources.",
   "keywords": "The future of work, Romania Liberă, Ecology of meaning, AI, Automation, Algorithms",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -584,7 +584,7 @@ permalink: /blog
   },
   "description": "In an essay published in Romania Libera, Adrian Leonard Mociulschi argues that the gap between prediction and presence is not one of certainty, but of meaning. Romania could become a laboratory for emerging technologies by integrating its economic, energy, and cultural infrastructures under the banner of regeneration.",
   "keywords": "Romania in 2055, The Future of Emerging Technologies, AI, Infrastructure, Culture, Regeneration, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
@@ -614,7 +614,7 @@ permalink: /blog
   },
   "description": "In România Liberă, Adrian Leonard Mociulschi notes that education, between the blackboard and blockchain, is no longer the same. Technological literacy is becoming essential, and learning extends beyond the classroom into hybrid ecosystems where the analog and digital worlds coexist.",
   "keywords": "Digital education, Blockchain, Web 3.0, Pedagogy, Decentralization, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
   </script>
@@ -642,9 +642,9 @@ permalink: /blog
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/"
   },
-  "description": "In an essay published in Romania Libera, Adrian Leonard Mociulschi transforms a snippet from a search engine into a cultural code. The text reflects on feminism, representation, and the hidden codes of algorithmic visibility. It starts with an unexpected snippet: "Girl in a Jacket.",
+  "description": "In an essay published in Romania Libera, Adrian Leonard Mociulschi transforms a snippet from a search engine into a cultural code. The text reflects on feminism, representation, and the hidden codes of algorithmic visibility. It starts with an unexpected snippet: “Girl in a Jacket.”",
   "keywords": "Feminism, Algorithms, Visibility, Binary code, Representation, Digital culture, România Liberă",
-  "inLanguage": "en-US",
+  "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
 </script>
