@@ -115,7 +115,7 @@ permalink: /about
   <h2>Contact</h2>
   <p> 
     To stay updated on the latest articles in English, follow us on RSS news aggregators.
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS icon" width="24" height="24" style="vertical-align: middle; margin-left: 6px;" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS icon" width="18" height="18" style="position: relative; top: 3px; margin-left: 6px;" />
   </p>
 </section>
 
