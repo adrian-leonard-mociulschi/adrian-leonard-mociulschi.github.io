@@ -75,8 +75,7 @@ permalink: /about
   </blockquote>
   <p>
     This website also offers a <strong>dedicated RSS feed</strong>, a standardized format (Really Simple Syndication) that allows users to receive updates automatically whenever new content is published. All my articles written in English can be followed through <strong>news aggregators</strong> by simply entering the website URL into the feed search section of platforms such as <strong>Inoreader</strong>, or browser extensions that support RSS. This enables symbolic tracking of ideas across decentralized channels, reinforcing the platform’s role as a living archive of technocultural reflection.
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS icon" width="18" height="18" style="vertical-align: middle; margin-left: 6px;" />
-     </p>
+  </p>
 </section>
 
 <section id="Fragments from the frontier between ethics and imagination">
@@ -115,11 +114,8 @@ permalink: /about
 <section id="contact">
   <h2>Contact</h2>
   <p>
-    <span style="font-size: 1.5em;">📧</span>
-    If you wish to connect professionally, you may visit my
-    <a href="https://www.linkedin.com/in/adrian-mociulschi" target="_blank" rel="noopener">
-      LinkedIn profile.
-    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS icon" width="24" height="24" style="vertical-align: middle; margin-left: 6px;" /> 
+    To stay updated on the latest articles in English, follow us on RSS news aggregators.
   </p>
 </section>
 
