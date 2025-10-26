@@ -140,8 +140,8 @@ permalink: /writing
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
-        "datePublished": "2025-08-13",
-        "dateModified": "2025-10-24",
+        "datePublished": "2025-08-13T09:00:00+03:00",
+        "dateModified": "2025-10-24T09:00:00+03:00",
         "description": "An exploration of algorithms as dynamic entities shaping coexistence and symbolic infrastructures.",
         "keywords": "Algorithms, Coexistence, Symbolic systems, Technoculture, Digital ethics"
       },
@@ -153,8 +153,8 @@ permalink: /writing
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
-        "datePublished": "2025-09-27",
-        "dateModified": "2025-10-24",
+        "datePublished": "2025-09-27T09:00:00+03:00",
+        "dateModified": "2025-10-24T09:00:00+03:00",
         "description": "A reflection on algorithmic visibility, symbolic presence, and ethical design in digital systems.",
         "keywords": "Algorithms, Ethics, Visibility, Symbolic presence, Digital culture"
       },
@@ -166,8 +166,8 @@ permalink: /writing
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
-        "datePublished": "2025-10-02",
-        "dateModified": "2025-10-24",
+        "datePublished": "2025-10-02T09:00:00+03:00",
+        "dateModified": "2025-10-24T09:00:00+03:00",
         "description": "An essay on ethical autonomy and human control in warfare and AI systems.",
         "keywords": "Autonomous systems, Ethics, warfare, Drones, AI, Responsibility, Human control"
        },
@@ -179,8 +179,8 @@ permalink: /writing
         "author": {
           "@id": "https://adrian-leonard-mociulschi.github.io/#person"
         },
-        "datePublished": "2025-10-25",
-        "dateModified": "2025-10-24",
+        "datePublished": "2025-10-25T09:00:00+03:00",
+        "dateModified": "2025-10-24T09:00:00+03:00",
         "description": "Romania’s Armed Forces redefine national defense by merging the legacy of mountain troops with cutting-edge military technologies in the age of hybrid warfare.",
         "keywords": "Romanian Armed Forces, Mountain Troops, Hybrid Warfare, NATO Eastern Flank, Military Tradition, Defense Innovation, IAR-330 Puma Naval, Romanian Aeronautical Industry"
       }
