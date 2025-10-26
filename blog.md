@@ -306,8 +306,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-06-25",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-06-25T09:00:00+03:00",
+  "dateModified": "2025-06-25T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/opera-classical-music/cultura-3-0-de-la-mecenat-la-metavers/"
@@ -336,8 +336,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-07-02",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-07-02T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/codul-cetatii-cultura-moneda-si-viitorul-urban/"
@@ -366,8 +366,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-07-09",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-07-09T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/de-la-heron-la-ai-ce-ne-spune-istoria-despre-viitor/"
@@ -396,8 +396,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-07-15",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-07-15T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/economia-vibratiilor-si-vioara-societatii/"
@@ -426,8 +426,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-07-22",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-07-22T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/zborul-intre-chemare-si-destin-de-la-miorita-la-space-oddity/"
@@ -456,8 +456,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-07-31",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-07-31T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/responsabilitatea-tehnologica-romania-si-sansa-unei-ecologii-inteligente/"
@@ -486,8 +486,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-08-06",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-08-06T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/codul-stelelor-inteligenta-artificiala-si-limbajul-cosmic/"
@@ -516,8 +516,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-08-15",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-08-15T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/arta-algoritmilor-cum-se-intalnesc-leonardo-robotul-sophia-si-economia-digitala/"
@@ -546,8 +546,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-08-26",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-08-26T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/de-la-automatizare-la-armonie-algoritmi-oameni-si-viitorul-muncii/"
@@ -576,8 +576,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-09-03",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-09-03T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/romania-2055-viitorul-ca-prag-intre-trecut-si-posibil/"
@@ -606,8 +606,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-09-12",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-09-12T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/de-la-tabla-la-blockchain-lectia-pe-care-scoala-nu-o-poate-amana/"
@@ -636,8 +636,8 @@ permalink: /blog
     "name": "România Liberă",
     "url": "https://romanialibera.ro"
   },
-  "datePublished": "2025-09-25",
-  "dateModified": "2025-10-22",
+  "datePublished": "2025-09-25T09:00:00+03:00",
+  "dateModified": "2025-10-22T09:00:00+03:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://romanialibera.ro/op-ed/opinii/girl-in-a-jacket-o-poveste-in-cod-binar/"
