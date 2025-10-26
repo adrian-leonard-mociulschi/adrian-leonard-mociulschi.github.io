@@ -79,6 +79,10 @@ permalink: /about
     It centralizes my public discussions on artificial intelligence, symbolic computation, ethics, emergence, memory, and the future
     by integrating <strong>culture, code, and algorithmic reasoning</strong>.
   </p>
+  <p>
+    This website also offers a <strong>dedicated RSS feed</strong>, a standardized format (Really Simple Syndication) that allows users to receive updates automatically whenever new content is published. All my articles written in English can be followed through <strong>news aggregators</strong> by simply entering the website URL into the feed search section of platforms such as <strong>Inoreader</strong>, or browser extensions that support RSS. This enables symbolic tracking of ideas across decentralized channels, reinforcing the platform’s role as a living archive of technocultural reflection.
+<img src="https://www.svgrepo.com/show/299464/rss.svg" alt="RSS icon" width="24" height="24" style="vertical-align: middle; margin-left: 6px;" />
+     </p>
 </section>
 
 <section id="Fragments from the frontier between ethics and imagination">
