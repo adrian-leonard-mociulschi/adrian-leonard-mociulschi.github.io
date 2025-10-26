@@ -67,8 +67,7 @@ permalink: /about
   <p>
     Hosted on GitHub, my platform serves as a public repository where users can explore infrastructure and intention.
     Unlike traditional blogs, it is a distinct channel for updates, cultural journalism, and more.
-    It represents a symbolic statement of <strong>technoculture</strong>, encouraging users to discover ideas that transcend transactional thinking,
-    thereby reclaiming the essence of art.
+    It represents a symbolic statement of <strong>technoculture</strong>, encouraging users to discover ideas that transcend transactional thinking, thereby reclaiming the essence of art.
   </p>
   <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
     “Scientia et ars, in unum resonant — sine hac, illa muta est.”<br>
@@ -76,12 +75,11 @@ permalink: /about
   </blockquote>
   <p>
     This platform is an online archive and research tool that delves into complex ideas beyond mere interpretations.
-    It centralizes my public discussions on artificial intelligence, symbolic computation, ethics, emergence, memory, and the future
-    by integrating <strong>culture, code, and algorithmic reasoning</strong>.
+    It centralizes my public discussions on artificial intelligence, symbolic computation, ethics, emergence, memory, and the future by integrating <strong>culture, code, and algorithmic reasoning</strong>.
   </p>
   <p>
     This website also offers a <strong>dedicated RSS feed</strong>, a standardized format (Really Simple Syndication) that allows users to receive updates automatically whenever new content is published. All my articles written in English can be followed through <strong>news aggregators</strong> by simply entering the website URL into the feed search section of platforms such as <strong>Inoreader</strong>, or browser extensions that support RSS. This enables symbolic tracking of ideas across decentralized channels, reinforcing the platform’s role as a living archive of technocultural reflection.
-<img src="https://www.svgrepo.com/show/299464/rss.svg" alt="RSS icon" width="24" height="24" style="vertical-align: middle; margin-left: 6px;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS icon" width="24" height="24" style="vertical-align: middle; margin-left: 6px;" />
      </p>
 </section>
 
