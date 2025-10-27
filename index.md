@@ -40,7 +40,7 @@ permalink: /
     <picture>
       <source type="image/avif" srcset="/assets/img/EQ7.avif">
       <source type="image/webp" srcset="/assets/img/EQ7.webp">
-      <img src="/assets/img/EQ7.png" alt="An experimental quire co-created with AI (Princess-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+      <img src="/assets/img/EQ7.png" alt="Digital portrait of a beautiful witch princess." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
     </picture>
 </section>
 <div style="height: 8px;"></div>
@@ -68,7 +68,7 @@ permalink: /
   <picture>
     <source type="image/avif" srcset="/assets/img/EQ8.avif">
     <source type="image/webp" srcset="/assets/img/EQ8.webp">
-    <img src="/assets/img/EQ8.png" alt="An experimental quire co-created with AI (Elven-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+    <img src="/assets/img/EQ8.png" alt="A forest-dwelling anime elf princess." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
 </section>
 <div style="height: 8px;"></div>
@@ -90,7 +90,7 @@ permalink: /
     The posthuman is not a machine, but a Queen — touched by culture, ethics, and imagination.
   </p>
 <img src="/assets/img/EQ81.gif"
-     alt="An experimental quire co-created with AI (Witch-Muse) — animated"
+     alt="The anime elven princess comes to life, animated."
      width="600" height="800"
      loading="lazy" decoding="async"
      style="width:80%;max-width:400px;height:auto;border-radius:8px;">
