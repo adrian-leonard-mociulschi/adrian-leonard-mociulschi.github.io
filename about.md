@@ -124,10 +124,10 @@ permalink: /about
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+  "@id": "https://adrian-leonard-mociulschi.github.io/about#person",
   "name": "Adrian Leonard Mociulschi",
   "alternateName": "Dr. Adrian Leonard Mociulschi",
-  "url": "https://adrian-leonard-mociulschi.github.io/",
+  "url": "https://adrian-leonard-mociulschi.github.io/about",
   "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
   "description": "Adrian Leonard Mociulschi is a Romanian academic, author, and researcher exploring technoculture, symbolic infrastructures, and ethical AI through essays and public scholarship.",
   "jobTitle": "Author, Researcher, Essayist, University Lecturer, Ph.D.",
@@ -141,9 +141,8 @@ permalink: /about
     "name": "Universitatea Națională de Muzică București (UNMB)",
     "url": "https://www.unmb.ro/"
   },
-  "nationality": "Romanian",
+  "nationality": { "@type": "Country", "name": "Romania" },
   "gender": "Male",
-  "inLanguage": "en",
   "knowsAbout": [
     "Technoculture",
     "Ethics of AI",
@@ -162,7 +161,9 @@ permalink: /about
     "value": "0009-0006-9328-8518",
     "url": "https://orcid.org/0009-0006-9328-8518"
   },
-  "award": "Himalaya Trophy (1995), China Radio International, Beijing",
+  "award": [
+    "Himalaya Trophy (1995) — China Radio International, Beijing"
+  ],
   "sameAs": [
     "https://orcid.org/0009-0006-9328-8518",
     "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
@@ -172,6 +173,7 @@ permalink: /about
     "https://www.contributors.ro/author/adrian-leonard-mociulschi",
     "https://cimro.ro/adrian-mociulschi/",
     "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
+    "https://unmb.academia.edu/AdrianMociulschi",
     "https://github.com/adrian-leonard-mociulschi"
   ],
   "mainEntityOfPage": {
@@ -180,7 +182,6 @@ permalink: /about
   }
 }
 </script>
-
 <!--
 Carmen de Stirpe Regali — Identitas in Tempore
 
