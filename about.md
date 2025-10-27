@@ -114,7 +114,7 @@ permalink: /about
 <section id="contact">
   <h2>Contact</h2>
   <p> 
-    To stay updated on the latest articles in English, follow us on <strong>RSS news aggregators</strong>.
+    To stay updated on my latest articles in English, follow this website on <strong>RSS news aggregators</strong>.
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS icon" width="18" height="18" style="position: relative; top: 3px; margin-left: 6px;" />
   </p>
 </section>
