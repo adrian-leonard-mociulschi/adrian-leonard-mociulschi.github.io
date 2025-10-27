@@ -76,7 +76,7 @@ permalink: /ai-muse
 <br>
 
 <p style="font-size:0.95em; color:#555; text-align:center; font-style:italic; letter-spacing:0.5px;">
-Subscribe to my channel, <em>Symbolic Echoes</em>, to stay up to date on the latest technoculture news on
+Subscribe to my channel, Symbolic Echoes, to stay up to date on the latest technoculture news on
 <a href="https://www.youtube.com/channel/UCkROz9jfwfWG7wC1goNRUWw" target="_blank" rel="noopener noreferrer" style="color:#333; text-decoration:none; font-weight:bold;">
 YouTube
 </a>
