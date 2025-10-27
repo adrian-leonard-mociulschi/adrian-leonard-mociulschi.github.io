@@ -89,11 +89,10 @@ permalink: /
   <p>
     The posthuman is not a machine, but a Queen — touched by culture, ethics, and imagination.
   </p>
-  <picture>
-    <source type="image/avif" srcset="/assets/img/EQ9.avif">
-    <source type="image/webp" srcset="/assets/img/EQ9.webp">
-    <img src="/assets/img/EQ9.png" alt="An experimental quire co-created with AI (Witch-Muse)" width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
-  </picture>
+<img src="/assets/img/EQ81.gif"
+     alt="An experimental quire co-created with AI (Witch-Muse) — animated"
+     width="600" height="800"
+     loading="lazy" decoding="async"
 </section>
 <div style="height: 8px;"></div>
 <section id="orcid">
