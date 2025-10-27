@@ -167,7 +167,7 @@ permalink: /about
     "https://orcid.org/0009-0006-9328-8518",
     "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
     "https://nineoclock.ro/tag/adrian-leonard-mociulschi/",
-    "https://revistacultura.ro/author/leonard/",
+    "https://revistacultura.ro/author/adrian-mociulschi/",
     "https://romanialibera.ro/author/adrian-mociulschi/",
     "https://www.contributors.ro/author/adrian-leonard-mociulschi",
     "https://cimro.ro/adrian-mociulschi/",
