@@ -93,6 +93,7 @@ permalink: /
      alt="An experimental quire co-created with AI (Witch-Muse) — animated"
      width="600" height="800"
      loading="lazy" decoding="async"
+     style="width:80%;max-width:400px;height:auto;border-radius:8px;">
 </section>
 <div style="height: 8px;"></div>
 <section id="orcid">
