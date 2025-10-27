@@ -195,7 +195,7 @@ permalink: /writing
     "image": "https://nineoclock.ro/wp-content/uploads/2025/08/Adrian_Leonard_Mociulschi2494171-960x640.jpg",
     "sameAs": [
     "https://orcid.org/0009-0006-9328-8518",
-    "https://revistacultura.ro/author/leonard/",
+    "https://revistacultura.ro/author/adrian-mociulschi/",
     "https://romanialibera.ro/author/adrian-mociulschi/",
     "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
     "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
