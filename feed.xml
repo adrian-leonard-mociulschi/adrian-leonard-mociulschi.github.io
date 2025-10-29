@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Adrian Leonard Mociulschi — A Symbolic Ambassador of Technoculture</title>
+    <link>https://adrian-leonard-mociulschi.github.io/</link>
+    <description>Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research.</description>
+    <language>en-US</language>
+    <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2025 09:00:00 GMT</lastBuildDate>
+    <ttl>1440</ttl>
+    <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <image>
+      <url>https://adrian-leonard-mociulschi.github.io/Favicon-new.png</url>
+      <title>Adrian Leonard Mociulschi — A Symbolic Ambassador of Technoculture</title>
+      <link>https://adrian-leonard-mociulschi.github.io/</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+
+    <!-- Article Nine O'Clock - October 25, 2025 -->
+    <item>
+      <title>Honor and Algorithms – The Romanian Military’s New Frontline — Nine O’Clock</title>
+      <link>https://nineoclock.ro/2025/10/24/honor-and-algorithms-the-romanian-militarys-new-frontline/</link>
+      <guid isPermaLink="false">honor-and-algorithms-v2</guid>
+      <pubDate>Fri, 24 Oct 2025 14:35:00 GMT</pubDate>
+      <description><![CDATA[
+        <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        Through the voices of military leaders like Colonel (Ret.) Gheorghe Suman, Colonel Cristian-Tiberiu Cristescu and General (Ret.) Cristian Teglas, the article traces the evolution of the mountain troops from the trenches of WWII to today’s algorithm-driven defense systems.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" width="960" height="960"/>
+      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" medium="image" width="960" height="960" type="image/png" />
+    </item>
+
+    <!-- Article Nine O'Clock - October 02, 2025 -->
+    <item>
+      <title>The Future Has No Autopilot — Nine O’Clock</title>
+      <link>https://nineoclock.ro/2025/10/02/the-future-has-no-autopilot-by-dr-adrian-leonard-mociulschi/</link>
+      <guid isPermaLink="false">future-has-no-autopilot-v2</guid>
+      <pubDate>Thu, 02 Oct 2025 13:10:00 GMT</pubDate>
+      <description><![CDATA[
+        <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        This article examines the ethical and strategic implications of autonomous systems in modern warfare and beyond, arguing for meaningful human control where speed and certainty collide with conscience.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" width="960" height="960"/>
+      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" medium="image" width="960" height="960" type="image/png" />
+    </item>
+
+    <!-- Article Nine O'Clock - September 27, 2025 -->
+    <item>
+      <title>The Murmur of Code: On the Ethics of Algorithmic Presence — Nine O’Clock</title>
+      <link>https://www.nineoclock.ro/2025/09/27/the-murmur-of-code-on-the-ethics-of-algorithmic-presence/</link>
+      <guid isPermaLink="false">murmur-of-code-v2</guid>
+      <pubDate>Sat, 27 Sep 2025 05:13:00 GMT</pubDate>
+      <description><![CDATA[
+        <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        How algorithms reshape online visibility, influence political discourse within the EU, and challenge the ethics of the attention economy—advocating transparency and a human‑centered digital presence.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" width="960" height="960"/>
+      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" medium="image" width="960" height="960" type="image/png" />
+    </item>
+
+    <!-- Article Nine O'Clock - August 13, 2025 -->
+    <item>
+      <title>Algorithms as Living Forms: Rethinking Coexistence in a World of Code — Nine O’Clock</title>
+      <link>https://nineoclock.ro/2025/08/13/algorithms-as-living-forms-rethinking-coexistence-in-a-world-of-code-by-dr-adrian-leonard-mociulschi/</link>
+      <guid isPermaLink="false">algorithms-as-living-forms-v2</guid>
+      <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
+      <description><![CDATA[
+        <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        This essay explores the symbolic and ethical dimensions of algorithms as living forms, proposing a new framework for coexistence between human and machine intelligences in a shared cultural space.
+      ]]></description>
+      <content:encoded><![CDATA[
+        <p>
+          <img src="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" alt="Adrian Leonard Mociulschi" width="960" height="960" />
+        </p>
+      ]]></content:encoded>
+      <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" width="960" height="960"/>
+      <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/ALM_Nine_960x960.png?v=20251029" medium="image" width="960" height="960" type="image/png" />
+    </item>
+
+  </channel>
+</rss>
