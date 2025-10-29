@@ -300,6 +300,31 @@
     "keywords": "feminism, algoritmi, vizibilitate, cod binar, reprezentare, cultură digitală, România Liberă",
     "inLanguage": "ro",
     "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
+  },
+  {
+    "@type": "Article",
+    "headline": "Puterea nu se mai sapă — se semnează. Uneori, o semnează un câine",
+    "alternativeHeadline": "Editorial România Liberă — 28 Octombrie 2025",
+    "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+    },
+    "publisher": {
+    "@type": "Organization",
+    "name": "România Liberă",
+    "url": "https://romanialibera.ro"
+    },
+    "datePublished": "2025-10-28T00:00:00+03:00",
+    "dateModified": "2025-10-28T00:00:00+03:00",
+    "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://romanialibera.ro/op-ed/opinii/puterea-nu-se-mai-sapa-se-semneaza-uneori-o-semneaza-un-caine/"
+    },
+    "description": "Un eseu despre mutația simbolică a puterii în era blockchain, de la consens algoritmic la ironia Dogecoin ca infrastructură culturală.",
+    "keywords": "blockchain, consens algoritmic, Delegated Proof of Stake, autoritate digitală, Web3, Dogecoin, putere simbolică, democrație programată, infrastructură culturală, tehnocultură, România Liberă",
+    "inLanguage": "ro",
+    "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
   }
  ]
 }
