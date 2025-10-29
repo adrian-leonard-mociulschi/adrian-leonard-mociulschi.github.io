@@ -4,9 +4,9 @@ title: "Adrian Leonard Mociulschi"
 tagline: "A Symbolic Ambassador of Technoculture"
 description: "Official updates by Adrian Leonard Mociulschi: essays, op-eds, and projects on technoculture, and algorithmic visibility."
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
-date: "2025-10-25T00:00:00+03:00"
+date: "2025-10-30T00:00:00+03:00"
 lang: "en-US"
-keywords: "Adrian Leonard Mociulschi, feminism, Girl in a Jacket, România Liberă, op-ed, algorithmic culture, gender equality, representation, technoculture"
+keywords: "Adrian Leonard Mociulschi, Feminism, Girl in a Jacket, România Liberă, Op-Ed, Algorithmic culture, Gender equality, National Security, Technoculture"
 permalink: /blog
 ---
 
@@ -34,6 +34,27 @@ permalink: /blog
   <a href="https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi" target="_blank" rel="noopener noreferrer">ResearchGate</a> and 
   <a href="https://unmb.academia.edu/AdrianMociulschi" target="_blank" rel="noopener noreferrer">Academia.edu</a>.
 </p>
+
+<!-- Entry B · 2025-10-29 XII -->
+<div role="article"
+     aria-label="Article: De la consens la guvernanță: încredere algoritmică și delegați blockchain"
+     data-summary="Adrian Leonard Mociulschi explores the shift from consensus to governance in blockchain systems, analyzing algorithmic trust and delegated validation in România Liberă."
+     data-keywords="România Liberă, Blockchain, Governance, Algorithmic trust, Delegated validation, Web 3.0, National Security"
+     style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
+
+  <h2 style="color: #003366; font-family: Georgia, serif;">From Consensus to Governance: Algorithmic Trust and Blockchain Delegates</h2>
+  <p style="font-style: italic; color: #555;">Editorial — October 28, 2025</p>
+  <p><strong>Summary —</strong> In this article in <em>România Liberă</em>, Adrian Leonard Mociulschi discusses the transformation of power in the blockchain era, shifting from consensus to governance, where trust becomes algorithmic and validation is delegated. The article analyzes the symbolic and political implications of this shift, examining how protocol replaces force and signatures become algorithmic. In a decentralized world, the question is no longer who mines, but who writes the rules. </p>
+  <p>
+    <a href="https://romanialibera.ro/op-ed/opinii/puterea-nu-se-mai-sapa-se-semneaza-uneori-o-semneaza-un-caine/"
+       target="_blank" rel="noopener noreferrer"
+       title="Link to the original article in România Liberă"
+       hreflang="ro-RO"
+       style="color:#003366; font-weight:bold; text-decoration:none;">
+      ➤ Read the original article in România Liberă
+    </a>
+  </p>
+</div>
 
 <!-- Entry A · 2025-09-25 XII -->
 <div role="article"
@@ -644,6 +665,36 @@ permalink: /blog
   },
   "description": "In an essay published in Romania Libera, Adrian Leonard Mociulschi transforms a snippet from a search engine into a cultural code. The text reflects on feminism, representation, and the hidden codes of algorithmic visibility. It starts with an unexpected snippet: “Girl in a Jacket.”",
   "keywords": "Feminism, Algorithms, Visibility, Binary code, Representation, Digital culture, România Liberă",
+  "inLanguage": "ro-RO",
+  "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
+}
+</script>
+
+<!-- JSON-LD · 2025-10-29 XIII -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "From Consensus to Governance: Algorithmic Trust and Blockchain Delegates",
+  "alternativeHeadline": "Editorial România Liberă — October 29, 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "România Liberă",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-10-28T09:00:00+03:00",
+  "dateModified": "2025-10-29T21:45:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://romanialibera.ro/op-ed/opinii/puterea-nu-se-mai-sapa-se-semneaza-uneori-o-semneaza-un-caine/"
+  },
+  "description": "In this editorial published in România Liberă, Adrian Leonard Mociulschi analyzes the shift in power in the blockchain era, from consensus to governance. In this new era, trust becomes algorithmic, and validation is delegated. The text discusses the symbolic and political implications of this transformation, exploring how protocol replaces force and signatures become algorithmic.",
+  "keywords": "Blockchain, Governance, Algorithmic trust, Delegation, Web 3.0, România Liberă, Algorithms, Soft power",
   "inLanguage": "ro-RO",
   "image": "https://romanialibera.ro/wp-content/uploads/2025/06/adrian-leonard-mociulschi.jpeg"
 }
