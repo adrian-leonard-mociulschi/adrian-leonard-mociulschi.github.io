@@ -6,7 +6,7 @@ description: "Official updates by Adrian Leonard Mociulschi: essays, op-eds, and
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-30T00:00:00+03:00"
 lang: "en-US"
-keywords: "Adrian Leonard Mociulschi, Feminism, Girl in a Jacket, România Liberă, Op-Ed, Algorithmic culture, Gender equality, National Security, Technoculture"
+keywords: "Adrian Leonard Mociulschi, Feminism, Girl in a Jacket, România Liberă, Op-Ed, Algorithmic culture, Gender equality,Technoculture"
 permalink: /blog
 ---
 
@@ -39,7 +39,7 @@ permalink: /blog
 <div role="article"
      aria-label="Article: De la consens la guvernanță: încredere algoritmică și delegați blockchain"
      data-summary="Adrian Leonard Mociulschi explores the shift from consensus to governance in blockchain systems, analyzing algorithmic trust and delegated validation in România Liberă."
-     data-keywords="România Liberă, Blockchain, Governance, Algorithmic trust, Delegated validation, Web 3.0, National Security"
+     data-keywords="România Liberă, Blockchain, Governance, Algorithmic trust, Delegated validation, Web 3.0"
      style="border: 2px solid #003366; border-radius: 15px; background-color: rgba(173, 216, 230, 0.2); padding: 20px; margin: 20px 0; font-family: 'Georgia', serif; line-height: 1.6;">
 
   <h2 style="color: #003366; font-family: Georgia, serif;">From Consensus to Governance: Algorithmic Trust and Blockchain Delegates</h2>
