@@ -38,9 +38,9 @@ permalink: /
       Every image emerges from cutting-edge convolutional architectures, where code becomes canvas, and presence becomes form. And somewhere beneath this digital terrain, the sandworms of Arrakis stir — ancient, algorithmic, and symbolic.
     </p>
     <picture>
-      <source type="image/avif" srcset="/assets/img/EQ7.avif">
-      <source type="image/webp" srcset="/assets/img/EQ7.webp">
-      <img src="/assets/img/EQ7.png" alt="Digital portrait of a beautiful witch princess." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+      <source type="image/avif" srcset="/assets/img/EQ81.avif">
+      <source type="image/webp" srcset="/assets/img/EQ81.webp">
+      <img src="/assets/img/EQ81.png" alt="Sketch Phase: A 2D forest-dwelling anime princess elf." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
     </picture>
 </section>
 <div style="height: 8px;"></div>
@@ -68,7 +68,7 @@ permalink: /
   <picture>
     <source type="image/avif" srcset="/assets/img/EQ8.avif">
     <source type="image/webp" srcset="/assets/img/EQ8.webp">
-    <img src="/assets/img/EQ8.png" alt="A forest-dwelling anime elf princess." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+    <img src="/assets/img/EQ8.png" alt="Concept Phase: A 3D forest-dwelling anime princess elf." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
   </picture>
 </section>
 <div style="height: 8px;"></div>
@@ -90,7 +90,7 @@ permalink: /
     The posthuman is not a machine, but a Queen — touched by culture, ethics, and imagination.
   </p>
 <img src="/assets/img/EQ81.gif"
-     alt="The anime elven princess comes to life, animated."
+     alt="Animated Phase: The forest-dwelling anime princess elf comes to life."
      width="600" height="800"
      loading="lazy" decoding="async"
      style="width:80%;max-width:400px;height:auto;border-radius:8px;">
