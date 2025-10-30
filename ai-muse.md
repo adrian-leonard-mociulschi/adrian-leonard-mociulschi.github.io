@@ -6,7 +6,7 @@ description: "A symbolic video archive by Adrian Leonard Mociulschi. Explore ref
 image: "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"
 date: "2025-10-24T00:00:00+03:00"
 lang: "en-US"
-keywords: "Adrian Leonard Mociulschi, technoculture, symbolic presence, algorithmic reflection, digital archive, AI-assisted creation, posthuman ecology, cultural memory, interdisciplinary art, YouTube teasers, General Leonard Mociulschi, music and philosophy, cognitive mapping, blockchain and culture, Romanian history"
+keywords: "Adrian Leonard Mociulschi, Technoculture, Symbolic presence, Algorithmic reflection, Digital archive, AI-assisted creation, Posthuman ecology, Cultural memory, Interdisciplinary art, YouTube teasers, Music and philosophy, Cognitive mapping, Blockchain and culture"
 permalink: /ai-muse
 ---
 
@@ -42,7 +42,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-<strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes knowledge."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
+<strong>"Technological education is the art of decoding the invisible — where algorithms become language, and language becomes knowledge."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Voices of Technoculture
 </blockquote>
 
 <!-- Container 16:9 -->
@@ -56,7 +56,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-<strong>"Visual education is the art of navigating symbolic space — where neural networks trace memory, and every image becomes a question of meaning.</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
+<strong>"Visual education is the art of navigating symbolic space — where neural networks trace memory, and every image becomes a question of meaning."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Voices of Technoculture
 </blockquote>
 
 <!-- Container 16:9 -->
@@ -70,7 +70,7 @@ permalink: /ai-muse
 </div>
 
 <blockquote style="font-style:italic; font-size:1.1em; margin-top:2em; color:#444;">
-<strong>"In today's age of AI, true intelligence emerges from asking questions that reveal what algorithms can understand and where their limits lie."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Ambassador of Technoculture
+<strong>"In today's age of AI, true intelligence emerges from asking questions that reveal what algorithms can understand and where their limits lie."</strong> — A.L.M. <span style="font-style:normal;">⚛</span> Voices of Technoculture
 </blockquote>
 
 <br>
