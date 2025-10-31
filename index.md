@@ -32,7 +32,7 @@ permalink: /
       At the intersection of culture and code, this space invites reflection — not commits. A lucid archive of symbolic ecologies, Web3 visions, and ethical AI. No crowdsourcing, just presence. No noise, just resonance.
     </p>
     <p>
-      Here, there are no ads, no metrics, no filters. Just code, word, and idea — in their purest form. It is a return to Web 1, far from the noise of quantification, and a return to the craft spirit of the Middle Ages, where each post is shaped by hand — a gesture of Renaissance ethos.
+      Here, there are no ads, no metrics, no filters. Just code, word, and idea — in their purest form. It is a return to Web1, far from the noise of quantification, and a return to the craft spirit of Middle Earth, where each post is shaped by hand — a gesture echoing the timeless ethos of J.R.R. Tolkien.
     </p>
     <p>
       Every image emerges from cutting-edge convolutional architectures, where code becomes canvas and presence becomes form. And somewhere beneath this digital forest, the whispers of elves linger — ethereal, algorithmic, and timeless.
