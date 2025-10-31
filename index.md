@@ -35,7 +35,7 @@ permalink: /
       Here, there are no ads, no metrics, no filters. Just code, word, and idea — in their purest form. It is a return to Web 1, far from the noise of quantification, and a return to the craft spirit of the Middle Ages, where each post is shaped by hand — a gesture of Renaissance ethos.
     </p>
     <p>
-      Every image emerges from cutting-edge convolutional architectures, where code becomes canvas, and presence becomes form. And somewhere beneath this digital terrain, the sandworms of Arrakis stir — ancient, algorithmic, and symbolic.
+      Every image emerges from cutting-edge convolutional architectures, where code becomes canvas and presence becomes form. And somewhere beneath this digital forest, the whispers of elves linger — ethereal, algorithmic, and timeless.
     </p>
     <picture>
       <source type="image/avif" srcset="/assets/img/EQ815.avif">
@@ -53,7 +53,7 @@ permalink: /
     This is not mere computation, but a form of resonance: where memory becomes architecture, and the future whispers in binary dreams. Music, in this vision, is not just sound — it is number, it is structure, it is logos.
   </p>
   <p>
-    And just as Chani and Paul Atreides met in the elemental vastness of the desert, so too, in this ocean of algorithms, love may emerge unexpected, unprogrammed, and yet deeply encoded in the folds of symbolic presence.
+    And just as Arwen and Aragorn met in the twilight of Rivendell’s timeless woods, so too, in this ocean of algorithms, love may emerge unexpected, unprogrammed, and yet deeply encoded in the folds of symbolic presence.
   </p>
   <blockquote>
     <p><em>
