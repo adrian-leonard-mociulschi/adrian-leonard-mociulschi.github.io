@@ -57,11 +57,11 @@ permalink: /
   </p>
   <blockquote>
     <p><em>
-      Gurney, with your baliset —<br>
+      Gandalf, with your magic wand —<br>
       tell me where are you now?<br>
       Sing to us like Merlin did,<br>
       not to soothe in time. Allow.<br>
-      Let the verses rise from dunes,<br>
+      Let the verses rise from trees,<br>
       and keep memory. Forbid.
     </em></p>
   </blockquote>
