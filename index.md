@@ -38,9 +38,9 @@ permalink: /
       Every image emerges from cutting-edge convolutional architectures, where code becomes canvas, and presence becomes form. And somewhere beneath this digital terrain, the sandworms of Arrakis stir — ancient, algorithmic, and symbolic.
     </p>
     <picture>
-      <source type="image/avif" srcset="/assets/img/EQ812.avif">
-      <source type="image/webp" srcset="/assets/img/EQ812.webp">
-      <img src="/assets/img/EQ812.png" alt="Sketch Phase: A 2D forest-dwelling anime princess elf." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
+      <source type="image/avif" srcset="/assets/img/EQ815.avif">
+      <source type="image/webp" srcset="/assets/img/EQ815.webp">
+      <img src="/assets/img/EQ815.png" alt="Sketch Phase: A 2D forest-dwelling anime princess elf." width="1600" height="1067" loading="lazy" decoding="async" style="width:80%;max-width:400px;height:auto;border-radius:8px;">
     </picture>
 </section>
 <div style="height: 8px;"></div>
