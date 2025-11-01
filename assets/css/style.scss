@@ -1,15 +1,26 @@
+---
+---
+@import "jekyll-theme-cayman";
+
+/* === Hide GitHub button === */
 .btn-github {
   display: none !important; 
 }
 
-/* --- Remove any pseudo-elements from the footer, such as links, images, and spans.--- */
-.site-footer *:hover::before,
-.site-footer *:hover::after {
+/* === Footer cleanup === */
+/* Elimină pseudo-elementele decorative injectate de temă */
+.site-footer::before,
+.site-footer::after,
+.site-footer a::before,
+.site-footer a::after,
+.site-footer *::before,
+.site-footer *::after {
   content: none !important;
 }
 
-/* --- CSS is needed to align the badge to the right in the footer. --- */
+/* === RSS Validator badge alignment === */
 .rss-validator {
   float: right;
   margin-right: 10px;
   margin-top: 4px;
+}
