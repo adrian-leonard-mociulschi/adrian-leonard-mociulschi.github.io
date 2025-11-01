@@ -1,4 +1,6 @@
-theme: jekyll-theme-cayman
+# Jekyll configuration without remote theme
+# Removed: theme: jekyll-theme-cayman
+
 title: "Adrian Leonard Mociulschi"
 description: "Exploring ethical AI, technoculture, and the future of meaning through artifacts, essays, and research."
 tagline: "A Symbolic Ambassador of Technoculture"
@@ -15,4 +17,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-
