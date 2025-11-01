@@ -54,8 +54,8 @@
     <meta name="twitter:description" content="{{ og_desc }}">
     <meta name="twitter:image" content="{{ og_img | absolute_url }}">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- Styles: Local CSS order -->
+    <link rel="stylesheet" href="{{ '/assets/css/cayman-base.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/premium-nav.css' | relative_url }}">
 
@@ -80,7 +80,7 @@
       </ul>
     </nav>
 
-    <!-- Header without old navigation -->
+    <!-- Header -->
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: 'Adrian Leonard Mociulschi' }}</h1>
       <h2 class="project-tagline">{{ page.tagline | default: 'A Symbolic Ambassador of Technoculture' }}</h2>
