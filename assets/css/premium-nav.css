@@ -1,0 +1,65 @@
+/* === Premium Liquid Retina Navigation === */
+:root {
+  --nav-bg: rgba(255,255,255,0.6);
+  --nav-blur: blur(12px);
+  --nav-color: #1a1a1a;
+  --nav-hover: #007aff;
+  --nav-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  --font-main: 'Inter', 'SF Pro Text', sans-serif;
+}
+
+.site-nav.premium {
+  font-family: var(--font-main);
+  backdrop-filter: saturate(180%) var(--nav-blur);
+  background: var(--nav-bg);
+  border-radius: 12px;
+  box-shadow: var(--nav-shadow);
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-nav.premium .menu-list {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav.premium .menu-link,
+.site-nav.premium .menu-list a {
+  color: var(--nav-color);
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.35s cubic-bezier(.4,0,.2,1), color .3s ease, transform .3s ease;
+}
+
+.site-nav.premium .menu-list a:hover {
+  color: var(--nav-hover);
+  background-size: 100% 2px;
+  transform: translateY(-2px) scale(1.02);
+  text-shadow: 0 0 12px rgba(0,122,255,0.4);
+}
+
+/* Hamburger for mobile */
+.site-nav.premium .menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--nav-color);
+}
+
+@media (max-width: 768px) {
+  .site-nav.premium .menu-toggle { display: block; }
+  .site-nav.premium .menu-list { display: none; flex-direction: column; gap: 0.8rem; }
+  .site-nav.premium .menu-list.open { display: flex; }
+}
