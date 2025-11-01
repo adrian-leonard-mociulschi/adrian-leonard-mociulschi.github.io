@@ -4,23 +4,18 @@
     <meta charset="UTF-8">
     <meta name="msvalidate.01" content="F96E9C5720D3D6021656350BF92CB55F" />
 
-    <!-- In the event that the page does not define its own values, the title and description act as a fallback -->
     <title>{{ page.title | default: 'Adrian Leonard Mociulschi — University lecturer, essayist, Ambassador of technoculture' }}</title>
     <meta name="description" content="{{ page.description | default: 'Lecturer, essayist, and technoculture ambassador. Published five volumes on AI, culture, and future explorations.' }}">
 
     <!-- Performance: Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload"
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
-          as="style" type="text/css" crossorigin>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
 
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- PWA: manifest. It has a color bar. The color bar is aligned with the theme color. 
-    The theme color is defined in manifest.json -->
+    <!-- PWA manifest -->
     <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
     <meta name="theme-color" content="#ff0000">
 
@@ -30,18 +25,17 @@
     <link rel="icon" type="image/svg+xml" href="{{ '/Favicon-new.svg' | relative_url }}">
     <link rel="mask-icon" href="{{ '/Favicon-new.svg' | relative_url }}" color="#ff0000">
 
-    <!-- iOS (Add to Home Screen) -->
+    <!-- iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="A.L.M.">
     <link rel="apple-touch-icon" href="{{ '/Favicon-new.png' | relative_url }}">
 
-    <!-- Open Graph / Twitter for proper sharing -->
+    <!-- Open Graph / Twitter -->
     {% assign og_title = page.title | default: 'Adrian Leonard Mociulschi — University lecturer, essayist, Ambassador of technoculture' %}
     {% assign og_desc  = page.description | default: 'Lecturer, essayist, and technoculture ambassador. Published five volumes on AI, culture, and future explorations.' %}
     {% assign og_img   = page.image | default: '/Favicon-new.png' %}
 
-    <!-- OG / Twitter URL without duplicate canonical tag -->
     {% if site.url %}
       <meta property="og:url" content="{{ page.url | absolute_url }}">
       <meta name="twitter:url" content="{{ page.url | absolute_url }}">
@@ -63,8 +57,9 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/premium-nav.css' | relative_url }}">
 
-    <!-- RSS autodiscovery (main XML feed) -->
+    <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: 'Adrian Leonard Mociulschi' }} RSS" href="{{ '/feed.xml' | relative_url }}">
 
     {% include head-custom.html %}
@@ -72,6 +67,18 @@
   <body>
     <a id="top"></a>
     <a id="skip-to-content" href="#content">Sari la conținut</a>
+
+    <!-- Premium Navigation -->
+    <nav class="site-nav premium" aria-label="Primary">
+      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+      <ul class="menu-list">
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/writing/">Writings</a></li>
+        <li><a href="/blog/">Op&Ed</a></li>
+        <li><a href="/ai-muse/">V-Box</a></li>
+      </ul>
+    </nav>
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: 'Adrian Leonard Mociulschi' }}</h1>
@@ -93,41 +100,24 @@
       </span>
     </footer>
 
-    <!-- Service Worker (optional): comment when you add /sw.js; add it to the root.
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-          navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}')
-            .catch(err => console.warn('SW registration failed:', err));
-        });
-      }
-    </script>
-    -->
-
-    <!-- Go To Top – floating, translucent (ghost/glass) -->
+    <!-- Go To Top -->
     <a href="#top" id="goTop" class="go-top" aria-label="Înapoi sus" title="Înapoi sus">
-      <svg viewBox="0 0 24 24" fill="none"
-           stroke="currentColor" stroke-width="2"
-           stroke-linecap="round" stroke-linejoin="round"
-           aria-hidden="true" focusable="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
         <polyline points="18 15 12 9 6 15"/>
       </svg>
     </a>
+
     <script>
     (function () {
       var btn = document.getElementById('goTop');
       if (!btn) return;
-
       var showAt = 400;
-
       function toggle() {
         var y = window.scrollY || document.documentElement.scrollTop || 0;
         btn.classList.toggle('visible', y > showAt);
       }
-
       window.addEventListener('scroll', toggle, { passive: true });
       toggle();
-
       btn.addEventListener('click', function (e) {
         e.preventDefault();
         var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -147,5 +137,7 @@
     })();
     </script>
 
+    <!-- Premium Navigation JS -->
+    <script src="{{ '/assets/js/premium-nav.js' | relative_url }}"></script>
   </body>
 </html>
