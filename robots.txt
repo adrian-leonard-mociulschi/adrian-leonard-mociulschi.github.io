@@ -5,6 +5,7 @@ Allow: /
 # Sitemaps pentru indexare completă
 Sitemap: https://adrian-leonard-mociulschi.github.io/sitemap.xml
 Sitemap: https://adrian-leonard-mociulschi.github.io/manifest-si.xml
+Sitemap: https://adrian-leonard-mociulschi.github.io/si_manifest.jsonld.txt
 
 # Directive explicite pentru crawlere majore
 User-agent: Googlebot
