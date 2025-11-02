@@ -9,9 +9,9 @@
   },
   "affiliation": {
     "@type": "Organization",
-    "name": "MHCM \u2013 Human Mind Cognition Mapping"
+    "name": "MHCM – Human Mind Cognition Mapping"
   },
-  "email": "mociulschi.a@gmail.com",
+  "email": "mailto:mociulschi.a@gmail.com",
   "knowsAbout": [
     "Technoculture",
     "Ethical AI",
