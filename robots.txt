@@ -1,7 +1,7 @@
 # robots.txt – Configurație optimizată pentru GitHub Pages
 User-agent: *
 Allow: /
-Disallow: /si-manifest.xml
+Disallow: /manifest-si.xml
 
 # Sitemaps pentru indexare completă (doar pagini HTML)
 Sitemap: https://adrian-leonard-mociulschi.github.io/sitemap.xml
@@ -9,10 +9,10 @@ Sitemap: https://adrian-leonard-mociulschi.github.io/sitemap.xml
 # Directive explicite pentru crawlere majore
 User-agent: Googlebot
 Allow: /
-Disallow: /si-manifest.xml
+Disallow: /manifest-si.xml
 
 User-agent: Bingbot
 Allow: /
-Disallow: /si-manifest.xml
+Disallow: /manifest-si.xml
 
 # Finis codicis: silentium algorithmicum
