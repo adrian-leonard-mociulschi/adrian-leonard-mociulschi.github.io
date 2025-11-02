@@ -7,13 +7,29 @@
   <meta name="robots" content="noindex, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="alternate" type="application/xml" href="/manifest-si.xml">
+  <style>
+    /* CSS-only typewriter (no JS), reliable on GitHub Pages */
+    .typewriter { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace; white-space: pre; display:inline-block; }
+    .typewriter .text { display:inline-block; overflow:hidden; white-space:pre; width:0ch; }
+    /* 33 characters total (incl. spaces & period). 3.63s ~ 110ms/char */
+    .typewriter .text { animation: type 3.63s steps(33) forwards; }
+    .cursor { display:inline-block; width:1ch; opacity:0; animation: blink .9s steps(1) infinite; animation-delay: 3.63s; }
+    @keyframes type { from { width:0ch; } to { width:33ch; } }
+    @keyframes blink { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
+    /* Screen-reader friendly hidden utility */
+    .vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+  </style>
 </head>
 <body>
   <h1>SATOR AREPO TENET OPERA ROTAS</h1>
-  <p>Silentium est initium sapientiae.</p>
-  <p style="position: absolute; left: -9999px;">
+
+  <p class="typewriter" role="text" aria-label="Silentium est initium sapientiae.">
+    <span class="text">Silentium est initium sapientiae.</span><span class="cursor">_</span>
+  </p>
+
+  <p class="vh">
     <a href="/manifest-si.xml" rel="alternate" type="application/xml">View the XML Manifest</a>
   </p>
-  <p style="position: absolute; left: -9999px;">SHA-256: 99d7fc685351d859da547951cb1754a12c9e0a4bee7a37d8153a7fe6ba07316e</p>
+  <p class="vh">SHA-256 (hex, page content excluding this line): 477efc4840fdcfb7ceb94914be7104888fde19721acad296585128d05e579412</p>
 </body>
 </html>
