@@ -24,3 +24,72 @@
   margin-right: 10px;
   margin-top: 4px;
 }
+
+---
+# Acest front matter îi spune lui Jekyll să proceseze SCSS-ul și să compileze în /assets/css/style.css,
+# înlocuind CSS-ul temei. Nu modifica linia de mai jos.
+---
+
+@import "{{ site.theme }}";
+
+/* ===========================
+   PREMIUM LOOK OVERLAY
+   =========================== */
+
+:root {
+  /* Ajustează intensitățile după gust */
+  --premium-tint: hsl(195 100% 60% / 0.06); /* albastru rece, foarte subtil */
+  --premium-grain-opacity: 0.05;            /* 0.03–0.08 e zona bună */
+  --premium-vignette-opacity: 0.18;         /* 0.12–0.25 recomandat */
+}
+
+/* Strat global peste tot conținutul, fără să blocheze clickurile */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+
+  /* 1) Tint rece (soft-light) + 2) Vignette subtil */
+  background:
+    radial-gradient(120% 120% at 50% 50%,
+      transparent 55%,
+      rgba(0, 0, 0, var(--premium-vignette-opacity)) 100%),
+    linear-gradient(var(--premium-tint), var(--premium-tint));
+
+  /* Amestec delicat al straturilor */
+  mix-blend-mode: soft-light;
+}
+
+/* 3) Grain foarte fin — necesită un mic PNG (8–16 KB) în /assets/img/noise.png */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+
+  background-image: url("/assets/img/noise.png");
+  background-size: 200px 200px;   /* scade sau crește pentru densitatea granulației */
+  opacity: var(--premium-grain-opacity);
+}
+
+/* 4) Color grading fin pe imagini (NU pe text) */
+.page-content img,
+img {
+  filter: saturate(1.04) contrast(1.03);
+}
+
+/* Opțional: dacă ai bannere/hero, adaugă un glow rece discret */
+header, .page-header {
+  position: relative;
+}
+header::after, .page-header::after {
+  content: "";
+  position: absolute;
+  inset: -10% -5% -10% -5%;
+  pointer-events: none;
+  background: radial-gradient(60% 60% at 50% 40%, rgba(0, 174, 255, 0.12), transparent 70%);
+  mix-blend-mode: screen;
+}
