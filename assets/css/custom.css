@@ -64,6 +64,7 @@ footer.site-footer *::after {
   font-size: 0.9em;
   color: #555;
 }
+
 /* === Go To Top — Ghost/Glass (Cayman) ===================================== */
 /* Pune acest bloc DUPĂ stilurile .go-top existente, pentru a le suprascrie.  */
 
@@ -155,7 +156,7 @@ footer.site-footer *::after {
 }
 /* ========================================================================= */
 
-style>
+/* === Navigation Menu (CSS curat, fără entități HTML) ===================== */
 :root {
   --menu-color:        #1a1a1a;
   --menu-hover-color:  #000000;
@@ -242,5 +243,4 @@ style>
     transform: none;
   }
 }
-</style>
-<!-- END: Navigation Menu -->
+/* ========================================================================== */
