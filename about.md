@@ -116,9 +116,12 @@ permalink: /about
   <p> 
     To stay updated on my latest articles in English, follow this website on <strong>RSS news aggregators</strong>.
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS icon" width="18" height="18" style="position: relative; top: 3px; margin-left: 6px;" />
-    <a href="https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi">Adrian Leonard Mociulschi on ResearchGate</a>
   </p>
 </section>
+
+<a href="https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi" target="_blank" rel="noopener noreferrer">
+    Adrian Leonard Mociulschi on ResearchGate
+</a>
 
 <!-- JSON-LD: Person (optimized for About page) -->
 <script type="application/ld+json">
