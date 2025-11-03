@@ -1,5 +1,4 @@
 ---
----
 
 @import "{{ site.theme }}";
 
@@ -108,4 +107,3 @@ header::after, .page-header::after{
   background: radial-gradient(60% 60% at 50% 40%, rgba(0,174,255,.12), transparent 70%);
   mix-blend-mode: screen;
 }
-``
