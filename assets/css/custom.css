@@ -1,4 +1,4 @@
-/* === Footer Cleanup ============================================= */
+/* --- Footer: Remove the underline and baseline from under images. --- */
 .site-footer a,
 .site-footer a:hover,
 .site-footer a:focus {
@@ -16,14 +16,17 @@
   text-decoration: none;
 }
 
+/* --- The image in the link becomes a block, which means it no longer "inherits" the baseline --- */
 .site-footer a img {
   display: block;
 }
 
+/* --- There is a zero baseline for the link, so there is nothing left to underline. --- */
 .site-footer a {
   line-height: 0;
 }
 
+/* --- Optional: Remove any pseudo-decorative elements that were injected by the theme. --- */
 footer.site-footer::before,
 footer.site-footer::after,
 footer.site-footer a::before,
@@ -33,6 +36,26 @@ footer.site-footer *::after {
   content: "" !important;
 }
 
+/* Custom footer demarcator */
+.site-footer-credits {
+  display: block;
+  border-top: 1px solid #ccc; /* Linie subțire, gri */
+  padding-top: 10px; /* Spațiu între linie și text */
+  margin-top: 20px; /* Spațiu față de conținutul anterior */
+  font-size: 0.9em; /* Text ușor mai mic pentru subtilitate */
+  color: #555; /* Gri închis pentru text */
+}
+
+/* Responsiveness maintains proportions on small screens */
+@media (max-width: 600px) {
+  .site-footer-credits {
+    font-size: 0.85em;
+    padding-top: 8px;
+    margin-top: 15px;
+  }
+}
+
+/* Păstrează demarcatorul deasupra creditelor */
 .site-footer-credits {
   display: block;
   border-top: 1px solid #ccc;
@@ -42,21 +65,16 @@ footer.site-footer *::after {
   color: #555;
 }
 
-@media (max-width: 600px) {
-  .site-footer-credits {
-    font-size: 0.85em;
-    padding-top: 8px;
-    margin-top: 15px;
-  }
-}
+/* === Go To Top — Ghost/Glass (Cayman) ===================================== */
+/* Pune acest bloc DUPĂ stilurile .go-top existente, pentru a le suprascrie.  */
 
-/* === Go To Top — Ghost/Glass (Cayman) ================================ */
 :root{
-  --go-size: 44px;
-  --go-accent: #1e6bb8;
+  --go-size: 44px;                 /* dimensiunea butonului */
+  --go-accent: #1e6bb8;            /* accent în stil Cayman (link color) */
   --go-shadow: 0 10px 28px rgba(0,0,0,.12);
 }
 
+/* bază (ghost): contur discret, fără fundal solid */
 .go-top{
   position: fixed;
   right: clamp(12px, 2.5vw, 20px);
@@ -64,9 +82,9 @@ footer.site-footer *::after {
   width: var(--go-size);
   height: var(--go-size);
   border-radius: 999px;
-  border: 1px solid rgba(30,107,184,.38);
-  background: transparent;
-  color: var(--go-accent);
+  border: 1px solid rgba(30,107,184,.38); /* contur accent Cayman */
+  background: transparent;                /* ghost */
+  color: var(--go-accent);                /* culoarea săgeții */
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -86,14 +104,16 @@ footer.site-footer *::after {
   pointer-events: auto;
 }
 
+/* glass fin pe hover/focus (rămâne discret, în ton Cayman) */
 .go-top:hover,
 .go-top:focus-visible{
-  background: rgba(21,89,153,.06);
+  background: rgba(21,89,153,.06);        /* film subtil pe lumină */
   border-color: rgba(30,107,184,.80);
   box-shadow: 0 12px 30px rgba(0,0,0,.18);
   outline: none;
 }
 
+/* micro feedback tactil */
 .go-top:active{
   transform: translateY(1px) scale(.98);
 }
@@ -103,11 +123,12 @@ footer.site-footer *::after {
   height: 22px;
 }
 
+/* „Frosted glass” când e suportat (mai rafinat, dar tot discret) */
 @supports (backdrop-filter: blur(6px)) or (-webkit-backdrop-filter: blur(6px)){
   .go-top{
     -webkit-backdrop-filter: saturate(150%) blur(6px);
     backdrop-filter: saturate(150%) blur(6px);
-    background: rgba(255,255,255,.06);
+    background: rgba(255,255,255,.06);    /* strat fin de sticlă */
   }
   .go-top:hover,
   .go-top:focus-visible{
@@ -115,6 +136,7 @@ footer.site-footer *::after {
   }
 }
 
+/* dark mode: contrast corect și umbră mai „soft” pe fundal închis */
 @media (prefers-color-scheme: dark){
   .go-top{
     border-color: rgba(160,200,255,.45);
@@ -128,11 +150,13 @@ footer.site-footer *::after {
   }
 }
 
+/* respectă utilizatorii care preferă mai puțină animație */
 @media (prefers-reduced-motion: reduce){
   .go-top{ transition: none; }
 }
+/* ========================================================================= */
 
-/* === Navigation Menu ================================================ */
+/* === Navigation Menu (CSS curat, fără entități HTML) ===================== */
 :root {
   --menu-color:        #1a1a1a;
   --menu-hover-color:  #000000;
