@@ -25,3 +25,83 @@
   margin-top: 4px;
 }
 
+/* ===== Premium Hero + Surface (override peste Cayman) ===================== */
+
+:root{
+  --hero-image: url('/assets/og/og-cover-adi-futura-1200x630.png');
+  --hero-tint-a: rgba(5, 20, 45, .66);
+  --hero-tint-b: rgba(5, 20, 45, .35);
+  --surface-bg: #f6f7fb;
+}
+
+body{
+  background: var(--surface-bg);
+}
+
+.page-header--hero{
+  background:
+    linear-gradient( to bottom right, var(--hero-tint-a), var(--hero-tint-b) ),
+    var(--hero-image) center / cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: clamp(64px, 12vw, 120px) 1rem clamp(28px, 6vw, 48px);
+  border: 0;
+}
+
+.page-header--hero .project-name{
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: .2px;
+  text-shadow: 0 2px 18px rgba(0,0,0,.35);
+  margin: 0 0 .35rem 0;
+}
+
+.page-header--hero .project-tagline{
+  color: rgba(255,255,255,.92);
+  font-weight: 500;
+  text-shadow: 0 1px 14px rgba(0,0,0,.28);
+  margin: 0 auto;
+  max-width: 54ch;
+}
+
+.page-header--slim{
+  background: linear-gradient(90deg, #0d1b2a, #123254);
+  color: #fff;
+  padding: .9rem 1rem;
+  text-align: center;
+  border: 0;
+}
+.page-header--slim .project-name{ color:#fff; margin:.2rem 0; }
+.page-header--slim .project-tagline{ color: rgba(255,255,255,.9); margin:0; }
+
+.main-content{
+  padding-bottom: 48px;
+}
+
+.content-card{
+  max-width: 980px;
+  margin: -42px auto 0;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.06),
+    0 2px 10px rgba(0,0,0,.035);
+  padding: clamp(18px, 2.8vw, 28px);
+}
+
+.content-card h1, .content-card h2, .content-card h3{
+  letter-spacing: .2px;
+}
+.content-card p{
+  line-height: 1.72;
+}
+
+@media (prefers-color-scheme: dark){
+  body{ background: #0b1220; }
+  .content-card{
+    background: #0f172a;
+    color: #e6edf3;
+    box-shadow: 0 14px 30px rgba(0,0,0,.45);
+  }
+  .content-card a{ color: #7cc3ff; }
+}
