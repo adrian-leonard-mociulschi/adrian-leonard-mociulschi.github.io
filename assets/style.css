@@ -308,3 +308,27 @@ html{ scroll-behavior: smooth; }
     margin-top: 15px;
   }
 }
+
+<style>
+  /* Centrează robust toate imaginile, inclusiv cele în <a> */
+  img, a > img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Elimină flotări locale care pot strica alinierea */
+  img[style*="float"] { float: none !important; }
+
+  /* Dacă un părinte este flex și te trage la stânga */
+  .center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;      /* opțional, pe verticală */
+    flex-wrap: wrap;          /* opțional, pentru rânduri multiple */
+    gap: .75rem;              /* opțional, spațiere între imagini */
+  }
+</style>
+
