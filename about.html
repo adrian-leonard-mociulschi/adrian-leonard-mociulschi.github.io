@@ -175,25 +175,41 @@
 <span class="site-footer-credits">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
 </footer>
 <script>
-    // Footer year
-    (function(){
-      var yEl = document.getElementById('year');
-      if (yEl) yEl.textContent = new Date().getFullYear();
-    })();
+  // Footer year
+  (function(){
+    var yEl = document.getElementById('year');
+    if (yEl) yEl.textContent = new Date().getFullYear();
+  })();
 
-    // Go To Top visibility
-    (function(){
-      var btn = document.getElementById('goTop');
-      if(!btn) return;
-      var showAt = 400;
-      function toggle(){
-        var y = window.scrollY || document.documentElement.scrollTop || 0;
-        btn.classList.toggle('visible', y > showAt);
+  // Typewriter effect
+  (function(){
+    var el = document.getElementById('typewriter');
+    var text = el.textContent.trim();
+    el.textContent = '';
+    var i = 0;
+    function type() {
+      if (i < text.length) {
+        el.textContent += text.charAt(i);
+        i++;
+        setTimeout(type, 100);
       }
-      window.addEventListener('scroll', toggle, { passive: true });
-      toggle();
-    })();
-  </script>
+    }
+    type();
+  })();
+
+  // Go To Top visibility
+  (function(){
+    var btn = document.getElementById('goTop');
+    if(!btn) return;
+    var showAt = 400;
+    function toggle(){
+      var y = window.scrollY || document.documentElement.scrollTop || 0;
+      btn.classList.toggle('visible', y > showAt);
+    }
+    window.addEventListener('scroll', toggle, { passive: true });
+    toggle();
+  })();
+</script>
 </body>
 
   <!--
