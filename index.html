@@ -74,7 +74,16 @@
 }
 </script>
   
+  <style>
+#typewriter {
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+</style>
+</head>
 <body>
+  
   <!-- Anchor at the very top -->
   <a id="top"></a>
 
@@ -219,29 +228,40 @@
   </main>
 
   <footer class="site-footer" role="contentinfo">
-    <span class="site-footer-credits">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
+    <span class="site-footer-credits" id="typewriter">
+      © <span id="year"></span> ALgorithM r/Evolution
+    </span>
   </footer>
 
   <script>
-    // 1) Anul din footer
+    // Footer year
     (function(){
       var yEl = document.getElementById('year');
       if (yEl) yEl.textContent = new Date().getFullYear();
     })();
 
-    // 2) Vizibilitate Go To Top
-    (function(){
-      var btn = document.getElementById('goTop');
-      if(!btn) return;
-      var showAt = 400;
-      function toggle(){
-        var y = window.scrollY || document.documentElement.scrollTop || 0;
-        btn.classList.toggle('visible', y > showAt);
+    // Typewriter effect with auto-restart
+    document.addEventListener("DOMContentLoaded", function() {
+      var el = document.getElementById('typewriter');
+      var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
+      var i = 0;
+
+      function type() {
+        if (i <= original.length) {
+          el.textContent = original.substring(0, i);
+          i++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(() => {
+            i = 0;
+            type();
+          }, 4000); // restart after 4 seconds
+        }
       }
-      window.addEventListener('scroll', toggle, { passive: true });
-      toggle();
-    })();
+      type();
+    });
   </script>
+
 </body>
 </html>
 
