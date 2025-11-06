@@ -1,44 +1,22 @@
-// sw.js (root) — v3
-const CACHE_NAME = 'alm-cache-v3';
-const PRECACHE = [
-  '/',
-  '/install.html',
-  '/install.js',
-  '/Favicon-new.png',
-  '/Favicon-new.ico'
-  // nu includem /manifest.json
-];
-
+// sw.js — killer (deploy 1)
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(PRECACHE)));
-  self.skipWaiting(); // activare imediată
+  // activare imediată
+  self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    ).then(() => self.clients.claim())
-  );
+  event.waitUntil((async () => {
+    // 1) curățăm toate cache-urile
+    const keys = await caches.keys();
+    await Promise.all(keys.map((k) => caches.delete(k)));
+
+    // 2) dezinstalăm service worker-ul
+    await self.registration.unregister();
+
+    // 3) reîncărcăm ferestrele controlate, ca să iasă de sub SW
+    const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    clients.forEach((c) => c.navigate(c.url));
+  })());
 });
 
-// manifest: network-first (ca să vezi ultima versiune)
-self.addEventListener('fetch', (event) => {
-  const url = new URL(event.request.url);
-  if (url.pathname === '/manifest.json') {
-    event.respondWith(
-      fetch(event.request)
-        .then(resp => {
-          const copy = resp.clone();
-          caches.open(CACHE_NAME).then(c => c.put(event.request, copy));
-          return resp;
-        })
-        .catch(() => caches.match(event.request))
-    );
-    return;
-  }
-  // default: cache-first
-  event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
-  );
-});
+// fără fetch handler: nu mai interceptăm nimic
