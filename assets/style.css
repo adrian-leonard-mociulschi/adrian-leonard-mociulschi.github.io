@@ -309,67 +309,37 @@ html{ scroll-behavior: smooth; }
   }
 }
 
-<style>
-  /* Centrează robust toate imaginile, inclusiv cele în <a> */
-  img, a > img {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    height: auto;
-    max-width: 100%;
-  }
+/* === Imagini: centrare + dimensiune uniformă === */
+img,
+a > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  float: none; /* neutralizează flotări moștenite */
+}
 
-  /* Elimină flotări locale care pot strica alinierea */
-  img[style*="float"] { float: none !important; }
+/* Container media cu lățime uniformă pentru TOATE imaginile care trebuie egale */
+picture,
+.media {
+  display: block;
+  max-width: 1200px;  /* <- setează o singură valoare (1000/1100/1200px) */
+  margin: 0 auto;     /* centrează containerul */
+}
 
-  /* Dacă un părinte este flex și te trage la stânga */
-  .center-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;      /* opțional, pe verticală */
-    flex-wrap: wrap;          /* opțional, pentru rânduri multiple */
-    gap: .75rem;              /* opțional, spațiere între imagini */
-  }
-</style>
+/* Dacă ai galerii sau containere flex care „trag” conținutul la stânga */
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* opțional, pe verticală */
+  flex-wrap: wrap;     /* opțional, pe rânduri multiple */
+  gap: .75rem;         /* spațiere între imagini */
+}
 
-<!-- Template HTML + CSS pentru imagini centrate, dimensiune uniformă, responsive, cu <picture> (AVIF/WebP + fallback) -->
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Demo imagini centrate uniform</title>
-
-  <style>
-    /* === Setări globale pentru imagini === */
-    img, a > img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 100%;
-      height: auto;
-      /* Anulează flotări moștenite care ar strica centratul */
-      float: none;
-    }
-
-    /* Container media cu lățime uniformă (alege 1000px, 1100px, 1200px etc.) */
-    picture, .media {
-      display: block;
-      max-width: 1000px;      /* <-- modifică aici dacă vrei altă lățime */
-      margin: 0 auto;         /* centrează containerul */
-    }
-
-    /* Dacă un părinte e flex și împinge conținutul la stânga */
-    .center-flex {
-      display: flex;
-      justify-content: center;
-      align-items: center;    /* opțional, pe verticală */
-      flex-wrap: wrap;
-      gap: .75rem;
-    }
-
-    body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; padding: 24px; }
-  </style>
-</head>
-<body>
-
+/* (Opțional) neutralizează clase vechi care pot forța float */
+.alignleft img,
+.alignright img,
+img[style*="float"] {
+  float: none !important;
+}
