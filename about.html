@@ -175,42 +175,32 @@
 <span class="site-footer-credits">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
 </footer>
 <script>
-  // Footer year
-  (function(){
-    var yEl = document.getElementById('year');
-    if (yEl) yEl.textContent = new Date().getFullYear();
-  })();
+   <footer class="site-footer" role="contentinfo">
+    <span class="site-footer-credits">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
+  </footer>
 
-  // Typewriter effect
-  (function(){
-    var el = document.getElementById('typewriter');
-    var text = el.textContent.trim();
-    el.textContent = '';
-    var i = 0;
-    function type() {
-      if (i < text.length) {
-        el.textContent += text.charAt(i);
-        i++;
-        setTimeout(type, 100);
+  <script>
+    // 1) Anul din footer
+    (function(){
+      var yEl = document.getElementById('year');
+      if (yEl) yEl.textContent = new Date().getFullYear();
+    })();
+
+    // 2) Vizibilitate Go To Top
+    (function(){
+      var btn = document.getElementById('goTop');
+      if(!btn) return;
+      var showAt = 400;
+      function toggle(){
+        var y = window.scrollY || document.documentElement.scrollTop || 0;
+        btn.classList.toggle('visible', y > showAt);
       }
-    }
-    type();
-  })();
-
-  // Go To Top visibility
-  (function(){
-    var btn = document.getElementById('goTop');
-    if(!btn) return;
-    var showAt = 400;
-    function toggle(){
-      var y = window.scrollY || document.documentElement.scrollTop || 0;
-      btn.classList.toggle('visible', y > showAt);
-    }
-    window.addEventListener('scroll', toggle, { passive: true });
-    toggle();
-  })();
-</script>
+      window.addEventListener('scroll', toggle, { passive: true });
+      toggle();
+    })();
+  </script>
 </body>
+</html>
 
   <!--
 Carmen de Stirpe Regali — Identitas in Tempore
