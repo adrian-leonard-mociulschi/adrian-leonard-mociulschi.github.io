@@ -192,6 +192,19 @@
       if (yEl) yEl.textContent = new Date().getFullYear();
     })();
 
+    // Go To Top visibility
+    (function(){
+      var btn = document.getElementById('goTop');
+      if(!btn) return;
+      var showAt = 400;
+      function toggle(){
+        var y = window.scrollY || document.documentElement.scrollTop || 0;
+        btn.classList.toggle('visible', y > showAt);
+      }
+      window.addEventListener('scroll', toggle, { passive: true });
+      toggle();
+    })();
+
     // Typewriter effect with auto-restart
     document.addEventListener("DOMContentLoaded", function() {
       var el = document.getElementById('typewriter');
@@ -207,7 +220,7 @@
           setTimeout(() => {
             i = 0;
             type();
-          }, 4000); // restart after 4 seconds
+          }, 3000); // restart after 3 seconds
         }
       }
       type();
