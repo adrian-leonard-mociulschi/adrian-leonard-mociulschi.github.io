@@ -214,40 +214,9 @@
       toggle();
     })();
   </script>
-
-<script>
-(function(){
-  var yEl = document.getElementById('year');
-  if (yEl) yEl.textContent = new Date().getFullYear();
-})();
-
-<script>
-(function(){
-  var yEl = document.getElementById('year');
-  if (yEl) yEl.textContent = new Date().getFullYear();
-})();
-
-document.addEventListener("DOMContentLoaded", function() {
-  var el = document.getElementById('typewriter');
-  var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
-  var i = 0;
-  function type() {
-    if (i <= original.length) {
-      el.innerHTML = original.substring(0, i) + '<span style="display:none">|</span>';
-      i++;
-      setTimeout(type, 100);
-    } else {
-      setTimeout(() => {
-        i = 0;
-        type();
-      }, 3000);
-    }
-  }
-  type();
-});
-</script>
 </body>
 </html>
+
 
   <!--
 Carmen de Stirpe Regali — Identitas in Tempore
