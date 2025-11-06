@@ -79,7 +79,7 @@ img{ max-width:100%; display:block; }
 
 /* ===== Footer ========================================================== */
 .site-footer{ text-align:center; padding: 24px 12px; color:#555; }
-.site-footer-credits{ display:inline-block; border-top:1px solid #ccc; padding-top:10px; margin-top:6px; font-size:.9em; }
+
 
 /* ===== Dark mode (bază) =============================================== */
 @media (prefers-color-scheme: dark){
