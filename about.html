@@ -80,14 +80,7 @@
   font-family: 'Courier New', monospace;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid #333;
   display: inline-block;
-  animation: blinkCursor 0.7s infinite;
-}
-@keyframes blinkCursor {
-  0%, 50% { border-color: #333; }
-  51%, 100% { border-color: transparent; }
-}
 </style>
 </head>
 <body>
@@ -96,7 +89,7 @@
 <a id="top"></a>
 
   <!-- Liquid Go To Top button -->
-<a aria-label="Înapoi sus" class="go-top go-top--liquid" href="#top" id="goTop" lang="ro" title="Înapoi sus">
+<a aria-label="Go up" class="go-top go-top--liquid" href="#top" id="goTop" lang="ro" title="Go up">
 <svg aria-hidden="true" fill="none" focusable="false" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
 <polyline points="18 15 12 9 6 15"></polyline>
 </svg>
@@ -187,29 +180,40 @@
 </main>
   
 <footer class="site-footer" role="contentinfo">
-    <span class="site-footer-credits">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
+    <span class="site-footer-credits" id="typewriter">
+      © <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution
+    </span>
   </footer>
 
   <script>
-    // 1) Anul din footer
+    // Footer year
     (function(){
       var yEl = document.getElementById('year');
       if (yEl) yEl.textContent = new Date().getFullYear();
     })();
 
-    // 2) Vizibilitate Go To Top
-    (function(){
-      var btn = document.getElementById('goTop');
-      if(!btn) return;
-      var showAt = 400;
-      function toggle(){
-        var y = window.scrollY || document.documentElement.scrollTop || 0;
-        btn.classList.toggle('visible', y > showAt);
+    // Typewriter effect with auto-restart
+    document.addEventListener("DOMContentLoaded", function() {
+      var el = document.getElementById('typewriter');
+      var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
+      var i = 0;
+
+      function type() {
+        if (i <= original.length) {
+          el.textContent = original.substring(0, i);
+          i++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(() => {
+            i = 0;
+            type();
+          }, 3000); // restart after 3 seconds
+        }
       }
-      window.addEventListener('scroll', toggle, { passive: true });
-      toggle();
-    })();
+      type();
+    });
   </script>
+
 </body>
 </html>
 
