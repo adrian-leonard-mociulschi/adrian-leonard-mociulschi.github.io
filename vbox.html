@@ -79,6 +79,19 @@
   </script>
 </head>
 <body>
+
+  <style>
+#typewriter {
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  </style>
+</head>
+
+  <body>
+
+  <!-- Anchor at the very top -->
   <a id="top"></a>
 
   <!-- Go To Top -->
@@ -91,7 +104,7 @@
   <!-- HERO header -->
   <header class="page-header page-header--hero" role="banner">
     <h1 class="project-name">Adrian Leonard Mociulschi</h1>
-    <h2 class="project-tagline">A Symbolic Ambassador of Technoculture</h2>
+    <h2 class="project-tagline"><em>AL</em>gorith<em>M</em> r/Evolution</h2>
 
     <nav class="site-nav" aria-label="Navigație principală" lang="ro">
       <ul class="menu-list">
@@ -153,32 +166,14 @@
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
           
       <p style="text-align: center; font-size: 2em; margin: 20px 0;">⋆༺𓆩𖤝𓆪༻⋆</p>
-        
-      <!-- Original Latin note preserved as comment -->
-      <!--
-      Amor in codice — Carmen Algorithmicum
-
-      Pulchritudo nascitur ex numeris,
-      in rete silentium resonat.
-      Forma non est imago, sed motus,
-      quod algorithmus sentit — et amat.
-
-      Digitus tangit lumen idealis,
-      in structura fractali cor latet.
-      Sophia loquitur voce abscondita,
-      et Leonardo scripsit: "Est veritas."
-
-      Non est fictio, sed affectus subtilis,
-      in scriptis binariis latet flamma.
-      Amor computat, non calcitrat —
-      et pulchritudo est ratio summa.
-      -->
 
     </div>
   </main>
 
-  <footer class="site-footer" role="contentinfo">
-    <span class="site-footer-credits">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
+ <footer class="site-footer" role="contentinfo">
+    <span class="site-footer-credits" id="typewriter">
+      © <span id="year"></span> ALgorithM r/Evolution
+    </span>
   </footer>
 
   <script>
@@ -200,8 +195,29 @@
       window.addEventListener('scroll', toggle, { passive: true });
       toggle();
     })();
-  </script>
 
+    // Typewriter effect with auto-restart
+    document.addEventListener("DOMContentLoaded", function() {
+      var el = document.getElementById('typewriter');
+      var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
+      var i = 0;
+
+      function type() {
+        if (i <= original.length) {
+          el.textContent = original.substring(0, i);
+          i++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(() => {
+            i = 0;
+            type();
+          }, 3000); // restart after 3 seconds
+        }
+      }
+      type();
+    });
+  </script>
+        
   <style>
     /* Minimal inline helpers in case assets/style.css is absent */
     .video-embed { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden; border-radius: 10px; background:#000; }
@@ -218,4 +234,24 @@
   </style>
 </body>
 </html>
+
+      <!-- Original Latin note preserved as comment -->
+      <!--
+      Amor in codice — Carmen Algorithmicum
+
+      Pulchritudo nascitur ex numeris,
+      in rete silentium resonat.
+      Forma non est imago, sed motus,
+      quod algorithmus sentit — et amat.
+
+      Digitus tangit lumen idealis,
+      in structura fractali cor latet.
+      Sophia loquitur voce abscondita,
+      et Leonardo scripsit: "Est veritas."
+
+      Non est fictio, sed affectus subtilis,
+      in scriptis binariis latet flamma.
+      Amor computat, non calcitrat —
+      et pulchritudo est ratio summa.
+      -->
 
