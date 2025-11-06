@@ -348,6 +348,12 @@ img[style*="float"] {
   font-family: 'Courier New', monospace;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid #333; /* cursor */
+  border-right: 2px solid #333;
   display: inline-block;
+  animation: blinkCursor 0.7s infinite;
+}
+
+@keyframes blinkCursor {
+  0%, 50% { border-color: #333; }
+  51%, 100% { border-color: transparent; }
 }
