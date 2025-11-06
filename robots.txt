@@ -2,19 +2,16 @@
 
 User-agent: *
 Allow: /
-Disallow: /manifest-si.xml
 Disallow: /si-manifest.html
 
 Sitemap: https://adrian-leonard-mociulschi.github.io/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
-Disallow: /manifest-si.xml
 Disallow: /si-manifest.html
 
 User-agent: Bingbot
 Allow: /
-Disallow: /manifest-si.xml
 Disallow: /si-manifest.html
 
 # Finis codicis: silentium algorithmicum
