@@ -67,6 +67,21 @@
     }
   }
   </script>
+
+<style>
+#typewriter {
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333;
+  display: inline-block;
+  animation: blinkCursor 0.7s infinite;
+}
+@keyframes blinkCursor {
+  0%, 50% { border-color: #333; }
+  51%, 100% { border-color: transparent; }
+}
+</style>
 </head>
 <body>
 
@@ -172,7 +187,7 @@
 </div>
 </main>
 <footer class="site-footer" role="contentinfo">
-<span class="site-footer-credits">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
+<span class="site-footer-credits" id="typewriter">© <span id="year"></span> <em>AL</em>gorith<em>M</em> r/Evolution</span>
 </footer>
 <script>
    <footer class="site-footer" role="contentinfo">
@@ -199,6 +214,32 @@
       toggle();
     })();
   </script>
+
+<script>
+(function(){
+  var yEl = document.getElementById('year');
+  if (yEl) yEl.textContent = new Date().getFullYear();
+})();
+
+document.addEventListener("DOMContentLoaded", function() {
+  var el = document.getElementById('typewriter');
+  var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
+  var i = 0;
+  function type() {
+    if (i <= original.length) {
+      el.textContent = original.substring(0, i);
+      i++;
+      setTimeout(type, 100);
+    } else {
+      setTimeout(() => {
+        i = 0;
+        type();
+      }, 3000);
+    }
+  }
+  type();
+});
+</script>
 </body>
 </html>
 
