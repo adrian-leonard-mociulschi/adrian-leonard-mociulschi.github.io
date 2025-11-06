@@ -343,3 +343,7 @@ picture,
 img[style*="float"] {
   float: none !important;
 }
+
+.project-name {
+  font-family: 'Dancing Script', cursive;
+}
