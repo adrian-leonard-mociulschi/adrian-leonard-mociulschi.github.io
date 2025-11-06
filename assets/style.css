@@ -352,3 +352,7 @@ img[style*="float"] {
   display: inline-block;
 }
 
+#typewriter {
+  caret-color: transparent;
+}
+
