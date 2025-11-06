@@ -223,6 +223,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   var el = document.getElementById('typewriter');
+  el.style.caretColor = 'transparent'; // <- adăugat
   var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
   var i = 0;
   function type() {
