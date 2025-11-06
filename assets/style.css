@@ -343,3 +343,11 @@ picture,
 img[style*="float"] {
   float: none !important;
 }
+
+#typewriter {
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333; /* cursor */
+  display: inline-block;
+}
