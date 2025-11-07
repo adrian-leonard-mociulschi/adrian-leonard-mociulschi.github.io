@@ -1,10 +1,12 @@
 {
   "name": "Adrian Leonard Mociulschi",
   "short_name": "A.L.M.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#ff0000",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "/assets/img/icon-192.png",
@@ -13,10 +15,16 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/Favicon-new.png",
+      "src": "/assets/img/Favicon-new.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/Favicon-new.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ]
 }
