@@ -19,7 +19,7 @@ body{
   line-height: 1.6;
 }
 
-img{ max-width:80%; display:block; }
+img{ max-width:100%; display:block; }
 
 /* ===== Header: HERO (homepage) ======================================== */
 /* Banner animat premium cu gradient cinematic și padding ajustat */
