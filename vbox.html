@@ -63,40 +63,92 @@
   <!-- Structured Data (JSON-LD: CollectionPage with VideoObject entries) -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "V-Box — Symbolic Video Archive",
-    "url": "https://adrian-leonard-mociulschi.github.io/vbox",
-    "hasPart": [
-      {
-        "uploadDate": "2025-10-24T00:00:00+03:00",
-        "description": "Educational clip",
-        "@type": "VideoObject",
-        "name": "Mociulschi's blog teaser",
-        "embedUrl": "https://www.youtube.com/embed/ABazphal8Ug",
-        "contentUrl": "https://www.youtube.com/watch?v=ABazphal8Ug",
-        "thumbnailUrl": ["https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/"
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Adrian Leonard Mociulschi",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/"},
+        {"@type": "ListItem", "position": 2, "name": "V-Box", "item": "https://adrian-leonard-mociulschi.github.io/vbox"}
+      ]
+    },
+
+    {
+      "@type": "CollectionPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page",
+      "url": "https://adrian-leonard-mociulschi.github.io/vbox",
+      "name": "V-Box — Symbolic Video Archive",
+      "description": "A symbolic video archive by Adrian Leonard Mociulschi. Reflections on memory, honor, and digital presence.",
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "inLanguage": "en",
+      "keywords": "Adrian Leonard Mociulschi, symbolic video archive, technoculture, ethical AI, music and technology, cognitive mapping",
+      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs" },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListOrder": "http://schema.org/ItemListOrderDescending",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "url": "https://www.youtube.com/watch?v=ABazphal8Ug", "name": "Mociulschi's blog teaser"},
+          {"@type": "ListItem", "position": 2, "url": "https://www.youtube.com/watch?v=Yz5spfppJM0", "name": "Music and Images"},
+          {"@type": "ListItem", "position": 3, "url": "https://www.youtube.com/watch?v=IvqvLGkN8VY", "name": "Music and Technology"}
+        ]
       },
-      {
-        "uploadDate": "2025-10-24T00:00:00+03:00",
-        "description": "Educational clip",
-        "@type": "VideoObject",
-        "name": "Music and Images",
-        "embedUrl": "https://www.youtube.com/embed/Yz5spfppJM0",
-        "contentUrl": "https://www.youtube.com/watch?v=Yz5spfppJM0",
-        "thumbnailUrl": ["https://i.ytimg.com/vi/Yz5spfppJM0/hqdefault.jpg"]
-      },
-      {
-        "uploadDate": "2025-10-24T00:00:00+03:00",
-        "description": "Educational clip",
-        "@type": "VideoObject",
-        "name": "Music and Technology",
-        "embedUrl": "https://www.youtube.com/embed/IvqvLGkN8VY",
-        "contentUrl": "https://www.youtube.com/watch?v=IvqvLGkN8VY",
-        "thumbnailUrl": ["https://i.ytimg.com/vi/IvqvLGkN8VY/hqdefault.jpg"]
-      }
-    ]
-  }
+      "hasPart": [
+        {
+          "@type": "VideoObject",
+          "name": "Mociulschi's blog teaser",
+          "description": "Educational clip",
+          "uploadDate": "2025-10-24T00:00:00+03:00",
+          "embedUrl": "https://www.youtube.com/embed/ABazphal8Ug",
+          "contentUrl": "https://www.youtube.com/watch?v=ABazphal8Ug",
+          "thumbnailUrl": ["https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"],
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Music and Images",
+          "description": "Educational clip",
+          "uploadDate": "2025-10-24T00:00:00+03:00",
+          "embedUrl": "https://www.youtube.com/embed/Yz5spfppJM0",
+          "contentUrl": "https://www.youtube.com/watch?v=Yz5spfppJM0",
+          "thumbnailUrl": ["https://i.ytimg.com/vi/Yz5spfppJM0/hqdefault.jpg"],
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Music and Technology",
+          "description": "Educational clip",
+          "uploadDate": "2025-10-24T00:00:00+03:00",
+          "embedUrl": "https://www.youtube.com/embed/IvqvLGkN8VY",
+          "contentUrl": "https://www.youtube.com/watch?v=IvqvLGkN8VY",
+          "thumbnailUrl": ["https://i.ytimg.com/vi/IvqvLGkN8VY/hqdefault.jpg"],
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" }
+        }
+      ]
+    }
+  ]
+}
   </script>
 
   <!-- Optional helper style -->
