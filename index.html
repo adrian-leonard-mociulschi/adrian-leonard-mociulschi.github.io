@@ -73,32 +73,57 @@
   <link rel="stylesheet" href="assets/style.css">
 
   <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Adrian Leonard Mociulschi",
-    "description": "A Symbolic Ambassador of Technoculture. A lucid archive at the intersection of culture and code: symbolic ecologies, Web3 visions, and ethical AI.",
-    "url": "https://adrian-leonard-mociulschi.github.io/",
-    "sameAs": [
-      "https://orcid.org/0009-0006-9328-8518",
-      "https://revistacultura.ro/author/adrian-mociulschi/",
-      "https://romanialibera.ro/author/adrian-mociulschi/",
-      "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
-      "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
-      "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
-      "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
-      "https://unmb.academia.edu/AdrianMociulschi",
-      "https://cimro.ro/adrian-mociulschi/",
-      "https://www.unmb.ro/profesor/mociulschi-adrian/"
-    ],
-    "identifier": {
-      "@type": "PropertyValue",
-      "propertyID": "ORCID",
-      "value": "0009-0006-9328-8518"
+ {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+      "name": "Adrian Leonard Mociulschi",
+      "description": "A Symbolic Ambassador of Technoculture. A lucid archive at the intersection of culture and code: symbolic ecologies, Web3 visions, and ethical AI.",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "sameAs": [
+        "https://orcid.org/0009-0006-9328-8518",
+        "https://revistacultura.ro/author/adrian-mociulschi/",
+        "https://romanialibera.ro/author/adrian-mociulschi/",
+        "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
+        "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
+        "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
+        "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
+        "https://unmb.academia.edu/AdrianMociulschi",
+        "https://cimro.ro/adrian-mociulschi/",
+        "https://www.unmb.ro/profesor/mociulschi-adrian/"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0006-9328-8518"
+      }
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Adrian Leonard Mociulschi",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://adrian-leonard-mociulschi.github.io/"
+        }
+      ]
     }
-  }
-  </script>
+  ]
+}
 
   <style>
     #typewriter {
