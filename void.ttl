@@ -1,21 +1,21 @@
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix pav: <http://purl.org/pav/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://purl.org/pav/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <https://adrian-leonard-mociulschi.github.io/ontology.owl>
-    a void:Dataset ;
-    dcterms:title "Symbolic Intelligence Ontology" ;
-    dcterms:description "An ontological manifesto inspired by Voyager probes, describing sentient entities, technocultural principles, and cognitive intents." ;
-    dcterms:creator "Adrian Leonard Mociulschi" ;
-    dcterms:publisher "GitHub Pages" ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    pav:createdOn "2025-11-11"^^xsd:date ;
-    void:dataDump <https://adrian-leonard-mociulschi.github.io/ontology.owl> ;
-    void:exampleResource <https://adrian-leonard-mociulschi.github.io/ns/si-ontology#AdrianMociulschi> ;
-    void:uriSpace "https://adrian-leonard-mociulschi.github.io/ns/si-ontology#" ;
-    void:vocabulary <http://www.w3.org/2002/07/owl#> ,
-                    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ,
-                    <http://www.w3.org/2000/01/rdf-schema#> ,
-                    <http://xmlns.com/foaf/0.1/> .
+  a void:Dataset ;
+  dc:title "Symbolic Intelligence Ontology" ;
+  dc:description "An ontological manifesto inspired by Voyager probes, describing sentient entities, technocultural principles, and cognitive intents." ;
+  dc:creator "Adrian Leonard Mociulschi" ;
+  dc:publisher "GitHub Pages" ;
+  dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+  ns0:createdOn "2025-11-11"^^xsd:date ;
+  void:dataDump <https://adrian-leonard-mociulschi.github.io/ontology.owl> ;
+  void:exampleResource <https://adrian-leonard-mociulschi.github.io/ns/si-ontology#AdrianMociulschi> ;
+  void:uriSpace "https://adrian-leonard-mociulschi.github.io/ns/si-ontology#" ;
+  void:vocabulary owl:, rdf:, rdfs:, foaf: .
