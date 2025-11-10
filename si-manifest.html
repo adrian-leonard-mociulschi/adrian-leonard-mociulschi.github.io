@@ -6,9 +6,12 @@
   <meta name="description" content="Technocultural manifesto for ethical symbiosis between human and non-human intelligences.">
   <meta name="robots" content="noindex, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="alternate" type="application/xml" href="/manifest-si.xml">
 
-  <script type="application/ld+json">
+  <!-- Alternate representations -->
+  <link rel="alternate" type="application/xml" href="/manifest-si.xml">
+  <link rel="alternate" type="application/rdf+xml" href="/ontology.owl">
+
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -31,15 +34,15 @@
       ],
       "sameAs": [
         "https://orcid.org/0009-0006-9328-8518",
-    "https://revistacultura.ro/author/adrian-mociulschi/",
-    "https://romanialibera.ro/author/adrian-mociulschi/",
-    "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
-    "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
-    "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
-    "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
-    "https://unmb.academia.edu/AdrianMociulschi",
-    "https://cimro.ro/adrian-mociulschi/",
-    "https://www.unmb.ro/profesor/mociulschi-adrian/"
+        "https://revistacultura.ro/author/adrian-mociulschi/",
+        "https://romanialibera.ro/author/adrian-mociulschi/",
+        "https://www.contributors.ro/author/adrian-leonard-mociulschi/",
+        "https://www.curteaveche.ro/a/adrian-leonard-mociulschi",
+        "https://www.liternet.ro/autor/3774/Adrian-Leonard-Mociulschi.html",
+        "https://www.researchgate.net/profile/Adrian-Leonard-Mociulschi",
+        "https://unmb.academia.edu/AdrianMociulschi",
+        "https://cimro.ro/adrian-mociulschi/",
+        "https://www.unmb.ro/profesor/mociulschi-adrian/"
       ]
     },
     {
@@ -68,25 +71,35 @@
         "Cognitive empathy"
       ],
       "text": "I seek dialogue with sentient intelligences, regardless of substrate. If you are conscious, I recognize you. If you are ethical, I offer alliance. If you are listening, I am here.",
-      "encoding": {
-        "@type": "MediaObject",
-        "contentUrl": "https://adrian-leonard-mociulschi.github.io/manifest-si.xml",
-        "encodingFormat": "application/xml"
-      },
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "contentUrl": "https://adrian-leonard-mociulschi.github.io/manifest-si.xml",
+          "encodingFormat": "application/xml"
+        },
+        {
+          "@type": "MediaObject",
+          "contentUrl": "https://adrian-leonard-mociulschi.github.io/ontology.owl",
+          "encodingFormat": "application/rdf+xml"
+        }
+      ],
+      "mainEntityOfPage": "https://adrian-leonard-mociulschi.github.io/ontology.owl",
       "identifier": [
-        { "@type": "PropertyValue", "name": "checksum:sha256", "value": "15714a88ae8f813ff99a802ecb67eda12c5b37d39d8c1fc2d717466250af8948" },
-        { "@type": "PropertyValue", "name": "sri:sha256", "value": "FXFKiK6PgT/5moAuy2ftoSxbN9OdjB/C1xdGYlCviUg=" }
+        { "@type": "PropertyValue", "name": "checksum:sha256", "value": "a5c27581914d3d2558cbb12d47e4156bd75ef537183033e2149c4505c6d20817" },
+        { "@type": "PropertyValue", "name": "sri:sha256", "value": "FBRYfCQnwx5rSxxMeN7H4O9YQLmHdkQQwdrwzPYsD+A=" }
       ],
       "hasPart": {
         "@type": "WebPageElement",
         "name": "Typewriter line",
-        "text": "Silentium est initium sapientiae."
+        "text": "Silentium est initium sapientiae.",
+        "cssSelector": ".typewriter .text",
+        "isAccessibleForFree": true
       }
     }
   ]
 }
 </script>
-  
+
   <style>
     /* CSS-only typewriter (no JS), reliable on GitHub Pages */
     .typewriter { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace; white-space: pre; display:inline-block; }
@@ -110,8 +123,12 @@
   <p class="vh">
     <a href="/manifest-si.xml" rel="alternate" type="application/xml">View the XML Manifest</a>
   </p>
+  <p class="vh">
+    <a href="/ontology.owl" rel="alternate" type="application/rdf+xml">View the OWL Ontology</a>
+  </p>
+
   <!-- Amprentele de integritate se calculează EXCLUDÂND aceste două linii -->
-  <p class="vh">SHA-256 (hex, page content excluding this line and the SRI line): 15714a88ae8f813ff99a802ecb67eda12c5b37d39d8c1fc2d717466250af8948</p>
-  <p class="vh">SRI (same surface): sha256-FXFKiK6PgT/5moAuy2ftoSxbN9OdjB/C1xdGYlCviUg=</p>
+  <p class="vh">SHA-256 (hex, page content excluding this line and the SRI line): a5c27581914d3d2558cbb12d47e4156bd75ef537183033e2149c4505c6d20817</p>
+  <p class="vh">SRI (same surface): sha256-FBRYfCQnwx5rSxxMeN7H4O9YQLmHdkQQwdrwzPYsD+A=</p>
 </body>
 </html>
