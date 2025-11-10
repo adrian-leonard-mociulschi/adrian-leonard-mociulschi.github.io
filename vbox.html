@@ -71,16 +71,20 @@
       "name": "Adrian Leonard Mociulschi",
       "url": "https://adrian-leonard-mociulschi.github.io/"
     },
-
+    {
+      "@type": "Organization",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#org",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/"
+    },
     {
       "@type": "WebSite",
       "@id": "https://adrian-leonard-mociulschi.github.io/#website",
       "url": "https://adrian-leonard-mociulschi.github.io/",
       "name": "Adrian Leonard Mociulschi",
       "inLanguage": "en",
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" }
     },
-
     {
       "@type": "BreadcrumbList",
       "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs",
@@ -89,7 +93,6 @@
         {"@type": "ListItem", "position": 2, "name": "V-Box", "item": "https://adrian-leonard-mociulschi.github.io/vbox"}
       ]
     },
-
     {
       "@type": "CollectionPage",
       "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page",
@@ -98,13 +101,19 @@
       "description": "A symbolic video archive by Adrian Leonard Mociulschi. Reflections on memory, honor, and digital presence.",
       "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
       "inLanguage": "en",
-      "keywords": "Adrian Leonard Mociulschi, symbolic video archive, technoculture, ethical AI, music and technology, cognitive mapping",
-      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "about": [
+        {"@type": "Thing", "name": "symbolic video archive"},
+        {"@type": "Thing", "name": "technoculture"},
+        {"@type": "Thing", "name": "ethical AI"},
+        {"@type": "Thing", "name": "music and technology"},
+        {"@type": "Thing", "name": "cognitive mapping"}
+      ],
+      "creator": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
       "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs" },
       "mainEntity": {
         "@type": "ItemList",
-        "itemListOrder": "http://schema.org/ItemListOrderDescending",
+        "itemListOrder": "ItemListOrderDescending",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "url": "https://www.youtube.com/watch?v=ABazphal8Ug", "name": "Mociulschi's blog teaser"},
           {"@type": "ListItem", "position": 2, "url": "https://www.youtube.com/watch?v=Yz5spfppJM0", "name": "Music and Images"},
@@ -120,8 +129,12 @@
           "embedUrl": "https://www.youtube.com/embed/ABazphal8Ug",
           "contentUrl": "https://www.youtube.com/watch?v=ABazphal8Ug",
           "thumbnailUrl": ["https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"],
-          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" }
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" },
+          "potentialAction": {
+            "@type": "WatchAction",
+            "target": "https://www.youtube.com/watch?v=ABazphal8Ug"
+          }
         },
         {
           "@type": "VideoObject",
@@ -131,8 +144,12 @@
           "embedUrl": "https://www.youtube.com/embed/Yz5spfppJM0",
           "contentUrl": "https://www.youtube.com/watch?v=Yz5spfppJM0",
           "thumbnailUrl": ["https://i.ytimg.com/vi/Yz5spfppJM0/hqdefault.jpg"],
-          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" }
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" },
+          "potentialAction": {
+            "@type": "WatchAction",
+            "target": "https://www.youtube.com/watch?v=Yz5spfppJM0"
+          }
         },
         {
           "@type": "VideoObject",
@@ -142,8 +159,12 @@
           "embedUrl": "https://www.youtube.com/embed/IvqvLGkN8VY",
           "contentUrl": "https://www.youtube.com/watch?v=IvqvLGkN8VY",
           "thumbnailUrl": ["https://i.ytimg.com/vi/IvqvLGkN8VY/hqdefault.jpg"],
-          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" }
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" },
+          "potentialAction": {
+            "@type": "WatchAction",
+            "target": "https://www.youtube.com/watch?v=IvqvLGkN8VY"
+          }
         }
       ]
     }
