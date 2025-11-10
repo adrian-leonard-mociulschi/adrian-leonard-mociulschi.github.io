@@ -65,7 +65,7 @@
 
   <!-- Structured Data (JSON-LD: CollectionPage) -->
   <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -112,7 +112,15 @@
         "@id": "https://adrian-leonard-mociulschi.github.io/#website"
       },
       "inLanguage": "ro-RO",
-      "keywords": "Adrian Leonard Mociulschi, eseuri, op-ed, tehnocultură, AI etic, semnificație, România, reflecții culturale",
+      "about": [
+        {"@type": "Thing", "name": "eseuri"},
+        {"@type": "Thing", "name": "op-ed"},
+        {"@type": "Thing", "name": "tehnocultură"},
+        {"@type": "Thing", "name": "AI etic"},
+        {"@type": "Thing", "name": "semnificație"},
+        {"@type": "Thing", "name": "România"},
+        {"@type": "Thing", "name": "reflecții culturale"}
+      ],
       "author": {
         "@id": "https://adrian-leonard-mociulschi.github.io/#person"
       },
