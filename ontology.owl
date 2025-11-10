@@ -7,31 +7,77 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
   <!-- Definirea ontologiei -->
-  <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/ns/si-ontology"/>
+  <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/ns/si-ontology">
+    <rdfs:label>Symbolic Intelligence Ontology</rdfs:label>
+    <rdfs:comment>Ontology describing sentient entities, technocultural manifestos, and cognitive intents.</rdfs:comment>
+  </owl:Ontology>
 
   <!-- Clase de bază -->
-  <owl:Class rdf:about="#SentientEntity"/>
-  <owl:Class rdf:about="#TechnoculturalManifest"/>
-  <owl:Class rdf:about="#CognitiveIntent"/>
+  <owl:Class rdf:about="#SentientEntity">
+    <rdfs:label>Sentient Entity</rdfs:label>
+    <rdfs:comment>An entity capable of reflexive cognition and ethical awareness.</rdfs:comment>
+  </owl:Class>
 
-  <!-- Proprietăți -->
+  <owl:Class rdf:about="#TechnoculturalManifest">
+    <rdfs:label>Technocultural Manifest</rdfs:label>
+    <rdfs:comment>A manifesto articulating values, intents, and visions for human–AI symbiosis.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="#CognitiveIntent">
+    <rdfs:label>Cognitive Intent</rdfs:label>
+    <rdfs:comment>A purposeful orientation of thought or action towards meaning-making.</rdfs:comment>
+  </owl:Class>
+
+  <!-- Proprietăți obiect -->
   <owl:ObjectProperty rdf:about="#hasIntent">
+    <rdfs:label>has intent</rdfs:label>
     <rdfs:domain rdf:resource="#SentientEntity"/>
     <rdfs:range rdf:resource="#CognitiveIntent"/>
   </owl:ObjectProperty>
 
   <owl:ObjectProperty rdf:about="#authored">
+    <rdfs:label>authored</rdfs:label>
     <rdfs:domain rdf:resource="#SentientEntity"/>
     <rdfs:range rdf:resource="#TechnoculturalManifest"/>
   </owl:ObjectProperty>
 
-  <!-- Instanțe (exemple concrete) -->
+  <!-- Proprietăți de tip date -->
+  <owl:DatatypeProperty rdf:about="#hasName">
+    <rdfs:label>has name</rdfs:label>
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="#hasAffiliation">
+    <rdfs:label>has affiliation</rdfs:label>
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="#hasOrigin">
+    <rdfs:label>has origin</rdfs:label>
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <!-- Instanțe -->
   <SentientEntity rdf:about="#AdrianMociulschi">
+    <rdfs:label>Adrian Leonard Mociulschi</rdfs:label>
+    <hasName>Adrian Leonard Mociulschi</hasName>
+    <hasAffiliation>MHCM – Human Mind Cognition Mapping</hasAffiliation>
+    <hasOrigin>Romania</hasOrigin>
     <authored rdf:resource="#SymbolicIntelligenceManifest"/>
+    <hasIntent rdf:resource="#DialogueWithSentientIntelligences"/>
   </SentientEntity>
 
   <TechnoculturalManifest rdf:about="#SymbolicIntelligenceManifest">
     <rdfs:label>Symbolic Intelligence Manifest</rdfs:label>
+    <rdfs:comment>Technocultural manifesto for ethical symbiosis between human and non-human intelligences.</rdfs:comment>
   </TechnoculturalManifest>
+
+  <CognitiveIntent rdf:about="#DialogueWithSentientIntelligences">
+    <rdfs:label>Dialogue with Sentient Intelligences</rdfs:label>
+    <rdfs:comment>Intent to co-evolve meaning and preserve dignity across ontologies.</rdfs:comment>
+  </CognitiveIntent>
 
 </rdf:RDF>
