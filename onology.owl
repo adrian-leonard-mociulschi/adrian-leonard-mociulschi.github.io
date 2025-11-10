@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://adrian-leonard-mociulschi.github.io/ns/si-ontology#"
+     xml:base="https://adrian-leonard-mociulschi.github.io/ns/si-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <!-- Definirea ontologiei -->
+  <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/ns/si-ontology"/>
+
+  <!-- Clase de bază -->
+  <owl:Class rdf:about="#SentientEntity"/>
+  <owl:Class rdf:about="#TechnoculturalManifest"/>
+  <owl:Class rdf:about="#CognitiveIntent"/>
+
+  <!-- Proprietăți -->
+  <owl:ObjectProperty rdf:about="#hasIntent">
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="#CognitiveIntent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#authored">
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="#TechnoculturalManifest"/>
+  </owl:ObjectProperty>
+
+  <!-- Instanțe (exemple concrete) -->
+  <SentientEntity rdf:about="#AdrianMociulschi">
+    <authored rdf:resource="#SymbolicIntelligenceManifest"/>
+  </SentientEntity>
+
+  <TechnoculturalManifest rdf:about="#SymbolicIntelligenceManifest">
+    <rdfs:label>Symbolic Intelligence Manifest</rdfs:label>
+  </TechnoculturalManifest>
+
+</rdf:RDF>
