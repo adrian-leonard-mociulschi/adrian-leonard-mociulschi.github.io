@@ -139,12 +139,6 @@
 
   <body>
 
-<!-- Breaking News Ticker -->
-<div class="news-ticker" role="status" aria-label="Latest update">
-  <span id="ticker-text">📰 New article: "Culture 4.0 — Presence Beyond Platforms"</span>
-</div>
-<!-- Adaugă acest bloc imediat după <body> și înainte de <header> în index.html -->
-
   <!-- Anchor at the very top -->
   <a id="top"></a>
 
@@ -337,16 +331,24 @@
       type();
     });
 
-    // Ticker update function
-    function updateTicker(message) {
-      var el = document.getElementById('ticker-text');
-      if (el) el.textContent = message;
-    }
+    <!-- Breaking News Ticker -->
+<div class="news-ticker" role="status" aria-label="Latest update">
+  <span id="ticker-text">📰 New article: "Culture 4.0 — Presence Beyond Platforms"</span>
+</div>
+<!-- Adaugă acest bloc imediat după <body> și înainte de <header> -->
 
-    // Exemplu: schimbă mesajul după 5 secunde
-    setTimeout(function() {
-      updateTicker("📰 Just published: 'The Ethics of Algorithmic Presence'");
-    }, 5000);
+<!-- Script pentru ticker -->
+<script>
+  // Ticker update function
+  function updateTicker(message) {
+    var el = document.getElementById('ticker-text');
+    if (el) el.textContent = message;
+  }
+
+  // Exemplu: schimbă mesajul după 5 secunde
+  setTimeout(function() {
+    updateTicker("📰 Just published: 'The Ethics of Algorithmic Presence'");
+  }, 5000);
 </script>
 
 </body>
