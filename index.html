@@ -316,7 +316,6 @@
       var el = document.getElementById('typewriter');
       var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
       var i = 0;
-
       function type() {
         if (i <= original.length) {
           el.textContent = original.substring(0, i);
@@ -331,7 +330,18 @@
       }
       type();
     });
-  </script>
+
+    // Ticker update function
+    function updateTicker(message) {
+      var el = document.getElementById('ticker-text');
+      if (el) el.textContent = message;
+    }
+
+    // Exemplu: schimbă mesajul după 5 secunde
+    setTimeout(function() {
+      updateTicker("📰 Just published: 'The Ethics of Algorithmic Presence'");
+    }, 5000);
+</script>
 
 </body>
 </html>
