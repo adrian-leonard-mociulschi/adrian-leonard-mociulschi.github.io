@@ -352,40 +352,39 @@ body {
   margin: 0; /* elimină spațiul alb */
 }
 
-/* === News Tickers (final) === */
-.news-ticker {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
+/* === Ticker FIX: animație forțată === */
+.news-ticker { position: fixed; left: 0; width: 100%; overflow: hidden;
   font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  white-space: nowrap;
-  z-index: 9999;
-  height: 32px;
-}
+  white-space: nowrap; z-index: 9999; height: 32px; }
 
-.ticker-red   { top: 0;  background:#b80000; color:#fff; }
+.ticker-red   { top: 0;    background:#b80000; color:#fff; }
 .ticker-yellow{ top: 32px; background:#ffcc00; color:#000; }
 
-/* împinge headerul sub benzi */
+/* Împinge conținutul sub benzi */
 .page-header--hero, .site-header { margin-top: 64px; }
 
-/* Pista: DOUĂ copii ale textului în HTML */
+/* Pista – DOUĂ copii în HTML */
 .ticker-track{
   display:inline-flex;
   gap:2rem;
   will-change:transform;
-  animation:scrollLoop 12s linear infinite;
+  animation-name: scrollLoop !important;
+  animation-duration: 12s !important;
+  animation-timing-function: linear !important;
+  animation-iteration-count: infinite !important;
+  animation-play-state: running !important;
 }
-.ticker-yellow .ticker-track{ animation-duration:20s; }
 
-/* Animatie: intră din dreapta, iese la stânga */
+/* Galben mai lent */
+.ticker-yellow .ticker-track{ animation-duration: 20s !important; }
+
+/* Animație: intră din dreapta → iese la stânga */
 @keyframes scrollLoop{
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
 
-/* Respectă reduce-motion */
+/* Dezactivează orice „reduce motion” (temporar pentru test) */
 @media (prefers-reduced-motion: reduce){
-  .ticker-track{ animation:none; transform:none; }
+  .ticker-track{ animation: scrollLoop 12s linear infinite !important; }
 }
