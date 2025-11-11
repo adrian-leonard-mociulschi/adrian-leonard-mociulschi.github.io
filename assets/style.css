@@ -386,7 +386,7 @@ body {
   display: inline-flex;
   gap: 2rem;
   will-change: transform;
-  animation: tickerFlow 17s linear infinite;
+  animation: tickerFlow 20s linear infinite;
 }
 
 /* Viteze personalizate */
@@ -395,7 +395,7 @@ body {
 }
 
 .ticker-yellow .ticker-track {
-  animation-duration: 28s;
+  animation-duration: 30s;
 }
 
 /* Keyframes cu nume unic */
