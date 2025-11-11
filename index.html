@@ -354,22 +354,6 @@
     }
     type();
   });
-
-// Update ticker 1 (CNN)
-  function updateTickerRed(message) {
-    var el = document.querySelector('.ticker-red .ticker-track span:first-child');
-    if (el) el.textContent = message;
-  }
-
-  // Update ticker 2 (Bloomberg)
-  function updateTickerYellow(message) {
-    var el = document.querySelector('.ticker-yellow .ticker-track span:first-child');
-    if (el) el.textContent = message;
-  }
-
-  // Exemple
-  setTimeout(() => updateTickerRed("România Liberă: New article — 'Mountain Troops on the Frontline of the Future'"), 5000);
-  setTimeout(() => updateTickerYellow("Contributors: New article — 'Disappearing Aircraft and the Fragility of Progress'"), 8000);
 </script>
 
 </body>
