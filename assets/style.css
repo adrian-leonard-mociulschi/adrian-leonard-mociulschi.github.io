@@ -352,54 +352,30 @@ body {
   margin: 0; /* elimină spațiul alb */
 }
 
-/* === NEWS TICKERS — STABIL === */
-.news-ticker {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  white-space: nowrap;
-  z-index: 9999;
-  height: 32px;
+/* NEWS TICKERS — stabil */
+.news-ticker{ position:fixed; left:0; width:100%; overflow:hidden;
+  font:600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  white-space:nowrap; z-index:9999; height:32px; }
+.ticker-red{ top:0; background:#b80000; color:#fff; }
+.ticker-yellow{ top:32px; background:#ffcc00; color:#000; }
+
+.page-header--hero, .site-header{ margin-top:64px; }
+
+/* Pista animată: NECESITĂ două <span> în HTML */
+.ticker-track{
+  display:inline-flex;
+  gap:2rem;
+  will-change:transform;
+  animation: tickerFlow 17s linear infinite;   /* nume + durată default */
+}
+.ticker-red .ticker-track{ animation-duration:22s; }   /* roșu mai lent */
+.ticker-yellow .ticker-track{ animation-duration:28s; } /* galben și mai lent */
+
+/* Keyframes */
+@keyframes tickerFlow{
+  0%{ transform:translateX(100%); }
+  100%{ transform:translateX(-100%); }
 }
 
-.ticker-red   {
-  top: 0;
-  background: #b80000; /* CNN red */
-  color: #fff;
-}
-
-.ticker-yellow {
-  top: 32px; /* imediat sub roșu */
-  background: #ffcc00; /* Bloomberg yellow */
-  color: #000;
-}
-
-.page-header--hero,
-.site-header {
-  margin-top: 64px;
-}
-
-/* Pista animată (două <span> identice în HTML) */
-.ticker-track {
-  display: inline-flex;
-  gap: 2rem;
-  will-change: transform;
-  animation: tickerFlow 20s linear infinite;
-}
-
-/* Viteze personalizate */
-.ticker-red .ticker-track {
-  animation-duration: 22s;
-}
-
-.ticker-yellow .ticker-track {
-  animation-duration: 30s;
-}
-
-/* Keyframes cu nume unic */
-@keyframes tickerFlow {
-  0%   { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-}
+/* opțional: pauză la hover */
+/* .news-ticker:hover .ticker-track{ animation-play-state:paused; } */
