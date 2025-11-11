@@ -348,12 +348,31 @@ img[style*="float"] {
   font-family: 'Great Vibes', cursive;
 }
 
+body {
+  margin: 0; /* elimină spațiul alb */
+}
+
 .news-ticker {
+  position: fixed;
+  left: 0;
   width: 100%;
   overflow: hidden;
   font-weight: 600;
   font-size: 1rem;
   white-space: nowrap;
+  z-index: 9999;
+}
+
+.ticker-red {
+  top: 0;
+  background: #b80000; /* CNN red */
+  color: #fff;
+}
+
+.ticker-yellow {
+  top: 40px; /* sub prima bandă */
+  background: #ffcc00; /* Bloomberg yellow */
+  color: #000;
 }
 
 .ticker-track {
@@ -361,20 +380,12 @@ img[style*="float"] {
   animation: scrollLoop 12s linear infinite;
 }
 
-.ticker-red .ticker-track {
-  background: #b80000;
-  color: #fff;
-  animation-duration: 12s;
-}
-
 .ticker-yellow .ticker-track {
-  background: #ffcc00;
-  color: #000;
-  animation-duration: 20s;
+  animation-duration: 20s; /* mai lent */
 }
 
 .ticker-track span {
-  padding-right: 2rem; /* spațiu între texte */
+  padding-right: 2rem;
 }
 
 @keyframes scrollLoop {
