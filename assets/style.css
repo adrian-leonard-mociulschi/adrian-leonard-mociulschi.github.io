@@ -374,7 +374,7 @@ body {
   display: inline-flex;
   gap: 2rem;
   will-change: transform;
-  animation: tickerFlow 12s linear infinite;
+  animation: tickerFlow 16s linear infinite;
 }
 .ticker-yellow .ticker-track{ animation-duration: 20s; }
 
