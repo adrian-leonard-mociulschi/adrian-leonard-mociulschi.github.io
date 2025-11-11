@@ -357,16 +357,21 @@
     type();
   });
 
-  // Ticker update function
-  function updateTicker(message) {
-    var el = document.getElementById('ticker-text');
+// Update ticker 1 (CNN)
+  function updateTickerRed(message) {
+    var el = document.querySelector('.ticker-red .ticker-track span:first-child');
     if (el) el.textContent = message;
   }
 
-  // Exemplu: schimbă mesajul după 5 secunde
-  setTimeout(function() {
-    updateTicker("📰 Just published: 'The Ethics of Algorithmic Presence'");
-  }, 5000);
+  // Update ticker 2 (Bloomberg)
+  function updateTickerYellow(message) {
+    var el = document.querySelector('.ticker-yellow .ticker-track span:first-child');
+    if (el) el.textContent = message;
+  }
+
+  // Exemple
+  setTimeout(() => updateTickerRed("📰 RL: Just published 'Tech & Culture'"), 5000);
+  setTimeout(() => updateTickerYellow("📢 Contributors: New Op-Ed on AI Ethics"), 8000);
 </script>
 
 </body>
