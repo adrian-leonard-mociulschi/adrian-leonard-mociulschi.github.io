@@ -381,12 +381,7 @@ body {
   margin-top: 64px;
 }
 
-/* Pista animată (două <span> identice în HTML) */
-.ticker-track {
-  display: inline-flex;
-  gap: 2rem;
-  will-change: transform;
-  animation: tickerFlow 20s linear infinite;
+
 }
 
 /* Viteze personalizate */
