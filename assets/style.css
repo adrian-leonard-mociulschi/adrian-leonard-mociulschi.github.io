@@ -347,3 +347,28 @@ img[style*="float"] {
 .project-name {
   font-family: 'Great Vibes', cursive;
 }
+
+.news-ticker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #b80000; /* CNN red */
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 16px;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.news-ticker span {
+  display: inline-block;
+  white-space: nowrap;
+  animation: tickerMove 12s linear infinite;
+}
+
+@keyframes tickerMove {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
