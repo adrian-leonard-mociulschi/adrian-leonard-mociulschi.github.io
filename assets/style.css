@@ -364,25 +364,47 @@ body {
   height: 32px;
 }
 
-.ticker-red   { top: 0;    background:#b80000; color:#fff; }
-.ticker-yellow{ top: 32px; background:#ffcc00; color:#000; }
+.ticker-red   {
+  top: 0;
+  background: #b80000; /* CNN red */
+  color: #fff;
+}
 
-.page-header--hero, .site-header { margin-top: 64px; }
+.ticker-yellow {
+  top: 32px; /* imediat sub roșu */
+  background: #ffcc00; /* Bloomberg yellow */
+  color: #000;
+}
+
+.page-header--hero,
+.site-header {
+  margin-top: 64px;
+}
 
 /* Pista animată (două <span> identice în HTML) */
-.ticker-track{
+.ticker-track {
   display: inline-flex;
   gap: 2rem;
   will-change: transform;
-  animation: tickerFlow 16s linear infinite;
+  animation: tickerFlow 17s linear infinite;
 }
-.ticker-yellow .ticker-track{ animation-duration: 20s; }
 
-/* Keyframes cu NUME NOU ca să nu fie lovite de override-uri anterioare */
-@keyframes tickerFlow{
+/* Viteze personalizate */
+.ticker-red .ticker-track {
+  animation-duration: 22s;
+}
+
+.ticker-yellow .ticker-track {
+  animation-duration: 28s;
+}
+
+/* Keyframes cu nume unic */
+@keyframes tickerFlow {
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
 
-/* (opțional) pauză la hover */
-.news-ticker:hover .ticker-track { animation-play-state: paused; }
+/* Pauză la hover (opțional) */
+.news-ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
