@@ -352,62 +352,40 @@ body {
   margin: 0; /* elimină spațiul alb */
 }
 
-/* === News Tickers (definitiv) === */
+/* === News Tickers (final) === */
 .news-ticker {
   position: fixed;
   left: 0;
   width: 100%;
   overflow: hidden;
-  font-weight: 600;
-  font-size: 1rem;
+  font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   white-space: nowrap;
   z-index: 9999;
   height: 32px;
-  line-height: 32px;
 }
 
-.ticker-red {
-  top: 0;
-  background: #b80000; /* CNN red */
-  color: #ffffff;
-}
+.ticker-red   { top: 0;  background:#b80000; color:#fff; }
+.ticker-yellow{ top: 32px; background:#ffcc00; color:#000; }
 
-.ticker-yellow {
-  top: 32px; /* imediat sub roșu */
-  background: #ffcc00; /* Bloomberg yellow */
-  color: #000000;
-}
+/* împinge headerul sub benzi */
+.page-header--hero, .site-header { margin-top: 64px; }
 
-/* împinge conținutul paginii sub benzi */
-.page-header--hero,
-.site-header {
-  margin-top: 64px;
+/* Pista: DOUĂ copii ale textului în HTML */
+.ticker-track{
+  display:inline-flex;
+  gap:2rem;
+  will-change:transform;
+  animation:scrollLoop 12s linear infinite;
 }
+.ticker-yellow .ticker-track{ animation-duration:20s; }
 
-/* Pista animată – conține două copii ale textului (vezi HTML) */
-.ticker-track {
-  display: inline-flex;
-  gap: 2rem;                 /* spațiu între copii */
-  will-change: transform;
-  animation: scrollLoop 12s linear infinite;
-}
-
-.ticker-yellow .ticker-track {
-  animation-duration: 20s;   /* banda galbenă mai lentă */
-}
-
-/* dacă preferi, poți elimina padding-ul; gap e suficient */
-.ticker-track span {
-  padding-right: 2rem;
-}
-
-/* Animație: intră din dreapta, iese complet la stânga – buclă continuă */
-@keyframes scrollLoop {
+/* Animatie: intră din dreapta, iese la stânga */
+@keyframes scrollLoop{
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
 
-/* Respectă preferința utilizatorilor de a reduce animațiile */
-@media (prefers-reduced-motion: reduce) {
-  .ticker-track { animation: none; transform: translateX(0); }
+/* Respectă reduce-motion */
+@media (prefers-reduced-motion: reduce){
+  .ticker-track{ animation:none; transform:none; }
 }
