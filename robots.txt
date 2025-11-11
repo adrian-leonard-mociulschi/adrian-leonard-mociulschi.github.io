@@ -2,7 +2,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /si-manifest.html
 Disallow: /blog.md
 Disallow: /editoriale.json
 
@@ -10,13 +9,11 @@ Sitemap: https://adrian-leonard-mociulschi.github.io/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
-Disallow: /si-manifest.html
 Disallow: /blog.md
 Disallow: /editoriale.json
 
 User-agent: Bingbot
 Allow: /
-Disallow: /si-manifest.html
 Disallow: /blog.md
 Disallow: /editoriale.json
 
