@@ -352,7 +352,7 @@ body {
   margin: 0; /* elimină spațiul alb */
 }
 
-/* === News Tickers (final, curat) === */
+/* === NEWS TICKERS — STABIL === */
 .news-ticker {
   position: fixed;
   left: 0;
@@ -369,20 +369,20 @@ body {
 
 .page-header--hero, .site-header { margin-top: 64px; }
 
-.ticker-track {
+/* Pista animată (două <span> identice în HTML) */
+.ticker-track{
   display: inline-flex;
   gap: 2rem;
   will-change: transform;
-  animation: scrollLoop 12s linear infinite;
+  animation: tickerFlow 12s linear infinite;
 }
-.ticker-yellow .ticker-track { animation-duration: 20s; }
+.ticker-yellow .ticker-track{ animation-duration: 20s; }
 
-@keyframes scrollLoop {
+/* Keyframes cu NUME NOU ca să nu fie lovite de override-uri anterioare */
+@keyframes tickerFlow{
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
 
-/* Respectă preferința utilizatorilor (accesibilitate) */
-@media (prefers-reduced-motion: reduce){
-  .ticker-track { animation: none; transform: none; }
-}
+/* (opțional) pauză la hover */
+.news-ticker:hover .ticker-track { animation-play-state: paused; }
