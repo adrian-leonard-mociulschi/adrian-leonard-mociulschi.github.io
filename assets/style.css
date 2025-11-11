@@ -379,3 +379,40 @@ body {
 
 /* opțional: pauză la hover */
 /* .news-ticker:hover .ticker-track{ animation-play-state:paused; } */
+
+.footer-seal {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.seal-svg {
+  width: 140px;
+  height: 140px;
+  animation: rotateSeal 18s linear infinite;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,.25));
+}
+
+.seal-ring {
+  fill: none;
+  stroke: url(#gradient);
+  stroke-width: 4;
+}
+
+.seal-text {
+  font-size: 7px;
+  font-family: "Inter", sans-serif;
+  fill: #10b981;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@keyframes rotateSeal {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Gradient cinematic */
+.seal-svg defs {
+  content: '';
+}
