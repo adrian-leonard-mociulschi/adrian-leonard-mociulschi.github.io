@@ -356,28 +356,28 @@ img[style*="float"] {
   white-space: nowrap;
 }
 
-.ticker-red {
-  background: #b80000; /* CNN red */
+.ticker-track {
+  display: inline-flex;
+  animation: scrollLoop 12s linear infinite;
+}
+
+.ticker-red .ticker-track {
+  background: #b80000;
   color: #fff;
-  animation: tickerMoveRed 12s linear infinite;
+  animation-duration: 12s;
 }
 
-.ticker-yellow {
-  background: #ffcc00; /* Bloomberg yellow */
+.ticker-yellow .ticker-track {
+  background: #ffcc00;
   color: #000;
-  animation: tickerMoveYellow 20s linear infinite; /* mai lent */
+  animation-duration: 20s;
 }
 
-.news-ticker span {
-  display: inline-block;
+.ticker-track span {
+  padding-right: 2rem; /* spațiu între texte */
 }
 
-@keyframes tickerMoveRed {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-}
-
-@keyframes tickerMoveYellow {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+@keyframes scrollLoop {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
