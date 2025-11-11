@@ -269,14 +269,24 @@
 
     <footer class="site-footer">
   <div class="footer-seal">
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="seal-svg">
-      <circle cx="100" cy="100" r="90" class="seal-ring"/>
-      <text x="100" y="100" text-anchor="middle" dominant-baseline="middle" class="seal-text">
-        Ethical AI • Transparent Algorithms • Posthuman Ecology
+    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="seal-svg">
+      <defs>
+        <linearGradient id="sealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#10b981"/>
+          <stop offset="50%" stop-color="#1e6bb8"/>
+          <stop offset="100%" stop-color="#10b981"/>
+        </linearGradient>
+        <path id="circlePath" d="M150,150 m-120,0 a120,120 0 1,1 240,0 a120,120 0 1,1 -240,0"/>
+      </defs>
+      <circle cx="150" cy="150" r="120" stroke="url(#sealGradient)" stroke-width="4" fill="none"/>
+      <text class="seal-text">
+        #circlePath
+          Ethical AI • Transparent Algorithms • Posthuman Ecology
+        </textPath>
       </text>
     </svg>
   </div>
-  <p>© ALgorithM r/Evolution • A.L.M. ⚛ ORCID iD: 
+  <p>© ALgorithM r/Evolution • A.L.M. ⚛ ORCID iD:
     https://orcid.org/0009-0006-9328-85180009-0006-9328-8518</a>
   </p>
 </footer>
