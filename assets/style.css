@@ -403,8 +403,3 @@ body {
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
-
-/* Pauză la hover (opțional) */
-.news-ticker:hover .ticker-track {
-  animation-play-state: paused;
-}
