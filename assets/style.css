@@ -361,6 +361,8 @@ body {
   font-size: 1rem;
   white-space: nowrap;
   z-index: 9999;
+  height: 32px;
+  line-height: 32px;
 }
 
 .ticker-red {
@@ -370,9 +372,13 @@ body {
 }
 
 .ticker-yellow {
-  top: 40px; /* sub prima bandă */
+  top: 32px; /* exact sub prima bandă */
   background: #ffcc00; /* Bloomberg yellow */
   color: #000;
+}
+
+.page-header--hero {
+  margin-top: 64px; /* împinge header-ul sub benzi */
 }
 
 .ticker-track {
@@ -381,7 +387,7 @@ body {
 }
 
 .ticker-yellow .ticker-track {
-  animation-duration: 20s; /* mai lent */
+  animation-duration: 20s;
 }
 
 .ticker-track span {
