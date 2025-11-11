@@ -383,17 +383,21 @@ body {
 
 .ticker-track {
   display: inline-flex;
+  gap: 2rem;                 /* spațiu între copii (sau păstrezi padding-right pe span) */
+  will-change: transform;    /* ajută la performanță */
   animation: scrollLoop 12s linear infinite;
 }
 
 .ticker-yellow .ticker-track {
-  animation-duration: 20s;
+  animation-duration: 20s;   /* banda galbenă mai lentă */
 }
 
+/* poți păstra dacă nu folosești gap */
 .ticker-track span {
   padding-right: 2rem;
 }
 
+/* PORNIRE DIN DREAPTA → IEȘIRE COMPLETĂ LA STÂNGA */
 @keyframes scrollLoop {
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
