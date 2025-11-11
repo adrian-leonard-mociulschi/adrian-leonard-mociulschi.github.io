@@ -352,6 +352,7 @@ body {
   margin: 0; /* elimină spațiul alb */
 }
 
+/* === News Tickers (definitiv) === */
 .news-ticker {
   position: fixed;
   left: 0;
@@ -368,23 +369,26 @@ body {
 .ticker-red {
   top: 0;
   background: #b80000; /* CNN red */
-  color: #fff;
+  color: #ffffff;
 }
 
 .ticker-yellow {
-  top: 32px; /* exact sub prima bandă */
+  top: 32px; /* imediat sub roșu */
   background: #ffcc00; /* Bloomberg yellow */
-  color: #000;
+  color: #000000;
 }
 
-.page-header--hero {
-  margin-top: 64px; /* împinge header-ul sub benzi */
+/* împinge conținutul paginii sub benzi */
+.page-header--hero,
+.site-header {
+  margin-top: 64px;
 }
 
+/* Pista animată – conține două copii ale textului (vezi HTML) */
 .ticker-track {
   display: inline-flex;
-  gap: 2rem;                 /* spațiu între copii (sau păstrezi padding-right pe span) */
-  will-change: transform;    /* ajută la performanță */
+  gap: 2rem;                 /* spațiu între copii */
+  will-change: transform;
   animation: scrollLoop 12s linear infinite;
 }
 
@@ -392,13 +396,18 @@ body {
   animation-duration: 20s;   /* banda galbenă mai lentă */
 }
 
-/* poți păstra dacă nu folosești gap */
+/* dacă preferi, poți elimina padding-ul; gap e suficient */
 .ticker-track span {
   padding-right: 2rem;
 }
 
-/* PORNIRE DIN DREAPTA → IEȘIRE COMPLETĂ LA STÂNGA */
+/* Animație: intră din dreapta, iese complet la stânga – buclă continuă */
 @keyframes scrollLoop {
   0%   { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
+}
+
+/* Respectă preferința utilizatorilor de a reduce animațiile */
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; transform: translateX(0); }
 }
