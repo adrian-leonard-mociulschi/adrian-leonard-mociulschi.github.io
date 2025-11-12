@@ -4,6 +4,7 @@ User-agent: *
 Allow: /
 Disallow: /blog.md
 Disallow: /editoriale.json
+Disallow: /arhiva.html
 
 Sitemap: https://adrian-leonard-mociulschi.github.io/sitemap.xml
 
@@ -11,10 +12,12 @@ User-agent: Googlebot
 Allow: /
 Disallow: /blog.md
 Disallow: /editoriale.json
+Disallow: /arhiva.html
 
 User-agent: Bingbot
 Allow: /
 Disallow: /blog.md
 Disallow: /editoriale.json
+Disallow: /arhiva.html
 
 # Finis codicis: silentium algorithmicum
