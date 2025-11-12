@@ -296,6 +296,19 @@
           
           // Typewriter effect
           document.addEventListener("DOMContentLoaded", function() { var el = document.getElementById('typewriter'); var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution"; var i = 0; function type() { if (i <= original.length) { el.textContent = original.substring(0, i); i++; setTimeout(type, 100); } else { setTimeout(() => { i = 0; type(); }, 3000); } } type(); });
+      
+       // Go To Top visibility
+        (function(){
+        var btn = document.getElementById('goTop');
+        if(!btn) return;
+        var showAt = 400;
+        function toggle(){
+         var y = window.scrollY || document.documentElement.scrollTop || 0;
+        btn.classList.toggle('visible', y > showAt);
+        }
+        window.addEventListener('scroll', toggle, { passive: true });
+        toggle();
+        })();
         </script>
   </body>
 
