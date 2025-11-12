@@ -642,12 +642,29 @@
     </div>
   </main>
 
-  <footer class="site-footer" role="contentinfo">
-    <span class="site-footer-credits" id="typewriter">
-      © <span id="year"></span> ALgorithM r/Evolution
-    </span>
-  </footer>
-
+  <footer class="site-footer">
+  <div class="footer-seal">
+    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="seal-svg">
+      <defs>
+        <linearGradient id="sealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#10b981">
+            <animate attributeName="stop-color" values="#10b981;#1e6bb8;#10b981" dur="6s" repeatCount="indefinite"/>
+          </stop>
+          <stop offset="100%" stop-color="#1e6bb8">
+            <animate attributeName="stop-color" values="#1e6bb8;#10b981;#1e6bb8" dur="6s" repeatCount="indefinite"/>
+          </stop>
+        </linearGradient>
+      </defs>
+      <circle cx="150" cy="150" r="120" stroke="url(#sealGradient)" stroke-width="6" fill="none"/>
+      <text x="150" y="150" text-anchor="middle" dominant-baseline="middle" class="seal-text">
+        DEUS EX MACHINA
+      </text>
+    </svg>
+  </div>
+  <p><em>AL</em>gorith<em>M</em> r/Evolution
+  </p>
+</footer>
+    
   <script>
     // Footer year
     (function(){
