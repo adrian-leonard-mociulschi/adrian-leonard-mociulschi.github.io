@@ -256,6 +256,21 @@
           <em>Music and Technology</em> — Explore how technology transforms music—from digital instruments to AI-driven creativity.
         </div>
 
+        <script>
+          // Go To Top visibility
+  (function(){
+    var btn = document.getElementById('goTop');
+    if(!btn) return;
+    var showAt = 400;
+    function toggle(){
+      var y = window.scrollY || document.documentElement.scrollTop || 0;
+      btn.classList.toggle('visible', y > showAt);
+    }
+    window.addEventListener('scroll', toggle, { passive: true });
+    toggle();
+  })();
+</script>
+        
         <style>
           .video-wrap { margin: 1.25rem 0 1.75rem; }
         </style>
@@ -286,22 +301,6 @@
   <p><em>AL</em>gorith<em>M</em> r/Evolution
   </p>
 </footer>
- 
-<!-- Scripts and styles moved inside body -->
-        <script>
-  // Go To Top visibility
-  (function(){
-    var btn = document.getElementById('goTop');
-    if(!btn) return;
-    var showAt = 400;
-    function toggle(){
-      var y = window.scrollY || document.documentElement.scrollTop || 0;
-      btn.classList.toggle('visible', y > showAt);
-    }
-    window.addEventListener('scroll', toggle, { passive: true });
-    toggle();
-  })();
-</script>
 
 </html>
 
