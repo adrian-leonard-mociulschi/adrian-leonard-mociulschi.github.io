@@ -380,19 +380,19 @@ body {
 /* opțional: pauză la hover */
 /* .news-ticker:hover .ticker-track{ animation-play-state:paused; } */
 
-/* === Footer seal — DESKTOP ================================================= */
+/* === Footer seal — DESKTOP =============================================== */
 .footer-seal {
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
-  /* Efect de sticlă pe desktop: ok, clar pe ecrane mari */
   -webkit-backdrop-filter: blur(14px) saturate(160%);
   backdrop-filter: blur(14px) saturate(160%);
 }
 
+/* SVG-ul */
 .seal-svg {
-  width: 180px;
-  height: 180px;
+  width: 82%;
+  height: auto;
   animation: rotateSeal 24s linear infinite;
   filter: drop-shadow(0 6px 18px rgba(0,255,255,.35));
 }
@@ -401,7 +401,7 @@ body {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  fill: #e0f7fa;                /* deschis pe fundalul închis de pe desktop */
+  fill: #e0f7fa;
   text-transform: uppercase;
   letter-spacing: 2px;
   filter: drop-shadow(0 0 8px rgba(16,185,129,.9));
@@ -410,30 +410,39 @@ body {
 
 /* Animații */
 @keyframes pulseGlow {
-  0%, 100% { filter: drop-shadow(0 0 8px rgba(16,185,129,.9)); }
-  50%      { filter: drop-shadow(0 0 14px rgba(30,107,184,1)); }
+  0%,100% { filter: drop-shadow(0 0 8px rgba(16,185,129,.9)); }
+  50%     { filter: drop-shadow(0 0 14px rgba(30,107,184,1)); }
 }
-
 @keyframes rotateSeal {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
 
-/* === MOBILE FIX global: claritate + contrast consistent ==================== */
+/* === Wrapper glass — responsive ========================================== */
+.seal-glass {
+  width: clamp(140px, 36vw, 200px);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  backdrop-filter: saturate(160%) blur(10px);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(15,23,42,.45), rgba(15,23,42,.25) 70%, rgba(15,23,42,0) 100%);
+  border: 1px solid rgba(255,255,255,.28);
+  box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+/* === Mobil: scoatem blur-ul mare, păstrăm doar cercul ==================== */
 @media (max-width: 640px) {
   .footer-seal {
-    /* Scoatem blur-ul care “înmoaie” pe mobil și dăm un fundal mai închis
-       ca textul să fie lizibil indiferent ce este dedesubt (inclusiv pe V-Box) */
     -webkit-backdrop-filter: none !important;
     backdrop-filter: none !important;
-    background: rgba(15,23,42,0.55);
+    background: transparent !important;
   }
   .seal-svg {
-    /* umbră mai “ieftină” pe mobil, fără glow cyan */
-    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.18));
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,.18));
   }
   .seal-text {
-    /* culoare mai vizibilă pe fond închis + fără glow care topește conturul */
     fill: #e6f3ff;
     filter: none;
     text-shadow: 0 1px 0 rgba(0,0,0,.35);
