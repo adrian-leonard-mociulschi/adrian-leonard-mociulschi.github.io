@@ -324,7 +324,6 @@
 </footer>
 
 <script>
-
   // Go To Top visibility
   (function(){
     var btn = document.getElementById('goTop');
@@ -337,23 +336,6 @@
     window.addEventListener('scroll', toggle, { passive: true });
     toggle();
   })();
-
-  // Typewriter effect
-  document.addEventListener("DOMContentLoaded", function() {
-    var el = document.getElementById('typewriter');
-    var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
-    var i = 0;
-    function type() {
-      if (i <= original.length) {
-        el.textContent = original.substring(0, i);
-        i++;
-        setTimeout(type, 100);
-      } else {
-        setTimeout(() => { i = 0; type(); }, 3000);
-      }
-    }
-    type();
-  });
 </script>
 
 </body>
