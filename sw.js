@@ -1,7 +1,8 @@
-const CACHE_NAME = 'adi-site-cache-v3';
+// sw.js — Adrian
+const CACHE_NAME = 'adi-site-cache-v4'; // bump când faci modificări
 const PRECACHE_URLS = [
   '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html',
-  // NU mai include /assets/style.css aici
+  // NU include /assets/style.css aici
   '/assets/img/Favicon-new.png',
   '/assets/img/Favicon-new.svg',
   '/assets/img/Favicon-new.ico',
@@ -33,8 +34,11 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 2) CSS: network-first (ca să vezi imediat modificările)
-  if (event.request.destination === 'style') {
+  // 2) CSS: network-first (vezi imediat modificările)
+  if (
+    event.request.destination === 'style' ||
+    event.request.url.endsWith('.css')
+  ) {
     event.respondWith((async () => {
       try {
         const net = await fetch(event.request, { cache: 'no-store' });
@@ -49,7 +53,24 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 3) Restul (imagini, svg, ico): cache-first
+  // 3) Imagini/SVG/ICO: stale-while-revalidate (nu rămâi cu asset-uri vechi)
+  if (
+    event.request.destination === 'image' ||
+    /\.(png|jpe?g|gif|webp|svg|ico)$/i.test(new URL(event.request.url).pathname)
+  ) {
+    event.respondWith((async () => {
+      const cache = await caches.open(CACHE_NAME);
+      const cached = await cache.match(event.request);
+      const networkPromise = fetch(event.request).then(resp => {
+        cache.put(event.request, resp.clone());
+        return resp;
+      }).catch(() => null);
+      return cached || (await networkPromise) || fetch(event.request);
+    })());
+    return;
+  }
+
+  // 4) Restul: cache-first simplu
   event.respondWith(
     caches.match(event.request).then(resp => resp || fetch(event.request))
   );
