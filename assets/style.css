@@ -414,3 +414,14 @@ body {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+/* === Mobile fix: remove blur from footer for clarity === */
+@media (max-width: 640px) {
+  .footer-seal {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background: rgba(255,255,255,0.08);
+  }
+  .seal-svg {
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.18));
+  }
+}
