@@ -700,6 +700,20 @@ permalink: /blog
 }
 </script>
 
+<footer class="site-footer" role="contentinfo">
+    <span class="site-footer-credits" id="typewriter">
+      © <span id="year"></span> ALgorithM r/Evolution
+    </span>
+  </footer>
+
+<script>
+  // Footer year
+  (function(){
+    var yEl = document.getElementById('year');
+    if (yEl) yEl.textContent = new Date().getFullYear();
+  })();
+</script>
+
 <!--
 Scriptum Digitale — Carmen de Communicatio
 
