@@ -23,7 +23,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://adrian-leonard-mociulschi.github.io/writings">
 
-  <!-- Others -->
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Writings — Adrian Leonard Mociulschi">
   <meta name="twitter:description" content="Curated writings by Adrian Leonard Mociulschi — essays, op-eds, and interdisciplinary reflections on technoculture.">
@@ -55,13 +55,24 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+  <!-- Styles -->  
+  <link rel="stylesheet" href="/assets/style.css?v=20251112-5">  
+
+<!-- Service Worker Registration -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').catch(err => {
+        console.error('SW registration failed:', err);
+      });
+    });
+  }
+</script>
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- Styles -->  
-  <link rel="stylesheet" href="/assets/style.css?v=20251112-4">   
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet"> 
 
   <!-- RSS autodiscovery -->
   <link rel="alternate" type="application/rss+xml" title="Adrian Leonard Mociulschi RSS" href="/feed.xml">
