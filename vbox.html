@@ -257,19 +257,46 @@
         </div>
 
         <script>
-          // Go To Top visibility
-  (function(){
-    var btn = document.getElementById('goTop');
-    if(!btn) return;
-    var showAt = 400;
-    function toggle(){
-      var y = window.scrollY || document.documentElement.scrollTop || 0;
-      btn.classList.toggle('visible', y > showAt);
-    }
-    window.addEventListener('scroll', toggle, { passive: true });
-    toggle();
-  })();
-</script>
+    // Footer year
+    (function(){
+      var yEl = document.getElementById('year');
+      if (yEl) yEl.textContent = new Date().getFullYear();
+    })();
+
+    // Go To Top visibility
+    (function(){
+      var btn = document.getElementById('goTop');
+      if(!btn) return;
+      var showAt = 400;
+      function toggle(){
+        var y = window.scrollY || document.documentElement.scrollTop || 0;
+        btn.classList.toggle('visible', y > showAt);
+      }
+      window.addEventListener('scroll', toggle, { passive: true });
+      toggle();
+    })();
+
+    // Typewriter effect with auto-restart
+    document.addEventListener("DOMContentLoaded", function() {
+      var el = document.getElementById('typewriter');
+      var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
+      var i = 0;
+
+      function type() {
+        if (i <= original.length) {
+          el.textContent = original.substring(0, i);
+          i++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(() => {
+            i = 0;
+            type();
+          }, 3000); // restart after 3 seconds
+        }
+      }
+      type();
+    });
+  </script>
         
         <style>
           .video-wrap { margin: 1.25rem 0 1.75rem; }
