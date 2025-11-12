@@ -139,6 +139,41 @@
   <p class="vh">
     <a href="void.rdf">VoID description (RDF/XML)</a>
   </p>
+
+  <footer class="site-footer" role="contentinfo">
+    <span class="site-footer-credits" id="typewriter">
+      © <span id="year"></span> ALgorithM r/Evolution
+    </span>
+  </footer>
+
+  <script>
+    // Footer year
+    (function(){
+      var yEl = document.getElementById('year');
+      if (yEl) yEl.textContent = new Date().getFullYear();
+    })();
+
+    // Typewriter effect with auto-restart
+    document.addEventListener("DOMContentLoaded", function() {
+      var el = document.getElementById('typewriter');
+      var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution";
+      var i = 0;
+
+      function type() {
+        if (i <= original.length) {
+          el.textContent = original.substring(0, i);
+          i++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(() => {
+            i = 0;
+            type();
+          }, 3000); // restart after 3 seconds
+        }
+      }
+      type();
+    });
+  </script>
   
   <!-- Amprentele de integritate se calculează EXCLUDÂND aceste două linii -->
   <p class="vh">SHA-256 (hex, page content excluding this line and the SRI line): 17960787685aaf1bdd438de2047b149e7ba44c7772a626074dc5dd5cb142eeea</p>
