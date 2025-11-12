@@ -1,5 +1,5 @@
 // sw.js — Adrian
-const CACHE_NAME = 'adi-site-cache-v5'; // bump când faci modificări
+const CACHE_NAME = 'adi-site-cache-v6'; // bump când faci modificări
 const PRECACHE_URLS = [
   '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html',
   // NU include /assets/style.css aici
