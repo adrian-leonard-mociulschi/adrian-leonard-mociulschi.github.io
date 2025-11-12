@@ -395,11 +395,12 @@ body {
 }
 
 .seal-text {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Inter", sans-serif;
+  font-weight: 600;
   fill: #e0f7fa;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   filter: drop-shadow(0 0 8px rgba(16,185,129,.9));
   animation: pulseGlow 3s ease-in-out infinite;
 }
@@ -408,7 +409,6 @@ body {
   0%,100% { filter: drop-shadow(0 0 8px rgba(16,185,129,.9)); }
   50% { filter: drop-shadow(0 0 14px rgba(30,107,184,1)); }
 }
-
 
 @keyframes rotateSeal {
   from { transform: rotate(0deg); }
