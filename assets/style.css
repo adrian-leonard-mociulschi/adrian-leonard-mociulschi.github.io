@@ -22,7 +22,7 @@ body{
 img{ max-width:100%; display:block; }
 
 /* ===== Header: HERO (homepage) ======================================== */
-/* Banner animat premium cu gradient cinematic și padding ajustat */
+/* Premium animated banner with cinematic gradient and adjusted padding. */
 .page-header--hero {
   background: linear-gradient(270deg, #0f2027, #203a43, #2c5364, #1b3c59, #0f2027);
   background-size: 1000% 1000%;
@@ -80,8 +80,7 @@ img{ max-width:100%; display:block; }
 /* ===== Footer ========================================================== */
 .site-footer{ text-align:center; padding: 24px 12px; color:#555; }
 
-
-/* ===== Dark mode (bază) =============================================== */
+/* ===== Dark mode (base) =============================================== */
 @media (prefers-color-scheme: dark){
   body{ background:#0b1220; color:#e6edf3; }
   .content-card{ background:#0f172a; color:#e6edf3; box-shadow: 0 14px 30px rgba(0,0,0,.45); }
@@ -91,7 +90,7 @@ img{ max-width:100%; display:block; }
 }
 
 /* ===== Translucent "liquid glass" card ================================ */
-/* Adaugă acest bloc la finalul fișierului pentru a suprascrie regulile anterioare. */
+/* Add this block to the end of the file to override the previous rules. */
 .content-card{
   background: rgba(255,255,255,.14);
   border: 1px solid rgba(255,255,255,.28);
@@ -103,7 +102,7 @@ img{ max-width:100%; display:block; }
   overflow: hidden;
 }
 
-/* Stratul animat cu pete fluide (blob-uri) */
+/* Animated layer with fluid spots (blobs). */
 .content-card::before{
   content: "";
   position: absolute;
@@ -119,7 +118,7 @@ img{ max-width:100%; display:block; }
   pointer-events: none;
 }
 
-/* Reflex de sticlă fin peste card */
+/* Fine glass reflection on card. */
 .content-card::after{
   content: "";
   position: absolute;
@@ -136,7 +135,7 @@ img{ max-width:100%; display:block; }
   100% { transform: translate3d(-1%,  3%, 0) rotate(-6deg)  scale(1.01); }
 }
 
-/* Dark mode – sticlă pe fundal închis */
+/* Dark mode: glass on a dark background. */
 @media (prefers-color-scheme: dark){
   .content-card{
     background: rgba(15,23,42,.55);
@@ -146,21 +145,21 @@ img{ max-width:100%; display:block; }
   .content-card::before{ filter: blur(22px) saturate(140%); opacity: .85; }
 }
 
-/* Fallback dacă browserul nu suportă backdrop-filter */
+/* Fallback option in case the browser does not support the backdrop-filter. */
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
   .content-card{ background: rgba(255,255,255,.92); }
 }
 
 /* ===== Cayman-style GREEN surface background (full page) ============== */
-/* Rescrie --surface-bg pentru un mix elegant de verzi (ton Cayman). */
+/* Rewrite "surface-bg" for an elegant mix of greens (Cayman tone). */
 :root{
-  /* paletă verde (Cayman-like) */
+  /* green palette (Cayman-like) */
   --cayman-g1: #159957; /* verde Cayman */
   --cayman-g2: #10b981; /* emerald */
   --cayman-g3: #16a34a; /* green */
   --cayman-g4: #a7f3d0; /* mint tint */
 
-  /* suprafața: pete radiale verzi + gradient vertical foarte deschis */
+  /* surface: green radial spots + very light vertical gradient */
   --surface-bg:
     radial-gradient(1200px 800px at 14% 10%, color-mix(in oklab, var(--cayman-g1) 12%, transparent), transparent 62%),
     radial-gradient( 900px 700px at 86%  8%, color-mix(in oklab, var(--cayman-g2) 10%, transparent), transparent 60%),
@@ -169,13 +168,13 @@ img{ max-width:100%; display:block; }
     linear-gradient(180deg, #f6fff9 0%, #f2fff7 40%, #f4fff9 100%);
 }
 
-/* filigran fin pentru textură (opțional) */
+/* fine watermark for texture (optional) */
 body{
   background: var(--surface-bg),
               repeating-linear-gradient(135deg, rgba(16,40,32,.018) 0 2px, transparent 2px 6px);
 }
 
-/* Dark mode – verzi întunecate, discret */
+/* Dark mode: dark green and subtle. */
 @media (prefers-color-scheme: dark){
   :root{
     --surface-bg:
@@ -191,7 +190,7 @@ body{
   }
 }
 
-/* Fallback când color-mix() nu e suportat */
+/* In the event that color-mix() is not supported, this is the fallback option. */
 @supports not (color-mix(in oklab, black 10%, white)){
   :root{
     --surface-bg:
@@ -278,18 +277,18 @@ html{ scroll-behavior: smooth; }
   }
 }
 
-/* Fallback când backdrop-filter nu e suportat */
+/* In the event that backdrop-filter support is unavailable, this is the fallback option. */
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
   .go-top--liquid{ background: rgba(255,255,255,.92); }
 }
 
-/* Reduced motion pentru buton */
+/* Reduced motion for the button. */
 @media (prefers-reduced-motion: reduce){
   .go-top{ transition:none; }
 }
 
-/* ===== Fix pentru linkul activ în meniu =============================== */
-/* Marchează activ atât .active cât și aria-current="page" */
+/* ===== The active link in the menu has been fixed. =============================== */
+/* Mark both "active" and "aria-current="page". */
 .site-nav .menu-link.active,
 .site-nav .menu-link[aria-current="page"]{
   background-size: 100% 1px;
@@ -309,7 +308,7 @@ html{ scroll-behavior: smooth; }
   }
 }
 
-/* === Imagini: centrare + dimensiune uniformă === */
+/* === Images: centered and uniform size === */
 img,
 a > img {
   display: block;
@@ -317,27 +316,27 @@ a > img {
   margin-right: auto;
   max-width: 100%;
   height: auto;
-  float: none; /* neutralizează flotări moștenite */
+  float: none; /* neutralizes inherited flotations */
 }
 
-/* Container media cu lățime uniformă pentru TOATE imaginile care trebuie egale */
+/* A media container with a uniform width for all images, which must all be the same. */
 picture,
 .media {
   display: block;
-  max-width: 1200px;  /* <- setează o singură valoare (1000/1100/1200px) */
-  margin: 0 auto;     /* centrează containerul */
+  max-width: 1200px;  /* <- set a single value (1000, 1100, or 1200 px). */
+  margin: 0 auto;     /* center the container */
 }
 
-/* Dacă ai galerii sau containere flex care „trag” conținutul la stânga */
+/* If you have galleries or flex containers that pull content to the left */
 .center-flex {
   display: flex;
   justify-content: center;
-  align-items: center; /* opțional, pe verticală */
-  flex-wrap: wrap;     /* opțional, pe rânduri multiple */
-  gap: .75rem;         /* spațiere între imagini */
+  align-items: center; /* optional, upright */
+  flex-wrap: wrap;     /* optionally, on multiple rows */
+  gap: .75rem;         /* spacing between images */
 }
 
-/* (Opțional) neutralizează clase vechi care pot forța float */
+/* (Optional) neutralizes old classes that can force float */
 .alignleft img,
 .alignright img,
 img[style*="float"] {
@@ -349,10 +348,10 @@ img[style*="float"] {
 }
 
 body {
-  margin: 0; /* elimină spațiul alb */
+  margin: 0; /* remove white space */
 }
 
-/* NEWS TICKERS — stabil */
+/* NEWS TICKERS — stable */
 .news-ticker{ position:fixed; left:0; width:100%; overflow:hidden;
   font:600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   white-space:nowrap; z-index:9999; height:32px; }
@@ -361,15 +360,15 @@ body {
 
 .page-header--hero, .site-header{ margin-top:64px; }
 
-/* Pista animată: NECESITĂ două <span> în HTML */
+/* Animated track: REQUIRES two <span> tags in HTML */
 .ticker-track{
   display:inline-flex;
   gap:2rem;
   will-change:transform;
-  animation: tickerFlow 17s linear infinite;   /* nume + durată default */
+  animation: tickerFlow 17s linear infinite;   /* name + default duration */
 }
-.ticker-red .ticker-track{ animation-duration:22s; }   /* roșu mai lent */
-.ticker-yellow .ticker-track{ animation-duration:28s; } /* galben și mai lent */
+.ticker-red .ticker-track{ animation-duration:22s; }   /* slow red */
+.ticker-yellow .ticker-track{ animation-duration:28s; } /* yellow even slower */
 
 /* Keyframes */
 @keyframes tickerFlow{
@@ -377,7 +376,7 @@ body {
   100%{ transform:translateX(-100%); }
 }
 
-/* opțional: pauză la hover */
+/* optional: pause on hover */
 /* .news-ticker:hover .ticker-track{ animation-play-state:paused; } */
 
 /* === Footer seal — DESKTOP =============================================== */
@@ -389,7 +388,7 @@ body {
   backdrop-filter: blur(14px) saturate(160%);
 }
 
-/* SVG-ul */
+/* SVG */
 .seal-svg {
   width: 82%;
   height: auto;
@@ -408,7 +407,7 @@ body {
   animation: pulseGlow 3s ease-in-out infinite;
 }
 
-/* Animații */
+/* Animations */
 @keyframes pulseGlow {
   0%,100% { filter: drop-shadow(0 0 8px rgba(16,185,129,.9)); }
   50%     { filter: drop-shadow(0 0 14px rgba(30,107,184,1)); }
@@ -432,7 +431,7 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,.12);
 }
 
-/* === Mobil: scoatem blur-ul mare, păstrăm doar cercul ==================== */
+/* === Mobile: remove the large blur, keep only the circle ==================== */
 @media (max-width: 640px) {
   .footer-seal {
     -webkit-backdrop-filter: none !important;
