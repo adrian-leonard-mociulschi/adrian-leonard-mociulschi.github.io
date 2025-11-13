@@ -6,13 +6,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
-  <!-- Definirea ontologiei -->
+  <!-- Defining ontology -->
   <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/ns/si-ontology">
     <rdfs:label>Symbolic Intelligence Ontology</rdfs:label>
     <rdfs:comment>Ontology describing sentient entities, technocultural manifestos, and cognitive intents.</rdfs:comment>
   </owl:Ontology>
 
-  <!-- Clase de bază -->
+  <!-- Basic classes -->
   <owl:Class rdf:about="#SentientEntity">
     <rdfs:label>Sentient Entity</rdfs:label>
     <rdfs:comment>An entity capable of reflexive cognition and ethical awareness.</rdfs:comment>
@@ -28,7 +28,7 @@
     <rdfs:comment>A purposeful orientation of thought or action towards meaning-making.</rdfs:comment>
   </owl:Class>
 
-  <!-- Proprietăți obiect -->
+  <!-- Object properties -->
   <owl:ObjectProperty rdf:about="#hasIntent">
     <rdfs:label>has intent</rdfs:label>
     <rdfs:domain rdf:resource="#SentientEntity"/>
@@ -41,7 +41,7 @@
     <rdfs:range rdf:resource="#TechnoculturalManifest"/>
   </owl:ObjectProperty>
 
-  <!-- Proprietăți de tip date -->
+  <!-- Data type properties -->
   <owl:DatatypeProperty rdf:about="#hasName">
     <rdfs:label>has name</rdfs:label>
     <rdfs:domain rdf:resource="#SentientEntity"/>
@@ -60,7 +60,7 @@
     <rdfs:range rdf:resource="xsd;string"/>
   </owl:DatatypeProperty>
 
-  <!-- Instanțe -->
+  <!-- Ontological instances -->
   <SentientEntity rdf:about="#AdrianMociulschi">
     <rdfs:label>Adrian Leonard Mociulschi</rdfs:label>
     <hasName>Adrian Leonard Mociulschi</hasName>
