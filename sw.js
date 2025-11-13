@@ -2,7 +2,7 @@
 const CACHE_NAME = 'adi-site-cache-v6'; // bump când faci modificări
 const PRECACHE_URLS = [
   '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html',
-  // NU include /assets/style.css aici
+  // The "/assets/style.css" file should not be included here.
   '/assets/img/Favicon-new.png',
   '/assets/img/Favicon-new.svg',
   '/assets/img/Favicon-new.ico',
