@@ -26,7 +26,7 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
 
-  // 1) Pagini: network-first (fallback la index offline)
+  // 1) Pages: Network-first with an offline index as a fallback.
   if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request).catch(() => caches.match('/index.html'))
@@ -34,7 +34,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 2) CSS: network-first (vezi imediat modificările)
+  // 2) Pages: Network-first with an offline index as a fallback.
   if (
     event.request.destination === 'style' ||
     event.request.url.endsWith('.css')
@@ -53,7 +53,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 3) Imagini/SVG/ICO: stale-while-revalidate (nu rămâi cu asset-uri vechi)
+  // 3) Images/SVG/ICO: stale-while-revalidate. Don't stick with old assets.
   if (
     event.request.destination === 'image' ||
     /\.(png|jpe?g|gif|webp|svg|ico)$/i.test(new URL(event.request.url).pathname)
@@ -70,7 +70,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 4) Restul: cache-first simplu
+  // 4) The rest is simple: cache-first.
   event.respondWith(
     caches.match(event.request).then(resp => resp || fetch(event.request))
   );
