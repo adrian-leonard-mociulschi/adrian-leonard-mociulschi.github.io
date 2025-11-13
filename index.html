@@ -76,7 +76,9 @@
 
   <!-- Structured Data (JSON-LD) -->
  <script type="application/ld+json">
- {
+ <!-- Structured Data (JSON-LD) — INDEX -->
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -85,6 +87,7 @@
       "name": "Adrian Leonard Mociulschi",
       "description": "A Symbolic Ambassador of Technoculture. A lucid archive at the intersection of culture and code: symbolic ecologies, Web3 visions, and ethical AI.",
       "url": "https://adrian-leonard-mociulschi.github.io/",
+      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
       "sameAs": [
         "https://orcid.org/0009-0006-9328-8518",
         "https://revistacultura.ro/author/adrian-mociulschi/",
@@ -101,6 +104,9 @@
         "@type": "PropertyValue",
         "propertyID": "ORCID",
         "value": "0009-0006-9328-8518"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#webpage"
       }
     },
 
@@ -114,19 +120,34 @@
     },
 
     {
+      "@type": "WebPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#webpage",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Home — Adrian Leonard Mociulschi",
+      "headline": "Home — Adrian Leonard Mociulschi",
+      "description": "A lucid archive at the intersection of culture and code: essays, research, and technocultural work by Adrian Leonard Mociulschi.",
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "inLanguage": "en-US",
+      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "about": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/#breadcrumbs" },
+      "datePublished": "2025-10-24T00:00:00+02:00",
+      "dateModified": "2025-11-08T00:00:00+02:00",
+      "copyrightYear": 2025
+    },
+
+    {
       "@type": "BreadcrumbList",
       "@id": "https://adrian-leonard-mociulschi.github.io/#breadcrumbs",
       "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://adrian-leonard-mociulschi.github.io/"
-        }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" }
       ]
     }
   ]
 }
+</script>
   </script>
 
   <style>
