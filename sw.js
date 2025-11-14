@@ -1,6 +1,6 @@
 // sw.js — Adrian (state-of-the-art, cap–coadă)
 // ► Bump VERSION la fiecare deploy major (activează cache nou + purge vechi)
-const VERSION = 'v14';
+const VERSION = 'v15';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -68,19 +68,22 @@ self.addEventListener('fetch', (event) => {
   if (event.request.mode === 'navigate') {
     event.respondWith((async () => {
       try {
-        // Prefer preloaded (dacă e activ), altfel fetch normal
         const preload = await event.preloadResponse;
         const netResp = preload || await fetch(event.request);
-        // Cache-uim pagina pentru offline
         if (netResp && (netResp.ok || netResp.type === 'opaqueredirect')) {
           const cache = await caches.open(CACHES.pages);
           cache.put(event.request, netResp.clone());
         }
         return netResp;
       } catch {
-        // Offline fallback: cea mai recentă din cache sau index
         const cache = await caches.open(CACHES.pages);
-        return (await cache.match(event.request)) || (await cache.match('/index.html')) || new Response('', {status: 504});
+        return (await cache.match(event.request)) ||
+               (await cache.match('/index.html')) ||
+               new Response('<h1>Offline</h1><p>Pagina nu este disponibilă.</p>', {
+                 headers: {'Content-Type': 'text/html'},
+                 status: 504,
+                 statusText: 'Offline'
+               });
       }
     })());
     return;
@@ -99,14 +102,17 @@ self.addEventListener('fetch', (event) => {
       } catch {
         const cache = await caches.open(CACHES.assets);
         const hit = await cache.match(event.request);
-        return hit || new Response('', { status: 504, statusText: 'CSS unavailable' });
+        return hit || new Response('/* CSS unavailable */', {
+          status: 504,
+          statusText: 'CSS unavailable'
+        });
       }
     })());
     return;
   }
 
   // 3) Imagini/SVG/ICO: stale-while-revalidate (+ limitare intrări)
-  if (dest === 'image' || /\.(png|jpe?g|gif|webp|svg|ico)$/i.test(url.pathname)) {
+  if (dest === 'image' || /\.(png|jpe?g|gif|webp|svg|ico|avif|bmp)$/i.test(url.pathname)) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHES.images);
       const cached = await cache.match(event.request);
@@ -129,6 +135,6 @@ self.addEventListener('fetch', (event) => {
     if (cached) return cached;
     const resp = await fetch(event.request).catch(() => null);
     if (resp && (resp.ok || resp.type === 'opaque')) cache.put(event.request, resp.clone());
-    return resp || new Response('', { status: 504 });
+    return resp || new Response('Resource unavailable', { status: 504 });
   })());
 });
