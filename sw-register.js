@@ -32,6 +32,9 @@
           }
         });
       });
+
+      // Log opțional pentru debugging
+      console.log('[SW] Registered and listening for updates');
     } catch (e) {
       console.warn('[SW] register/update failed', e);
     }
