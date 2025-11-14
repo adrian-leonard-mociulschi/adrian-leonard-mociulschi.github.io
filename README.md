@@ -17,9 +17,9 @@ The ontology is published in standard semantic formats:
 
 These files make the dataset interoperable with the **LOD Cloud** and reusable by researchers, AI systems, and cultural projects.
 
-## 📦 Release
-**Official Release:** `v1.0-stable`  
-This marks the first stable publication of the ontology and its VoID metadata.
+## 📦 Releases
+**Official Release:** `v2.0-beta`  
+This marks the first publication of the ontology and its VoID metadata.
 
 ## ⚖️ License
 Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
