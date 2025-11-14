@@ -351,8 +351,8 @@ body {
   margin: 0; /* remove white space */
 }
 
-/* NEWS TICKERS — stable */
-.news-ticker {
+/* NEWS TICKERS — container & look */
+.news-ticker{
   position: fixed;
   left: 0;
   width: 100%;
@@ -361,44 +361,43 @@ body {
   white-space: nowrap;
   z-index: 9999;
   height: 32px;
+  /* Fade la margini ca tranziția să fie și mai fină (opțional) */
+  -webkit-mask-image: linear-gradient(to right, transparent, black 32px, black calc(100% - 32px), transparent);
+          mask-image: linear-gradient(to right, transparent, black 32px, black calc(100% - 32px), transparent);
 }
 
-.ticker-red {
-  top: 0;
-  background: #b80000;
-  color: #fff;
-}
+.ticker-red   { top: 0;      background: #b80000; color: #fff; }
+.ticker-yellow{ top: 32px;   background: #ffcc00; color: #000; }
 
-.ticker-yellow {
-  top: 32px;
-  background: #ffcc00;
-  color: #000;
-}
+.page-header--hero, .site-header{ margin-top: 64px; }
 
-.page-header--hero,
-.site-header {
-  margin-top: 64px;
-}
-
-/* Animated track */
-@keyframes tickerFlow {
+/* Animație: parcurgem doar jumătate din bandă, pentru buclă perfectă */
+@keyframes tickerFlow{
   from { transform: translateX(0); }
-  to   { transform: translateX(-2000px); } /* distanță fixă */
+  to   { transform: translateX(-50%); }
 }
 
-.ticker-track {
-  display: inline-flex;
-  gap: 2rem;
+/* Banda care curge */
+.ticker-track{
+  display: inline-flex;          /* punem cele două „copii” într-o linie */
+  gap: 2rem;                     /* spațiu între copii */
   will-change: transform;
   animation: tickerFlow linear infinite;
 }
 
-.ticker-red .ticker-track {
-  animation-duration: 22s; /* roșu mai rapid */
+/* Durate diferite per culoare (viteze diferite vizibil) */
+.ticker-red   .ticker-track{ animation-duration: 22s; }
+.ticker-yellow .ticker-track{ animation-duration: 28s; }
+
+/* Un singur span în HTML; a doua „copie” e generată de CSS */
+.ticker-item{
+  display: inline-block;
 }
 
-.ticker-yellow .ticker-track {
-  animation-duration: 28s; /* galben mai lent */
+/* Clonă CSS a textului, pentru rulare continuă */
+.ticker-item::after{
+  content: attr(data-text);      /* duplică exact același text */
+  padding-left: 2rem;            /* distanța dintre copii */
 }
 
 /* === Footer seal — DESKTOP =============================================== */
