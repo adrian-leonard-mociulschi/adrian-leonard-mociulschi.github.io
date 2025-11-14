@@ -351,7 +351,7 @@ body {
   margin: 0; /* remove white space */
 }
 
-/* NEWS TICKERS — container & look */
+/* NEWS TICKER – container și aspect (lasă-le cum sunt dacă le ai deja) */
 .news-ticker{
   position: fixed;
   left: 0;
@@ -361,44 +361,49 @@ body {
   white-space: nowrap;
   z-index: 9999;
   height: 32px;
-  /* Fade la margini ca tranziția să fie și mai fină (opțional) */
-  -webkit-mask-image: linear-gradient(to right, transparent, black 32px, black calc(100% - 32px), transparent);
-          mask-image: linear-gradient(to right, transparent, black 32px, black calc(100% - 32px), transparent);
 }
 
-.ticker-red   { top: 0;      background: #b80000; color: #fff; }
-.ticker-yellow{ top: 32px;   background: #ffcc00; color: #000; }
+.ticker-red   { top: 0;    background: #b80000; color: #fff; }
+.ticker-yellow{ top: 32px; background: #ffcc00; color: #000; }
 
-.page-header--hero, .site-header{ margin-top: 64px; }
+.page-header--hero, .site-header { margin-top: 64px; }
 
-/* Animație: parcurgem doar jumătate din bandă, pentru buclă perfectă */
+/* ——— ANIMAȚIE NOUĂ ——— */
+
+/* 1) Banda care curge (containerul glisant) */
+.ticker-track{
+  display: inline-flex;       /* „lipim” originalul + copia în linie */
+  gap: 2rem;
+  will-change: transform;
+  animation-name: tickerFlow;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* 2) Viteze diferite pe culori (DURATE DIFERITE) */
+.ticker-red   .ticker-track { animation-duration: 22s; } /* mai rapid */
+.ticker-yellow .ticker-track { animation-duration: 28s; } /* mai lent  */
+
+/* 3) Un singur <span> în HTML, a doua copie o generăm din CSS */
+.ticker-item{
+  display: inline-block;
+  margin: 0;
+}
+
+/* A doua „copie” (identică) e pusă după prima, pentru buclă perfectă */
+.ticker-item::after{
+  content: attr(data-text);
+  display: inline-block;
+  padding-left: 2rem;  /* spațiu între copii */
+}
+
+/* 4) Keyframes pentru buclă fără ruptură: parcurgem doar jumătate */
 @keyframes tickerFlow{
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
 
-/* Banda care curge */
-.ticker-track{
-  display: inline-flex;          /* punem cele două „copii” într-o linie */
-  gap: 2rem;                     /* spațiu între copii */
-  will-change: transform;
-  animation: tickerFlow linear infinite;
-}
-
-/* Durate diferite per culoare (viteze diferite vizibil) */
-.ticker-red   .ticker-track{ animation-duration: 22s; }
-.ticker-yellow .ticker-track{ animation-duration: 28s; }
-
-/* Un singur span în HTML; a doua „copie” e generată de CSS */
-.ticker-item{
-  display: inline-block;
-}
-
-/* Clonă CSS a textului, pentru rulare continuă */
-.ticker-item::after{
-  content: attr(data-text);      /* duplică exact același text */
-  padding-left: 2rem;            /* distanța dintre copii */
-}
+/* IMPORTANT: NU folosi mask/clip/fade la margini – provoacă albire. */
 
 /* === Footer seal — DESKTOP =============================================== */
 .footer-seal {
