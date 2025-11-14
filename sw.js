@@ -1,68 +1,120 @@
-// sw.js — Adrian
-const CACHE_NAME = 'adi-site-cache-v9'; // bump când faci modificări
-const PRECACHE_URLS = [
-  '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html',
-  // The "/assets/style.css" file should not be included here.
+// sw.js — Adrian (state-of-the-art, cap–coadă)
+// ► Bump VERSION la fiecare deploy major (activează cache nou + purge vechi)
+const VERSION = 'v10';
+const CACHES = {
+  pages:  `adi-pages-${VERSION}`,
+  assets: `adi-assets-${VERSION}`,
+  images: `adi-images-${VERSION}`
+};
+
+// Pagini pentru offline fallback (NU punem CSS aici — îl tratăm separat, network-first)
+const PRECACHE_PAGES = [
+  '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html'
+];
+const PRECACHE_ASSETS = [
   '/assets/img/Favicon-new.png',
   '/assets/img/Favicon-new.svg',
   '/assets/img/Favicon-new.ico',
   '/manifest.json'
 ];
 
-self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(PRECACHE_URLS)));
+self.addEventListener('install', (event) => {
+  event.waitUntil((async () => {
+    const [pg, as] = await Promise.all([
+      caches.open(CACHES.pages),
+      caches.open(CACHES.assets)
+    ]);
+    await pg.addAll(PRECACHE_PAGES);
+    await as.addAll(PRECACHE_ASSETS);
+  })());
   self.skipWaiting();
 });
 
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(names =>
-      Promise.all(names.map(n => (n !== CACHE_NAME ? caches.delete(n) : undefined)))
-    )
-  );
-  self.clients.claim();
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    // 1) Enable navigation preload where supported (navigații mai rapide)
+    if (self.registration.navigationPreload) {
+      try { await self.registration.navigationPreload.enable(); } catch {}
+    }
+    // 2) Purge all old caches
+    const keep = new Set(Object.values(CACHES));
+    const names = await caches.keys();
+    await Promise.all(names.map((n) => (keep.has(n) ? undefined : caches.delete(n))));
+    // 3) Claim control imediat
+    await self.clients.claim();
+  })());
 });
 
-self.addEventListener('fetch', event => {
+// Permite forțarea activării imediat (din pagină): postMessage({type:'SKIP_WAITING'})
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
+});
+
+// Utilitar: limitează numărul de intrări dintr-un cache (FIFO simplu)
+async function limitCache(cacheName, maxEntries = 60) {
+  const cache = await caches.open(cacheName);
+  const keys = await cache.keys();
+  const extra = keys.length - maxEntries;
+  for (let i = 0; i < extra; i++) await cache.delete(keys[i]);
+}
+
+self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
-  // 1) Pages: Network-first with an offline index as a fallback.
+  const url = new URL(event.request.url);
+  const dest = event.request.destination;
+
+  // 1) Navigații: network-first cu preload; fallback la /index.html offline
   if (event.request.mode === 'navigate') {
-    event.respondWith(
-      fetch(event.request).catch(() => caches.match('/index.html'))
-    );
+    event.respondWith((async () => {
+      try {
+        // Prefer preloaded (dacă e activ), altfel fetch normal
+        const preload = await event.preloadResponse;
+        const netResp = preload || await fetch(event.request);
+        // Cache-uim pagina pentru offline
+        if (netResp && (netResp.ok || netResp.type === 'opaqueredirect')) {
+          const cache = await caches.open(CACHES.pages);
+          cache.put(event.request, netResp.clone());
+        }
+        return netResp;
+      } catch {
+        // Offline fallback: cea mai recentă din cache sau index
+        const cache = await caches.open(CACHES.pages);
+        return (await cache.match(event.request)) || (await cache.match('/index.html')) || new Response('', {status: 504});
+      }
+    })());
     return;
   }
 
-  // 2) Pages: Network-first with an offline index as a fallback.
-  if (
-    event.request.destination === 'style' ||
-    event.request.url.endsWith('.css')
-  ) {
+  // 2) CSS: network-first (fără stocarea din browser cache), apoi cache în assets
+  if (dest === 'style' || url.pathname.endsWith('.css')) {
     event.respondWith((async () => {
       try {
         const net = await fetch(event.request, { cache: 'no-store' });
-        const cache = await caches.open(CACHE_NAME);
-        cache.put(event.request, net.clone());
+        if (net && net.ok) {
+          const cache = await caches.open(CACHES.assets);
+          cache.put(event.request, net.clone());
+        }
         return net;
       } catch {
-        const hit = await caches.match(event.request);
+        const cache = await caches.open(CACHES.assets);
+        const hit = await cache.match(event.request);
         return hit || new Response('', { status: 504, statusText: 'CSS unavailable' });
       }
     })());
     return;
   }
 
-  // 3) Images/SVG/ICO: stale-while-revalidate. Don't stick with old assets.
-  if (
-    event.request.destination === 'image' ||
-    /\.(png|jpe?g|gif|webp|svg|ico)$/i.test(new URL(event.request.url).pathname)
-  ) {
+  // 3) Imagini/SVG/ICO: stale-while-revalidate (+ limitare intrări)
+  if (dest === 'image' || /\.(png|jpe?g|gif|webp|svg|ico)$/i.test(url.pathname)) {
     event.respondWith((async () => {
-      const cache = await caches.open(CACHE_NAME);
+      const cache = await caches.open(CACHES.images);
       const cached = await cache.match(event.request);
-      const networkPromise = fetch(event.request).then(resp => {
-        cache.put(event.request, resp.clone());
+      const networkPromise = fetch(event.request).then(async (resp) => {
+        if (resp && (resp.ok || resp.type === 'opaque')) {
+          cache.put(event.request, resp.clone());
+          limitCache(CACHES.images, 80);
+        }
         return resp;
       }).catch(() => null);
       return cached || (await networkPromise) || fetch(event.request);
@@ -70,8 +122,13 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 4) The rest is simple: cache-first.
-  event.respondWith(
-    caches.match(event.request).then(resp => resp || fetch(event.request))
-  );
+  // 4) Restul: cache-first din assets, apoi rețea, apoi populate cache
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHES.assets);
+    const cached = await cache.match(event.request);
+    if (cached) return cached;
+    const resp = await fetch(event.request).catch(() => null);
+    if (resp && (resp.ok || resp.type === 'opaque')) cache.put(event.request, resp.clone());
+    return resp || new Response('', { status: 504 });
+  })());
 });
