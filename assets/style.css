@@ -420,7 +420,7 @@ body {
   }
 }
 
-/* === NEWS TICKER — stabil, fără blink, restart curat după schimbarea textului === */
+/* === NEWS TICKER — linie unică, curgere continuă === */
 
 .news-ticker {
   position: fixed;
@@ -443,25 +443,29 @@ body {
   height: 32px;
 }
 
-.news-ticker .ticker-item {
+/* Control de rulare prin clasa .is-running */
+.news-ticker .ticker-item { /* implicit: oprit, ca să putem reporni la schimbarea textului */
   position: absolute;
+  left: 100%;
   top: 0;
-  left: 100%;               /* pornește din dreapta containerului */
   display: inline-block;
   padding: 0 2rem;
   transform: translate3d(0,0,0);
-  backface-visibility: hidden;
-  will-change: transform;
+  animation: none; /* PORNIM doar când containerul are .is-running */
+}
+.news-ticker.is-running .ticker-item {
   animation: tickerSingle var(--dur, 22s) linear infinite;
 }
 
-/* Durate controlate prin var */
+/* Durate per bandă prin variabila --dur (suprascrisă din containerul .ticker-track) */
 .ticker-red   .ticker-track  { --dur: 14s; }
 .ticker-yellow .ticker-track { --dur: 32s; }
 
 @keyframes tickerSingle {
-  0%   { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(calc(-100vw - 100%), 0, 0); } /* iese complet la stânga */
+  0%   { transform: translate3d(0,0,0); }
+  100% { transform: translate3d(calc(-100vw - 100%), 0, 0); }
 }
 
-/* IMPORTANT: nicio altă regulă care setează/înlocuiește animation pe .ticker-track sau .ticker-item */
+/* === NEWS TICKER — override durate diferite (lipeste ULTIMUL in style.css) === */
+.ticker-red   .ticker-track  { --dur: 14s !important; }
+.ticker-yellow .ticker-track { --dur: 32s !important; }
