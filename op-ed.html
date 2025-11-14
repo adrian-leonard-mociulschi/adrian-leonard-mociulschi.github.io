@@ -477,6 +477,15 @@
   </div>
 </div>
 
+<!-- Include script-ul de control -->
+<script src="/assets/js/ticker.js"></script>
+<script>
+  // Pornește animația după ce DOM e gata
+  window.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.news-ticker').forEach(t => t.classList.add('is-running'));
+  });
+</script>
+
   <!-- Anchor at the very top -->
   <a id="top"></a>
 
