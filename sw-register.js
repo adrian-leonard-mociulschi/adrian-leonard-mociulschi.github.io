@@ -1,4 +1,3 @@
-<script>
 // sw-register.js — încarcă și actualizează automat Service Worker-ul
 (function () {
   if (!('serviceWorker' in navigator)) return;
@@ -38,4 +37,3 @@
     }
   });
 })();
-</script>
