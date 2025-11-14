@@ -351,58 +351,45 @@ body {
   margin: 0; /* remove white space */
 }
 
-/* NEWS TICKER – container și aspect (lasă-le cum sunt dacă le ai deja) */
+/* NEWS TICKER */
+/* Containerul tickerelor (rămâne ca la tine) */
 .news-ticker{
   position: fixed;
-  left: 0;
-  width: 100%;
+  left: 0; width: 100%;
   overflow: hidden;
   font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   white-space: nowrap;
-  z-index: 9999;
-  height: 32px;
+  z-index: 9999; height: 32px;
 }
+.ticker-red   { top: 0;    background:#b80000; color:#fff;    --dur: 22s; } /* viteza 1 */
+.ticker-yellow{ top: 32px; background:#ffcc00; color:#000;    --dur: 28s; } /* viteza 2 */
 
-.ticker-red   { top: 0;    background: #b80000; color: #fff; }
-.ticker-yellow{ top: 32px; background: #ffcc00; color: #000; }
+.page-header--hero, .site-header{ margin-top:64px; }
 
-.page-header--hero, .site-header { margin-top: 64px; }
-
-/* ——— ANIMAȚIE NOUĂ ——— */
-
-/* 1) Banda care curge (containerul glisant) */
+/* BANDĂ + animație. Un singur loc setează durata: var(--dur) */
 .ticker-track{
-  display: inline-flex;       /* „lipim” originalul + copia în linie */
+  display: inline-flex;
   gap: 2rem;
   will-change: transform;
   animation-name: tickerFlow;
+  animation-duration: var(--dur, 22s);  /* <- durata vine din container */
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-/* 2) Viteze diferite pe culori (DURATE DIFERITE) */
-.ticker-red   .ticker-track { animation-duration: 22s; } /* mai rapid */
-.ticker-yellow .ticker-track { animation-duration: 28s; } /* mai lent  */
-
-/* 3) Un singur <span> în HTML, a doua copie o generăm din CSS */
-.ticker-item{
-  display: inline-block;
-  margin: 0;
-}
-
-/* A doua „copie” (identică) e pusă după prima, pentru buclă perfectă */
+/* Un singur <span> în HTML; a doua „copie” e generată din CSS */
+.ticker-item{ display: inline-block; margin: 0; }
 .ticker-item::after{
   content: attr(data-text);
   display: inline-block;
-  padding-left: 2rem;  /* spațiu între copii */
+  padding-left: 2rem;
 }
 
-/* 4) Keyframes pentru buclă fără ruptură: parcurgem doar jumătate */
+/* Parcurgem jumătate din bandă pentru loop continuu */
 @keyframes tickerFlow{
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
-
 /* IMPORTANT: NU folosi mask/clip/fade la margini – provoacă albire. */
 
 /* === Footer seal — DESKTOP =============================================== */
