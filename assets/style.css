@@ -351,47 +351,6 @@ body {
   margin: 0; /* remove white space */
 }
 
-/* NEWS TICKER */
-/* Containerul tickerelor (rămâne ca la tine) */
-.news-ticker{
-  position: fixed;
-  left: 0; width: 100%;
-  overflow: hidden;
-  font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  white-space: nowrap;
-  z-index: 9999; height: 32px;
-}
-.ticker-red   { top: 0;    background:#b80000; color:#fff;    --dur: 22s; } /* viteza 1 */
-.ticker-yellow{ top: 32px; background:#ffcc00; color:#000;    --dur: 28s; } /* viteza 2 */
-
-.page-header--hero, .site-header{ margin-top:64px; }
-
-/* BANDĂ + animație. Un singur loc setează durata: var(--dur) */
-.ticker-track{
-  display: inline-flex;
-  gap: 2rem;
-  will-change: transform;
-  animation-name: tickerFlow;
-  animation-duration: var(--dur, 22s);  /* <- durata vine din container */
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-/* Un singur <span> în HTML; a doua „copie” e generată din CSS */
-.ticker-item{ display: inline-block; margin: 0; }
-.ticker-item::after{
-  content: attr(data-text);
-  display: inline-block;
-  padding-left: 2rem;
-}
-
-/* Parcurgem jumătate din bandă pentru loop continuu */
-@keyframes tickerFlow{
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-/* IMPORTANT: NU folosi mask/clip/fade la margini – provoacă albire. */
-
 /* === Footer seal — DESKTOP =============================================== */
 .footer-seal {
   display: flex;
@@ -460,3 +419,43 @@ body {
     text-shadow: 0 1px 0 rgba(0,0,0,.35);
   }
 }
+
+/* === NEWS TICKER — patch final anti-override (lipeste ultimul in style.css) === */
+
+/* 1) Containere + durate diferite (viteza) */
+.news-ticker{
+  position: fixed;
+  left: 0; width: 100%;
+  overflow: hidden;
+  font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  white-space: nowrap;
+  z-index: 9999; height: 32px;
+}
+.ticker-red   { top: 0;    background:#b80000; color:#fff;    --dur: 22s; } /* mai rapid */
+.ticker-yellow{ top: 32px; background:#ffcc00; color:#000;    --dur: 28s; } /* mai lent  */
+
+.page-header--hero, .site-header { margin-top: 64px; }
+
+/* 2) Banda care curge — UN singur shorthand, cu !important */
+.news-ticker .ticker-track{
+  display: inline-flex;
+  gap: 2rem;
+  will-change: transform;
+  /* nume + DURATĂ (din variabilă) + timing + infinite */
+  animation: tickerFlow var(--dur, 22s) linear infinite !important;
+}
+
+/* 3) Dublaj auto (fara HTML in plus) pentru loop perfect */
+.ticker-item{ display:inline-block; margin:0; }
+.ticker-item::after{
+  content: attr(data-text);
+  display: inline-block;
+  padding-left: 2rem;
+}
+
+/* 4) Bucla fara „ruptura” */
+@keyframes tickerFlow{
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
