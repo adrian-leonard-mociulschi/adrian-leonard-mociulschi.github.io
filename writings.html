@@ -55,20 +55,12 @@
   <link rel="apple-touch-icon" href="/assets/img/icon-192.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
+  
   <!-- Styles -->  
-  <link rel="stylesheet" href="/assets/style.css?v=20251114-7">  
+  <link rel="stylesheet" href="/assets/style.css?v=20251114-10">  
 
-<!-- Service Worker Registration -->
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').catch(err => {
-        console.error('SW registration failed:', err);
-      });
-    });
-  }
-</script>
+  <!-- Service Worker Registration -->
+    <script src="/sw-register.js"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
