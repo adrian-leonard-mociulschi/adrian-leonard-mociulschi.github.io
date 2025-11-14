@@ -12,12 +12,17 @@ function setTickerText(selector, newText) {
   item.textContent = newText;
 
   // forțează reflow ca să resetăm timeline-ul CSS
-  void item.offsetWidth; // magic line: declanșează reflow
+  void item.offsetWidth;
 
   // repornește animația
   ticker.classList.add('is-running');
 }
 
-// Exemplu de utilizare:
-// setTickerText('.ticker-red', 'Un nou mesaj pentru banda roșie');
-// setTickerText('.ticker-yellow', 'Un alt mesaj pentru banda galbenă');
+// pornește animația la încărcarea paginii
+window.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.news-ticker').forEach(t => t.classList.add('is-running'));
+
+  // [OPȚIONAL] setează dinamic mesajul dorit
+  setTickerText('.ticker-red', 'Mesaj nou aici');
+  // setTickerText('.ticker-yellow', 'Alt mesaj dinamic aici');
+});
