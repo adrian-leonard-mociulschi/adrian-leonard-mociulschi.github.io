@@ -464,6 +464,6 @@ body {
 /* Recomandare: asigură-te că .ticker-track are lățime > 200% din container (dublajul face asta automat) */
 
 /* === NEWS TICKER — override durate diferite (lipeste ULTIMUL in style.css) === */
-.ticker-red   .ticker-track{ animation-duration: 14s !important; }
-.ticker-yellow .ticker-track{ animation-duration: 32s !important; }
+.ticker-red   .ticker-track  { --dur: 14s !important; }
+.ticker-yellow .ticker-track { --dur: 32s !important; }
 
