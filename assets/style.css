@@ -365,7 +365,7 @@ body {
   display:inline-flex;
   gap:2rem;
   will-change:transform;
-  animation: tickerFlow 17s linear infinite;   /* name + default duration */
+  animation: tickerFlow linear infinite;   /* no default duration */
 }
 .ticker-red .ticker-track{ animation-duration:22s; }   /* slow red */
 .ticker-yellow .ticker-track{ animation-duration:28s; } /* yellow even slower */
