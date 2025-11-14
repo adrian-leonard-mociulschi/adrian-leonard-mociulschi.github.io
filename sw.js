@@ -1,6 +1,6 @@
 // sw.js — Adrian (state-of-the-art, cap–coadă)
 // ► Bump VERSION la fiecare deploy major (activează cache nou + purge vechi)
-const VERSION = 'v10';
+const VERSION = 'v11';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
