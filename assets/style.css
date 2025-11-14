@@ -459,3 +459,7 @@ body {
   to   { transform: translateX(-50%); }
 }
 
+/* === NEWS TICKER — override durate diferite (lipeste ULTIMUL in style.css) === */
+.ticker-red   .ticker-track{ animation-duration: 14s !important; }
+.ticker-yellow .ticker-track{ animation-duration: 32s !important; }
+
