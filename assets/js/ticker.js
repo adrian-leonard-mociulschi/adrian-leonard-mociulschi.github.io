@@ -24,5 +24,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // [OPȚIONAL] setează dinamic mesajul dorit
   setTickerText('.ticker-red', 'Mesaj nou aici');
-  // setTickerText('.ticker-yellow', 'Alt mesaj dinamic aici');
+  setTickerText('.ticker-yellow', 'Alt mesaj dinamic aici');
 });
