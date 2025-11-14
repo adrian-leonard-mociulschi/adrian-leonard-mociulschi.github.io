@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="en-US">
 <head>
   <meta charset="utf-8"/>
   <meta name="msvalidate.01" content="F96E9C5720D3D6021656350BF92CB55F"/>
   <meta http-equiv="content-language" content="en-US"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="robots" content="index, follow">
-  
+
   <title>About — Adrian Leonard Mociulschi</title>
 
   <!-- Canonical -->
@@ -60,16 +60,8 @@
   <!-- Styles -->  
   <link rel="stylesheet" href="/assets/style.css?v=20251114-7">  
 
-<!-- Service Worker Registration -->
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').catch(err => {
-        console.error('SW registration failed:', err);
-      });
-    });
-  }
-</script>
+  <!-- Service Worker Registration -->
+    <script src="/sw-register.js"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
