@@ -352,32 +352,54 @@ body {
 }
 
 /* NEWS TICKERS — stable */
-.news-ticker{ position:fixed; left:0; width:100%; overflow:hidden;
-  font:600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  white-space:nowrap; z-index:9999; height:32px; }
-.ticker-red{ top:0; background:#b80000; color:#fff; }
-.ticker-yellow{ top:32px; background:#ffcc00; color:#000; }
-
-.page-header--hero, .site-header{ margin-top:64px; }
-
-/* Animated track: REQUIRES two <span> tags in HTML */
-.ticker-track{
-  display:inline-flex;
-  gap:2rem;
-  will-change:transform;
-  animation: tickerFlow linear infinite;   /* no default duration */
-}
-.ticker-red .ticker-track{ animation-duration:22s; }   /* slow red */
-.ticker-yellow .ticker-track{ animation-duration:28s; } /* yellow even slower */
-
-/* Keyframes */
-@keyframes tickerFlow{
-  0%{ transform:translateX(100%); }
-  100%{ transform:translateX(-100%); }
+.news-ticker {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  white-space: nowrap;
+  z-index: 9999;
+  height: 32px;
 }
 
-/* optional: pause on hover */
-/* .news-ticker:hover .ticker-track{ animation-play-state:paused; } */
+.ticker-red {
+  top: 0;
+  background: #b80000;
+  color: #fff;
+}
+
+.ticker-yellow {
+  top: 32px;
+  background: #ffcc00;
+  color: #000;
+}
+
+.page-header--hero,
+.site-header {
+  margin-top: 64px;
+}
+
+/* Animated track */
+@keyframes tickerFlow {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-2000px); } /* distanță fixă */
+}
+
+.ticker-track {
+  display: inline-flex;
+  gap: 2rem;
+  will-change: transform;
+  animation: tickerFlow linear infinite;
+}
+
+.ticker-red .ticker-track {
+  animation-duration: 22s; /* roșu mai rapid */
+}
+
+.ticker-yellow .ticker-track {
+  animation-duration: 28s; /* galben mai lent */
+}
 
 /* === Footer seal — DESKTOP =============================================== */
 .footer-seal {
