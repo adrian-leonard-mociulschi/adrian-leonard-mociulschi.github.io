@@ -50,19 +50,11 @@
   <link rel="icon" href="/assets/img/Favicon-new.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/img/Favicon-new.png" sizes="180x180">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/style.css?v=20251114-7">
+  <!-- Styles -->  
+  <link rel="stylesheet" href="/assets/style.css?v=20251114-10">  
 
   <!-- Service Worker Registration -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').catch(err => {
-          console.error('SW registration failed:', err);
-        });
-      });
-    }
-  </script>
+    <script src="/sw-register.js"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
