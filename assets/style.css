@@ -420,44 +420,53 @@ body {
   }
 }
 
-/* === NEWS TICKER — patch final anti-override (lipeste ultimul in style.css) === */
+/* === NEWS TICKER — versiune optimizată pentru buclă fluidă === */
 
-/* 1) Containere + durate diferite (viteza) */
-.news-ticker{
+.news-ticker {
   position: fixed;
-  left: 0; width: 100%;
+  left: 0;
+  width: 100%;
   overflow: hidden;
   font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   white-space: nowrap;
-  z-index: 9999; height: 32px;
+  z-index: 9999;
+  height: 32px;
 }
-.ticker-red   { top: 0;    background:#b80000; color:#fff;    --dur: 22s; } /* mai rapid */
-.ticker-yellow{ top: 32px; background:#ffcc00; color:#000;    --dur: 28s; } /* mai lent  */
+.ticker-red   { top: 0;    background:#b80000; color:#fff;    --dur: 22s; }
+.ticker-yellow{ top: 32px; background:#ffcc00; color:#000;    --dur: 28s; }
 
 .page-header--hero, .site-header { margin-top: 64px; }
 
-/* 2) Banda care curge — UN singur shorthand, cu !important */
-.news-ticker .ticker-track{
+/* Banda care curge — folosim dublaj real pentru fluiditate */
+.news-ticker .ticker-track {
   display: inline-flex;
   gap: 2rem;
   will-change: transform;
-  /* nume + DURATĂ (din variabilă) + timing + infinite */
-  animation: tickerFlow var(--dur, 22s) linear infinite !important;
+  animation: tickerFlow var(--dur, 22s) linear infinite;
 }
 
-/* 3) Dublaj auto (fara HTML in plus) pentru loop perfect */
-.ticker-item{ display:inline-block; margin:0; }
-.ticker-item::after{
+/* Dublaj real: duplicăm conținutul cu ::after pentru buclă perfectă */
+.ticker-item {
+  display: inline-block;
+  margin: 0;
+}
+.ticker-item::after {
   content: attr(data-text);
   display: inline-block;
   padding-left: 2rem;
 }
 
-/* 4) Bucla fara „ruptura” */
-@keyframes tickerFlow{
+/* Keyframes ajustate: deplasare pe 50% pentru că avem dublaj */
+@keyframes tickerFlow {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
+
+/* Override durate diferite */
+.ticker-red .ticker-track   { animation-duration: 14s !important; }
+.ticker-yellow .ticker-track{ animation-duration: 32s !important; }
+
+/* Recomandare: asigură-te că .ticker-track are lățime > 200% din container (dublajul face asta automat) */
 
 /* === NEWS TICKER — override durate diferite (lipeste ULTIMUL in style.css) === */
 .ticker-red   .ticker-track{ animation-duration: 14s !important; }
