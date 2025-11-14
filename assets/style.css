@@ -420,7 +420,7 @@ body {
   }
 }
 
-/* === NEWS TICKER — o singură linie care curge și se reia fără pâlpâire === */
+/* === NEWS TICKER — linie unică, curgere continuă === */
 
 .news-ticker {
   position: fixed;
@@ -433,8 +433,8 @@ body {
   font: 600 1rem/32px Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
 
-.ticker-red   { top: 0;    background: #b80000; color: #fff; }
-.ticker-yellow{ top: 32px; background: #ffcc00; color: #000; }
+.ticker-red   { top: 0;    background:#b80000; color:#fff; }
+.ticker-yellow{ top: 32px; background:#ffcc00; color:#000; }
 
 .page-header--hero, .site-header { margin-top: 64px; }
 
@@ -446,27 +446,19 @@ body {
 .news-ticker .ticker-item {
   position: absolute;
   left: 100%;
+  top: 0;
+  display: inline-block;
   padding: 0 2rem;
-  will-change: transform;
   transform: translate3d(0,0,0);
-  backface-visibility: hidden;
   animation: tickerSingle var(--dur, 22s) linear infinite;
 }
 
-.ticker-red   .ticker-item   { --dur: 14s; }
-.ticker-yellow .ticker-item  { --dur: 32s; }
+.ticker-red   .ticker-item { --dur: 14s; }
+.ticker-yellow .ticker-item { --dur: 32s; }
 
 @keyframes tickerSingle {
-  0%   { transform: translate3d(0, 0, 0); }
+  0%   { transform: translate3d(0,0,0); }
   100% { transform: translate3d(calc(-100vw - 100%), 0, 0); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .news-ticker .ticker-item {
-    animation: none;
-    position: static;
-    display: inline-block;
-  }
 }
 
 /* Recomandare: asigură-te că .ticker-track are lățime > 200% din container (dublajul face asta automat) */
