@@ -32,25 +32,20 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    // 1) Enable navigation preload where supported (navigații mai rapide)
     if (self.registration.navigationPreload) {
       try { await self.registration.navigationPreload.enable(); } catch {}
     }
-    // 2) Purge all old caches
     const keep = new Set(Object.values(CACHES));
     const names = await caches.keys();
     await Promise.all(names.map((n) => (keep.has(n) ? undefined : caches.delete(n))));
-    // 3) Claim control imediat
     await self.clients.claim();
   })());
 });
 
-// Permite forțarea activării imediat (din pagină): postMessage({type:'SKIP_WAITING'})
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
-// Utilitar: limitează numărul de intrări dintr-un cache (FIFO simplu)
 async function limitCache(cacheName, maxEntries = 60) {
   const cache = await caches.open(cacheName);
   const keys = await cache.keys();
@@ -64,7 +59,6 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   const dest = event.request.destination;
 
-  // 1) Navigații: network-first cu preload; fallback la /index.html offline
   if (event.request.mode === 'navigate') {
     event.respondWith((async () => {
       try {
@@ -89,7 +83,6 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 2) CSS: network-first (fără stocarea din browser cache), apoi cache în assets
   if (dest === 'style' || url.pathname.endsWith('.css')) {
     event.respondWith((async () => {
       try {
@@ -111,7 +104,6 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 3) Imagini/SVG/ICO: stale-while-revalidate (+ limitare intrări)
   if (dest === 'image' || /\.(png|jpe?g|gif|webp|svg|ico|avif|bmp)$/i.test(url.pathname)) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHES.images);
@@ -128,7 +120,6 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 4) Restul: cache-first din assets, apoi rețea, apoi populate cache
   event.respondWith((async () => {
     const cache = await caches.open(CACHES.assets);
     const cached = await cache.match(event.request);
@@ -138,3 +129,38 @@ self.addEventListener('fetch', (event) => {
     return resp || new Response('Resource unavailable', { status: 504 });
   })());
 });
+
+
+// sw-register.js — încarcă și actualizează automat Service Worker-ul
+(function () {
+  if (!('serviceWorker' in navigator)) return;
+
+  let reloaded = false;
+
+  window.addEventListener('load', async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+      await reg.update();
+
+      if (reg.waiting) reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (reloaded) return;
+        reloaded = true;
+        location.reload();
+      });
+
+      reg.addEventListener('updatefound', () => {
+        const sw = reg.installing;
+        if (!sw) return;
+        sw.addEventListener('statechange', () => {
+          if (sw.state === 'installed' && navigator.serviceWorker.controller) {
+            sw.postMessage({ type: 'SKIP_WAITING' });
+          }
+        });
+      });
+    } catch (e) {
+      console.warn('[SW] register/update failed', e);
+    }
+  });
+})();
