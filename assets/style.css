@@ -309,20 +309,29 @@ html{ scroll-behavior: smooth; }
 }
 
 /* === Imagini aliniate cu paragrafe (justify) === */
-.content-card img,
-.content-card a > img {
-    display: block;
-    width: 100%; /* imaginea ocupă toată lățimea containerului text */
-    height: auto;
-    margin: 0; /* elimină marginile implicite */
-    text-align: justify; /* se aliniază în fluxul textului */
+/* 1) Toate elementele respectă paddingul containerului */
+.content-card, .content-card * { box-sizing: border-box; }
+
+/* 2) Paragrafele rămân justify, fără efect pe img */
+.content-card p {
+  text-align: justify;
+  margin: 0 0 1rem;        /* ajustează după gust */
 }
 
-/* Dacă vrei ca textul și imaginea să fie perfect integrate */
-.content-card p,
-.content-card img {
-    text-align: justify;
+/* 3) Imagini pe toată lățimea containerului textului */
+.content-card img,
+.content-card a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;               /* fără offset față de marginile textului */
 }
+
+/* 4) Dacă folosești <figure>, elimină marginea implicită */
+.content-card figure { margin: 0; }
+.content-card figure > img { display: block; width: 100%; height: auto; }
+.content-card figcaption { text-align: justify; margin-top: .5rem; }
+
 
 .project-name {
   font-family: 'Great Vibes', cursive;
