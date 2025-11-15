@@ -216,18 +216,25 @@
   </p>
 </section>
 
+
 <!-- Imagine 1 -->
 <section>
   <figure class="content-card-figure">
     <picture>
-      <source type="image/avif" srcset="assets/img/f-35-1920x1278.avif">
-      <source type="image/webp" srcset="assets/img/f-35-1920x1278.webp">
+      <!-- AVIF pe 3 rezoluții -->
+      <source type="image/avif"
+        srcset="assets/img/f-35-768x511.avif 768w, assets/img/f-35-1280x852.avif 1280w, assets/img/f-35-1920x1278.avif 1920w">
+      <!-- WebP pe 3 rezoluții -->
+      <source type="image/webp"
+        srcset="assets/img/f-35-768x511.webp 768w, assets/img/f-35-1280x852.webp 1280w, assets/img/f-35-1920x1278.webp 1920w">
+      <!-- PNG fallback + srcset pe 3 rezoluții -->
       <img
         src="assets/img/f-35-1920x1278.png"
+        srcset="assets/img/f-35-768x511.png 768w, assets/img/f-35-1280x852.png 1280w, assets/img/f-35-1920x1278.png 1920w"
+        sizes="(max-width: 768px) 100vw, (max-width: 1280px) 100vw, 100vw"
         alt="Symbol of freedom and technological power: F-35 fighter jet in ascent."
         title="Symbol of freedom and technological power: F-35 fighter jet in ascent."
-        loading="lazy" decoding="async"
-        sizes="(min-width: 800px) 100vw, 100vw">
+        loading="lazy" decoding="async">
     </picture>
     <figcaption><em>Photo credit: Military_Material via Pixabay</em></figcaption>
   </figure>
