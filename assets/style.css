@@ -332,6 +332,22 @@ html{ scroll-behavior: smooth; }
 .content-card figure > img { display: block; width: 100%; height: auto; }
 .content-card figcaption { text-align: justify; margin-top: .5rem; }
 
+/* Colțuri rotunjite pentru imaginile din <figure><picture><img> */
+.content-card figure {
+  margin: 0;
+  border-radius: 8px;     /* colțuri rotunjite la nivel de container */
+  overflow: hidden;       /* taie conținutul ca să nu „iasă” colțurile */
+}
+
+/* Asigură-te că media-ul respectă forma rotunjită (compatibilitate) */
+.content-card figure picture,
+.content-card figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;     /* fallback pentru browsere mai capricioase */
+}
+
 
 .project-name {
   font-family: 'Great Vibes', cursive;
