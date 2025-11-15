@@ -214,16 +214,20 @@
     Plus, I’m proud to carry on a family tradition that spans over two centuries of rich cultural heritage in Romania,
     all while reimagining it to tackle the challenges we face in the 21st century.
   </p>
+  </section>
 
+    <section>
   <figure class="media media--portrait">
     <picture>
-      <!-- Avif/WebP pe 3 scări -->
-      <source
-        type="image/avif"
+      <!-- AVIF pe 3 scări (768/1280/1920). Browserul alege cea mai potrivită variantă. -->
+      <source type="image/avif"
         srcset="assets/img/ALM2_768x512.avif 768w, assets/img/ALM2_1280x853.avif 1280w, assets/img/ALM2_1920x1278.avif 1920w">
-      <source
-        type="image/webp"
+
+      <!-- WebP pe 3 scări ca fallback modern în lipsa AVIF -->
+      <source type="image/webp"
         srcset="assets/img/ALM2_768x512.webp 768w, assets/img/ALM2_1280x853.webp 1280w, assets/img/ALM2_1920x1278.webp 1920w">
+
+      <!-- PNG clasic ca fallback final + srcset pentru dispozitive mai vechi -->
       <img
         src="assets/img/ALM2_1920x1278.png"  
         srcset="assets/img/ALM2_768x512.png 768w, assets/img/ALM2_1280x853.png 1280w, assets/img/ALM2_1920x1278.png 1920w"
@@ -232,6 +236,7 @@
         title="Adrian Leonard Mociulschi"
         loading="lazy" decoding="async">
     </picture>
+
     <figcaption>
       <em>Portrait of Adrian Leonard Mociulschi</em> — licensed under Creative Commons Attribution (<strong>CC BY</strong>).
     </figcaption>
