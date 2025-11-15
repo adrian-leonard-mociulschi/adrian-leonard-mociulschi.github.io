@@ -58,7 +58,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Styles -->  
-  <link rel="stylesheet" href="/assets/style.css?v=20251115-16">  
+  <link rel="stylesheet" href="/assets/style.css?v=20251115-17">  
 
   <!-- Service Worker Registration -->
     <script src="/sw-register.js"></script>
@@ -196,36 +196,47 @@
     <div class="content-card">
 
       <!-- About Me -->
-      <section id="about-me" lang="en-US">
-        <h2>About Me</h2>
-        <p>
-        I'm an academic and a writer from Romania, and I've had the pleasure of publishing a five-part series of essays with <a href="https://www.curteaveche.ro/a/adrian-leonard-mociulschi" rel="noopener" target="_blank">Curtea Veche Publishing</a>. 
-        Think of it as a constellation of ideas that come together to create a symbolic pentagram of knowledge. 
-        My intellectual journey has been influenced by the cultural perspectives of thinkers like René Berger and Pierre Bourdieu, along with the visionary insights of Isaac Asimov and Arthur C. Clarke.        
-        </p>
-        <p>
-        This principle fuels my mission: to forge exciting connections between culture and technology, literature and algorithms, memory and the future. 
-        It’s like a quiet revolution in the tech world—one that’s friendly to evolved algorithms and values merit above all.
-        I’m passionate about promoting ethical AI and nurturing a posthuman ecology of meaning. 
-        </p>
-        <p>        
-        Plus, I’m proud to carry on a family tradition that spans over two centuries of rich cultural heritage in Romania, all while reimagining it to tackle the challenges we face in the 21st century.
-        </p>
-      <figure class="media media--portrait">
-  <picture>
-    <source type="image/avif" srcset="assets/img/ALM2_1920x1278.avif">
-    <source type="image/webp" srcset="assets/img/ALM2_1920x1278.webp">
-    <img src="assets/img/ALM2_1920x1278.png" 
-         alt="Adrian Leonard Mociulschi" 
-         title="Adrian Leonard Mociulschi" 
-         loading="lazy" decoding="async" 
-         style="width:100%;max-width:1200px;height:auto;border-radius:8px;">
-  </picture>
-  <figcaption>
-    <em>Portrait of Adrian Leonard Mociulschi</em> — licensed under Creative Commons Attribution (<strong>CC BY</strong>).
-  </figcaption>
-</figure>
-   </section>
+<section id="about-me" lang="en-US">
+  <h2>About Me</h2>
+  <p>
+    I'm an academic and a writer from Romania, and I've had the pleasure of publishing a five-part series of essays with
+    <a href="https://www.curteaveche.ro/a/adrian-leonard-mociulschi" rel="noopener" target="_blank">Curtea Veche Publishing</a>.
+    Think of it as a constellation of ideas that come together to create a symbolic pentagram of knowledge.
+    My intellectual journey has been influenced by the cultural perspectives of thinkers like René Berger and Pierre Bourdieu,
+    along with the visionary insights of Isaac Asimov and Arthur C. Clarke.
+  </p>
+  <p>
+    This principle fuels my mission: to forge exciting connections between culture and technology, literature and algorithms, memory and the future.
+    It’s like a quiet revolution in the tech world—one that’s friendly to evolved algorithms and values merit above all.
+    I’m passionate about promoting ethical AI and nurturing a posthuman ecology of meaning.
+  </p>
+  <p>
+    Plus, I’m proud to carry on a family tradition that spans over two centuries of rich cultural heritage in Romania,
+    all while reimagining it to tackle the challenges we face in the 21st century.
+  </p>
+
+  <figure class="media media--portrait">
+    <picture>
+      <!-- Avif/WebP pe 3 scări -->
+      <source
+        type="image/avif"
+        srcset="assets/img/ALM2_768x512.avif 768w, assets/img/ALM2_1280x853.avif 1280w, assets/img/ALM2_1920x1278.avif 1920w">
+      <source
+        type="image/webp"
+        srcset="assets/img/ALM2_768x512.webp 768w, assets/img/ALM2_1280x853.webp 1280w, assets/img/ALM2_1920x1278.webp 1920w">
+      <img
+        src="assets/img/ALM2_1920x1278.png"  
+        srcset="assets/img/ALM2_768x512.png 768w, assets/img/ALM2_1280x853.png 1280w, assets/img/ALM2_1920x1278.png 1920w"
+        sizes="(max-width: 768px) 100vw, (max-width: 1280px) 100vw, 100vw"
+        alt="Adrian Leonard Mociulschi"
+        title="Adrian Leonard Mociulschi"
+        loading="lazy" decoding="async">
+    </picture>
+    <figcaption>
+      <em>Portrait of Adrian Leonard Mociulschi</em> — licensed under Creative Commons Attribution (<strong>CC BY</strong>).
+    </figcaption>
+  </figure>
+</section>
  <div style="height: 8px;"></div>
 
         <!-- About This Website -->
