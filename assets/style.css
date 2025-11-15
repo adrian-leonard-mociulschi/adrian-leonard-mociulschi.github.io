@@ -308,39 +308,20 @@ html{ scroll-behavior: smooth; }
   }
 }
 
-/* === Images: centered and uniform size === */
-img,
-a > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-  float: none; /* neutralizes inherited flotations */
+/* === Imagini aliniate cu paragrafe (justify) === */
+.content-card img,
+.content-card a > img {
+    display: block;
+    width: 100%; /* imaginea ocupă toată lățimea containerului text */
+    height: auto;
+    margin: 0; /* elimină marginile implicite */
+    text-align: justify; /* se aliniază în fluxul textului */
 }
 
-/* A media container with a uniform width for all images, which must all be the same. */
-picture,
-.media {
-  display: block;
-  max-width: 1200px;  /* <- set a single value (1000, 1100, or 1200 px). */
-  margin: 0 auto;     /* center the container */
-}
-
-/* If you have galleries or flex containers that pull content to the left */
-.center-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* optional, upright */
-  flex-wrap: wrap;     /* optionally, on multiple rows */
-  gap: .75rem;         /* spacing between images */
-}
-
-/* (Optional) neutralizes old classes that can force float */
-.alignleft img,
-.alignright img,
-img[style*="float"] {
-  float: none !important;
+/* Dacă vrei ca textul și imaginea să fie perfect integrate */
+.content-card p,
+.content-card img {
+    text-align: justify;
 }
 
 .project-name {
