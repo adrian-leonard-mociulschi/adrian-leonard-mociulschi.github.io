@@ -72,91 +72,101 @@
 <!-- Structured Data (JSON-LD) -->
 <!-- Structured Data (JSON-LD) — V-BOX -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person",
-        "name": "Adrian Leonard Mociulschi",
-        "url": "https://adrian-leonard-mociulschi.github.io/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#org",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Adrian Leonard Mociulschi",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "V-Box", "item": "https://adrian-leonard-mociulschi.github.io/vbox" }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page",
+      "url": "https://adrian-leonard-mociulschi.github.io/vbox",
+      "name": "V-Box — Symbolic Video Archive",
+      "headline": "V-Box — Symbolic Video Archive",
+      "description": "A symbolic video archive by Adrian Leonard Mociulschi. Reflections on memory, honor, and digital presence.",
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "inLanguage": "en-US",
+      "about": [
+        { "@type": "Thing", "name": "symbolic video archive" },
+        { "@type": "Thing", "name": "technoculture" },
+        { "@type": "Thing", "name": "ethical AI" },
+        { "@type": "Thing", "name": "music and technology" },
+        { "@type": "Thing", "name": "cognitive mapping" }
+      ],
+      "creator": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
+      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs" },
+      "mainEntity": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#items" },
+      "hasPart": [
+        { "@id": "https://www.youtube.com/watch?v=ABazphal8Ug" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#items",
+      "name": "V-Box Items",
+      "itemListOrder": "ItemListOrderDescending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Mociulschi's blog teaser",
+          "item": { "@id": "https://www.youtube.com/watch?v=ABazphal8Ug" }
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=ABazphal8Ug",
+      "name": "Mociulschi's blog teaser",
+      "description": "Discover the symbolic universe of Adrian Leonard Mociulschi — writer, composer, and ambassador of technoculture.",
+      "inLanguage": "en-US",
+      "uploadDate": "2025-10-24T00:00:00+02:00",
+      "embedUrl": "https://www.youtube.com/embed/ABazphal8Ug",
+      "contentUrl": "https://www.youtube.com/watch?v=ABazphal8Ug",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"
+      ],
+      "thumbnail": {
+        "@type": "ImageObject",
+        "url": "https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"
       },
-      {
-        "@type": "Organization",
-        "@id": "https://adrian-leonard-mociulschi.github.io/#org",
-        "name": "Adrian Leonard Mociulschi",
-        "url": "https://adrian-leonard-mociulschi.github.io/"
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://adrian-leonard-mociulschi.github.io/#website",
-        "url": "https://adrian-leonard-mociulschi.github.io/",
-        "name": "Adrian Leonard Mociulschi",
-        "inLanguage": "en-US",
-        "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
-          { "@type": "ListItem", "position": 2, "name": "V-Box", "item": "https://adrian-leonard-mociulschi.github.io/vbox" }
-        ]
-      },
-      {
-        "@type": "CollectionPage",
-        "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page",
-        "url": "https://adrian-leonard-mociulschi.github.io/vbox",
-        "name": "V-Box — Symbolic Video Archive",
-        "headline": "V-Box — Symbolic Video Archive",
-        "description": "A symbolic video archive by Adrian Leonard Mociulschi. Reflections on memory, honor, and digital presence.",
-        "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
-        "inLanguage": "en-US",
-        "about": [
-          { "@type": "Thing", "name": "symbolic video archive" },
-          { "@type": "Thing", "name": "technoculture" },
-          { "@type": "Thing", "name": "ethical AI" },
-          { "@type": "Thing", "name": "music and technology" },
-          { "@type": "Thing", "name": "cognitive mapping" }
-        ],
-        "creator": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-        "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
-        "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs" },
-        "mainEntityOfPage": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" },
-        "mainEntity": {
-          "@type": "ItemList",
-          "itemListOrder": "ItemListOrderDescending",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Mociulschi's blog teaser",
-              "item": "https://www.youtube.com/watch?v=ABazphal8Ug"
-            }
-          ]
-        },
-        "hasPart": [
-          {
-            "@type": "VideoObject",
-            "@id": "https://www.youtube.com/watch?v=ABazphal8Ug",
-            "name": "Mociulschi's blog teaser",
-            "description": "Discover the symbolic universe of Adrian Leonard Mociulschi — writer, composer, and ambassador of technoculture.",
-            "uploadDate": "2025-10-24T00:00:00+03:00",
-            "embedUrl": "https://www.youtube.com/embed/ABazphal8Ug",
-            "contentUrl": "https://www.youtube.com/watch?v=ABazphal8Ug",
-            "thumbnailUrl": ["https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"],
-            "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
-            "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" },
-            "potentialAction": {
-              "@type": "WatchAction",
-              "target": "https://www.youtube.com/watch?v=ABazphal8Ug"
-            }
-          }
-        ]
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" },
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://www.youtube.com/watch?v=ABazphal8Ug"
       }
-    ]
-  }
-    </script>
+    }
+  ]
+}
+</script>
   </head>
 <body>
 
