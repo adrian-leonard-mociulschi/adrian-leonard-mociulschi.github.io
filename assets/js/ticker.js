@@ -23,6 +23,6 @@ window.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.news-ticker').forEach(t => t.classList.add('is-running'));
 
   // setează dinamic mesajul dorit
-  setTickerText('.ticker-red', '“The sky no longer belongs to birds” — editorial by Adrian Leonard Mociulschi in România Liberă on mountain troops and the algorithmic frontier');
-  setTickerText('.ticker-yellow', 'Contributors publishes Adrian Leonard Mociulschi’s editorial: “Vanished Aircraft and the Fragility of Progress” — a reflection on myth, algorithms, and uncertainty');
+  setTickerText('.ticker-red', '"The sky no longer belongs to birds" — editorial by Adrian Leonard Mociulschi in România Liberă on mountain troops and the algorithmic frontier');
+  setTickerText('.ticker-yellow', 'Contributors publishes Adrian Leonard Mociulschi’s editorial: "Arch of Noah: The Age of Red Codes" — about algorithmic alerts, symbolic overload, and trust erosion');
 });
