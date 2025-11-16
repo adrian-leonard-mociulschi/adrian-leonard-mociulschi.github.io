@@ -1,39 +1,58 @@
-// sw-register.js — încarcă și actualizează automat Service Worker-ul
+// sw-register.js — NASA-level optimized Service Worker registration
 (function () {
-  if (!('serviceWorker' in navigator)) return;
+  // Check for Service Worker support
+  if (!('serviceWorker' in navigator)) {
+    console.warn('[SW] Service Workers not supported in this browser');
+    return;
+  }
 
   let reloaded = false;
 
+  // Use BroadcastChannel if available for SW status notifications
+  const bc = ('BroadcastChannel' in window) ? new BroadcastChannel('sw-updates') : null;
+
   window.addEventListener('load', async () => {
     try {
-      // Înregistrează SW (asigură-te că /sw.js e în rădăcină)
+      // Register the Service Worker (ensure /sw.js is at root for scope '/')
       const reg = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+      console.info('[SW] Registered successfully:', reg);
 
-      // Caută versiune nouă de SW
+      // Force update check immediately after registration
       await reg.update();
 
-      // Dacă există un SW în waiting, cere activare imediată
-      if (reg.waiting) reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+      // If a waiting SW exists, request immediate activation
+      if (reg.waiting) {
+        console.info('[SW] Found waiting SW, sending SKIP_WAITING');
+        reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+      }
 
-      // Reîncarcă o singură dată când controllerul se schimbă (intră noul SW)
+      // Reload page once when controller changes (new SW takes control)
       navigator.serviceWorker.addEventListener('controllerchange', () => {
         if (reloaded) return;
         reloaded = true;
+        console.info('[SW] Controller changed, reloading page');
+        if (bc) bc.postMessage({ type: 'RELOADING' });
         location.reload();
       });
 
-      // Dacă apare un SW nou, grăbește activarea
+      // Detect new SW installation and accelerate activation
       reg.addEventListener('updatefound', () => {
         const sw = reg.installing;
         if (!sw) return;
+        console.info('[SW] Update found, state:', sw.state);
         sw.addEventListener('statechange', () => {
+          console.info('[SW] State changed to', sw.state);
           if (sw.state === 'installed' && navigator.serviceWorker.controller) {
+            console.info('[SW] New SW installed, sending SKIP_WAITING');
             sw.postMessage({ type: 'SKIP_WAITING' });
+            if (bc) bc.postMessage({ type: 'NEW_VERSION_READY' });
           }
         });
       });
+
     } catch (e) {
-      console.warn('[SW] register/update failed', e);
+      console.error('[SW] Registration or update failed:', e);
+      if (bc) bc.postMessage({ type: 'SW_ERROR', error: e.message });
     }
   });
 })();
