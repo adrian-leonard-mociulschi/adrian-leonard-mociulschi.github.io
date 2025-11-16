@@ -1,13 +1,12 @@
-// sw.js — Adrian (state-of-the-art, cap–coadă)
-// ► Bump VERSION la fiecare deploy major (activează cache nou + purge vechi)
-const VERSION = 'v20';
+// sw.js — Optimized Service Worker (state-of-the-art)
+// VERSION bump for cache-busting
+const VERSION = 'v21';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
   images: `adi-images-${VERSION}`
 };
 
-// Pagini pentru offline fallback (NU punem CSS aici — îl tratăm separat, network-first)
 const PRECACHE_PAGES = [
   '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html'
 ];
@@ -17,6 +16,9 @@ const PRECACHE_ASSETS = [
   '/assets/img/Favicon-new.ico',
   '/manifest.json'
 ];
+
+// BroadcastChannel for notifying clients about updates
+const bc = ('BroadcastChannel' in self) ? new BroadcastChannel('sw-updates') : null;
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -32,25 +34,22 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    // 1) Enable navigation preload where supported (navigații mai rapide)
     if (self.registration.navigationPreload) {
       try { await self.registration.navigationPreload.enable(); } catch {}
     }
-    // 2) Purge all old caches
     const keep = new Set(Object.values(CACHES));
     const names = await caches.keys();
     await Promise.all(names.map((n) => (keep.has(n) ? undefined : caches.delete(n))));
-    // 3) Claim control imediat
     await self.clients.claim();
+    if (bc) bc.postMessage({ type: 'SW_ACTIVATED', version: VERSION });
   })());
 });
 
-// Permite forțarea activării imediat (din pagină): postMessage({type:'SKIP_WAITING'})
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
-// Utilitar: limitează numărul de intrări dintr-un cache (FIFO simplu)
+// Limit cache entries globally
 async function limitCache(cacheName, maxEntries = 60) {
   const cache = await caches.open(cacheName);
   const keys = await cache.keys();
@@ -58,13 +57,16 @@ async function limitCache(cacheName, maxEntries = 60) {
   for (let i = 0; i < extra; i++) await cache.delete(keys[i]);
 }
 
+// Optional: Placeholder for Background Sync registration
+// self.addEventListener('sync', (event) => { /* handle queued requests */ });
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
   const url = new URL(event.request.url);
   const dest = event.request.destination;
 
-  // 1) Navigații: network-first cu preload; fallback la /index.html offline
+  // Navigation: network-first with preload, fallback offline
   if (event.request.mode === 'navigate') {
     event.respondWith((async () => {
       try {
@@ -80,7 +82,10 @@ self.addEventListener('fetch', (event) => {
         return (await cache.match(event.request)) ||
                (await cache.match('/index.html')) ||
                new Response('<h1>Offline</h1><p>Pagina nu este disponibilă.</p>', {
-                 headers: {'Content-Type': 'text/html'},
+                 headers: {
+                   'Content-Type': 'text/html',
+                   'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'"
+                 },
                  status: 504,
                  statusText: 'Offline'
                });
@@ -89,7 +94,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 2) CSS: network-first (fără stocarea din browser cache), apoi cache în assets
+  // CSS: network-first, then cache
   if (dest === 'style' || url.pathname.endsWith('.css')) {
     event.respondWith((async () => {
       try {
@@ -102,16 +107,13 @@ self.addEventListener('fetch', (event) => {
       } catch {
         const cache = await caches.open(CACHES.assets);
         const hit = await cache.match(event.request);
-        return hit || new Response('/* CSS unavailable */', {
-          status: 504,
-          statusText: 'CSS unavailable'
-        });
+        return hit || new Response('/* CSS unavailable */', { status: 504 });
       }
     })());
     return;
   }
 
-  // 3) Imagini/SVG/ICO: stale-while-revalidate (+ limitare intrări)
+  // Images: stale-while-revalidate
   if (dest === 'image' || /\.(png|jpe?g|gif|webp|svg|ico|avif|bmp)$/i.test(url.pathname)) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHES.images);
@@ -128,7 +130,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 4) Restul: cache-first din assets, apoi rețea, apoi populate cache
+  // Other: cache-first, then network
   event.respondWith((async () => {
     const cache = await caches.open(CACHES.assets);
     const cached = await cache.match(event.request);
