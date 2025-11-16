@@ -72,7 +72,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Structured Data (JSON-LD) -->
- <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -82,7 +82,13 @@
       "name": "Adrian Leonard Mociulschi",
       "description": "Academic profile of Adrian Leonard Mociulschi — author, university lecturer, and symbolic ambassador of technoculture.",
       "url": "https://adrian-leonard-mociulschi.github.io/",
-      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person-image",
+        "url": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+        "width": 1200,
+        "height": 630
+      },
       "sameAs": [
         "https://orcid.org/0009-0006-9328-8518",
         "https://revistacultura.ro/author/adrian-mociulschi/",
@@ -111,10 +117,18 @@
       "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#cover",
+      "url": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "width": 1200,
+      "height": 630,
+      "caption": "Adrian Leonard Mociulschi — technoculture"
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://adrian-leonard-mociulschi.github.io/about#breadcrumbs",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
+        { "@type": "ListItem", "position": 1, "name": "Home",  "item": "https://adrian-leonard-mociulschi.github.io/" },
         { "@type": "ListItem", "position": 2, "name": "About", "item": "https://adrian-leonard-mociulschi.github.io/about" }
       ]
     },
@@ -127,8 +141,17 @@
       "description": "Academic profile, mission, publications, and technocultural work of Adrian Leonard Mociulschi.",
       "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
       "inLanguage": "en-US",
-      "keywords": "Adrian Leonard Mociulschi, technoculture, ethical AI, posthumanism, cultural infrastructure, Romania, university lecturer",
-      "image": "https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png",
+      "keywords": [
+        "Adrian Leonard Mociulschi",
+        "technoculture",
+        "ethical AI",
+        "posthumanism",
+        "cultural infrastructure",
+        "Romania",
+        "university lecturer"
+      ],
+      "image": { "@id": "https://adrian-leonard-mociulschi.github.io/#cover" },
+      "primaryImageOfPage": { "@id": "https://adrian-leonard-mociulschi.github.io/#cover" },
       "about": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
       "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
       "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
@@ -141,7 +164,7 @@
     }
   ]
 }
-    </script>
+</script>
   </head>
 <body>
 
