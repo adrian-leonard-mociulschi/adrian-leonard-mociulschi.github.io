@@ -82,7 +82,7 @@
     initTickers();
 
     // Exemple de setări explicite (comentate):
-    // setTickerText('.ticker-red', 'Read Opinions & Editorials by Adrian Leonard Mociulschi in România Liberă');
-    // setTickerText('.ticker-yellow', 'Check out the latest articles by Adrian Leonard Mociulschi in Contributors.ro');
+    setTickerText('.ticker-red', 'Read Opinions & Editorials by Adrian Leonard Mociulschi in România Liberă');
+    setTickerText('.ticker-yellow', 'Check out the latest articles by Adrian Leonard Mociulschi in Contributors.ro');
   });
 })();
