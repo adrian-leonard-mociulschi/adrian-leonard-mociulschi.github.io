@@ -37,7 +37,10 @@
 
   <tags>Romanian Military, Algorithms, Defense Systems, Technoculture, Ethics</tags>
 
-  <description>Honor meets code on a new frontline</description>
+  <description><![CDATA[
+    Honor meets code on a new frontline<br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Honor and Algorithms" width="512" height="512" />
+  ]]></description>
 
   <content:encoded><![CDATA[
     <p><strong>Through the voices of Romanian military leaders</strong>, this article traces the evolution of the mountain troops from WWII trenches to today’s algorithm‑driven defense systems—honor meeting code on a new frontline.</p>
@@ -75,7 +78,10 @@
 
   <tags>Autonomy, Human Oversight, Drones, Algorithms, Ethics</tags>
 
-  <description>Autonomy demands oversight</description>
+  <description><![CDATA[
+    Autonomy demands oversight<br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="The Future Has No Autopilot" width="512" height="512" />
+  ]]></description>
 
   <content:encoded><![CDATA[
     <p><strong>Explores why autonomy in tech demands human oversight</strong>—rethinking drones, algorithms, and ethics to ensure responsibility in a fast-moving future.</p>
@@ -113,7 +119,10 @@
 
   <tags>Algorithms, Ethics, EU Politics, Attention Economy, Transparency</tags>
 
-  <description>Algorithms and ethics</description>
+  <description><![CDATA[
+    Algorithms and ethics<br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="The Murmur of Code" width="512" height="512" />
+  ]]></description>
 
   <content:encoded><![CDATA[
     <p><strong>How algorithms reshape online visibility</strong>, influence political discourse within the EU, and challenge the ethics of the attention economy—advocating transparency and a human‑centered digital presence.</p>
@@ -151,7 +160,10 @@
 
   <tags>Algorithms, Coexistence, Machine Intelligence, Ethics, Cultural Space</tags>
 
-  <description>Algorithms as living forms</description>
+  <description><![CDATA[
+    Algorithms as living forms<br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Algorithms as Living Forms" width="512" height="512" />
+  ]]></description>
 
   <content:encoded><![CDATA[
     <p><strong>This essay explores the symbolic and ethical dimensions of algorithms as living forms</strong>, proposing a new framework for coexistence between human and machine intelligences in a shared cultural space.</p>
