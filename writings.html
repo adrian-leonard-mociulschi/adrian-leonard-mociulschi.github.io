@@ -1128,32 +1128,16 @@
   </p>
 </footer>
 
-  <button id="goTop" class="go-top go-top--liquid" aria-label="Go to top">
+  <!-- Go-To-Top Button -->
+<button id="goTop" class="go-top go-top--liquid" aria-label="Go to top">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
     <path d="M12 19V5M5 12l7-7 7 7"/>
   </svg>
 </button>
 
-<script>
-(function(){
-  var btn = document.getElementById('goTop');
-  if(!btn) return;
+<!-- Include JS file for Go-To-Top functionality -->
+<script src="js/go-top.js"></script>
 
-  var showAt = 400;
-  function toggle(){
-    var y = window.scrollY || document.documentElement.scrollTop || 0;
-    btn.classList.toggle('visible', y > showAt);
-  }
-  window.addEventListener('scroll', toggle, { passive: true });
-  toggle();
-
-  function scrollTop(){
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-  btn.addEventListener('click', scrollTop);
-  btn.addEventListener('touchstart', scrollTop); // iOS fix
-})();
-</script>
   </body>
 </html>
 
