@@ -276,6 +276,94 @@
             Adrian Leonard Mociulschi on ResearchGate
           </a>
         </p>
+          
+        <!-- === RSS Widget (Bookllo) — Elegant & Responsive === -->
+<section class="rss-widget" aria-labelledby="rss-title">
+  <h2 id="rss-title">Ultimele articole</h2>
+  <div class="rss-frame-wrap">
+    <iframe
+      src="https://rssfeed.bookllo.com/?url=https://adrian-leonard-mociulschi.github.io"
+      title="Flux RSS – Adrian Leonard Mociulschi"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      sandbox="allow-scripts allow-same-origin"
+    ></iframe>
+  </div>
+</section>
+
+<style>
+  :root {
+    --rss-max-w: 900px;
+    --rss-radius: 14px;
+    --rss-shadow: 0 10px 24px rgba(0,0,0,.12), 0 1px 3px rgba(0,0,0,.06);
+    --rss-border: 1px solid rgba(0,0,0,.08);
+    --rss-bg: #ffffff;
+    --rss-title: #111827;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --rss-shadow: 0 10px 24px rgba(0,0,0,.45), 0 1px 3px rgba(0,0,0,.35);
+      --rss-border: 1px solid rgba(255,255,255,.08);
+      --rss-bg: #0b0c0f;
+      --rss-title: #e5e7eb;
+    }
+  }
+
+  .rss-widget {
+    max-width: var(--rss-max-w);
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  .rss-widget h2 {
+    margin: 0 0 0.75rem 0;
+    font: 600 1.25rem/1.3 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--rss-title);
+    letter-spacing: .2px;
+  }
+
+  .rss-frame-wrap {
+    position: relative;
+    background: var(--rss-bg);
+    border: var(--rss-border);
+    border-radius: var(--rss-radius);
+    box-shadow: var(--rss-shadow);
+    overflow: hidden;
+  }
+
+  /* Responsive aspect: pe mobil mai „înalt”, pe desktop mai compact */
+  .rss-frame-wrap::before {
+    content: "";
+    display: block;
+    /* Înălțime implicită: 640px (prin aspect ratio aproximativ) */
+    padding-top: 70vh; /* fallback vizual pe mobil */
+    max-height: 680px; /* nu permite să devină exagerat de înalt */
+  }
+
+  @media (min-width: 600px) {
+    .rss-frame-wrap::before {
+      padding-top: 56.25%; /* 16:9 pe ecrane medii+ */
+      max-height: none;
+    }
+  }
+
+  .rss-frame-wrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: transparent;
+  }
+
+  /* Micro-interacțiune discretă */
+  .rss-frame-wrap:hover {
+    transform: translateY(-1px);
+    transition: transform .25s ease;
+  }
+</style>
+
       </section>
     </div>
   </main>
