@@ -23,6 +23,6 @@ window.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.news-ticker').forEach(t => t.classList.add('is-running'));
 
   // setează dinamic mesajul dorit
-  setTickerText('.ticker-red', '"The sky no longer belongs to birds" — editorial by Adrian Leonard Mociulschi in România Liberă on mountain troops and the algorithmic frontier');
-  setTickerText('.ticker-yellow', 'Contributors publishes Adrian Leonard Mociulschi’s editorial: "Arch of Noah: The Age of Red Codes" — about algorithmic alerts, symbolic overload, and trust erosion');
+  setTickerText('.ticker-red', 'Read Opinions & Editorials by Adrian Leonard Mociulschi in România Liberă');
+  setTickerText('.ticker-yellow', 'Check out the latest articles by Adrian Leonard Mociulschi in Contributors.ro');
 });
