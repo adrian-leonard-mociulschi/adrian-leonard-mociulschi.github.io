@@ -314,8 +314,7 @@ html{ scroll-behavior: smooth; }
 
 /* 2) Paragrafele rămân justify, fără efect pe img */
 .content-card p {
-  text-align: justify;
-  margin: 0 0 1rem;        /* ajustează după gust */
+  text-align: left; /* sau start pentru suport modern */
 }
 
 /* 3) Imagini pe toată lățimea containerului textului */
