@@ -302,147 +302,89 @@
   }
 </style>
 
-<script>
-/**
- * RSS/Atom reader nativ – fără dependențe.
- * Funcționează pe GitHub Pages pentru feed-ul tău (same-origin).
- * Dacă feed-ul e pe alt domeniu, serverul trebuie să aibă CORS permis.
- */
-(async () => {
-  const FEED_URL = 'https://adrian-leonard-mociulschi.github.io/feed.xml'; // dacă ai altă rută, modifică aici
-  const LIMIT = 12;            // câte articole afișezi
-  const TARGET = '_blank';     // deschide în tab nou
-  const LOCALE = 'ro-RO';      // localizare dată
+<!-- === Native RSS/Atom Widget — same-origin, no dependencies === -->
+<section id="feed" aria-labelledby="feed-title">
+  <h2 id="feed-title">Ultimele articole</h2>
+  <ul id="feed-list" class="feed-list"><li>Se încarcă…</li></ul>
+</section>
 
+<style>
+  #feed { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+  #feed-title { margin: 0 0 .75rem; font: 600 1.25rem/1.3 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+  .feed-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+  .feed-list li { padding: .8rem 1rem; border: 1px solid rgba(0,0,0,.12); border-radius: 10px; background: #fff; }
+  .feed-list a { color: inherit; text-decoration: none; }
+  .feed-list a:hover { text-decoration: underline; }
+  .feed-list time { display: block; color: #6b7280; font-size: .875rem; margin-top: .25rem; }
+  @media (prefers-color-scheme: dark) {
+    .feed-list li { background: #0b0c0f; border-color: rgba(255,255,255,.12); }
+    #feed-title { color: #e5e7eb; }
+    .feed-list time { color: #9ca3af; }
+  }
+</style>
+
+<script>
+(async () => {
+  // IMPORTANT: folosim rute relative pentru same-origin (evităm CORS)
+  const CANDIDATES = ['feed.xml', 'index.xml', 'atom.xml'].map(p => new URL(p, location.href).pathname);
+  const LIMIT  = 12;
+  const TARGET = '_blank';
+  const LOCALE = 'ro-RO';
   const listEl = document.getElementById('feed-list');
 
-  function txt(n, sel, attr) {
-    const el = n.querySelector(sel);
-    if (!el) return '';
-    if (attr) return el.getAttribute(attr) || '';
-    return (el.textContent || '').trim();
-  }
+  const sel = (n, s) => n.querySelector(s);
+  const txt = (n, s, a) => { const el = sel(n, s); return el ? (a ? (el.getAttribute(a) || '') : (el.textContent || '').trim()) : ''; };
+  const first = (...v) => { for (const x of v) if (x && String(x).trim()) return String(x).trim(); return ''; };
+  const strip = (html) => { const t=document.createElement('div'); t.innerHTML=html; t.querySelectorAll('script,style').forEach(e=>e.remove()); return t.textContent?.trim()||''; };
+  const fmtDate = (d) => { try{ return new Intl.DateTimeFormat(LOCALE,{year:'numeric',month:'long',day:'numeric'}).format(d);}catch{ return d.toISOString().slice(0,10);} };
 
-  function firstNonEmpty(...vals) {
-    for (const v of vals) if (v && String(v).trim()) return String(v).trim();
-    return '';
-  }
-
-  function parseItems(xml) {
-    // Suport atât RSS 2.0 (item) cât și Atom (entry)
-    const items = [...xml.querySelectorAll('item, entry')].map(n => {
-      const isAtom = n.tagName.toLowerCase() === 'entry';
-
-      // TITLU
-      const title = txt(n, 'title') || 'Fără titlu';
-
-      // LINK
-      let link = '';
-      if (isAtom) {
-        // <link rel="alternate" href="...">
-        const alt = n.querySelector('link[rel="alternate"][href]');
-        link = alt?.getAttribute('href') || txt(n, 'link', 'href') || txt(n, 'link');
-      } else {
-        link = txt(n, 'link');
-      }
-
-      // DATA
-      const dateRaw = firstNonEmpty(
-        txt(n, 'pubDate'),
-        txt(n, 'updated'),
-        txt(n, 'published'),
-        txt(n, 'dc\:date') // uneori în namespace Dublin Core
-      );
+  function parse(xml){
+    return [...xml.querySelectorAll('item, entry')].map(n=>{
+      const atom = n.tagName.toLowerCase()==='entry';
+      const title = txt(n,'title') || 'Fără titlu';
+      const link  = atom ? (sel(n,'link[rel="alternate"][href]')?.getAttribute('href') || txt(n,'link','href') || txt(n,'link')) : txt(n,'link');
+      const dateRaw = first(txt(n,'pubDate'), txt(n,'updated'), txt(n,'published'), txt(n,'dc\:date'));
       const dateObj = dateRaw ? new Date(dateRaw) : null;
-
-      // SUMMARY / DESCRIPTION (opțional, scurt)
-      const summary = firstNonEmpty(
-        txt(n, 'summary'),
-        txt(n, 'description'),
-        txt(n, 'content'),
-        txt(n, 'content\:encoded')
-      );
-
-      // imagine/enclosure (opțional)
-      let image = '';
-      const enclosure = n.querySelector('enclosure[url][type^="image/"]');
-      if (enclosure) image = enclosure.getAttribute('url') || '';
-      if (!image) {
-        const media = n.querySelector('media\:content[url][type^="image/"], content[url][type^="image/"]');
-        if (media) image = media.getAttribute('url') || '';
-      }
-
+      const summary = first(txt(n,'summary'), txt(n,'description'), txt(n,'content'), txt(n,'content\:encoded'));
+      let image = sel(n,'enclosure[url][type^="image/"]')?.getAttribute('url') || '';
+      if(!image) image = sel(n,'media\:content[url][type^="image/"], content[url][type^="image/"]')?.getAttribute('url') || '';
       return { title, link, dateRaw, dateObj, summary, image };
     });
-
-    return items;
   }
 
-  function formatDate(d) {
-    try {
-      return new Intl.DateTimeFormat(LOCALE, { year:'numeric', month:'long', day:'numeric' }).format(d);
-    } catch {
-      return d.toISOString().slice(0, 10);
-    }
-  }
-
-  function strip(html) {
-    const tmp = document.createElement('div');
-    tmp.innerHTML = html;
-    // Eliminăm elementele script/style de siguranță
-    tmp.querySelectorAll('script, style').forEach(e => e.remove());
-    return tmp.textContent?.trim() || '';
+  async function getXML(url){
+    const r = await fetch(url, { headers:{ 'Accept':'application/rss+xml, application/atom+xml, application/xml, text/xml' }, cache:'no-store' });
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const t = await r.text();
+    const xml = new DOMParser().parseFromString(t, 'application/xml');
+    if (xml.querySelector('parsererror')) throw new Error('parsererror');
+    return xml;
   }
 
   try {
-    const res = await fetch(FEED_URL, {
-      headers: { 'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml' },
-      cache: 'no-store'
-    });
-    if (!res.ok) throw new Error(`Fetch a eșuat: ${res.status} ${res.statusText}`);
-
-    const text = await res.text();
-    const xml = new DOMParser().parseFromString(text, 'application/xml');
-
-    // Verificăm erori de parsare
-    if (xml.querySelector('parsererror')) {
-      throw new Error('Eroare de parsare XML – verifică validitatea feed-ului.');
+    let xml=null; let used='';
+    for(const u of CANDIDATES){
+      try { xml = await getXML(u); used=u; break; } catch(e) { /* încearcă următorul */ }
     }
+    if(!xml) throw new Error('Nu am găsit feed la /feed.xml, /index.xml sau /atom.xml');
 
-    const all = parseItems(xml).filter(x => x.link);
-    const items = all.slice(0, LIMIT);
+    const items = parse(xml).filter(x=>x.link).slice(0, LIMIT);
+    if(!items.length){ listEl.innerHTML = '<li>Niciun articol găsit în '+used+'.</li>'; return; }
 
-    if (!items.length) {
-      listEl.innerHTML = '<li>Niciun articol găsit.</li>';
-      return;
-    }
-
-    listEl.innerHTML = items.map(({ title, link, dateObj, dateRaw, summary, image }) => {
-      const when = dateObj && !isNaN(dateObj) ? `
-        <time datetime="${dateObj.toISOString()}">${formatDate(dateObj)}</time>
-      ` : (dateRaw ? `<time>${strip(dateRaw)}</time>` : '');
-
-      const brief = summary ? strip(summary).slice(0, 220) : '';
+    listEl.innerHTML = items.map(({title,link,dateObj,dateRaw,summary,image})=>{
+      const when = dateObj && !isNaN(dateObj) ? `<time datetime="${dateObj.toISOString()}">${fmtDate(dateObj)}</time>`
+                : (dateRaw ? `<time>${strip(dateRaw)}</time>` : '');
+      const brief = summary ? strip(summary).slice(0,220) : '';
       const more  = brief && summary && summary.length > 220 ? '…' : '';
-
-      const imgTag = image ? `<div style="margin:.5rem 0 .25rem"><img src="${image}" alt="" style="max-width:100%;border-radius:8px"/></div>` : '';
-
-      return `
-        <li>
-          <a href="${link}" target="${TARGET}" rel="noopener noreferrer">${title}</a>
-          ${when}
-          ${imgTag}
-          ${brief ? `<p style="margin:.35rem 0 0;color:#374151">${brief}${more}</p>` : ''}
-        </li>
-      `;
+      const img   = image ? `<div style="margin:.5rem 0 .25rem"><img src="${image}" alt="" style="max-width:100%;border-radius:8px"></div>` : '';
+      return `<li><a href="${link}" target="${TARGET}" rel="noopener noreferrer">${title}</a>${when}${img}${brief?`<p style=\"margin:.35rem 0 0;color:#374151\">${brief}${more}</p>`:''}</li>`;
     }).join('');
-  } catch (err) {
-    console.error(err);
-    listEl.innerHTML = '<li>Erore la încărcarea feed-ului.</li>';
+  } catch (e) {
+    console.error(e);
+    listEl.innerHTML = '<li><strong>Eroare la încărcarea feed-ului.</strong> Verifică dacă fișierul <code>feed.xml</code> există în rădăcina site-ului și este XML valid.</li>';
   }
 })();
 </script>
-
         
       </section>
     </div>
