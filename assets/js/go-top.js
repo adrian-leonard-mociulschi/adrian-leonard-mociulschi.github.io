@@ -14,9 +14,12 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  // Click event for desktop
   btn.addEventListener('click', scrollTop);
+
+  // Touchend event for iOS fix
   btn.addEventListener('touchend', function(e){
-    e.preventDefault(); // iOS fix
+    e.preventDefault(); // Prevent default tap behavior on iOS
     scrollTop();
   });
 })();
