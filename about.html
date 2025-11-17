@@ -30,7 +30,7 @@
   <!-- Article-specific -->
   <meta property="article:author" content="https://adrian-leonard-mociulschi.github.io/about"/>
   <meta property="article:published_time" content="2025-10-24T00:00:00+02:00"/>
-  <meta property="article:modified_time" content="2025-11-16T00:00:00+02:00"/>
+  <meta property="article:modified_time" content="2025-11-17T00:00:00+02:00"/>
 
   <!-- Twitter Card -->
   <meta name="author" content="Adrian Leonard Mociulschi"/>
@@ -334,28 +334,41 @@
         <defs>
           <linearGradient id="sealGradient" x1="0%" y1="0%" x2="100%">
             <stop offset="0%" stop-color="#10b981">
-              <animate attributeName="stop-color" values="#10b981;#1e6bb8;#10b981" dur="6s" repeatCount="indefinite"/>
+              <animate attributeName="stop-color" values="#10b981;#1e6bb8;#10b981" dur="6s" repeatCount="indefinite"></animate>
             </stop>
             <stop offset="100%" stop-color="#1e6bb8">
-              <animate attributeName="stop-color" values="#1e6bb8;#10b981;#1e6bb8" dur="6s" repeatCount="indefinite"/>
+              <animate attributeName="stop-color" values="#1e6bb8;#10b981;#1e6bb8" dur="6s" repeatCount="indefinite"></animate>
             </stop>
           </linearGradient>
         </defs>
-        <circle cx="150" cy="150" r="120" stroke="url(#sealGradient)" stroke-width="6" fill="none"/>
+        <circle cx="150" cy="150" r="120" stroke="url(#sealGradient)" stroke-width="6" fill="none"></circle>
         <text x="150" y="150" text-anchor="middle" dominant-baseline="middle" class="seal-text">E PUR SI MUOVE</text>
       </svg>
     </div>
   </div>
+
   <p>
-  <p>The <em>AL</em>gorith<em>M</em> r/Evolution Project — proudly hosted on 
+    The <em>AL</em>gorith<em>M</em> r/Evolution Project — proudly hosted on
     <a href="https://github.com" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a>.
   </p>
+
+<footer class="site-footer">
+  <p id="typewriter">© <span id="year"></span></p>
+  <noscript><p>© 2025–present</p></noscript>
 </footer>
 
+<!-- Automatizare an -->
+<script defer>
+  (function () {
+    var yEl = document.getElementById('year');
+    if (yEl) yEl.textContent = new Date().getFullYear();
+  })();
+</script>
+
 <!-- Go-To-Top Button -->
-<button id="goTop" class="go-top go-top--liquid" aria-label="Go to top">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-    <path d="M12 19V5M5 12l7-7 7 7"/>
+<button id="goTop" class="go-top go-top--liquid" aria-label="Go to top" type="button">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+    <path d="M12 19V5M5 12l7-7 7 7"></path>
   </svg>
 </button>
 
