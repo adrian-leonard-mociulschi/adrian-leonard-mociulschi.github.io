@@ -1103,7 +1103,7 @@
       </div>
     </main>
 
-  <footer class="site-footer">
+ <footer class="site-footer">
   <div class="footer-seal">
     <div class="seal-glass">
       <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="seal-svg" aria-labelledby="sealTitle">
@@ -1127,20 +1127,19 @@
   <p>
     The <em>AL</em>gorith<em>M</em> r/Evolution Project — proudly hosted on
     <a href="https://github.com" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a>.
+    <br>
+    © <span id="year"></span>
   </p>
-
-<footer class="site-footer">
-  <p id="typewriter">© <span id="year"></span></p>
   <noscript><p>© 2025–present</p></noscript>
-</footer>
 
-<!-- Automatizare an -->
-<script defer>
-  (function () {
-    var yEl = document.getElementById('year');
-    if (yEl) yEl.textContent = new Date().getFullYear();
-  })();
-</script>
+  <!-- Automatizare an -->
+  <script defer>
+    (function () {
+      var yEl = document.getElementById('year');
+      if (yEl) yEl.textContent = new Date().getFullYear();
+    })();
+  </script>
+</footer>
 
 <!-- Go-To-Top Button -->
 <button id="goTop" class="go-top go-top--liquid" aria-label="Go to top" type="button">
