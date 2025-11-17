@@ -18,8 +18,22 @@ The ontology is published in standard semantic formats:
 These files make the dataset interoperable with the **LOD Cloud** and reusable by researchers, AI systems, and cultural projects.
 
 ## 📦 Releases
-**Official Release:** `v2.0-beta`  
+
+**Official Release:** `v1.0-stable`  
 This marks the first publication of the ontology and its VoID metadata.
+
+**v2.0-beta — The Semantic Turn**  
+Beta Version — A Progressive Web App with advanced features: offline access, RSS integration, liquid glass UI, and cinematic gradients.  
+This is more than a personal site; it’s an open archive for essays, cultural journalism, and semantic code transparency.  
+Explore a multisensory experience blending technology and creativity, and share your feedback for optimization.
+
+**v2.5-beta — Presence Through Code**  
+This release introduces key improvements focused on performance, usability, and information accessibility:  
+– Persistent cache fix for real-time news feed updates  
+– Optimized mobile UX with seamless *Liquid Glass* interaction  
+– Detailed RSS guide for frictionless subscription via third-party aggregators
+
+> *Each release is a symbolic gesture — a step in the choreography of meaning, where code becomes presence and the archive breathes with every iteration.*
 
 ## ⚖️ License
 Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
