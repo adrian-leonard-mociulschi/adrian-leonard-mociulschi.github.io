@@ -57,10 +57,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Styles -->
-<link rel="stylesheet" href="/assets/style.css?v=20251118-23">
+<link rel="stylesheet" href="/assets/style.css?v=20251118-26">
 
   <!-- Ticker JS (cu cache-busting) -->
-<script src="/assets/js/ticker.js?v=20251118-23"></script>  
+<script src="/assets/js/ticker.js?v=20251118-26"></script>  
 
   <!-- Service Worker Registration -->
     <script src="/sw-register.js"></script>
@@ -1163,24 +1163,30 @@
   </head>
 <body>
   
-<!-- Page content -->
+<!-- Ticker block — compatible with sw.js v26 & ticker.js (strict UX, no flicker) -->
+
 <!-- Ticker 1: Red Style -->
-<div class="news-ticker ticker-red" role="region" aria-label="România Liberă – News ticker" aria-live="polite">
+<div class="news-ticker ticker-red"
+     role="region" aria-label="România Liberă – News ticker" aria-live="polite"
+     data-text="Read the editorials written by Adrian Leonard Mociulschi in România Liberă">
   <div class="ticker-track">
-    <span class="ticker-item">Read the editorials written by Adrian Leonard Mociulschi in România Liberă</span>
+    <span class="ticker-item"></span>
   </div>
 </div>
 
 <!-- Ticker 2: Yellow Style -->
-<div class="news-ticker ticker-yellow" role="region" aria-label="Revista Cultura – News ticker" aria-live="polite">
+<div class="news-ticker ticker-yellow"
+     role="region" aria-label="Revista Cultura – News ticker" aria-live="polite"
+     data-text="Follow the latest articles signed by Adrian Leonard Mociulschi in Contributors">
   <div class="ticker-track">
-    <span class="ticker-item">Follow the latest articles signed by Adrian Leonard Mociulschi in Contributors</span>
+    <span class="ticker-item"></span>
   </div>
 </div>
 
-<!-- Include script-ul de control -->
-<script src="/assets/js/ticker.js"></script>
-<script>
+<!-- Control script (non-blocking). Requires /assets/js/ticker.js and sw.js v26 registered on site. -->
+<script src="/assets/js/ticker.js" defer></script>
+  
+  <script>
   // Pornește animația după ce DOM e gata
   window.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.news-ticker').forEach(t => t.classList.add('is-running'));
