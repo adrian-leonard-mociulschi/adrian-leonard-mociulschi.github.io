@@ -82,7 +82,7 @@
     initTickers();
 
     // Exemple de setări explicite (comentate):
-    setTickerText('.ticker-red', 'Read Opinions & Editorials by Adrian Leonard Mociulschi in România Liberă');
+    setTickerText('.ticker-red', 'Nov 18: New on România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided. Read the full analysis now!');
     setTickerText('.ticker-yellow', 'Check out the latest articles by Adrian Leonard Mociulschi in Contributors.ro');
   });
 })();
