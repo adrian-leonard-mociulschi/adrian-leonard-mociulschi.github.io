@@ -463,7 +463,7 @@ body {
 }
 
 /* Durate per bandă prin variabila --dur (suprascrisă din containerul .ticker-track) */
-.ticker-red   .ticker-track  { --dur: 14s; }
+.ticker-red   .ticker-track  { --dur: 22s; }
 .ticker-yellow .ticker-track { --dur: 32s; }
 
 @keyframes tickerSingle {
@@ -472,5 +472,5 @@ body {
 }
 
 /* === NEWS TICKER — override durate diferite (lipeste ULTIMUL in style.css) === */
-.ticker-red   .ticker-track  { --dur: 14s !important; }
+.ticker-red   .ticker-track  { --dur: 22s !important; }
 .ticker-yellow .ticker-track { --dur: 32s !important; }
