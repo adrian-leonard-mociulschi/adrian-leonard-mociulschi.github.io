@@ -1,6 +1,6 @@
 // sw.js — Optimized Service Worker (state-of-the-art)
 // VERSION bump for cache-busting
-const VERSION = 'v22';
+const VERSION = 'v23';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
