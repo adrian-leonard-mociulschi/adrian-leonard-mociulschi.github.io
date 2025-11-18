@@ -82,7 +82,7 @@
     initTickers();
 
     // Exemple de setări explicite (comentate):
-    setTickerText('.ticker-red', 'Nov 18: New on România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided. Read the full analysis now!');
-    setTickerText('.ticker-yellow', 'Check out the latest articles by Adrian Leonard Mociulschi in Contributors.ro');
+    setTickerText('.ticker-red', 'Nov 18: România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided.');
+    setTickerText('.ticker-yellow', 'Nov 16: Contributors – Noah’s Ark in the Age of Red Alerts. How do we rebuild trust without sacrificing clarity?');
   });
 })();
