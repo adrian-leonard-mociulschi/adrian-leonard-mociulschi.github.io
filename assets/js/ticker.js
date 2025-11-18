@@ -1,8 +1,10 @@
+
 // ticker.js — Adrian (robust, no-persist, restart-safe)
 // - Nu folosește cookies/localStorage.
 // - Poate seta textul dinamic pentru oricâte tickere.
 // - Citește implicit mesajul din atributul data-text al fiecărui ticker.
 // - Expune global window.setTickerText(selector, newText) și window.restartTicker(selector).
+// - Integrează cu SW: forțează rețeaua și reacționează la actualizări via BroadcastChannel.
 
 (function(){
   'use strict';
@@ -72,19 +74,61 @@
     });
   }
 
+  // Debounce simplu pentru a evita reporniri multiple în serie
+  function debounce(fn, ms){
+    let t; return function(){
+      clearTimeout(t); const ctx=this, args=arguments;
+      t = setTimeout(() => fn.apply(ctx, args), ms);
+    };
+  }
+
   // Expunem API-ul minimal în global (pentru a putea fi apelat din alte scripturi/console)
   window.setTickerText = setTickerText;
   window.restartTicker = restartTicker;
   window.initTickers = initTickers;
 
+  // Funcție care aplică textele din obiectul JSON: { "selector": "text", ... }
+  function applyTickerMap(map){
+    if (!map || typeof map !== 'object') return;
+    Object.entries(map).forEach(([selector, text]) => setTickerText(selector, text));
+  }
+
+  // Reîncarcă ticKerele din /ticker.json (bypass cache browser + SW tratează normalizarea)
+  const loadTickersFromNetwork = debounce(function(){
+    return fetch('/ticker.json?v=' + Date.now(), { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(applyTickerMap)
+      .catch(() => { /* tăcem; fallback-urile rămân */ });
+  }, 50);
+
   // Auto-init la DOMContentLoaded
   window.addEventListener('DOMContentLoaded', () => {
     initTickers();
 
-    fetch(`/ticker.json?v=${Date.now()}`)
+    // 1) Încearcă să ia textele de pe rețea (cu bypass cache). SW e configurat pentru network-first.
+    loadTickersFromNetwork();
 
-    // Exemple de setări explicite (comentate):
-    setTickerText('.ticker-red', 'Nov 18: România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided.');
-    setTickerText('.ticker-yellow', 'Nov 16: Contributors – Noah’s Ark in the Age of Red Alerts. How do we rebuild trust without sacrificing clarity?');
+    // 2) Fallback-uri locale (opțional): folosite numai dacă nu vine nimic din rețea
+    //    Le putem declanșa cu o mică întârziere; dacă rețeaua aduce JSON, aceste setări
+    //    vor fi suprascrise imediat, deci nu creează flicker vizibil.
+    setTimeout(() => {
+      // Exemple: modifică/șterge după nevoie
+      setTickerText('.ticker-red', 'Nov 18: România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided.');
+      setTickerText('.ticker-yellow', 'Nov 16: Contributors – Noah’s Ark in the Age of Red Alerts. How do we rebuild trust without sacrificing clarity?');
+    }, 120);
   });
+
+  // Integrare cu Service Worker: dacă primim semnal că SW e activat sau există update,
+  // re-încercăm să luăm /ticker.json pentru a reflecta conținutul nou.
+  try {
+    if ('BroadcastChannel' in window) {
+      const bc = new BroadcastChannel('sw-updates');
+      bc.addEventListener('message', (ev) => {
+        if (ev && ev.data && (ev.data.type === 'SW_ACTIVATED' || ev.data.type === 'SW_UPDATED')) {
+          loadTickersFromNetwork();
+        }
+      });
+    }
+  } catch {}
+
 })();
