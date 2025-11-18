@@ -48,7 +48,7 @@ The ontology is published in standard semantic formats:
 These files make the dataset interoperable with the **LOD Cloud** and reusable by researchers, AI systems, and cultural projects.
 
 ## 📸 Screenshots
-*(screenshots or GIFs showcasing the PWA interface and ticker updates will be added soon)*
+![PWA Interface](assets/screenshots/pwa-ticker-mockup.png)
 
 ## 📜 Releases
 **Latest Release:** `v3.0 — Presence Through Code`
@@ -59,6 +59,7 @@ These files make the dataset interoperable with the **LOD Cloud** and reusable b
 Previous versions:
 - `v2.5-beta — Presence Through Code`
 - `v2.0-beta — The Semantic Turn`
+- `v1.0-stable — Genesis Release`
 
 ## ⚖️ License
 Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
