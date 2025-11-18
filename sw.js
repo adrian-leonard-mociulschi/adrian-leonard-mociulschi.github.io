@@ -1,6 +1,6 @@
 // sw.js — Optimized Service Worker (state-of-the-art)
 // VERSION bump for cache-busting
-const VERSION = 'v23';
+const VERSION = 'v24';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -57,9 +57,6 @@ async function limitCache(cacheName, maxEntries = 60) {
   for (let i = 0; i < extra; i++) await cache.delete(keys[i]);
 }
 
-// Optional: Placeholder for Background Sync registration
-// self.addEventListener('sync', (event) => { /* handle queued requests */ });
-
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
@@ -89,6 +86,24 @@ self.addEventListener('fetch', (event) => {
                  status: 504,
                  statusText: 'Offline'
                });
+      }
+    })());
+    return;
+  }
+
+  // Ticker: network-first strategy
+  if (url.pathname.includes('ticker.json')) {
+    event.respondWith((async () => {
+      try {
+        const netResp = await fetch(event.request, { cache: 'no-store' });
+        if (netResp && netResp.ok) {
+          const cache = await caches.open(CACHES.assets);
+          cache.put(event.request, netResp.clone());
+        }
+        return netResp;
+      } catch {
+        const cache = await caches.open(CACHES.assets);
+        return (await cache.match(event.request)) || new Response('{}', { status: 504 });
       }
     })());
     return;
