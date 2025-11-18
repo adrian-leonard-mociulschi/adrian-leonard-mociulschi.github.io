@@ -26,17 +26,18 @@ It provides a semantic and experiential framework for exploring:
 - **HTML Layer** — Data-text fallback, semantic markup, and deferred scripts
 
 ## 📦 Installation
-```bash
-# Clone the repository
-git clone https://github.com/your-username/symbolic-intelligence.git
-cd symbolic-intelligence
 
-# Install dependencies (if applicable)
+```bash
+# Clone the repository (GitHub Pages user site)
+git clone https://github.com/adrian-leonard-mociulschi/adrian-leonard-mociulschi.github.io.git
+cd adrian-leonard-mociulschi.github.io
+
+# Optional: Install dependencies if you use a build system (e.g., npm)
 npm install
 
-# Build and serve
+# Build and serve locally (for testing PWA and ticker updates)
 npm run build
-npm run serve
+npm run serveun serve
 ```
 
 ## 🌐 Linked Open Data
