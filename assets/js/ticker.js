@@ -81,6 +81,8 @@
   window.addEventListener('DOMContentLoaded', () => {
     initTickers();
 
+    fetch(`/ticker.json?v=${Date.now()}`)
+
     // Exemple de setări explicite (comentate):
     setTickerText('.ticker-red', 'Nov 18: România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided.');
     setTickerText('.ticker-yellow', 'Nov 16: Contributors – Noah’s Ark in the Age of Red Alerts. How do we rebuild trust without sacrificing clarity?');
