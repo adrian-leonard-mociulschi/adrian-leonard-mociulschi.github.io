@@ -1,7 +1,6 @@
-
 // sw.js — Optimized Service Worker (state-of-the-art)
 // VERSION bump for cache-busting
-const VERSION = 'v25';
+const VERSION = 'v26';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -42,7 +41,10 @@ self.addEventListener('activate', (event) => {
     const names = await caches.keys();
     await Promise.all(names.map((n) => (keep.has(n) ? undefined : caches.delete(n))));
     await self.clients.claim();
-    if (bc) bc.postMessage({ type: 'SW_ACTIVATED', version: VERSION });
+    if (bc) {
+      bc.postMessage({ type: 'SW_ACTIVATED', version: VERSION });
+      bc.postMessage({ type: 'SW_UPDATED',    version: VERSION });
+    }
   })());
 });
 
@@ -93,7 +95,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Ticker: network-first, normalizând cheia ca /ticker.json (ignorăm query-urile)
-  if (url.pathname.includes('ticker.json')) {
+  if (url.pathname.endsWith('/ticker.json')) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHES.assets);
       // normalizăm cheia în cache, indiferent de ?v=...
