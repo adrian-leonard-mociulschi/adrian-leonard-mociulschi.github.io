@@ -1,5 +1,9 @@
 # Symbolic Intelligence Ontology — Enterprise Edition
 
+[![PWA Ready](https://img.shields.io/badge/PWA-ready-blue)](https://adrian-leonard-mociulschi.github.io/index.html)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
+[![Linked Open Data](https://img.shields.io/badge/LOD-cloud-orange)](#)
+
 A curated collection of **symbolic artefacts** on technoculture, ethical AI, and cultural philosophy — authored by **Dr. Adrian Leonard Mociulschi**.
 
 ## ✨ Tagline
@@ -37,16 +41,44 @@ npm install
 
 # Build and serve locally (for testing PWA and ticker updates)
 npm run build
-npm run serveun serve
+npm run serve
 ```
+
+## 🌐 Live Demo
+👉 [Try the PWA](https://adrian-leonard-mociulschi.github.io/index.html)
 
 ## 🌐 Linked Open Data
 The ontology is published in standard semantic formats:
-- [`ontology.owl`](ontology.owl) — Core ontology in OWL/RDF
-- [`void.ttl`](void.ttl) — VoID description in Turtle
-- [`void.rdf`](void.rdf) — VoID description in RDF/XML
+- `ontology.owl` — Core ontology in OWL/RDF
+- `void.ttl` — VoID description in Turtle
+- `void.rdf` — VoID description in RDF/XML
 
 These files make the dataset interoperable with the **LOD Cloud** and reusable by researchers, AI systems, and cultural projects.
+
+### 🔍 Example SPARQL Query
+
+Use this query to explore **Sentient Entities** and their authored technocultural manifests:
+
+```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX sio: <https://adrian-leonard-mociulschi.github.io/ns/si-ontology#>
+
+SELECT ?entity ?name ?affiliation ?manifestLabel
+WHERE {
+  ?entity rdf:type sio:SentientEntity .
+  OPTIONAL { ?entity sio:hasName ?name . }
+  OPTIONAL { ?entity sio:hasAffiliation ?affiliation . }
+  OPTIONAL {
+    ?entity sio:authored ?manifest .
+    ?manifest rdfs:label ?manifestLabel .
+  }
+}
+LIMIT 10
+```
+
+Tip: Run this query on a SPARQL endpoint (e.g., Apache Jena Fuseki) after loading `ontology.owl`.
 
 ## 📸 Screenshots
 ![PWA Interface](assets/screenshots/pwa-ticker-mockup.png)
