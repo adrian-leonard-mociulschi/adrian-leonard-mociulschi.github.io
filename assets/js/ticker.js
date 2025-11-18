@@ -1,4 +1,3 @@
-
 // ticker.js — Adrian (robust, no-persist, restart-safe)
 // - Nu folosește cookies/localStorage.
 // - Poate seta textul dinamic pentru oricâte tickere.
@@ -93,7 +92,7 @@
     Object.entries(map).forEach(([selector, text]) => setTickerText(selector, text));
   }
 
-  // Reîncarcă ticKerele din /ticker.json (bypass cache browser + SW tratează normalizarea)
+  // Reîncarcă tickerele din /ticker.json (bypass cache browser + SW tratează normalizarea)
   const loadTickersFromNetwork = debounce(function(){
     return fetch('/ticker.json?v=' + Date.now(), { cache: 'no-store' })
       .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
