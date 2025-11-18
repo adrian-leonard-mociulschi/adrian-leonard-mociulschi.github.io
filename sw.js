@@ -1,6 +1,7 @@
+
 // sw.js — Optimized Service Worker (state-of-the-art)
 // VERSION bump for cache-busting
-const VERSION = 'v24';
+const VERSION = 'v25';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -91,19 +92,22 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Ticker: network-first strategy
+  // Ticker: network-first, normalizând cheia ca /ticker.json (ignorăm query-urile)
   if (url.pathname.includes('ticker.json')) {
     event.respondWith((async () => {
+      const cache = await caches.open(CACHES.assets);
+      // normalizăm cheia în cache, indiferent de ?v=...
+      const cacheKey = new Request('/ticker.json', { headers: event.request.headers });
       try {
+        // Rețea prima, evităm orice cache intermediar
         const netResp = await fetch(event.request, { cache: 'no-store' });
         if (netResp && netResp.ok) {
-          const cache = await caches.open(CACHES.assets);
-          cache.put(event.request, netResp.clone());
+          await cache.put(cacheKey, netResp.clone());
         }
         return netResp;
       } catch {
-        const cache = await caches.open(CACHES.assets);
-        return (await cache.match(event.request)) || new Response('{}', { status: 504 });
+        const cached = await cache.match(cacheKey, { ignoreSearch: true });
+        return cached || new Response('{}', { status: 504 });
       }
     })());
     return;
@@ -121,7 +125,7 @@ self.addEventListener('fetch', (event) => {
         return net;
       } catch {
         const cache = await caches.open(CACHES.assets);
-        const hit = await cache.match(event.request);
+        const hit = await cache.match(event.request, { ignoreSearch: true });
         return hit || new Response('/* CSS unavailable */', { status: 504 });
       }
     })());
@@ -129,10 +133,10 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Images: stale-while-revalidate
-  if (dest === 'image' || /\.(png|jpe?g|gif|webp|svg|ico|avif|bmp)$/i.test(url.pathname)) {
+  if (dest === 'image' || /(png|jpe?g|gif|webp|svg|ico|avif|bmp)$/i.test(url.pathname)) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHES.images);
-      const cached = await cache.match(event.request);
+      const cached = await cache.match(event.request, { ignoreSearch: true });
       const networkPromise = fetch(event.request).then(async (resp) => {
         if (resp && (resp.ok || resp.type === 'opaque')) {
           cache.put(event.request, resp.clone());
@@ -148,7 +152,7 @@ self.addEventListener('fetch', (event) => {
   // Other: cache-first, then network
   event.respondWith((async () => {
     const cache = await caches.open(CACHES.assets);
-    const cached = await cache.match(event.request);
+    const cached = await cache.match(event.request, { ignoreSearch: true });
     if (cached) return cached;
     const resp = await fetch(event.request).catch(() => null);
     if (resp && (resp.ok || resp.type === 'opaque')) cache.put(event.request, resp.clone());
