@@ -99,3 +99,22 @@ Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](h
 
 ---
 > *“Crafted as a manifesto of technoculture, where network logic meets aesthetic precision, and every update becomes a silent choreography in the algorithmic agora.”*
+
+## 📚 How to Cite
+
+If you use this ontology or its concepts, please cite:
+
+**Adrian Leonard Mociulschi (2025). Symbolic Intelligence Ontology — Enterprise Edition. Version v3.0.**
+Available at: https://adrian-leonard-mociulschi.github.io
+License: CC BY 4.0
+ORCID: https://orcid.org/0009-0006-9328-8518
+
+### BibTeX
+@misc{mociulschi2025symbolic,
+  author       = {Adrian Leonard Mociulschi},
+  title        = {Symbolic Intelligence Ontology — Enterprise Edition},
+  year         = {2025},
+  version      = {v3.0},
+  url          = {https://adrian-leonard-mociulschi.github.io},
+  license      = {CC-BY-4.0}
+}
