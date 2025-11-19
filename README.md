@@ -101,7 +101,7 @@ Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](h
 ---
 
 ## 📚 How to Cite
-**Adrian Leonard Mociulschi (2025). Symbolic Intelligence Ontology — Enterprise Edition. Version v3.0.**
+**Adrian Leonard Mociulschi (2025). ALgorithM r/Evolution — Enterprise Edition. Version v3.0.**
 Available at: https://adrian-leonard-mociulschi.github.io
 License: CC BY 4.0
 ORCID: https://orcid.org/0009-0006-9328-8518
@@ -109,7 +109,7 @@ ORCID: https://orcid.org/0009-0006-9328-8518
 ### BibTeX
 @misc{mociulschi2025symbolic,
   author       = {Adrian Leonard Mociulschi},
-  title        = {Symbolic Intelligence Ontology — Enterprise Edition},
+  title        = {ALgorithM r/Evolution — Enterprise Edition},
   year         = {2025},
   version      = {v3.0},
   url          = {https://adrian-leonard-mociulschi.github.io},
