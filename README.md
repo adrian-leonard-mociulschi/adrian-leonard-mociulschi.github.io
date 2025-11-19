@@ -27,7 +27,7 @@ Here, humans and sentient systems converge to explore:
 
 ---
 
-## 🚀 Features
+## 🛰 Features
 - **Network-First UX** — Real-time ticker updates with offline resilience
 - **Zero Flicker Rendering** — Smooth transitions and instant fallback
 - **Semantic Interoperability** — OWL/RDF ontology with VoID metadata
