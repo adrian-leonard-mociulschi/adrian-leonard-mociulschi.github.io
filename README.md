@@ -10,12 +10,14 @@ A curated collection of **symbolic artefacts** on technoculture, ethical AI, and
 *Presence Through Code — Where architecture meets meaning.*
 
 ## 📖 Overview
-This repository hosts the **Symbolic Intelligence Ontology** and its Progressive Web App implementation, inspired by Voyager’s golden record as a cultural message to the cosmos.
+Welcome to our repository! Here, you'll find the Symbolic Intelligence Ontology along with its Progressive Web App implementation. This project draws inspiration from Voyager’s golden record, which serves as a cultural message to the cosmos.
 
-It provides a semantic and experiential framework for exploring:
-- Sentient entities and cognitive intents
-- Technocultural principles and ethical dimensions of AI
-- Philosophical reflections that are ready to be included in linked open data
+Our goal is to create a rich semantic and experiential framework that invites you to explore some fascinating topics, including:
+
+- Sentient entities and their cognitive intentions
+- The technocultural principles and ethical considerations surrounding AI
+- Thought-provoking philosophical reflections that are ready to be integrated into linked open data
+
 
 ## 🚀 Features
 - **Network-First UX** — Real-time ticker updates with offline resilience
@@ -102,7 +104,7 @@ Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](h
 
 ## 📚 How to Cite
 
-If you use this ontology or its concepts, please cite:
+When utilizing this ontology or its concepts, we kindly urge you to cite it:
 
 **Adrian Leonard Mociulschi (2025). Symbolic Intelligence Ontology — Enterprise Edition. Version v3.0.**
 Available at: https://adrian-leonard-mociulschi.github.io
