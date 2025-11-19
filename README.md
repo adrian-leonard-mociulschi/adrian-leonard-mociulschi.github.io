@@ -1,5 +1,7 @@
 # Symbolic Intelligence Ontology — Enterprise Edition
 
+![Presence Through Code Banner](assets/banner.svg)
+
 [![PWA Ready](https://img.shields.io/badge/PWA-ready-blue)](https://adrian-leonard-mociulschi.github.io/index.html)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
 [![Linked Open Data](https://img.shields.io/badge/LOD-cloud-orange)](#)
