@@ -1,4 +1,4 @@
-# Algorithm r/Evolution — Enterprise Edition
+# ALgorithM r/Evolution — Enterprise Edition
 
 ![Presence Through Code Banner](assets/banner.svg)
 
