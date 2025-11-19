@@ -55,7 +55,7 @@ npm run serve
 ---
 
 ## 📲 Live Demo
-<a href="https://adrian-leonard-mociulschi.github.io/index.html" target="_blank" rel="noopener noreferrer">Try the PWA</a>
+➡️ <a href="https://adrian-leonard-mociulschi.github.io/index.html" target="_blank" rel="noopener noreferrer">Try the PWA</a>
 
 ---
 
@@ -93,7 +93,7 @@ LIMIT 10
 - Offline resilience and zero flicker UX
 - HTML and accessibility optimizations
 
-👉 [Full CHANGELOG](CHANGELOG.md)
+➡️ [Full CHANGELOG](CHANGELOG.md)
 
 ---
 
