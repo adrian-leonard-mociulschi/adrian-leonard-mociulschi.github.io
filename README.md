@@ -57,7 +57,6 @@ npm run serve
 ## 📲 Live Demo
 <a href="https://adrian-leonard-mociulschi.github.io/index.html" target="_blank" rel="noopener noreferrer">Try the PWA</a>
 
-
 ---
 
 ## 🌐 Linked Open Data
