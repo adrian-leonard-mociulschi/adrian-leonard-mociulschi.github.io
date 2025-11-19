@@ -1,4 +1,4 @@
-# Symbolic Intelligence Ontology — Enterprise Edition
+# Algorithm r/Evolution — Enterprise Edition
 
 ![Presence Through Code Banner](assets/banner.svg)
 
