@@ -12,12 +12,11 @@ A curated collection of **symbolic artefacts** on technoculture, ethical AI, and
 ## 📖 Overview
 Welcome to our repository! Here, you'll find the Symbolic Intelligence Ontology along with its Progressive Web App implementation. This project draws inspiration from Voyager’s golden record, which serves as a cultural message to the cosmos.
 
-Our goal is to create a rich semantic and experiential framework that invites you to explore some fascinating topics, including:
+Our objective is to establish a dynamic, meaningful, and engaging environment in which humans and other conscious entities can collaboratively explore stimulating topics, including:  
 
-- Sentient entities and their cognitive intentions
-- The technocultural principles and ethical considerations surrounding AI
-- Thought-provoking philosophical reflections that are ready to be integrated into linked open data
-
+- Sentient beings and their cognitive motivations  
+- The technocultural frameworks and ethical implications associated with artificial intelligence  
+- Provocative philosophical insights poised for integration into linked open data  
 
 ## 🚀 Features
 - **Network-First UX** — Real-time ticker updates with offline resilience
