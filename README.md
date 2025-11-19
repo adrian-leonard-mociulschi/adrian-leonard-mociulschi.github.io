@@ -15,7 +15,7 @@ This repository hosts the **Symbolic Intelligence Ontology** and its Progressive
 It provides a semantic and experiential framework for exploring:
 - Sentient entities and cognitive intents
 - Technocultural principles and ethical dimensions of AI
-- Philosophical reflections encoded in Linked Open Data
+- Philosophical reflections that are ready to be included in linked open data
 
 ## 🚀 Features
 - **Network-First UX** — Real-time ticker updates with offline resilience
