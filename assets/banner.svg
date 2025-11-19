@@ -1,120 +1,39 @@
-<!-- assets/banner.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="260" viewBox="0 0 1200 260" style="background:#050505">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="220" viewBox="0 0 1200 220" style="background:#050505">
   <defs>
-    <!-- Gradient neon animat (puls lent) -->
+    <!-- Gradient animat -->
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f5ff">
-        <animate attributeName="stop-color" values="#00f5ff;#ff00d4;#00f5ff" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00f5ff;#ff00d4;#00f5ff" dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#ff00d4">
-        <animate attributeName="stop-color" values="#ff00d4;#00f5ff;#ff00d4" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#ff00d4;#00f5ff;#ff00d4" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-
-    <!-- Pattern scanline (CRT) -->
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="rgba(255,255,255,0.03)"/>
-      <rect y="2" width="4" height="2" fill="rgba(0,0,0,0)"/>
-    </pattern>
-
-    <!-- Noise/particles mici (folosim cercuri animate) -->
-    <circle id="p" r="1.2" fill="#00f5ff" opacity="0.35"/>
-    <filter id="bloom" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="0.8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <!-- Fundal ușor texturat + vignette -->
-  <rect width="1200" height="260" fill="#080808"/>
-  <rect width="1200" height="260" fill="url(#scan)"/>
-  <radialGradient id="vign" cx="50%" cy="50%" r="75%">
-    <stop offset="60%" stop-color="rgba(0,0,0,0)"/>
-    <stop offset="100%" stop-color="rgba(0,0,0,0.55)"/>
-  </radialGradient>
-  <rect width="1200" height="260" fill="url(#vign)"/>
-
-  <!-- Text principal + glitch subtil -->
-  <g filter="url(#bloom)">
-    <!-- strat central -->
-    <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle"
-          font-family="Orbitron, system-ui, sans-serif" font-size="56" fill="url(#grad)" letter-spacing="1.5">
-      Presence Through Code
-      <animate attributeName="opacity" values="0.92;1;0.92" dur="5s" repeatCount="indefinite"/>
-    </text>
-    <!-- straturi glitch (offset rapid) -->
-    <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle"
-          font-family="Orbitron, system-ui, sans-serif" font-size="56" fill="#ff00d4" opacity="0.25">
-      <animate attributeName="x" values="49.5%;50.5%;49.5%" dur="0.35s" repeatCount="indefinite"/>
+  <!-- Fundal glitch -->
+  <rect width="1200" height="220" fill="#0a0a0a"/>
+  <g>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Orbitron, sans-serif" font-size="48" fill="url(#grad)">
       Presence Through Code
     </text>
-    <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle"
-          font-family="Orbitron, system-ui, sans-serif" font-size="56" fill="#00f5ff" opacity="0.25">
-      <animate attributeName="x" values="50.5%;49.5%;50.5%" dur="0.35s" repeatCount="indefinite"/>
+    <!-- Glitch layers -->
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Orbitron, sans-serif" font-size="48" fill="#ff00d4" opacity="0.3">
+      <animate attributeName="x" values="49%;51%;49%" dur="0.3s" repeatCount="indefinite"/>
+      Presence Through Code
+    </text>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Orbitron, sans-serif" font-size="48" fill="#00f5ff" opacity="0.3">
+      <animate attributeName="x" values="51%;49%;51%" dur="0.3s" repeatCount="indefinite"/>
       Presence Through Code
     </text>
   </g>
 
   <!-- Subtitlu -->
-  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Roboto Mono, ui-monospace, monospace" font-size="18" fill="#cfd3d6" opacity="0.9">
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Roboto Mono, monospace" font-size="20" fill="#ccc">
     Symbolic Intelligence Ontology — Enterprise Edition
   </text>
-
-  <!-- Particule (stele/rușe semnale) -->
-  <g id="particles">
-    <!-- 16 particule animate pe traiectorii verticale lente -->
-    <!-- Poți duplica <use> pentru mai multe particule -->
-    <use href="#p" x="100" y="230me="y" values="230;20;230" dur="7s" begin="0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="7s" begin="0s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="240;30;240" dur="9s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.45;0.1" dur="9s" begin="1s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="235;25;235" dur="8s" begin="0.5s" repeatCount="indefinite"/>
-    </use>
-    <use href="#p" x="480" y="245me="y" values="245;35;245" dur="10s" begin="1.5s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="232;22;232" dur="8.5s" begin="0.2s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="238;28;238" dur="7.5s" begin="0.8s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="236;26;236" dur="9.5s" begin="0.3s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="242;32;242" dur="11s" begin="1.2s" repeatCount="indefinite"/>
-    </use>
-    <!-- al doilea rând, ușor decalat -->
-    <use href="#p" x="150" y="210" fill="#ffes="210;10;210" dur="12s" begin="0.4s" repeatCount="indefinite"/>
-    </use>
-    <use href="#p" x="300" y="205" fill="#ff00d4" opacity="0.r="13s" begin="0.9s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="212;12;212" dur="10.5s" begin="0.6s" repeatCount="indefinite"/>
-    </use>
-    <use href="#p" xe attributeName="y" values="208;8;208" dur="12.5s" begin="1.1s" repeatCount="indefinite"/>
-    </use>
-    <use href="#p" x="690" y="214me="y" values="214;14;214" dur="9.8s" begin="0.7s" repeatCount="indefinite"/>
-    </use>
-    <use href="#p" x="810" y="206" fill values="206;6;206" dur="11.2s" begin="1.3s" repeatCount="indefinite"/>
-    </use>
-    #p
-      <animate attributeName="y" values="216;16;216" dur="12.8s" begin="0.5s" repeatCount="indefinite"/>
-    </use>
-    <use href="#p" xe attributeName="y" values="209;9;209" dur="10.9s" begin="0.2s" repeatCount="indefinite"/>
-    </use>
-  </g>
-
-  <!-- Linie „phosphor glow” la bază -->
-  <rect x="0" y="252" width="1200" height="6" fill="url(#grad)">
-    <animate attributeName="width" values="0;1200;0" dur="10s" repeatCount="indefinite"/>
-  </rect>
 </svg>
