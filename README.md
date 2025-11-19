@@ -55,7 +55,7 @@ npm run serve
 ---
 
 ## 📲 Live Demo
-👉 [Try the PWA](https://adrian-leonard-mociulschi.github.io/index.html)
+[Try the PWA](https://adrian-leonard-mociulschi.github.io/index.html)
 
 ---
 
