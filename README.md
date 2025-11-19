@@ -9,7 +9,7 @@
 ---
 
 ## ⚡ Invocation Manifest
-*AL*gorith*M* r/Evolution — Where architecture becomes prophecy.*
+*AL*gorith*M* r/Evolution — *Where architecture becomes prophecy.*
 
 This repository is not a collection of files. It is a **threshold** — a point where cultural code mutates into semantic intelligence. Every commit is a signal. Every release, a maneuver in the algorithmic battlefield.
 
