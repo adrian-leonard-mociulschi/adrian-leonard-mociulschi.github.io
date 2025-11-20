@@ -88,7 +88,7 @@ LIMIT 10
 ---
 
 ## 📜 Releases
-**Latest Release:** `v3.0.1 — v3.0.1 — Presence Through Code: Mobile-First Resilience.`
+**Latest Release:** `v3.0.1 — Presence Through Code: Mobile-First Resilience.`
 - Network-first ticker updates
 - Offline resilience and zero flicker UX
 - HTML and accessibility optimizations
