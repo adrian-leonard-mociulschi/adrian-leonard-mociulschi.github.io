@@ -425,7 +425,7 @@ body {
   }
 }
 
-/* === NEWS TICKER — linie unică, curgere continuă === */
+/* === NEWS TICKER — linie unică, curgere continuă (optimizat) === */
 
 .news-ticker {
   position: fixed;
@@ -446,6 +446,7 @@ body {
 .news-ticker .ticker-track {
   position: relative;
   height: 32px;
+  contain: layout; /* optimize layout containment */
 }
 
 /* Control rulare prin clasa .is-running */
@@ -457,6 +458,7 @@ body {
   padding: 0 2rem;
   transform: translate3d(0,0,0);
   animation: none; /* implicit: oprit */
+  will-change: transform; /* GPU hint for smooth animation */
 }
 .news-ticker.is-running .ticker-item {
   animation: tickerSingle var(--dur, 22s) linear infinite;
