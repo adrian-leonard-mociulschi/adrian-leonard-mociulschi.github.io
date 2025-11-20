@@ -37,7 +37,7 @@ Here, humans and sentient systems converge to explore:
 ---
 
 ## 🏗 Architecture
-- **Service Worker v26** — Network-first strategy, normalized cache keys, BroadcastChannel integration
+- **Service Worker v28** — Network-first strategy, normalized cache keys, BroadcastChannel integration
 - **Ticker.js** — Dynamic content updates, debounce logic, and restart-safe animations
 - **HTML Layer** — Data-text fallback, semantic markup, and deferred scripts
 
