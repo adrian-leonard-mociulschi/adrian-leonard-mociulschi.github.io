@@ -58,10 +58,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Styles -->
-<link rel="stylesheet" href="/assets/style.css?v=20251120-27">
+<link rel="stylesheet" href="/assets/style.css?v=20251120-28">
 
   <!-- Ticker JS (cu cache-busting) -->
-<script src="/assets/js/ticker.js?v=20251120-27"></script>
+<script src="/assets/js/ticker.js?v=20251120-28"></script>
 
   <!-- Service Worker Registration -->
     <script src="/sw-register.js"></script>
@@ -168,7 +168,7 @@
   </head>
 <body>
 
-<!-- Ticker block — compatible with sw.js v27 & ticker.js (strict UX, no flicker) -->
+<!-- Ticker block — compatible with sw.js v28 & ticker-js-optimized.js (strict UX, no flicker) -->
 
 <!-- Ticker 1: Red Style -->
 <div class="news-ticker ticker-red"
@@ -188,15 +188,8 @@
   </div>
 </div>
 
-<!-- Control script (non-blocking). Requires /assets/js/ticker-optimized.js and sw.js v27 registered on site. -->
+<!-- Control script (non-blocking). Requires /assets/js/ticker.js and sw.js v28 registered on site. -->
 <script src="/assets/js/ticker.js" defer></script>
-  
-  <script>
-  // Pornește animația după ce DOM e gata
-  window.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.news-ticker').forEach(t => t.classList.add('is-running'));
-  });
-</script>
 
   <!-- Anchor at the very top -->
 <a id="top"></a>
