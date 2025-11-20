@@ -89,9 +89,11 @@ LIMIT 10
 
 ## 📜 Releases
 **Latest Release:** `v3.0.1 — Presence Through Code: Mobile-First Resilience.`
-- Network-first ticker updates
-- Offline resilience and zero flicker UX
-- HTML and accessibility optimizations
+- **Zero Flicker UX on Mobile & Desktop** — GPU acceleration (`will-change`, `translate3d`) and `requestAnimationFrame` ensure smooth ticker animations across all devices.
+- **Intelligent Fallback Mechanism** — `requestIdleCallback` introduces non-blocking updates with meaningful content when network resources are unavailable.
+- **Service Worker v28 Integration** — Network-first strategy for `/ticker.json`, cache-busting via VERSION bump, and instant refresh through BroadcastChannel.
+- **CSS Performance Enhancements** — Added `contain: layout` for layout isolation and `will-change` hints for GPU optimization.
+- **Public API for Dynamic Control** — Functions `setTickerText()`, `restartTicker()`, and `initTickers()` enable real-time content updates and animation restarts.
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
