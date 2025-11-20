@@ -160,7 +160,7 @@
   </head>
 <body>
 
-<!-- Ticker block — compatible with sw.js v27 & ticker.js (strict UX, no flicker) -->
+<!-- Ticker block — compatible with sw.js v28 & ticker-js-optimized.js (strict UX, no flicker) -->
 
 <!-- Ticker 1: Red Style -->
 <div class="news-ticker ticker-red"
@@ -180,16 +180,8 @@
   </div>
 </div>
 
-<!-- Control script (non-blocking). Requires /assets/js/ticker-optimized.js and sw.js v27 registered on site. -->
-<script src="/assets/js/ticker.js" defer></script>
-  
-  <script>
-  // Pornește animația după ce DOM e gata
-  window.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.news-ticker').forEach(t => t.classList.add('is-running'));
-  });
-</script>
-
+<!-- Control script (non-blocking). Requires /assets/js/ticker-js-optimized.js and sw.js v27 registered on site. -->
+<script src="/assets/js/ticker-js-optimized.js" defer></script>
   
 <!-- Anchor at the very top -->
 <a id="top"></a>
