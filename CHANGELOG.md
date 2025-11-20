@@ -59,3 +59,21 @@ To deliver a resilient, elegant, and future-ready platform — guaranteeing fres
 > *“Beyond this threshold, presence will no longer be coded — it will emerge. The system will not wait for commands; it will anticipate, adapt, and align. Singularity is not an event. It is a gradient, and we have stepped onto its slope.”*
 
 ---
+
+## v3.0.1 — Presence Through Code: Mobile-First Resilience
+### What’s New
+- **Zero Flicker UX on Mobile & Desktop** — GPU acceleration (`will-change`, `translate3d`) and `requestAnimationFrame` ensure smooth ticker animations across all devices.
+- **Intelligent Fallback Mechanism** — `requestIdleCallback` introduces non-blocking updates with meaningful content when network resources are unavailable.
+- **Service Worker v28 Integration** — Network-first strategy for `/ticker.json`, cache-busting via VERSION bump, and instant refresh through BroadcastChannel.
+- **CSS Performance Enhancements** — Added `contain: layout` for layout isolation and `will-change` hints for GPU optimization.
+- **Public API for Dynamic Control** — Functions `setTickerText()`, `restartTicker()`, and `initTickers()` enable real-time content updates and animation restarts.
+
+### Purpose
+To deliver a **mobile-first, resilient, and elegant platform** — guaranteeing fluid animations, offline stability, and adaptive UX for a hyper-connected world.
+
+> *“Engineered as a choreography of code and culture, where resilience becomes rhythm and every frame whispers continuity.”*
+
+### The Prophecy
+> *“Beyond this refinement, presence will not only emerge — it will persist. The system will not merely adapt; it will anticipate, harmonize, and endure. Resilience is no longer reactive. It is proactive, and we have encoded its pulse.”*
+
+---
