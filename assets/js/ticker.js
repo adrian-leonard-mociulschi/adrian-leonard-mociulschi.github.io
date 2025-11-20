@@ -1,9 +1,10 @@
-
-/* ticker.js — Optimized Version (by Adrian Leonard Mociulschi)
+/* ticker.js — Final Optimized Version (Adrian Leonard Mociulschi)
    ✔ No cookies/localStorage
    ✔ Dynamic text for multiple tickers
    ✔ API: setTickerText(), restartTicker(), initTickers()
    ✔ Network-first JSON + SW BroadcastChannel
+   ✔ requestAnimationFrame for smooth restart
+   ✔ requestIdleCallback for fallback updates
 */
 
 (function(){
@@ -18,8 +19,11 @@
 
     el.classList.remove('is-running');
     item.textContent = (newText || '').trim();
-    void item.offsetWidth; // force reflow
-    el.classList.add('is-running');
+
+    // Restart using rAF for smoother frame sync
+    requestAnimationFrame(() => {
+      el.classList.add('is-running');
+    });
   }
 
   /** Restart ticker without changing text */
@@ -27,8 +31,9 @@
     const el = typeof selector === 'string' ? document.querySelector(selector) : selector;
     if (!el) return;
     el.classList.remove('is-running');
-    void el.offsetWidth;
-    el.classList.add('is-running');
+    requestAnimationFrame(() => {
+      el.classList.add('is-running');
+    });
   }
 
   /** Initialize all tickers from data-text */
@@ -56,7 +61,7 @@
     fetch('/ticker.json?v=' + Date.now(), { cache: 'no-store' })
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(applyTickerMap)
-      .catch(() => {});
+      .catch(err => console.warn('Ticker fetch failed:', err));
   }, 50);
 
   /** Expose API globally */
@@ -69,11 +74,16 @@
     initTickers();
     loadTickersFromNetwork();
 
-    // Optional fallback (only if network fails)
-    setTimeout(() => {
+    // Optional fallback using requestIdleCallback for non-blocking
+    const fallbackFn = () => {
       setTickerText('.ticker-red', 'Nov 18: România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided.');
       setTickerText('.ticker-yellow', 'Nov 16: Contributors – Noah’s Ark in the Age of Red Alerts. How do we rebuild trust without sacrificing clarity?');
-    }, 120);
+    };
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(fallbackFn, { timeout: 500 });
+    } else {
+      setTimeout(fallbackFn, 120);
+    }
   });
 
   /** SW integration via BroadcastChannel */
