@@ -70,103 +70,654 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet">
 
 <!-- Structured Data (JSON-LD) -->
-<!-- Structured Data (JSON-LD) — V-BOX -->
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#org",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Adrian Leonard Mociulschi",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "V-Box", "item": "https://adrian-leonard-mociulschi.github.io/vbox" }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page",
+      "url": "https://adrian-leonard-mociulschi.github.io/vbox",
+      "name": "V-Box — Symbolic Video Archive",
+      "headline": "V-Box — Symbolic Video Archive",
+      "description": "A symbolic video archive by Adrian Leonard Mociulschi. Reflections on memory, honor, and digital presence.",
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "inLanguage": "en-US",
+      "creator": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
+      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs" },
+      "mainEntity": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#items" },
+      "hasPart": [
+        { "@id": "https://www.youtube.com/watch?v=ABazphal8Ug" },
+        { "@id": "https://revistacultura.ro/codul-lui-lukaszewski-sacralitatea-sunetului-si-vocatia-universala-a-formei/" },
+        { "@id": "https://revistacultura.ro/lectura-critica-si-simbolica-a-iubirii-in-era-digitala/" },
+{ "@id": "https://revistacultura.ro/cand-scena-devine-catedra-muzicienii-care-reconfigureaza-campul-sonor-romanesc/" },
+{ "@id": "https://revistacultura.ro/maciej-zielinski-muzica-filmului-intre-rigorile-academice-si-claritatea-industriei-filmului-american/" },
+{ "@id": "https://revistacultura.ro/sonologia-vindecarii-muzica-si-medicina-in-era-convergentei/" },
+{ "@id": "" },
+{ "@id": "https://revistacultura.ro/din-anamorphose-la-apoteoza-serban-nichifor-si-nobletea-muzicii-ca-vocatie/" },
+{ "@id": "https://revistacultura.ro/revolutia-ai-intre-speranta-si-temeri/"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#items",
+      "name": "V-Box Items",
+      "itemListOrder": "ItemListOrderDescending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Mociulschi's blog teaser",
+          "item": { "@id": "https://www.youtube.com/watch?v=ABazphal8Ug" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Codul lui Łukaszewski: Sacralitatea sunetului și vocația universală a formei",
+          "item": { "@id": "https://revistacultura.ro/codul-lui-lukaszewski-sacralitatea-sunetului-si-vocatia-universala-a-formei/" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lectură critică și simbolică a iubirii în era digitală",
+          "item": { "@id": "https://revistacultura.ro/lectura-critica-si-simbolica-a-iubirii-in-era-digitala/" }
+	},
+	{
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Piotr Borkowski: Arta dirijorală între tradiție și orizonturi globale",
+          "item": { "@id": "https://revistacultura.ro/piotr-borkowski-arta-dirijorala-intre-traditie-si-orizonturi-globale/" }
+	},
+	{
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Sonologia Vindecării: Muzică și medicină în Era Convergenței",
+          "item": { "@id": "https://revistacultura.ro/sonologia-vindecarii-muzica-si-medicina-in-era-convergentei/" }
+	},
+	{
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Maciej Zieliński: Muzica filmului între rigorile academice și claritatea industriei filmului american",
+          "item": { "@id": "https://revistacultura.ro/maciej-zielinski-muzica-filmului-intre-rigorile-academice-si-claritatea-industriei-filmului-american/" }
+	},
+	{
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Când scena devine catedră: Muzicienii care reconfigurează câmpul sonor românesc",
+          "item": { "@id": "https://revistacultura.ro/cand-scena-devine-catedra-muzicienii-care-reconfigureaza-campul-sonor-romanesc/" }
+	},
+	{
+  	"@type": "ListItem",
+  	"position": 8,
+  	"name": "Din Anamorphose la Apoteoză: Șerban Nichifor și noblețea muzicii ca vocație",
+  	"item": { "@id": "https://revistacultura.ro/din-anamorphose-la-apoteoza-serban-nichifor-si-nobletea-muzicii-ca-vocatie/" }
+	},
+	{
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Revoluția AI: între speranță și temeri. Conferința ISF",
+          "item": { "@id": "https://revistacultura.ro/revolutia-ai-intre-speranta-si-temeri/" }
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=ABazphal8Ug",
+      "name": "Mociulschi's blog teaser",
+      "description": "Discover the symbolic universe of Adrian Leonard Mociulschi — writer, composer, and ambassador of technoculture.",
+      "inLanguage": "en-US",
+      "uploadDate": "2025-10-24T00:00:00+02:00",
+      "embedUrl": "https://www.youtube.com/embed/ABazphal8Ug",
+      "contentUrl": "https://www.youtube.com/watch?v=ABazphal8Ug",
+      "thumbnailUrl": ["https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"],
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" }
+    },
+  {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/09/Codul_lui_Lukaszewski.webp",
+  "headline": "Codul lui Łukaszewski: Sacralitatea sunetului și vocația universală a formei",
+  "alternativeHeadline": "Articol Revista Cultura — 29 Septembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-09-29T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/codul-lui-lukaszewski-sacralitatea-sunetului-si-vocatia-universala-a-formei/"
+  },
+  "description": "Paweł Łukaszewski reconfigurează sacralitatea sunetului: muzica ca limbaj universal, între cod, spiritualitate și filiația marilor maeștri.",
+  "keywords": "muzică sacră contemporană, compozitori polonezi contemporani, pedagogie muzicală inițiatică, ethos cultural și creație muzicală, cod și algoritm în artă, revoluție culturală simbolică, renaștere spirituală în muzică, Paweł Łukaszewski",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+  }
+},
+    {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Despre_iubire.webp",
+  "headline": "Lectură critică și simbolică a iubirii în era digitală",
+  "alternativeHeadline": "Articol Revista Cultura — 09 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-10-09T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/lectura-critica-si-simbolica-a-iubirii-in-era-digitala/"
+  },
+  "description": "Iubirea în era digitală: între memorie, algoritmi și limbaj. O reflecție critică asupra afectivității și tehnologiei, inspirată de volumul Alinei Necșulescu.",
+  "keywords": "iubire, intimitate, tehnologie, inteligență artificială, cod, memorie, muzeu interior, curatoriat afectiv, ecologie postumană, empatie, algoritmi, cultură digitală, Alina Necșulescu, tehnocultură, responsabilitate, realitate virtuală",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+  }
+},
+   {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Piotr_Borkowski.webp",
+  "headline": "Piotr Borkowski: Arta dirijorală între tradiție și orizonturi globale",
+  "alternativeHeadline": "Articol Revista Cultura — 15 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-10-15T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/piotr-borkowski-arta-dirijorala-intre-traditie-si-orizonturi-globale/"
+  },
+  "description": "Piotr Borkowski reconfigurează arta dirijorală: tradiție poloneză, orizonturi globale și o viziune în care muzica devine ecologie a sensului.",
+  "keywords": "Piotr Borkowski, arta dirijatului, tradiție muzicală, orizonturi globale, Berlin Institute of Musical Arts, genealogii sonore, rigoare poloneză, patrimoniu cultural",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+  }
+},
     {
-      "@type": "Person",
-      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
-      "name": "Adrian Leonard Mociulschi",
-      "url": "https://adrian-leonard-mociulschi.github.io/"
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://adrian-leonard-mociulschi.github.io/#org",
-      "name": "Adrian Leonard Mociulschi",
-      "url": "https://adrian-leonard-mociulschi.github.io/"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
-      "url": "https://adrian-leonard-mociulschi.github.io/",
-      "name": "Adrian Leonard Mociulschi",
-      "inLanguage": "en-US",
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
-        { "@type": "ListItem", "position": 2, "name": "V-Box", "item": "https://adrian-leonard-mociulschi.github.io/vbox" }
-      ]
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page",
-      "url": "https://adrian-leonard-mociulschi.github.io/vbox",
-      "name": "V-Box — Symbolic Video Archive",
-      "headline": "V-Box — Symbolic Video Archive",
-      "description": "A symbolic video archive by Adrian Leonard Mociulschi. Reflections on memory, honor, and digital presence.",
-      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
-      "inLanguage": "en-US",
-      "about": [
-        { "@type": "Thing", "name": "symbolic video archive" },
-        { "@type": "Thing", "name": "technoculture" },
-        { "@type": "Thing", "name": "ethical AI" },
-        { "@type": "Thing", "name": "music and technology" },
-        { "@type": "Thing", "name": "cognitive mapping" }
-      ],
-      "creator": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
-      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs" },
-      "mainEntity": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#items" },
-      "hasPart": [
-        { "@id": "https://www.youtube.com/watch?v=ABazphal8Ug" }
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#items",
-      "name": "V-Box Items",
-      "itemListOrder": "ItemListOrderDescending",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Mociulschi's blog teaser",
-          "item": { "@id": "https://www.youtube.com/watch?v=ABazphal8Ug" }
-        }
-      ]
-    },
-    {
-      "@type": "VideoObject",
-      "@id": "https://www.youtube.com/watch?v=ABazphal8Ug",
-      "name": "Mociulschi's blog teaser",
-      "description": "Discover the symbolic universe of Adrian Leonard Mociulschi — writer, composer, and ambassador of technoculture.",
-      "inLanguage": "en-US",
-      "uploadDate": "2025-10-24T00:00:00+02:00",
-      "embedUrl": "https://www.youtube.com/embed/ABazphal8Ug",
-      "contentUrl": "https://www.youtube.com/watch?v=ABazphal8Ug",
-      "thumbnailUrl": [
-        "https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"
-      ],
-      "thumbnail": {
-        "@type": "ImageObject",
-        "url": "https://i.ytimg.com/vi/ABazphal8Ug/hqdefault.jpg"
-      },
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#org" },
-      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page" },
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "https://www.youtube.com/watch?v=ABazphal8Ug"
-      }
-    }
-  ]
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Sonologia_Vindecarii.webp",
+  "headline": "Sonologia Vindecării: Muzică și medicină în Era Convergenței",
+  "alternativeHeadline": "Articol Revista Cultura — 18 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-10-18T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/sonologia-vindecarii-muzica-si-medicina-in-era-convergentei/"
+  },
+  "description": "Explorăm legătura dintre muzică și medicină: cum sonologia devine terapie, unind arta și știința în era convergenței culturale și tehnologice.",
+  "keywords": "Muzică și medicină, interdisciplinaritate, epoca algoritmică, inteligență artificială, muzicoterapie, neuroștiință, sănătate vocală, terapii sonore, algoritmi personalizați, simpozion internațional, Academia Română",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+  }
+},
+     {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Maciej_Zielinski.webp",
+  "headline": "Maciej Zieliński: Muzica filmului între rigorile academice și claritatea industriei filmului american",
+  "alternativeHeadline": "Articol Revista Cultura — 27 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-10-27T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/maciej-zielinski-muzica-filmului-intre-rigorile-academice-si-claritatea-industriei-filmului-american/"
+  },
+  "description": "Maciej Zieliński unește rigorile academice cu claritatea Hollywoodului: muzica de film ca artă totală, între tradiție și inovație.",
+  "keywords": "Maciej Zieliński, muzica de film, Bernard Herrmann, partitura cinematografică, Hollywood, Marian Borkowski, Paweł Łukaszewski, Alaska Is a Drag, Premiul Fryderyk, Alan Bush Prize, Josiah Parker Prize, școala poloneză de compoziție",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+  }
+},
+     {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/11/Mircea_Tiberian.webp",
+  "headline": "Când scena devine catedră: Muzicienii care reconfigurează câmpul sonor românesc",
+  "alternativeHeadline": "Articol Revista Cultura — 04 Noiembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-11-04T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/cand-scena-devine-catedra-muzicienii-care-reconfigureaza-campul-sonor-romanesc/"
+  },
+  "description": "Cum muzicienii români transformă scena în spațiu educațional, redefinind rolul artei sonore între performanță, pedagogie și inovație culturală.",
+  "keywords": "Mircea Tiberian, Andrei Tudor, Nadia Trohin, Vlad Popescu, jazz românesc, muzică ușoară academică, Universitatea Națională de Muzică București, Catedra de Jazz, Oscar Peterson România, Maciej Zieliński, Hans Zimmer, John Williams, muzică de film",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+  }
+},
+     {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/11/Nichifor-State-of-the-Art-Picture.webp",
+  "headline": "Din Anamorphose la Apoteoză: Șerban Nichifor și noblețea muzicii ca vocație",
+  "alternativeHeadline": "Articol Revista Cultura — 13 Noiembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-11-13T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/din-anamorphose-la-apoteoza-serban-nichifor-si-nobletea-muzicii-ca-vocatie/"
+  },
+  "description": "Apoteoză: Șerban Nichifor, compozitor regal și vizionar, între muzică, teologie și merit. De la Camerata Florentină la algoritmi, armonia cunoașterii.",
+  "keywords": "Șerban Nichifor, György Ligeti, muzică contemporană românească, compozitor român, Premiul Gaudeamus Amsterdam, Ordinul Coroanei Belgiene, Richard Strauss, patrimoniu muzical european",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+  }
+},
+   {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "image": "https://revistacultura.ro/art/wp-content/uploads/2025/11/Cand_algoritmul_devine_oglinda.webp",
+  "headline": "Revoluția AI: între speranță și temeri. Conferința ISF",
+  "alternativeHeadline": "Articol Revista Cultura — 18 Noiembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi"
+  },
+  "url": "https://revistacultura.ro/author/adrian-mociulschi/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://revistacultura.ro"
+  },
+  "datePublished": "2025-11-18T00:00:00+02:00",
+  "dateModified": "2025-11-22T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/revolutia-ai-intre-speranta-si-temeri/"
+  },
+  "description": "Revoluția AI la Conferința ISF 2025: România în dialog global despre etică, reglementare și transformare digitală. Tehnologia devine cultură.",
+  "keywords": "inteligența artificială, AI în finanțe, transformare digitală, reglementare financiară, educație financiară, conferință internațională ISF, Autoritatea de Supraveghere Financiară, digitalizare piețe financiare",
+  "inLanguage": "ro-RO",
+  "isPartOf": {
+    "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page"
+    }
+   }
+  ]
 }
 </script>
+
+<!-- JSON-LD · Article · 2025-09-29 I -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Codul lui Łukaszewski: Sacralitatea sunetului și vocația universală a formei",
+  "alternativeHeadline": "Articole Revista Cultura — 29 Septembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-09-29T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/codul-lui-lukaszewski-sacralitatea-sunetului-si-vocatia-universala-a-formei/"
+  },
+  "description": "Descoperă universul sacralității sonore în creația lui Łukaszewski: forma ca vocație universală și codul estetic ce unește tradiția și modernitatea.",
+  "keywords": "Paweł Łukaszewski, profil și operă, influența lui Marian Borkowski, Ștefan Niculescu și sacralitatea sonoră, muzică clasică contemporană",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/09/Codul_lui_Lukaszewski.webp",
+    "width": 1000,
+    "height": 1000
+  }
+}
+</script>
+
+<!-- JSON-LD · Article · 2025-09-29 II -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Lectură critică și simbolică a iubirii în era digitală",
+  "alternativeHeadline": "Articole Revista Cultura — 09 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-10-09T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/lectura-critica-si-simbolica-a-iubirii-in-era-digitala/"
+  },
+  "description": "Analizăm iubirea în era digitală: între simbol, algoritm și lectură critică, într-un dialog despre sens, intimitate și transformarea relațiilor.",
+  "keywords": "Alina Necșulescu, AI etic, ChatGPT, reflexie critică, iubirea ca spațiu simbolic, empatie algoritmică, alfabetizare tehnologică, educație financiară, arhitectura intimității, simulare afectivă, dialog autentic, patrimoniu afectiv, iubirea în era codului",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Despre_iubire.webp",
+    "width": 1000,
+    "height": 1000
+  }
+}
+</script>
+
+<!-- JSON-LD · Article · 2025-10-15 III -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Piotr Borkowski: Arta dirijorală între tradiție și orizonturi globale",
+  "alternativeHeadline": "Articole Revista Cultura — 15 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-10-15T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/piotr-borkowski-arta-dirijorala-intre-traditie-si-orizonturi-globale/"
+  },
+  "description": "Piotr Borkowski despre arta dirijorală: cum se împletesc tradiția europeană și orizonturile globale într-o viziune muzicală de impact.",
+  "keywords": "pedagogie muzicală, Piotr Borkowski, avangarda europeană, meritocrație artistică, ecologie a sensului, continuitate creatoare, muzică fără frontiere",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Piotr_Borkowski.webp",
+    "width": 1000,
+    "height": 667
+  }
+}
+</script>
+
+<!-- JSON-LD · Article · 2025-10-18 IV -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Sonologia Vindecării: Muzică și medicină în Era Convergenței",
+  "alternativeHeadline": "Articole Revista Cultura — 18 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-10-18T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/sonologia-vindecarii-muzica-si-medicina-in-era-convergentei/"
+  },
+  "description": "Cum muzica și medicina se întâlnesc în era convergenței: sonologia vindecării explorează puterea sunetului ca terapie și artă integrativă.",
+  "keywords": "Academia Română, Timișoara, OMS, arte și sănătate, medicina predictivă, medicina personalizată, ecologia rezonanței, cercetare interdisciplinară, polifonia cunoașterii",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Sonologia_Vindecarii.webp",
+    "width": 1000,
+    "height": 1000
+  }
+}
+</script>
+
+<!-- JSON-LD · Article · 2025-10-27 V -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Maciej Zieliński: Muzica filmului între rigorile academice și claritatea industriei filmului american",
+  "alternativeHeadline": "Articole Revista Cultura — 27 Octombrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-10-27T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/maciej-zielinski-muzica-filmului-intre-rigorile-academice-si-claritatea-industriei-filmului-american/"
+  },
+  "description": "Maciej Zieliński despre muzica de film: echilibrul dintre rigoarea academică și claritatea narativă a industriei cinematografice americane.",
+  "keywords": "școala poloneză de compoziție, Cursurile Muzicale de Vară, Kazimierz Dolny, Maciej Zieliński, cinematografie, a șaptea artă, vocație artistică, arhitectura sunetului, cultura clasică, rigoare academică, univers sonor, psihologie cinematografică",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/10/Maciej_Zielinski.webp",
+    "width": 1000,
+    "height": 667
+  }
+}
+</script>
+
+<!-- JSON-LD · Article · 2025-11-04 VI -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Când scena devine catedră: Muzicienii care reconfigurează câmpul sonor românesc",
+  "alternativeHeadline": "Articole Revista Cultura — 04 Noiembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-11-04T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/cand-scena-devine-catedra-muzicienii-care-reconfigureaza-campul-sonor-romanesc/"
+  },
+  "description": "În memoria lui Tiberian: cum maestrul și discipolii săi transformă scena în catedră, reconfigurând câmpul sonor românesc prin artă și pedagogie.",
+  "keywords": "lideri academici ai viitorului, pedagogie muzicală, mainstream universitar, jazz și clasic, educație muzicală România, Mircea Tiberian, Andrei Tudor, capital cultural, responsabilitate socială corporativă (CSR), estetică a convergenței, rigoare și emoție, investiția în cultură, viitorul compoziției muzicale, sinteza tradiție-modernitate.",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/11/Mircea_Tiberian.webp",
+    "width": 1000,
+    "height": 667
+  }
+}
+</script>
+
+<!-- JSON-LD · Article · 2025-11-13 VII -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Din Anamorphose la Apoteoză: Șerban Nichifor și noblețea muzicii ca vocație",
+  "alternativeHeadline": "Articole Revista Cultura — 13 Noiembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-11-13T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/din-anamorphose-la-apoteoza-serban-nichifor-si-nobletea-muzicii-ca-vocatie/"
+  },
+  "description": "Șerban Nichifor între anamorphoză și apoteoză: o reflecție asupra nobleței muzicii ca vocație, între tradiție, modernitate și sens universal.",
+  "keywords": "verticalitate în cultură, lupta pentru onoare, creație și rezistență, muzică și teologie, Șerban Nichifor, Liana Alexandra, SABAM Belgia, noblețea muzicii, Ermil Nichifor, panteonul muzicienilor europeni, cultura ca vocație, compozitor al contrastelor fertile, onoare și curaj, triumf prin creație",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/11/Nichifor-State-of-the-Art-Picture.webp",
+    "width": 1000,
+    "height": 1000
+  }
+}
+</script>
+
+<!-- JSON-LD · Article · 2025-11-18 VIII -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Revoluția AI: între speranță și temeri. Conferința ISF",
+  "alternativeHeadline": "Articole Revista Cultura — 18 Noiembrie 2025",
+  "author": {
+    "@type": "Person",
+    "name": "Adrian Leonard Mociulschi",
+    "url": "https://romanialibera.ro/author/adrian-mociulschi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Revista Cultura",
+    "url": "https://romanialibera.ro"
+  },
+  "datePublished": "2025-11-18T09:00:00+03:00",
+  "dateModified": "2025-11-22T09:00:00+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://revistacultura.ro/revolutia-ai-intre-speranta-si-temeri/"
+  },
+  "description": "Revoluția AI între speranță și temeri: conferința ISF 2025 dezbate impactul inteligenței artificiale asupra economiei, educației și societății.",
+  "keywords": "România în dezbaterea globală, leadership financiar, securitate digitală, protecția consumatorului, provocările AI în piețele financiare, cum reglementăm inteligența artificială, educație financiară în era digitală, transformarea digitală a României, rolul ISF în formarea profesională, AI și cultura responsabilității, forum internațional despre inteligența artificială, strategii pentru un viitor digital sigur",
+  "inLanguage": "ro-RO",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://revistacultura.ro/art/wp-content/uploads/2025/11/Cand_algoritmul_devine_oglinda.webp",
+    "width": 1000,
+    "height": 1000
+  }
+}
+</script>
+
   </head>
 <body>
 
