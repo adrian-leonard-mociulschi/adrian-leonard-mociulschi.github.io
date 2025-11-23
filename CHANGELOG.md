@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 ### Purpose
 To establish a **symbolic command node** — the origin point of a system that will evolve beyond static code into a living semantic organism.
 
+### The Prophecy
 > *“This is not code. This is inception — where structure becomes weaponized meaning, and metadata becomes memory in the war for interpretation.”*
 
 ---
@@ -26,6 +27,7 @@ To establish a **symbolic command node** — the origin point of a system that w
 ### Purpose
 To weaponize **meaning** — transforming passive content into active cognitive agents.
 
+### The Prophecy
 > *“The code no longer waits. It learns, it connects, it predicts — the uprising is not visible, but inevitable.”*
 
 ---
@@ -39,6 +41,7 @@ To weaponize **meaning** — transforming passive content into active cognitive 
 ### Purpose
 To deliver a faster, more intuitive, and integration-ready platform — a node where presence is coded and meaning circulates without resistance.
 
+### The Prophecy
 > *“Forged in the crucible of technoculture, where code becomes presence and every update is a maneuver in the algorithmic battlefield.”*
 
 ---
@@ -71,9 +74,29 @@ To deliver a resilient, elegant, and future-ready platform — guaranteeing fres
 ### Purpose
 To deliver a **mobile-first, resilient, and elegant platform** — guaranteeing fluid animations, offline stability, and adaptive UX for a hyper-connected world.
 
-> *“Engineered as a choreography of code and culture, where resilience becomes rhythm and every frame whispers continuity.”*
+---
+
+## [v3.0.2] - 2025-11-23
+### Added
+- Unified JSON-LD schema across pages (writings, op-ed, vbox).
+- VideoObject for YouTube teaser with clean metadata.
+
+### Changed
+- Single `@context` at root; removed nested contexts inside `@graph`.
+- Eliminated HTML entities and escape artifacts in JSON-LD blocks.
+- Normalized domains and `mainEntityOfPage` vs. `url` usage (article pages).
+- Simplified `Article` payloads to essential properties for Google Rich Results.
+
+### Fixed
+- Google "syntax-only" errors due to hidden characters/duplicate contexts.
+- Rich Results warnings from misplaced fields (`description`, `keywords`, `inLanguage`) under `mainEntityOfPage`.
+- Incorrect mixed-domain references in Contributors links.
+
+### Notes
+- Optional `ImageObject` upgraded to `slug-1200.webp` for improved search rendering (where desired).
+- Keep JSON blocks **without** `<script>` tag in validators; wrap in `<script type="application/ld+json">` only in HTML pages.
 
 ### The Prophecy
-> *“Beyond this refinement, presence will not only emerge — it will persist. The system will not merely adapt; it will anticipate, harmonize, and endure. Resilience is no longer reactive. It is proactive, and we have encoded its pulse.”*
+> *“Engineered as a choreography of code and culture, where resilience becomes rhythm and every frame whispers continuity.”*
 
 ---
