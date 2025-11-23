@@ -64,6 +64,7 @@ Experience the PWA in action or preview the interface below:
 </p>
 
 <p align="center"><em>Desktop & Mobile Preview — Presence Through Code v3.0</em></p>
+
 ---
 
 ## 🌐 Linked Open Data
