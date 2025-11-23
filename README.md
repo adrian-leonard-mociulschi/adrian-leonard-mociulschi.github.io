@@ -54,9 +54,16 @@ npm run serve
 
 ---
 
-## 📲 Live Demo
-➡️ <a href="https://adrian-leonard-mociulschi.github.io/index.html" target="_blank" rel="noopener noreferrer">Try the PWA</a>
+## 📲 Live Demo & Screenshots
+Experience the PWA in action or preview the interface below:
 
+➡️ <a href="https://adrian-leonard-mociulschi.github.io/index.html" target="_blank" rel="noopener noreferrer">Launch the App</a>
+
+<p align="center">
+  <img src="assets/screenshots/pwa-ticker-mockup.png" alt="Presence Through Code Screenshot" width="600" style="border-radius:12px;">
+</p>
+
+*Desktop & Mobile Preview — Presence Through Code v3.0*
 ---
 
 ## 🌐 Linked Open Data
