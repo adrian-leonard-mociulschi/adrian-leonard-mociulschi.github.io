@@ -78,3 +78,17 @@ To deliver a **mobile-first, resilient, and elegant platform** — guaranteeing 
 > *“Engineered as a choreography of code and culture, where resilience becomes rhythm and every frame whispers continuity.”*
 
 ---
+
+## v3.0.2 — Structured Data & SEO Optimization
+
+### What’s New
+- **Validated Structured Data** — JSON-LD schemas tested across multiple validators for maximum compliance.
+- **SEO Enhancements** — Improved rich results rendering and indexing consistency.
+- **Syntax Corrections** — Removed hidden characters and normalized fields for clean parsing.
+
+### Purpose
+To deliver **search-ready structured data** and **error-free schemas**, ensuring better visibility and optimized performance in search engines.
+
+### The Prophecy
+> *“Every tag aligned, every schema refined — presence through precision, and meaning through structure.”*
+
