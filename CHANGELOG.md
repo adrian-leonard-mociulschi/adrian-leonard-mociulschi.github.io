@@ -74,28 +74,6 @@ To deliver a resilient, elegant, and future-ready platform — guaranteeing fres
 ### Purpose
 To deliver a **mobile-first, resilient, and elegant platform** — guaranteeing fluid animations, offline stability, and adaptive UX for a hyper-connected world.
 
----
-
-## [v3.0.2] - 2025-11-23
-### Added
-- Unified JSON-LD schema across pages (writings, op-ed, vbox).
-- VideoObject for YouTube teaser with clean metadata.
-
-### Changed
-- Single `@context` at root; removed nested contexts inside `@graph`.
-- Eliminated HTML entities and escape artifacts in JSON-LD blocks.
-- Normalized domains and `mainEntityOfPage` vs. `url` usage (article pages).
-- Simplified `Article` payloads to essential properties for Google Rich Results.
-
-### Fixed
-- Google "syntax-only" errors due to hidden characters/duplicate contexts.
-- Rich Results warnings from misplaced fields (`description`, `keywords`, `inLanguage`) under `mainEntityOfPage`.
-- Incorrect mixed-domain references in Contributors links.
-
-### Notes
-- Optional `ImageObject` upgraded to `slug-1200.webp` for improved search rendering (where desired).
-- Keep JSON blocks **without** `<script>` tag in validators; wrap in `<script type="application/ld+json">` only in HTML pages.
-
 ### The Prophecy
 > *“Engineered as a choreography of code and culture, where resilience becomes rhythm and every frame whispers continuity.”*
 
