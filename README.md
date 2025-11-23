@@ -63,7 +63,7 @@ Experience the PWA in action or preview the interface below:
   <img src="assets/screenshots/pwa-ticker-mockup.png" alt="Presence Through Code Screenshot" width="600" style="border-radius:12px;">
 </p>
 
-*Desktop & Mobile Preview — Presence Through Code v3.0*
+<p align="center"><em>Desktop & Mobile Preview — Presence Through Code v3.0</em></p>
 ---
 
 ## 🌐 Linked Open Data
