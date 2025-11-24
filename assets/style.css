@@ -425,21 +425,9 @@ body {
   }
 }
 
-/* =====================================================
-   News Ticker — Ultra-Smooth CSS (Desktop + Mobile)
-   - GPU acceleration (translate3d, will-change)
-   - Layout containment for performance
-   - Safari fallback (-webkit-*)
-   - Responsive stacking for multiple tickers
-   ===================================================== */
-
-/* =====================================================
-   News Ticker — Ultra-Smooth & Slow (Desktop + Mobile)
-   - GPU acceleration (translate3d, will-change)
-   - Layout containment for performance
-   - Slower animation for fluidity (40s)
-   - Responsive stacking for multiple tickers
-   ===================================================== */
+/* =============================
+   style.css — Layout + GPU hints
+   ============================= */
 
 .news-ticker {
   position: fixed;
@@ -459,23 +447,8 @@ body {
   display: inline-block;
   will-change: transform;
   transform: translate3d(0, 0, 0); /* force GPU compositing */
-  -webkit-transform: translate3d(0, 0, 0);
   font-weight: bold;
   backface-visibility: hidden; /* prevent flicker */
-}
-
-.news-ticker.is-running .ticker-item {
-  animation: tickerMove var(--ticker-duration, 40s) linear infinite;
-  -webkit-animation: tickerMove var(--ticker-duration, 40s) linear infinite;
-}
-
-@keyframes tickerMove {
-  from { transform: translate3d(0, 0, 0); }
-  to   { transform: translate3d(-100%, 0, 0); }
-}
-@-webkit-keyframes tickerMove {
-  from { -webkit-transform: translate3d(0, 0, 0); }
-  to   { -webkit-transform: translate3d(-100%, 0, 0); }
 }
 
 /* Color variants and stacking */
@@ -483,7 +456,6 @@ body {
   top: 0;
   background-color: #c00;
   color: #fff;
-  --ticker-duration: 25s; /* slower speed for clarity */
 }
 .ticker-red .ticker-item { color: #fff; }
 
@@ -491,7 +463,6 @@ body {
   top: 2.5em;
   background-color: #ff0;
   color: #000;
-  --ticker-duration: 30s; /* even slower for second ticker */
 }
 .ticker-yellow .ticker-item { color: #000; }
 
@@ -504,3 +475,70 @@ body {
   }
   .ticker-yellow { top: 2em; }
 }
+
+/* =============================
+   ticker.js — Ultra-Smooth CNN-Style
+   ============================= */
+
+(function(){
+  'use strict';
+
+  /** Config viteze implicite (px/sec) */
+  const defaultSpeeds = {
+    '.ticker-red': 40,    // echivalent ~30s
+    '.ticker-yellow': 50  // echivalent ~25s
+  };
+
+  /** Inițializează tickerele */
+  function initTickers(){
+    document.querySelectorAll('.news-ticker').forEach(ticker => {
+      const item = ticker.querySelector('.ticker-item');
+      if (!item) return;
+
+      // Setăm textul din data-text
+      const text = ticker.dataset.text?.trim() || '';
+      if (text) item.textContent = text;
+
+      // Viteză din config sau default
+      const speed = defaultSpeeds['.' + ticker.classList[1]] || 45;
+
+      startTicker(item, speed);
+    });
+  }
+
+  /** Pornește animația ultra-smooth */
+  function startTicker(el, speed){
+    let x = window.innerWidth; // start off-screen dreapta
+    let lastTime = performance.now();
+
+    function animate(time){
+      const delta = (time - lastTime) / 1000; // secunde
+      lastTime = time;
+      x -= speed * delta;
+
+      if (x < -el.offsetWidth) {
+        x = window.innerWidth; // reset la dreapta
+      }
+
+      el.style.transform = `translate3d(${x}px,0,0)`;
+      requestAnimationFrame(animate);
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  /** API global pentru schimbare text sau viteză */
+  window.setTickerText = function(selector, newText){
+    const el = document.querySelector(selector + ' .ticker-item');
+    if (el) el.textContent = (newText || '').trim();
+  };
+
+  window.setTickerSpeed = function(selector, newSpeed){
+    const el = document.querySelector(selector + ' .ticker-item');
+    if (!el) return;
+    startTicker(el, parseFloat(newSpeed) || 45);
+  };
+
+  /** DOM Ready */
+  window.addEventListener('DOMContentLoaded', initTickers);
+})();
