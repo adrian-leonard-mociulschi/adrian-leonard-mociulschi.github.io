@@ -57,10 +57,11 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Styles -->
-<link rel="stylesheet" href="/assets/style.css?v=20251124-34">
+<link rel="stylesheet" href="/assets/style.css?v=20251124-40">
 
-  <!-- Ticker JS (cu cache-busting) -->
-<script src="/assets/js/ticker.js?v=20251124-34"></script>  
+<!-- Include CSS and JS (cache-busting) -->
+<link rel="stylesheet" href="/assets/style.css?v=20251124-40">
+<script src="/assets/js/ticker.js?v=20251124-40" defer></script>
 
   <!-- Service Worker Registration -->
     <script src="/sw-register.js"></script>
@@ -850,7 +851,18 @@
   </div>
 </div>
 
-<!-- Ticker 2: Yellow Style -->
+<!-- Ticker block — compatible with sw.js updated & ticker.js (strict UX, no flicker) -->
+
+<!-- Ticker 1: Red -->
+<div class="news-ticker ticker-red"
+     role="region" aria-label="România Liberă – News ticker" aria-live="polite"
+     data-text="Read the editorials written by Adrian Leonard Mociulschi in România Liberă">
+  <div class="ticker-track">
+    <span class="ticker-item"></span>
+  </div>
+</div>
+
+<!-- Ticker 2: Yellow -->
 <div class="news-ticker ticker-yellow"
      role="region" aria-label="Revista Cultura – News ticker" aria-live="polite"
      data-text="Follow the latest articles signed by Adrian Leonard Mociulschi in Contributors">
@@ -858,9 +870,6 @@
     <span class="ticker-item"></span>
   </div>
 </div>
-
-<!-- Control script (non-blocking). Requires /assets/js/ticker.js and sw.js v28 registered on site. -->
-<script src="/assets/js/ticker.js" defer></script>
 
   <!-- Anchor at the very top -->
   <a id="top"></a>
