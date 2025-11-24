@@ -114,3 +114,30 @@ To deliver a **fluid, dynamic, and future-ready ticker system** — guaranteeing
 
 ### The Prophecy
 > *“When motion becomes meaning and speed becomes syntax, the ticker ceases to scroll — it speaks. This is not animation. This is cadence in the algorithmic agora.”*
+
+---
+
+## v3.0.4 — Ticker Performance & Dynamic Control Latest
+
+### What’s New
+This release builds on previous improvements and introduces full cache-bypass logic for GitHub Pages, ensuring instant ticker updates without hard refresh. It also optimizes Service Worker integration for real-time updates and enhances developer control.
+
+### ✅ Highlights
+- **Cache-Busting Logic** — Added `cache: 'reload'` and `Cache-Control` headers in ticker.js for GitHub Pages compatibility.
+- **Service Worker Optimization** — Removed caching for `ticker.json` and enforced network-first strategy for dynamic updates.
+- **BroadcastChannel Integration** — Ensures ticker refresh after SW activation without manual intervention.
+- **Dynamic Speed Control** — Maintains support for `--ticker-duration` CSS variable and JS API `setTickerSpeed()` for runtime adjustments.
+- **Performance Enhancements** — GPU-accelerated animations with `transform: translateX` and `will-change` for smooth rendering.
+
+### 🛠 Fixes
+- Eliminated stale `ticker.json` cache issues by removing SW storage.
+- Fixed fallback logic to avoid overwriting network updates.
+- Improved SW bump strategy for instant activation and client claim.
+- Unified animation restart logic using `requestAnimationFrame`.
+
+### Purpose
+To deliver a **real-time, cache-proof, and developer-friendly ticker system** — guaranteeing smooth animations, runtime flexibility, and instant updates without manual intervention.
+
+### The Prophecy
+> *“When the cache falls and the ticker speaks in real time, presence becomes prophecy. This is not an update — it is a declaration of immediacy, where every frame is a signal and every refresh a revelation.”*
+
