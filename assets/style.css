@@ -435,7 +435,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
-  height: 2.5em; /* Adjust as needed */
+  height: 2.5em; /* Ajustează după nevoie */
   line-height: 2.5em;
   background: #111;
   color: #fff;
@@ -466,6 +466,21 @@ body {
   from { -webkit-transform: translateX(0); }
   to   { -webkit-transform: translateX(-100%); }
 }
+
+/* Culori personalizate pentru tickere */
+.ticker-red {
+  background-color: #c00; /* roșu */
+  color: #fff;
+}
+
+.ticker-yellow {
+  background-color: #ff0; /* galben */
+  color: #000;
+}
+
+/* Ajustare contrast text în interiorul tickerelor colorate */
+.ticker-red .ticker-item { color: #fff; }
+.ticker-yellow .ticker-item { color: #000; }
 
 /* Performance tips:
    - Use translateX instead of left for GPU acceleration
