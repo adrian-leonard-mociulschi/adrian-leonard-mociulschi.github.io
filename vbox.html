@@ -59,10 +59,11 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
  <!-- Styles -->
-<link rel="stylesheet" href="/assets/style.css?v=20251124-34">
+<link rel="stylesheet" href="/assets/style.css?v=20251124-40">
 
-  <!-- Ticker JS (cu cache-busting) -->
-<script src="/assets/js/ticker.js?v=20251124-34"></script>  
+<!-- Include CSS and JS (cache-busting) -->
+<link rel="stylesheet" href="/assets/style.css?v=20251124-40">
+<script src="/assets/js/ticker.js?v=20251124-37" defer></script>
 
   <!-- Service Worker Registration -->
     <script src="/sw-register.js"></script>
@@ -546,10 +547,6 @@
     <span class="ticker-item"></span>
   </div>
 </div>
-
-<!-- Include CSS and JS -->
-<link rel="stylesheet" href="/assets/style.css">
-<script src="/assets/js/ticker.js" defer></script>
 
 <!-- Anchor at the very top -->
 <a id="top"></a>
