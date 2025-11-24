@@ -1,6 +1,6 @@
-// sw.js — Improved Version for GitHub Pages
+// sw.js — Improved Version for GitHub Pages (minimal patches)
 // VERSION bump for cache-busting
-const VERSION = 'v39';
+const VERSION = 'v40';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -79,8 +79,9 @@ self.addEventListener('fetch', (event) => {
         return netResp;
       } catch {
         const cache = await caches.open(CACHES.pages);
-        return (await cache.match(event.request)) ||
-               (await cache.match('/index.html')) ||
+        // Fallback cu ignoreSearch pentru URL-uri cu query params
+        const hit = await cache.match(event.request, { ignoreSearch: true });
+        return hit || (await cache.match('/index.html')) ||
                new Response('<h1>Offline</h1><p>Pagina nu este disponibilă.</p>', {
                  headers: {
                    'Content-Type': 'text/html',
@@ -120,6 +121,44 @@ self.addEventListener('fetch', (event) => {
         const cache = await caches.open(CACHES.assets);
         const hit = await cache.match(event.request, { ignoreSearch: true });
         return hit || new Response('/* CSS unavailable */', { status: 504 });
+      }
+    })());
+    return;
+  }
+
+  // JS: network-first, then cache (PATCH)
+  if (dest === 'script' || url.pathname.endsWith('.js')) {
+    event.respondWith((async () => {
+      try {
+        const net = await fetch(event.request, { cache: 'reload' });
+        if (net && (net.ok || net.type === 'opaque')) {
+          const cache = await caches.open(CACHES.assets);
+          cache.put(event.request, net.clone());
+        }
+        return net;
+      } catch {
+        const cache = await caches.open(CACHES.assets);
+        const hit = await cache.match(event.request, { ignoreSearch: true });
+        return hit || new Response('// JS unavailable', { status: 504 });
+      }
+    })());
+    return;
+  }
+
+  // Fonts: network-first, then cache (optional)
+  if (dest === 'font' || /(woff2?|ttf|otf|eot)$/i.test(url.pathname)) {
+    event.respondWith((async () => {
+      try {
+        const net = await fetch(event.request, { cache: 'reload' });
+        if (net && (net.ok || net.type === 'opaque')) {
+          const cache = await caches.open(CACHES.assets);
+          cache.put(event.request, net.clone());
+        }
+        return net;
+      } catch {
+        const cache = await caches.open(CACHES.assets);
+        const hit = await cache.match(event.request, { ignoreSearch: true });
+        return hit || new Response('', { status: 504 });
       }
     })());
     return;
