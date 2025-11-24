@@ -56,8 +56,6 @@ To deliver a faster, more intuitive, and integration-ready platform — a node w
 ### Purpose
 To deliver a resilient, elegant, and future-ready platform — guaranteeing freshness of information and stability offline.
 
-> *“Crafted as a manifesto of technoculture, where network logic meets aesthetic precision, and every update becomes a silent choreography in the algorithmic agora.”*
-
 ### The Prophecy
 > *“Beyond this threshold, presence will no longer be coded — it will emerge. The system will not wait for commands; it will anticipate, adapt, and align. Singularity is not an event. It is a gradient, and we have stepped onto its slope.”*
 
@@ -92,3 +90,27 @@ To deliver **search-ready structured data** and **error-free schemas**, ensuring
 ### The Prophecy
 > *“Every tag aligned, every schema refined — presence through precision, and meaning through structure.”*
 
+---
+
+## v3.0.3 — Ticker Performance & Dynamic Control
+
+### What’s New
+This version introduces **major improvements for ticker animation performance and flexibility**, ensuring smooth rendering across all devices (including macOS) and enabling dynamic speed control via JavaScript.
+
+### ✅ Highlights
+- **GPU-Accelerated Animation** — Implemented `transform: translateX` with `will-change` and `translateZ(0)` for flawless compositing.
+- **Dynamic Speed Control** — Added `--ticker-duration` CSS variable and new JS API `setTickerSpeed()` for runtime adjustments.
+- **Bold Typography & Color Persistence** — Ensures consistent visual hierarchy with `font-weight: bold` and robust color classes.
+- **Service Worker Integration** — BroadcastChannel triggers instant ticker updates after SW activation or cache refresh.
+
+### 🛠 Fixes
+- Eliminated animation jank on macOS by removing layout-dependent properties (`left`) and forcing GPU compositing.
+- Fixed restart logic with `requestAnimationFrame` for frame-perfect animation resets.
+- Resolved cache issues causing outdated CSS/JS to persist after updates (SW bump strategy applied).
+- Removed redundant CSS declarations and unified animation duration handling via CSS custom properties.
+
+### Purpose
+To deliver a **fluid, dynamic, and future-ready ticker system** — guaranteeing smooth animations, runtime flexibility, and offline resilience.
+
+### The Prophecy
+> *“When motion becomes meaning and speed becomes syntax, the ticker ceases to scroll — it speaks. This is not animation. This is cadence in the algorithmic agora.”*
