@@ -472,7 +472,7 @@ body {
 .ticker-red {
   background-color: #c00;
   color: #fff;
-  --ticker-duration: 15s;
+  --ticker-duration: 20s;
 }
 .ticker-red .ticker-item { color: #fff; }
 
