@@ -1,6 +1,6 @@
 // sw.js — Improved Version for GitHub Pages
 // VERSION bump for cache-busting
-const VERSION = 'v37';
+const VERSION = 'v38';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
