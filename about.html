@@ -60,8 +60,9 @@
   <!-- Styles -->
 <link rel="stylesheet" href="/assets/style.css?v=20251124-37">
 
-  <!-- Ticker JS (cu cache-busting) -->
-<script src="/assets/js/ticker.js?v=20251124-37"></script>
+<!-- Include CSS and JS (cache-busting) -->
+<link rel="stylesheet" href="/assets/style.css?v=20251124-40">
+<script src="/assets/js/ticker.js?v=20251124-37" defer></script>
 
   <!-- Service Worker Registration -->
     <script src="/sw-register.js"></script>
@@ -168,7 +169,7 @@
   </head>
 <body>
 
-<!-- Ticker block — compatible with sw.js v28 & ticker.js (strict UX, no flicker) -->
+<!-- Ticker block — compatible with sw.js updated & ticker.js (strict UX, no flicker) -->
 
 <!-- Ticker 1: Red -->
 <div class="news-ticker ticker-red"
@@ -187,10 +188,6 @@
     <span class="ticker-item"></span>
   </div>
 </div>
-
-<!-- Include CSS and JS -->
-<link rel="stylesheet" href="/assets/style.css">
-<script src="/assets/js/ticker.js" defer></script>
   
   <!-- Anchor at the very top -->
 <a id="top"></a>
