@@ -426,92 +426,59 @@ body {
 }
 
 /* =====================================================
-   News Ticker — CSS complet optimizat (Desktop + Mobile)
+   News Ticker — CSS final optimizat (Desktop + Mobile)
    - GPU acceleration (transform, will-change)
    - Safari fallback (-webkit-*)
    - Culori pentru .ticker-red și .ticker-yellow
-   - Viteze diferite per ticker
-   - Text bold pentru ticker-item
+   - Viteze diferite via --ticker-duration
+   - Text bold pentru .ticker-item
    ===================================================== */
 
-/* Containerul generic pentru ticker */
 .news-ticker {
   position: relative;
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
-  height: 2.5em;              /* ajustează după nevoie */
+  height: 2.5em;
   line-height: 2.5em;
-  background: #111;           /* fundal implicit */
-  color: #fff;                /* text implicit */
+  background: #111;
+  color: #fff;
   font-size: 1rem;
 }
 
-/* Elementul animat */
 .ticker-item {
   display: inline-block;
-  padding-left: 100%;         /* pornește în afara ecranului, la dreapta */
+  padding-left: 100%;
   will-change: transform;
-  transform: translateZ(0);   /* forțează compositing GPU */
+  transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  font-weight: bold;          /* text bold */
+  font-weight: bold;
 }
 
-/* Starea de rulare — pornește animația */
 .news-ticker.is-running .ticker-item {
-  animation-name: tickerMove;
-  animation-duration: 20s;    /* valoare implicită dacă nu e suprascrisă */
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  -webkit-animation-name: tickerMove;
-  -webkit-animation-duration: 20s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
+  animation: tickerMove var(--ticker-duration, 20s) linear infinite;
+  -webkit-animation: tickerMove var(--ticker-duration, 20s) linear infinite;
 }
 
-/* Keyframes pentru scroll orizontal lin */
 @keyframes tickerMove {
   from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
 }
-
 @-webkit-keyframes tickerMove {
   from { -webkit-transform: translateX(0); }
   to   { -webkit-transform: translateX(-100%); }
 }
 
-/* =====================================================
-   Culori personalizate (păstrează contrastul și lizibilitatea)
-   ===================================================== */
 .ticker-red {
-  background-color: #c00;     /* roșu puternic */
+  background-color: #c00;
   color: #fff;
+  --ticker-duration: 15s;
 }
 .ticker-red .ticker-item { color: #fff; }
 
 .ticker-yellow {
-  background-color: #ff0;     /* galben intens */
+  background-color: #ff0;
   color: #000;
+  --ticker-duration: 25s;
 }
 .ticker-yellow .ticker-item { color: #000; }
-
-/* =====================================================
-   Viteze diferite per ticker (suprascriu durata implicită)
-   ===================================================== */
-/* roșu — mai rapid */
-.ticker-red.is-running .ticker-item {
-  animation-duration: 15s;
-  -webkit-animation-duration: 15s;
-}
-/* galben — mai lent */
-.ticker-yellow.is-running .ticker-item {
-  animation-duration: 25s;
-  -webkit-animation-duration: 25s;
-}
-
-/* Sfaturi de performanță:
-   - Folosește translateX în loc de left (GPU accel)
-   - Evită box-shadow/filters grele pe .ticker-item
-   - Menține textul pe un singur rând (white-space: nowrap)
-   - Pentru texte foarte lungi, testează durate 12–30s
-*/
