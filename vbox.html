@@ -527,9 +527,9 @@
   </head>
 <body>
 
-<!-- Ticker block — compatible with sw.js v28 & ticker.js (strict UX, no flicker) -->
+<!-- Ticker block — compatible with sw.js updated & ticker.js (strict UX, no flicker) -->
 
-<!-- Ticker 1: Red Style -->
+<!-- Ticker 1: Red -->
 <div class="news-ticker ticker-red"
      role="region" aria-label="România Liberă – News ticker" aria-live="polite"
      data-text="Read the editorials written by Adrian Leonard Mociulschi in România Liberă">
@@ -538,7 +538,7 @@
   </div>
 </div>
 
-<!-- Ticker 2: Yellow Style -->
+<!-- Ticker 2: Yellow -->
 <div class="news-ticker ticker-yellow"
      role="region" aria-label="Revista Cultura – News ticker" aria-live="polite"
      data-text="Follow the latest articles signed by Adrian Leonard Mociulschi in Contributors">
@@ -547,7 +547,8 @@
   </div>
 </div>
 
-<!-- Control script (non-blocking). Requires /assets/js/ticker.js and sw.js v28 registered on site. -->
+<!-- Include CSS and JS -->
+<link rel="stylesheet" href="/assets/style.css">
 <script src="/assets/js/ticker.js" defer></script>
 
 <!-- Anchor at the very top -->
