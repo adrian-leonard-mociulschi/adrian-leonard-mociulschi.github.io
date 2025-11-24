@@ -95,24 +95,37 @@ LIMIT 10
 
 ---
 
-## 📜 Releases
-**Latest Release:** `v3.0.2 — Structured Data & SEO Optimization`
+# 📜 Releases
+**Latest Release:** `v3.0.3 — Ticker Performance & Dynamic Control`
 
 ### What’s New
-This update introduces major improvements to structured data and SEO compliance:
-- Validated JSON-LD across multiple schema and rich results tools.
-- Enhanced indexing for articles and collection pages.
-- Fixed syntax issues for better compatibility with Google Rich Results.
+This update introduces major improvements for ticker animation performance and flexibility, ensuring smooth rendering across all devices and enabling dynamic speed control via JavaScript.
 
 ### ✅ Highlights
-- Refined JSON-LD for improved search visibility.
-- Corrected minor syntax errors to boost validator scores.
-- Optimized schema for consistent indexing.
+- **GPU-Accelerated Animation** — Implemented `transform: translateX` with `will-change` and `translateZ(0)` for flawless compositing.
+- **Dynamic Speed Control** — Added `--ticker-duration` CSS variable and new JS API `setTickerSpeed()` for runtime adjustments.
+- **Bold Typography & Color Persistence** — Ensures consistent visual hierarchy with `font-weight: bold` and robust color classes.
+- **Service Worker Integration** — BroadcastChannel triggers instant ticker updates after SW activation or cache refresh.
 
 ### 🛠 Fixes
-- Removed hidden characters and redundant fields.
-- Improved structured data grouping for clarity and resilience.
+- Eliminated animation jank on macOS by removing layout-dependent properties (`left`) and forcing GPU compositing.
+- Fixed restart logic with `requestAnimationFrame` for frame-perfect animation resets.
+- Resolved cache issues causing outdated CSS/JS to persist after updates (SW bump strategy applied).
+- Removed redundant CSS declarations and unified animation duration handling via CSS custom properties.
 
+### Developer Notes
+- Control ticker speed dynamically:
+  ```js
+  setTickerSpeed('.ticker-red', '12s');
+  setTickerSpeed('.ticker-yellow', '30s');
+  ```
+- JSON integration for text + speed:
+  ```json
+  {
+    ".ticker-red":   { "text": "Breaking News!", "duration": "14s" },
+    ".ticker-yellow":{ "text": "Market Update", "duration": "28s" }
+  }
+  ```
 **Previous Notable Improvements (v3.0): Presence Through Code — Mobile-First Resilience**
 - Zero Flicker UX on Mobile & Desktop — GPU acceleration and `requestAnimationFrame` for smooth animations.
 - Intelligent Fallback Mechanism — Non-blocking updates via `requestIdleCallback`.
