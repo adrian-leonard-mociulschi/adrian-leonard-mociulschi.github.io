@@ -1,11 +1,10 @@
-/* ticker.js — Cache-Fix Version (Adrian Leonard Mociulschi)
-   ✔ No cookies/localStorage
-   ✔ Dynamic text for multiple tickers
-   ✔ API: setTickerText(), restartTicker(), initTickers(), setTickerSpeed()
+/* ticker.js — Ultra-Smooth Version (Adrian Leonard Mociulschi)
+   ✔ GPU-Accelerated Animation
+   ✔ Frame-perfect restart with requestAnimationFrame
+   ✔ Dynamic speed control via CSS variable
    ✔ Network-first JSON + SW BroadcastChannel
-   ✔ requestAnimationFrame for smooth restart
-   ✔ requestIdleCallback for fallback updates
-   ✔ GitHub Pages cache bypass (cache: 'reload' + Cache-Control)
+   ✔ Cache bypass for GitHub Pages
+   ✔ Optimized for clarity and fluidity
 */
 
 (function(){
@@ -20,6 +19,10 @@
 
     el.classList.remove('is-running');
     item.textContent = (newText || '').trim();
+
+    // Force GPU compositing for smoothness
+    item.style.willChange = 'transform';
+    item.style.transform = 'translateZ(0)';
 
     requestAnimationFrame(() => {
       el.classList.add('is-running');
