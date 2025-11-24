@@ -1,6 +1,6 @@
-// sw.js — Optimized Service Worker (state-of-the-art)
+// sw.js — Improved Version for GitHub Pages
 // VERSION bump for cache-busting
-const VERSION = 'v31';
+const VERSION = 'v32';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -94,22 +94,13 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Ticker: network-first, normalizând cheia ca /ticker.json (ignorăm query-urile)
+  // Ticker: always network-first, NO caching
   if (url.pathname.endsWith('/ticker.json')) {
     event.respondWith((async () => {
-      const cache = await caches.open(CACHES.assets);
-      // normalizăm cheia în cache, indiferent de ?v=...
-      const cacheKey = new Request('/ticker.json', { headers: event.request.headers });
       try {
-        // Rețea prima, evităm orice cache intermediar
-        const netResp = await fetch(event.request, { cache: 'no-store' });
-        if (netResp && netResp.ok) {
-          await cache.put(cacheKey, netResp.clone());
-        }
-        return netResp;
+        return await fetch(event.request, { cache: 'reload' });
       } catch {
-        const cached = await cache.match(cacheKey, { ignoreSearch: true });
-        return cached || new Response('{}', { status: 504 });
+        return new Response('{}', { status: 504 });
       }
     })());
     return;
@@ -119,7 +110,7 @@ self.addEventListener('fetch', (event) => {
   if (dest === 'style' || url.pathname.endsWith('.css')) {
     event.respondWith((async () => {
       try {
-        const net = await fetch(event.request, { cache: 'no-store' });
+        const net = await fetch(event.request, { cache: 'reload' });
         if (net && net.ok) {
           const cache = await caches.open(CACHES.assets);
           cache.put(event.request, net.clone());
