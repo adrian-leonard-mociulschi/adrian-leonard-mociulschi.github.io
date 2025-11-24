@@ -425,38 +425,51 @@ body {
   }
 }
 
-/* =============================================
-   Optimized CSS for News Ticker Animation
-   State-of-the-Art Performance (Desktop + Mobile)
-   ============================================= */
+/* =====================================================
+   News Ticker — CSS complet optimizat (Desktop + Mobile)
+   - GPU acceleration (transform, will-change)
+   - Safari fallback (-webkit-*)
+   - Culori pentru .ticker-red și .ticker-yellow
+   - Viteze diferite per ticker
+   - Text bold pentru ticker-item
+   ===================================================== */
 
+/* Containerul generic pentru ticker */
 .news-ticker {
   position: relative;
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
-  height: 2.5em; /* Ajustează după nevoie */
+  height: 2.5em;              /* ajustează după nevoie */
   line-height: 2.5em;
-  background: #111;
-  color: #fff;
+  background: #111;           /* fundal implicit */
+  color: #fff;                /* text implicit */
   font-size: 1rem;
 }
 
+/* Elementul animat */
 .ticker-item {
   display: inline-block;
-  padding-left: 100%; /* Start off-screen */
+  padding-left: 100%;         /* pornește în afara ecranului, la dreapta */
   will-change: transform;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0); /* Safari fallback */
+  transform: translateZ(0);   /* forțează compositing GPU */
+  -webkit-transform: translateZ(0);
+  font-weight: bold;          /* text bold */
 }
 
-/* Running state triggers animation */
+/* Starea de rulare — pornește animația */
 .news-ticker.is-running .ticker-item {
-  animation: tickerMove 20s linear infinite;
-  -webkit-animation: tickerMove 20s linear infinite; /* Safari fallback */
+  animation-name: tickerMove;
+  animation-duration: 20s;    /* valoare implicită dacă nu e suprascrisă */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: tickerMove;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 }
 
-/* Keyframes for smooth horizontal scroll */
+/* Keyframes pentru scroll orizontal lin */
 @keyframes tickerMove {
   from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
@@ -467,23 +480,38 @@ body {
   to   { -webkit-transform: translateX(-100%); }
 }
 
-/* Culori personalizate pentru tickere */
+/* =====================================================
+   Culori personalizate (păstrează contrastul și lizibilitatea)
+   ===================================================== */
 .ticker-red {
-  background-color: #c00; /* roșu */
+  background-color: #c00;     /* roșu puternic */
   color: #fff;
 }
+.ticker-red .ticker-item { color: #fff; }
 
 .ticker-yellow {
-  background-color: #ff0; /* galben */
+  background-color: #ff0;     /* galben intens */
   color: #000;
 }
-
-/* Ajustare contrast text în interiorul tickerelor colorate */
-.ticker-red .ticker-item { color: #fff; }
 .ticker-yellow .ticker-item { color: #000; }
 
-/* Performance tips:
-   - Use translateX instead of left for GPU acceleration
-   - Avoid heavy box-shadows or filters on ticker-item
-   - Keep text in a single line (white-space: nowrap)
+/* =====================================================
+   Viteze diferite per ticker (suprascriu durata implicită)
+   ===================================================== */
+/* roșu — mai rapid */
+.ticker-red.is-running .ticker-item {
+  animation-duration: 15s;
+  -webkit-animation-duration: 15s;
+}
+/* galben — mai lent */
+.ticker-yellow.is-running .ticker-item {
+  animation-duration: 25s;
+  -webkit-animation-duration: 25s;
+}
+
+/* Sfaturi de performanță:
+   - Folosește translateX în loc de left (GPU accel)
+   - Evită box-shadow/filters grele pe .ticker-item
+   - Menține textul pe un singur rând (white-space: nowrap)
+   - Pentru texte foarte lungi, testează durate 12–30s
 */
