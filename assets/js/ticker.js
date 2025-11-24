@@ -1,10 +1,11 @@
-/* ticker.js — Final Optimized Version (Adrian Leonard Mociulschi)
+/* ticker.js — Cache-Fix Version (Adrian Leonard Mociulschi)
    ✔ No cookies/localStorage
    ✔ Dynamic text for multiple tickers
    ✔ API: setTickerText(), restartTicker(), initTickers(), setTickerSpeed()
    ✔ Network-first JSON + SW BroadcastChannel
    ✔ requestAnimationFrame for smooth restart
    ✔ requestIdleCallback for fallback updates
+   ✔ GitHub Pages cache bypass (cache: 'reload' + Cache-Control)
 */
 
 (function(){
@@ -70,9 +71,12 @@
     });
   };
 
-  /** Fetch ticker.json (network-first) */
+  /** Fetch ticker.json (network-first, cache bypass) */
   const loadTickersFromNetwork = debounce(() => {
-    fetch('/ticker.json?v=' + Date.now(), { cache: 'no-store' })
+    fetch('/ticker.json?v=' + Date.now(), {
+      cache: 'reload',
+      headers: { 'Cache-Control': 'no-cache' }
+    })
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(applyTickerMap)
       .catch(err => console.warn('Ticker fetch failed:', err));
