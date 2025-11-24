@@ -95,7 +95,7 @@
 
     const fallbackFn = () => {
       setTickerText('.ticker-red', 'Nov 18: România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided.');
-      setTickerText('.ticker-yellow', '20 Nov: Revista Cultura – AI Revolution: Between Hope and Fears. ISF International Conference, Marriott Hotel, Bucharest.');
+      setTickerText('.ticker-yellow', '20 Nov: Revista Cultura – AI Revolution: Between Hope and Fears’ ISF International Conference, Marriott Hotel, Bucharest.');
     };
     if ('requestIdleCallback' in window) {
       requestIdleCallback(fallbackFn, { timeout: 500 });
