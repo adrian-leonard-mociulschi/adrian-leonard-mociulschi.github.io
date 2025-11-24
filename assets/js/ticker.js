@@ -1,7 +1,7 @@
 /* ticker.js — Final Optimized Version (Adrian Leonard Mociulschi)
    ✔ No cookies/localStorage
    ✔ Dynamic text for multiple tickers
-   ✔ API: setTickerText(), restartTicker(), initTickers()
+   ✔ API: setTickerText(), restartTicker(), initTickers(), setTickerSpeed()
    ✔ Network-first JSON + SW BroadcastChannel
    ✔ requestAnimationFrame for smooth restart
    ✔ requestIdleCallback for fallback updates
@@ -20,7 +20,6 @@
     el.classList.remove('is-running');
     item.textContent = (newText || '').trim();
 
-    // Restart using rAF for smoother frame sync
     requestAnimationFrame(() => {
       el.classList.add('is-running');
     });
@@ -34,6 +33,14 @@
     requestAnimationFrame(() => {
       el.classList.add('is-running');
     });
+  }
+
+  /** Set ticker speed dynamically */
+  function setTickerSpeed(selector, duration){
+    const el = typeof selector === 'string' ? document.querySelector(selector) : selector;
+    if (!el) return;
+    el.style.setProperty('--ticker-duration', duration);
+    restartTicker(el);
   }
 
   /** Initialize all tickers from data-text */
@@ -50,10 +57,17 @@
     let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
   };
 
-  /** Apply JSON map: { selector: text } */
+  /** Apply JSON map: { selector: text or {text, duration} } */
   const applyTickerMap = map => {
     if (!map || typeof map !== 'object') return;
-    Object.entries(map).forEach(([sel, txt]) => setTickerText(sel, txt));
+    Object.entries(map).forEach(([sel, value]) => {
+      if (typeof value === 'string') {
+        setTickerText(sel, value);
+      } else if (value && typeof value === 'object') {
+        if (value.text) setTickerText(sel, value.text);
+        if (value.duration) setTickerSpeed(sel, value.duration);
+      }
+    });
   };
 
   /** Fetch ticker.json (network-first) */
@@ -68,13 +82,13 @@
   window.setTickerText = setTickerText;
   window.restartTicker = restartTicker;
   window.initTickers = initTickers;
+  window.setTickerSpeed = setTickerSpeed;
 
   /** DOM Ready */
   window.addEventListener('DOMContentLoaded', () => {
     initTickers();
     loadTickersFromNetwork();
 
-    // Optional fallback using requestIdleCallback for non-blocking
     const fallbackFn = () => {
       setTickerText('.ticker-red', 'Nov 18: România Liberă – Shadows Over the Black Sea: The silent front where Europe’s future is decided.');
       setTickerText('.ticker-yellow', 'Nov 16: Contributors – Noah’s Ark in the Age of Red Alerts. How do we rebuild trust without sacrificing clarity?');
