@@ -121,13 +121,6 @@ This release builds on the previous improvements and introduces full cache-bypas
   setTickerSpeed('.ticker-red', '12s');
   setTickerSpeed('.ticker-yellow', '30s');
 
-**Previous Notable Improvements (v3.0): Presence Through Code — Mobile-First Resilience**
-- Zero Flicker UX on Mobile & Desktop — GPU acceleration and `requestAnimationFrame` for smooth animations.
-- Intelligent Fallback Mechanism — Non-blocking updates via `requestIdleCallback`.
-- Service Worker v28 Integration — Network-first strategy and instant refresh.
-- CSS Performance Enhancements — Layout isolation and GPU optimization.
-- Public API for Dynamic Control — Real-time ticker updates and animation restarts.
-
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
 ---
