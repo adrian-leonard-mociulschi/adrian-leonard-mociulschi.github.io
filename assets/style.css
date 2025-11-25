@@ -477,68 +477,51 @@ body {
 }
 
 /* =============================
-   ticker.js — Ultra-Smooth CNN-Style
+   Ultra-Smooth CNN-Style Ticker CSS
    ============================= */
 
-(function(){
-  'use strict';
+.news-ticker {
+  position: fixed;
+  bottom: 0; /* Schimbă în top: 0 pentru poziționare sus */
+  width: 100%;
+  overflow: hidden;
+  background: #111;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 8px 0;
+  z-index: 9999;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.5);
+}
 
-  /** Config viteze implicite (px/sec) */
-  const defaultSpeeds = {
-    '.ticker-red': 40,    // echivalent ~30s
-    '.ticker-yellow': 50  // echivalent ~25s
-  };
+.ticker-item {
+  display: inline-block;
+  will-change: transform;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
 
-  /** Inițializează tickerele */
-  function initTickers(){
-    document.querySelectorAll('.news-ticker').forEach(ticker => {
-      const item = ticker.querySelector('.ticker-item');
-      if (!item) return;
+.ticker-red {
+  background: #b30000;
+  color: #fff;
+}
 
-      // Setăm textul din data-text
-      const text = ticker.dataset.text?.trim() || '';
-      if (text) item.textContent = text;
+.ticker-yellow {
+  background: #ffcc00;
+  color: #000;
+}
 
-      // Viteză din config sau default
-      const speed = defaultSpeeds['.' + ticker.classList[1]] || 45;
-
-      startTicker(item, speed);
-    });
+/* Responsive font-size */
+@media (max-width: 768px) {
+  .news-ticker {
+    font-size: 1rem;
   }
+}
 
-  /** Pornește animația ultra-smooth */
-  function startTicker(el, speed){
-    let x = window.innerWidth; // start off-screen dreapta
-    let lastTime = performance.now();
-
-    function animate(time){
-      const delta = (time - lastTime) / 1000; // secunde
-      lastTime = time;
-      x -= speed * delta;
-
-      if (x < -el.offsetWidth) {
-        x = window.innerWidth; // reset la dreapta
-      }
-
-      el.style.transform = `translate3d(${x}px,0,0)`;
-      requestAnimationFrame(animate);
-    }
-
-    requestAnimationFrame(animate);
+@media (max-width: 480px) {
+  .news-ticker {
+    font-size: 0.9rem;
   }
-
-  /** API global pentru schimbare text sau viteză */
-  window.setTickerText = function(selector, newText){
-    const el = document.querySelector(selector + ' .ticker-item');
-    if (el) el.textContent = (newText || '').trim();
-  };
-
-  window.setTickerSpeed = function(selector, newSpeed){
-    const el = document.querySelector(selector + ' .ticker-item');
-    if (!el) return;
-    startTicker(el, parseFloat(newSpeed) || 45);
-  };
-
-  /** DOM Ready */
-  window.addEventListener('DOMContentLoaded', initTickers);
-})();
+}
