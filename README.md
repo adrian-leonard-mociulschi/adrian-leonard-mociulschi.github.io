@@ -97,29 +97,13 @@ LIMIT 10
 
 
 # 📜 Releases
-**Latest Release:** `v3.0.4 — Ticker Performance & Dynamic Control`
+**Latest Release:** `v3.0.5 — Return to Origin: Banner Doctrine`
 
 ### What’s New
 This release builds on the previous improvements and introduces full cache-bypass logic for GitHub Pages, ensuring instant ticker updates without hard refresh. It also optimizes Service Worker integration for real-time updates and enhances developer control.
 
-### ✅ Highlights
-- **Cache-Busting Logic** — Added `cache: 'reload'` and `Cache-Control` headers in ticker.js for GitHub Pages compatibility.
-- **Service Worker Optimization** — Removed caching for `ticker.json` and enforced network-first strategy for dynamic updates.
-- **BroadcastChannel Integration** — Ensures ticker refresh after SW activation without manual intervention.
-- **Dynamic Speed Control** — Maintains support for `--ticker-duration` CSS variable and JS API `setTickerSpeed()` for runtime adjustments.
-- **Performance Enhancements** — GPU-accelerated animations with `transform: translateX` and `will-change` for smooth rendering.
-
-### 🛠 Fixes
-- Eliminated stale `ticker.json` cache issues by removing SW storage.
-- Fixed fallback logic to avoid overwriting network updates.
-- Improved SW bump strategy for instant activation and client claim.
-- Unified animation restart logic using `requestAnimationFrame`.
-
-### Developer Notes
-- Control ticker speed dynamically:
-  ```js
-  setTickerSpeed('.ticker-red', '12s');
-  setTickerSpeed('.ticker-yellow', '30s');
+### Purpose
+To reaffirm **structural integrity** and simplify the experience after encountering complex programming challenges that compromised fluidity and performance.
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
