@@ -426,17 +426,13 @@ body {
 }
 
 /* =============================
-   style.css — Ultra-Premium Cinematic Top Bar
+   Ultra-Premium Cinematic Top Bar
    ============================= */
 
-body {
-  margin: 0;
-  background: #000;
-}
-
 .wave-bar {
-  position: top;
+  position: fixed; /* fixată în viewport */
   top: 0;
+  left: 0;
   width: 100%;
   height: 80px;
   overflow: hidden;
