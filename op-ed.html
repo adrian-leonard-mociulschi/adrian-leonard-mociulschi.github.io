@@ -57,11 +57,11 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Styles -->
-<link rel="stylesheet" href="/assets/style.css?v=20251124-40">
+<link rel="stylesheet" href="/assets/style.css?v=20251125-41">
 
 <!-- Include CSS and JS (cache-busting) -->
-<link rel="stylesheet" href="/assets/style.css?v=20251124-40">
-<script src="/assets/js/ticker.js?v=20251124-40" defer></script>
+<link rel="stylesheet" href="/assets/style.css?v=20251125-41">
+<script src="/assets/js/ticker.js?v=20251125-41" defer></script>
 
   <!-- Service Worker Registration -->
     <script src="/sw-register.js"></script>
@@ -840,18 +840,9 @@
   </head>
 <body>
   
-<!-- Ticker block — compatible with sw.js v28 & ticker.js (strict UX, no flicker) -->
-
-<!-- Ticker 1: Red Style -->
-<div class="news-ticker ticker-red"
-     role="region" aria-label="România Liberă – News ticker" aria-live="polite"
-     data-text="Read the editorials written by Adrian Leonard Mociulschi in România Liberă">
-  <div class="ticker-track">
-    <span class="ticker-item"></span>
-  </div>
-</div>
-
-<!-- Ticker block — compatible with sw.js updated & ticker.js (strict UX, no flicker) -->
+<!-- =============================
+     Ultra-Smooth CNN-Style Ticker
+     ============================= -->
 
 <!-- Ticker 1: Red -->
 <div class="news-ticker ticker-red"
@@ -870,7 +861,7 @@
     <span class="ticker-item"></span>
   </div>
 </div>
-
+  
   <!-- Anchor at the very top -->
   <a id="top"></a>
 
