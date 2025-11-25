@@ -1,9 +1,10 @@
-/* ticker.js — Ultra-Smooth CNN-Style Version (Adrian Leonard Mociulschi)
+/* ticker.js — Ultra-Smooth CNN-Style Version (Optimizat)
    ✔ GPU-Accelerated Animation
    ✔ requestAnimationFrame pentru fluiditate absolută
-   ✔ Viteză controlabilă în px/sec
+   ✔ Viteză controlabilă în px/sec (dinamic)
    ✔ Inițializare din data-text
-   ✔ Compatibil cu HTML existent
+   ✔ Responsivitate la resize
+   ✔ Prevenire animații suprapuse
 */
 
 (function(){
@@ -11,9 +12,12 @@
 
   /** Config viteze implicite (px/sec) */
   const defaultSpeeds = {
-    '.ticker-red': 40,    // echivalent ~30s
-    '.ticker-yellow': 50  // echivalent ~25s
+    '.ticker-red': 40,
+    '.ticker-yellow': 50
   };
+
+  /** Map pentru stocarea animațiilor active */
+  const tickerState = new Map();
 
   /** Inițializează tickerele */
   function initTickers(){
@@ -21,49 +25,63 @@
       const item = ticker.querySelector('.ticker-item');
       if (!item) return;
 
-      // Setăm textul din data-text
-      const text = ticker.dataset.text?.trim() || '';
-      if (text) item.textContent = text;
+      // Setăm textul din data-text sau păstrăm originalul
+      const text = ticker.dataset.text?.trim() || item.textContent;
+      item.textContent = text;
 
       // Viteză din config sau default
       const speed = defaultSpeeds['.' + ticker.classList[1]] || 45;
 
-      startTicker(item, speed);
+      startTicker(ticker, item, speed);
     });
   }
 
   /** Pornește animația ultra-smooth */
-  function startTicker(el, speed){
+  function startTicker(container, el, speed){
+    // Anulează animația anterioară dacă există
+    if (tickerState.has(container)) {
+      cancelAnimationFrame(tickerState.get(container).rafId);
+    }
+
     let x = window.innerWidth; // start off-screen dreapta
     let lastTime = performance.now();
+
+    // Stocăm viteza într-un obiect pentru update dinamic
+    const state = { speed: speed, rafId: null };
+    tickerState.set(container, state);
 
     function animate(time){
       const delta = (time - lastTime) / 1000; // secunde
       lastTime = time;
-      x -= speed * delta;
+      x -= state.speed * delta;
 
       if (x < -el.offsetWidth) {
         x = window.innerWidth; // reset la dreapta
       }
 
       el.style.transform = `translate3d(${x}px,0,0)`;
-      requestAnimationFrame(animate);
+      state.rafId = requestAnimationFrame(animate);
     }
 
-    requestAnimationFrame(animate);
+    state.rafId = requestAnimationFrame(animate);
+
+    // Responsivitate la resize
+    window.addEventListener('resize', () => {
+      x = window.innerWidth;
+    });
   }
 
-  /** API global pentru schimbare text sau viteză */
+  /** API global pentru schimbare text */
   window.setTickerText = function(selector, newText){
     const el = document.querySelector(selector + ' .ticker-item');
     if (el) el.textContent = (newText || '').trim();
   };
 
+  /** API global pentru schimbare viteză dinamică */
   window.setTickerSpeed = function(selector, newSpeed){
-    const el = document.querySelector(selector + ' .ticker-item');
-    if (!el) return;
-    // Repornește animația cu noua viteză
-    startTicker(el, parseFloat(newSpeed) || 45);
+    const container = document.querySelector(selector);
+    if (!container || !tickerState.has(container)) return;
+    tickerState.get(container).speed = parseFloat(newSpeed) || 45;
   };
 
   /** DOM Ready */
