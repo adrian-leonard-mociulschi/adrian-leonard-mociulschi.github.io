@@ -36,7 +36,7 @@ Here, humans and sentient systems converge to explore:
 
 ---
 
-## 🧱 Architecture
+## 📐 Architecture
 - **Service Worker v28** — Network-first strategy, normalized cache keys, BroadcastChannel integration
 - **Ticker.js** — Dynamic content updates, debounce logic, and restart-safe animations
 - **HTML Layer** — Data-text fallback, semantic markup, and deferred scripts
@@ -96,7 +96,7 @@ LIMIT 10
 ---
 
 
-# 📜 Releases
+# 📃 Releases
 **Latest Release:** `v3.0.5 — Return to Origin: Banner Doctrine`
 
 ### What’s New
