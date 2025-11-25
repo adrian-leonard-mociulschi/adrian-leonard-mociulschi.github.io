@@ -1,6 +1,6 @@
-// sw.js — Improved Version for GitHub Pages (minimal patches)
+// sw.js — Optimized PWA Service Worker for GitHub Pages
 // VERSION bump for cache-busting
-const VERSION = 'v40';
+const VERSION = 'v41';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -79,7 +79,6 @@ self.addEventListener('fetch', (event) => {
         return netResp;
       } catch {
         const cache = await caches.open(CACHES.pages);
-        // Fallback cu ignoreSearch pentru URL-uri cu query params
         const hit = await cache.match(event.request, { ignoreSearch: true });
         return hit || (await cache.match('/index.html')) ||
                new Response('<h1>Offline</h1><p>Pagina nu este disponibilă.</p>', {
@@ -95,7 +94,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Ticker: always network-first, NO caching
+  // ticker.json: always network-first, NO caching
   if (url.pathname.endsWith('/ticker.json')) {
     event.respondWith((async () => {
       try {
@@ -126,7 +125,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // JS: network-first, then cache (PATCH)
+  // JS: network-first, then cache
   if (dest === 'script' || url.pathname.endsWith('.js')) {
     event.respondWith((async () => {
       try {
@@ -145,7 +144,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Fonts: network-first, then cache (optional)
+  // Fonts: network-first, then cache
   if (dest === 'font' || /(woff2?|ttf|otf|eot)$/i.test(url.pathname)) {
     event.respondWith((async () => {
       try {
