@@ -100,7 +100,9 @@ LIMIT 10
 **Latest Release:** `v3.0.5 — Return to Origin: Banner Doctrine`
 
 ### What’s New
-This release builds on the previous improvements and introduces full cache-bypass logic for GitHub Pages, ensuring instant ticker updates without hard refresh. It also optimizes Service Worker integration for real-time updates and enhances developer control.
+- **Ticker System Removed** — Eliminated all ticker-related scripts and CSS for stability.
+- **Rollback to Original Layout** — Restored the clean, static design for clarity and resilience.
+- **Banner Experiments Archived** — Decorative banner attempts postponed for future iterations.
 
 ### Purpose
 To reaffirm **structural integrity** and simplify the experience after encountering complex programming challenges that compromised fluidity and performance.
