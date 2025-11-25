@@ -430,7 +430,7 @@ body {
    ============================= */
 
 .wave-bar {
-  position: fixed; /* fixată în viewport */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -469,4 +469,11 @@ body {
 @keyframes waveMotion {
   0%, 100% { transform: translateX(0); }
   50% { transform: translateX(-20%); }
+}
+
+
+Ce trebuie să faci ca să nu acopere textul:
+Adaugă în CSS-ul tău:
+body {
+  padding-top: 80px;
 }
