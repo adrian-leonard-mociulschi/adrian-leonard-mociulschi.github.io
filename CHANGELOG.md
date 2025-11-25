@@ -141,3 +141,19 @@ To deliver a **real-time, cache-proof, and developer-friendly ticker system** �
 ### The Prophecy
 > *“When the cache falls and the ticker speaks in real time, presence becomes prophecy. This is not an update — it is a declaration of immediacy, where every frame is a signal and every refresh a revelation.”*
 
+---
+
+## v3.0.5 — Return to Origin: Banner Doctrine
+
+### What’s New
+- **Ticker System Removed** — Eliminated all ticker-related scripts and CSS for stability.
+- **Rollback to Original Layout**** — Restored the clean, static design for clarity and resilience.
+- **Banner Experiments Archived**** — Decorative banner attempts postponed for future iterations.
+
+### Purpose
+To reaffirm **structural integrity** and simplify the experience after encountering complex programming challenges that compromised fluidity and performance.
+
+### The Prophecy
+> *“When motion becomes noise, silence becomes signal. We return to origin, not in defeat, but in pursuit of purity.”*
+
+
