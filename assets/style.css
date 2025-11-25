@@ -426,8 +426,27 @@ body {
 }
 
 /* =============================
-   Ultra-Premium Cinematic Top Bar
+   Ultra-Premium Cinematic Top Bar (Adaptiv la tema sistemului)
    ============================= */
+
+/* Fundal adaptiv */
+@media (prefers-color-scheme: dark) {
+  body {
+    margin: 0;
+    background: #000; /* fundal negru pentru dark mode */
+    color: #fff;
+    padding-top: 80px; /* spațiu sub bară */
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    margin: 0;
+    background: #fff; /* fundal alb pentru light mode */
+    color: #000;
+    padding-top: 80px; /* spațiu sub bară */
+  }
+}
 
 .wave-bar {
   position: fixed;
@@ -469,11 +488,4 @@ body {
 @keyframes waveMotion {
   0%, 100% { transform: translateX(0); }
   50% { transform: translateX(-20%); }
-}
-
-
-Ce trebuie să faci ca să nu acopere textul:
-Adaugă în CSS-ul tău:
-body {
-  padding-top: 80px;
 }
