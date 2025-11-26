@@ -51,6 +51,7 @@ img{ max-width:100%; display:block; }
   display: flex;
   gap: 1.1rem;
   align-items: center;
+  justify-content: center; /* centrăm meniul */
   flex-wrap: nowrap; /* NU mai permite wrap */
   overflow-x: auto; /* scroll orizontal pe mobil */
   -webkit-overflow-scrolling: touch; /* smooth scroll pe iOS */
