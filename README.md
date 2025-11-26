@@ -98,7 +98,6 @@ LIMIT 10
 
 ### What’s New
 - **Responsive Navigation Finalized** — Implemented centered layout with horizontal scroll for mobile, ensuring seamless UX.
-- **Scrollbar Concealment Attempted** — Integrated cross-browser techniques to minimize visual clutter.
 - **Documentation Enhanced** — Added fully commented CSS for maintainability and clarity.
 
 ### Purpose
