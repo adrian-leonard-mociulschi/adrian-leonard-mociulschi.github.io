@@ -40,54 +40,67 @@ img{ max-width:100%; display:block; }
 }
 
 /* ===== Nav ============================================================= */
+
+/* Containerul principal al navigației */
 .site-nav {
-  margin: 18px 0 0;
+  margin: 18px 0 0; /* Spațiu deasupra navigației */
 }
 
+/* Lista de linkuri din meniu */
 .site-nav .menu-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1.1rem;
-  align-items: center;
-  justify-content: center; /* centrăm meniul */
-  flex-wrap: nowrap; /* NU mai permite wrap */
-  overflow-x: auto; /* scroll orizontal pe mobil */
-  -webkit-overflow-scrolling: touch; /* smooth scroll pe iOS */
+  list-style: none; /* Elimină bullet-urile implicite */
+  padding: 0; /* Elimină padding-ul implicit */
+  margin: 0; /* Elimină margin-ul implicit */
+  display: flex; /* Folosește flexbox pentru aliniere orizontală */
+  gap: 1.1rem; /* Spațiu între elementele meniului */
+  align-items: center; /* Aliniază vertical elementele în centru */
+  justify-content: center; /* Centrează meniul pe orizontală */
+  flex-wrap: nowrap; /* Nu permite trecerea pe rândul următor */
+  white-space: nowrap; /* Menține toate elementele pe un singur rând */
+  overflow-x: auto; /* Activează scroll orizontal pe ecrane mici */
+  -webkit-overflow-scrolling: touch; /* Scroll lin pe iOS */
+  -ms-overflow-style: none; /* Ascunde scrollbar în Internet Explorer */
+  scrollbar-width: none; /* Ascunde scrollbar în Firefox */
 }
 
+/* Ascunde scrollbar-ul în browsere WebKit (Chrome, Safari) */
+.site-nav .menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Stil pentru fiecare link din meniu */
 .site-nav .menu-link {
-  position: relative;
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: .02em;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 1px;
-  padding: 2px 1px;
-  border-radius: 4px;
-  transition: color .25s ease, transform .25s cubic-bezier(.2,.7,.2,1), background-size .25s ease;
+  position: relative; /* Permite pseudo-elemente poziționate */
+  display: inline-block; /* Afișează linkurile ca blocuri inline */
+  color: #fff; /* Culoarea textului */
+  text-decoration: none; /* Elimină sublinierea implicită */
+  font-weight: 500; /* Grosimea fontului */
+  letter-spacing: .02em; /* Spațiere ușoară între litere */
+  background-image: linear-gradient(currentColor, currentColor); /* Linie sub text la hover */
+  background-position: 0 100%; /* Poziționează linia sub text */
+  background-repeat: no-repeat; /* Nu repetă linia */
+  background-size: 0% 1px; /* Dimensiunea inițială a liniei (invizibilă) */
+  padding: 2px 1px; /* Spațiu intern pentru click confortabil */
+  border-radius: 4px; /* Colțuri rotunjite subtile */
+  transition: color .25s ease, transform .25s cubic-bezier(.2,.7,.2,1), background-size .25s ease; /* Animații fluide */
 }
 
+/* Efect la hover și focus */
 .site-nav .menu-link:hover,
 .site-nav .menu-link:focus-visible {
-  color: #fff;
-  transform: translateY(-1.5px);
-  background-size: 100% 1px;
-  outline: none;
+  color: #fff; /* Menține culoarea albă */
+  transform: translateY(-1.5px); /* Ridică ușor linkul pentru efect vizual */
+  background-size: 100% 1px; /* Afișează linia complet sub text */
+  outline: none; /* Elimină conturul implicit */
 }
 
-/* Responsive tweak */
+/* Ajustări responsive pentru ecrane mici */
 @media (max-width: 600px) {
   .site-nav .menu-list {
-    gap: 0.8rem;
+    gap: 0.8rem; /* Reduce spațiul între linkuri */
   }
   .site-nav .menu-link {
-    font-size: 0.9rem;
+    font-size: 0.9rem; /* Micșorează fontul pentru a încăpea pe ecran */
   }
 }
 
