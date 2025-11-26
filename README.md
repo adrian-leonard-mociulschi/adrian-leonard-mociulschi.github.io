@@ -93,16 +93,16 @@ LIMIT 10
 
 ---
 
-
 # 📃 Releases
-**Latest Release:** `v3.0.5 — Return to Origin: Banner Doctrine`
+**Latest Release:** `v3.0.6 — Navigation Ascendant: UX Purity Protocol`
 
 ### What’s New
-- **Ticker System Removed** — Eliminated all ticker-related scripts and CSS for stability.
-- **Rollback to Original Layout** — Restored the clean, static design for clarity and resilience.
+- **Responsive Navigation Finalized** — Implemented centered layout with horizontal scroll for mobile, ensuring seamless UX.
+- **Scrollbar Concealment Attempted** — Integrated cross-browser techniques to minimize visual clutter.
+- **Documentation Enhanced** — Added fully commented CSS for maintainability and clarity.
 
 ### Purpose
-To reaffirm **structural integrity** and simplify the experience after encountering complex programming challenges that compromised fluidity and performance.
+To elevate **user experience purity** by refining navigation mechanics without disturbing established design paradigms, preserving structural harmony and performance.
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
