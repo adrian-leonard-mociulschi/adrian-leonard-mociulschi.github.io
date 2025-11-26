@@ -147,8 +147,8 @@ To deliver a **real-time, cache-proof, and developer-friendly ticker system** �
 
 ### What’s New
 - **Ticker System Removed** — Eliminated all ticker-related scripts and CSS for stability.
-- **Rollback to Original Layout**** — Restored the clean, static design for clarity and resilience.
-- **Banner Experiments Archived**** — Decorative banner attempts postponed for future iterations.
+- **Rollback to Original Layout** — Restored the clean, static design for clarity and resilience.
+- **Banner Experiments Archived** — Decorative banner attempts postponed for future iterations.
 
 ### Purpose
 To reaffirm **structural integrity** and simplify the experience after encountering complex programming challenges that compromised fluidity and performance.
