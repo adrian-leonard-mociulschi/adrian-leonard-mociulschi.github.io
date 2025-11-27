@@ -1,6 +1,6 @@
 // sw.js — Optimized PWA Service Worker for GitHub Pages
 // VERSION bump for cache-busting
-const VERSION = 'v60';
+const VERSION = 'v61';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
