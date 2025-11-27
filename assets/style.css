@@ -63,11 +63,6 @@ img{ max-width:100%; display:block; }
   scrollbar-width: none; /* Ascunde scrollbar în Firefox */
 }
 
-/* Ascunde scrollbar-ul în browsere WebKit (Chrome, Safari) */
-.site-nav .menu-list::-webkit-scrollbar {
-  display: none;
-}
-
 /* Stil pentru fiecare link din meniu */
 .site-nav .menu-link {
   position: relative; /* Permite pseudo-elemente poziționate */
@@ -97,10 +92,13 @@ img{ max-width:100%; display:block; }
 /* Ajustări responsive pentru ecrane mici */
 @media (max-width: 600px) {
   .site-nav .menu-list {
-    gap: 0.8rem; /* Reduce spațiul între linkuri */
+    gap: 0.6rem; /* Spațiu mai mic între linkuri */
+    padding: 0 8px; /* Mic buffer stânga/dreapta */
+    justify-content: center; /* Menține centrat */
   }
   .site-nav .menu-link {
-    font-size: 0.9rem; /* Micșorează fontul pentru a încăpea pe ecran */
+    font-size: 0.85rem; /* Font puțin mai mic */
+    padding: 2px 0; /* Elimină padding lateral */
   }
 }
 
