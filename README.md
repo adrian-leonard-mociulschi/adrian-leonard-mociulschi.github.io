@@ -35,8 +35,8 @@ Here, humans and sentient systems converge to explore:
 ---
 
 ## 📐 Architecture
-- **Service Worker v28** — Network-first strategy, normalized cache keys, BroadcastChannel integration
-- **Ticker.js** — Dynamic content updates, debounce logic, and restart-safe animations
+- **Service Worker v62** — Network-first strategy, normalized cache keys, BroadcastChannel integration
+- **RSS Feed Integration** — Auto-generated XML feed, ensuring syndication and discoverability
 - **HTML Layer** — Data-text fallback, semantic markup, and deferred scripts
 
 ---
@@ -119,7 +119,6 @@ To consolidate **structural clarity and performance excellence**, ensuring a fri
 ## ✅ Visual Proof
 
 ![Lighthouse Comparison](assets/screenshots/lighthouse-comparison-2250x954.png)
-
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
