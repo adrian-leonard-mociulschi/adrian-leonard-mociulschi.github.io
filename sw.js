@@ -1,6 +1,5 @@
-// sw.js — Optimized PWA Service Worker for GitHub Pages
-// VERSION bump for cache-busting
-const VERSION = 'v61';
+// sw.js — Final PWA Service Worker (offline complet)
+const VERSION = 'v62';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -11,13 +10,14 @@ const PRECACHE_PAGES = [
   '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html'
 ];
 const PRECACHE_ASSETS = [
+  '/assets/css/styles.css',
+  '/assets/js/app.js',
+  '/manifest.json',
   '/assets/img/Favicon-new.png',
   '/assets/img/Favicon-new.svg',
-  '/assets/img/Favicon-new.ico',
-  '/manifest.json'
+  '/assets/img/Favicon-new.ico'
 ];
 
-// BroadcastChannel for notifying clients about updates
 const bc = ('BroadcastChannel' in self) ? new BroadcastChannel('sw-updates') : null;
 
 self.addEventListener('install', (event) => {
@@ -52,7 +52,6 @@ self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
-// Limit cache entries globally
 async function limitCache(cacheName, maxEntries = 60) {
   const cache = await caches.open(cacheName);
   const keys = await cache.keys();
@@ -66,7 +65,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   const dest = event.request.destination;
 
-  // Navigation: network-first with preload, fallback offline
+  // Navigație: network-first, fallback la cache
   if (event.request.mode === 'navigate') {
     event.respondWith((async () => {
       try {
@@ -80,21 +79,13 @@ self.addEventListener('fetch', (event) => {
       } catch {
         const cache = await caches.open(CACHES.pages);
         const hit = await cache.match(event.request, { ignoreSearch: true });
-        return hit || (await cache.match('/index.html')) ||
-               new Response('<h1>Offline</h1><p>Pagina nu este disponibilă.</p>', {
-                 headers: {
-                   'Content-Type': 'text/html',
-                   'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'"
-                 },
-                 status: 504,
-                 statusText: 'Offline'
-               });
+        return hit || (await cache.match('/index.html'));
       }
     })());
     return;
   }
 
-  // ticker.json: always network-first, NO caching
+  // ticker.json: network-only
   if (url.pathname.endsWith('/ticker.json')) {
     event.respondWith((async () => {
       try {
@@ -106,7 +97,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // CSS: network-first, then cache
+  // CSS: network-first, fallback cache
   if (dest === 'style' || url.pathname.endsWith('.css')) {
     event.respondWith((async () => {
       try {
@@ -125,7 +116,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // JS: network-first, then cache
+  // JS: network-first, fallback cache
   if (dest === 'script' || url.pathname.endsWith('.js')) {
     event.respondWith((async () => {
       try {
@@ -144,7 +135,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Fonts: network-first, then cache
+  // Fonts: network-first, fallback cache
   if (dest === 'font' || /(woff2?|ttf|otf|eot)$/i.test(url.pathname)) {
     event.respondWith((async () => {
       try {
@@ -163,7 +154,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Images: stale-while-revalidate
+  // Imagini: stale-while-revalidate
   if (dest === 'image' || /(png|jpe?g|gif|webp|svg|ico|avif|bmp)$/i.test(url.pathname)) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHES.images);
@@ -180,7 +171,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Other: cache-first, then network
+  // Alte resurse: cache-first
   event.respondWith((async () => {
     const cache = await caches.open(CACHES.assets);
     const cached = await cache.match(event.request, { ignoreSearch: true });
