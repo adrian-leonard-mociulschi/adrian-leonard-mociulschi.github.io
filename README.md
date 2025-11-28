@@ -94,14 +94,32 @@ LIMIT 10
 ---
 
 # 📃 Releases
-**Latest Release:** `v3.0.6 — Navigation Ascendant: UX Purity Protocol`
+**Latest Release:** `v4.0.0 — The Purity Continuum: Navigation Refined`
 
-### What’s New
-- **Responsive Navigation Finalized** — Implemented centered layout with horizontal scroll for mobile, ensuring seamless UX.
-- **Documentation Enhanced** — Added fully commented CSS for maintainability and clarity.
+## ✅ What’s New
+- **Lighthouse Audit Completed** — All pages tested and metrized for UX purity.
+- **Core Web Vitals Perfected** — Performance, Accessibility, Best Practices at **100**; SEO up to **87**.
+- **Rendering Optimized** — CLS, LCP, and FCP tuned for smooth visual flow.
 
-### Purpose
-To elevate **user experience purity** by refining navigation mechanics without disturbing established design paradigms, preserving structural harmony and performance.
+### **Scores by Page**
+- **Index**: 98.2  
+- **About**: 94.8  
+- **Writings**: 95.6  
+- **Op-Ed (optimized)**: 94.0  
+- **VBox**: 94.4  
+
+*(Average UX score: 95+, Lighthouse certified)*
+
+### **Purpose**
+To consolidate **structural clarity and performance excellence**, ensuring a frictionless navigation experience across all devices.
+
+### **The Prophecy**
+> *"When complexity whispers, simplicity answers. We ascend beyond ornamentation, seeking the axis of clarity where function reigns supreme.”*
+
+## ✅ Visual Proof
+
+![Lighthouse Comparison](assets/screenshots/lighthouse-comparison-2250x954.png)
+
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
