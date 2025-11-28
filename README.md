@@ -99,7 +99,7 @@ LIMIT 10
 
 ## ✅ What’s New
 - **Lighthouse Audit Completed** — All pages tested and metrized for UX purity.
-- **Core Web Vitals Perfected** — Performance, Accessibility, Best Practices at **100**; SEO up to **87**.
+- **Core Web Vitals Perfected** — SEO, Accessibility, Best Practices at **100**; Performance up to **87**.
 - **Rendering Optimized** — CLS, LCP, and FCP tuned for smooth visual flow.
 
 ### **Scores by Page**
