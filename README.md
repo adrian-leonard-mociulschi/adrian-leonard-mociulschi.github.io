@@ -35,7 +35,7 @@ Here, humans and sentient systems converge to explore:
 ---
 
 ## 📐 Architecture
-- **Service Worker v62** — Network-first strategy, normalized cache keys, BroadcastChannel integration
+- **Service Worker v63** — Network-first strategy, normalized cache keys, BroadcastChannel integration
 - **RSS Feed Integration** — Auto-generated XML feed, ensuring syndication and discoverability
 - **HTML Layer** — Data-text fallback, semantic markup, and deferred scripts
 
