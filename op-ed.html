@@ -4,8 +4,8 @@
   <meta charset="utf-8"/>
   <meta name="msvalidate.01" content="F96E9C5720D3D6021656350BF92CB55F"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="robots" content="index, follow">
-  
+  <meta name="robots" content="index, follow"> 
+
   <title>Op-Ed — Adrian Leonard Mociulschi</title>
 
   <!-- Canonical -->
@@ -14,8 +14,8 @@
   <!-- Primary SEO -->
   <meta name="description" content="Opinion & editorial essays by Adrian Leonard Mociulschi on technoculture, ethics of AI, and symbolic infrastructures."/>
   <meta name="keywords" content="Op-Ed, opinion, editorial, Adrian Leonard Mociulschi, technoculture, ethical AI, culture and technology"/>
-  <meta name="author" content="Adrian Leonard Mociulschi">
-  
+  <meta name="author" content="Adrian Leonard Mociulschi"> 
+
   <!-- Open Graph -->
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content="en_US"/>
@@ -32,10 +32,7 @@
   <meta name="twitter:title" content="Op-Ed — Adrian Leonard Mociulschi"/>
   <meta name="twitter:description" content="Opinion & editorial essays by Adrian Leonard Mociulschi on technoculture, ethics of AI, and symbolic infrastructures."/>
   <meta name="twitter:image" content="https://adrian-leonard-mociulschi.github.io/assets/og/og-cover-adi-futura-1200x630.png"/>
-  <meta name="twitter:image:alt" content="Symbolic technoculture cover — Adrian Leonard Mociulschi">
-  
-  <!-- Fallback for other platforms -->
-  <meta name="author" content="Adrian Leonard Mociulschi" />
+  <meta name="twitter:image:alt" content="Symbolic technoculture cover — Adrian Leonard Mociulschi"> 
 
   <!-- Article-specific -->
   <meta property="article:author" content="https://adrian-leonard-mociulschi.github.io/op-ed"/>
@@ -43,31 +40,39 @@
   <meta property="article:modified_time" content="2025-11-28T00:00:00+02:00"/>
 
   <!-- PWA Manifest and Meta Tags -->
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#000000">
-  <meta name="application-name" content="A.L.M.">
-  
-  <!-- Favicons (optional) -->
-  <link rel="icon" href="assets/img/Favicon-new.ico" sizes="any">
-  <link rel="icon" href="assets/img/Favicon-new.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/img/Favicon-new.png">
+  <link rel="manifest" href="/manifest.json"> 
+  <meta name="theme-color" content="#000000"> 
+  <meta name="application-name" content="A.L.M."> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-title" content="A.L.M."> 
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/Favicon-new.ico" sizes="any"> 
+  <link rel="icon" href="assets/img/Favicon-new.svg" type="image/svg+xml"> 
+  <link rel="apple-touch-icon" href="assets/img/Favicon-new.png"> 
 
   <!-- iOS Support -->
-  <link rel="apple-touch-icon" href="/assets/img/icon-192.png">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/assets/img/icon-192.png"> 
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/style.css?v=20251128-62">
+  <!-- Styles optimized -->
+  <link rel="preload" href="/assets/style.css?v=20251128-62" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/style.css?v=20251128-62"></noscript>
 
-  <!-- Service Worker Registration -->
-  <script src="/sw-register.js"></script>
-
-  <!-- Fonts -->
+  <!-- Fonts optimized -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet">
-  
+
+  <!-- Optional: Preload local font -->
+  <link rel="preload" href="/assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- Service Worker Registration -->
+  <script src="/sw-register.js" defer></script>
+
   <!-- Structured Data (JSON-LD: CollectionPage, BreadcrumbList, WebSite) -->
   <script type="application/ld+json">
 {
