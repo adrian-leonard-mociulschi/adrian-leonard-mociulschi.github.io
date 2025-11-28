@@ -254,25 +254,22 @@
   assets/img/f-35-1920x1278.webp 1920w
 " imagesizes="100vw">
 
-<!-- Imagine 1 (LCP) -->
+    <!-- Imagine 1 (F35) -->
 <section>
   <figure class="content-card-figure">
     <picture>
-      <!-- AVIF pe 3 rezoluții -->
       <source type="image/avif"
         srcset="
           assets/img/f-35-768x511.avif 768w,
           assets/img/f-35-1280x852.avif 1280w,
           assets/img/f-35-1920x1278.avif 1920w
         ">
-      <!-- WebP pe 3 rezoluții -->
       <source type="image/webp"
         srcset="
           assets/img/f-35-768x511.webp 768w,
           assets/img/f-35-1280x852.webp 1280w,
           assets/img/f-35-1920x1278.webp 1920w
         ">
-      <!-- PNG fallback -->
       <img
         src="assets/img/f-35-1920x1278.png"
         srcset="
@@ -283,11 +280,12 @@
         sizes="100vw"
         alt="F-35 fighter"
         title="Symbol of freedom and technological power: F-35 fighter jet in ascent."
-        width="1920" height="1278"          <!-- dimensiuni fixe: elimină CLS -->
+        width="1920"
+        height="1278"
         decoding="async"
-        loading="eager"                      <!-- LCP NU trebuie lazy -->
-        fetchpriority="high"                 <!-- semnal pentru LCP -->
-      >
+        loading="eager"
+        fetchpriority="high"
+      />
     </picture>
     <figcaption><em>Photo credit: Military_Material via Pixabay</em></figcaption>
   </figure>
@@ -330,25 +328,22 @@
   assets/img/puma-1920x1280.webp 1920w
 " imagesizes="100vw">
 
-<!-- Imagine 2 (Puma helicopter) -->
+    <!-- Imagine 2 (Puma 330) -->
 <section>
   <figure class="content-card-figure">
     <picture>
-      <!-- AVIF pe 3 rezoluții -->
       <source type="image/avif"
         srcset="
           assets/img/puma-768x512.avif 768w,
           assets/img/puma-1280x853.avif 1280w,
           assets/img/puma-1920x1280.avif 1920w
         ">
-      <!-- WebP pe 3 rezoluții -->
       <source type="image/webp"
         srcset="
           assets/img/puma-768x512.webp 768w,
           assets/img/puma-1280x853.webp 1280w,
           assets/img/puma-1920x1280.webp 1920w
         ">
-      <!-- PNG fallback -->
       <img
         src="assets/img/puma-1920x1280.png"
         srcset="
@@ -359,11 +354,12 @@
         sizes="100vw"
         alt="Puma helicopter"
         title="Puma helicopter hovering over shimmering waves, a steel bird dancing with the wind."
-        width="1920" height="1280"          <!-- dimensiuni fixe: elimină CLS -->
+        width="1920"
+        height="1280"
         decoding="async"
-        loading="lazy"                       <!-- nu este LCP, deci lazy -->
-        fetchpriority="auto"                  <!-- implicit pentru imagini non-critice -->
-      >
+        loading="lazy"
+        fetchpriority="auto"
+      />
     </picture>
     <figcaption><em>Photo credit: Military_Material via Pixabay</em></figcaption>
   </figure>
@@ -409,25 +405,22 @@
   assets/img/hercules-1920x1280.webp 1920w
 " imagesizes="100vw">
 
-<!-- Imagine 3 (Hercules C-130) -->
+    <!-- Imagine 3 (Hercules C-130) -->
 <section>
   <figure class="content-card-figure">
     <picture>
-      <!-- AVIF pe 3 rezoluții -->
       <source type="image/avif"
         srcset="
           assets/img/hercules-768x512.avif 768w,
           assets/img/hercules-1280x853.avif 1280w,
           assets/img/hercules-1920x1280.avif 1920w
         ">
-      <!-- WebP pe 3 rezoluții -->
       <source type="image/webp"
         srcset="
           assets/img/hercules-768x512.webp 768w,
           assets/img/hercules-1280x853.webp 1280w,
           assets/img/hercules-1920x1280.webp 1920w
         ">
-      <!-- PNG fallback -->
       <img
         src="assets/img/hercules-1920x1280.png"
         srcset="
@@ -438,11 +431,12 @@
         sizes="100vw"
         alt="Hercules C-130"
         title="Hercules gliding through endless blue, a silhouette of strength against the sky."
-        width="1920" height="1280"          <!-- dimensiuni fixe: elimină CLS -->
+        width="1920"
+        height="1280"
         decoding="async"
-        loading="lazy"                       <!-- nu este LCP, deci lazy -->
-        fetchpriority="auto"                  <!-- implicit pentru imagini non-critice -->
-      >
+        loading="lazy"
+        fetchpriority="auto"
+      />
     </picture>
     <figcaption><em>Photo credit: Military_Material via Pixabay</em></figcaption>
   </figure>
