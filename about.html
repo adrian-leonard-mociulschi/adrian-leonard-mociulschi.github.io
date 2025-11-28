@@ -252,33 +252,45 @@
     </p>
   </section>
 
-    <section>
+   <section>
   <figure class="media media--portrait">
     <picture>
-      <!-- AVIF pe 3 scări (768/1280/1920). Browserul alege cea mai potrivită variantă. -->
       <source type="image/avif"
-        srcset="assets/img/ALM3_768x511.avif 768w, assets/img/ALM3_1280x852.avif 1280w, assets/img/ALM3_1920x1278.avif 1920w">
-
-      <!-- WebP pe 3 scări ca fallback modern în lipsa AVIF -->
+        srcset="
+          assets/img/ALM3_768x511.avif 768w,
+          assets/img/ALM3_1280x852.avif 1280w,
+          assets/img/ALM3_1920x1278.avif 1920w
+        ">
       <source type="image/webp"
-        srcset="assets/img/ALM3_768x511.webp 768w, assets/img/ALM3_1280x852.webp 1280w, assets/img/ALM3_1920x1278.webp 1920w">
-
-      <!-- PNG clasic ca fallback final + srcset pentru dispozitive mai vechi -->
+        srcset="
+          assets/img/ALM3_768x511.webp 768w,
+          assets/img/ALM3_1280x852.webp 1280w,
+          assets/img/ALM3_1920x1278.webp 1920w
+        ">
       <img
-        src="assets/img/ALM3_1920x1278.png"  
-        srcset="assets/img/ALM3_768x511.png 768w, assets/img/ALM3_1280x852.png 1280w, assets/img/ALM3_1920x1278.png 1920w"
-        sizes="(max-width: 768px) 100vw, (max-width: 1280px) 100vw, 100vw"
+        src="assets/img/ALM3_1920x1278.png"
+        srcset="
+          assets/img/ALM3_768x511.png 768w,
+          assets/img/ALM3_1280x852.png 1280w,
+          assets/img/ALM3_1920x1278.png 1920w
+        "
+        sizes="100vw"
         alt="Adrian Leonard Mociulschi"
         title="Adrian Leonard Mociulschi"
-        loading="lazy" decoding="async">
+        width="1920"
+        height="1278"
+        decoding="async"
+        loading="lazy"
+        fetchpriority="auto"
+      />
     </picture>
-
     <figcaption>
-      <em>Portrait of Adrian Leonard Mociulschi</em>—licensed under Creative Commons Attribution (<strong>CC BY</strong>).
+      <em>Portrait of Adrian Leonard Mociulschi</em> — licensed under Creative Commons Attribution (<strong>CC BY</strong>).
     </figcaption>
   </figure>
 </section>
- <div style="height: 8px;"></div>
+
+      <div style="height: 8px;"></div>
 
         <!-- About This Website -->
         <section id="about-site" lang="en-US">
