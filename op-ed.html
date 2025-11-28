@@ -62,10 +62,24 @@
   <!-- Service Worker Registration -->
   <script src="/sw-register.js" defer></script>
 
-   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet">
+   <!-- Preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Preload CSS with onload and noscript fallback -->
+<link rel="preload" href="/assets/style.css?v=20251128-62" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/assets/style.css?v=20251128-62"></noscript>
+
+<!-- Preload font CSS -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" as="style">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- JS defer -->
+<script src="/js/go-top.js" defer></script>
 
   <!-- Structured Data (JSON-LD: CollectionPage, BreadcrumbList, WebSite) -->
   <script type="application/ld+json">
