@@ -57,8 +57,9 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/style.css?v=20251128-62">
+   <!-- Styles optimized -->
+  <link rel="preload" href="/assets/style.css?v=20251128-62" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/style.css?v=20251128-62"></noscript>
 
   <!-- Service Worker Registration -->
   <script src="/sw-register.js"></script>
