@@ -1,5 +1,5 @@
-// sw.js — Final PWA Service Worker (offline complet)
-const VERSION = 'v62';
+// sw.js — Final PWA Service Worker (offline complet, corectat)
+const VERSION = 'v63';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
@@ -10,8 +10,7 @@ const PRECACHE_PAGES = [
   '/', '/index.html', '/about.html', '/writings.html', '/op-ed.html', '/vbox.html'
 ];
 const PRECACHE_ASSETS = [
-  '/assets/css/styles.css',
-  '/assets/js/app.js',
+  '/assets/style.css', // corectat
   '/manifest.json',
   '/assets/img/Favicon-new.png',
   '/assets/img/Favicon-new.svg',
