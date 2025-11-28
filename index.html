@@ -242,44 +242,31 @@
   </p>
 </section>
 
-<!-- In <head>: preload pentru LCP -->
+<!-- In <head>: preload doar pentru LCP -->
 <link rel="preload" as="image" href="assets/img/f-35-1920x1278.avif" type="image/avif" fetchpriority="high">
 
+<!-- LCP: F-35 fighter -->
 <section>
   <figure class="content-card-figure">
     <picture>
-      <source type="image/avif"
-        srcset="
-          assets/img/f-35-768x511.avif 768w,
-          assets/img/f-35-1280x852.avif 1280w,
-          assets/img/f-35-1920x1278.avif 1920w
-        ">
-      <source type="image/webp"
-        srcset="
-          assets/img/f-35-768x511.webp 768w,
-          assets/img/f-35-1280x852.webp 1280w,
-          assets/img/f-35-1920x1278.webp 1920w
-        ">
-      <img
-        src="assets/img/f-35-1920x1278.png"
-        srcset="
-          assets/img/f-35-768x511.png 768w,
-          assets/img/f-35-1280x852.png 1280w,
-          assets/img/f-35-1920x1278.png 1920w
-        "
-        sizes="100vw"
-        alt="F-35 fighter"
-        width="1920"
-        height="1278"
-        decoding="async"
-        loading="eager"
-        fetchpriority="high"
-      />
+      <source type="image/avif" srcset="
+        assets/img/f-35-768x511.avif 768w,
+        assets/img/f-35-1280x852.avif 1280w,
+        assets/img/f-35-1920x1278.avif 1920w">
+      <source type="image/webp" srcset="
+        assets/img/f-35-768x511.webp 768w,
+        assets/img/f-35-1280x852.webp 1280w,
+        assets/img/f-35-1920x1278.webp 1920w">
+      <img src="assets/img/f-35-1920x1278.png" srcset="
+        assets/img/f-35-768x511.png 768w,
+        assets/img/f-35-1280x852.png 1280w,
+        assets/img/f-35-1920x1278.png 1920w"
+        sizes="100vw" alt="F-35 fighter" width="1920" height="1278"
+        decoding="async" loading="eager" fetchpriority="high">
     </picture>
     <figcaption><em>Photo credit: Military_Material via Pixabay</em></figcaption>
   </figure>
 </section>
-
 <div style="height: 8px;"></div>
 
 <!-- SECTION: Mission -->
@@ -305,40 +292,24 @@
   </p>
 </section>
 
-<!-- In <head>: preload pentru Puma -->
-<link rel="preload" as="image" href="assets/img/puma-1920x1280.avif" type="image/avif">
-
+<!-- Puma (lazy) -->
 <section>
   <figure class="content-card-figure">
     <picture>
-      <source type="image/avif"
-        srcset="
-          assets/img/puma-768x512.avif 768w,
-          assets/img/puma-1280x853.avif 1280w,
-          assets/img/puma-1920x1280.avif 1920w
-        ">
-      <source type="image/webp"
-        srcset="
-          assets/img/puma-768x512.webp 768w,
-          assets/img/puma-1280x853.webp 1280w,
-          assets/img/puma-1920x1280.webp 1920w
-        ">
-      <img
-        src="assets/img/puma-1920x1280.png"
-        srcset="
-          assets/img/puma-768x512.png 768w,
-          assets/img/puma-1280x853.png 1280w,
-          assets/img/puma-1920x1280.png 1920w
-        "
-        sizes="100vw"
-        alt="Puma helicopter"
-        title="Puma helicopter hovering over shimmering waves, a steel bird dancing with the wind."
-        width="1920"
-        height="1280"
-        decoding="async"
-        loading="lazy"
-        fetchpriority="auto"
-      />
+      <source type="image/avif" srcset="
+        assets/img/puma-768x512.avif 768w,
+        assets/img/puma-1280x853.avif 1280w,
+        assets/img/puma-1920x1280.avif 1920w">
+      <source type="image/webp" srcset="
+        assets/img/puma-768x512.webp 768w,
+        assets/img/puma-1280x853.webp 1280w,
+        assets/img/puma-1920x1280.webp 1920w">
+      <img src="assets/img/puma-1920x1280.png" srcset="
+        assets/img/puma-768x512.png 768w,
+        assets/img/puma-1280x853.png 1280w,
+        assets/img/puma-1920x1280.png 1920w"
+        sizes="100vw" alt="Puma helicopter" width="1920" height="1280"
+        decoding="async" loading="lazy" fetchpriority="auto">
     </picture>
     <figcaption><em>Photo credit: Military_Material via Pixabay</em></figcaption>
   </figure>
@@ -372,45 +343,29 @@
   </p>
 </section>
 
-<!-- In <head>: preload pentru Hercules -->
-<link rel="preload" as="image" href="assets/img/hercules-1920x1280.avif" type="image/avif">
-
+<!-- Hercules (lazy) -->
 <section>
   <figure class="content-card-figure">
     <picture>
-      <source type="image/avif"
-        srcset="
-          assets/img/hercules-768x512.avif 768w,
-          assets/img/hercules-1280x853.avif 1280w,
-          assets/img/hercules-1920x1280.avif 1920w
-        ">
-      <source type="image/webp"
-        srcset="
-          assets/img/hercules-768x512.webp 768w,
-          assets/img/hercules-1280x853.webp 1280w,
-          assets/img/hercules-1920x1280.webp 1920w
-        ">
-      <img
-        src="assets/img/hercules-1920x1280.png"
-        srcset="
-          assets/img/hercules-768x512.png 768w,
-          assets/img/hercules-1280x853.png 1280w,
-          assets/img/hercules-1920x1280.png 1920w
-        "
-        sizes="100vw"
-        alt="Hercules C-130"
-        title="Hercules gliding through endless blue, a silhouette of strength against the sky."
-        width="1920"
-        height="1280"
-        decoding="async"
-        loading="lazy"
-        fetchpriority="auto"
-      />
+      <source type="image/avif" srcset="
+        assets/img/hercules-768x512.avif 768w,
+        assets/img/hercules-1280x853.avif 1280w,
+        assets/img/hercules-1920x1280.avif 1920w">
+      <source type="image/webp" srcset="
+        assets/img/hercules-768x512.webp 768w,
+        assets/img/hercules-1280x853.webp 1280w,
+        assets/img/hercules-1920x1280.webp 1920w">
+      <img src="assets/img/hercules-1920x1280.png" srcset="
+        assets/img/hercules-768x512.png 768w,
+        assets/img/hercules-1280x853.png 1280w,
+        assets/img/hercules-1920x1280.png 1920w"
+        sizes="100vw" alt="Hercules C-130" width="1920" height="1280"
+        decoding="async" loading="lazy" fetchpriority="auto">
     </picture>
     <figcaption><em>Photo credit: Military_Material via Pixabay</em></figcaption>
   </figure>
 </section>
-
+      
 <div style="height: 8px;"></div>
 
 <!-- SECTION: ORCID -->
