@@ -24,6 +24,48 @@
       <height>144</height>
     </image>
 
+       <!-- Article România Liberă - November 05, 2025 (Wednesday)-->
+    <item>
+  <title>Mountain Hunters on the Front Lines of the Future: Drones, Jamming, and Augmented Humans — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/drone-bruiaj-si-oameni-augmentati-vanatorii-de-munte-pe-frontul-viitorului/</link>
+  <guid isPermaLink="false">drones-jamming-and-augmented-humans-v2</guid>
+  <pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Geopolitics</category>
+  <category>Special Forces</category>
+
+  <tags>Romanian Military, Algorithms, Mountain Hunters, Special Ops, Military Traditions</tags>
+
+  <description><![CDATA[
+    <strong>The battlefield has evolved beyond just human presence</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Drones, Jamming, and Augmented Humans" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Now, swarms of drones buzz around like high-tech predators,</strong>, disrupting communication lines, while algorithms help make decisions even before soldiers take action. 
+            In this unseen conflict, where technology turns into a weapon, Romania’s elite Mountain Troops are leading the way into a new era—blending bravery with advanced tech.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Drones, Jamming, and Augmented Humans — Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
          <!-- Article Nine O'Clock - 24 October, 2025 (Friday)-->
     <item>
   <title>Honor and Algorithms – The Romanian Military’s New Frontline — Nine O’Clock</title>
