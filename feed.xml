@@ -24,6 +24,48 @@
       <height>144</height>
     </image>
 
+       <!-- Article România Liberă - November 18, 2025 (Tuesday)-->
+    <item>
+  <title>Shadows of the Black Sea: The Silent Front Where Europe's Future Is Decided — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/umbrele-marii-negre-frontul-tacut-unde-se-decide-viitorul-europei/</link>
+  <guid isPermaLink="false">shadows-of-the-black-sea-v2</guid>
+  <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Geopolitics</category>
+  <category>Military strategy</category>
+
+  <tags>Romanian Military, Algorithms, Black Sea, Naval Ops, Submarines</tags>
+
+  <description><![CDATA[
+    <strong>The Black Sea is far more than a mere expanse of water</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Shadows of the Black Sea" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>In today’s world, as hybrid threats and evolving alliances redefine security dynamics,</strong> this region is quietly emerging as a pivotal front that will shape Europe’s future. 
+            History reminds us that this scenario is not unprecedented. During World War II, the Black Sea was fiercely contested, crucial for its resources and strategic pathways.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Shadows of the Black Sea — Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article România Liberă - November 05, 2025 (Wednesday)-->
     <item>
   <title>Mountain Hunters on the Front Lines of the Future: Drones, Jamming, and Augmented Humans — România Liberă</title>
