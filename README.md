@@ -179,9 +179,10 @@ It is built for meaning, not for likes.
 
 [![Stack: PWA · CC BY 4.0 · LOD](https://img.shields.io/badge/Stack-PWA%20Ready%20%E2%80%A2%20CC%20BY%204.0%20%E2%80%A2%20LOD-8A2BE2)](#badges)
 
-!PWA Ready
-!License: CC BY 4.0
-!Linked Open Data
-!Lighthouse Elite
-!Semantic Web Ready
-!SPARQL Endpoint
+### Badge-uri pe linii separate:
+[![PWA Ready](https://img.shields.io/badge/PWA-ready-blue)](https://adrian-leonard-mociulschi.github.io/index.html)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
+[![Linked Open Data](https://img.shields.io/badge/LOD-cloud-orange)](#)
+[![Lighthouse Elite](https://img.shields.io/badge/Lighthouse-Elite-brightgreen)](#visual-proof)
+[![Semantic Web Ready](https://img.shields.io/badge/Semantic%20Web-OWL%20%7C%20SKOS%20%7C%20LOD-blueviolet)](#)
+[![SPARQL Endpoint](https://img.shields.io/badge/SPARQL-endpoint-green)](#)
