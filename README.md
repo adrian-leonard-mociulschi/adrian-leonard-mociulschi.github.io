@@ -68,7 +68,7 @@ Experience the PWA in action or preview the interface below:
 
 Ontology published in standard semantic formats:
 
-- [ontology.owl](https://adrian-leonard-mociulschi.github.io/ontology.owl) — Core ontology in OWL/RDF
+- [ontology.owl](https://adrian-leonard-mociulschi.github.io/si-ontology.owl) — Core ontology in OWL/RDF
 - [void.ttl](https://adrian-leonard-mociulschi.github.io/void.ttl) — VoID description in Turtle
 - [void.rdf](https://adrian-leonard-mociulschi.github.io/void.rdf) — VoID description in RDF/XML
 
