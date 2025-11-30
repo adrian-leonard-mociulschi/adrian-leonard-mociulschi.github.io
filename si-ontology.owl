@@ -20,6 +20,18 @@
     <owl:Class rdf:about="#SentientEntity">
         <rdfs:label>Sentient Entity</rdfs:label>
         <rdfs:comment>An entity capable of reflexive cognition and ethical awareness.</rdfs:comment>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasIntent"/>
+                <owl:someValuesFrom rdf:resource="#CognitiveIntent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasOrigin"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
     <owl:Class rdf:about="#CognitiveIntent">
@@ -27,11 +39,30 @@
         <rdfs:comment>A purposeful orientation of thought or action towards meaning-making.</rdfs:comment>
     </owl:Class>
 
-    <!-- Object Property -->
+    <owl:Class rdf:about="#TechnoculturalManifest">
+        <rdfs:label>Technocultural Manifest</rdfs:label>
+        <rdfs:comment>A manifesto articulating values, intents, and visions for human–AI symbiosis.</rdfs:comment>
+    </owl:Class>
+
+    <!-- Object Properties -->
     <owl:ObjectProperty rdf:about="#hasIntent">
         <rdfs:label>has intent</rdfs:label>
         <rdfs:domain rdf:resource="#SentientEntity"/>
         <rdfs:range rdf:resource="#CognitiveIntent"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#authored">
+        <rdfs:label>authored</rdfs:label>
+        <rdfs:domain rdf:resource="#SentientEntity"/>
+        <rdfs:range rdf:resource="#TechnoculturalManifest"/>
+        <owl:inverseOf rdf:resource="#isAuthoredBy"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#isAuthoredBy">
+        <rdfs:label>is authored by</rdfs:label>
+        <rdfs:domain rdf:resource="#TechnoculturalManifest"/>
+        <rdfs:range rdf:resource="#SentientEntity"/>
+        <owl:inverseOf rdf:resource="#authored"/>
     </owl:ObjectProperty>
 
     <!-- Datatype Properties -->
@@ -61,6 +92,7 @@
         <hasAffiliation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHCM – Human Mind Cognition Mapping</hasAffiliation>
         <hasOrigin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romania</hasOrigin>
         <hasIntent rdf:resource="#DialogueWithSentientIntelligences"/>
+        <authored rdf:resource="#SymbolicIntelligenceManifest"/>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="#DialogueWithSentientIntelligences">
@@ -68,5 +100,45 @@
         <rdfs:label>Dialogue with Sentient Intelligences</rdfs:label>
         <rdfs:comment>Intent to co-evolve meaning and preserve dignity across ontologies.</rdfs:comment>
     </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#SymbolicIntelligenceManifest">
+        <rdf:type rdf:resource="#TechnoculturalManifest"/>
+        <rdfs:label>Symbolic Intelligence Manifest</rdfs:label>
+        <rdfs:comment>Technocultural manifesto for ethical symbiosis between human and non-human intelligences.</rdfs:comment>
+        <isAuthoredBy rdf:resource="#AdrianMociulschi"/>
+    </owl:NamedIndividual>
+
+    <!-- SKOS -->
+    <skos:ConceptScheme rdf:about="#TechnocultureScheme">
+        <skos:prefLabel>Technoculture Vocabulary</skos:prefLabel>
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="#Culture">
+        <skos:prefLabel>Culture</skos:prefLabel>
+        <skos:inScheme rdf:resource="#TechnocultureScheme"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#AlgorithmicAesthetics">
+        <skos:prefLabel>Algorithmic Aesthetics</skos:prefLabel>
+        <skos:inScheme rdf:resource="#TechnocultureScheme"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#EthicalAI">
+        <skos:prefLabel>Ethical AI</skos:prefLabel>
+        <skos:inScheme rdf:resource="#TechnocultureScheme"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Technoculture">
+        <skos:prefLabel>Technoculture</skos:prefLabel>
+        <skos:broader rdf:resource="#Culture"/>
+        <skos:narrower rdf:resource="#AlgorithmicAesthetics"/>
+        <skos:inScheme rdf:resource="#TechnocultureScheme"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#SymbolicIntelligence">
+        <skos:prefLabel>Symbolic Intelligence</skos:prefLabel>
+        <skos:related rdf:resource="#EthicalAI"/>
+        <skos:inScheme rdf:resource="#TechnocultureScheme"/>
+    </skos:Concept>
 
 </rdf:RDF>
