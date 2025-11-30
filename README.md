@@ -70,8 +70,6 @@ Ontology published in standard semantic formats:
 
 - si-ontology.owl — Core ontology in OWL/RDF (View in RDF Validator)
 - void.ttl — VoID description in Turtle
-<a href="https://adrian-leonard-mociulschi.github.io/void.ttl" — VoID description in Turtle
-</a>
 
 
 ### 🔍 Example SPARQL Query
