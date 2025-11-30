@@ -68,7 +68,11 @@ Experience the PWA in action or preview the interface below:
 
 Ontology published in standard semantic formats:
 
-- [void.ttl](https://adrian-leonard-mociulschi.github.io/void.ttl) — VoID description in Turtle
+- si-ontology.owl — Core ontology in OWL/RDF (View in RDF Validator)
+- void.ttl — VoID description in Turtle
+<a href="https://adrian-leonard-mociulschi.github.io/void.ttl" — VoID description in Turtle
+</a>
+
 
 ### 🔍 Example SPARQL Query
 ```sparql
