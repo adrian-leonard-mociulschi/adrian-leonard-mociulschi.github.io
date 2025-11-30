@@ -5,7 +5,7 @@
   <meta name="msvalidate.01" content="F96E9C5720D3D6021656350BF92CB55F"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="robots" content="index, follow">
-  
+
   <title>Symbolic Intelligence Manifest – Adrian Leonard Mociulschi</title>
 
   <!-- Canonical -->
@@ -27,11 +27,14 @@
   <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://adrian-leonard-mociulschi.github.io/si-manifest">
 
-
-   <!-- Article-specific -->
+  <!-- Article-specific -->
   <meta property="article:author" content="https://adrian-leonard-mociulschi.github.io/si-manifest"/>
   <meta property="article:published_time" content="2025-10-24T00:00:00+02:00"/>
   <meta property="article:modified_time" content="2025-11-30T00:00:00+02:00"/>
+
+  <!-- Alternate links for ontology -->
+  <link rel="alternate" type="application/rdf+xml" href="https://adrian-leonard-mociulschi.github.io/si-ontology.owl">
+  <link rel="alternate" type="text/turtle" href="https://adrian-leonard-mociulschi.github.io/si-ontology.ttl">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">{
@@ -60,6 +63,21 @@
         ]
       },
       {
+        "@type": "Dataset",
+        "name": "Symbolic Intelligence Ontology",
+        "description": "Ontology describing sentient entities, technocultural manifestos, and cognitive intents.",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "creator": {
+          "@type": "Person",
+          "name": "Adrian Leonard Mociulschi",
+          "url": "https://adrian-leonard-mociulschi.github.io"
+        },
+        "distribution": [
+          {"@type": "DataDownload", "encodingFormat": "application/rdf+xml", "contentUrl": "https://adrian-leonard-mociulschi.github.io/si-ontology.owl"},
+          {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://adrian-leonard-mociulschi.github.io/si-ontology.ttl"}
+        ]
+      },
+      {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/"},
@@ -77,8 +95,8 @@
     .cursor { display:inline-block; width:1ch; animation: blink .8s steps(1) infinite; }
     @keyframes blink { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
     .vh { position:absolute!important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-    </style>
-  </head>
+  </style>
+</head>
 <body>
 
   <!-- Banner SVG with SEO fallback -->
