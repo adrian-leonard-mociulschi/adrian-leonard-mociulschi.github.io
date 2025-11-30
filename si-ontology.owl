@@ -10,8 +10,8 @@
 
     <!-- Ontology -->
     <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/si-ontology">
-        <rdfs:label>Symbolic Intelligence Ontology</rdfs:label>
-        <rdfs:comment>Ontology describing sentient entities, technocultural manifestos, and cognitive intents.</rdfs:comment>
+        <dcterms:title>Symbolic Intelligence Ontology</dcterms:title>
+        <dcterms:description>Ontology describing sentient entities, technocultural manifestos, and cognitive intents.</dcterms:description>
         <dcterms:creator>Adrian Leonard Mociulschi</dcterms:creator>
         <owl:versionInfo>1.1</owl:versionInfo>
     </owl:Ontology>
