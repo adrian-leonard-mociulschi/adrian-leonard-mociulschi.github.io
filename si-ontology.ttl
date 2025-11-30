@@ -21,7 +21,7 @@
         owl:someValuesFrom :CognitiveIntent ] ,
         [ a owl:Restriction ;
         owl:onProperty :hasOrigin ;
-        owl:cardinality "1"^^xsd:nonNegativeInteger ] .
+        owl:cardinality "1"^^xsd:integer ] .
 
 :TechnoculturalManifest a owl:Class ;
     rdfs:label "Technocultural Manifest" ;
@@ -37,7 +37,7 @@
     rdfs:domain :SentientEntity ;
     rdfs:range :CognitiveIntent .
 
-authored a owl:ObjectProperty ;
+:authored a owl:ObjectProperty ;
     rdfs:label "authored" ;
     rdfs:domain :SentientEntity ;
     rdfs:range :TechnoculturalManifest ;
