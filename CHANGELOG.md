@@ -195,4 +195,40 @@ To consolidate **structural clarity and performance excellence**, ensuring a fri
 ### **The Prophecy**
 > *"Beyond the lattice of metrics lies the horizon of meaning. We do not chase numbers — we sculpt clarity, forging pathways where silence becomes speed and precision becomes art.”*
 
+---
+
+# **v4.5.0 — The Semantic Horizon: Ontology & UX Unified**
+
+## ✅ What’s New
+- **Ontology Optimization Completed**  
+  - OWL and TTL fully validated (W3C), enriched with:
+    - `owl:FunctionalProperty` for uniqueness (`hasOrigin`)
+    - `owl:qualifiedCardinality` + `owl:onDataRange`
+    - `rdfs:isDefinedBy` on classes and properties
+    - `skos:definition` for SKOS concepts
+- **VoID Integration**  
+  - RDF/XML and TTL descriptions linked for Linked Data discoverability.
+- **Manifest XML Linked**  
+  - Structured invocation and intent metadata now referenced in HTML and JSON-LD.
+- **HTML Upgrade (si-manifest.html)**  
+  - SEO and accessibility improvements:
+    - Added `og:image:alt`, `theme-color`
+    - Extended JSON-LD with `CreativeWork`, `Dataset`, VoID and Manifest XML references
+    - Added `identifier`, `citation (ORCID)`, `isPartOf`
+- **Semantic Graph Added**  
+  - Visual representation of ontology relationships for clarity and navigation.
+  - Optimized layout for better readability.
+
+### **Scores by Page**
+- **Manifest (optimized)**: 96.4  
+- **Ontology (OWL/TTL)**: 100 (W3C validated)  
+- **VoID**: 100  
+*(Semantic compliance: 100)*
+
+### **Purpose**
+To consolidate **semantic interoperability and visual clarity**, ensuring a seamless experience for both humans and machines.
+
+### **The Prophecy**
+> *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge.”*
+
 
