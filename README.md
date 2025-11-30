@@ -77,7 +77,7 @@ Ontology published in standard semantic formats:
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX sio: <https://adrian-leonard-mociulschi.github.io/ns/si-ontology#>
+PREFIX sio: <https://adrian-leonard-mociulschi.github.io/si-ontology#>
 
 SELECT ?entity ?name ?affiliation ?manifestLabel
 WHERE {
@@ -95,31 +95,43 @@ LIMIT 10
 ---
 
 # 📃 Releases
-**Latest Release:** `v4.0.0 — The Purity Continuum: Navigation Refined`
+**Latest Release:** `v4.5.0 — The Semantic Horizon: Ontology & UX Unified`
 
 ## ✅ What’s New
-- **Lighthouse Audit Completed** — All pages tested and metrized for UX purity.
-- **Core Web Vitals Perfected** — SEO, Accessibility, Best Practices at **100**; Performance up to **87**.
-- **Rendering Optimized** — CLS, LCP, and FCP tuned for smooth visual flow.
+- **Ontology Optimization Completed**  
+  - OWL and TTL fully validated (W3C), enriched with:
+    - `owl:FunctionalProperty` for uniqueness (`hasOrigin`)
+    - `owl:qualifiedCardinality` + `owl:onDataRange`
+    - `rdfs:isDefinedBy` on classes and properties
+    - `skos:definition` for SKOS concepts
+- **VoID Integration**  
+  - RDF/XML and TTL descriptions linked for Linked Data discoverability.
+- **Manifest XML Linked**  
+  - Structured invocation and intent metadata now referenced in HTML and JSON-LD.
+- **HTML Upgrade (si-manifest.html)**  
+  - SEO and accessibility improvements:
+    - Added `og:image:alt`, `theme-color`
+    - Extended JSON-LD with `CreativeWork`, `Dataset`, VoID and Manifest XML references
+    - Added `identifier`, `citation (ORCID)`, `isPartOf`
+- **Semantic Graph Added**  
+  - Visual representation of ontology relationships for clarity and navigation.
+  - Optimized layout for better readability.
 
 ### **Scores by Page**
-- **Index**: 98.2  
-- **About**: 94.8  
-- **Writings**: 95.6  
-- **Op-Ed (optimized)**: 94.0  
-- **VBox**: 94.4  
-
-*(Average UX score: 95+, Lighthouse certified)*
+- **Manifest (optimized)**: 96.4  
+- **Ontology (OWL/TTL)**: 100 (W3C validated)  
+- **VoID**: 100  
+*(Semantic compliance: 100)*
 
 ### **Purpose**
-To consolidate **structural clarity and performance excellence**, ensuring a frictionless navigation experience across all devices.
+To consolidate **semantic interoperability and visual clarity**, ensuring a seamless experience for both humans and machines.
+
+## ✅ Visual Graph
+
+![Semantic Graph](assets/screenshots/semantic_graph_1400x1400.png)
 
 ### **The Prophecy**
-> *"When complexity whispers, simplicity answers. We ascend beyond ornamentation, seeking the axis of clarity where function reigns supreme.”*
-
-## ✅ Visual Proof
-
-![Lighthouse Comparison](assets/screenshots/lighthouse-comparison-2250x954.png)
+> *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge.”*
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
