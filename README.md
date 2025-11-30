@@ -130,6 +130,12 @@ To consolidate **semantic interoperability and visual clarity**, ensuring a seam
 
 ![Semantic Graph](assets/screenshots/semantic_graph_1400x1400.png)
 
+**Legend:**
+🟦 OWL classes  
+🟧 properties  
+🟩 individuals  
+🟪 SKOS concepts
+
 ### **The Prophecy**
 > *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge.”*
 
