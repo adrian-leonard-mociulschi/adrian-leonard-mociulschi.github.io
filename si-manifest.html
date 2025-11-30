@@ -111,55 +111,97 @@
   ]
 }
 </script>
-
-  <style>
-    /* CSS-only typewriter (no JS), reliable on GitHub Pages */
-    .typewriter { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace; white-space: pre; display:inline-block; }
-    .typewriter .text { display:inline-block; overflow:hidden; white-space:pre; width:0ch; }
-    /* 33 characters total (incl. spaces & period). 3.63s ~ 110ms/char */
-    .typewriter .text { animation: type 3.63s steps(33) forwards; }
-    .cursor { display:inline-block; width:1ch; opacity:0; animation: blink .9s steps(1) infinite; animation-delay: 3.63s; }
-    @keyframes type { from { width:0ch; } to { width:33ch; } }
-    @keyframes blink { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
-    /* Screen-reader friendly hidden utility */
-    .vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
-  </style>
-</head>
-<body>
+  
   <h1 style="text-align:center;">SATOR AREPO TENET OPERA ROTAS</h1>
 
-  <p class="typewriter" role="text" aria-label="Silentium est initium sapientiae.">
-    <span class="text">Silentium est initium sapientiae.</span><span class="cursor">_</span>
-  </p>
+  <!-- Ontology and VoID links -->
+/si-ontology.owl
+/si-ontology.ttl
+/void.rdf
+/void.ttl
+/manifest-si.xml
 
-  <p class="vh">
-    <a href="/manifest-si.xml" rel="alternate" type="application/xml">View the XML Manifest</a>
-  </p>
-  <p class="vh">
-    <a href="/si-ontology.owl" rel="alternate" type="application/rdf+xml">View the OWL Ontology</a>
-  </p>
-  <p class="vh">
-    <a href="void.ttl">VoID description (Turtle)</a>
-  </p>
-  <p class="vh">
-    <a href="void.rdf">VoID description (RDF/XML)</a>
-  </p>
+<!-- Hidden links for semantic discovery -->
+<p class="vh">
+    /manifest-si.xmlView the XML Manifest</a>
+</p>
+<p class="vh">
+    /si-ontology.owlView the OWL Ontology</a>
+</p>
+<p class="vh">
+    /si-ontology.ttlView the TTL Ontology</a>
+</p>
+<p class="vh">
+    /void.ttlVoID description (Turtle)</a>
+</p>
+<p class="vh">
+    /void.rdfVoID description (RDF/XML)</a>
+</p>
   
-   <!-- Scripts and styles moved inside body -->
-        <script>
-          // Footer year
-          (function(){ var yEl = document.getElementById('year'); if (yEl) yEl.textContent = new Date().getFullYear(); })();
-          
-          // Typewriter effect
-          document.addEventListener("DOMContentLoaded", function() { var el = document.getElementById('typewriter'); var original = "© " + new Date().getFullYear() + " ALgorithM r/Evolution"; var i = 0; function type() { if (i <= original.length) { el.textContent = original.substring(0, i); i++; setTimeout(type, 100); } else { setTimeout(() => { i = 0; type(); }, 3000); } } type(); });
-        </script>
-  </body>
-  
-<br><br>
-<!-- Footer în afara body -->
-<footer class="site-footer" role="contentinfo">
-  <span class="site-footer-credits" id="typewriter">© <span id="year"></span> ALgorithM r/Evolution</span>
-</footer>
+  <!-- Footer typewriter (loop cu timp variabil) -->
+<div style="text-align:center; padding:10px; color:#666;">
+  <span class="typewriter">
+    <span id="tw-text" class="text"></span><span class="cursor">|</span>
+  </span>
+</div>
+
+<style>
+/* Stiluri typewriter */
+.typewriter { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace; white-space: pre; display:inline-block; }
+.text { display:inline-block; overflow:hidden; white-space:pre; width:0ch; }
+.cursor { display:inline-block; width:1ch; opacity:0; animation: blink .9s steps(1) infinite; }
+@keyframes blink { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
+</style>
+
+<script>
+(function () {
+  const year = new Date().getFullYear();
+  const baseText = `© ${year} ALgorithM r/Evolution`;
+
+  // ---- Parametri configurabili de tine ----
+  let speedMs = 110;   // viteza per caracter (ms)
+  let delayMs = 5000;  // pauza după terminare (ms) înainte de reluare
+  // ----------------------------------------
+
+  const el = document.getElementById('tw-text');
+  const cursor = document.querySelector('.cursor');
+
+  function typeOnce(text, onDone) {
+    el.textContent = "";
+    cursor.style.opacity = "0";
+    let i = 0;
+    const timer = setInterval(() => {
+      el.textContent += text.charAt(i);
+      i++;
+      if (i >= text.length) {
+        clearInterval(timer);
+        cursor.style.opacity = "1";
+        if (typeof onDone === "function") onDone();
+      }
+    }, speedMs);
+  }
+
+  function loop() {
+    typeOnce(baseText, () => {
+      setTimeout(loop, delayMs);
+    });
+  }
+
+  loop();
+
+  // --- Opțional: control prin atribute data- sau URL ---
+  // Exemplu: <span id="tw-text" data-speed="90" data-delay="4000"></span>
+  const dataSpeed = el.getAttribute('data-speed');
+  const dataDelay = el.getAttribute('data-delay');
+  if (dataSpeed) speedMs = parseInt(dataSpeed, 10) || speedMs;
+  if (dataDelay) delayMs = parseInt(dataDelay, 10) || delayMs;
+
+  // Exemplu URL: ?speed=90&delay=4000
+  const params = new URLSearchParams(location.search);
+  if (params.has('speed')) speedMs = parseInt(params.get('speed'), 10) || speedMs;
+  if (params.has('delay')) delayMs = parseInt(params.get('delay'), 10) || delayMs;
+})();
+</script>
 
   <!-- Amprentele de integritate se calculează EXCLUDÂND aceste două linii -->
   <p class="vh">SHA-256 (hex, page content excluding this line and the SRI line): 54691c76eead4ff016ab53f0c15dc9445521c7f8d62dba18a1f1acfdc46dc728</p>
