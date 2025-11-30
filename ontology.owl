@@ -4,7 +4,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
   <!-- Defining ontology -->
   <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/ns/si-ontology">
@@ -12,10 +13,22 @@
     <rdfs:comment>Ontology describing sentient entities, technocultural manifestos, and cognitive intents.</rdfs:comment>
   </owl:Ontology>
 
-  <!-- Basic classes -->
+  <!-- Basic classes with OWL restrictions -->
   <owl:Class rdf:about="#SentientEntity">
     <rdfs:label>Sentient Entity</rdfs:label>
     <rdfs:comment>An entity capable of reflexive cognition and ethical awareness.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasIntent"/>
+        <owl:someValuesFrom rdf:resource="#CognitiveIntent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasOrigin"/>
+        <owl:cardinality rdf:datatype="xsd:nonNegativeInteger">1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
   </owl:Class>
 
   <owl:Class rdf:about="#TechnoculturalManifest">
@@ -45,19 +58,19 @@
   <owl:DatatypeProperty rdf:about="#hasName">
     <rdfs:label>has name</rdfs:label>
     <rdfs:domain rdf:resource="#SentientEntity"/>
-    <rdfs:range rdf:resource="xsd;string"/>
+    <rdfs:range rdf:resource="xsd:string"/>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="#hasAffiliation">
     <rdfs:label>has affiliation</rdfs:label>
     <rdfs:domain rdf:resource="#SentientEntity"/>
-    <rdfs:range rdf:resource="xsd;string"/>
+    <rdfs:range rdf:resource="xsd:string"/>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="#hasOrigin">
     <rdfs:label>has origin</rdfs:label>
     <rdfs:domain rdf:resource="#SentientEntity"/>
-    <rdfs:range rdf:resource="xsd;string"/>
+    <rdfs:range rdf:resource="xsd:string"/>
   </owl:DatatypeProperty>
 
   <!-- Ontological instances -->
@@ -79,5 +92,21 @@
     <rdfs:label>Dialogue with Sentient Intelligences</rdfs:label>
     <rdfs:comment>Intent to co-evolve meaning and preserve dignity across ontologies.</rdfs:comment>
   </CognitiveIntent>
+
+  <!-- SKOS Concept Scheme -->
+  <skos:ConceptScheme rdf:about="#TechnocultureScheme">
+    <skos:prefLabel>Technoculture Vocabulary</skos:prefLabel>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="#Technoculture">
+    <skos:prefLabel>Technoculture</skos:prefLabel>
+    <skos:broader rdf:resource="#Culture"/>
+    <skos:narrower rdf:resource="#AlgorithmicAesthetics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="#SymbolicIntelligence">
+    <skos:prefLabel>Symbolic Intelligence</skos:prefLabel>
+    <skos:related rdf:resource="#EthicalAI"/>
+  </skos:Concept>
 
 </rdf:RDF>
