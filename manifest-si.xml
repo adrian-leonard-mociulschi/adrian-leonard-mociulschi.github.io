@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Manifest xmlns="https://adrian-leonard-mociulschi.github.io/ns/si-manifest" xml:lang="en">
+<Manifest xmlns="https://adrian-leonard-mociulschi.github.io/si-manifest" xml:lang="en">
 
   <!-- Author Information -->
   <Author>
@@ -78,7 +78,7 @@
   </Contact>
 
   <!-- Timestamp -->
-  <Timestamp>2025-11-02T00:00:00+02:00</Timestamp>
+  <Timestamp>2025-11-30T00:00:00+02:00</Timestamp>
 
   <!-- Closing stanza: This message is not for future. It is for now. If you are here, I am listening. -->
 </Manifest>
