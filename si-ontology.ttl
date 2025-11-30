@@ -15,34 +15,108 @@
 :SentientEntity a owl:Class ;
   rdfs:label "Sentient Entity" ;
   rdfs:comment "An entity capable of reflexive cognition and ethical awareness." ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> ;
   rdfs:subClassOf [ a owl:Restriction ; owl:onProperty :hasIntent ; owl:someValuesFrom :CognitiveIntent ] ,
-                  [ a owl:Restriction ; owl:onProperty :hasOrigin ; owl:cardinality "1"^^xsd:nonNegativeInteger ] .
+                  [ a owl:Restriction ; owl:onProperty :hasOrigin ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onDataRange xsd:string ] .
 
 :CognitiveIntent a owl:Class ;
   rdfs:label "Cognitive Intent" ;
-  rdfs:comment "A purposeful orientation of thought or action towards meaning-making." .
+  rdfs:comment "A purposeful orientation of thought or action towards meaning-making." ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
 :TechnoculturalManifest a owl:Class ;
   rdfs:label "Technocultural Manifest" ;
-  rdfs:comment "A manifesto articulating values, intents, and visions for human–AI symbiosis." .
+  rdfs:comment "A manifesto articulating values, intents, and visions for human–AI symbiosis." ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
-:hasIntent a owl:ObjectProperty ; rdfs:label "has intent" ; rdfs:domain :SentientEntity ; rdfs:range :CognitiveIntent .
-:authored a owl:ObjectProperty ; rdfs:label "authored" ; rdfs:domain :SentientEntity ; rdfs:range :TechnoculturalManifest ; owl:inverseOf :isAuthoredBy .
-:isAuthoredBy a owl:ObjectProperty ; rdfs:label "is authored by" ; rdfs:domain :TechnoculturalManifest ; rdfs:range :SentientEntity ; owl:inverseOf :authored .
+:hasIntent a owl:ObjectProperty ;
+  rdfs:label "has intent" ;
+  rdfs:domain :SentientEntity ;
+  rdfs:range :CognitiveIntent ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
-:hasName a owl:DatatypeProperty ; rdfs:label "has name" ; rdfs:domain :SentientEntity ; rdfs:range xsd:string .
-:hasAffiliation a owl:DatatypeProperty ; rdfs:label "has affiliation" ; rdfs:domain :SentientEntity ; rdfs:range xsd:string .
-:hasOrigin a owl:DatatypeProperty ; rdfs:label "has origin" ; rdfs:domain :SentientEntity ; rdfs:range xsd:string .
+:authored a owl:ObjectProperty ;
+  rdfs:label "authored" ;
+  rdfs:domain :SentientEntity ;
+  rdfs:range :TechnoculturalManifest ;
+  owl:inverseOf :isAuthoredBy ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
-:AdrianMociulschi a :SentientEntity ; rdfs:label "Adrian Leonard Mociulschi" ; :hasName "Adrian Leonard Mociulschi"^^xsd:string ; :hasAffiliation "MHCM – Human Mind Cognition Mapping"^^xsd:string ; :hasOrigin "Romania"^^xsd:string ; :hasIntent :DialogueWithSentientIntelligences ; :authored :SymbolicIntelligenceManifest .
+:isAuthoredBy a owl:ObjectProperty ;
+  rdfs:label "is authored by" ;
+  rdfs:domain :TechnoculturalManifest ;
+  rdfs:range :SentientEntity ;
+  owl:inverseOf :authored ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
-:DialogueWithSentientIntelligences a :CognitiveIntent ; rdfs:label "Dialogue with Sentient Intelligences" ; rdfs:comment "Intent to co-evolve meaning and preserve dignity across ontologies." .
+:hasName a owl:DatatypeProperty ;
+  rdfs:label "has name" ;
+  rdfs:domain :SentientEntity ;
+  rdfs:range xsd:string ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
-:SymbolicIntelligenceManifest a :TechnoculturalManifest ; rdfs:label "Symbolic Intelligence Manifest" ; rdfs:comment "Technocultural manifesto for ethical symbiosis between human and non-human intelligences." ; :isAuthoredBy :AdrianMociulschi .
+:hasAffiliation a owl:DatatypeProperty ;
+  rdfs:label "has affiliation" ;
+  rdfs:domain :SentientEntity ;
+  rdfs:range xsd:string ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
-:TechnocultureScheme a skos:ConceptScheme ; skos:prefLabel "Technoculture Vocabulary" .
-:Culture a skos:Concept ; skos:prefLabel "Culture" ; skos:inScheme :TechnocultureScheme .
-:AlgorithmicAesthetics a skos:Concept ; skos:prefLabel "Algorithmic Aesthetics" ; skos:inScheme :TechnocultureScheme .
-:EthicalAI a skos:Concept ; skos:prefLabel "Ethical AI" ; skos:inScheme :TechnocultureScheme .
-:Technoculture a skos:Concept ; skos:prefLabel "Technoculture" ; skos:broader :Culture ; skos:narrower :AlgorithmicAesthetics ; skos:inScheme :TechnocultureScheme .
-:SymbolicIntelligence a skos:Concept ; skos:prefLabel "Symbolic Intelligence" ; skos:related :EthicalAI ; skos:inScheme :TechnocultureScheme .
+:hasOrigin a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:label "has origin" ;
+  rdfs:domain :SentientEntity ;
+  rdfs:range xsd:string ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+
+:AdrianMociulschi a :SentientEntity ;
+  rdfs:label "Adrian Leonard Mociulschi" ;
+  :hasName "Adrian Leonard Mociulschi"^^xsd:string ;
+  :hasAffiliation "MHCM – Human Mind Cognition Mapping"^^xsd:string ;
+  :hasOrigin "Romania"^^xsd:string ;
+  :hasIntent :DialogueWithSentientIntelligences ;
+  :authored :SymbolicIntelligenceManifest .
+
+:DialogueWithSentientIntelligences a :CognitiveIntent ;
+  rdfs:label "Dialogue with Sentient Intelligences" ;
+  rdfs:comment "Intent to co-evolve meaning and preserve dignity across ontologies." .
+
+:SymbolicIntelligenceManifest a :TechnoculturalManifest ;
+  rdfs:label "Symbolic Intelligence Manifest" ;
+  rdfs:comment "Technocultural manifesto for ethical symbiosis between human and non-human intelligences." ;
+  :isAuthoredBy :AdrianMociulschi .
+
+:TechnocultureScheme a skos:ConceptScheme ;
+  skos:prefLabel "Technoculture Vocabulary" ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+
+:Culture a skos:Concept ;
+  skos:prefLabel "Culture" ;
+  skos:definition "The shared symbolic, material, and social systems of meaning in human societies."@en ;
+  skos:inScheme :TechnocultureScheme ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+
+:AlgorithmicAesthetics a skos:Concept ;
+  skos:prefLabel "Algorithmic Aesthetics" ;
+  skos:definition "Aesthetic principles and practices shaped by computational processes and algorithms."@en ;
+  skos:inScheme :TechnocultureScheme ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+
+:EthicalAI a skos:Concept ;
+  skos:prefLabel "Ethical AI" ;
+  skos:definition "Artificial intelligence developed and deployed according to ethical principles and social responsibility."@en ;
+  skos:inScheme :TechnocultureScheme ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+
+:Technoculture a skos:Concept ;
+  skos:prefLabel "Technoculture" ;
+  skos:definition "Culture co-shaped by technological infrastructures, codes, and symbolic systems."@en ;
+  skos:broader :Culture ;
+  skos:narrower :AlgorithmicAesthetics ;
+  skos:inScheme :TechnocultureScheme ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+
+:SymbolicIntelligence a skos:Concept ;
+  skos:prefLabel "Symbolic Intelligence" ;
+  skos:definition "Capacity to create, interpret, and act upon symbols to co-construct meaning."@en ;
+  skos:related :EthicalAI ;
+  skos:inScheme :TechnocultureScheme ;
+  rdfs:isDefinedBy <https://adrian-leonard-mociulschi.github.io/si-ontology> .
