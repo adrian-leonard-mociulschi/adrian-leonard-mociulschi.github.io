@@ -178,3 +178,10 @@ It is built for meaning, not for likes.
 <br>
 
 [![Stack: PWA · CC BY 4.0 · LOD](https://img.shields.io/badge/Stack-PWA%20Ready%20%E2%80%A2%20CC%20BY%204.0%20%E2%80%A2%20LOD-8A2BE2)](#badges)
+
+!PWA Ready
+!License: CC BY 4.0
+!Linked Open Data
+!Lighthouse Elite
+!Semantic Web Ready
+!SPARQL Endpoint
