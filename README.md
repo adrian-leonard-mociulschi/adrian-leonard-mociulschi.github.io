@@ -64,10 +64,13 @@ Experience the PWA in action or preview the interface below:
 ---
 
 ## 🌐 Linked Open Data
+![Semantic Web Ready](https://img.shields.io/badge/Semantic%20Web-OWL%20%7C%20SKOS%20%7C%20LOD-blueviolet)
+
 Ontology published in standard semantic formats:
-- `ontology.owl` — Core ontology in OWL/RDF
-- `void.ttl` — VoID description in Turtle
-- `void.rdf` — VoID description in RDF/XML
+
+- [ontology.owl](https://adrian-leonard-mociulschi.github.io/ontology.owl) — Core ontology in OWL/RDF
+- [void.ttl](https://adrian-leonard-mociulschi.github.io/void.ttl) — VoID description in Turtle
+- [void.rdf](https://adrian-leonard-mociulschi.github.io/void.rdf) — VoID description in RDF/XML
 
 ### 🔍 Example SPARQL Query
 ```sparql
