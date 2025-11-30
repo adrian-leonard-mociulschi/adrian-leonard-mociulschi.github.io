@@ -131,6 +131,7 @@ To consolidate **semantic interoperability and visual clarity**, ensuring a seam
 ![Semantic Graph](assets/screenshots/semantic_graph_1400x1400.png)
 
 **Legend:**
+
 🟦 OWL classes  
 🟧 properties  
 🟩 individuals  
