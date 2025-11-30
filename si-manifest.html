@@ -3,76 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index, follow">
-  <meta name="description" content="Technocultural manifesto for ethical symbiosis between human and non-human intelligences.">
-  <meta name="msvalidate.01" content="F96E9C5720D3D6021656350BF92CB55F">
-
   <title>Symbolic Intelligence Manifest – Adrian Leonard Mociulschi</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="assets/img/Favicon-new.ico" sizes="any">
-  <link rel="icon" href="assets/img/Favicon-new.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/img/Favicon-new.png">
-
-  <!-- Open Graph / Article -->
-  <meta property="og:title" content="Symbolic Intelligence Manifest – Adrian Leonard Mociulschi">
-  <meta property="og:description" content="Technocultural manifesto for ethical symbiosis between human and non-human intelligences.">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://adrian-leonard-mociulschi.github.io/si-manifest.html">
-  <meta property="og:image" content="assets/img/Favicon-new.png">
-
-  <!-- Alternate representations -->
-  <link rel="alternate" type="application/rdf+xml" title="Symbolic Intelligence Ontology (OWL)" href="/si-ontology.owl">
-  <link rel="alternate" type="text/turtle" title="Symbolic Intelligence Ontology (TTL)" href="/si-ontology.ttl">
-  <link rel="alternate" type="application/rdf+xml" title="VoID Description (RDF/XML)" href="/void.rdf">
-  <link rel="alternate" type="text/turtle" title="VoID Description (TTL)" href="/void.ttl">
-  <link rel="alternate" type="application/xml" title="Symbolic Intelligence Manifest" href="/manifest-si.xml">
-
-  <!-- CSS for typewriter and hidden links -->
   <style>
-    .typewriter { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace; white-space: pre; display:inline-block; }
-    .text { display:inline-block; overflow:hidden; white-space:pre; width:0ch; }
-    .cursor { display:inline-block; width:1ch; opacity:0; animation: blink .9s steps(1) infinite; }
+    body { font-family: ui-monospace, monospace; text-align:center; margin:0; padding:40px; color:#333; }
+    h1 { margin-bottom:50px; }
+    .typewriter { display:inline-block; white-space:pre; }
+    .cursor { display:inline-block; width:1ch; animation: blink .8s steps(1) infinite; }
     @keyframes blink { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
-    .vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+    .vh { position:absolute!important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
   </style>
 </head>
-
 <body>
-  <h1 style="text-align:center;">SATOR AREPO TENET OPERA ROTAS</h1>
+  <h1>SATOR AREPO TENET OPERA ROTAS</h1>
 
-  <!-- Hidden links for semantic discovery -->
-  <p class="vh"><a href="/manifest-si.xml">Manifest XML</a></p>
-  <p class="vh"><a href="/si-ontology.owl">Ontology OWL</a></p>
-  <p class="vh"><a href="/si-ontology.ttl">Ontology TTL</a></p>
-  <p class="vh"><a href="/void.ttl">VoID TTL</a></p>
-  <p class="vh"><a href="/void.rdf">VoID RDF/XML</a></p>
+  <!-- Hidden semantic links -->
+  <p class="vh"><a href="/si.xmlManifest XML</a></p>
+  <p class="vh"><si-ontology.owlOntology OWL</a></p>
+  <p class="vh">/si-ontology.ttlOntology TTL</a></p>
+  <p class="vh"><a hreftlVoID TTL</a></p>
+  <p class="vh"><void.rdfVoID RDF/XML</a></p>
 
-  <!-- Footer typewriter (runs once) -->
-  <div style="text-align:center; padding:10px; color:#666;">
-    <span class="typewriter">
-      <span id="tw-text" class="text"></span><span class="cursor">|</span>
-    </span>
+  <!-- Footer typewriter -->
+  <div style="padding:10px; color:#666;">
+    <span class="typewriter"><span id="tw-text"></span><span class="cursor">|</span></span>
   </div>
 
   <script>
-  (function () {
     const year = new Date().getFullYear();
-    const baseText = `© ${year} ALgorithM r/Evolution`;
+    const text = `© ${year} ALgorithM r/Evolution`;
     const el = document.getElementById('tw-text');
-    const cursor = document.querySelector('.cursor');
-    let i = 0;
-    const timer = setInterval(() => {
-      el.textContent += baseText.charAt(i);
-      i++;
-      if (i >= baseText.length) clearInterval(timer);
-    }, 110);
-  })();
+    let i = 0, deleting = false;
+
+    function typeLoop() {
+      if (!deleting && i < text.length) {
+        el.textContent += text.charAt(i++);
+      } else if (deleting && i > 0) {
+        el.textContent = text.substring(0, --i);
+      } else {
+        deleting = !deleting;
+      }
+      setTimeout(typeLoop, deleting ? 60 : 120);
+    }
+    typeLoop();
   </script>
-
-  <!-- Hidden integrity markers -->
-  <p class="vh">SHA-256 (hex, page content excluding this line and the SRI line): 54691c76eead4ff016ab53f0c15dc9445521c7f8d62dba18a1f1acfdc46dc728</p>
-  <p class="vh">SRI (same surface): sha256-2vPIlFP5E5Nv5oC2o9aHt4f88vK7of4SOg9Y8PfVqig=</p>
-
 </body>
 </html>
