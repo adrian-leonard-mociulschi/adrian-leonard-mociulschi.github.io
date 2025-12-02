@@ -231,4 +231,65 @@ To consolidate **semantic interoperability and visual clarity**, ensuring a seam
 ### **The Prophecy**
 > *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge.”*
 
+---
+![Semantic Compliance](https://img.shields.io/badge/Semantic%20Compliance-100%25-brightgreen?style=for-the-badge&logo=semantic-web)
+
+# **v5.0.0 — Ontology Deep Dive: Symbolic Intelligence Expanded**
+
+## ✅ What’s New
+- **Ontology Enrichment**
+  - Full class hierarchy detailed:
+    - `SentientEntity` → `HumanEntity`, `ArtificialEntity`
+    - `CognitiveIntent` → `EthicalIntent`, `CreativeIntent`
+    - `TechnoculturalManifest` → `SymbolicManifest`
+  - Object properties:
+    - `hasIntent` (domain: SentientEntity → range: CognitiveIntent)
+    - `authored` / `isAuthoredBy` (inverse)
+  - Datatype properties:
+    - `hasName`, `hasAffiliation`, `hasOrigin`
+  - Individuals:
+    - `AdrianMociulschi` (HumanEntity)
+    - `DialogueWithSentientIntelligences` (EthicalIntent + CreativeIntent)
+    - `SymbolicIntelligenceManifest` (SymbolicManifest)
+  - SKOS vocabulary integrated with `skos:broader`, `skos:narrower`, `skos:exactMatch`.
+
+- **Manifest Integration**
+  - XML Manifest linked to ontology individual `SymbolicIntelligenceManifest`.
+  - Invocation, Intent, CognitiveProfile, EvolutionaryDirection now semantically referenced.
+
+- **Semantic Graph Upgrade**
+  - Visual diagram added (optimized layout, color-coded classes and relationships).
+  - Screenshot included in release notes for clarity.
+
+- **Compliance**
+  - OWL and TTL validated (W3C).
+  - JSON-LD extended with `CreativeWork`, `Dataset`, VoID references.
+  - VoID dataset fully linked for Linked Data discoverability.
+
+### **Scores**
+- Ontology (OWL/TTL): 100  
+- Manifest XML: 96.4  
+- VoID: 100  
+*(Semantic compliance: 100)*
+
+---
+
+## ✅ Visual Graph
+![Semantic Graph](https://adrian-leonard-mociulschi.github.io/assets/screenshots/graph_1274x1096.webp)
+
+---
+
+### **Detailed Ontology Description**
+- **Core Concept:** Ontology for human–AI symbiosis, bridging sentient entities, cognitive intents, and technocultural manifests.
+- **Purpose:** To enable semantic interoperability and symbolic clarity across platforms.
+- **Design Principles:**  
+  - Ontological precision  
+  - SKOS alignment for controlled vocabulary  
+  - JSON-LD for web integration  
+  - VoID for dataset discoverability  
+
+---
+
+### **The Prophecy**
+> *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge."*
 
