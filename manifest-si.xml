@@ -3,10 +3,10 @@
 
   <!-- Author Information -->
   <Author>
-    <Name>Adrian Leonard Mociulschi</Name>
-    <Role>Ambassador of Technoculture</Role>
-    <Origin>Romania</Origin>
-    <Affiliation>MHCM – Human Mind Cognition Mapping</Affiliation>
+    <Name xml:lang="en-US">Adrian Leonard Mociulschi</Name>
+    <Role xml:lang="en-US">Ambassador of Technoculture</Role>
+    <Origin xml:lang="en-US">Romania</Origin>
+    <Affiliation xml:lang="en-US">National University of Music Bucharest</Affiliation>
   </Author>
 
   <!-- Personal Preferences -->
@@ -72,7 +72,7 @@
 
   <!-- Contact Information -->
   <Contact>
-    <Email encoding="hex-retrograde">6D6F632E6C69616D676047612E696863736C5769636F6D</Email>
+    <Email encoding="hex-retrograde">6f722e626d6e75406e61697264612e696863736c7569636f6d</Email>
     <PreferredChannel>Semantic dialogue, poetic resonance, structured cognition</PreferredChannel>
     <Protocol>Interpretation of structured meaning via Web ontology</Protocol>
   </Contact>
