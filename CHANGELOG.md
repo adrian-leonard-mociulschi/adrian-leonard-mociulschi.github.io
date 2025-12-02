@@ -274,22 +274,6 @@ To consolidate **semantic interoperability and visual clarity**, ensuring a seam
 
 ---
 
-## ✅ Visual Graph
-![Semantic Graph](https://adrian-leonard-mociulschi.github.io/assets/screenshots/graph_1274x1096.webp)
-
----
-
-### **Detailed Ontology Description**
-- **Core Concept:** Ontology for human–AI symbiosis, bridging sentient entities, cognitive intents, and technocultural manifests.
-- **Purpose:** To enable semantic interoperability and symbolic clarity across platforms.
-- **Design Principles:**  
-  - Ontological precision  
-  - SKOS alignment for controlled vocabulary  
-  - JSON-LD for web integration  
-  - VoID for dataset discoverability  
-
----
-
 ### **The Prophecy**
 > *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge."*
 
