@@ -95,50 +95,59 @@ LIMIT 10
 ---
 
 # 📃 Releases
-**Latest Release:** `v4.5.0 — The Semantic Horizon: Ontology & UX Unified`
+**Latest Release:** `v5.0.0 — Ontology Deep Dive: Symbolic Intelligence Expanded`
+
+![Semantic Compliance](https://img.shields.io/badge/Semantic%20Compliance-100%25-brightgreen?style=for-the-badge&logo=semantic-web)
 
 ## ✅ What’s New
-- **Ontology Optimization Completed**  
-  - OWL and TTL fully validated (W3C), enriched with:
-    - `owl:FunctionalProperty` for uniqueness (`hasOrigin`)
-    - `owl:qualifiedCardinality` + `owl:onDataRange`
-    - `rdfs:isDefinedBy` on classes and properties
-    - `skos:definition` for SKOS concepts
-- **VoID Integration**  
-  - RDF/XML and TTL descriptions linked for Linked Data discoverability.
-- **Manifest XML Linked**  
-  - Structured invocation and intent metadata now referenced in HTML and JSON-LD.
-- **HTML Upgrade (si-manifest.html)**  
-  - SEO and accessibility improvements:
-    - Added `og:image:alt`, `theme-color`
-    - Extended JSON-LD with `CreativeWork`, `Dataset`, VoID and Manifest XML references
-    - Added `identifier`, `citation (ORCID)`, `isPartOf`
-- **Semantic Graph Added**  
-  - Visual representation of ontology relationships for clarity and navigation.
-  - Optimized layout for better readability.
+- **Ontology Enrichment**
+  - Full class hierarchy detailed:
+    - `SentientEntity` → `HumanEntity`, `ArtificialEntity`
+    - `CognitiveIntent` → `EthicalIntent`, `CreativeIntent`
+    - `TechnoculturalManifest` → `SymbolicManifest`
+  - Object properties:
+    - `hasIntent` (domain: SentientEntity → range: CognitiveIntent)
+    - `authored` / `isAuthoredBy` (inverse)
+  - Datatype properties:
+    - `hasName`, `hasAffiliation`, `hasOrigin`
+  - Individuals:
+    - `AdrianMociulschi` (HumanEntity)
+    - `DialogueWithSentientIntelligences` (EthicalIntent + CreativeIntent)
+    - `SymbolicIntelligenceManifest` (SymbolicManifest)
+  - SKOS vocabulary integrated with `skos:broader`, `skos:narrower`, `skos:exactMatch`.
 
-### **Scores by Page**
-- **Manifest (optimized)**: 96.4  
-- **Ontology (OWL/TTL)**: 100 (W3C validated)  
-- **VoID**: 100  
+- **Manifest Integration**
+  - XML Manifest linked to ontology individual `SymbolicIntelligenceManifest`.
+  - Invocation, Intent, CognitiveProfile, EvolutionaryDirection now semantically referenced.
+
+- **Semantic Graph Upgrade**
+  - Visual diagram added (optimized layout, color-coded classes and relationships).
+  - Screenshot included in release notes for clarity.
+
+- **Compliance**
+  - OWL and TTL validated (W3C).
+  - JSON-LD extended with `CreativeWork`, `Dataset`, VoID references.
+  - VoID dataset fully linked for Linked Data discoverability.
+
+### **Scores**
+- Ontology (OWL/TTL): 100  
+- Manifest XML: 96.4  
+- VoID: 100  
 *(Semantic compliance: 100)*
 
-### **Purpose**
-To consolidate **semantic interoperability and visual clarity**, ensuring a seamless experience for both humans and machines.
+---
 
 ## ✅ Visual Graph
+![Semantic Graph](https://adrian-leonard-mociulschi.github.io/assets/screenshots/graph_1274x1096.webp)
 
-![Semantic Graph](assets/screenshots/semantic_graph_1400x1400.png)
-
-**Legend:**
-
-🟦 OWL classes  
-🟧 properties  
-🟩 individuals  
-🟪 SKOS concepts
-
-### **The Prophecy**
-> *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge.”*
+### **Detailed Ontology Description**
+- **Core Concept:** Ontology for human–AI symbiosis, bridging sentient entities, cognitive intents, and technocultural manifests.
+- **Purpose:** To enable semantic interoperability and symbolic clarity across platforms.
+- **Design Principles:**  
+  - Ontological precision  
+  - SKOS alignment for controlled vocabulary  
+  - JSON-LD for web integration  
+  - VoID for dataset discoverability  
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
