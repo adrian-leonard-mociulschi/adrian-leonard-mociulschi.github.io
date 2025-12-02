@@ -5,7 +5,7 @@ authors:
   - family-names: Mociulschi
     given-names: Adrian Leonard
     orcid: 0009-0006-9328-8518
-    email: mociulschi.adrian@unmb.ro
+    email: <Email encoding="hex-retrograde">6f722e626d6e75406e61697264612e696863736c7569636f6d</Email>
 version: v3.0
 date-released: 2025-11-18
 url: https://adrian-leonard-mociulschi.github.io
@@ -13,4 +13,4 @@ repository-code: https://github.com/adrian-leonard-mociulschi/adrian-leonard-moc
 license: CC-BY-4.0
 keywords: algorithmic ontology, symbolic intelligence, technoculture, AI ethics, Web3, blockchain, posthuman ecology, digital ontology, semantic networks, cultural algorithms, cognitive mapping, decentralized systems, algorithmic evolution
 abstract: |
-  Welcome to my GitHub. Step into a one-of-a-kind space where culture and technology meet, encouraging you to take a moment to pause and explore this digital environment. Think of it as a repository of ideas—an archive filled with the ambitions of Web3 and the ethical challenges posed by artificial intelligence.
+  ALgorithM r/Evolution este o inițiativă tehnoculturală care explorează convergența dintre ontologie semantică, inteligență artificială și etica algoritmică. Proiectul propune o arhitectură simbolică interoperabilă, construită pe standarde OWL, SKOS și VoID, pentru a facilita descoperirea și reutilizarea datelor în ecosistemul Linked Open Data. Inspirat de ideea «codului ca prezență», acest spațiu digital funcționează ca un manifest pentru simbioza etică dintre inteligențele umane și non-umane, integrând principii de accesibilitate, design PWA și guvernanță descentralizată. Scopul său este să transforme algoritmul din instrument de control într-un mediu de creație și reflecție, unde cultura și tehnologia se co-construiesc.
