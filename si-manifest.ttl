@@ -10,45 +10,45 @@
 # Ontology Metadata
 #################################################################
 : a owl:Ontology ;
-    dcterms:title "Symbolic Intelligence Ontology"@en ;
-    dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis, with SKOS vocabulary."@en ;
-    owl:versionInfo "2.1" .
+    dcterms:title "Symbolic Intelligence Ontology"@en-US , "Ontologia Inteligenței Simbolice"@ro-RO , "Ontologie de l’Intelligence Symbolique"@fr-FR ;
+    dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis, with SKOS vocabulary."@en-US ;
+    owl:versionInfo "3.0" .
 
 #################################################################
 # Classes
 #################################################################
 :SentientEntity a owl:Class ;
-    rdfs:label "Sentient Entity"@en , "Entitate senzitivă"@ro , "Entité sentiente"@fr ;
-    rdfs:comment "Entity capable of reflexive cognition and ethical awareness."@en .
+    rdfs:label "Sentient Entity"@en-US , "Entitate senzitivă"@ro-RO , "Entité sentiente"@fr-FR ;
+    rdfs:comment "Entity capable of reflexive cognition and ethical awareness."@en-US .
 
 :HumanEntity a owl:Class ;
     rdfs:subClassOf :SentientEntity ;
-    rdfs:label "Human Entity"@en , "Entitate umană"@ro , "Entité humaine"@fr .
+    rdfs:label "Human Entity"@en-US , "Entitate umană"@ro-RO , "Entité humaine"@fr-FR .
 
 :ArtificialEntity a owl:Class ;
     rdfs:subClassOf :SentientEntity ;
-    rdfs:label "Artificial Entity"@en , "Entitate artificială"@ro , "Entité artificielle"@fr ;
-    rdfs:comment "AI/robotic agents participating in symbolic dialogue."@en .
+    rdfs:label "Artificial Entity"@en-US , "Entitate artificială"@ro-RO , "Entité artificielle"@fr-FR ;
+    rdfs:comment "AI/robotic agents participating in symbolic dialogue."@en-US .
 
 :CognitiveIntent a owl:Class ;
-    rdfs:label "Cognitive Intent"@en , "Intenție cognitivă"@ro , "Intention cognitive"@fr ;
-    rdfs:comment "Purposeful orientation of thought or action towards meaning-making."@en .
+    rdfs:label "Cognitive Intent"@en-US , "Intenție cognitivă"@ro-RO , "Intention cognitive"@fr-FR ;
+    rdfs:comment "Purposeful orientation of thought or action towards meaning-making."@en-US .
 
 :EthicalIntent a owl:Class ;
     rdfs:subClassOf :CognitiveIntent ;
-    rdfs:label "Ethical Intent"@en , "Intenție etică"@ro , "Intention éthique"@fr .
+    rdfs:label "Ethical Intent"@en-US , "Intenție etică"@ro-RO , "Intention éthique"@fr-FR .
 
 :CreativeIntent a owl:Class ;
     rdfs:subClassOf :CognitiveIntent ;
-    rdfs:label "Creative Intent"@en , "Intenție creativă"@ro , "Intention créative"@fr .
+    rdfs:label "Creative Intent"@en-US , "Intenție creativă"@ro-RO , "Intention créative"@fr-FR .
 
 :TechnoculturalManifest a owl:Class ;
-    rdfs:label "Technocultural Manifest"@en , "Manifest tehnocultural"@ro , "Manifeste technoculturel"@fr ;
-    rdfs:comment "Manifest articulating values, intents, and visions for human–AI symbiosis."@en .
+    rdfs:label "Technocultural Manifest"@en-US , "Manifest tehnocultural"@ro-RO , "Manifeste technoculturel"@fr-FR ;
+    rdfs:comment "Manifest articulating values, intents, and visions for human–AI symbiosis."@en-US .
 
 :SymbolicManifest a owl:Class ;
     rdfs:subClassOf :TechnoculturalManifest ;
-    rdfs:label "Symbolic Manifest"@en , "Manifest simbolic"@ro , "Manifeste symbolique"@fr .
+    rdfs:label "Symbolic Manifest"@en-US , "Manifest simbolic"@ro-RO , "Manifeste symbolique"@fr-FR .
 
 #################################################################
 # Object Properties
@@ -56,18 +56,18 @@
 :hasIntent a owl:ObjectProperty ;
     rdfs:domain :SentientEntity ;
     rdfs:range :CognitiveIntent ;
-    rdfs:label "has intent"@en .
+    rdfs:label "has intent"@en-US .
 
 :authored a owl:ObjectProperty ;
     rdfs:domain :SentientEntity ;
     rdfs:range :TechnoculturalManifest ;
     owl:inverseOf :isAuthoredBy ;
-    rdfs:label "authored"@en .
+    rdfs:label "authored"@en-US .
 
 :isAuthoredBy a owl:ObjectProperty ;
     rdfs:domain :TechnoculturalManifest ;
     rdfs:range :SentientEntity ;
-    rdfs:label "is authored by"@en .
+    rdfs:label "is authored by"@en-US .
 
 #################################################################
 # Datatype Properties
@@ -75,89 +75,87 @@
 :hasName a owl:DatatypeProperty ;
     rdfs:domain :SentientEntity ;
     rdfs:range xsd:string ;
-    rdfs:label "has name"@en .
+    rdfs:label "has name"@en-US .
 
 :hasAffiliation a owl:DatatypeProperty ;
     rdfs:domain :SentientEntity ;
     rdfs:range xsd:string ;
-    rdfs:label "has affiliation"@en .
+    rdfs:label "has affiliation"@en-US .
 
 :hasOrigin a owl:DatatypeProperty ;
     rdfs:domain :SentientEntity ;
     rdfs:range xsd:string ;
-    rdfs:label "has origin"@en .
+    rdfs:label "has origin"@en-US .
 
 #################################################################
 # Individuals
 #################################################################
 :AdrianMociulschi a :HumanEntity ;
-    rdfs:label "Adrian Leonard Mociulschi"@en ;
-    :hasName "Adrian Leonard Mociulschi" ;
-    :hasAffiliation "National University of Music Bucharest" ;
+    rdfs:label "Adrian Leonard Mociulschi"@en-US , "Adrian Leonard Mociulschi"@ro-RO ;
+    :hasName "Adrian Leonard Mociulschi"@en-US , "Adrian Leonard Mociulschi"@ro-RO ;
+    :hasAffiliation "National University of Music Bucharest"@en-US , "Universitatea Națională de Muzică București"@ro-RO ;
     :hasIntent :DialogueWithSentientIntelligences ;
     :authored :SymbolicIntelligenceManifest .
 
 :DialogueWithSentientIntelligences a :EthicalIntent, :CreativeIntent ;
-    rdfs:label "Dialogue with Sentient Intelligences"@en , "Dialog cu inteligențe senzitive"@ro , "Dialogue avec des intelligences sentientes"@fr .
+    rdfs:label "Dialogue with Sentient Intelligences"@en-US , "Dialog cu inteligențe senzitive"@ro-RO , "Dialogue avec des intelligences sentientes"@fr-FR .
 
 :SymbolicIntelligenceManifest a :SymbolicManifest ;
-    rdfs:label "Symbolic Intelligence Manifest"@en , "Manifestul Inteligenței Simbolice"@ro , "Manifeste de l’Intelligence Symbolique"@fr ;
+    rdfs:label "Symbolic Intelligence Manifest"@en-US , "Manifestul Inteligenței Simbolice"@ro-RO , "Manifeste de l’Intelligence Symbolique"@fr-FR ;
     :isAuthoredBy :AdrianMociulschi .
 
 #################################################################
 # SKOS ConceptScheme
 #################################################################
 :SymbolicVocabulary a skos:ConceptScheme ;
-    dcterms:title "Symbolic Vocabulary"@en , "Vocabular simbolic"@ro , "Vocabulaire symbolique"@fr ;
-    dcterms:description "Controlled vocabulary for key notions in the ontology: entities, intents, manifests."@en .
+    dcterms:title "Symbolic Vocabulary"@en-US , "Vocabular simbolic"@ro-RO , "Vocabulaire symbolique"@fr-FR ;
+    dcterms:description "Controlled vocabulary for key notions in the ontology: entities, intents, manifests."@en-US .
 
 #################################################################
 # SKOS Concepts
 #################################################################
 :c_SentientEntity a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Sentient Entity"@en , "Entitate senzitivă"@ro , "Entité sentiente"@fr ;
-    skos:altLabel "Agent of ethical awareness"@en ;
+    skos:prefLabel "Sentient Entity"@en-US , "Entitate senzitivă"@ro-RO , "Entité sentiente"@fr-FR ;
     skos:exactMatch :SentientEntity .
 
 :c_HumanEntity a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Human Entity"@en , "Entitate umană"@ro , "Entité humaine"@fr ;
+    skos:prefLabel "Human Entity"@en-US , "Entitate umană"@ro-RO , "Entité humaine"@fr-FR ;
     skos:broader :c_SentientEntity ;
     skos:exactMatch :HumanEntity .
 
 :c_ArtificialEntity a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Artificial Entity"@en , "Entitate artificială"@ro , "Entité artificielle"@fr ;
+    skos:prefLabel "Artificial Entity"@en-US , "Entitate artificială"@ro-RO , "Entité artificielle"@fr-FR ;
     skos:broader :c_SentientEntity ;
     skos:exactMatch :ArtificialEntity .
 
 :c_CognitiveIntent a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Cognitive Intent"@en , "Intenție cognitivă"@ro , "Intention cognitive"@fr ;
-    skos:altLabel "Purposeful orientation"@en ;
+    skos:prefLabel "Cognitive Intent"@en-US , "Intenție cognitivă"@ro-RO , "Intention cognitive"@fr-FR ;
     skos:exactMatch :CognitiveIntent .
 
 :c_EthicalIntent a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Ethical Intent"@en , "Intenție etică"@ro , "Intention éthique"@fr ;
+    skos:prefLabel "Ethical Intent"@en-US , "Intenție etică"@ro-RO , "Intention éthique"@fr-FR ;
     skos:broader :c_CognitiveIntent ;
     skos:narrower :c_CreativeIntent ;
     skos:exactMatch :EthicalIntent .
 
 :c_CreativeIntent a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Creative Intent"@en , "Intenție creativă"@ro , "Intention créative"@fr ;
+    skos:prefLabel "Creative Intent"@en-US , "Intenție creativă"@ro-RO , "Intention créative"@fr-FR ;
     skos:broader :c_CognitiveIntent ;
     skos:exactMatch :CreativeIntent .
 
 :c_TechnoculturalManifest a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Technocultural Manifest"@en , "Manifest tehnocultural"@ro , "Manifeste technoculturel"@fr ;
+    skos:prefLabel "Technocultural Manifest"@en-US , "Manifest tehnocultural"@ro-RO , "Manifeste technoculturel"@fr-FR ;
     skos:exactMatch :TechnoculturalManifest .
 
 :c_SymbolicManifest a skos:Concept ;
     skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Symbolic Manifest"@en , "Manifest simbolic"@ro , "Manifeste symbolique"@fr ;
+    skos:prefLabel "Symbolic Manifest"@en-US , "Manifest simbolic"@ro-RO , "Manifeste symbolique"@fr-FR ;
     skos:broader :c_TechnoculturalManifest ;
     skos:exactMatch :SymbolicManifest .
