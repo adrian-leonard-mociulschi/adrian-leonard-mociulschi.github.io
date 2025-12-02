@@ -52,6 +52,8 @@
     {
       "@type": "CreativeWork",
       "@id": "https://adrian-leonard-mociulschi.github.io/si-manifest",
+      "sameAs": "https://adrian-leonard-mociulschi.github.io/manifest-si.xml",
+      "encodingFormat": "application/xml",
       "name": "Symbolic Intelligence Manifest",
       "alternateName": "ALgorithM r/Evolution Project",
       "identifier": "https://adrian-leonard-mociulschi.github.io/si-manifest",
@@ -61,7 +63,10 @@
         "url": "https://adrian-leonard-mociulschi.github.io"
       },
       "citation": "ORCID iD: https://orcid.org/0009-0006-9328-8518",
-      "sameAs": "https://orcid.org/0009-0006-9328-8518",
+      "sameAs": [
+        "https://orcid.org/0009-0006-9328-8518",
+        "https://adrian-leonard-mociulschi.github.io/manifest-si.xml"
+      ],
       "author": {
         "@type": "Person",
         "name": "Adrian Leonard Mociulschi",
@@ -81,6 +86,10 @@
         "@type": "WebPage",
         "@id": "https://adrian-leonard-mociulschi.github.io/si-manifest.html"
       },
+      "subjectOf": {
+        "@type": "Dataset",
+        "@id": "https://adrian-leonard-mociulschi.github.io/si-ontology#SymbolicIntelligenceManifest"
+      },
       "about": [
         {
           "@type": "Thing",
@@ -96,6 +105,11 @@
           "@type": "Thing",
           "name": "Manifest XML",
           "sameAs": "https://adrian-leonard-mociulschi.github.io/manifest-si.xml"
+        },
+        {
+          "@type": "Thing",
+          "name": "SymbolicIntelligenceManifest (Ontology Individual)",
+          "sameAs": "https://adrian-leonard-mociulschi.github.io/si-ontology#SymbolicIntelligenceManifest"
         }
       ]
     },
