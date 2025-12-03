@@ -1,10 +1,10 @@
-
 @prefix : <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@base <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
 <https://adrian-leonard-mociulschi.github.io/si-ontology> a owl:Ontology ;
     dcterms:title "Symbolic Intelligence Ontology"@en-US ;
@@ -13,12 +13,12 @@
     rdfs:label "Symbolic Intelligence Ontology"@en-US ;
     owl:versionInfo "5.1.0" .
 
-### Annotation Properties
+# Annotation Properties
 dcterms:title a owl:AnnotationProperty .
 dcterms:description a owl:AnnotationProperty .
 dcterms:creator a owl:AnnotationProperty .
 
-### Classes
+# Classes
 :SentientEntity a owl:Class ;
     rdfs:label "Sentient Entity"@en-US ;
     rdfs:comment "Represents any entity capable of perception or awareness."@en-US ;
@@ -58,7 +58,7 @@ dcterms:creator a owl:AnnotationProperty .
     rdfs:comment "A manifestation of symbolic intelligence within technocultural contexts."@en-US ;
     rdfs:subClassOf :TechnoculturalManifest .
 
-### Object Properties
+# Object Properties
 :connectsTo a owl:ObjectProperty ;
     rdfs:label "connects to"@en-US ;
     rdfs:comment "Indicates a generic connection between two entities."@en-US ;
@@ -79,7 +79,7 @@ dcterms:creator a owl:AnnotationProperty .
     rdfs:label "has intent"@en-US ;
     rdfs:comment "Associates an entity with a cognitive intent."@en-US .
 
-### Datatype Properties
+# Datatype Properties
 :hasAffiliation a owl:DatatypeProperty ;
     rdfs:label "has affiliation"@en-US ;
     rdfs:comment "Specifies organizational or group affiliation."@en-US ;
@@ -95,7 +95,7 @@ dcterms:creator a owl:AnnotationProperty .
     rdfs:comment "Indicates the origin or source of an entity."@en-US ;
     rdfs:range rdfs:Literal .
 
-### Individuals
+# Individuals
 :AdrianMociulschi a owl:NamedIndividual, :HumanEntity ;
     rdfs:label "Adrian Leonard Mociulschi"@en-US ;
     rdfs:comment "Represents the author of the ontology."@en-US .
@@ -106,3 +106,4 @@ dcterms:creator a owl:AnnotationProperty .
 
 :SymbolicIntelligenceManifest a owl:NamedIndividual, :SymbolicManifest ;
     rdfs:label "Symbolic Intelligence Manifest"@en-US ;
+    rdfs:comment "A symbolic representation of intelligence within cultural and technological contexts."@en-US .
