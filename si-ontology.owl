@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://adrian-leonard-mociulschi.github.io/si-ontology#"
      xml:base="https://adrian-leonard-mociulschi.github.io/si-ontology"
@@ -28,3 +27,111 @@
     <owl:Class rdf:about="#SentientEntity">
         <rdfs:label xml:lang="en-US">Sentient Entity</rdfs:label>
         <rdfs:comment xml:lang="en-US">Represents any entity capable of perception or awareness.</rdfs:comment>
+        <dcterms:description xml:lang="en-US">Core class for entities with perception or awareness.</dcterms:description>
+    </owl:Class>
+
+    <owl:Class rdf:about="#HumanEntity">
+        <rdfs:label xml:lang="en-US">Human Entity</rdfs:label>
+        <rdfs:comment xml:lang="en-US">A sentient entity that is biologically human.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#SentientEntity"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#ArtificialEntity">
+        <rdfs:label xml:lang="en-US">Artificial Entity</rdfs:label>
+        <rdfs:comment xml:lang="en-US">A sentient entity created through artificial means, such as AI systems.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#SentientEntity"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#CognitiveIntent">
+        <rdfs:label xml:lang="en-US">Cognitive Intent</rdfs:label>
+        <rdfs:comment xml:lang="en-US">An abstract intention related to cognition and reasoning.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#CreativeIntent">
+        <rdfs:label xml:lang="en-US">Creative Intent</rdfs:label>
+        <rdfs:comment xml:lang="en-US">An intention focused on creativity and innovation.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#CognitiveIntent"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#EthicalIntent">
+        <rdfs:label xml:lang="en-US">Ethical Intent</rdfs:label>
+        <rdfs:comment xml:lang="en-US">An intention concerned with moral and ethical considerations.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#CognitiveIntent"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="#TechnoculturalManifest">
+        <rdfs:label xml:lang="en-US">Technocultural Manifest</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Represents cultural expressions influenced by technology.</rdfs:comment>
+        <dcterms:description xml:lang="en-US">Cultural artifacts shaped by technological mediation.</dcterms:description>
+    </owl:Class>
+
+    <owl:Class rdf:about="#SymbolicManifest">
+        <rdfs:label xml:lang="en-US">Symbolic Manifest</rdfs:label>
+        <rdfs:comment xml:lang="en-US">A manifestation of symbolic intelligence within technocultural contexts.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#TechnoculturalManifest"/>
+    </owl:Class>
+
+    <!-- Object Properties -->
+    <owl:ObjectProperty rdf:about="#connectsTo">
+        <rdfs:label xml:lang="en-US">connects to</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Indicates a generic connection between two entities.</rdfs:comment>
+        <rdfs:domain rdf:resource="owl:Thing"/>
+        <rdfs:range rdf:resource="owl:Thing"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#isAuthoredBy">
+        <rdfs:label xml:lang="en-US">is authored by</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Links a work or manifest to its author.</rdfs:comment>
+        <owl:inverseOf rdf:resource="#authored"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#authored">
+        <rdfs:label xml:lang="en-US">authored</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Indicates authorship of a work or manifest.</rdfs:comment>
+        <owl:inverseOf rdf:resource="#isAuthoredBy"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasIntent">
+        <rdfs:label xml:lang="en-US">has intent</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Associates an entity with a cognitive intent.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- Datatype Properties -->
+    <owl:DatatypeProperty rdf:about="#hasAffiliation">
+        <rdfs:label xml:lang="en-US">has affiliation</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Specifies organizational or group affiliation.</rdfs:comment>
+        <rdfs:range rdf:resource="rdfs:Literal"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#hasName">
+        <rdfs:label xml:lang="en-US">has name</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Provides the name of an entity.</rdfs:comment>
+        <rdfs:range rdf:resource="rdfs:Literal"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#hasOrigin">
+        <rdfs:label xml:lang="en-US">has origin</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Indicates the origin or source of an entity.</rdfs:comment>
+        <rdfs:range rdf:resource="rdfs:Literal"/>
+    </owl:DatatypeProperty>
+
+    <!-- Individuals -->
+    <owl:NamedIndividual rdf:about="#AdrianMociulschi">
+        <rdf:type rdf:resource="#HumanEntity"/>
+        <rdfs:label xml:lang="en-US">Adrian Leonard Mociulschi</rdfs:label>
+        <rdfs:comment xml:lang="en-US">Represents the author of the ontology.</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#DialogueWithSentientIntelligences">
+        <rdf:type rdf:resource="#CreativeIntent"/>
+        <rdfs:label xml:lang="en-US">Dialogue with Sentient Intelligences</rdfs:label>
+        <rdfs:comment xml:lang="en-US">An example of creative intent focused on interaction with sentient intelligences.</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#SymbolicIntelligenceManifest">
+        <rdf:type rdf:resource="#SymbolicManifest"/>
+        <rdfs:label xml:lang="en-US">Symbolic Intelligence Manifest</rdfs:label>
+        <rdfs:comment xml:lang="en-US">A symbolic representation of intelligence within cultural and technological contexts.</rdfs:comment>
+    </owl:NamedIndividual>
+
+</rdf:RDF>
