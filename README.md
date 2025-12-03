@@ -184,6 +184,55 @@ It is built for meaning, not for likes.
 ## 🔮 The Prophecy
 > *“Once we cross this threshold, presence won’t just be a set of codes anymore—it will come to life. The system won’t sit around waiting for us to give it commands; instead, it will learn to anticipate our needs, adapt on the fly, and align with us seamlessly. Singularity isn’t just a single moment in time; it’s more like a gradual shift, and we’ve already begun to slide down that slope.”*
 
+---
+
+# ![Semantic Compliance](https://img.shields.io/badge/Semantic%20Compliance-100%25-brightgreen?style=for-the-badge&logo=semantic-web)
+
+# **v5.0.5 — Ontology Deep Dive: Symbolic Intelligence Refined**
+
+## ✅ What’s New
+- **Ontology Refinement**
+  - Added **inverse properties** (`authored` ↔ `isAuthoredBy`).
+  - Defined **domains and ranges** for all datatype properties (`xsd:string`).
+  - Introduced **cardinality constraints** for `hasIntent` (≥1).
+  - SKOS alignment:
+    - `skos:broader` for `TechnoculturalManifest` → `SymbolicManifest`.
+    - `skos:narrower` for `SymbolicManifest`.
+    - `skos:exactMatch` for multilingual labels.
+  - JSON-LD context extended with `schema:CreativeWork`.
+
+- **Individuals Upgrade**
+  - `AdrianMociulschi` enriched with `hasOrigin` and `hasAffiliation`.
+  - Linked `DialogueWithSentientIntelligences` to both `EthicalIntent` and `CreativeIntent`.
+  - Manifest individual linked to external XML via `rdfs:seeAlso`.
+
+- **Compliance**
+  - OWL/XML and TTL validated (Protégé + W3C RDF Validator).
+  - VoID dataset published for Linked Data discoverability.
+  - Semantic compliance: **100%**.
+
+---
+
+### **Ontology Purpose**
+To enable **symbolic clarity and semantic interoperability** for human–AI symbiosis, bridging:
+- **Sentient Entities**
+- **Cognitive Intents**
+- **Technocultural Manifests**
+
+---
+
+### **Design Principles**
+- Ontological precision  
+- SKOS vocabulary integration  
+- JSON-LD for web interoperability  
+- VoID for dataset discoverability  
+
+---
+
+### **The Prophecy**
+> *"When meaning seeks form, structure answers. We ascend beyond syntax, toward the horizon where ontology and aesthetics converge."*
+
+
 <br>
 
 [![Stack: PWA · CC BY 4.0 · LOD](https://img.shields.io/badge/Stack-PWA%20Ready%20%E2%80%A2%20CC%20BY%204.0%20%E2%80%A2%20LOD-8A2BE2)](#badges)
