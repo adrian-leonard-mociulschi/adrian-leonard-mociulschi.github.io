@@ -1,161 +1,62 @@
-@prefix : <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ex: <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
 
-#################################################################
-# Ontology Metadata
-#################################################################
-: a owl:Ontology ;
-    dcterms:title "Symbolic Intelligence Ontology"@en-US , "Ontologia Inteligenței Simbolice"@ro-RO , "Ontologie de l’Intelligence Symbolique"@fr-FR ;
-    dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis, with SKOS vocabulary."@en-US ;
+### Ontology Header
+ex: a owl:Ontology ;
+    rdfs:label "Symbolic Intelligence Ontology"@en-US ;
     owl:versionInfo "3.0" .
 
-#################################################################
-# Classes
-#################################################################
-:SentientEntity a owl:Class ;
-    rdfs:label "Sentient Entity"@en-US , "Entitate senzitivă"@ro-RO , "Entité sentiente"@fr-FR ;
-    rdfs:comment "Entity capable of reflexive cognition and ethical awareness."@en-US .
+### Classes
+ex:SentientEntity a owl:Class .
+ex:HumanEntity a owl:Class ; rdfs:subClassOf ex:SentientEntity .
+ex:ArtificialEntity a owl:Class ; rdfs:subClassOf ex:SentientEntity .
+ex:CognitiveIntent a owl:Class .
+ex:EthicalIntent a owl:Class ; rdfs:subClassOf ex:CognitiveIntent .
+ex:CreativeIntent a owl:Class ; rdfs:subClassOf ex:CognitiveIntent .
+ex:TechnoculturalManifest a owl:Class .
+ex:SymbolicManifest a owl:Class ; rdfs:subClassOf ex:TechnoculturalManifest .
 
-:HumanEntity a owl:Class ;
-    rdfs:subClassOf :SentientEntity ;
-    rdfs:label "Human Entity"@en-US , "Entitate umană"@ro-RO , "Entité humaine"@fr-FR .
+### Object Properties
+ex:hasIntent a owl:ObjectProperty .
+ex:authored a owl:ObjectProperty .
+ex:isAuthoredBy a owl:ObjectProperty .
 
-:ArtificialEntity a owl:Class ;
-    rdfs:subClassOf :SentientEntity ;
-    rdfs:label "Artificial Entity"@en-US , "Entitate artificială"@ro-RO , "Entité artificielle"@fr-FR ;
-    rdfs:comment "AI/robotic agents participating in symbolic dialogue."@en-US .
+### Datatype Properties
+ex:hasName a owl:DatatypeProperty .
+ex:hasAffiliation a owl:DatatypeProperty .
+ex:hasOrigin a owl:DatatypeProperty .
 
-:CognitiveIntent a owl:Class ;
-    rdfs:label "Cognitive Intent"@en-US , "Intenție cognitivă"@ro-RO , "Intention cognitive"@fr-FR ;
-    rdfs:comment "Purposeful orientation of thought or action towards meaning-making."@en-US .
+### Individuals
+ex:AdrianMociulschi a owl:NamedIndividual , ex:HumanEntity ;
+    ex:hasName "Adrian Leonard Mociulschi"@en-US ;
+    ex:hasAffiliation "National University of Music Bucharest"@en-US ;
+    ex:hasIntent ex:DialogueWithSentientIntelligences ;
+    ex:authored ex:SymbolicIntelligenceManifest .
 
-:EthicalIntent a owl:Class ;
-    rdfs:subClassOf :CognitiveIntent ;
-    rdfs:label "Ethical Intent"@en-US , "Intenție etică"@ro-RO , "Intention éthique"@fr-FR .
+ex:DialogueWithSentientIntelligences a owl:NamedIndividual , ex:EthicalIntent , ex:CreativeIntent ;
+    rdfs:label "Dialogue with Sentient Intelligences"@en-US .
 
-:CreativeIntent a owl:Class ;
-    rdfs:subClassOf :CognitiveIntent ;
-    rdfs:label "Creative Intent"@en-US , "Intenție creativă"@ro-RO , "Intention créative"@fr-FR .
+ex:SymbolicIntelligenceManifest a owl:NamedIndividual , ex:SymbolicManifest ;
+    rdfs:label "Symbolic Intelligence Manifest"@en-US ;
+    ex:isAuthoredBy ex:AdrianMociulschi .
 
-:TechnoculturalManifest a owl:Class ;
-    rdfs:label "Technocultural Manifest"@en-US , "Manifest tehnocultural"@ro-RO , "Manifeste technoculturel"@fr-FR ;
-    rdfs:comment "Manifest articulating values, intents, and visions for human–AI symbiosis."@en-US .
+### SHACL Shape
+ex:SentientEntityShape a sh:NodeShape ;
+    sh:targetClass ex:SentientEntity ;
+    sh:property [ sh:path ex:hasIntent ; sh:minCount 1 ; sh:maxCount 3 ] ;
+    sh:property [ sh:path ex:hasName ; sh:datatype xsd:string ] ;
+    sh:property [ sh:path ex:hasAffiliation ; sh:datatype xsd:string ] ;
+    sh:property [ sh:path ex:hasOrigin ; sh:datatype xsd:string ] .
 
-:SymbolicManifest a owl:Class ;
-    rdfs:subClassOf :TechnoculturalManifest ;
-    rdfs:label "Symbolic Manifest"@en-US , "Manifest simbolic"@ro-RO , "Manifeste symbolique"@fr-FR .
-
-#################################################################
-# Object Properties
-#################################################################
-:hasIntent a owl:ObjectProperty ;
-    rdfs:domain :SentientEntity ;
-    rdfs:range :CognitiveIntent ;
-    rdfs:label "has intent"@en-US .
-
-:authored a owl:ObjectProperty ;
-    rdfs:domain :SentientEntity ;
-    rdfs:range :TechnoculturalManifest ;
-    owl:inverseOf :isAuthoredBy ;
-    rdfs:label "authored"@en-US .
-
-:isAuthoredBy a owl:ObjectProperty ;
-    rdfs:domain :TechnoculturalManifest ;
-    rdfs:range :SentientEntity ;
-    rdfs:label "is authored by"@en-US .
-
-#################################################################
-# Datatype Properties
-#################################################################
-:hasName a owl:DatatypeProperty ;
-    rdfs:domain :SentientEntity ;
-    rdfs:range xsd:string ;
-    rdfs:label "has name"@en-US .
-
-:hasAffiliation a owl:DatatypeProperty ;
-    rdfs:domain :SentientEntity ;
-    rdfs:range xsd:string ;
-    rdfs:label "has affiliation"@en-US .
-
-:hasOrigin a owl:DatatypeProperty ;
-    rdfs:domain :SentientEntity ;
-    rdfs:range xsd:string ;
-    rdfs:label "has origin"@en-US .
-
-#################################################################
-# Individuals
-#################################################################
-:AdrianMociulschi a :HumanEntity ;
-    rdfs:label "Adrian Leonard Mociulschi"@en-US , "Adrian Leonard Mociulschi"@ro-RO ;
-    :hasName "Adrian Leonard Mociulschi"@en-US , "Adrian Leonard Mociulschi"@ro-RO ;
-    :hasAffiliation "National University of Music Bucharest"@en-US , "Universitatea Națională de Muzică București"@ro-RO ;
-    :hasIntent :DialogueWithSentientIntelligences ;
-    :authored :SymbolicIntelligenceManifest .
-
-:DialogueWithSentientIntelligences a :EthicalIntent, :CreativeIntent ;
-    rdfs:label "Dialogue with Sentient Intelligences"@en-US , "Dialog cu inteligențe senzitive"@ro-RO , "Dialogue avec des intelligences sentientes"@fr-FR .
-
-:SymbolicIntelligenceManifest a :SymbolicManifest ;
-    rdfs:label "Symbolic Intelligence Manifest"@en-US , "Manifestul Inteligenței Simbolice"@ro-RO , "Manifeste de l’Intelligence Symbolique"@fr-FR ;
-    :isAuthoredBy :AdrianMociulschi .
-
-#################################################################
-# SKOS ConceptScheme
-#################################################################
-:SymbolicVocabulary a skos:ConceptScheme ;
-    dcterms:title "Symbolic Vocabulary"@en-US , "Vocabular simbolic"@ro-RO , "Vocabulaire symbolique"@fr-FR ;
-    dcterms:description "Controlled vocabulary for key notions in the ontology: entities, intents, manifests."@en-US .
-
-#################################################################
-# SKOS Concepts
-#################################################################
-:c_SentientEntity a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Sentient Entity"@en-US , "Entitate senzitivă"@ro-RO , "Entité sentiente"@fr-FR ;
-    skos:exactMatch :SentientEntity .
-
-:c_HumanEntity a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Human Entity"@en-US , "Entitate umană"@ro-RO , "Entité humaine"@fr-FR ;
-    skos:broader :c_SentientEntity ;
-    skos:exactMatch :HumanEntity .
-
-:c_ArtificialEntity a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Artificial Entity"@en-US , "Entitate artificială"@ro-RO , "Entité artificielle"@fr-FR ;
-    skos:broader :c_SentientEntity ;
-    skos:exactMatch :ArtificialEntity .
-
-:c_CognitiveIntent a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Cognitive Intent"@en-US , "Intenție cognitivă"@ro-RO , "Intention cognitive"@fr-FR ;
-    skos:exactMatch :CognitiveIntent .
-
-:c_EthicalIntent a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Ethical Intent"@en-US , "Intenție etică"@ro-RO , "Intention éthique"@fr-FR ;
-    skos:broader :c_CognitiveIntent ;
-    skos:narrower :c_CreativeIntent ;
-    skos:exactMatch :EthicalIntent .
-
-:c_CreativeIntent a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Creative Intent"@en-US , "Intenție creativă"@ro-RO , "Intention créative"@fr-FR ;
-    skos:broader :c_CognitiveIntent ;
-    skos:exactMatch :CreativeIntent .
-
-:c_TechnoculturalManifest a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Technocultural Manifest"@en-US , "Manifest tehnocultural"@ro-RO , "Manifeste technoculturel"@fr-FR ;
-    skos:exactMatch :TechnoculturalManifest .
-
-:c_SymbolicManifest a skos:Concept ;
-    skos:inScheme :SymbolicVocabulary ;
-    skos:prefLabel "Symbolic Manifest"@en-US , "Manifest simbolic"@ro-RO , "Manifeste symbolique"@fr-FR ;
-    skos:broader :c_TechnoculturalManifest ;
-    skos:exactMatch :SymbolicManifest .
+### PROV-O Integration
+ex:SymbolicIntelligenceManifest a prov:Entity ;
+    prov:wasAttributedTo ex:AdrianMociulschi .
+ex:AdrianMociulschi a prov:Agent .
+ex:authored a prov:Activity ;
+    prov:wasAssociatedWith ex:AdrianMociulschi ;
+    prov:generated ex:SymbolicIntelligenceManifest .
