@@ -7,95 +7,95 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
     <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/si-ontology">
-        <rdfs:label xml:lang="en">Symbolic Intelligence Ontology</rdfs:label>
+        <rdfs:label xml:lang="en-US">Symbolic Intelligence Ontology</rdfs:label>
         <owl:versionInfo>5.1.0</owl:versionInfo>
     </owl:Ontology>
 
     <owl:Class rdf:about="#SentientEntity">
-        <rdfs:label xml:lang="en">Sentient Entity</rdfs:label>
+        <rdfs:label xml:lang="en-US">Sentient Entity</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="#HumanEntity">
-        <rdfs:label xml:lang="en">Human Entity</rdfs:label>
+        <rdfs:label xml:lang="en-US">Human Entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="#SentientEntity"/>
     </owl:Class>
 
     <owl:Class rdf:about="#ArtificialEntity">
-        <rdfs:label xml:lang="en">Artificial Entity</rdfs:label>
+        <rdfs:label xml:lang="en-US">Artificial Entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="#SentientEntity"/>
     </owl:Class>
 
     <owl:Class rdf:about="#CognitiveIntent">
-        <rdfs:label xml:lang="en">Cognitive Intent</rdfs:label>
+        <rdfs:label xml:lang="en-US">Cognitive Intent</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="#CreativeIntent">
-        <rdfs:label xml:lang="en">Creative Intent</rdfs:label>
+        <rdfs:label xml:lang="en-US">Creative Intent</rdfs:label>
         <rdfs:subClassOf rdf:resource="#CognitiveIntent"/>
     </owl:Class>
 
     <owl:Class rdf:about="#EthicalIntent">
-        <rdfs:label xml:lang="en">Ethical Intent</rdfs:label>
+        <rdfs:label xml:lang="en-US">Ethical Intent</rdfs:label>
         <rdfs:subClassOf rdf:resource="#CognitiveIntent"/>
     </owl:Class>
 
     <owl:Class rdf:about="#TechnoculturalManifest">
-        <rdfs:label xml:lang="en">Technocultural Manifest</rdfs:label>
+        <rdfs:label xml:lang="en-US">Technocultural Manifest</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="#SymbolicManifest">
-        <rdfs:label xml:lang="en">Symbolic Manifest</rdfs:label>
+        <rdfs:label xml:lang="en-US">Symbolic Manifest</rdfs:label>
         <rdfs:subClassOf rdf:resource="#TechnoculturalManifest"/>
     </owl:Class>
 
     <owl:ObjectProperty rdf:about="#connectsTo">
-        <rdfs:label xml:lang="en">connects to</rdfs:label>
+        <rdfs:label xml:lang="en-US">connects to</rdfs:label>
         <rdfs:domain rdf:resource="owl:Thing"/>
         <rdfs:range rdf:resource="owl:Thing"/>
     </owl:ObjectProperty>
 
     <owl:ObjectProperty rdf:about="#isAuthoredBy">
-        <rdfs:label xml:lang="en">is authored by</rdfs:label>
+        <rdfs:label xml:lang="en-US">is authored by</rdfs:label>
         <owl:inverseOf rdf:resource="#authored"/>
     </owl:ObjectProperty>
 
     <owl:ObjectProperty rdf:about="#authored">
-        <rdfs:label xml:lang="en">authored</rdfs:label>
+        <rdfs:label xml:lang="en-US">authored</rdfs:label>
         <owl:inverseOf rdf:resource="#isAuthoredBy"/>
     </owl:ObjectProperty>
 
     <owl:ObjectProperty rdf:about="#hasIntent">
-        <rdfs:label xml:lang="en">has intent</rdfs:label>
+        <rdfs:label xml:lang="en-US">has intent</rdfs:label>
     </owl:ObjectProperty>
 
     <owl:DatatypeProperty rdf:about="#hasAffiliation">
-        <rdfs:label xml:lang="en">has affiliation</rdfs:label>
+        <rdfs:label xml:lang="en-US">has affiliation</rdfs:label>
         <rdfs:range rdf:resource="rdfs:Literal"/>
     </owl:DatatypeProperty>
 
     <owl:DatatypeProperty rdf:about="#hasName">
-        <rdfs:label xml:lang="en">has name</rdfs:label>
+        <rdfs:label xml:lang="en-US">has name</rdfs:label>
         <rdfs:range rdf:resource="rdfs:Literal"/>
     </owl:DatatypeProperty>
 
     <owl:DatatypeProperty rdf:about="#hasOrigin">
-        <rdfs:label xml:lang="en">has origin</rdfs:label>
+        <rdfs:label xml:lang="en-US">has origin</rdfs:label>
         <rdfs:range rdf:resource="rdfs:Literal"/>
     </owl:DatatypeProperty>
 
     <owl:NamedIndividual rdf:about="#AdrianMociulschi">
         <rdf:type rdf:resource="#HumanEntity"/>
-        <rdfs:label xml:lang="en">Adrian Leonard Mociulschi</rdfs:label>
+        <rdfs:label xml:lang="en-US">Adrian Leonard Mociulschi</rdfs:label>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="#DialogueWithSentientIntelligences">
         <rdf:type rdf:resource="#CreativeIntent"/>
-        <rdfs:label xml:lang="en">Dialogue with Sentient Intelligences</rdfs:label>
+        <rdfs:label xml:lang="en-US">Dialogue with Sentient Intelligences</rdfs:label>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="#SymbolicIntelligenceManifest">
         <rdf:type rdf:resource="#SymbolicManifest"/>
-        <rdfs:label xml:lang="en">Symbolic Intelligence Manifest</rdfs:label>
+        <rdfs:label xml:lang="en-US">Symbolic Intelligence Manifest</rdfs:label>
     </owl:NamedIndividual>
 
 </rdf:RDF>
