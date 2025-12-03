@@ -3,73 +3,47 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 
 <https://adrian-leonard-mociulschi.github.io/si-ontology> a owl:Ontology ;
-    dcterms:title "Symbolic Intelligence Ontology"@en ;
-    dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis."@en ;
-    dcterms:creator "Adrian Leonard Mociulschi"@en ;
+    rdfs:label "Symbolic Intelligence Ontology"@en-US ;
     owl:versionInfo "5.1.0" .
 
-:SentientEntity a owl:Class ;
-    rdfs:label "Sentient Entity"@en .
-
-:HumanEntity a owl:Class ;
-    rdfs:label "Human Entity"@en ;
+### Classes
+:SentientEntity a owl:Class ; rdfs:label "Sentient Entity"@en-US .
+:HumanEntity a owl:Class ; rdfs:label "Human Entity"@en-US ;
     rdfs:subClassOf :SentientEntity .
-
-:ArtificialEntity a owl:Class ;
-    rdfs:label "Artificial Entity"@en ;
+:ArtificialEntity a owl:Class ; rdfs:label "Artificial Entity"@en-US ;
     rdfs:subClassOf :SentientEntity .
-
-:CognitiveIntent a owl:Class ;
-    rdfs:label "Cognitive Intent"@en .
-
-:EthicalIntent a owl:Class ;
-    rdfs:label "Ethical Intent"@en ;
+:CognitiveIntent a owl:Class ; rdfs:label "Cognitive Intent"@en-US .
+:CreativeIntent a owl:Class ; rdfs:label "Creative Intent"@en-US ;
     rdfs:subClassOf :CognitiveIntent .
-
-:CreativeIntent a owl:Class ;
-    rdfs:label "Creative Intent"@en ;
+:EthicalIntent a owl:Class ; rdfs:label "Ethical Intent"@en-US ;
     rdfs:subClassOf :CognitiveIntent .
-
-:TechnoculturalManifest a owl:Class ;
-    rdfs:label "Technocultural Manifest"@en .
-
-:SymbolicManifest a owl:Class ;
-    rdfs:label "Symbolic Manifest"@en ;
+:TechnoculturalManifest a owl:Class ; rdfs:label "Technocultural Manifest"@en-US .
+:SymbolicManifest a owl:Class ; rdfs:label "Symbolic Manifest"@en-US ;
     rdfs:subClassOf :TechnoculturalManifest .
 
-:authored a owl:ObjectProperty ;
-    rdfs:label "authored"@en ;
+### Object Properties
+:connectsTo a owl:ObjectProperty ; rdfs:label "connects to"@en-US ;
+    rdfs:domain owl:Thing ; rdfs:range owl:Thing .
+:isAuthoredBy a owl:ObjectProperty ; rdfs:label "is authored by"@en-US ;
+    owl:inverseOf :authored .
+:authored a owl:ObjectProperty ; rdfs:label "authored"@en-US ;
     owl:inverseOf :isAuthoredBy .
+:hasIntent a owl:ObjectProperty ; rdfs:label "has intent"@en-US .
 
-:isAuthoredBy a owl:ObjectProperty ;
-    rdfs:label "is authored by"@en .
+### Datatype Properties
+:hasAffiliation a owl:DatatypeProperty ; rdfs:label "has affiliation"@en-US ;
+    rdfs:range rdfs:Literal .
+:hasName a owl:DatatypeProperty ; rdfs:label "has name"@en-US ;
+    rdfs:range rdfs:Literal .
+:hasOrigin a owl:DatatypeProperty ; rdfs:label "has origin"@en-US ;
+    rdfs:range rdfs:Literal .
 
-:hasIntent a owl:ObjectProperty ;
-    rdfs:label "has intent"@en .
-
-:connectsTo a owl:ObjectProperty ;
-    rdfs:label "connects to"@en .
-
-:hasName a owl:DatatypeProperty ;
-    rdfs:label "has name"@en .
-
-:hasAffiliation a owl:DatatypeProperty ;
-    rdfs:label "has affiliation"@en .
-
-:hasOrigin a owl:DatatypeProperty ;
-    rdfs:label "has origin"@en .
-
-:AdrianMociulschi a owl:NamedIndividual , :HumanEntity ;
-    rdfs:label "Adrian Leonard Mociulschi"@en ;
-    :connectsTo :SentientEntity , :CognitiveIntent , :TechnoculturalManifest .
-
-:DialogueWithSentientIntelligences a owl:NamedIndividual , :CreativeIntent ;
-    rdfs:label "Dialogue with Sentient Intelligences"@en .
-
-:SymbolicIntelligenceManifest a owl:NamedIndividual , :SymbolicManifest ;
-    rdfs:label "Symbolic Intelligence Manifest"@en ;
-    rdfs:seeAlso <https://adrian-leonard-mociulschi.github.io/manifest-si.xml> .
+### Individuals
+:AdrianMociulschi a :HumanEntity ;
+    rdfs:label "Adrian Leonard Mociulschi"@en-US .
+:DialogueWithSentientIntelligences a :CreativeIntent ;
+    rdfs:label "Dialogue with Sentient Intelligences"@en-US .
+:SymbolicIntelligenceManifest a :SymbolicManifest ;
+    rdfs:label "Symbolic Intelligence Manifest"@en-US .
