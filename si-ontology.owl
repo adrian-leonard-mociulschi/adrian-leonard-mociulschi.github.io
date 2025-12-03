@@ -7,7 +7,6 @@
          xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:ex="https://adrian-leonard-mociulschi.github.io/si-ontology#">
 
-  <!-- Ontology Header -->
   <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/si-ontology">
     <rdfs:label xml:lang="en-US">Symbolic Intelligence Ontology</rdfs:label>
     <owl:versionInfo>3.0</owl:versionInfo>
@@ -24,16 +23,16 @@
   <owl:Class rdf:about="ex:SymbolicManifest"><rdfs:subClassOf rdf:resource="ex:TechnoculturalManifest"/></owl:Class>
 
   <!-- Object Properties -->
-  <owl:ObjectProperty rdf:about="ex:hasIntent"/>
-  <owl:ObjectProperty rdf:about="ex:authored"/>
-  <owl:ObjectProperty rdf:about="ex:isAuthoredBy"/>
+  <owl:ObjectProperty rdf:about="ex:hasIntent"><rdfs:domain rdf:resource="ex:SentientEntity"/><rdfs:range rdf:resource="ex:CognitiveIntent"/></owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="ex:authored"><rdfs:domain rdf:resource="ex:SentientEntity"/><rdfs:range rdf:resource="ex:TechnoculturalManifest"/><owl:inverseOf rdf:resource="ex:isAuthoredBy"/></owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="ex:isAuthoredBy"><rdfs:domain rdf:resource="ex:TechnoculturalManifest"/><rdfs:range rdf:resource="ex:SentientEntity"/></owl:ObjectProperty>
 
   <!-- Datatype Properties -->
   <owl:DatatypeProperty rdf:about="ex:hasName"/>
   <owl:DatatypeProperty rdf:about="ex:hasAffiliation"/>
   <owl:DatatypeProperty rdf:about="ex:hasOrigin"/>
 
-  <!-- Individuals with xml:lang -->
+  <!-- Individuals -->
   <owl:NamedIndividual rdf:about="ex:AdrianMociulschi">
     <rdf:type rdf:resource="ex:HumanEntity"/>
     <ex:hasName xml:lang="en-US">Adrian Leonard Mociulschi</ex:hasName>
