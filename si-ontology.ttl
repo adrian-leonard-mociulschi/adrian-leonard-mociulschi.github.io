@@ -3,10 +3,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
 <https://adrian-leonard-mociulschi.github.io/si-ontology> a owl:Ontology ;
+    dcterms:title "Symbolic Intelligence Ontology"@en-US ;
+    dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis."@en-US ;
+    dcterms:creator "Adrian Leonard Mociulschi"@en-US ;
     rdfs:label "Symbolic Intelligence Ontology"@en-US ;
-    rdfs:comment "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis."@en-US ;
     owl:versionInfo "5.1.0" .
 
 ### Classes
