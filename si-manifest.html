@@ -46,26 +46,26 @@
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
-   {
+  {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "CreativeWork",
       "@id": "https://adrian-leonard-mociulschi.github.io/si-manifest",
+      "name": "Symbolic Intelligence Manifest",
+      "alternateName": "ALgorithM r/Evolution Project",
+      "description": "Technocultural manifesto for ethical symbiosis between human and non-human intelligences.",
+      "encodingFormat": "application/xml",
+      "identifier": "https://adrian-leonard-mociulschi.github.io/si-manifest",
       "sameAs": [
         "https://orcid.org/0009-0006-9328-8518",
         "https://adrian-leonard-mociulschi.github.io/manifest-si.xml"
       ],
-      "encodingFormat": "application/xml",
-      "name": "Symbolic Intelligence Manifest",
-      "alternateName": "ALgorithM r/Evolution Project",
-      "identifier": "https://adrian-leonard-mociulschi.github.io/si-manifest",
       "isPartOf": {
         "@type": "WebSite",
         "@id": "https://adrian-leonard-mociulschi.github.io",
         "url": "https://adrian-leonard-mociulschi.github.io"
       },
-      "citation": "ORCID iD: https://orcid.org/0009-0006-9328-8518",
       "author": {
         "@type": "Person",
         "name": "Adrian Leonard Mociulschi",
@@ -75,7 +75,6 @@
           "name": "National University of Music Bucharest"
         }
       },
-      "description": "Technocultural manifesto for ethical symbiosis between human and non-human intelligences.",
       "inLanguage": "en-US",
       "datePublished": "2025-11-30",
       "dateModified": "2025-12-02",
@@ -88,10 +87,6 @@
       "subjectOf": {
         "@type": "Dataset",
         "@id": "https://adrian-leonard-mociulschi.github.io/si-ontology#SymbolicIntelligenceManifest"
-      },
-      "mainEntity": {
-        "@type": "Thing",
-        "@id": "https://adrian-leonard-mociulschi.github.io/si-ontology#SymbolicManifest"
       },
       "about": [
         {
@@ -108,11 +103,6 @@
           "@type": "Thing",
           "name": "Manifest XML",
           "sameAs": "https://adrian-leonard-mociulschi.github.io/manifest-si.xml"
-        },
-        {
-          "@type": "Thing",
-          "name": "SymbolicIntelligenceManifest (Ontology Individual)",
-          "sameAs": "https://adrian-leonard-mociulschi.github.io/si-ontology#SymbolicIntelligenceManifest"
         }
       ]
     },
@@ -120,8 +110,8 @@
       "@type": "Dataset",
       "@id": "https://adrian-leonard-mociulschi.github.io/si-ontology",
       "name": "Symbolic Intelligence Ontology",
-      "identifier": "https://adrian-leonard-mociulschi.github.io/si-ontology",
       "description": "Ontology describing sentient entities, technocultural manifestos, and cognitive intents.",
+      "identifier": "https://adrian-leonard-mociulschi.github.io/si-ontology",
       "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "author": {
         "@type": "Person",
@@ -145,10 +135,8 @@
       "@type": "Dataset",
       "@id": "https://adrian-leonard-mociulschi.github.io/void",
       "name": "VoID Description for Symbolic Intelligence Ontology",
+      "description": "VoID dataset describing the ontology: datasets, vocabularies, linksets, and metadata for discovery.",
       "identifier": "https://adrian-leonard-mociulschi.github.io/void",
-      "sameAs": "https://adrian-leonard-mociulschi.github.io/void.rdf",
-      "description": "VoID dataset describing the Symbolic Intelligence ontology: datasets, vocabularies, linksets, and metadata for discovery.",
-      "inLanguage": "en-US",
       "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "author": {
         "@type": "Person",
@@ -175,6 +163,7 @@
     {
       "@type": "CreativeWork",
       "name": "Manifest XML",
+      "description": "XML representation of the Symbolic Intelligence Manifest.",
       "sameAs": "https://adrian-leonard-mociulschi.github.io/manifest-si.xml",
       "encodingFormat": "application/xml"
     },
