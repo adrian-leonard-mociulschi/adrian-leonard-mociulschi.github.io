@@ -320,21 +320,55 @@
     <strong>No account or login required</strong> — just type my site URL in the link above:
     </p>
 
-
-<section style="font-family:sans-serif;max-width:480px;">
-  <h2>Contact</h2>
-
-  <p>Stay on top of my latest articles! Follow this website on a feed reader that lets you organize all your favorite blogs in one place.</p>
-
-  <p>
-    For maximum compatibility, I recommend
-    https://rssfeed.bookllo.comrssfeed.bookllo.com</a>,
-    where I have tested my feed and confirmed its proper functioning.
-  </p>
-  <p>No account or login required — just type my site URL in the link above:</p>
 <p>
-  <code>adrian-leonard-mociulschi.github.io</code>
+  <code id="site-url">adrian-leonard-mociulschi.github.io</code>
+  <button id="copy-btn" type="button" aria-label="Copy"
+    title="Copy"
+    style="border:none;background:none;cursor:pointer;padding:0;margin-left:6px;line-height:0;">
+    <!-- Clipboard icon (SVG, 16x16, elegant, low-ink) -->
+    <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"
+         style="display:inline-block;vertical-align:middle;pointer-events:none;">
+      <path fill="#24292f"
+        d="M10 1.5a.5.5 0 0 1 .5.5v1h1A1.5 1.5 0 0 1 13 4.5v9A1.5 1.5 0 0 1 11.5 15h-7A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3h1V2a.5.5 0 0 1 .5-.5h3ZM6 3h4V2H6v1ZM5.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-7Z"/>
+    </svg>
+  </button>
 </p>
+
+<script>
+  const urlText = 'adrian-leonard-mociulschi.github.io';
+  const copyBtn = document.getElementById('copy-btn');
+
+  async function copyToClipboard(text) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.focus(); ta.select();
+        document.execCommand('copy');
+        ta.remove();
+      }
+      copyBtn.title = 'Copied!';
+      setTimeout(() => (copyBtn.title = 'Copy'), 1200);
+    } catch {
+      copyBtn.title = 'Failed';
+      setTimeout(() => (copyBtn.title = 'Copy'), 1200);
+    }
+  }
+
+  copyBtn.addEventListener('click', () => copyToClipboard(urlText));
+</script>
+
+  <p>Go ahead and drop the site URL to keep up with all my latest news! 
+    When you first search, just give it several seconds for the feed to load. 
+    If you love what you see and want to help my technocultural project thrive, 
+    feel free to use the share buttons below my articles to spread the word on social media!  
+  </p>
+ 
 </section>
 
   </div>
