@@ -4,106 +4,68 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <https://adrian-leonard-mociulschi.github.io/si-ontology> .
 
 <https://adrian-leonard-mociulschi.github.io/si-ontology> a owl:Ontology ;
     dcterms:title "Symbolic Intelligence Ontology"@en-US ;
     dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis."@en-US ;
     dcterms:creator "Adrian Leonard Mociulschi"@en-US ;
-    rdfs:label "Symbolic Intelligence Ontology"@en-US ;
-    owl:versionInfo "5.1.0" .
+    owl:versionInfo "6.0.0" .
 
-# Annotation Properties
-dcterms:title a owl:AnnotationProperty .
-dcterms:description a owl:AnnotationProperty .
-dcterms:creator a owl:AnnotationProperty .
-
-# Classes
 :SentientEntity a owl:Class ;
     rdfs:label "Sentient Entity"@en-US ;
-    rdfs:comment "Represents any entity capable of perception or awareness."@en-US ;
-    dcterms:description "Core class for entities with perception or awareness."@en-US .
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty :hasIntent ;
+        owl:someValuesFrom :CognitiveIntent
+    ], [
+        a owl:Restriction ;
+        owl:onProperty :authored ;
+        owl:someValuesFrom :TechnoculturalManifest
+    ] .
 
 :HumanEntity a owl:Class ;
     rdfs:label "Human Entity"@en-US ;
-    rdfs:comment "A sentient entity that is biologically human."@en-US ;
     rdfs:subClassOf :SentientEntity .
 
 :ArtificialEntity a owl:Class ;
     rdfs:label "Artificial Entity"@en-US ;
-    rdfs:comment "A sentient entity created through artificial means, such as AI systems."@en-US ;
     rdfs:subClassOf :SentientEntity .
 
 :CognitiveIntent a owl:Class ;
-    rdfs:label "Cognitive Intent"@en-US ;
-    rdfs:comment "An abstract intention related to cognition and reasoning."@en-US .
+    rdfs:label "Cognitive Intent"@en-US .
 
 :CreativeIntent a owl:Class ;
     rdfs:label "Creative Intent"@en-US ;
-    rdfs:comment "An intention focused on creativity and innovation."@en-US ;
     rdfs:subClassOf :CognitiveIntent .
 
 :EthicalIntent a owl:Class ;
     rdfs:label "Ethical Intent"@en-US ;
-    rdfs:comment "An intention concerned with moral and ethical considerations."@en-US ;
     rdfs:subClassOf :CognitiveIntent .
 
 :TechnoculturalManifest a owl:Class ;
-    rdfs:label "Technocultural Manifest"@en-US ;
-    rdfs:comment "Represents cultural expressions influenced by technology."@en-US ;
-    dcterms:description "Cultural artifacts shaped by technological mediation."@en-US .
+    rdfs:label "Technocultural Manifest"@en-US .
 
 :SymbolicManifest a owl:Class ;
     rdfs:label "Symbolic Manifest"@en-US ;
-    rdfs:comment "A manifestation of symbolic intelligence within technocultural contexts."@en-US ;
     rdfs:subClassOf :TechnoculturalManifest .
 
-# Object Properties
-:connectsTo a owl:ObjectProperty ;
-    rdfs:label "connects to"@en-US ;
-    rdfs:comment "Indicates a generic connection between two entities."@en-US ;
-    rdfs:domain owl:Thing ;
-    rdfs:range owl:Thing .
-
-:isAuthoredBy a owl:ObjectProperty ;
-    rdfs:label "is authored by"@en-US ;
-    rdfs:comment "Links a work or manifest to its author."@en-US ;
-    owl:inverseOf :authored .
+### Object Properties
+:hasIntent a owl:ObjectProperty ;
+    rdfs:label "has intent"@en-US ;
+    rdfs:domain :SentientEntity ;
+    rdfs:range :CognitiveIntent .
 
 :authored a owl:ObjectProperty ;
     rdfs:label "authored"@en-US ;
-    rdfs:comment "Indicates authorship of a work or manifest."@en-US ;
-    owl:inverseOf :isAuthoredBy .
+    rdfs:domain :SentientEntity ;
+    rdfs:range :TechnoculturalManifest .
 
-:hasIntent a owl:ObjectProperty ;
-    rdfs:label "has intent"@en-US ;
-    rdfs:comment "Associates an entity with a cognitive intent."@en-US .
+:isAuthoredBy a owl:ObjectProperty ;
+    rdfs:label "is authored by"@en-US ;
+    rdfs:domain :TechnoculturalManifest ;
+    rdfs:range :SentientEntity ;
+    owl:inverseOf :authored .
 
-# Datatype Properties
-:hasAffiliation a owl:DatatypeProperty ;
-    rdfs:label "has affiliation"@en-US ;
-    rdfs:comment "Specifies organizational or group affiliation."@en-US ;
-    rdfs:range rdfs:Literal .
-
-:hasName a owl:DatatypeProperty ;
-    rdfs:label "has name"@en-US ;
-    rdfs:comment "Provides the name of an entity."@en-US ;
-    rdfs:range rdfs:Literal .
-
-:hasOrigin a owl:DatatypeProperty ;
-    rdfs:label "has origin"@en-US ;
-    rdfs:comment "Indicates the origin or source of an entity."@en-US ;
-    rdfs:range rdfs:Literal .
-
-# Individuals
-:AdrianMociulschi a owl:NamedIndividual, :HumanEntity ;
-    rdfs:label "Adrian Leonard Mociulschi"@en-US ;
-    rdfs:comment "Represents the author of the ontology."@en-US .
-
-:DialogueWithSentientIntelligences a owl:NamedIndividual, :CreativeIntent ;
-    rdfs:label "Dialogue with Sentient Intelligences"@en-US ;
-    rdfs:comment "An example of creative intent focused on interaction with sentient intelligences."@en-US .
-
-:SymbolicIntelligenceManifest a owl:NamedIndividual, :SymbolicManifest ;
-    rdfs:label "Symbolic Intelligence Manifest"@en-US ;
-    rdfs:comment "A symbolic representation of intelligence within cultural and technological contexts."@en-US .
+### Disjoint Classes
+[] a owl:AllDisjointClasses ;
+    owl:members ( :HumanEntity :ArtificialEntity ) .
