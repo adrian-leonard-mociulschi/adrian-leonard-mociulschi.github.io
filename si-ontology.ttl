@@ -82,3 +82,27 @@ dcterms:creator a owl:AnnotationProperty .
 ### Datatype Properties
 :hasAffiliation a owl:DatatypeProperty ;
     rdfs:label "has affiliation"@en-US ;
+    rdfs:comment "Specifies organizational or group affiliation."@en-US ;
+    rdfs:range rdfs:Literal .
+
+:hasName a owl:DatatypeProperty ;
+    rdfs:label "has name"@en-US ;
+    rdfs:comment "Provides the name of an entity."@en-US ;
+    rdfs:range rdfs:Literal .
+
+:hasOrigin a owl:DatatypeProperty ;
+    rdfs:label "has origin"@en-US ;
+    rdfs:comment "Indicates the origin or source of an entity."@en-US ;
+    rdfs:range rdfs:Literal .
+
+### Individuals
+:AdrianMociulschi a owl:NamedIndividual, :HumanEntity ;
+    rdfs:label "Adrian Leonard Mociulschi"@en-US ;
+    rdfs:comment "Represents the author of the ontology."@en-US .
+
+:DialogueWithSentientIntelligences a owl:NamedIndividual, :CreativeIntent ;
+    rdfs:label "Dialogue with Sentient Intelligences"@en-US ;
+    rdfs:comment "An example of creative intent focused on interaction with sentient intelligences."@en-US .
+
+:SymbolicIntelligenceManifest a owl:NamedIndividual, :SymbolicManifest ;
+    rdfs:label "Symbolic Intelligence Manifest"@en-US ;
