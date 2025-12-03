@@ -24,6 +24,48 @@
       <height>144</height>
     </image>
 
+          <!-- Article România Liberă - December 02, 2025 (Tuesday)-->
+    <item>
+  <title>The Future of Defense and the Bayonet: December 1 and the Algorithm</title>
+  <link>https://romanialibera.ro/op-ed/opinii/algoritmul-si-baioneta-1-decembrie-si-viitorul-apararii/</link>
+  <guid isPermaLink="false">december-1-and-the-algorithm-2</guid>
+  <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Political studies</category>
+  <category>Future warfare</category>
+
+  <tags>IAR-330 Puma Naval, Algorithms, Drones, UAVs, Mountain troops, RO Army, Romanian Naval Forces, National Day, Military Parade</tags>
+
+  <description><![CDATA[
+    <strong>How Romania’s Defense Evolved from Courage to Code</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="December 1 and the Algorithm" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>In this paper, we’re going to explore the intriguing link between Romania’s military history,</strong> its current role in NATO. 
+            We’ll kick things off by delving into the Great Union and the pivotal battles of Mărășești and Oituz, where the fierce clash of bayonets and the innovative use of observation balloons really changed the game on the battlefield.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="December 1 and the Algorithm — Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article România Liberă - November 18, 2025 (Tuesday)-->
     <item>
   <title>Shadows of the Black Sea: The Silent Front Where Europe's Future Is Decided — România Liberă</title>
