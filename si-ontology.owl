@@ -8,15 +8,15 @@
      xmlns:dcterms="http://purl.org/dc/terms/">
 
     <!-- Ontology -->
-    <owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/si-ontology">
-        <dcterms:title xml:lang="en-US">Symbolic Intelligence Ontology</dcterms:title>
-        <dcterms:description xml:lang="en-US">
-            Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis.
-        </dcterms:description>
-        <dcterms:creator xml:lang="en-US">Adrian Leonard Mociulschi</dcterms:creator>
-        <rdfs:label xml:lang="en-US">Symbolic Intelligence Ontology</rdfs:label>
-        <owl:versionInfo>5.1.0</owl:versionInfo>
-    </owl:Ontology>
+   
+<owl:Ontology rdf:about="https://adrian-leonard-mociulschi.github.io/si-ontology">
+    <rdfs:comment xml:lang="en-US">
+        Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis.
+    </rdfs:comment>
+    <dcterms:description xml:lang="en-US">
+        Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis.
+    </dcterms:description>
+</owl:Ontology>
 
     <!-- Declare annotation properties -->
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
