@@ -320,33 +320,62 @@
     <strong>No account or login required</strong> — just type my site URL in the link above:
     </p>
 
+
 <p>
-  <code id="site-url">adrian-leonard-mociulschi.github.io</code>
-  <button id="copy-btn" type="button" aria-label="Copy"
+  <code id="site-url" style="user-select:all;">adrian-leonard-mociulschi.github.io</code>
+  <button id="copy-btn" type="button" aria-label="Copiază linkul"
     title="Copy"
-    style="border:none;background:none;cursor:pointer;padding:0;margin-left:6px;line-height:0;color:inherit;">
-    <!-- Paper airplane icon (SVG, 16x16, adaptive color) -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+    style="border:none;background:none;cursor:pointer;padding:0;margin-left:6px;line-height:0;color:inherit;
+           outline:none;border-radius:4px;"
+    data-copy="https://adrian-leonard-mociulschi.github.io">
+    <!-- Paper airplane (adaptive color) -->
+    <svg id="icon-plane" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
          viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"
          style="display:inline-block;vertical-align:middle;pointer-events:none;">
-      <!-- formă simplă, low-ink, lizibilă la 16px -->
       <path d="M15 1.2 1.5 6.6a.6.6 0 0 0 .02 1.13l4.96 1.9 1.9 4.96a.6.6 0 0 0 1.13.02L15 1.2Z"/>
-      <path d="M7.2 9.5 10.8 6.9l-3.9 1.1.3 1.5Z" fill="currentColor"/>
+      <path d="M7.2 9.5 10.8 6.9l-3.9 1.1.3 1.5Z" />
+    </svg>
+    <!-- Check icon (hidden by default) -->
+    <svg id="icon-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+         viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"
+         style="display:none;vertical-align:middle;pointer-events:none;">
+      <path d="M13.78 3.97a.75.75 0 0 1 1.06 1.06l-7 7a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06L7.25 10.19l6.53-6.22Z"/>
     </svg>
   </button>
 </p>
 
+<!-- Toast accesibil (apare când se copiază) -->
+<div id="copy-toast" role="status" aria-live="polite"
+     style="position:fixed;inset:auto 12px 12px auto;padding:6px 10px;border-radius:6px;
+            background:#0008;color:#fff;font-size:12px;backdrop-filter:saturate(1.1);
+            display:none;">Copied</div>
+
 <script>
-  const urlText = 'adrian-leonard-mociulschi.github.io';
-  const copyBtn = document.getElementById('copy-btn');
+  const copyBtn   = document.getElementById('copy-btn');
+  const toast     = document.getElementById('copy-toast');
+  const iconPlane = document.getElementById('icon-plane');
+  const iconCheck = document.getElementById('icon-check');
+
+  // Focus ring minimal (inline) la tastatură
+  copyBtn.addEventListener('focus', () => {
+    copyBtn.style.boxShadow = '0 0 0 2px rgba(0,0,0,.2)';
+  });
+  copyBtn.addEventListener('blur', () => {
+    copyBtn.style.boxShadow = 'none';
+  });
 
   async function copyToClipboard(text) {
+    // Normalizează textul (ia din data-attribute dacă există)
+    const value = copyBtn.getAttribute('data-copy') || text;
+
     try {
+      copyBtn.disabled = true;
+
       if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(text);
+        await navigator.clipboard.writeText(value);
       } else {
         const ta = document.createElement('textarea');
-        ta.value = text;
+        ta.value = value;
         ta.style.position = 'fixed';
         ta.style.opacity = '0';
         document.body.appendChild(ta);
@@ -354,17 +383,39 @@
         document.execCommand('copy');
         ta.remove();
       }
-      copyBtn.title = 'Copied!';
-      setTimeout(() => (copyBtn.title = 'Copy'), 1200);
+
+      // Feedback: icon check + toast mic
+      iconPlane.style.display = 'none';
+      iconCheck.style.display = 'inline-block';
+      showToast('Copied');
+
+      setTimeout(() => {
+        iconCheck.style.display = 'none';
+        iconPlane.style.display = 'inline-block';
+        copyBtn.disabled = false;
+      }, 1000);
     } catch {
-      copyBtn.title = 'Failed';
-      setTimeout(() => (copyBtn.title = 'Copy'), 1200);
+      showToast('Copy failed');
+      copyBtn.disabled = false;
     }
   }
 
-  copyBtn.addEventListener('click', () => copyToClipboard(urlText));
-</script>
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.style.display = 'block';
+    setTimeout(() => { toast.style.display = 'none'; }, 1200);
+  }
 
+  // Click + tastatură
+  copyBtn.addEventListener('click', () => copyToClipboard('adrian-leonard-mociulschi.github.io'));
+  copyBtn.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      copyBtn.click();
+    }
+  });
+</script>
+  
   <p>
     Go ahead and drop the site URL to keep up with all my latest news! 
     When you first search, just give it several seconds for the feed to load. 
