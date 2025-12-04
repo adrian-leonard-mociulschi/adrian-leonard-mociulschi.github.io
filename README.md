@@ -5,7 +5,6 @@
 ![Presence Through Code Banner](assets/banner.svg)
 
 [![PWA Ready](https://img.shields.io/badge/PWA-ready-blue)](https://adrian-leonard-mociulschi.github.io/index.html) [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/) [![Linked Open Data](https://img.shields.io/badge/LOD-cloud-orange)](#) [![Lighthouse Elite](https://img.shields.io/badge/Lighthouse-Elite-brightgreen)](#visual-proof) [![Semantic Web Ready](https://img.shields.io/badge/Semantic%20Web-OWL%20%7C%20SKOS%20%7C%20LOD-blueviolet)](#) [![SPARQL Endpoint](https://img.shields.io/badge/SPARQL-endpoint-green)](#)
-![Release](https://img.shields.io/badge/release-v5.0.5-blue?style=for-the-badge&logo=github)
 
 ---
 
