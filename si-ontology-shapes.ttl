@@ -1,0 +1,38 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix : <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+#################################################################
+# SHACL Shapes for SI Ontology
+#################################################################
+
+# Shape 1: CommunicationSignal must have hasTimestamp and hasGeoCoord
+:CommunicationSignalShape a sh:NodeShape ;
+    sh:targetClass :CommunicationSignal ;
+    sh:property [
+        sh:path :hasTimestamp ;
+        sh:datatype xsd:dateTime ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path :hasGeoCoord ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] .
+
+# Shape 2: TechnoculturalManifest must have dcterms:title
+:TechnoculturalManifestShape a sh:NodeShape ;
+    sh:targetClass :TechnoculturalManifest ;
+    sh:property [
+        sh:path dcterms:title ;
+        sh:minCount 1 ;
+    ] .
+
+# Shape 3: SentientEntity must have hasIntent
+:SentientEntityShape a sh:NodeShape ;
+    sh:targetClass :SentientEntity ;
+    sh:property [
+        sh:path :hasIntent ;
+        sh:minCount 1 ;
+    ] .
