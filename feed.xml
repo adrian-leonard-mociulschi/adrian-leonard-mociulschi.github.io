@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Thu, 4 Dec 2025 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 6 Dec 2025 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -24,6 +24,48 @@
       <height>144</height>
     </image>
 
+         <!-- Article Cultura - December 05, 2025 (Tuesday)-->
+    <item>
+  <title>The New Robots: What does it mean to love when love itself can be programmed? — Revista Cultura</title>
+  <link>https://romanialibera.ro/op-ed/opinii/algoritmul-si-baioneta-1-decembrie-si-viitorul-apararii/</link>
+  <guid isPermaLink="false">the-new-robots-2</guid>
+  <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Technology</category>
+  <category>Robotics</category>
+
+  <tags>Pigmalion, robots, Sophia, Aria, Pigmalion myth and AI, love in the age of algorithms, AI art, humanoid robots</tags>
+
+  <description><![CDATA[
+    <strong>Pygmalion Reloaded: How Robots, Art, and Digital Love Are Rewriting Human Destiny</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="The New Robots" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>This essay explores the cultural continuum from Pigmalion’s myth to AI humanoids,</strong> ishowing how the ancient dream of animating matter evolves into programmable intimacy. 
+       From Galatea and Galax to Sophia and Aria, art and love shift from divine gift and chance to algorithmic design and marketable protocol. The central question remains: what does it mean to love when desire becomes an API and compatibility a matter of code?</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="The New Robots — Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+       
           <!-- Article România Liberă - December 02, 2025 (Tuesday)-->
     <item>
   <title>The Future of Defense and the Bayonet: December 1 and the Algorithm — România Liberă</title>
