@@ -1,5 +1,5 @@
 # ALgorithM r/Evolution — Enterprise Edition
-### by Adrian Leonard Mociulschi (A.L.M.)
+### by Dr Adrian Leonard Mociulschi (A.L.M.)
 
 
 ![Presence Through Code Banner](assets/banner.svg)
