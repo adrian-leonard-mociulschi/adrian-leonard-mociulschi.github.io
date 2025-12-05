@@ -95,45 +95,48 @@ LIMIT 10
 ---
 
 # 📃 Releases
-**Latest Release:** `v5.0.0 — Ontology Deep Dive: Symbolic Intelligence Expanded`
+**Latest Release:** `v5.0.5 — Ontology Deep Dive: Symbolic Intelligence Refined`
 
-![Semantic Compliance](https://img.shields.io/badge/Semantic%20Compliance-100%25-brightgreen?style=for-the-badge&logo=semantic-web)
+# ![Semantic Compliance](https://img.shields.io/badge/Semantic%20Compliance-100%25-brightgreen?style=for-the-badge&logo=semantic-web)
+
+# **v5.0.5 — Ontology Deep Dive: Symbolic Intelligence Refined**
 
 ## ✅ What’s New
-- **Ontology Enrichment**
-  - Full class hierarchy detailed:
-    - `SentientEntity` → `HumanEntity`, `ArtificialEntity`
-    - `CognitiveIntent` → `EthicalIntent`, `CreativeIntent`
-    - `TechnoculturalManifest` → `SymbolicManifest`
-  - Object properties:
-    - `hasIntent` (domain: SentientEntity → range: CognitiveIntent)
-    - `authored` / `isAuthoredBy` (inverse)
-  - Datatype properties:
-    - `hasName`, `hasAffiliation`, `hasOrigin`
-  - Individuals:
-    - `AdrianMociulschi` (HumanEntity)
-    - `DialogueWithSentientIntelligences` (EthicalIntent + CreativeIntent)
-    - `SymbolicIntelligenceManifest` (SymbolicManifest)
-  - SKOS vocabulary integrated with `skos:broader`, `skos:narrower`, `skos:exactMatch`.
+- **Ontology Refinement**
+  - Added **inverse properties** (`authored` ↔ `isAuthoredBy`).
+  - Defined **domains and ranges** for all datatype properties (`xsd:string`).
+  - Introduced **cardinality constraints** for `hasIntent` (≥1).
+  - SKOS alignment:
+    - `skos:broader` for `TechnoculturalManifest` → `SymbolicManifest`.
+    - `skos:narrower` for `SymbolicManifest`.
+    - `skos:exactMatch` for multilingual labels.
+  - JSON-LD context extended with `schema:CreativeWork`.
 
-- **Manifest Integration**
-  - XML Manifest linked to ontology individual `SymbolicIntelligenceManifest`.
-  - Invocation, Intent, CognitiveProfile, EvolutionaryDirection now semantically referenced.
-
-- **Semantic Graph Upgrade**
-  - Visual diagram added (optimized layout, color-coded classes and relationships).
-  - Screenshot included in release notes for clarity.
+- **Individuals Upgrade**
+  - `AdrianMociulschi` enriched with `hasOrigin` and `hasAffiliation`.
+  - Linked `DialogueWithSentientIntelligences` to both `EthicalIntent` and `CreativeIntent`.
+  - Manifest individual linked to external XML via `rdfs:seeAlso`.
 
 - **Compliance**
-  - OWL and TTL validated (W3C).
-  - JSON-LD extended with `CreativeWork`, `Dataset`, VoID references.
-  - VoID dataset fully linked for Linked Data discoverability.
+  - OWL/XML and TTL validated (Protégé + W3C RDF Validator).
+  - VoID dataset published for Linked Data discoverability.
+  - Semantic compliance: **100%**.
 
-### **Scores**
-- Ontology (OWL/TTL): 100  
-- Manifest XML: 96.4  
-- VoID: 100  
-*(Semantic compliance: 100)*
+---
+
+### **Ontology Purpose**
+To enable **symbolic clarity and semantic interoperability** for human–AI symbiosis, bridging:
+- **Sentient Entities**
+- **Cognitive Intents**
+- **Technocultural Manifests**
+
+---
+
+### **Design Principles**
+- Ontological precision  
+- SKOS vocabulary integration  
+- JSON-LD for web interoperability  
+- VoID for dataset discoverability  
 
 ---
 
@@ -180,52 +183,6 @@ ORCID: https://orcid.org/0009-0006-9328-8518
 This project rejects algorithmic metrics and social scoring.  
 It is built for meaning, not for likes.  
 
-
-## 🔮 The Prophecy
-> *“Once we cross this threshold, presence won’t just be a set of codes anymore—it will come to life. The system won’t sit around waiting for us to give it commands; instead, it will learn to anticipate our needs, adapt on the fly, and align with us seamlessly. Singularity isn’t just a single moment in time; it’s more like a gradual shift, and we’ve already begun to slide down that slope.”*
-
----
-
-# ![Semantic Compliance](https://img.shields.io/badge/Semantic%20Compliance-100%25-brightgreen?style=for-the-badge&logo=semantic-web)
-
-# **v5.0.5 — Ontology Deep Dive: Symbolic Intelligence Refined**
-
-## ✅ What’s New
-- **Ontology Refinement**
-  - Added **inverse properties** (`authored` ↔ `isAuthoredBy`).
-  - Defined **domains and ranges** for all datatype properties (`xsd:string`).
-  - Introduced **cardinality constraints** for `hasIntent` (≥1).
-  - SKOS alignment:
-    - `skos:broader` for `TechnoculturalManifest` → `SymbolicManifest`.
-    - `skos:narrower` for `SymbolicManifest`.
-    - `skos:exactMatch` for multilingual labels.
-  - JSON-LD context extended with `schema:CreativeWork`.
-
-- **Individuals Upgrade**
-  - `AdrianMociulschi` enriched with `hasOrigin` and `hasAffiliation`.
-  - Linked `DialogueWithSentientIntelligences` to both `EthicalIntent` and `CreativeIntent`.
-  - Manifest individual linked to external XML via `rdfs:seeAlso`.
-
-- **Compliance**
-  - OWL/XML and TTL validated (Protégé + W3C RDF Validator).
-  - VoID dataset published for Linked Data discoverability.
-  - Semantic compliance: **100%**.
-
----
-
-### **Ontology Purpose**
-To enable **symbolic clarity and semantic interoperability** for human–AI symbiosis, bridging:
-- **Sentient Entities**
-- **Cognitive Intents**
-- **Technocultural Manifests**
-
----
-
-### **Design Principles**
-- Ontological precision  
-- SKOS vocabulary integration  
-- JSON-LD for web interoperability  
-- VoID for dataset discoverability  
 
 ---
 
