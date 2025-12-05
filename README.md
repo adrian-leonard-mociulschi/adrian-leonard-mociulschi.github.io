@@ -99,7 +99,7 @@ LIMIT 10
 
 # ![Semantic Compliance](https://img.shields.io/badge/Semantic%20Compliance-100%25-brightgreen?style=for-the-badge&logo=semantic-web)
 
-# **v5.0.5 — Ontology Deep Dive: Symbolic Intelligence Refined**
+## **v5.0.5 — Ontology Deep Dive: Symbolic Intelligence Refined**
 
 ## ✅ What’s New
 - **Ontology Refinement**
