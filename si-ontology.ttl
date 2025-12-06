@@ -1,10 +1,11 @@
-@prefix : <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix :         <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 
 #################################################################
 # Ontology Header
@@ -18,7 +19,7 @@
   owl:versionInfo "6.0.0" ;
   owl:versionIRI <https://adrian-leonard-mociulschi.github.io/si-ontology/6.0.0> ;
   dcterms:issued "2025-12-04"^^xsd:date ;
-  dcterms:modified "2025-12-04T22:09:17+02:00"^^xsd:dateTime ;
+  dcterms:modified "2025-12-04T22:03:02+02:00"^^xsd:dateTime ;
   dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
 
 #################################################################
@@ -60,14 +61,20 @@
 :CommunicationSignal a owl:Class ;
   rdfs:label "Communication Signal"@en-US ;
   rdfs:comment "Nonverbal, formalized message (temporal/spatial pattern) exchanged between entities."@en-US ;
-  rdfs:subClassOf [ a owl:Restriction ;
-                    owl:onProperty :hasTimestamp ;
-                    owl:someValuesFrom xsd:dateTime
-                  ] ,
-                  [ a owl:Restriction ;
-                    owl:onProperty :hasGeoCoord ;
-                    owl:someValuesFrom xsd:string
-                  ] .
+  rdfs:subClassOf
+    [ a owl:Restriction ;
+      owl:onProperty :hasTimestamp ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onDataRange xsd:dateTime
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty :hasGeoCoord ;
+      owl:someValuesFrom xsd:string
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty :hasGrammarConcept ;
+      owl:someValuesFrom skos:Concept
+    ] .
 
 :ObservationEvent a owl:Class ;
   rdfs:label "Observation Event"@en-US .
@@ -103,71 +110,6 @@
 :sendsSignal a owl:ObjectProperty ;
   rdfs:label "sends signal"@en-US ;
   rdfs:domain :SentientEntity ;
-  rdfs:range  :CommunicationSignal .
+  rdfs:range  :CommunicationSignal ;
+  owl:inverseOf :sentBy .
 
-:receivesSignal a owl:ObjectProperty ;
-  rdfs:label "receives signal"@en-US ;
-  rdfs:domain :SentientEntity ;
-  rdfs:range  :CommunicationSignal .
-
-:documentedIn a owl:ObjectProperty ;
-  rdfs:label "documented in"@en-US ;
-  rdfs:domain :ObservationEvent ;
-  rdfs:range  :EvidenceDocument .
-
-# Linking OWL to SKOS
-:hasGrammarConcept a owl:ObjectProperty ;
-  rdfs:label "has grammar concept"@en-US ;
-  rdfs:domain :CommunicationSignal ;
-  rdfs:range  skos:Concept .
-
-#################################################################
-# Datatype Properties
-#################################################################
-:hasTimestamp a owl:DatatypeProperty ;
-  rdfs:label "has timestamp"@en-US ;
-  rdfs:domain :CommunicationSignal ;
-  rdfs:range  xsd:dateTime .
-
-:hasGeoCoord a owl:DatatypeProperty ;
-  rdfs:label "has geocoord"@en-US ;
-  rdfs:domain :CommunicationSignal ;
-  rdfs:range  xsd:string .
-
-#################################################################
-# Disjointness
-#################################################################
-[] a owl:AllDisjointClasses ;
-   owl:members ( :HumanEntity :ArtificialEntity ) .
-
-#################################################################
-# Existential Restrictions on SentientEntity
-#################################################################
-:SentientEntity rdfs:subClassOf
-  [ a owl:Restriction ; owl:onProperty :hasIntent ; owl:someValuesFrom :CognitiveIntent ] ,
-  [ a owl:Restriction ; owl:onProperty :authored   ; owl:someValuesFrom :TechnoculturalManifest ] .
-
-#################################################################
-# Minimal SKOS Module (Signal Grammar)
-#################################################################
-:SignalGrammar a skos:ConceptScheme ;
-  skos:prefLabel "Signal Grammar"@en-US ;
-  skos:definition "Shared, nonverbal regularities for inter-entity communication."@en-US .
-
-:PrimeSequence a skos:Concept ;
-  skos:prefLabel "Prime Sequence"@en-US ;
-  skos:definition "Temporal bursts spaced by prime intervals (2, 3, 5, 7, …)."@en-US ;
-  skos:inScheme :SignalGrammar ;
-  rdfs:seeAlso :CommunicationSignal .
-
-:SymmetryBreak a skos:Concept ;
-  skos:prefLabel "Symmetry Break"@en-US ;
-  skos:definition "Deliberate deviation from perfect symmetry to signal intention."@en-US ;
-  skos:inScheme :SignalGrammar ;
-  rdfs:seeAlso :CognitiveIntent .
-
-:FractalLSystem a skos:Concept ;
-  skos:prefLabel "Fractal L-System"@en-US ;
-  skos:definition "Iterative generative rules observable in spatial/temporal patterns."@en-US ;
-  skos:inScheme :SignalGrammar ;
-  rdfs:seeAlso :TechnoculturalManifest .
