@@ -144,13 +144,14 @@ To enable **symbolic clarity and semantic interoperability** for human–AI symb
 ![Semantic Graph](https://adrian-leonard-mociulschi.github.io/assets/screenshots/Screenshot-ontology-2025-12-06.png)
 
 ### **Detailed Ontology Description**
-- **Core Concept:** Ontology for human–AI symbiosis, bridging sentient entities, cognitive intents, and technocultural manifests.
-- **Purpose:** To enable semantic interoperability and symbolic clarity across platforms.
+- **Core Concept:** Ontology for human–AI symbiosis, modeling relationships between sentient entities, cognitive intents, and technocultural manifests, extended with communication signals and a minimal SKOS grammar.
+- **Purpose:** To enable semantic interoperability, symbolic clarity, and structured reasoning across platforms and cultural-technological contexts.
 - **Design Principles:**  
-  - Ontological precision  
-  - SKOS alignment for controlled vocabulary  
-  - JSON-LD for web integration  
-  - VoID for dataset discoverability  
+  - Ontological precision: Formal OWL 2 axioms for consistency and reasoning.
+  - SKOS alignment: Controlled vocabulary for conceptual schemes and signal grammar.
+  - Web integration: JSON-LD compatibility for linked data publishing.
+  - Validation layer: SHACL shapes for data quality and constraint checking.
+  - Discoverability: VoID and RDF metadata for dataset indexing.
 
 ➡️ [Full CHANGELOG](CHANGELOG.md)
 
