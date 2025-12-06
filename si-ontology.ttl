@@ -1,17 +1,14 @@
+@base <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+@prefix : <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-@prefix :         <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
-@prefix owl:      <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcterms:  <http://purl.org/dc/terms/> .
-@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-
-#################################################################
-# Ontology Header
-#################################################################
-<https://adrian-leonard-mociulschi.github.io/si-ontology>
-  a owl:Ontology ;
+########## Ontology Header ##########
+<https://adrian-leonard-mociulschi.github.io/si-ontology> a owl:Ontology ;
   dcterms:title "Symbolic Intelligence Ontology"@en-US ;
   dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis; extended with communication signals and a minimal SKOS grammar."@en-US ;
   dcterms:creator "Adrian Leonard Mociulschi"@en-US ;
@@ -22,12 +19,19 @@
   dcterms:modified "2025-12-04T22:03:02+02:00"^^xsd:dateTime ;
   dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
 
-#################################################################
-# Core Classes
-#################################################################
+########## Core Classes ##########
 :SentientEntity a owl:Class ;
   rdfs:label "Sentient Entity"@en-US ;
-  rdfs:comment "Agents capable of perception and intention (human or artificial)."@en-US .
+  rdfs:comment "Agents capable of perception and intention (human or artificial)."@en-US ;
+  rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty :hasIntent ;
+    owl:someValuesFrom :CognitiveIntent
+  ], [
+    a owl:Restriction ;
+    owl:onProperty :authored ;
+    owl:someValuesFrom :TechnoculturalManifest
+  ] .
 
 :HumanEntity a owl:Class ;
   rdfs:label "Human Entity"@en-US ;
@@ -55,25 +59,18 @@
   rdfs:label "Symbolic Manifest"@en-US ;
   rdfs:subClassOf :TechnoculturalManifest .
 
-#################################################################
-# Communication Module
-#################################################################
+########## Communication Module ##########
 :CommunicationSignal a owl:Class ;
   rdfs:label "Communication Signal"@en-US ;
   rdfs:comment "Nonverbal, formalized message (temporal/spatial pattern) exchanged between entities."@en-US ;
   rdfs:subClassOf
     [ a owl:Restriction ;
       owl:onProperty :hasTimestamp ;
-      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onDataRange xsd:dateTime
-    ] ,
+      owl:someValuesFrom xsd:dateTime
+    ],
     [ a owl:Restriction ;
       owl:onProperty :hasGeoCoord ;
       owl:someValuesFrom xsd:string
-    ] ,
-    [ a owl:Restriction ;
-      owl:onProperty :hasGrammarConcept ;
-      owl:someValuesFrom skos:Concept
     ] .
 
 :ObservationEvent a owl:Class ;
@@ -82,9 +79,7 @@
 :EvidenceDocument a owl:Class ;
   rdfs:label "Evidence Document"@en-US .
 
-#################################################################
-# Object Properties
-#################################################################
+########## Object Properties ##########
 :hasIntent a owl:ObjectProperty ;
   rdfs:label "has intent"@en-US ;
   rdfs:domain :SentientEntity ;
@@ -110,6 +105,11 @@
 :sendsSignal a owl:ObjectProperty ;
   rdfs:label "sends signal"@en-US ;
   rdfs:domain :SentientEntity ;
-  rdfs:range  :CommunicationSignal ;
-  owl:inverseOf :sentBy .
+  rdfs:range  :CommunicationSignal .
 
+:receivesSignal a owl:ObjectProperty ;
+  rdfs:label "receives signal"@en-US ;
+  rdfs:domain :SentientEntity ;
+  rdfs:range  :CommunicationSignal .
+
+:documentedIn a owl:ObjectProperty ;
