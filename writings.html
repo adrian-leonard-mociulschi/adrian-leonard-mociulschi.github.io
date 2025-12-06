@@ -83,98 +83,86 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700&display=swap" rel="stylesheet"> 
 
   <!-- Structured Data (JSON-LD: CollectionPage, BreadcrumbList, WebSite) -->
-  
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
-      "url": "https://adrian-leonard-mociulschi.github.io/",
-      "name": "Adrian Leonard Mociulschi",
-      "inLanguage": "en-US",
-      "keywords": "technoculture, digital governance, ethical AI, Web3, blockchain, algorithmic presence, cultural theory",
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
-      "name": "Adrian Leonard Mociulschi",
-      "url": "https://adrian-leonard-mociulschi.github.io/"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
-        { "@type": "ListItem", "position": 2, "name": "Writings", "item": "https://adrian-leonard-mociulschi.github.io/writings" }
-      ]
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://adrian-leonard-mociulschi.github.io/writings#page",
-      "url": "https://adrian-leonard-mociulschi.github.io/writings",
-      "name": "Writings — Adrian Leonard Mociulschi",
-      "description": "Explore summaries of essays on AI, blockchain, posthumanism, science, culture, and symbolic ecologies. A technocultural hub for global readers seeking meaning and innovation.",
-      "keywords": "Adrian Leonard Mociulschi, technoculture, AI ethics, blockchain culture, posthumanism and symbolic ecology, cultural journalism Romania, Contributors essays, global technocultural insights, semantic web and interoperability",
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [
-          "headline",
-          "description"
-        ]
-      },
-      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
-      "inLanguage": "en-US",
-      "about": [
-        { "@type": "Thing", "name": "scientific research" },
-        { "@type": "Thing", "name": "cultural journalism" },
-        { "@type": "Thing", "name": "technoculture" },
-        { "@type": "Thing", "name": "science and technology" },
-        { "@type": "Thing", "name": "contributors" },
-        { "@type": "Thing", "name": "artificial intelligence" },
-        { "@type": "Thing", "name": "post-humanism" }
-      ],
-      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs" },
-      "datePublished": "2025-10-24T00:00:00+02:00",
-      "dateModified": "2025-11-28T00:00:00+02:00",
-      "copyrightYear": "2025",
-      "copyrightHolder": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "mainEntity": {
-        "@type": "ItemList",
-        "itemListOrder": "http://schema.org/ItemListOrderAscending",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "item": "https://www.contributors.ro/cultura-dulapul-si-timpul-sigilat/", "name": "Culture, Wardrobe, and Sealed Time" },
-          { "@type": "ListItem", "position": 2, "item": "https://www.contributors.ro/aura-digitala-despre-unicitate-retea-si-viitorul-culturii/", "name": "Digital Aura: On Uniqueness, Networks, and the Future of Culture" },
-          { "@type": "ListItem", "position": 3, "item": "https://www.contributors.ro/cultura-algoritmica-estetica-alegerii-automate/", "name": "Algorithmic Culture: The Aesthetics of Automatic Choice" },
-          { "@type": "ListItem", "position": 4, "item": "https://www.contributors.ro/voci-tensiuni-si-armonii-in-epoca-digitala/", "name": "Voices, Tensions, and Harmonies in the Digital Age" },
-          { "@type": "ListItem", "position": 5, "item": "https://www.contributors.ro/postumanismul-domestic-ai-roboti-si-intimitatea-algoritmica/", "name": "Domestic Post-Humanism: AI, Robots, and Algorithmic Intimacy" },
-          { "@type": "ListItem", "position": 6, "item": "https://www.contributors.ro/dincolo-de-bine-si-rau-tehnologiile-si-conflictul-ca-matrice-culturala/", "name": "Beyond Good and Evil: Technologies and Conflict as a Cultural Matrix" },
-          { "@type": "ListItem", "position": 7, "item": "https://www.contributors.ro/criza-de-semnificatie-cand-comunicarea-devine-zgomot/", "name": "The Crisis of Meaning: When Communication Becomes Noise" },
-          { "@type": "ListItem", "position": 8, "item": "https://www.contributors.ro/de-la-zaruri-la-algoritmi-cum-a-inceput-povestea-inteligentei-artificiale-in-muzica/", "name": "From Dice to Algorithms: How the story of Artificial Intelligence in Music Began" },
-          { "@type": "ListItem", "position": 9, "item": "https://www.contributors.ro/de-la-proportie-la-perceptie-algoritmul-ascuns-in-arta/", "name": "From Proportion to Perception: The Hidden Algorithm in Art" },
-          { "@type": "ListItem", "position": 10, "item": "https://www.contributors.ro/imagini-imposibile-de-ce-vedem-telefoane-mobile-in-fotografii-din-1928-si-1943/", "name": "Impossible Images: Why are there photos from 1928 and 1943 that show people using mobile phones?" },
-          { "@type": "ListItem", "position": 11, "item": "https://www.contributors.ro/avioane-disparute-si-fragilitatea-progresului/", "name": "Missing Planes and the Fragility of Progress" },
-          { "@type": "ListItem", "position": 12, "item": "https://www.contributors.ro/arca-lui-noe-era-codurilor-rosii/", "name": "Noah's Ark: The Age of the Red Codes" }
-        ]
-      },
-      "hasPart": [
-        {
-          "@type": "Article",
-          "headline": "Culture, Wardrobe, and Sealed Time",
-          "image": "https://www.contributors.ro/wp-content/uploads/2025/06/art.blockchain-768x652.jpg",
-          "datePublished": "2025-06-30T09:00:00+03:00",
-          "dateModified": "2025-11-29T09:00:00+03:00",
-          "mainEntityOfPage": "https://www.contributors.ro/cultura-dulapul-si-timpul-sigilat/",
-          "url": "https://www.contributors.ro/cultura-dulapul-si-timpul-sigilat/",
-          "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
-        {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#website",
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "name": "Adrian Leonard Mociulschi",
+      "inLanguage": "en-US",
+      "keywords": "technoculture, digital governance, ethical AI, Web3, blockchain, algorithmic presence, cultural theory",
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#person",
+      "name": "Adrian Leonard Mociulschi",
+      "url": "https://adrian-leonard-mociulschi.github.io/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "Writings", "item": "https://adrian-leonard-mociulschi.github.io/writings" }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/writings#page",
+      "url": "https://adrian-leonard-mociulschi.github.io/writings",
+      "name": "Writings — Adrian Leonard Mociulschi",
+      "description": "Explore summaries of essays on AI, blockchain, posthumanism, science, culture, and symbolic ecologies.",
+      "keywords": "Adrian Leonard Mociulschi, technoculture, AI ethics, blockchain culture, posthumanism, semantic web",
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".lead"] },
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "inLanguage": "en-US",
+      "about": [
+        { "@type": "Thing", "name": "scientific research" },
+        { "@type": "Thing", "name": "cultural journalism" },
+        { "@type": "Thing", "name": "technoculture" }
+      ],
+      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs" },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Published essays",
+        "url": "https://adrian-leonard-mociulschi.github.io/writings",
+        "numberOfItems": 12,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "item": "https://www.contributors.ro/cultura-dulapul-si-timpul-sigilat/", "name": "Culture, Wardrobe, and Sealed Time" },
+          { "@type": "ListItem", "position": 2, "item": "https://www.contributors.ro/aura-digitala-despre-unicitate-retea-si-viitorul-culturii/", "name": "Digital Aura: On Uniqueness, Networks, and the Future of Culture" },
+          { "@type": "ListItem", "position": 3, "item": "https://www.contributors.ro/cultura-algoritmica-estetica-alegerii-automate/", "name": "Algorithmic Culture: The Aesthetics of Automatic Choice" },
+          { "@type": "ListItem", "position": 4, "item": "https://www.contributors.ro/voci-tensiuni-si-armonii-in-epoca-digitala/", "name": "Voices, Tensions, and Harmonies in the Digital Age" },
+          { "@type": "ListItem", "position": 5, "item": "https://www.contributors.ro/postumanismul-domestic-ai-roboti-si-intimitatea-algoritmica/", "name": "Domestic Post-Humanism: AI, Robots, and Algorithmic Intimacy" },
+          { "@type": "ListItem", "position": 6, "item": "https://www.contributors.ro/dincolo-de-bine-si-rau-tehnologiile-si-conflictul-ca-matrice-culturala/", "name": "Beyond Good and Evil: Technologies and Conflict as a Cultural Matrix" },
+          { "@type": "ListItem", "position": 7, "item": "https://www.contributors.ro/criza-de-semnificatie-cand-comunicarea-devine-zgomot/", "name": "The Crisis of Meaning: When Communication Becomes Noise" },
+          { "@type": "ListItem", "position": 8, "item": "https://www.contributors.ro/de-la-zaruri-la-algoritmi-cum-a-inceput-povestea-inteligentei-artificiale-in-muzica/", "name": "From Dice to Algorithms: How the story of Artificial Intelligence in Music Began" },
+          { "@type": "ListItem", "position": 9, "item": "https://www.contributors.ro/de-la-proportie-la-perceptie-algoritmul-ascuns-in-arta/", "name": "From Proportion to Perception: The Hidden Algorithm in Art" },
+          { "@type": "ListItem", "position": 10, "item": "https://www.contributors.ro/imagini-imposibile-de-ce-vedem-telefoane-mobile-in-fotografii-din-1928-si-1943/", "name": "Impossible Images: Phones in 1928 and 1943?" },
+          { "@type": "ListItem", "position": 11, "item": "https://www.contributors.ro/avioane-disparute-si-fragilitatea-progresului/", "name": "Missing Planes and the Fragility of Progress" },
+          { "@type": "ListItem", "position": 12, "item": "https://www.contributors.ro/arca-lui-noe-era-codurilor-rosii/", "name": "Noah's Ark: The Age of the Red Codes" }
+        ]
+      },
+      "hasPart": [
+        {
+          "@type": "Article",
+          "headline": "Culture, Wardrobe, and Sealed Time",
+          "image": "https://www.contributors.ro/wp-content/uploads/2025/06/art.blockchain-768x652.jpg",
+          "mainEntityOfPage": "https://www.contributors.ro/cultura-dulapul-si-timpul-sigilat/",
+          "url": "https://www.contributors.ro/cultura-dulapul-si-timpul-sigilat/",
+          "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
+{
           "@type": "Article",
           "headline": "Digital Aura: On Uniqueness, Networks, and the Future of Culture",
           "image": "https://www.contributors.ro/wp-content/uploads/2025/07/digital-768x492.png",
@@ -183,9 +171,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/aura-digitala-despre-unicitate-retea-si-viitorul-culturii/",
           "url": "https://www.contributors.ro/aura-digitala-despre-unicitate-retea-si-viitorul-culturii/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "headline": "Algorithmic Culture: The Aesthetics of Automatic Choice",
@@ -195,9 +185,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/cultura-algoritmica-estetica-alegerii-automate/",
           "url": "https://www.contributors.ro/cultura-algoritmica-estetica-alegerii-automate/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "image": "https://www.contributors.ro/wp-content/uploads/2025/07/Ai-creation-768x533.png",
@@ -207,9 +199,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/voci-tensiuni-si-armonii-in-epoca-digitala/",
           "url": "https://www.contributors.ro/voci-tensiuni-si-armonii-in-epoca-digitala/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "headline": "Domestic Post-Humanism: AI, Robots, and Algorithmic Intimacy",
@@ -219,9 +213,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/postumanismul-domestic-ai-roboti-si-intimitatea-algoritmica/",
           "url": "https://www.contributors.ro/postumanismul-domestic-ai-roboti-si-intimitatea-algoritmica/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "image": "https://www.contributors.ro/wp-content/uploads/2025/08/robot.png",
@@ -231,9 +227,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/dincolo-de-bine-si-rau-tehnologiile-si-conflictul-ca-matrice-culturala/",
           "url": "https://www.contributors.ro/dincolo-de-bine-si-rau-tehnologiile-si-conflictul-ca-matrice-culturala/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "headline": "The Crisis of Meaning: When Communication Becomes Noise",
@@ -243,9 +241,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/criza-de-semnificatie-cand-comunicarea-devine-zgomot/",
           "url": "https://www.contributors.ro/criza-de-semnificatie-cand-comunicarea-devine-zgomot/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "image": "https://www.contributors.ro/wp-content/uploads/2025/09/a22-2-768x533.jpg",
@@ -255,9 +255,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/de-la-zaruri-la-algoritmi-cum-a-inceput-povestea-inteligentei-artificiale-in-muzica/",
           "url": "https://www.contributors.ro/de-la-zaruri-la-algoritmi-cum-a-inceput-povestea-inteligentei-artificiale-in-muzica/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "headline": "From Proportion to Perception: The Hidden Algorithm in Art",
@@ -267,9 +269,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/de-la-proportie-la-perceptie-algoritmul-ascuns-in-arta/",
           "url": "https://www.contributors.ro/de-la-proportie-la-perceptie-algoritmul-ascuns-in-arta/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "image": "https://www.contributors.ro/wp-content/uploads/2025/10/Iceland-WWII-time-traveller-photo-768x566.jpg",
@@ -279,9 +283,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/imagini-imposibile-de-ce-vedem-telefoane-mobile-in-fotografii-din-1928-si-1943/",
           "url": "https://www.contributors.ro/imagini-imposibile-de-ce-vedem-telefoane-mobile-in-fotografii-din-1928-si-1943/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "headline": "Missing Planes and the Fragility of Progress",
@@ -291,9 +297,11 @@
           "mainEntityOfPage": "https://www.contributors.ro/avioane-disparute-si-fragilitatea-progresului/",
           "url": "https://www.contributors.ro/avioane-disparute-si-fragilitatea-progresului/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        },
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        },
         {
           "@type": "Article",
           "headline": "Noah's Ark: The Age of the Red Codes",
@@ -303,15 +311,16 @@
           "mainEntityOfPage": "https://www.contributors.ro/arca-lui-noe-era-codurilor-rosii/",
           "url": "https://www.contributors.ro/arca-lui-noe-era-codurilor-rosii/",
           "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-          "inLanguage": "ro-RO",
-          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
-        }
+          "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+          "isAccessibleForFree": true,
+          "inLanguage": "ro-RO",
+          "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#page" }
+        }
       ]
     }
   ]
 }
 </script>
-
 
   <!-- JSON-LD · 2025-06-30 I -->
   <script type="application/ld+json">
