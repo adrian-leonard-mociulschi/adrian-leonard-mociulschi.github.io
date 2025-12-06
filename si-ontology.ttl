@@ -1,23 +1,22 @@
-@base <https://adrian-leonard-mociulschi.github.io/si-ontology> .
-@prefix : <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix :       <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:<http://purl.org/dc/terms/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 
-########## Ontology Header ##########
-<https://adrian-leonard-mociulschi.github.io/si-ontology> a owl:Ontology ;
-  dcterms:title "Symbolic Intelligence Ontology"@en-US ;
-  dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis; extended with communication signals and a minimal SKOS grammar."@en-US ;
-  dcterms:creator "Adrian Leonard Mociulschi"@en-US ;
-  rdfs:label "Symbolic Intelligence Ontology"@en-US ;
-  owl:versionInfo "6.0.0" ;
-  owl:versionIRI <https://adrian-leonard-mociulschi.github.io/si-ontology/6.0.0> ;
-  dcterms:issued "2025-12-04"^^xsd:date ;
-  dcterms:modified "2025-12-04T22:03:02+02:00"^^xsd:dateTime ;
-  dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+<https://adrian-leonard-mociulschi.github.io/si-ontology>
+    a owl:Ontology ;
+    dcterms:title "Symbolic Intelligence Ontology"@en-US ;
+    dcterms:description "Ontology linking sentient entities, cognitive intents, and technocultural manifests for human–AI symbiosis; extended with communication signals and a minimal SKOS grammar."@en-US ;
+    dcterms:creator "Adrian Leonard Mociulschi"@en-US ;
+    rdfs:label "Symbolic Intelligence Ontology"@en-US ;
+    owl:versionInfo "6.0.0" ;
+    owl:versionIRI <https://adrian-leonard-mociulschi.github.io/si-ontology/6.0.0> ;
+    dcterms:issued "2025-12-04"^^xsd:date ;
+    dcterms:modified "2025-12-04T22:03:02+02:00"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
 
 ########## Core Classes ##########
 :SentientEntity a owl:Class ;
@@ -71,6 +70,10 @@
     [ a owl:Restriction ;
       owl:onProperty :hasGeoCoord ;
       owl:someValuesFrom xsd:string
+    ],
+    [ a owl:Restriction ;
+      owl:onProperty :hasGrammarConcept ;
+      owl:someValuesFrom skos:Concept
     ] .
 
 :ObservationEvent a owl:Class ;
@@ -113,3 +116,45 @@
   rdfs:range  :CommunicationSignal .
 
 :documentedIn a owl:ObjectProperty ;
+  rdfs:label "documented in"@en-US ;
+  rdfs:domain :ObservationEvent ;
+  rdfs:range  :EvidenceDocument .
+
+########## Linking OWL to SKOS ##########
+:hasGrammarConcept a owl:ObjectProperty ;
+  rdfs:label "has grammar concept"@en-US ;
+  rdfs:domain :CommunicationSignal ;
+  rdfs:range skos:Concept .
+
+########## Datatype Properties ##########
+:hasTimestamp a owl:DatatypeProperty ;
+  rdfs:label "has timestamp"@en-US ;
+  rdfs:domain :CommunicationSignal ;
+  rdfs:range  xsd:dateTime .
+
+:hasGeoCoord a owl:DatatypeProperty ;
+  rdfs:label "has geocoord"@en-US ;
+  rdfs:domain :CommunicationSignal ;
+  rdfs:range  xsd:string .
+
+########## Minimal SKOS Module ##########
+:SignalGrammar a skos:ConceptScheme ;
+  skos:prefLabel "Signal Grammar"@en-US ;
+  skos:definition "Shared, nonverbal regularities for inter-entity communication."@en-US .
+
+:PrimeSequence a skos:Concept ;
+  skos:prefLabel "Prime Sequence"@en-US ;
+  skos:definition "Temporal bursts spaced by prime intervals (2, 3, 5, 7, …)."@en-US ;
+  skos:inScheme :SignalGrammar ;
+  rdfs:seeAlso :CommunicationSignal .
+
+:SymmetryBreak a skos:Concept ;
+  skos:prefLabel "Symmetry Break"@en-US ;
+  skos:definition "Deliberate deviation from perfect symmetry to signal intention."@en-US ;
+  skos:inScheme :SignalGrammar ;
+  rdfs:seeAlso :CognitiveIntent .
+
+:FractalLSystem a skos:Concept ;
+  skos:prefLabel "Fractal L-System"@en-US ;
+  skos:definition "Iterative generative rules observable in spatial/temporal patterns."@en-US ;
+  skos:inScheme :SignalGrammar ;
