@@ -81,3 +81,11 @@
 
 # 4) Optional: datatype guards (defensive checks for data properties)
 :HasTimestampDatatypeShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasTimestamp ;
+  sh:datatype xsd:dateTime ;
+  sh:message "Value of hasTimestamp must be xsd:dateTime." .
+
+:HasGeoCoordDatatypeShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasGeoCoord ;
+  sh:datatype xsd:string ;
+  sh:message "Value of hasGeoCoord must be xsd:string." .
