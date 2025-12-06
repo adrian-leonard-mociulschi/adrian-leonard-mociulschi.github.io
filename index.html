@@ -147,8 +147,8 @@
       "@type": "WebPage",
       "@id": "https://adrian-leonard-mociulschi.github.io/#webpage",
       "url": "https://adrian-leonard-mociulschi.github.io/",
-      "name": "Home — Adrian Leonard Mociulschi",
-      "headline": "Home — Adrian Leonard Mociulschi",
+      "name": "Adrian Leonard Mociulschi",
+      "headline": "Adrian Leonard Mociulschi",
       "description": "A cultural platform where technology and art converge — essays, technocultural insights, semantic web, and a progressive web app for meaningful connections.",
       "keywords": "technoculture and symbolic intelligence, semantic architecture, ethical AI and blockchain evolution, progressive web app for technocultural insights, algorithmic aesthetics and creative coding",
       "isPartOf": {
@@ -182,8 +182,8 @@
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
-          "headline",
-          "description"
+          "h1",
+          ".project-tagline"
         ]
       }
     },
@@ -206,6 +206,40 @@
           "item": "https://adrian-leonard-mociulschi.github.io/"
         }
       ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://adrian-leonard-mociulschi.github.io/#si-ontology",
+      "name": "Symbolic Intelligence Ontology",
+      "description": "OWL/RDF + SKOS ontology enabling semantic interoperability for human–AI symbiosis. Includes VoID metadata and JSON-LD context.",
+      "creator": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "maintainer": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "url": "https://adrian-leonard-mociulschi.github.io/si-ontology.ttl",
+      "sameAs": [
+        "https://adrian-leonard-mociulschi.github.io/si-ontology.owl",
+        "https://adrian-leonard-mociulschi.github.io/void.ttl",
+        "https://adrian-leonard-mociulschi.github.io/void.rdf"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "keywords": ["ontology", "OWL", "RDF", "SKOS", "VoID", "semantic web", "human–AI symbiosis"],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/turtle",
+          "contentUrl": "https://adrian-leonard-mociulschi.github.io/si-ontology.ttl"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/rdf+xml",
+          "contentUrl": "https://adrian-leonard-mociulschi.github.io/si-ontology.owl"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/rdf+xml",
+          "contentUrl": "https://adrian-leonard-mociulschi.github.io/void.rdf"
+        }
+      ],
+      "citation": "Adrian Leonard Mociulschi (2025). Symbolic Intelligence Ontology. CC BY 4.0."
     }
   ]
 }
