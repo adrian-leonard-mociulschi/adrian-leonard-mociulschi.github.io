@@ -141,7 +141,7 @@ To enable **symbolic clarity and semantic interoperability** for human–AI symb
 ---
 
 ## ✅ Visual Graph
-![Semantic Graph](https://adrian-leonard-mociulschi.github.io/assets/screenshots/graph_1274x1096.webp)
+![Semantic Graph](https://adrian-leonard-mociulschi.github.io/assets/screenshots/Screenshot-ontology-2025-12-06.png)
 
 ### **Detailed Ontology Description**
 - **Core Concept:** Ontology for human–AI symbiosis, bridging sentient entities, cognitive intents, and technocultural manifests.
