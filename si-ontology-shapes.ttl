@@ -1,152 +1,83 @@
+@base <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+@prefix :      <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
 
-@prefix sh:   <http://www.w3.org/ns/shacl#> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix sio:  <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
+################################################################################
+# SHACL Shapes for "cod-bun" (WebVOWL-safe; only existential constraints ≥1)
+################################################################################
 
-#################################################################
-# Shape-uri de clasă
-#################################################################
+# 1) CommunicationSignal must have:
+#    - ≥1 hasTimestamp (xsd:dateTime)
+#    - ≥1 hasGeoCoord  (xsd:string)
+#    - 0..* hasGrammarConcept (if present, value is skos:Concept)
+:CommunicationSignalShape a sh:NodeShape ;
+  sh:targetClass :CommunicationSignal ;
 
-# CommunicationSignal: timestamp unic, cel puțin un concept SKOS,
-# coordonată geografică în formatul "lat,lon" (ex. 44.4268,26.1025)
-sio:CommunicationSignalShape a sh:NodeShape ;
-  sh:targetClass sio:CommunicationSignal ;
-
-  # EXACT 1 timestamp (xsd:dateTime)
+  # hasTimestamp: minCount 1 + datatype dateTime
   sh:property [
-    sh:path sio:hasTimestamp ;
+    sh:path :hasTimestamp ;
+    sh:minCount 1 ;
     sh:datatype xsd:dateTime ;
-    sh:minCount 1 ;
-    sh:maxCount 1 ;
-    sh:message "CommunicationSignal trebuie să aibă EXACT un hasTimestamp de tip xsd:dateTime."
+    sh:message "CommunicationSignal needs at least one hasTimestamp (xsd:dateTime)."
   ] ;
 
-  # ≥1 hasGrammarConcept (tip skos:Concept)
+  # hasGeoCoord: minCount 1 + datatype string
   sh:property [
-    sh:path sio:hasGrammarConcept ;
+    sh:path :hasGeoCoord ;
+    sh:minCount 1 ;
+    sh:datatype xsd:string ;
+    sh:message "CommunicationSignal needs at least one hasGeoCoord (xsd:string)."
+  ] ;
+
+  # hasGrammarConcept: optional, but when present must be a skos:Concept
+  sh:property [
+    sh:path :hasGrammarConcept ;
     sh:class skos:Concept ;
+    sh:message "If hasGrammarConcept is present, it must point to a skos:Concept."
+  ] .
+
+# 2) SentientEntity must have:
+#    - ≥1 hasIntent to a CognitiveIntent
+#    - ≥1 authored   to a TechnoculturalManifest
+:SentientEntityShape a sh:NodeShape ;
+  sh:targetClass :SentientEntity ;
+
+  # hasIntent: minCount 1 + object is class CognitiveIntent
+  sh:property [
+    sh:path :hasIntent ;
     sh:minCount 1 ;
-    sh:message "CommunicationSignal trebuie să aibă cel puțin un hasGrammarConcept de tip skos:Concept."
+    sh:class :CognitiveIntent ;
+    sh:message "SentientEntity needs at least one hasIntent to a CognitiveIntent."
   ] ;
 
-  # hasGeoCoord: 'lat,lon' cu zecimale; ±DD.DDDD,±DDD.DDDD
+  # authored: minCount 1 + object is class TechnoculturalManifest
   sh:property [
-    sh:path sio:hasGeoCoord ;
-    sh:pattern "^-?\\d{1,2}\\.\\d{3,},-?\\d{1,3}\\.\\d{3,}$" ;
-    sh:flags "s" ;
-    sh:message "Folosește formatul 'lat,lon' cu grade zecimale (ex. 44.4268,26.1025)."
-  ] .
-
-# SentientEntity: are cel puțin un hasIntent (CognitiveIntent)
-sio:SentientEntityShape a sh:NodeShape ;
-  sh:targetClass sio:SentientEntity ;
-  sh:property [
-    sh:path sio:hasIntent ;
-    sh:class sio:CognitiveIntent ;
+    sh:path :authored ;
     sh:minCount 1 ;
-    sh:message "SentientEntity trebuie să aibă cel puțin un hasIntent de tip CognitiveIntent."
+    sh:class :TechnoculturalManifest ;
+    sh:message "SentientEntity needs at least one authored to a TechnoculturalManifest."
   ] .
 
-#################################################################
-# Shape-uri de proprietate (domain/range practice)
-#################################################################
+# 3) Optional: ranges for generic object properties (defensive checks)
+:ObjectPropertyRangesShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasIntent ;
+  sh:class :CognitiveIntent ;
+  sh:message "Object of hasIntent must be a CognitiveIntent." .
 
-# sendsSignal: subiect SentientEntity, obiect CommunicationSignal
-sio:SendsSignalShape a sh:PropertyShape ;
-  sh:path sio:sendsSignal ;
-  sh:description "sendsSignal: SentientEntity → CommunicationSignal" ;
-  sh:targetSubjectsOf sio:sendsSignal ;
-  sh:message "sendsSignal trebuie folosit de subiecte SentientEntity către obiecte CommunicationSignal." ;
-  sh:or ( [ sh:class sio:SentientEntity ] ) ;
-  sh:targetObjectsOf sio:sendsSignal ;
-  sh:class sio:CommunicationSignal .
+:AuthoredRangesShape a sh:NodeShape ;
+  sh:targetObjectsOf :authored ;
+  sh:class :TechnoculturalManifest ;
+  sh:message "Object of authored must be a TechnoculturalManifest." .
 
-# receivesSignal: subiect SentientEntity, obiect CommunicationSignal
-sio:ReceivesSignalShape a sh:PropertyShape ;
-  sh:path sio:receivesSignal ;
-  sh:description "receivesSignal: SentientEntity → CommunicationSignal" ;
-  sh:targetSubjectsOf sio:receivesSignal ;
-  sh:message "receivesSignal trebuie folosit de subiecte SentientEntity către obiecte CommunicationSignal." ;
-  sh:or ( [ sh:class sio:SentientEntity ] ) ;
-  sh:targetObjectsOf sio:receivesSignal ;
-  sh:class sio:CommunicationSignal .
+:HasGrammarConceptRangesShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasGrammarConcept ;
+  sh:class skos:Concept ;
+  sh:message "Object of hasGrammarConcept must be a skos:Concept." .
 
-# sentBy: subiect CommunicationSignal, obiect SentientEntity
-sio:SentByShape a sh:PropertyShape ;
-  sh:path sio:sentBy ;
-  sh:description "sentBy: CommunicationSignal → SentientEntity" ;
-  sh:targetSubjectsOf sio:sentBy ;
-  sh:class sio:CommunicationSignal ;
-  sh:targetObjectsOf sio:sentBy ;
-  sh:class sio:SentientEntity ;
-  sh:message "sentBy trebuie să lege CommunicationSignal de un SentientEntity." .
-
-# receivedBy: subiect CommunicationSignal, obiect SentientEntity
-sio:ReceivedByShape a sh:PropertyShape ;
-  sh:path sio:receivedBy ;
-  sh:description "receivedBy: CommunicationSignal → SentientEntity" ;
-  sh:targetSubjectsOf sio:receivedBy ;
-  sh:class sio:CommunicationSignal ;
-  sh:targetObjectsOf sio:receivedBy ;
-  sh:class sio:SentientEntity ;
-  sh:message "receivedBy trebuie să lege CommunicationSignal de un SentientEntity." .
-
-# authored: SentientEntity → TechnoculturalManifest
-sio:AuthoredShape a sh:PropertyShape ;
-  sh:path sio:authored ;
-  sh:description "authored: SentientEntity → TechnoculturalManifest" ;
-  sh:targetSubjectsOf sio:authored ;
-  sh:class sio:SentientEntity ;
-  sh:targetObjectsOf sio:authored ;
-  sh:class sio:TechnoculturalManifest ;
-  sh:message "authored trebuie să lege SentientEntity de TechnoculturalManifest." .
-
-# realizes: TechnoculturalManifest → CognitiveIntent
-sio:RealizesShape a sh:PropertyShape ;
-  sh:path sio:realizes ;
-  sh:description "realizes: TechnoculturalManifest → CognitiveIntent" ;
-  sh:targetSubjectsOf sio:realizes ;
-  sh:class sio:TechnoculturalManifest ;
-  sh:targetObjectsOf sio:realizes ;
-  sh:class sio:CognitiveIntent ;
-  sh:message "realizes trebuie să lege TechnoculturalManifest de CognitiveIntent." .
-
-#################################################################
-# Shape pentru apartenența la SignalGrammar (opțional, recomandat)
-#################################################################
-
-# Verifică faptul că orice concept folosit ca hasGrammarConcept
-# este în schema :SignalGrammar (prin skos:inScheme)
-sio:SignalGrammarConceptShape a sh:NodeShape ;
-  sh:targetClass skos:Concept ;
-  sh:property [
-    sh:path skos:inScheme ;
-    sh:hasValue sio:SignalGrammar ;
-    sh:minCount 1 ;
-    sh:message "Conceptul folosit la hasGrammarConcept trebuie să fie în schema :SignalGrammar."
-  ] .
-
-#################################################################
-# Avertizare (opțional): materializare intent derivat (hasIntent)
-#################################################################
-
-# Dacă există authored + realizes dar lipsește hasIntent,
-# emitem un WARNING (pentru pipeline-uri care vor completitudine).
-sio:DerivedIntentWarningShape a sh:NodeShape ;
-  sh:targetClass sio:SentientEntity ;
-  sh:rule [
-    a sh:SPARQLConstraint ;
-    sh:message "Agentul are authored + realizes dar îi lipsește hasIntent (derivat logic)."
-    ; sh:select """
-      PREFIX sio: <https://adrian-leonard-mociulschi.github.io/si-ontology#>
-      SELECT ?this WHERE {
-        ?this a sio:SentientEntity ;
-              sio:authored ?m .
-        ?m    sio:realizes ?intent .
-        FILTER NOT EXISTS { ?this sio:hasIntent ?intent . }
-      }
-    """
-  ] .
+# 4) Optional: datatype guards (defensive checks for data properties)
+:HasTimestampDatatypeShape a sh:NodeShape ;
