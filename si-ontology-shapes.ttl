@@ -1,0 +1,91 @@
+@base <https://adrian-leonard-mociulschi.github.io/si-ontology> .
+@prefix :      <https://adrian-leonard-mociulschi.github.io/si-ontology#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+################################################################################
+# SHACL Shapes for "cod-bun" (WebVOWL-safe; only existential constraints ≥1)
+################################################################################
+
+# 1) CommunicationSignal must have:
+#    - ≥1 hasTimestamp (xsd:dateTime)
+#    - ≥1 hasGeoCoord  (xsd:string)
+#    - 0..* hasGrammarConcept (if present, value is skos:Concept)
+:CommunicationSignalShape a sh:NodeShape ;
+  sh:targetClass :CommunicationSignal ;
+
+  # hasTimestamp: minCount 1 + datatype dateTime
+  sh:property [
+    sh:path :hasTimestamp ;
+    sh:minCount 1 ;
+    sh:datatype xsd:dateTime ;
+    sh:message "CommunicationSignal needs at least one hasTimestamp (xsd:dateTime)."
+  ] ;
+
+  # hasGeoCoord: minCount 1 + datatype string
+  sh:property [
+    sh:path :hasGeoCoord ;
+    sh:minCount 1 ;
+    sh:datatype xsd:string ;
+    sh:message "CommunicationSignal needs at least one hasGeoCoord (xsd:string)."
+  ] ;
+
+  # hasGrammarConcept: optional, but when present must be a skos:Concept
+  sh:property [
+    sh:path :hasGrammarConcept ;
+    sh:class skos:Concept ;
+    sh:message "If hasGrammarConcept is present, it must point to a skos:Concept."
+  ] .
+
+# 2) SentientEntity must have:
+#    - ≥1 hasIntent to a CognitiveIntent
+#    - ≥1 authored   to a TechnoculturalManifest
+:SentientEntityShape a sh:NodeShape ;
+  sh:targetClass :SentientEntity ;
+
+  # hasIntent: minCount 1 + object is class CognitiveIntent
+  sh:property [
+    sh:path :hasIntent ;
+    sh:minCount 1 ;
+    sh:class :CognitiveIntent ;
+    sh:message "SentientEntity needs at least one hasIntent to a CognitiveIntent."
+  ] ;
+
+  # authored: minCount 1 + object is class TechnoculturalManifest
+  sh:property [
+    sh:path :authored ;
+    sh:minCount 1 ;
+    sh:class :TechnoculturalManifest ;
+    sh:message "SentientEntity needs at least one authored to a TechnoculturalManifest."
+  ] .
+
+# 3) Optional: ranges for generic object properties (defensive checks)
+:ObjectPropertyRangesShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasIntent ;
+  sh:class :CognitiveIntent ;
+  sh:message "Object of hasIntent must be a CognitiveIntent." .
+
+:AuthoredRangesShape a sh:NodeShape ;
+  sh:targetObjectsOf :authored ;
+  sh:class :TechnoculturalManifest ;
+  sh:message "Object of authored must be a TechnoculturalManifest." .
+
+:HasGrammarConceptRangesShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasGrammarConcept ;
+  sh:class skos:Concept ;
+  sh:message "Object of hasGrammarConcept must be a skos:Concept." .
+
+# 4) Optional: datatype guards (defensive checks for data properties)
+:HasTimestampDatatypeShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasTimestamp ;
+  sh:datatype xsd:dateTime ;
+  sh:message "Value of hasTimestamp must be xsd:dateTime." .
+
+:HasGeoCoordDatatypeShape a sh:NodeShape ;
+  sh:targetObjectsOf :hasGeoCoord ;
+  sh:datatype xsd:string ;
+  sh:message "Value of hasGeoCoord must be xsd:string." .
