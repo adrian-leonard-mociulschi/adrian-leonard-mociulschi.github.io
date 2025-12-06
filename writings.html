@@ -84,6 +84,7 @@
 
   <!-- Structured Data (JSON-LD: CollectionPage, BreadcrumbList, WebSite) -->
 <script type="application/ld+json">
+
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -94,9 +95,7 @@
       "name": "Adrian Leonard Mociulschi",
       "inLanguage": "en-US",
       "keywords": "technoculture, digital governance, ethical AI, Web3, blockchain, algorithmic presence, cultural theory",
-      "publisher": {
-        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
-      }
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
     },
     {
       "@type": "Person",
@@ -122,29 +121,23 @@
         }
       ]
     },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://adrian-leonard-mociulschi.github.io/writings#page",
-      "url": "https://adrian-leonard-mociulschi.github.io/writings",
-      "name": "Writings — Adrian Leonard Mociulschi",
-      "description": "Explore summaries of essays on AI, blockchain, posthumanism, science, culture, and symbolic ecologies.",
-      "keywords": "Adrian Leonard Mociulschi, technoculture, AI ethics, blockchain culture, posthumanism, semantic web",
-      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".lead"] },
-      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
-      "inLanguage": "en-US",
-      "about": [
-        { "@type": "Thing", "name": "scientific research" },
-        { "@type": "Thing", "name": "cultural journalism" },
-        { "@type": "Thing", "name": "technoculture" }
-      ],
-      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs" },
-      "mainEntity": {
-        "@type": "ItemList",
-        "name": "Published essays",
-        "url": "https://adrian-leonard-mociulschi.github.io/writings",
-        "numberOfItems": 12,
+    {
+      "@type": "CollectionPage",
+      "@id": "https://adrian-leonard-mociulschi.github.io/writings#page",
+      "url": "https://adrian-leonard-mociulschi.github.io/writings",
+      "name": "Writings — Adrian Leonard Mociulschi",
+      "description": "Explore summaries of essays on AI, blockchain, posthumanism, science, culture, and symbolic ecologies.",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
+      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
+      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs" },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Published essays",
+        "url": "https://adrian-leonard-mociulschi.github.io/writings",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 12,
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "item": "https://www.contributors.ro/cultura-dulapul-si-timpul-sigilat/", "name": "Culture, Wardrobe, and Sealed Time" },
