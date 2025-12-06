@@ -145,7 +145,9 @@ To enable **symbolic clarity and semantic interoperability** for human–AI symb
 
 ### **Detailed Ontology Description**
 - **Core Concept:** Ontology for human–AI symbiosis, modeling relationships between sentient entities, cognitive intents, and technocultural manifests, extended with communication signals and a minimal SKOS grammar.
+  
 - **Purpose:** To enable semantic interoperability, symbolic clarity, and structured reasoning across platforms and cultural-technological contexts.
+  
 - **Design Principles:**  
   - Ontological precision: Formal OWL 2 axioms for consistency and reasoning.
   - SKOS alignment: Controlled vocabulary for conceptual schemes and signal grammar.
