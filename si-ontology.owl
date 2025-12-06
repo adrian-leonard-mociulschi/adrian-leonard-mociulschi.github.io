@@ -52,3 +52,185 @@
 
   <owl:Class rdf:about="#ArtificialEntity">
     <rdfs:label xml:lang="en-US">Artificial Entity</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SentientEntity"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#CognitiveIntent">
+    <rdfs:label xml:lang="en-US">Cognitive Intent</rdfs:label>
+  </owl:Class>
+
+  <owl:Class rdf:about="#CreativeIntent">
+    <rdfs:label xml:lang="en-US">Creative Intent</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#CognitiveIntent"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#EthicalIntent">
+    <rdfs:label xml:lang="en-US">Ethical Intent</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#CognitiveIntent"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#TechnoculturalManifest">
+    <rdfs:label xml:lang="en-US">Technocultural Manifest</rdfs:label>
+  </owl:Class>
+
+  <owl:Class rdf:about="#SymbolicManifest">
+    <rdfs:label xml:lang="en-US">Symbolic Manifest</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#TechnoculturalManifest"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="#CommunicationSignal">
+    <rdfs:label xml:lang="en-US">Communication Signal</rdfs:label>
+    <rdfs:comment xml:lang="en-US">Nonverbal, formalized message exchanged between entities.</rdfs:comment>
+    <!-- Restrictions -->
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasTimestamp"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasGeoCoord"/>
+        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="#hasGrammarConcept"/>
+        <owl:someValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+
+  <owl:Class rdf:about="#ObservationEvent">
+    <rdfs:label xml:lang="en-US">Observation Event</rdfs:label>
+  </owl:Class>
+
+  <owl:Class rdf:about="#EvidenceDocument">
+    <rdfs:label xml:lang="en-US">Evidence Document</rdfs:label>
+  </owl:Class>
+
+  <!-- Object Properties -->
+  <owl:ObjectProperty rdf:about="#hasIntent">
+    <rdfs:label xml:lang="en-US">has intent</rdfs:label>
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="#CognitiveIntent"/>
+    <owl:propertyChainAxiom rdf:parseType="Collection">
+      <rdf:Description rdf:about="#authored"/>
+      <rdf:Description rdf:about="#realizes"/>
+    </owl:propertyChainAxiom>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#authored">
+    <rdfs:label xml:lang="en-US">authored</rdfs:label>
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="#TechnoculturalManifest"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#isAuthoredBy">
+    <rdfs:label xml:lang="en-US">is authored by</rdfs:label>
+    <rdfs:domain rdf:resource="#TechnoculturalManifest"/>
+    <rdfs:range rdf:resource="#SentientEntity"/>
+    <owl:inverseOf rdf:resource="#authored"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#realizes">
+    <rdfs:label xml:lang="en-US">realizes</rdfs:label>
+    <rdfs:domain rdf:resource="#TechnoculturalManifest"/>
+    <rdfs:range rdf:resource="#CognitiveIntent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#sendsSignal">
+    <rdfs:label xml:lang="en-US">sends signal</rdfs:label>
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="#CommunicationSignal"/>
+    <owl:inverseOf rdf:resource="#sentBy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#receivesSignal">
+    <rdfs:label xml:lang="en-US">receives signal</rdfs:label>
+    <rdfs:domain rdf:resource="#SentientEntity"/>
+    <rdfs:range rdf:resource="#CommunicationSignal"/>
+    <owl:inverseOf rdf:resource="#receivedBy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#sentBy">
+    <rdfs:domain rdf:resource="#CommunicationSignal"/>
+    <rdfs:range rdf:resource="#SentientEntity"/>
+    <rdfs:label xml:lang="en-US">sent by</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#receivedBy">
+    <rdfs:domain rdf:resource="#CommunicationSignal"/>
+    <rdfs:range rdf:resource="#SentientEntity"/>
+    <rdfs:label xml:lang="en-US">received by</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#documentedIn">
+    <rdfs:label xml:lang="en-US">documented in</rdfs:label>
+    <rdfs:domain rdf:resource="#ObservationEvent"/>
+    <rdfs:range rdf:resource="#EvidenceDocument"/>
+  </owl:ObjectProperty>
+
+  <!-- Datatype Properties -->
+  <owl:DatatypeProperty rdf:about="#hasTimestamp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en-US">has timestamp</rdfs:label>
+    <rdfs:domain rdf:resource="#CommunicationSignal"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="#hasGeoCoord">
+    <rdfs:label xml:lang="en-US">has geocoord</rdfs:label>
+    <rdfs:domain rdf:resource="#CommunicationSignal"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <!-- Disjointness -->
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#HumanEntity"/>
+      <rdf:Description rdf:about="#ArtificialEntity"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <rdf:Description rdf:about="#SentientEntity"/>
+      <rdf:Description rdf:about="#CognitiveIntent"/>
+      <rdf:Description rdf:about="#TechnoculturalManifest"/>
+      <rdf:Description rdf:about="#CommunicationSignal"/>
+      <rdf:Description rdf:about="#ObservationEvent"/>
+      <rdf:Description rdf:about="#EvidenceDocument"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+
+  <!-- Minimal SKOS Module -->
+  <skos:ConceptScheme rdf:about="#SignalGrammar">
+    <skos:prefLabel xml:lang="en-US">Signal Grammar</skos:prefLabel>
+    <skos:definition xml:lang="en-US">Shared, nonverbal regularities for inter-entity communication.</skos:definition>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="#PrimeSequence">
+    <skos:prefLabel xml:lang="en-US">Prime Sequence</skos:prefLabel>
+    <skos:definition xml:lang="en-US">Temporal bursts spaced by prime intervals (2, 3, 5, 7, …).</skos:definition>
+    <skos:inScheme rdf:resource="#SignalGrammar"/>
+    <rdfs:seeAlso rdf:resource="#CommunicationSignal"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="#SymmetryBreak">
+    <skos:prefLabel xml:lang="en-US">Symmetry Break</skos:prefLabel>
+    <skos:definition xml:lang="en-US">Deliberate deviation from perfect symmetry to signal intention.</skos:definition>
+    <skos:inScheme rdf:resource="#SignalGrammar"/>
+    <rdfs:seeAlso rdf:resource="#CognitiveIntent"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="#FractalLSystem">
+    <skos:prefLabel xml:lang="en-US">Fractal L-System</skos:prefLabel>
+    <skos:definition xml:lang="en-US">Iterative generative rules observable in spatial/temporal patterns.</skos:definition>
+    <skos:inScheme rdf:resource="#SignalGrammar"/>
+    <rdfs:seeAlso rdf:resource="#TechnoculturalManifest"/>
+  </skos:Concept>
+
+</rdf:RDF>
