@@ -24,6 +24,48 @@
       <height>144</height>
     </image>
 
+       <!-- Article Cultura - December 11, 2025 (Thursday)-->
+    <item>
+  <title>Signs from the Sky and the Silence of the Cosmos — Revista Cultura</title>
+  <link>https://revistacultura.ro/semne-din-cer-si-tacerea-cosmosului/</link>
+  <guid isPermaLink="false">signs-from-the-sky-2</guid>
+  <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Futurology</category>
+  <category>UFOs</category>
+
+  <tags>Nazca Lines Peru, petroglyphs, Hans Glaser, Tic Tac, Nuremberg 1561, Belgian Wave 1989–1990, UFO, F/A-18 Hornet, FRB 121102, military reports, FLIR1</tags>
+
+  <description><![CDATA[
+    <strong>Signs from the Sky and the Silence of the Cosmos</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="The New Robots" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>The sky has always felt like a grand stage for the strange and the wonderful, </strong> filled with everything from mysterious signs to ghostly figures that just don’t make sense. 
+       When we look up into the quiet expanse of the cosmos, we find ourselves drawn into a world of stories, puzzles, and questions that spark our curiosity and push us to seek answers that go beyond what we already know.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Signs from the Sky — Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
          <!-- Article Cultura - December 05, 2025 (Friday)-->
     <item>
   <title>The New Robots: What does it mean to love when love itself can be programmed? — Revista Cultura</title>
