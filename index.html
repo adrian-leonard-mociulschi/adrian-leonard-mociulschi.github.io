@@ -257,26 +257,23 @@
   <main class="main-content" id="content" role="main">
     <div class="content-card">
 
-      
-<!-- ORCID BADGE (compact pill) -->
-<a href="https://orcid.org/0009-0006-9328-8518"
-   target="_blank" rel="noopener noreferrer"
+<!-- ORCID badge - Shields-like, no fixed color -->
+<a href="https://orcid.org/0009-0006-9328-8518" target="_blank" rel="noopener noreferrer"
    aria-label="ORCID iD: 0009-0006-9328-8518"
    style="
-     display:inline-flex; align-items:center; gap: 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg"
-         style="display:block;">
-      <!-- circular outline -->
+     display:inline-flex; align-items:center;
+     font-family:inherit; font-size:0.92rem  <!-- ORCID icon (monochrome, respects currentColor) -->
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"
+         xmlns="http://www.w3.org/2000/svg" style="display:block;">
       <circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
-      <!-- 'iD' letters -->
-      <text x="12" y="14.2" text-anchor="middle" font-size="10" font-family="system-ui, sans-serif"
-            fill="currentColor" font-weight="700">iD</text>
+      <text x="12" y="14.2" text-anchor="middle" font-size="10"
+            font-family="system-ui, sans-serif" fill="currentColor" font-weight="700">iD</text>
     </svg>
+    ORCID
   </span>
-
-  <!-- Text + ID -->
-  <span style="display:inline-flex; flex-direction:column; line-height:1.15;">
-    <span style="font-weight:700;">ORCID iD</span>
-    <span style="font-weight:600;">0009-0006-9328-8518</span>
+  <!-- right value -->
+  <span style="display:inline-flex; align-items:center; padding:6px 10px; font-weight:600;">
+    0009-0006-9328-8518
   </span>
 </a>
 
