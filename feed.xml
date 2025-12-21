@@ -24,6 +24,57 @@
       <height>144</height>
     </image>
 
+       <!-- Article Revista Cultura - December 21, 2025 (Sunday)-->
+    <item>
+  <title>Can Music be Used as a Hidden Tool in War? — Revista Cultura</title>
+  <link>https://www.contributors.ro/muzica-si-matematica-origini-paradigme-comparative-intre-armonie-si-stiinta-modelelor/</link>
+  <guid isPermaLink="false">hidden-tool-in-war-2</guid>
+  <pubDate>Sun, 21 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Military research</category>
+  <category>Music</category>
+
+  <tags>music and warfare, vibration physics, military technology, acoustic strategy, ethics of sound, resonance, technoculture</tags>
+
+  <description><![CDATA[
+    <strong>Can Music be Used as a Hidden Tool in War?/strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>This essay asks a thought-provoking question:</strong>  
+       <em>Could music be a real-world weapon?</em>
+       It talks about the similar ideas of vibration and resonance in music and military technology, 
+       going from ancient siege engines to modern autonomous systems. 
+       The story looks at how rhythmic forces affect the development of weapons and strategies, 
+       and the role of acoustic signals in coordinating troops. 
+       As we move into the digital age, 
+       it highlights the ethical dilemma of seeing resonance as an artistic concept 
+       versus its potential use as a weapon. 
+       To sum it up, the essay makes us think about if vibration should be a tool for creation or destruction.
+       </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article Contributors - December 20, 2025 (Saturday)-->
     <item>
   <title>Pythagoras and the music of the spheres. Sound and maths — Contributors.ro</title>
