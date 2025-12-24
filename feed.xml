@@ -24,6 +24,51 @@
       <height>144</height>
     </image>
 
+       <!-- Article România Liberă - December 23, 2025 (Tuesday)-->
+    <item>
+  <title>Christmas, the Sun, and the Future of Energy: A 2,000-Year Story — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/craciunul-soarele-si-viitorul-energiei-o-poveste-de-2000-de-ani/</link>
+  <guid isPermaLink="false">christmas-and-the-sun-2</guid>
+  <pubDate>Tue, 23 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Space Exploration</category>
+  <category>Education</category>
+
+  <tags>solar energy future, space‑based solar power, renewable energy breakthroughs, history of Christmas traditions, winter solstice symbolism, solar power technology, clean energy innovation, future of global energy, solar civilization concept, advanced energy systems</tags>
+
+  <description><![CDATA[
+    <strong>Christmas, the Sun, and the Future of Energy: A 2,000-Year Story</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>TA 2,000‑year journey from ancient sun worship to futuristic solar tech,</strong> 
+       the article shows how humanity’s oldest symbol of hope — the returning light — is becoming 
+       the engine of our energy future. 
+       It blends myth, history, and cutting‑edge science into a fast, 
+       compelling story about how the sun may once again shape the destiny of civilization.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Christmas and the Sun — Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article Revista Cultura - December 21, 2025 (Sunday)-->
     <item>
   <title>Can Music be Used as a Hidden Tool in War? — Revista Cultura</title>
@@ -126,8 +171,8 @@
 
         <!-- Article România Liberă - December 17, 2025 (Wednesday)-->
     <item>
-  <title>Well-being is a right, not a privilege. It's a skill. — România Liberă</title>
-  <link>https://romanialibera.ro/op-ed/opinii/bunastarea-nu-e-un-privilegiu-e-o-competenta//</link>
+  <title>Well-being is a right, not a privilege. It's a skill — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/bunastarea-nu-e-un-privilegiu-e-o-competenta/</link>
   <guid isPermaLink="false">well-being-is-a-right-2</guid>
   <pubDate>Wed, 17 Dec 2025 00:00:00 GMT</pubDate>
 
@@ -138,12 +183,12 @@
   <tags>financial literacy programs, personal finance education, money management strategies, financial independence tips, economic resilience training, long‑term wealth building, financial planning skills, sustainable prosperity mindset, financial decision‑making tools, personal wealth development</tags>
 
   <description><![CDATA[
-    <strong>Well-being is a Right, not a Privilege. It's a Skill.</strong><br/>
+    <strong>Well-being is a Right, not a Privilege. It's a Skill</strong><br/>
     <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
   ]]></description>
 
   <content:encoded><![CDATA[
-    <p><strong>The article reframes prosperity as a skill,,</strong> 
+    <p><strong>The article reframes prosperity as a skill,</strong> 
        not a stroke of luck, 
        arguing that Romania’s rising living standards mean little without 
        the financial know‑how to sustain them.
