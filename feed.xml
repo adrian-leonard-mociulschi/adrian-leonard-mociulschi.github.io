@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sun, 21 Dec 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -124,6 +124,55 @@
   <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
 </item>
 
+        <!-- Article România Liberă - December 17, 2025 (Wednesday)-->
+    <item>
+  <title>Well-being is a right, not a privilege. It's a skill. — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/bunastarea-nu-e-un-privilegiu-e-o-competenta//</link>
+  <guid isPermaLink="false">well-being-is-a-right-2</guid>
+  <pubDate>Wed, 17 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Finances</category>
+  <category>Education</category>
+
+  <tags>financial literacy programs, personal finance education, money management strategies, financial independence tips, economic resilience training, long‑term wealth building, financial planning skills, sustainable prosperity mindset, financial decision‑making tools, personal wealth development</tags>
+
+  <description><![CDATA[
+    <strong>Well-being is a Right, not a Privilege. It's a Skill.</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>The article reframes prosperity as a skill,,</strong> 
+       not a stroke of luck, 
+       arguing that Romania’s rising living standards mean little without 
+       the financial know‑how to sustain them.
+       It highlights how true well‑being comes from mastering money, 
+       building resilience, and turning financial uncertainty into informed, confident choices. 
+       By treating financial education as a form of personal power rather than a technical chore, 
+       the piece challenges readers to see autonomy not as a privilege granted by the state, 
+       but as a competence they can actively build.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Well-being is a right — Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article Cultura - December 11, 2025 (Thursday)-->
     <item>
   <title>Signs from the Sky and the Silence of the Cosmos — Revista Cultura</title>
@@ -166,7 +215,7 @@
   <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
 </item>
 
-         <!-- Article Cultura - December 05, 2025 (Friday)-->
+      <!-- Article Cultura - December 05, 2025 (Friday)-->
     <item>
   <title>The New Robots: What does it mean to love when love itself can be programmed? — Revista Cultura</title>
   <link>https://revistacultura.ro/noii-roboti-ce-inseamna-sa-iubesti-cand-iubirea-devine-programabila/</link>
