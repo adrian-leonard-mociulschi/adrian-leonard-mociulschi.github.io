@@ -24,6 +24,51 @@
       <height>144</height>
     </image>
 
+       <!-- Article Revista Cultura - December 26, 2025 (Tuesday)-->
+    <item>
+  <title>What Can We Learn about the Future from the Star of Bethlehem? — Revista Cultura</title>
+  <link>https://revistacultura.ro/ce-ne-spune-steaua-din-betleem-despre-viitor/</link>
+  <guid isPermaLink="false">what-can-we-lear-2</guid>
+  <pubDate>Fir, 26 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Christmas</category>
+  <category>Theology</category>
+
+  <tags>history of Sol Invictus and Christmas, meaning of Bethlehem Star in theology, Kardashev scale and solar energy future, cultural continuity of light symbolism, ethical use of space-based solar power, epistemic reflection on Christmas traditions, sustainable civilization powered by sunlight</tags>
+
+  <description><![CDATA[
+    <strong>From Cosmic Signs to Solar Futures: Rethinking Light as Meaning and Energy</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong> This article explores the symbolic and technological journey of light—from ancient solar rites,</strong> 
+       and the Bethlehem Star to future energy infrastructures. It examines cultural continuity, 
+       theological meaning, and scientific inquiry, then pivots toward Kardashev’s vision of solar-powered civilizations. 
+       Far from nostalgia, Christmas becomes an epistemic threshold: 
+       a call to transform light into life, ethics, and global responsibility.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article România Liberă - December 23, 2025 (Tuesday)-->
     <item>
   <title>Christmas, the Sun, and the Future of Energy: A 2,000-Year Story — România Liberă</title>
