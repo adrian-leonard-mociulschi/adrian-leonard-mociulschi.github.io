@@ -24,6 +24,51 @@
       <height>144</height>
     </image>
 
+        <!-- Article Contributors - December 31, 2025 (Wednesday)-->
+    <item>
+  <title>New Year's Eve Under the Stars: How Music and Astronomy Are Writing the Future Together — Contributors.ro</title>
+  <link>https://www.contributors.ro/revelion-sub-stele-cum-muzica-si-astronomia-scriu-impreuna-viitorul/</link>
+  <guid isPermaLink="false">new-year's-eve-2</guid>
+  <pubDate>Wed, 31 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Scientifical research</category>
+  <category>Music and Astronomy</category>
+
+  <tags>how music and astronomy shape the future together, sonification of space data and cosmic harmony explained, Pythagoras Kepler and James Webb telescope connection, algorithmic music inspired by stars and galaxies, Antikythera mechanism and modern astronomical algorithms</tags>
+
+  <description><![CDATA[
+    <strong>Cosmic Harmony: Music Meets Astronomy in the Digital Age</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Music and astronomy have shared a secret dialogue for centuries—from Pythagoras’ harmony of the spheres 
+       to Kepler’s celestial counterpoint and today’s James Webb telescope turning starlight into sound. 
+       This essay explores how ancient philosophy and cutting-edge science converge, 
+       revealing a future where algorithms, telescopes, and melodies co-compose the cosmos.
+       </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Contributors"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article Revista Cultura - December 26, 2025 (Friday)-->
     <item>
   <title>What Can We Learn about the Future from the Star of Bethlehem? — Revista Cultura</title>
@@ -195,7 +240,7 @@
        </p>
     <p>
       <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
-           alt="The New Robots — Adrian Leonard Mociulschi — Revista Cultura"
+           alt="The New Robots — Adrian Leonard Mociulschi — Contributors"
            width="1200" height="1200" />
     </p>
   ]]></content:encoded>
