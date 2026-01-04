@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Dec 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Dec 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,51 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Revista Cultura - December 31, 2025 (Wednesday)-->
+    <item>
+  <title>As we count down to the New Year, the Doomsday Clock reminds us not all beginnings are guaranteed — Revista Cultura</title>
+  <link>https://revistacultura.ro/in-timp-ce-numaram-secundele-spre-anul-nou-doomsday-clock-ne-aminteste-ca-nu-toate-inceputurile-sunt-garantate/</link>
+  <guid isPermaLink="false">as-we-count-down-2</guid>
+  <pubDate>Wed, 31 Dec 2025 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Apocalypse</category>
+  <category>Doomsday</category>
+
+  <tags>Doomsday Clock, atomic time, existential risk, nuclear threat, climate crisis, AI ethics, symbolic timekeeping</tags>
+
+  <description><![CDATA[
+    <strong>Counting Seconds at the Edge: What the Doomsday Clock Reveals About Our Fragile Future</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>By tracing the cultural evolution from sundials and church bells to timestamps and satellite clocks,</strong> 
+       the essay reveals how technological timekeeping reflects power structures and shapes collective imaginaries. 
+       Yet this precision hasn’t safeguarded humanity; 
+       instead, it has fostered dependence on algorithms while obscuring the unpredictable forces—social, 
+       ecological, existential—that threaten our future.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
         <!-- Article Contributors - December 31, 2025 (Wednesday)-->
     <item>
