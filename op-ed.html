@@ -1625,15 +1625,35 @@
 <!-- Academic & Digital Identity Badges -->
 <section>
   <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
-
+    
     <!-- DOI (dark/light aware) -->
     <a href="https://doi.org/10.5281/zenodo.18164026" target="_blank" rel="noopener noreferrer"
-       style="display:inline-block; text-decoration:none !important; border-bottom:      srcset="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18164026-1E90FF?labelColor=000000&color=1 blue text -->
+       style="display:inline-block; text-decoration:none !important; border-bottom:0 !important; line-height:0;">
+      <picture>
+        <!-- Dark mode: black left label, blue right panel -->
+        <source media="(prefers-color-scheme: dark)"
+                srcset="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18164026-1E90FF?labelColor=000000&color=1E90FF&logo=doi&logoColor=ffffff">
+        <!-- Light mode: same palette -->
         <img alt="DOI 10.5281/zenodo.18164026"
-             src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18164026-1E90FF?labelColor=000000&color=1E90FF&div>
+             src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18164026-1E90FF?labelColor=000000&color=1E90FF&logo=doi&logoColor=ffffff"
+             style="display:inline-block; height:20px; vertical-align:middle; border:0; margin:0; padding:0;">
+      </picture>
+    </a>
+
+  </div>
 </section>
 
-        </article>
+<!-- SVG Alternative for custom color control -->
+<svg width="420" height="28" viewBox="0 0 420 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DOI 10.5281/zenodo.18164026">
+  <rect width="100%" height="100%" fill="#000"/>
+  <text x="8" y="19"
+        font-family="Inter, Segoe UI, Roboto, Arial, sans-serif"
+        font-size="14" font-weight="600"
+        fill="#1E90FF">
+    DOI — 10.5281/zenodo.18164026
+    </text>
+  </svg>
+</article>
 
         <!-- Articol · 2025-07-31 VI -->
         <hr>
