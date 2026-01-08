@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,52 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article România Liberă - January 08, 2026 (Thursday)-->
+    <item>
+  <title>What If We're Not Alone? The Year 2026 Brings the Most Serious Question About the Universe in the Last Century — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/daca-nu-suntem-singuri-2026-aduce-cea-mai-serioasa-intrebare-despre-univers-din-ultimul-secol/</link>
+  <guid isPermaLink="false">what-if-we're-not-alone-2</guid>
+  <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>UFO</category>
+  <category>UAP</category>
+
+  <tags>are we alone, universe, extraterrestrial life, 2026 predictions, cosmic origins, SETI, UAP phenomena, Giordano Bruno, Antikythera mechanism, astronomy, space exploration, intelligent life, ethics of discovery, human curiosity, search for meaning</tags>
+
+  <description><![CDATA[
+    <strong>First Contact with an Extraterrestrial Civilization: An Intense Prediction</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>2026 reignites humanity’s oldest question: Are we alone in the universe?</strong> 
+       This essay journeys from the birth of cosmic harmony and ancient astronomical models 
+       to Giordano Bruno’s vision, SETI’s search for signals, and the mystery of UAPs. 
+       It explores how science and myth converge in our quest for meaning, 
+       revealing that beyond the search for extraterrestrial life lies a deeper pursuit: 
+       understanding our place in the cosmos.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Revista Cultura - December 31, 2025 (Wednesday)-->
     <item>
