@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,51 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Revista Cultura - January 10, 2025 (Saturday)-->
+    <item>
+  <title>The Tree of Transylvania: Medieval Roots, Technological Crown — Revista Cultura</title>
+  <link>https://revistacultura.ro/copacul-transilvaniei-radacini-medievale-coroana-tehnologica/</link>
+  <guid isPermaLink="false">the-tree-of-transylvania-2</guid>
+  <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Education</category>
+  <category>Culture</category>
+
+  <tags>Transilvania University Brașov, UNITBV, Brașov university, Romanian higher education, academic excellence, research innovation, engineering programs Romania, AI and technology, green energy research, global rankings, meritocracy in education, Ioan Abrudan, Petru Măniuț, tradition meets innovation, EngiRank Romania, Times Higher Education Romania, robotics research Romania, advanced engineering, multidisciplinary research centers, future of education Romania</tags>
+
+  <description><![CDATA[
+    <strong>Transilvania University Brașov – Academic Excellence in the Heart of Romania</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Transilvania University of Brașov stands as a bridge between heritage and innovation.</strong> 
+       Rooted in the medieval spirit of the citadel, 
+       UNITBV has grown into one of Romania’s leading academic hubs, 
+       with 18 faculties, cutting-edge research centers, global rankings, 
+       and a culture of meritocracy shaping the future of education.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article România Liberă - January 08, 2026 (Thursday)-->
     <item>
