@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,54 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article România Liberă - January 13, 2026 (Thuesday)-->
+    <item>
+  <title>Helicopters, Pandemics, and Beethoven: The Fragmented Symphony of the 21st Century — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/elicoptere-pandemii-si-beethoven-simfonia-fragmentata-a-secolului-xxi/</link>
+  <guid isPermaLink="false">helicopters-pandemisc-and-beethoven-2</guid>
+  <pubDate>Thu, 13 Jan 2026 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Music</category>
+  <category>Musicology</category>
+
+  <tags>music history, cultural theory, algorithmic age, heterophony, technoculture, Beethoven, Stockhausen, Middle Ages, 20th century music, 21st century volatility, AI and music</tags>
+
+  <description><![CDATA[
+    <strong>The Middle Ages: Cosmic Harmony and Choral Tranquility</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Music is more than sound—it’s a map of civilization.</strong> 
+       From medieval harmony to Beethoven’s heroism, 
+       from Stockhausen’s airborne quartets to today’s algorithmic noise, 
+       every era has composed its own worldview. 
+       The question now: How will the future sound? 
+       In a time of volatility and AI-generated tones, 
+       we must keep the human voice at the center of the score. 
+       Because the future is not a prophecy—it’s a composition.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Revista Cultura - January 10, 2025 (Saturday)-->
     <item>
