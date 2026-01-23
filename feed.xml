@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,59 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Revista Cultura - January 23, 2026 (Friday)-->
+    <item>
+  <title>National Culture Day: Between Heritage, Responsibility, and Meritocracy</title>
+  <link>https://revistacultura.ro/ziua-culturii-nationale-intre-mostenire-responsabilitate-si-meritocratie/</link>
+  <guid isPermaLink="false">national-culture-day-2</guid>
+  <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Culture</category>
+  <category>Public Finances</category>
+
+  <tags>Culture Policy, Cultural Funding, Meritocracy, Public Value, National Identity,
+     Living Culture, Arts and Science, Cultural Responsibility, Public Engagement,
+     European Culture, Heritage and Innovation, Creative Economy,
+     Cultural Impact, Cultural Governance, Shared Values</tags>
+
+  <description><![CDATA[
+    <strong>Why should culture be funded with meaning, criteria, and respect for the public?</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Culture is not a ceremonial gesture repeated once a year,</strong> 
+       but a living responsibility shared by society. 
+       From Eminescu’s cosmic intuition and Enescu’s universal sound to the technological courage of 
+       Vuia, Vlaicu, Coandă, and Oberth, Romanian culture has always emerged 
+       where imagination meets verifiable impact. 
+       This essay argues that honoring such a legacy today requires more than celebration: 
+       it demands cultural funding guided by merit, relevance, and respect for the public. 
+       Culture is part of the economy, part of civic trust, 
+       and part of our shared future—alive 
+       only when it continues to resonate, engage, and create value.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Revista Cultura - January 18, 2026 (Sunday)-->
     <item>
