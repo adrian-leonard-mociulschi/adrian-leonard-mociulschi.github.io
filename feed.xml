@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,54 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Nine O'Clock - 23 January, 2026 (Friday) -->
+       <item>
+  <title>The Story of a Conductor Who Builds Orchestras, Not Just Concerts — Nine O’Clock</title>
+  <link>https://nineoclock.ro/2026/01/23/the-story-of-a-conductor-who-builds-orchestras-not-just-concerts/</link>
+  <guid isPermaLink="false">the-story-of-a-conductor-v2</guid>
+  <pubDate>Sat, 23 Jan 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Culture</category>
+  <category>Music</category>
+
+  <tags>conducting, orchestral leadership, European music culture, contemporary classical music, musical interpretation, orchestral pedagogy, cultural transmission, artistic authority, music education, intercultural exchange, classical performance practice, modern music festivals, Warsaw Autumn Festival, orchestral discipline, musical modernity</tags>
+
+  <description><![CDATA[
+    <strong>A Portrait of Authority, Discipline, and Cultural Transmission in Contemporary Conducting</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>This article presents a refined portrait of conductor Piotr Borkowski, 
+       focusing on authority, discipline, and long‑term cultural construction rather than spectacle or career display. 
+       Following his formation in the Central European tradition and his work across Poland, 
+       South Korea, India, and Germany, the text explores conducting as an art of listening, 
+       structure, and responsibility. 
+       Borkowski is portrayed as a cultural intermediary who builds orchestras, 
+       professional standards, and institutional continuity across diverse musical contexts, 
+       offering insight into conducting as a form of cultural transmission in a globalized contemporary landscape.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Nine O’Clock"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Revista Cultura - January 23, 2026 (Friday)-->
     <item>
