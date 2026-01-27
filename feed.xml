@@ -24,6 +24,51 @@
       <height>144</height>
     </image>
 
+       <!-- Article România Liberă - January 25, 2026 (Sunday)-->
+    <item>
+  <title>Investments Are More Than Numbers: The High Cost of Financial Illiteracy — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/elicoptere-pandemii-si-beethoven-simfonia-fragmentata-a-secolului-xxi/</link>
+  <guid isPermaLink="false">helicopters-pandemisc-and-beethoven-2</guid>
+  <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Finances</category>
+  <category>Financial education</category>
+
+  <tags>finance, financial‑literacy, digital‑literacy, cultural‑capital, symbolic‑economy, fintech, blockchain, behavioral‑finance, economic‑education, algorithmic‑age</tags>
+
+  <description><![CDATA[
+    <strong>Financial and Cultural Education: The Key to Financial Balance</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A sharp, accessible reflection on why financial literacy is no longer optional</strong> 
+       in a world ruled by algorithms, volatility, and digital ecosystems. 
+       The text shows how culture, memory, and symbolic habits shape the way we save, 
+       spend, and invest — revealing that money is never just math, but meaning. 
+       It’s a lucid guide to navigating the modern economy with clarity, resilience, and informed autonomy.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article Nine O'Clock - 23 January, 2026 (Friday) -->
        <item>
   <title>The Story of a Conductor Who Builds Orchestras, Not Just Concerts — Nine O’Clock</title>
