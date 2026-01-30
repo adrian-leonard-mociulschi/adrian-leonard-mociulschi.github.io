@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,57 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Nine O'Clock - 29 January, 2026 (Thursday) -->
+       <item>
+  <title>From WWII to NATO: The Enduring Role of Romania’s Mountain Troops — Nine O’Clock</title>
+  <link>https://nineoclock.ro/2026/01/29/from-wwii-to-nato-the-enduring-role-of-romanias-mountain-troops-by-dr-adrian-leonard-mociulschi/</link>
+  <guid isPermaLink="false">from-wwii-to-nato-v2</guid>
+  <pubDate>Thu, 29 Jan 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Romanian Military</category>
+  <category>Special Operations Forces</category>
+
+  <tags>21st Mountain Battalion „General Leonard Mociulschi”, Adrian Leonard Mociulschi, Cristian Teglaș, Cristian Tiberiu Cristescu, From WWII to NATO: The Enduring Role of Romania’s Mountain Troops, Mountain Warfare, NATO Eastern Flank, Romanian Army</tags>
+
+  <description><![CDATA[
+    <strong>Military Culture, Strategic History, and the Ethics of Technological Systems</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>This article traces the 86‑year evolution of Romania’s 21st Mountain Battalion,</strong> 
+       following its trajectory from WWII operations through Cold War restructurings and into its post‑2004 NATO 
+       transformation. It highlights the unit’s defining attributes—endurance, adaptability, 
+       high‑altitude expertise—and examines how these traits survived repeated disbandments, 
+       reorganizations, and doctrinal realignments under Soviet oversight. 
+       The narrative follows the battalion’s reconstitution during Romania’s shift in alliances in 1944, 
+       its Cold War reductions and restorations, 
+       its rebirth during the country’s post‑1989 transition, 
+       and its modernization in preparation for NATO interoperability, 
+       concluding with its deployments in Iraq and Afghanistan, 
+       where its mountain‑warfare profile proved strategically relevant.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Nine O’Clock"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article România Liberă - January 25, 2026 (Sunday)-->
     <item>
