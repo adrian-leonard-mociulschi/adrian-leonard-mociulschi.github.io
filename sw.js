@@ -1,5 +1,5 @@
 // sw.js — Final PWA Service Worker (offline complet, corectat)
-const VERSION = 'v66';
+const VERSION = 'v67';
 const CACHES = {
   pages:  `adi-pages-${VERSION}`,
   assets: `adi-assets-${VERSION}`,
