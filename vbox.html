@@ -1976,14 +1976,21 @@
           
 		
 <!-- DOI BADGE -->
-<section>
-  <div style='display:flex; flex-wrap:wrap; gap:8px; align-items:center;'>
-    <a href='https://doi.org/10.5281/zenodo.18325975' target='_blank' rel='noopener noreferrer' style='display:inline-block; text-decoration:none !important; border-bottom:0 !important; line-height:0;'>
-      <picture>
-        <source media='(prefers-color-scheme: dark)' srcset='https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18325975-1E90FF?labelColor=000000&color=1E90FF&logo=doi&logoColor=ffffff'>
-        <img alt='DOI 10.5281/zenodo.18325975' src='https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18325975-1E90FF?labelColor=000000&color=1E90FF&logo=doi&logoColor=ffffff' style='display:inline-block; height:20px; vertical-align:middle; border:0; margin:0; padding:0;'>
-      </picture>
-    </a>
+
+<!-- DOI (dark/light aware) -->
+<a href="https://doi.org/10.5281/zenodo.18325975" target="_blank" rel="noopener noreferrer"
+   style="display:inline-block; text-decoration:none !important; border-bottom:0 !important; line-height:0;"> 
+  <picture>
+    <!-- Dark mode: black left label, blue right panel -->
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18325975-1E90FF?labelColor=000000&color=1E90FF&logo=doi&logoColor=ffffff&cacheSeconds=60&t=1770790299"> 
+    <!-- Light mode: same palette -->
+    <img alt="DOI 10.5281/zenodo.18325975"
+         src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18325975-1E90FF?labelColor=000000&color=1E90FF&logo=doi&logoColor=ffffff&cacheSeconds=60&t=1770790299"
+         style="display:inline-block; height:20px; vertical-align:middle; border:0; margin:0; padding:0;"> 
+  </picture>
+</a>
+
   </div>
 </section>
 
