@@ -24,7 +24,55 @@
       <height>144</height>
     </image>
 
-       <!-- Article Contributors.ro - 31 January, 2026 (Saturday) -->
+       <!-- Article Contributors.ro - February 13, 2026 (Friday) -->
+       <item>
+  <title>Sacred Modernism, East of Vienna: From Niculescu’s Inner Liturgy to Łukaszewski’s Luminous Precision — Nine O'Clock</title>
+  <link>https://nineoclock.ro/2026/02/13/sacred-modernism-east-of-vienna-from-niculescus-inner-liturgy-to-lukaszewskis-luminous-precision/</link>
+  <guid isPermaLink="false">sacred-modernism-east-of-vienna-v2</guid>
+  <pubDate>Fri, 13 Feb 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Arts</category>
+  <category>Culture</category>
+
+  <tags>Paweł Łukaszewski, Ștefan Niculescu, sacred modernism, contemporary classical music, European spiritual music, choral composition, luminous austerity, inner liturgy, Eastern European composers, architectural clarity, spiritual minimalism, modern sacred sound, structural resonance, Bucharest Warsaw axis</tags>
+
+  <description><![CDATA[
+    <strong>Between Silence and Structure: Eastern Europe’s Modern Sacred Sound</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A journey through the luminous axis Bucharest–Warsaw</strong>, 
+       where Ștefan Niculescu and Paweł Łukaszewski redefine sacred modernism for the 21st century. 
+       This text explores how inner architecture, 
+       disciplined clarity and spiritual restraint become compositional tools 
+       capable of transforming silence into structure and radiance into meaning. 
+       Far from ornament or nostalgia, 
+       their music builds a bridge between contemplation 
+       and precision — a rare spiritual geometry in a cultural era saturated by speed, spectacle and noise.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Contributors.ro"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- Article Contributors.ro - January 31, 2026 (Saturday) -->
        <item>
   <title>What Happens When the Planet Reminds Us Who's in Charge? — Contributors.ro</title>
   <link>https://www.contributors.ro/ce-se-intampla-cand-planeta-decide-sa-ne-reaminteasca-cine-conduce-de-fapt/</link>
@@ -70,7 +118,7 @@
   <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
 </item>
 
-       <!-- Article Nine O'Clock - 29 January, 2026 (Thursday) -->
+       <!-- Article Nine O'Clock - January 29, 2026 (Thursday) -->
        <item>
   <title>From WWII to NATO: The Enduring Role of Romania’s Mountain Troops — Nine O’Clock</title>
   <link>https://nineoclock.ro/2026/01/29/from-wwii-to-nato-the-enduring-role-of-romanias-mountain-troops-by-dr-adrian-leonard-mociulschi/</link>
@@ -166,7 +214,7 @@
   <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
 </item>
 
-       <!-- Article Nine O'Clock - 23 January, 2026 (Friday) -->
+       <!-- Article Nine O'Clock - January 23, 2026 (Friday) -->
        <item>
   <title>The Story of a Conductor Who Builds Orchestras, Not Just Concerts — Nine O’Clock</title>
   <link>https://nineoclock.ro/2026/01/23/the-story-of-a-conductor-who-builds-orchestras-not-just-concerts/</link>
