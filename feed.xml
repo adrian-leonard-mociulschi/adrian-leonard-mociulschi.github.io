@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -24,7 +24,57 @@
       <height>144</height>
     </image>
 
-       <!-- Article Contributors.ro - February 13, 2026 (Friday) -->
+       <!-- Article Contributors.ro - February 21, 2026 (Saturday) -->
+       <item>
+  <title>From Particles to Algorithms: How a 'Demon' Determines What Becomes Visible in the Universe and on the Internet — Contributors.ro</title>
+  <link>https://www.contributors.ro/de-la-particule-la-algoritmi-cum-decide-un-demon-ce-devine-vizibil-in-univers-si-pe-internet/</link>
+  <guid isPermaLink="false">from-particles-to-algorithms-v2</guid>
+  <pubDate>Sat, 21 Feb 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Scientific Research</category>
+  <category>Cosmology</category>
+
+  <tags>Maxwell’s demon, digital entropy, algorithmic sorting, Boltzmann brains, Boltzmann distribution, Xenakis, Pithoprakta, AI and society, information theory, emergent order, probabilistic systems, digital visibility, attention dynamics, techno‑culture, complexity</tags>
+
+  <description><![CDATA[
+    <strong>Algorithmic Entropy Management: How Computational Gatekeepers Regulate Information Flow and Visibility in Digital Systems</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>This essay examines how Maxwell’s demon, Boltzmann’s statistical laws, 
+       and Xenakis’s sonic architecture</strong> reveal a shared framework for understanding order emerging from chaos. 
+       It traces how algorithmic systems, much like thermodynamic or musical processes, 
+       selectively filter information and shape what becomes visible in digital spaces. 
+       By linking the Boltzmann brain paradox with modern AI, 
+       the text shows how computational gatekeepers manage entropy, 
+       amplify oscillations between noise and structure, 
+       and define the cultural patterns that surface online. 
+       The result is a reflection on how technical systems organize reality, 
+       and why meaning—unlike order—remains a uniquely human responsibility.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Contributors.ro"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- Article Nine O'Clock - February 13, 2026 (Friday) -->
        <item>
   <title>Sacred Modernism, East of Vienna: From Niculescu’s Inner Liturgy to Łukaszewski’s Luminous Precision — Nine O'Clock</title>
   <link>https://nineoclock.ro/2026/02/13/sacred-modernism-east-of-vienna-from-niculescus-inner-liturgy-to-lukaszewskis-luminous-precision/</link>
