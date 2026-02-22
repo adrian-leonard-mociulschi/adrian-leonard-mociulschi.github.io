@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sat, 21 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,54 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Nine O'Clock - February 22, 2026 (Sunday) -->
+       <item>
+  <title>Beyond Applause: The Royal Case for a Composer’s Public Mandate, by Dr. Adrian Leonard Mociulschi — Nine O'Clock</title>
+  <link>https://nineoclock.ro/2026/02/22/beyond-applause-the-royal-case-for-a-composers-public-mandate-by-dr-adrian-leonard-mociulschi/</link>
+  <guid isPermaLink="false">the-royal-case-for-a-composer-v2</guid>
+  <pubDate>Sun, 22 Feb 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Classic Music Composers</category>
+  <category>Culture and Arts</category>
+
+  <tags>Serban Nichifor, Romanian composer, contemporary classical music, Order of the Crown Belgium, National Order for Merit Romania, Gaudeamus Award winner, European composers, modern classical repertoire, Cries from Earth to Heaven, Romanian culture, classical music legacy, documented works, institutional music, European arts</tags>
+
+  <description><![CDATA[
+    <strong>Royal Honors and Lasting Works: The Cultural Weight of Serban Nichifor</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Serban Nichifor remains one of Romania’s few composers recognized at a European level</strong>, 
+       honored with Belgium’s Order of the Crown and Romania’s Order for Merit. 
+       His career is fully traceable—top graduate in cello, a Ph.D. in musicology, 
+       Gaudeamus award winner, and a catalogue of works that stay open, clear, and easy to perform. 
+       Pieces like <em>Cries from Earth to Heaven</em>, premiered at Sala Radio, 
+       show a composer who builds music meant to last. 
+       Nichifor stands apart by choosing craft over noise and continuity over fashion, 
+       earning his place as a genuine cultural voice for Romania in Europe.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Contributors.ro"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Contributors.ro - February 21, 2026 (Saturday) -->
        <item>
