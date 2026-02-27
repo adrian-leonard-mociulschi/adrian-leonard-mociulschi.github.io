@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,53 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article România Liberă - January 13, 2026 (Thuesday)-->
+    <item>
+  <title>Love in Romania: From Archaic Magic to Digital Intimacy — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/iubire-in-romania-de-la-magie-arhaica-la-intimitate-digitala//</link>
+  <guid isPermaLink="false">love-in-romania-2</guid>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Romanian folklore</category>
+  <category>Romanian love</category>
+
+  <tags>Dragobete, Romanian love, archaic magic, digital intimacy, algorithmic presence, Hyperion and Cătălina, Romanian mythology, feminine archetypes, AI and emotion, cultural symbolism</tags>
+
+  <description><![CDATA[
+    <strong>Dragobete in the Age of Algorithms and Love</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>This piece reimagines Romanian love</strong> 
+       from archaic ritual to digital intimacy, 
+       exploring how feminine archetypes, ancestral symbolism, 
+       and modern algorithms reshape our emotional landscape. 
+       Through the lens of Dragobete and the Hyperion–Cătălina metaphor, 
+       the essay shows how love endures by migrating across forms—ritual to interface, 
+       magic to code—while preserving its essential mystery.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Nine O'Clock - February 22, 2026 (Sunday) -->
        <item>
