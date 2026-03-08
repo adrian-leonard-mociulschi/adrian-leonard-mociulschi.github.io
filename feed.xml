@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,51 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Revista Cultura - March 08, 2026 (Sunday) -->
+       <item>
+  <title>March 8: The Unseen Faces of Female Courage — Revista Cultura</title>
+  <link>https://revistacultura.ro/8-martie-chipurile-nevazute-ale-curajului-feminin/</link>
+  <guid isPermaLink="false">the-unseen-faces-of-female-courage-v2</guid>
+  <pubDate>Sun, 08 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>8th of March</category>
+  <category>International Women's Day</category>
+
+  <tags>International Women’s Day, women’s rights, gender equality, domestic violence, women’s protection, female courage, legal culture, women’s empowerment, Iulia Dumitru, feminist advocacy, social justice, legal support, domestic abuse, safety and dignity, UN, human rights, resilience, contemporary Romania</tags>
+
+  <description><![CDATA[
+    <strong>When Law Becomes Shelter: Celebrating Women’s Courage on International Women’s Day</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>An essay reflecting on the unseen forms of women’s courage</strong>, 
+       the gap between law and lived reality, 
+       and the quiet strength of those who protect others. 
+       Through the story of attorney Iulia Dumitru, 
+       the text explores how legal care becomes human care on International Women’s Day.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Nine O'Clock - March 05, 2026 (Thursday) -->
        <item>
@@ -50,6 +95,50 @@
        often unseen work where procedure, 
        empathy and institutional responsibility converge 
        to create safety and continuity.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Nine O'Clock"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- Article Revista Cultura - March 01, 2026 (Sunday) -->
+       <item>
+  <title>Liana Alexandra: A Mărțișor for the Brilliance of Romanian Music</title>
+  <link>https://revistacultura.ro/liana-alexandra-un-martisor-pentru-stralucirea-muzicii-romanesti/</link>
+  <guid isPermaLink="false">a-martisor-for-the-brilliance-of-romanian-music-v2</guid>
+  <pubDate>Sun, 01 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>1th of March</category>
+  <category>Romanian folklore</category>
+
+  <tags>Liana Alexandra, Romanian music, women composers, International Women’s Day, Martisor, neo‑consonant music, modern classical music, Romanian culture, Serban Nichifor, contemporary composers</tags>
+
+  <description><![CDATA[
+    <strong>Liana Alexandra: A Trailblazing Voice of Romanian Music</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A tribute to Romanian composer Liana Alexandra (1947–2011)</strong>, 
+       exploring her artistic legacy, 
+       her role as a pioneering woman in modern classical music, 
+       and the cultural significance of her work between March 1st and International Women’s Day.</p>
     <p>
       <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
            alt="Adrian Leonard Mociulschi — Contributors.ro"
