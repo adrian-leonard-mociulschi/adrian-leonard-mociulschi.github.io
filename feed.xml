@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,53 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Cultura - March 12, 2026 (Thursday) -->
+       <item>
+  <title>From the Hexagon to the Infinite</title>
+  <link>https://blog.revistacultura.ro/2026/03/12/from-the-hexagon-to-the-infinite/</link>
+  <guid isPermaLink="false">from-the-hexagon-to-the-infinite-v2</guid>
+  <pubDate>Thu, 12 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Brancusi</category>
+  <category>Anniversaries</category>
+
+  <tags>Brancusi 150, Endless Column, universal geometry, hexagon symbolism, Zhurong rover, Mars polygons, modernism, Rodin, Paris art history, Romanian culture, cosmic forms, cultural legacy, verticality in art, contemporary meaning, Brancusi biography</tags>
+
+  <description><![CDATA[
+    <strong>From Earth to Mars: The Universal Geometry That Defines Brancusi</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A reflection on the 150th anniversary of Constantin Brancusi</strong>, 
+       tracing his journey from rural Romania to Paris, 
+       his break from Rodin, 
+       and the universal geometry that connects his sculptures 
+       to patterns found in nature and even on Mars. 
+       An exploration of why Brancusi’s vertical vision endures 
+       in a world increasingly pressed downward.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Revista Cultura - March 08, 2026 (Sunday) -->
        <item>
