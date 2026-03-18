@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Mar 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,52 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Cultura - March 18, 2026 (Thursday) -->
+       <item>
+  <title>The Apple, the Oscar, and the Hash</title>
+  <link>https://blog.revistacultura.ro/2026/03/18/the-apple-the-oscar-and-the-hash/</link>
+  <guid isPermaLink="false">the-apple-the-oscar-and-the-hash-v2</guid>
+  <pubDate>Thu, 18 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Oscar</category>
+  <category>Prizes</category>
+
+  <tags>prize evolution, cultural legitimacy, algorithmic verification, symbolic recognition, blockchain consensus</tags>
+
+  <description><![CDATA[
+    <strong>The Evolution of the Prize: From Gilgamesh to Bitcoin’s Hash</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A reflection on how cultures define value</strong>,
+       following the arc from mythic emblems and medieval silence 
+       to cinematic spectacle and cryptographic rewards. 
+       It shows how the logic of recognition shifts from symbolic artifacts to algorithmic verification, 
+       revealing a world where legitimacy is no longer granted by institutions 
+       but activated by transparent rules.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Cultura - March 12, 2026 (Thursday) -->
        <item>
