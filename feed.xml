@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Thu, 18 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,51 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Nine O'Clock - March 23, 2026 (Monday) -->
+       <item>
+  <title>What the Mountains Know About Building a Modern Economy, By Adrian Leonard Mociulschi—Special for Nine O’Clock — Nine O'Clock</title>
+  <link>https://nineoclock.ro/2026/03/23/what-the-mountains-know-about-building-a-modern-economy-by-adrian-leonard-mociulschi-special-for-nine-oclock/</link>
+  <guid isPermaLink="false">what-the-mountains-know-v2</guid>
+  <pubDate>Mon, 23 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Instrustry</category>
+  <category>Academy</category>
+
+  <tags>Romania economy, supply chains, industrial strategy, high‑value manufacturing, rare earth elements, Transilvania University of Brașov, Ioan Vasile Abrudan, reindustrialization, strategic autonomy, European Union, value‑added production, aerospace industry, energy security, technological hub, economic policy, modern industry</tags>
+
+  <description><![CDATA[
+    <strong>Reindustrializing Romania: The Strategic Supply Chains Behind a Modern Economy</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A disciplined conversation in Brașov with 
+       Professor Ioan Vasile Abrudan</strong> reveals the operating logic of Romania’s future: 
+       finish supply chains, retain value, and turn resources into real industrial power. 
+       Prosperity isn’t a slogan — it’s a system, and chains must deliver. 
+       In a shifting global landscape, clarity becomes a strategic resource in itself.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Nine O'Clock"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Cultura - March 18, 2026 (Thursday) -->
        <item>
