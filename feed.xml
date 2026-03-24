@@ -71,7 +71,7 @@
 
        <!-- Article Cultura - March 18, 2026 (Thursday) -->
        <item>
-  <title>The Apple, the Oscar, and the Hash</title>
+  <title>The Apple, the Oscar, and the Hash — Revista Cultura</title>
   <link>https://blog.revistacultura.ro/2026/03/18/the-apple-the-oscar-and-the-hash/</link>
   <guid isPermaLink="false">the-apple-the-oscar-and-the-hash-v2</guid>
   <pubDate>Thu, 18 Mar 2026 21:45:00 GMT</pubDate>
@@ -117,7 +117,7 @@
 
        <!-- Article Cultura - March 12, 2026 (Thursday) -->
        <item>
-  <title>From the Hexagon to the Infinite</title>
+  <title>From the Hexagon to the Infinite — Revista Cultura</title>
   <link>https://blog.revistacultura.ro/2026/03/12/from-the-hexagon-to-the-infinite/</link>
   <guid isPermaLink="false">from-the-hexagon-to-the-infinite-v2</guid>
   <pubDate>Thu, 12 Mar 2026 21:45:00 GMT</pubDate>
@@ -144,6 +144,50 @@
     <p>
       <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
            alt="Adrian Leonard Mociulschi — Revista Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- Article România Liberă - March 09, 2026 (Monday) -->
+       <item>
+  <title>Mărțișor and International Women’s Day in Tense Times: What Does Respect for Women Mean Today? — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/martisor-si-8-martie-in-vremuri-tensionate-ce-mai-inseamna-respectul-pentru-femei-astazi/</link>
+  <guid isPermaLink="false">martisor-and-international-womens-day-in-tense-times-v2</guid>
+  <pubDate>Mon, 09 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>8th of March</category>
+  <category>International Women's Day</category>
+
+  <tags>Mărțișor, International Women’s Day, March 8, women’s rights, gender equality, respect for women, cultural traditions Romania, women’s safety, gender-based violence, social ethics, symbolic traditions, AI and society</tags>
+
+  <description><![CDATA[
+    <strong>Respect for Women in Times of Crisis: What Mărțișor and March 8 Still Mean Today</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A reflection on how Mărțișor and International Women’s Day</strong> gain new meaning 
+       in a world shaken by conflict. Beyond seasonal rituals, 
+       the article explores dignity, safety, and the urgent need to protect women’s rights 
+       in an era where symbols must become responsibility.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — România Liberă"
            width="1200" height="1200" />
     </p>
   ]]></content:encoded>
