@@ -69,6 +69,58 @@
   <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
 </item>
 
+       <!-- Article România Liberă - March 22, 2026 (Monday) -->
+       <item>
+  <title>Behind the Scenes of Bitcoin: The Story of the Technology That Changed the World’s Relationship with Trust — România Liberă</title>
+  <link>https://romanialibera.ro/op-ed/opinii/din-culisele-bitcoin-povestea-tehnologiei-care-a-schimbat-relatia-lumii-cu-increderea/</link>
+  <guid isPermaLink="false">behind-the-scenes-of-bitcoin-v2</guid>
+  <pubDate>Sun, 22 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Finances</category>
+  <category>Bitcoin</category>
+
+  <tags>Bitcoin, blockchain, decentralization, cryptography, digital trust, Satoshi Nakamoto, miners, distributed consensus, cultural technology, protocol economy</tags>
+
+  <description><![CDATA[
+    <strong>Bitcoin: The Invisible Architecture of Trust</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A deeper look behind Bitcoin’s surface<>/strong, 
+       far beyond price swings and hype. 
+       This piece traces the system back to its unusual 
+       origins — an anonymous creator who disappeared deliberately, 
+       leaving behind a protocol rather than a legacy of authorship. 
+       It explains how Bitcoin’s architecture replaces institutional trust with mathematical rules, 
+       how miners function as an infrastructural backbone rather than “users,” 
+       and why the year 2140 marks a horizon of completion rather than collapse. 
+       More importantly, it frames blockchain as a cultural technology: 
+       a new way for communities to confirm truth collectively, 
+       without central authorities. 
+      </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article Cultura - March 18, 2026 (Thursday) -->
        <item>
   <title>The Apple, the Oscar, and the Hash — Revista Cultura</title>
