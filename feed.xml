@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,52 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Cultura - March 25, 2026 (Wednesday) -->
+       <item>
+  <title>Maturity in Plain Sight: ECFS, Brașov, and the Short Road from Resource to Value — Cultura</title>
+  <link>https://blog.revistacultura.ro/2026/03/25/maturity-in-plain-sight-ecfs-brasov-and-the-short-road-from-resource-to-value/</link>
+  <guid isPermaLink="false">maturity-in-plain-sight-v2</guid>
+  <pubDate>Wed, 25 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Instrustry</category>
+  <category>Finances</category>
+
+  <tags>ECFS, Brașov, OECD standards, financial education, market maturity, value chains, Romania industry, ISF, ASF, governance, execution capacity, industrial policy, Carfil, IAR, Airbus partnership, strategic resources, magnesium, graphite, nuclear cycle, supply chains, reindustrialization, EU competitiveness, technology transfer</tags>
+
+  <description><![CDATA[
+    <strong>From Raw Materials to Strategic Value: ECFS Brașov and Europe’s New Industrial Logic</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>The ECFS conference in Brașov demonstrates how OECD standards move from rhetoric to execution. 
+       By placing regulators, industry, and academia at the same table, 
+       it reframes Romania’s path from raw resources to full value chains. 
+       With nuclear, aerospace, magnesium, and graphite as strategic examples, 
+       the article shows how governance, industrial architecture, 
+       and institutional competence can turn Romania into a credible European value‑creation hub.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Nine O'Clock - March 23, 2026 (Monday) -->
        <item>
