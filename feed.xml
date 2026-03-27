@@ -24,6 +24,56 @@
       <height>144</height>
     </image>
 
+       <!-- Article Cultura - March 26, 2026 (Thursday) -->
+       <item>
+  <title>The Geometry of Protection — Cultura</title>
+  <link>https://blog.revistacultura.ro/2026/03/26/the-geometry-of-protection/</link>
+  <guid isPermaLink="false">the-geometry-of-protection-v2</guid>
+  <pubDate>Thu, 26 Mar 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Engineering</category>
+  <category>Military</category>
+
+  <tags>structural ethics, geometries of resilience, protective design, material intelligence, Ștefan Niculescu, architectures of endurance</tags>
+
+  <description><![CDATA[
+    <strong>Forms That Protect: From Renaissance Mechanics to Cold War Endurance</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>This article connects three unlikely moments in history to show how protection is 
+       shaped not by force</strong>, but by form. 
+       From Leonardo’s circular armored concept and the minimalist geometry 
+       of the Mareșal prototype to Ștefan Niculescu’s Cold War engineering 
+       and later musical vision, the essay reveals a shared principle: 
+       that structure can safeguard life when circumstances become unstable. 
+       It is a meditation on resilience, 
+       on the ethics embedded in angles and materials, 
+       and on how design — whether mechanical, architectural, or sonic — becomes a quiet act of care.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+
        <!-- Article Cultura - March 25, 2026 (Wednesday) -->
        <item>
   <title>Maturity in Plain Sight: ECFS, Brașov, and the Short Road from Resource to Value — Cultura</title>
