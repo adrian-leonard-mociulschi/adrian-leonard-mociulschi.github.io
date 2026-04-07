@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Wed, 1 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 7 Apr 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -24,6 +24,54 @@
       <height>144</height>
     </image>
 
+       <!-- Article România Liberă - April 07, 2026 (Tuesday) -->
+       <item>
+  <title>What Will the Future look like When the Moon Becomes a Second Home for Humanity? — România Liberă</title>
+  <link>https://romanialibera.ro/la-zi/cum-arata-viitorul-in-care-luna-devine-a-doua-casa-a-omenirii/</link>
+  <guid isPermaLink="false">what-will-the-future-look-like-v2</guid>
+  <pubDate>Tue, 7 Apr 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Space</category>
+  <category>Moon</category>
+
+  <tags>Moon colonization, Artemis II, NASA Artemis program, human return to the Moon, lunar bases, space exploration future, Orion spacecraft, Space Launch System, Moon as second home, deep space missions, human spaceflight, journey to the Moon, post‑Apollo era, lunar exploration, path to Mars</tags>
+
+  <description><![CDATA[
+    <strong>From Artemis II to Lunar Bases: The Future of Human Life on the Moon</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>For the first time in more than five decades, humanity is heading back toward the Moon</strong>. 
+       Artemis II marks the return of crewed lunar missions, not as a symbolic replay of Apollo, 
+       but as the foundation of a sustained human presence beyond Earth. 
+       This mission redefines the Moon as a strategic outpost—part laboratory, 
+       part shelter, part gateway—preparing the ground for lunar bases, 
+       long‑duration spaceflight, and the future journey to Mars. 
+       The age of episodic exploration is ending; a new chapter of cosmic continuity is beginning.
+      </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — România Liberă"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+       
        <!-- Article Nine O'Clock - March 30, 2026 (Monday) -->
        <item>
   <title>You’ve Never Heard Silence Until You’ve Heard Marian Borkowski — Nine O'Clock</title>
