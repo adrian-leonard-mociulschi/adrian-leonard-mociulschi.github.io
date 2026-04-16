@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Mon,13 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,54 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Cultura - April 11, 2026 (Saturday) -->
+       <item>
+  <title>Culture Between Code and Consciousness — Cultura</title>
+  <link>https://blog.revistacultura.ro/2026/04/16/culture-between-code-and-consciousness/</link>
+  <guid isPermaLink="false">bachs-easter-oratorio-v2</guid>
+  <pubDate>Thu, 16 Apr 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Technology</category>
+  <category>AI</category>
+
+  <tags>digital culture and human freedom, future of education, AI and human consciousness, technology and cultural identity, learning in a hybrid digital world</tags>
+
+  <description><![CDATA[
+    <strong>Culture as Orientation: Education, Freedom, and Meaning in a Digital World</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>As digital technologies reshape education and everyday cognition</strong>, 
+       this essay examines culture as the interpretive framework that renders technological progress meaningful. 
+       Moving beyond metrics and automation, 
+       it argues that freedom emerges not from unlimited choice, 
+       but from cultural orientation, memory, and discernment. 
+       In the space between code and consciousness, 
+       culture becomes the condition that allows learning, identity, 
+       and human presence to endure in a hybrid—both virtual and lived—world.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Cultura - April 11, 2026 (Saturday) -->
        <item>
@@ -43,7 +91,7 @@
   ]]></description>
 
   <content:encoded><![CDATA[
-    <p>A reflection on Bach’s Easter Oratorio and Ștefan Niculescu’s Requiem</strong> as two ascents across time—one tonal, 
+    <p><strong>A reflection on Bach’s Easter Oratorio and Ștefan Niculescu’s Requiem</strong> as two ascents across time—one tonal, 
        one spectral—revealing how music can still guide us upward in an age that flattens meaning.</p>
     <p>
       <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
