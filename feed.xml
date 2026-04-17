@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,62 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Cultura - April 11, 2026 (Saturday) -->
+       <item>
+  <title>From Craftsmanship to AI: What We’ve Lost Along the Way — Știri pe Surse</title>
+  <link>https://www.stiripesurse.ro/de-la-mestesug-la-ai-ce-am-pierdut-pe-drum_3878425</link>
+  <guid isPermaLink="false">from-craftmanship-to-ai</guid>
+  <pubDate>Fri, 17 Apr 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Technoculture</category>
+  <category>Artificial Intelligence</category>
+
+  <tags>Digital Literacy,
+     Practical Education, Skills for the Future,
+     Craftsmanship, Applied Knowledge,
+     Cultural Literacy, Human Competence,
+     Financial Literacy, Economic Awareness,
+     Technology and Society, Work Ethics,
+     AI as a Tool, Education Reform,
+     Contemporary Society</tags>
+
+  <description><![CDATA[
+    <strong>What We Lost — and Gained — on the Road to AI</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>In an age shaped by Artificial Intelligence</strong>, 
+       competence can no longer be reduced to formal knowledge or technological enthusiasm. 
+       This essay argues that true competence today emerges from the continuity between cultural literacy, 
+       practical skills, digital understanding, and financial awareness. 
+       By drawing a line from traditional craftsmanship to contemporary AI tools, 
+       the text reframes technology not as a replacement for human judgment, 
+       but as an instrument whose value depends on the user’s discernment. 
+       What ultimately matters is not how advanced our tools are, 
+       but how well we understand and use them in a complex, accelerated society.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Știri pe Surse"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Cultura - April 11, 2026 (Saturday) -->
        <item>
