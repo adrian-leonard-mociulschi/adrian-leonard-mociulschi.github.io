@@ -24,6 +24,51 @@
       <height>144</height>
     </image>
 
+       <!-- Article Cultura - April 22, 2026 (Saturday) -->
+       <item>
+  <title>International Humanitarian Law in Complex Operational Environments — Cultura</title>
+  <link>https://blog.revistacultura.ro/2026/04/20/international-humanitarian-law-in-complex-operational-environments/</link>
+  <guid isPermaLink="false">bachs-easter-oratorio-v2</guid>
+  <pubDate>Wed, 22 Apr 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Law</category>
+  <category>Army</category>
+
+  <tags>international humanitarian law, complex operational environments, multinational military operations, command responsibility, legal accountability, laws of armed conflict, military law, NATO operations, emerging military technologies, rules of engagement, post‑mission accountability, civil‑military relations, international legal frameworks, operational decision‑making, military personnel protection</tags>
+
+  <description><![CDATA[
+    <strong>Humanitarian Law Between Legal Certainty and Operational Reality</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>A concise legal dialogue on how international humanitarian law</strong> operates 
+       under the pressure of multinational commands, advanced technologies, 
+       and accelerated military decision‑making. 
+       The discussion highlights command responsibility, 
+       legal risk, and post‑mission accountability in modern operations.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Cultura"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Article Nine O'Clock - April 19, 2026 (Sunday) -->
        <item>
   <title>Military Service Ends, State Commitments Remains — Nine O'Clock</title>
@@ -71,7 +116,7 @@
   <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
 </item>
 
-       <!-- Article Cultura - April 11, 2026 (Saturday) -->
+       <!-- Article stiripesurse.ro - April 11, 2026 (Saturday) -->
        <item>
   <title>From Craftsmanship to AI: What We’ve Lost Along the Way — Știri pe Surse</title>
   <link>https://www.stiripesurse.ro/de-la-mestesug-la-ai-ce-am-pierdut-pe-drum_3878425</link>
