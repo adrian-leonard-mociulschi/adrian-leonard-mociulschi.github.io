@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,54 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Nine O'Clock - April 23, 2026 (Thursday) -->
+       <item>
+  <title>From Air Defense to Space Security: Romania at the Threshold of a New Strategic Domain — Nine O'Clock</title>
+  <link>https://nineoclock.ro/from-air-defense-to-space-security-romania-at-the-threshold-of-a-new-strategic-domain-by-dr-adrian-leonard-mociulschi-special-for-nine-oclock/</link>
+  <guid isPermaLink="false">bachs-easter-oratorio-v2</guid>
+  <pubDate>Thu, 23 Apr 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Space</category>
+  <category>Star Wars</category>
+
+  <tags>space security, air defense, Artemis II, Romania space policy, military space domain, space law, Outer Space Treaty, G‑forces and spaceflight, human limits in flight, aerospace strategy, NATO space security, European Space Agency, Romanian Space Agency, EMISAR satellite, U.S. Space Force</tags>
+
+  <description><![CDATA[
+    <strong>Space as a Strategic Domain: Aviation, Law, and Security Beyond Earth</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>As humanity returns to crewed spaceflight</strong>, 
+       this interview examines space as a strategic extension of military aviation 
+       rather than a radical rupture from it. 
+       General (Ret.) Ștefan Dănilă reflects on human limits, 
+       operational continuity, and the legal order governing space, 
+       placing Artemis II within today’s emerging security competition. 
+       The dialogue highlights Romania’s challenge of moving from symbolic presence 
+       toward meaningful integration in European and allied space frameworks.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi — Nine O'Clock"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Cultura - April 22, 2026 (Saturday) -->
        <item>
