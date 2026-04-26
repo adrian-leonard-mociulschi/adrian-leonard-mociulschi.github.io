@@ -467,16 +467,3 @@ body {
     text-shadow: 0 1px 0 rgba(0,0,0,.35);
   }
 }
-
-/* === News Ticker ==================== */
-
-.news-ticker .ticker-text{
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.news-ticker .ticker-text:hover,
-.news-ticker .ticker-text:focus-visible{
-  text-decoration: underline;
-  outline: none;
-}
