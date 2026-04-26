@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,57 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Article Cultura - April 26, 2026 (Sunday) -->
+       <item>
+  <title>Procedural Power in the Age of Technology — stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/puterea-procedurala-in-era-tehnologiei_3881050</link>
+  <guid isPermaLink="false">when-utopia-turns-v2</guid>
+  <pubDate>Sun, 26 Apr 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Public administration</category>
+  <category>Political philosophy</category>
+
+  <tags>procedural power, algorithmic governance, institutional memory, rule‑based systems, transparency, accountability, digital state, administrative consistency, human responsibility</tags>
+
+  <description><![CDATA[
+    <strong>Why Algorithms Belong to Procedure, Not to Power</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>The text examines how procedural power</strong>, 
+       rather than decision‑making authority, can be strengthened 
+       through technology in public administration. 
+       It argues that algorithmic systems should not replace human judgment, 
+       but consistently apply democratically approved rules, reducing arbitrariness, 
+       loss of information, and unequal treatment. 
+       Properly governed, such systems enhance transparency, 
+       institutional memory, and accountability. 
+       The goal is not an automated state, 
+       but an ordered one—where humans decide, algorithms execute, 
+       and procedures are applied uniformly.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Article Cultura - April 24, 2026 (Friday) -->
        <item>
