@@ -174,3 +174,15 @@ body{
   }
   html{ scroll-behavior:auto; }
 }
+
+/* ===== Ticker ================================================= */
+.news-ticker .ticker-text{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.news-ticker .ticker-text:hover,
+.news-ticker .ticker-text:focus-visible{
+  text-decoration: underline;
+  outline: none;
+}
