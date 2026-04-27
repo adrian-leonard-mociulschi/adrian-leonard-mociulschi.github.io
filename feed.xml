@@ -12,7 +12,7 @@
     <category>Technoculture</category>
     <category>Ethical AI</category>
     <pubDate>Wed, 13 Aug 2025 14:10:00 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -24,7 +24,59 @@
       <height>144</height>
     </image>
 
-       <!-- Article Cultura - April 26, 2026 (Sunday) -->
+       <!-- Article StiriPeSurse - April 27, 2026 (Monday) -->
+       <item>
+  <title>Harta puterii se redesenează: Ormuz, Suez și mutarea neașteptată a României — stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/harta-puterii-se-redeseneaza-ormuz-suez-si-mutarea-neasteptata-a-romaniei_3881168</link>
+  <guid isPermaLink="false">harta-puterii-se-redeseneaza-v2</guid>
+  <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Geopolitica</category>
+  <category>Geoeconomie</category>
+
+  <tags>Strâmtoarea Ormuz, Canalul Suez, geografie strategică, rute comerciale globale, securitate energetică, lanțuri de aprovizionare, geopolitică energetică, piețe globale, vulnerabilitate sistemică, Marea Neagră, resurse offshore, România energetică, stabilitate regională, infrastructură strategică, echilibru geopolitic</tags>
+
+  <description><![CDATA[
+    <strong>Strâmtori, energie și echilibru: o lectură geopolitică a prezentului</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Textul analizează rolul strâmtorilor Ormuz și Suez</strong>
+       ca noduri critice ale economiei globale, 
+       evidențiind modul în care geografia continuă să structureze raporturile de putere 
+       și vulnerabilitățile energetice. 
+       Printr-o lectură istorică și geostrategică, 
+       articolul arată că perturbările locale pot genera efecte sistemice într-o economie globalizată, 
+       caracterizată de lanțuri de aprovizionare fragile. 
+       În acest context, 
+       România este abordată ca actor regional 
+       capabil să contribuie la stabilitate energetică 
+       prin poziția sa la Marea Neagră și prin exploatarea responsabilă a resurselor disponibile. 
+       Stabilitatea apare astfel ca valoare strategică centrală într-un context internațional incert.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- Article StiriPeSurse - April 26, 2026 (Sunday) -->
        <item>
   <title>Procedural Power in the Age of Technology — stiripesurse.ro</title>
   <link>https://www.stiripesurse.ro/puterea-procedurala-in-era-tehnologiei_3881050</link>
