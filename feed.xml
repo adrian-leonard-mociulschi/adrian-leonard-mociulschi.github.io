@@ -73,6 +73,50 @@
   <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
 </item>
 
+       <!-- Revista Cultura - 4 Mai 2026 (Luni) -->
+       <item>
+  <title>Cultura de masă nu refuză tradiția: refuză validarea centralizată și instituționalizată — revistacultura.ro</title>
+  <link>https://revistacultura.ro/cultura-de-masa-nu-refuza-traditia-refuza-validarea-centralizata-si-institutionalizata/</link>
+  <guid isPermaLink="false">cultura-de-masa-nu-refuza-traditia-v2</guid>
+  <pubDate>Mon, 04 May 2026 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Cultură</category>
+  <category>Metacultura</category>
+
+  <tags>ritualuri sociale, autoritate culturală, conformare simbolică, putere și cultură, capital simbolic, legitimitate culturală</tags>
+
+  <description><![CDATA[
+    <strong>Despre autoritate, performance și sfârșitul rarității culturale</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Cultura de masă nu distruge tradiția</strong>, 
+       ci pune sub semnul întrebării validarea centralizată și obediența instituțională. 
+       Descentralizarea algoritmică mută meritul din afiliere în relevanță, 
+       iar cultura devine un ecosistem deschis, al abundenței și participării reale.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- Articol StiriPeSurse - 30 Aprilie 2026 (Thursday) -->
        <item>
   <title>Marea Neagră și noua arhitectură strategică a conectivității europene — stiripesurse.ro</title>
