@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Thu, 7 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -24,12 +24,60 @@
       <height>144</height>
     </image>
 
+       <!-- Contributors.ro - 9 Mai 2026 (Sâmbătă) -->
+       <item>
+  <title>Cum ar arăta România cu guvernanță algoritmică — contributors.ro</title>
+  <link>https://www.contributors.ro/cum-ar-arata-romania-cu-guvernanta-algoritmica/</link>
+  <guid isPermaLink="false">cum-ar-arata-romania-cu-guvernanta-algoritmica-v2</guid>
+  <pubDate>Sat, 09 May 21:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Politică</category>
+  <category>Administrație</category>
+
+  <tags>guvernanță algoritmică, AI în administrație, stat digital, transparență instituțională, decizie asistată, blockchain guvernamental, human‑in‑the‑loop, servicii publice digitale, responsabilitate algoritmică, Contributors, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>Statul asistat de algoritmi: cum AI poate aduce eficiență, trasabilitate și încredere în administrația publică</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>România nu are nevoie de un stat „automat”</strong>, 
+       ci de unul care funcționează.
+       Guvernanța algoritmică nu înseamnă decizie fără oameni, 
+       ci procedură fără arbitrar: transparență, trasabilitate 
+       și servicii publice care răspund în timp real. 
+       Oamenii decid, algoritmii țin ritmul, 
+       iar protocolul înlocuiește bâlbâiala.
+</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- România Liberă - 6 Mai 2026 (Miercuri) -->
        <item>
   <title>Când zeii se ceartă: anatomia unui Ragnarök politic anunțat — romanialibera.ro</title>
   <link>https://romanialibera.ro/op-ed/opinii/cand-zeii-se-cearta-anatomia-unui-ragnarok-politic-anuntat/</link>
   <guid isPermaLink="false">cand-zeii-se-cearta-anatomia-unui-ragnarok-politic-anuntat-v2</guid>
-  <pubDate>Wed, 06 Apr May 21:45:00 GMT</pubDate>
+  <pubDate>Wed, 06 May 21:45:00 GMT</pubDate>
 
   <author>Adrian Leonard Mociulschi</author>
   <category>Politică</category>
