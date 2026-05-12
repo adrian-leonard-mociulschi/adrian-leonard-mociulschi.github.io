@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Mon, 11 May 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -23,6 +23,51 @@
       <width>144</width>
       <height>144</height>
     </image>
+
+       <!-- Listă Articole -->
+       
+       <!-- România Liberă - 12 Mai 2026 (Marți) -->
+       <item>
+  <title>Cât de independentă mai este România în 2026 — romanialibera.ro</title>
+  <link>https://romanialibera.ro/la-zi/cat-de-independenta-mai-este-romania-in-2026/</link>
+  <guid isPermaLink="false">cat-de-independenta-mai-este-Romania-in-2026-v2</guid>
+  <pubDate>Tue, 12 May 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Politică</category>
+  <category>Editorial</category>
+
+  <tags>10 Mai, Ziua Independenței Naționale, România Liberă, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>10 Mai, Ziua Independenței și lecția deciziei</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Ce mai înseamnă independența României în 2026?</strong> 
+       Nu retorică, ci decizie, instituții funcționale 
+       și capacitate industrială într‑o Europă aflată sub presiune.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Articol StiriPeSurse - 11 Mai 2026 (Luni) -->
        <item>
