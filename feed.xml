@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Tue, 12 May 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,98 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- România Liberă - 20 Mai 2026 (Miercuri) -->
+       <item>
+  <title>După Lună și Marte: cum vede o mare agenție viitorul explorării spațiului — romanialibera.ro</title>
+  <link>https://romanialibera.ro/op-ed/opinii/dupa-luna-si-marte-cum-vede-o-mare-agentie-viitorul-explorarii-spatiului/</link>
+  <guid isPermaLink="false">noua-ordine-industriala-a-europei-v2</guid>
+  <pubDate>Wed, 20 May 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Explorare spațială, JAXA, România Liberă, Adrian Leonard Mociulschi, Spațiul cosmic</tags>
+
+  <description><![CDATA[
+    <strong>JAXA și noua eră a explorării spațiale</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Un dialog cu Agenția Japoneză de Explorare Aerospațială (JAXA) 
+       despre modul în care explorarea spațiului își redefinește sensul în prezent. 
+       Între misiuni umane, imaginar colectiv și arhitecturi tehnologice, 
+       textul conturează o viziune coerentă asupra viitorului: 
+       spațiul ca infrastructură a cunoașterii și ca loc în care 
+       umanitatea își negociază direcția.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- România Liberă - 19 Mai 2026 (Marți) -->
+       <item>
+  <title>Noua ordine industrială a Europei: reguli, putere și cine va conta cu adevărat — romanialibera.ro</title>
+  <link>https://romanialibera.ro/op-ed/opinii/noua-ordine-industriala-a-europei-reguli-putere-si-cine-va-conta-cu-adevarat/</link>
+  <guid isPermaLink="false">noua-ordine-industriala-a-europei-v2</guid>
+  <pubDate>Tue, 19 May 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Economie politică</category>
+  <category>Editorial</category>
+
+  <tags>Europa, Noua Ordine Industrială, România Liberă, Adrian Leonard Mociulschi, Summit Bruxelles</tags>
+
+  <description><![CDATA[
+    <strong>Tic Summit 2026: Noua Ordine Industrială a Europei</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Europa își redefinește ordinea industrială</strong> prin convergența dintre putere, 
+       reguli, scală și încredere, 
+       transformând industria într-un instrument strategic al securității și influenței. 
+       În acest context, poziția României depinde nu de prezență, 
+       ci de capacitatea de a deveni un nod esențial într-un sistem integrat, 
+       unde relevanța se construiește prin contribuție și coerență.</p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
        
        <!-- România Liberă - 12 Mai 2026 (Marți) -->
        <item>
