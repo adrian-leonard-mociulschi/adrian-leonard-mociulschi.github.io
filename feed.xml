@@ -28,6 +28,50 @@
 
        <!-- România Liberă - 10 Iunie 2026 (Miercuri) -->
        <item>
+  <title>Oceanele nu doar se încălzesc. Ele rescriu lumea– romanialibera.ro</title>
+  <link>https://romanialibera.ro/op-ed/opinii/oceanele-nu-doar-se-incalzesc-ele-rescriu-lumea/</link>
+  <guid isPermaLink="false">oceanele-nu-doar-se-incalzesc-v2</guid>
+  <pubDate>Web, 10 June 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Op-Ed</category>
+  <category>Dezastre naturale</category>
+
+  <tags>schimbări climatice, încălzire globală, AMOC, România Liberă, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>Oceanul în criză: redefinirea condițiilor vieții</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Oceanele nu doar se încălzesc</strong> — ele rescriu condițiile existenței globale. 
+       Dezechilibrele marine devin astăzi factori activi în climă, economie și securitate, 
+       într-o lume care își pierde stabilitatea din adâncuri.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- România Liberă - 10 Iunie 2026 (Miercuri) -->
+       <item>
   <title>Când aviația nu mai are răspunsuri– romanialibera.ro</title>
   <link>https://romanialibera.ro/op-ed/opinii/cand-aviatia-nu-mai-are-raspunsuri/</link>
   <guid isPermaLink="false">cand-aviatia-nu-mai-are-raspunsuri-v2</guid>
@@ -45,7 +89,7 @@
   ]]></description>
 
   <content:encoded><![CDATA[
-    <p><strong>Aviația atinge performanțe istorice, 
+    <p><strong>Aviația atinge performanțe istorice</strong>, 
        dar nu elimină misterul: de la MH370 și Earhart la dispariția Concorde, 
        există limite pe care nici tehnologia nu le poate închide complet.
      </p>
