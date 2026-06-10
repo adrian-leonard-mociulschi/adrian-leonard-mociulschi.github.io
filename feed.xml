@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sun, 31 May 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 June 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -26,31 +26,28 @@
 
        <!-- Listă Articole -->
 
-       <!-- Articol StiriPeSurse - 31 Mai 2026 (Duminică) -->
+       <!-- România Liberă - 10 Iunie 2026 (Miercuri) -->
        <item>
-  <title>Ce NU se spune despre drone: explicațiile fostului șef al Armatei Române - INTERVIU – stiripesurse.ro</title>
-  <link>https://www.stiripesurse.ro/ce-nu-se-spune-despre-drone-explicatiile-fostului-sef-al-armatei-romane-interviu_3890823</link>
-  <guid isPermaLink="false">ce-nu-se-spune-despre-drone-v2</guid>
-  <pubDate>Sun, 31 May 2026 12:45:00 GMT</pubDate>
+  <title>Când aviația nu mai are răspunsuri– romanialibera.ro</title>
+  <link>https://romanialibera.ro/op-ed/opinii/cand-aviatia-nu-mai-are-raspunsuri/</link>
+  <guid isPermaLink="false">cand-aviatia-nu-mai-are-raspunsuri-v2</guid>
+  <pubDate>Web, 10 June 2026 12:45:00 GMT</pubDate>
 
   <author>Adrian Leonard Mociulschi</author>
-  <category>Interview</category>
-  <category>Exclusiv</category>
+  <category>Op-Ed</category>
+  <category>Dezastre aeriene</category>
 
-  <tags>Galați, drone, Inteligență Artificială, General Ștefan Dănilă, Adrian Leonard Mociulschi, stiripesurse</tags>
+  <tags>aviație, aeronautică, Amelia Earhart, România Liberă, Adrian Leonard Mociulschi, Concorde</tags>
 
   <description><![CDATA[
-    <strong>Cum schimbă dronele războiul: explicațiile fostului șef al Armatei Române</strong><br/>
+    <strong>Misterele Aviației: de la MH370 la Concorde</strong><br/>
     <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
   ]]></description>
 
   <content:encoded><![CDATA[
-    <p><strong>Material exclusiv realizat cu generalul Ștefan Dănilă</strong>, 
-       fost Șef al Statului Major General, 
-       despre rolul dronelor în conflictele contemporane și transformările profunde 
-       pe care acestea le aduc în arhitectura războiului modern. 
-       Dialogul abordează teme esențiale precum dificultatea de detectare și neutralizare a acestor sisteme, 
-       logica operațională a roiurilor de drone și integrarea Inteligenței Artificiale în procesul decizional.
+    <p><strong>Aviația atinge performanțe istorice, 
+       dar nu elimină misterul: de la MH370 și Earhart la dispariția Concorde, 
+       există limite pe care nici tehnologia nu le poate închide complet.
      </p>
     <p>
       <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
