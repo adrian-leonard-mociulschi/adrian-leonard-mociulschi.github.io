@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Tue, 16 June 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 June 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,54 @@
     </image>
 
        <!-- Listă Articole -->
+
+        <!-- romanialibera.ro - 17 Iunie 2026 (Miercuri) -->
+       <item>
+  <title>Războiul nu mai este unde crezi – romanialibera.ro</title>
+  <link>https://romanialibera.ro/op-ed/opinii/razboiul-nu-mai-este-unde-crezi/</link>
+  <guid isPermaLink="false">razboiul-nu-mai-este-unde-crezi-v2</guid>
+  <pubDate>Wed, 17 June 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Editorial</category>
+  <category>Opinions</category>
+
+  <tags>drone, tehnologii militare, UACV, România Liberă, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>Războiul algoritmic: dronele schimbă frontul</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Un editorial despre transformarea profundă a războiului contemporan, 
+       în care tehnologia — în special dronele și inteligența artificială — mută centrul confruntării 
+       de pe front în zona deciziei. 
+       Textul analizează trecerea de la războiul direct la unul distribuit, 
+       autonom și greu de observat, unde rolul omului nu dispare, 
+       ci se redefinește ca instanță de interpretare 
+       și control într-un ecosistem dominat de sisteme inteligente.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
         <!-- stiripesurse.ro - 16 Iunie 2026 (Marți) -->
        <item>
