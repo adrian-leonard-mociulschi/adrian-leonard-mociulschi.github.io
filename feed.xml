@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Wed, 24 June 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 July 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,53 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- stiripesurse.ro - 03 Iulie 2026 (Vineri) -->
+       <item>
+  <title>Ce au văzut astronauții pe partea nevăzută a Lunii? Răspunsurile NASA pentru stiripesurse.ro – INTERVIU – stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/ce-au-vazut-astronautii-pe-partea-nevazuta-a-lunii-raspunsurile-nasa-pentru-stiripesursero-interviu_3900288</link>
+  <guid isPermaLink="false">ce-au-vazut-astronautii-pe-partea-navazuta-a-lunii-v2</guid>
+  <pubDate>Fri, 03 July 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Interviu</category>
+  <category>Exclusiv</category>
+
+  <tags>NASA, Artemis II, Lună, partea nevăzută a Lunii, astronauți, explorare spațială, programul Artemis, Orion, eclipsă solară, Marte, NASA interviu, misiuni lunare, baza lunară, viitorul explorării spațiale, Agenția Spațială Americană, zbor cu echipaj uman, stiripesurse, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>NASA despre Artemis II: de la partea nevăzută a Lunii la viitoarele misiuni spre Marte</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Ce au văzut astronauții pe partea nevăzută a Lunii?</strong> 
+       Într-un dialog acordat pentru Știripesurse, 
+       NASA vorbește despre misiunea Artemis II, 
+       despre experiențele unice trăite de echipaj în apropierea Lunii 
+       și despre planurile care pregătesc drumul către Marte. 
+       O incursiune în viitorul explorării umane a spațiului. 
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- romanialibera.ro - 24 Iunie 2026 (Miercuri) -->
        <item>
