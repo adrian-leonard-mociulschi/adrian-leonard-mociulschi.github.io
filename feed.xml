@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sat, 04 July 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 July 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,50 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- stiripesurse.ro - 09 Iulie 2026 (Joi) -->
+       <item>
+  <title>EXCLUSIV | Un român din conducerea tehnică a CERN vorbește despre viitorul Universului și Inteligența Artificială – stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/un-roman-de-la-cern-noile-date-ar-putea-duce-la-descoperiri-dincolo-de-ceea-ce-stim-astazi-despre-univers_3901868</link>
+  <guid isPermaLink="false">un-roman-din-conducerea-tehnica-cern-vorbeste-despre-viitorul-universului-v2</guid>
+  <pubDate>Thu, 09 July 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Interviu</category>
+  <category>Exclusiv</category>
+
+  <tags>CERN, Ioan Kozsar, Adrian Leonard Mociulschi, Știripesurse.ro, Large Hadron Collider, LHC, High-Luminosity LHC, Inteligența Artificială, fizica particulelor, cercetare fundamentală, accelerator de particule, Bosonul Higgs, explorarea Universului, inovație tehnologică, comunicare științifică, White Rabbit, știință și societate, tehnologie emergentă, descoperiri științifice, Geneva</tags>
+
+  <description><![CDATA[
+    <strong>Un român de la CERN: 'Noile date ar putea duce la descoperiri dincolo de ceea ce știm astăzi despre Univers'</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Un dialog despre știință, tehnologie și viitor</strong>,
+       realizat direct cu unul dintre specialiștii aflați 
+       în proximitatea unor proiecte care modelează cercetarea fundamentală a secolului XXI.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- stiripesurse.ro - 04 Iulie 2026 (Sâmbătă) -->
        <item>
