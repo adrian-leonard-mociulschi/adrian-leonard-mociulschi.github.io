@@ -85,7 +85,7 @@
 
 <!-- Structured Data (JSON-LD: CollectionPage, BreadcrumbList, CreativeWork) -->
 
-<!-- Structured Data (JSON-LD: CollectionPage, BreadcrumbList, WebSite) -->
+<!-- Structured Data (JSON-LD: CollectionPage, BreadcrumbList, WebSite) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -96,54 +96,85 @@
       "url": "https://adrian-leonard-mociulschi.github.io/",
       "name": "Adrian Leonard Mociulschi",
       "inLanguage": "ro-RO",
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" }
+      "publisher": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      }
     },
     {
       "@type": "Person",
       "@id": "https://adrian-leonard-mociulschi.github.io/#person",
-      "description": "Un ambasador simbolic al tehnoculturii: o colecție cuprinzătoare de resurse la intersecția dintre cultură și cod, incluzând ecologii simbolice, viziuni Web3 și IA etică.",
       "name": "Adrian Leonard Mociulschi",
-      "url": "https://adrian-leonard-mociulschi.github.io/"
+      "url": "https://adrian-leonard-mociulschi.github.io/",
+      "description": "Ambasador simbolic al tehnoculturii, autor și cercetător preocupat de relația dintre cultură, tehnologie, Inteligența Artificială și transformările societății contemporane."
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs",
+      "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://adrian-leonard-mociulschi.github.io/" },
-        { "@type": "ListItem", "position": 2, "name": "Writings", "item": "https://adrian-leonard-mociulschi.github.io/writings" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://adrian-leonard-mociulschi.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Virtual Box",
+          "item": "https://adrian-leonard-mociulschi.github.io/vbox"
+        }
       ]
     },
     {
       "@type": "CollectionPage",
       "@id": "https://adrian-leonard-mociulschi.github.io/vbox#page",
-      "url": "https://adrian-leonard-mociulschi.github.io/vbox”,
-      "name": "Writings — Adrian Leonard Mociulschi",
-      "description": "Rezumatele în limba română ale articolelor semnate de Adrian Leonard Mociulschi despre tehnocultură, inteligența artificială, geopolitică și viitor.",
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [
-          "headline",
-          "description"
-        ]
+      "url": "https://adrian-leonard-mociulschi.github.io/vbox",
+      "name": "Virtual Box — Adrian Leonard Mociulschi",
+      "description": "Eseuri și analize despre Inteligența Artificială, administrația algoritmică, cultură, cercetare științifică, educație, geopolitică și transformările societății contemporane.",
+      "isPartOf": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#website"
       },
-      "isPartOf": { "@id": "https://adrian-leonard-mociulschi.github.io/#website" },
       "inLanguage": "ro-RO",
       "about": [
-        { "@type": "Thing", "name": "contributors" },
-        { "@type": "Thing", "name": "Adrian Leonard Mociulschi" },
-        { "@type": "Thing", "name": "AI" },
+        {
+          "@type": "Thing",
+          "name": "Contributors"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adrian Leonard Mociulschi"
+        },
+        {
+          "@type": "Thing",
+          "name": "Inteligența Artificială"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tehnocultură"
+        },
+        {
+          "@type": "Thing",
+          "name": "Administrație algoritmică"
+        }
       ],
-      "author": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "publisher": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-      "breadcrumb": { "@id": "https://adrian-leonard-mociulschi.github.io/writings#breadcrumbs" },
-      "datePublished": "2026-07-12T00:00:00+02:00",
-      "dateModified": "2026-07-12T00:00:00+02:00",
+      "author": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      },
+      "publisher": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      },
+      "breadcrumb": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/vbox#breadcrumbs"
+      },
+      "datePublished": "2026-07-12T00:00:00+03:00",
+      "dateModified": "2026-07-12T00:00:00+03:00",
       "copyrightYear": "2026",
-      "copyrightHolder": { "@id": "https://adrian-leonard-mociulschi.github.io/#person" },
-
+      "copyrightHolder": {
+        "@id": "https://adrian-leonard-mociulschi.github.io/#person"
+      },
       "mainEntity": {
         "@type": "ItemList",
-        "itemListOrder": "http://schema.org/ItemListOrderAscending",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "numberOfItems": 1,
         "itemListElement": [
           {
