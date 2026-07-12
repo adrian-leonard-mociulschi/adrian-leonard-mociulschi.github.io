@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Thu, 09 July 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 July 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,56 @@
     </image>
 
        <!-- Listă Articole -->
+
+        <!-- contributors.ro - 12 Iulie 2026 (Joi) -->
+       <item>
+  <title>
+Când cifrele înlocuiesc notele: Ștefan Niculescu, Echos și cele 21 de lumi muzicale posibile – contributors.ro</title>
+  <link>https://www.contributors.ro/cand-cifrele-inlocuiesc-notele-stefan-niculescu-echos-si-cele-21-de-lumi-muzicale-posibile/</link>
+  <guid isPermaLink="false">cand-cifrele-inlocuiesc-notele-stefan-niculescu-echos-si-cele-21-v2</guid>
+  <pubDate>Sun, 12 July 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Articol</category>
+  <category>Cercetare științifică</category>
+
+  <tags>Ștefan Niculescu, Echos, muzică și matematică, combinatorică muzicală, teoria mulțimilor, permutări cu repetiție, muzică algoritmică, compoziție muzicală, vioară solo, structuri generative, limbaje formale, automate finite, gramatici generative, spațiu latent, Inteligența Artificială, AI generativă, Python</tags>
+
+  <description><![CDATA[
+    <strong>21 de lumi sonore din șapte intervale: secretul matematic al lui Ștefan Niculescu</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Din numai șapte intervale și o formulă de combinatorică, 
+       Ștefan Niculescu construiește douăzeci și una de lumi sonore posibile. 
+       Pornind de la lucrarea Echos pentru vioară solo, 
+       textul explorează întâlnirea surprinzătoare dintre muzică, 
+       matematică și gândirea algoritmică, 
+       revelând un univers componistic 
+       în care regulile generează posibilități, 
+       iar cifrele devin sursa creației artistice.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- stiripesurse.ro - 09 Iulie 2026 (Joi) -->
        <item>
