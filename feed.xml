@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Tue, 14 July 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 July 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,54 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- Nine O'Clock - July 19, 2026 (Sunday) -->
+       <item>
+  <title>Between Discipline and Calling: A Conversation with TAROM Boeing 737 First Officer George Ancuța – Nine O'Clock</title>
+  <link>https://nineoclock.ro/between-discipline-and-calling-a-conversation-with-tarom-boeing-737-first-officer-george-ancuta-by-dr-adrian-leonard-mociulschi/</link>
+  <guid isPermaLink="false">between-discipline-and-calling-a-conversation-with-tarom-boeing-737-first-officer-v2</guid>
+  <pubDate>Sun, 19 July 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Interview</category>
+  <category>Exclusive</category>
+
+  <tags>Romanian Aviation Day, TAROM, George Ancuța, Boeing 737, airline pilot, commercial aviation, cockpit procedures, flight safety, aviation discipline, pilot training, flight operations, turbulence, aviation career, cockpit interview, Romanian aviation, airline industry, aviation leadership, aviation professionalism, passenger safety, Boeing 737 First Officer, aviation inspiration, aviation excellence, aviation culture, airline cockpit, aviation responsibility, Nine O’Clock, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>Inside the Cockpit: TAROM Pilot George Ancuța on Flight Safety, Training and Aviation Excellence</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>On Romanian Aviation Day</strong>, 
+       TAROM Boeing 737 First Officer George Ancuța 
+       shares insights into cockpit procedures, 
+       flight safety, challenging weather conditions, 
+       and the discipline required behind every successful flight. 
+       A conversation about responsibility, 
+       professionalism, and the enduring dream of flying.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- stiripesurse.ro - 14 Iulie 2026 (Marți) -->
        <item>
