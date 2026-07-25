@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Wed, 22 July 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 July 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,51 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- stiripesurse.ro - 25 Iulie 2026 (Sâmbătă) -->
+       <item>
+  <title>Înaintea întâlnirii cu Apophis, asteroidul Zeului Haosului, astronomul Adrian Șonka: „Sunt convins că există civilizații extraterestre” — INTERVIU – stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/inaintea-intalnirii-cu-apophis-asteroidul-zeului-haosului-astronomul-adrian-sonka-sunt-convins-ca-exista-civilizatii-extraterestre-interviu_3906565</link>
+  <guid isPermaLink="false">inaintea-intalnirii-cu-aphophis-v2</guid>
+  <pubDate>Sat, 25 July 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Articol</category>
+  <category>Exclusiv</category>
+
+  <tags>astronomia, Adrian Șonka, civilizații extraterestre, viață extraterestră, exoplanete, OZN-uri, UAP, Univers, cercetare spațială, asteroidul Apophis, Apophis 2029, efectul Yarkovsky, observații astronomice, telescop, cosmos, știință, explorare spațială, România, interviu, astronomie românească, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>Apophis, OZN-uri și civilizații extraterestre: dialog cu astronomul Adrian Șonka</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Există civilizații extraterestre?</strong> 
+       Astronomul Adrian Șonka explică de ce nu avem încă dovezi, 
+       ce crede despre OZN-uri și cum va putea fi observat asteroidul Apophis 
+       la apropierea sa istorică din 2029. 
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- stiripesurse.ro - 22 Iulie 2026 (Miercuri) -->
        <item>
