@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sat, 25 July 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 July 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,52 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- stiripesurse.ro - 26 Iulie 2026 (Sâmbătă) -->
+       <item>
+  <title>Ce facem dacă primim un mesaj din spațiu? Unul dintre liderii programului mondial de căutare a inteligenței extraterestre răspunde pentru stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-ce-facem-daca-primim-un-mesaj-din-spatiu-unul-dintre-liderii-programului-mondial-de-cautare-a-inteligentei-extraterestre-raspunde-pentru-stiripesursero_3906791</link>
+  <guid isPermaLink="false">the-far-side-of-the-moon-v2</guid>
+  <pubDate>Sun, 26 July 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>SETI</category>
+  <category>Interview</category>
+
+  <tags>SETI, Vishal Gajjar, inteligență extraterestră, civilizații extraterestre, mesaj din spațiu, tehnosemnături, METI, contact extraterestru, explorare spațială, astrobiologie, astronomie, UAP, Univers, căutarea vieții extraterestre, Știripesurse, Adrian Leonard Mociulschi</tags>
+
+  <description><![CDATA[
+    <strong>Dialog cu Dr. Vishal Gajjar (SETI Institute) despre inteligența extraterestră, semnale din spațiu, METI și cine ar putea vorbi în numele Pământului</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Dacă am primi mâine un mesaj din spațiu</strong>, 
+       cine ar răspunde în numele Pământului? 
+       Un dialog cu Dr. Vishal Gajjar (SETI Institute) 
+       despre inteligența extraterestră, 
+       tehnosemnături și provocările unui posibil prim contact.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- stiripesurse.ro - 25 Iulie 2026 (Sâmbătă) -->
        <item>
