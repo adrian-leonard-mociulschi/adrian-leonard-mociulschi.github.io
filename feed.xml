@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Fri, 31 July 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 August 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -26,11 +26,58 @@
 
        <!-- Listă Articole -->
 
+       <!-- stiripesurse.ro - 05 August 2026 (Miercuri) -->
+       <item>
+  <title>EXCLUSIV | Poate fi oprită o rachetă nucleară? Un general român explică limitele apărării antirachetă - Interviu</title>
+  <link>https://www.stiripesurse.ro/exclusiv-poate-fi-oprita-o-racheta-nucleara-un-general-roman-explica-limitele-apararii-antiracheta-interviu_3909688</link>
+  <guid isPermaLink="false">poate-fi-oprita-o-racheta-nucleara-v2</guid>
+  <pubDate>Wed, O5 August 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusive</category>
+  <category>Interview</category>
+
+  <tags>rachete balistice, arme nucleare, rachete hipersonice, apărare antirachetă, scut antirachetă, interceptare, Corneliu Postu, securitate strategică, descurajare nucleară, umbrelă nucleară.</tags>
+
+  <description><![CDATA[
+    <strong>Generalul Corneliu Postu despre rachetele balistice, armele nucleare și limitele sistemelor antirachetă</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Poate fi oprită o rachetă nucleară?</strong> 
+       Generalul-locotenent (r) Corneliu Postu 
+       explică diferențele dintre rachetele balistice și hipersonice, 
+       rolul armelor nucleare 
+       și limitele reale ale apărării antirachetă 
+       în contextul noilor provocări de securitate.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
        <!-- stiripesurse.ro - 31 Iulie 2026 (Vineri) -->
        <item>
   <title>Ce înseamnă ratingul „junk” și cum ne afectează inflația. Interviu cu profesorul Marian Siminică</title>
   <link>https://www.stiripesurse.ro/exclusiv-ce-inseamna-ratingul-junk-si-cum-ne-afecteaza-inflatia-interviu-cu-profesorul-marian-siminica_3908222</link>
-  <guid isPermaLink="false">the-far-side-of-the-moon-v2</guid>
+  <guid isPermaLink="false">ce-inseamna-ratingul-junk-v2</guid>
   <pubDate>Fri, 31 July 2026 12:45:00 GMT</pubDate>
 
   <author>Adrian Leonard Mociulschi</author>
@@ -75,7 +122,7 @@
        <item>
   <title>Ce facem dacă primim un mesaj din spațiu? Unul dintre liderii programului mondial de căutare a inteligenței extraterestre răspunde pentru stiripesurse.ro</title>
   <link>https://www.stiripesurse.ro/exclusiv-ce-facem-daca-primim-un-mesaj-din-spatiu-unul-dintre-liderii-programului-mondial-de-cautare-a-inteligentei-extraterestre-raspunde-pentru-stiripesursero_3906791</link>
-  <guid isPermaLink="false">the-far-side-of-the-moon-v2</guid>
+  <guid isPermaLink="false">ce-facem-daca-primim-un-mesaj-v2</guid>
   <pubDate>Sun, 26 July 2026 12:45:00 GMT</pubDate>
 
   <author>Adrian Leonard Mociulschi</author>
