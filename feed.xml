@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Fri, 14 August 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 August 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,51 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- stiripesurse.ro - 18 August, 2026 (Marți) -->
+       <item>
+  <title>EXCLUSIV | Asistăm la noua normalitate climatică? Un expert german explică pentru STIRIPESURSE.RO de ce Dunărea atinge niveluri îngrijorătoare - Interviu</title>
+  <link>https://www.stiripesurse.ro/exclusiv-asistam-la-noua-normalitate-climatica-un-expert-german-explica-pentru-stiripesursero-de-ce-dunarea-atinge-niveluri-ingrijoratoare-interviu_3912895</link>
+  <guid isPermaLink="false">asistam-la-noua-normalitate-climatica-v2</guid>
+  <pubDate>Tue, 18 August 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusive</category>
+  <category>Interview</category>
+
+  <tags>Dunărea, secetă în Europa, schimbări climatice, Helmholtz Centre for Environmental Research (UFZ), Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Profesor UFZ Helmholtz: Dunărea la cote scăzute, seceta europeană și efectele schimbărilor climatice</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Prof. dr. Luis Samaniego (UFZ Germania)</strong>
+       explică de ce seceta care afectează fluviul 
+       ar putea reflecta noua normalitate climatică a Europei 
+       și ce ne spun datele științifice despre viitorul resurselor de apă.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Nine O'Clock - August 14, 2026 (Friday) -->
        <item>
