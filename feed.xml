@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Tue, 18 August 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 August 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,100 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- stiripesurse.ro - 19 August, 2026 (Miercuri) -->
+       <item>
+  <title>EXCLUSIV | Dronele de pe cerul României: ce se vede, ce nu se vede și ce spune un fost șef al Armatei - Interviu</title>
+  <link>https://www.stiripesurse.ro/exclusiv-dronele-de-pe-cerul-romaniei-ce-se-vede-ce-nu-se-vede-si-ce-spune-un-fost-sef-al-armatei-interviu_3913333</link>
+  <guid isPermaLink="false">dronele-de-pe-cerul-romaniei-v2</guid>
+  <pubDate>Wed, 19 August 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusive</category>
+  <category>Interview</category>
+
+  <tags>Drone, apărare antiaeriană, securitate, supraveghere, adaptare, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Dronele de pe cerul României: Generalul Corneliu Postu despre detectare, supraveghere și apărare</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>În contextul incidentelor recente din apropierea graniței</strong>,
+       generalul-locotenent (r) Corneliu Postu explică modul în care relieful, 
+       zborul la joasă altitudine și evoluția rapidă a tehnologiei influențează detectarea dronelor. 
+       Un dialog despre apărarea aeriană, 
+       lecțiile învățate de România și provocările unei amenințări 
+       care schimbă regulile securității moderne.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- stiripesurse.ro - 18 August, 2026 (Marți) -->
+       <item>
+  <title>EXCLUSIV | Generalul Daniel Ioniță: Cum ne transformăm singuri în ținte pe internet — Interviu</title>
+  <link>https://www.stiripesurse.ro/exclusiv-generalul-daniel-ionita-cum-ne-transformam-singuri-in-tinte-pe-internet-interviu_3913045</link>
+  <guid isPermaLink="false">cum-ne-transformam-singuri-in-tinete-pe-internet-v2</guid>
+  <pubDate>Tue, 18 August 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusive</category>
+  <category>Interview</category>
+
+  <tags>Securitate cibernetică, război hibrid, atacuri cibernetice, Daniel Ioniță, Inteligență Artificială, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Securitate cibernetică și război hibrid: Avertismentul generalului Daniel Ioniță pentru cetățeni</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Cum devenim vulnerabili într-o lume hiperconectată?</strong> 
+       Generalul de brigadă (r) Daniel Ioniță explică, 
+       într-un interviu exclusiv, cum atacurile cibernetice, 
+       dezinformarea și războiul hibrid pot afecta societatea 
+       și de ce cultura de securitate începe cu 
+       responsabilitatea fiecăruia dintre noi.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- stiripesurse.ro - 18 August, 2026 (Marți) -->
        <item>
