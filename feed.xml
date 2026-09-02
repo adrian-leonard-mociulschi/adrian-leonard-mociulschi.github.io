@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sat, 29 August 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 September 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,55 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- romanialibera.ro - 02 Septembrie, 2026 (Miercuri) -->
+       <item>
+  <title>Planeta activă: cutremure, vulcani și aventura geologică a Terrei - romanialibera.ro</title>
+  <link>https://romanialibera.ro/op-ed/opinii/planeta-activa-cutremure-vulcani-si-aventura-geologica-a-terrei/</link>
+  <guid isPermaLink="false">a-lasat-in-urma-insula-paradisului-pentru-dragostea-unui-armator-din-braila-v2</guid>
+  <pubDate>Wed, 02 September 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Op-Ed</category>
+  <category>Editorial</category>
+
+  <tags>cutremure, vulcani, geologie, plăci tectonice, activitate seismică, erupții vulcanice, Cercului de Foc al Pacificului, Nepal, Himalaya, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Cutremure și Vulcani: Forțele Ascunse ale Planetei</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Pornind de la seria recentă de cutremure și dezastre naturale din diferite colțuri ale lumii, 
+       textul explorează dinamica geologică a Pământului 
+       și procesele care modelează continuu planeta. 
+       De la mișcarea plăcilor tectonice 
+       și energia acumulată în adâncuri până la vulcani, 
+       alunecări de teren și transformarea reliefului, 
+       analiza evidențiază legătura dintre activitatea internă a Terrei 
+       și fragilitatea civilizației umane.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
         <!-- stiripesurse.ro - 29 August, 2026 (Sâmbătă) -->
        <item>
