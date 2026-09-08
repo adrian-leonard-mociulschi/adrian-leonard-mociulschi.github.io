@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Thu, 03 September 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 September 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -26,7 +26,53 @@
 
        <!-- Listă Articole -->
 
-       <!-- romanialibera.ro - 03 Septembrie, 2026 (Joi) -->
+        <!-- Stiripesurse.ro - 08 Septembrie, 2026 (Marți) -->
+       <item>
+  <title>EXCLUSIV | Un mister din 1879: o misiune militară, o boală misterioasă și un sicriu sigilat cu plumb adus din Italia - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-un-mister-din-1879-o-misiune-militara-o-boala-misterioasa-si-un-sicriu-sigilat-cu-plumb-adus-din-italia_3918397</link>
+  <guid isPermaLink="false">un-mister-din-1879-o-misiune-militara-o-boala-misterioasa-si-un-sicriu-v2</guid>
+  <pubDate>Tue, 08 September 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Documentar</category>
+
+  <tags>Ulysse Vasilesco, mister istoric, Italia 1879, ofițer român, sicriu sigilat cu plumb, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Enigma din 1879: moartea misterioasă a ofițerului român Ulysse Vasilesco</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>La aproape 150 de ani de la moartea sa</strong>, 
+       Ulysse Vasilesco rămâne unul dintre personajele enigmatice ale istoriei românești. 
+       O misiune în Italia, o boală neelucidată 
+       și repatrierea într-un sicriu sigilat cu plumb 
+       au alimentat o legendă care continuă să stârnească întrebări și astăzi.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+       <!-- Stiripesurse.ro - 03 Septembrie, 2026 (Joi) -->
        <item>
   <title>EXCLUSIV | Alexandru Petrescu, Președintele ASF: „Bursa nu este o lume paralelă cu economia. Este una dintre infrastructurile dezvoltării” - stiripesurse.ro</title>
   <link>https://www.stiripesurse.ro/exclusiv-interviu-alexandru-petrescu-presedintele-asf-bursa_3917148</link>
