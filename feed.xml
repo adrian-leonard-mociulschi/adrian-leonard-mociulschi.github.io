@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Thu, 10 September 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 September 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,53 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- Stiripesurse.ro - 11 Septembrie, 2026 (Vineri) -->
+       <item>
+  <title>EXCLUSIV | Tom Armbruster, fost ambasador al SUA: „Relațiile proaste sunt mai bune decât lipsa totală a relațiilor” - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-tom-armbruster-fost-ambasador-al-sua-relatiile-proaste-sunt-mai-bune-decat-lipsa-totala-a-relatiilor_3919058</link>
+  <guid isPermaLink="false">tom-armbruster-relatile-proaste-sunt-mai-bune-decat-lipsa-totala-a-relatiilor-v2</guid>
+  <pubDate>Fri, 11 September 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>ONU, Organizația Națiunilor Unite, cooperare internațională, politica externă, Ucraina, Taiwan, China, securitate globală, conflicte armate, diplomație publică, relații diplomatice, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Fost ambasador al SUA: „Construirea încrederii este fundamentul diplomației”</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Fostul ambasador al SUA Tom Armbruster 
+       vorbește într-un interviu exclusiv despre diplomație, 
+       conflictele globale, Inteligența Artificială, schimbările climatice 
+       și marile provocări geopolitice care vor modela lumea în deceniile următoare. 
+       România, Ucraina, Taiwan, ONU și viitorul cooperării internaționale 
+       se află printre temele abordate în acest dialog.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- România Liberă - 10 Septembrie, 2026 (Joi) -->
        <item>
