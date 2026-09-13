@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Fri, 11 September 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 September 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,55 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- Stiripesurse.ro - 12 Septembrie, 2026 (Sâmbătă) -->
+       <item>
+  <title>EXCLUSIV | Judecătorul Marius Peter: „Inteligența Artificială trebuie integrată responsabil și într-un cadru clar reglementat” (Partea a II-a) - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-judecatorul-marius-peter-inteligenta-artificiala-trebuie-integrata-responsabil-si-intr-un-cadru-clar-reglementat-partea-a-ii-a_3919453</link>
+  <guid isPermaLink="false">inteligenta-artificiala-trebuie-integrata-responsabil-si-intrun-cadru-clar-reglementat-v2</guid>
+  <pubDate>Sat, 12 September 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Inteligența Artificială, justiție digitală, sistem judiciar, Marius Peter, digitalizarea instanțelor, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Judecătorul Marius Peter explică ce se schimbă în activitatea instanțelor</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>În partea a doua a dialogului realizat de Dr. Adrian Leonard Mociulschi, 
+       judecătorul Marius Peter analizează stadiul digitalizării justiției, 
+       oportunitățile oferite de Inteligența Artificială 
+       și condițiile necesare pentru integrarea sa responsabilă în activitatea instanțelor. 
+       De la dosarul electronic și analiza jurisprudenței până la securitatea cibernetică 
+       și menținerea controlului uman, 
+       interviul oferă o perspectivă echilibrată 
+       asupra viitorului tehnologiei în sistemul judiciar.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Stiripesurse.ro - 11 Septembrie, 2026 (Vineri) -->
        <item>
