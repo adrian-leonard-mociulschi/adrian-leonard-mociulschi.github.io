@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Thu, 17 September 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 September 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,53 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- Stiripesurse.ro - 18 Septembrie, 2026 (Vineri) -->
+       <item>
+  <title>EXCLUSIV | Frank Rose, negociatorul Deveselu: „Adversarii noștri învață. Întrebarea este dacă noi învățăm mai repede” - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-frank-rose-negociatorul-deveselu-adversarii-nostri-invata-intrebarea-este-daca-noi-invatam-mai-repede_3921176</link>
+  <guid isPermaLink="false">frank-rose-negociatorul-deveselu-v2</guid>
+  <pubDate>Thu, 18 September 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Frank Rose, Deveselu, NATO, Securitate Spațială, Inteligență Artificială, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>De la Deveselu la spațiul cosmic: Frank Rose explică viitorul competiției strategice</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Un dialog exclusiv cu Frank Rose, 
+       fost Secretar Adjunct al Departamentului de Stat al SUA 
+       și negociator principal al sistemului antirachetă de la Deveselu. 
+       Am discutat despre securitatea spațială, Inteligența Artificială, 
+       competiția strategică dintre marile puteri 
+       și rolul NATO într-o lume aflată într-o transformare accelerată.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Stiripesurse.ro - 17 Septembrie, 2026 (Joi) -->
        <item>
