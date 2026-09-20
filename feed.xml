@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sun, 20 September 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 September 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,53 @@
     </image>
 
        <!-- Listă Articole -->
+
+        <!-- Stiripesurse.ro - 20 Septembrie, 2026 (Duminică) -->
+       <item>
+  <title>EXCLUSIV | Viceamiralul Giorgio Lazio, fost șef de stat major al NATO Maritime Command: „Nu vorbim despre viitor, ci despre prezentul aflat într-o accelerare continuă” - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-viceamiralul-giorgio-lazio-fost-sef-de-stat-major-al-nato-maritime-command-nu-vorbim-despre-viitor-ci-despre-prezentul-aflat-intr-o-accelerare-continua_3921516</link>
+  <guid isPermaLink="false">nu-vorbim-despre-viitor-v2</guid>
+  <pubDate>Sun, 20 September 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Giorgio Lazio, NATO, Marea Neagră, corvete militare, drone maritime autonome, Adrian Leonard Mociulschi, stiripesurse.ro</tags>
+
+  <description><![CDATA[
+    <strong>Fost șef NATO Maritime Command: Cum transformă Inteligența Artificială operațiunile navale moderne</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Viceamiralul (r.) Giorgio Lazio</strong>,
+       fost șef de stat major al NATO Maritime Command, 
+       explică rolul corvetelor moderne, al sistemelor autonome 
+       și al Inteligenței Artificiale în securitatea maritimă. 
+       Un dialog despre Marea Neagră, infrastructura critică 
+       și transformarea războiului naval în secolul XXI.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Stiripesurse.ro - 19 Septembrie, 2026 (Sâmbătă) -->
        <item>
