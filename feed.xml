@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Mon, 21 September 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 September 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,56 @@
     </image>
 
        <!-- Listă Articole -->
+
+        <!-- România Liberă - 23 Septembrie, 2026 (Miercuri) -->
+       <item>
+  <title>În timp ce ONU discută viitorul, lumea discută sfârșitul: cazul Inteligenței Artificiale - stiripesurse.ro</title>
+  <link>https://romanialibera.ro/op-ed/opinii/in-timp-ce-onu-discuta-viitorul-lumea-discuta-sfarsitul-cazul-inteligentei-artificiale/</link>
+  <guid isPermaLink="false">in-timp-ce-onu-discuta-viitorul-v2</guid>
+  <pubDate>Wed, 23 September 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Editorial</category>
+  <category>Op-Ed</category>
+
+  <tags>Inteligența Artificială, Tehnologie AI, ONU Adrian Leonard Mociulschi, România Liberă</tags>
+
+  <description><![CDATA[
+    <strong>Inteligența Artificială și Viitorul Societății Umane</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Editorialul examinează modul în care dezbaterea 
+       despre Inteligența Artificială</strong> depășește sfera tehnologiei 
+       și devine o confruntare între logica apartenenței 
+       și exigențele competenței. 
+       Textul argumentează că AI-ul nu reprezintă 
+       cauza fundamentală a crizelor contemporane, 
+       ci o oglindă care obligă societatea 
+       să-și reevalueze formele de autoritate, 
+       merit și responsabilitate.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
         <!-- Stiripesurse.ro - 20 Septembrie, 2026 (Duminică) -->
        <item>
