@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Tue, 29 September 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 October 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,50 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- Stiripesurse.ro - 01 Octombrie, 2026 (Joi) -->
+       <item>
+  <title>Victor Marcusohn: „Nimeni nu poate fi tras la răspundere penală pentru o faptă care, la momentul comiterii ei, nu era prevăzută de lege ca infracțiune” - INTERVIU - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/victor-marcusohn-nimeni-nu-poate-fi-tras-la-raspundere-penala-pentru-o-fapta-care-la-momentul-comiterii-ei-nu-era-prevazuta-de-lege-ca-infractiune-interviu_3924648</link>
+  <guid isPermaLink="false">viitorul-razboiului-naval-v2</guid>
+  <pubDate>Thu, 01 October 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>drept, justiție, Victor Marcusohn, common law, drept civil, drept penal, stat de drept, libertate, răspundere penală, prezumția de nevinovăție, cultură juridică, educație civică, Adrian Leonard Mociulschi, interviu, STIRIPESURSE.RO</tags>
+
+  <description><![CDATA[
+    <strong>Victor Marcusohn explică: care este diferența dintre dreptul civil și dreptul penal</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Ce diferențiază sistemul juridic european de modelul anglo-saxon?</strong> 
+       În dialog cu procurorul dr. Victor Marcusohn, despre drept civil, drept penal, 
+       common law și principiile care stau la baza justiției moderne.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Stiripesurse.ro - 29 Septembrie, 2026 (Marți) -->
        <item>
