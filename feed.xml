@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sat, 03 October 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 October 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -26,6 +26,57 @@
 
        <!-- Listă Articole -->
 
+        <!-- Stiripesurse.ro - 05 Octombrie, 2026 (Luni) -->
+       <item>
+  <title>EXCLUSIV | Amiralul care a coordonat operațiile navale ale Turciei explică rolul noii corvete a României în Marea Neagră - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-amiralul-care-a-coordonat-operatiile-navale-ale-turciei-explica-rolul-noii-corvete-a-romaniei-in-marea-neagra_3925614</link>
+  <guid isPermaLink="false">amiralul-care-a-coordonat-operatiile-navale-v2</guid>
+  <pubDate>Mon, 05 October 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Marea Neagră, Corveta HISAR, Hasan Özyurt, Drone maritime, Securitate navală, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
+
+  <description><![CDATA[
+    <strong>Amiralul Hasan Özyurt explică de ce Marea Neagră este cheia securității Europei</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Contraamiralul (r.) Hasan Özyurt</strong>, 
+       fost Șef al Operațiilor Forțelor Navale Turce 
+       și fost Șef de Stat Major al SNMG2, 
+       vorbește despre importanța strategică a Mării Negre, 
+       corveta „Contraamiral August Roman”, 
+       războiul cu drone maritime, 
+       protecția infrastructurii energetice 
+       și viitorul securității navale 
+       într-o regiune devenită un adevărat laborator 
+       al noilor tehnologii militare.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
         <!-- Stiripesurse.ro - 03 Octombrie, 2026 (Sâmbătă) -->
        <item>
   <title>Avertismentul unui mare dirijor pentru cei care visează la o carieră în muzică: talentul nu este suficient - Interviu - stiripesurse.ro</title>
@@ -37,7 +88,7 @@
   <category>Exclusiv</category>
   <category>Interviu</category>
 
-  <tags>ZPiotr Borkowski, dirijor, muzică clasică, talent, succes artistic, valoare artistică, carieră muzicală, Adrian Leonard Mociulschi, interviu, STIRIPESURSE.RO</tags>
+  <tags>Piotr Borkowski, dirijor, muzică clasică, talent, succes artistic, valoare artistică, carieră muzicală, Adrian Leonard Mociulschi, interviu, STIRIPESURSE.RO</tags>
 
   <description><![CDATA[
     <strong>Piotr Borkowski despre merit, noroc și succes: ce nu li se spune tinerilor muzicieni</strong><br/>
