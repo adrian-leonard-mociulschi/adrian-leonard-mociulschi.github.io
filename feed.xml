@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Mon, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Mon, 05 October 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 October 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,53 @@
     </image>
 
        <!-- Listă Articole -->
+
+        <!-- Stiripesurse.ro - 06 Octombrie, 2026 (Marți) -->
+       <item>
+  <title>Victor Marcusohn: „Nu poți chema în judecată un algoritm”. Blockchain-ul și contractul viitorului - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-amiralul-care-a-coordonat-operatiile-navale-ale-turciei-explica-rolul-noii-corvete-a-romaniei-in-marea-neagra_3925614</link>
+  <guid isPermaLink="false">nu-poti-chema-in-judecata-un-algoritm-v2</guid>
+  <pubDate>Tue, 06 October 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>blockchain, contracte inteligente, Inteligența Artificială, drept digital, responsabilitate juridică, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
+
+  <description><![CDATA[
+    <strong>Cum vor arăta contractele de mâine? Victor Marcusohn despre blockchain, AI și securitatea juridică</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Contractele viitorului s-ar putea semna și executa prin cod</strong>. 
+       În interviu, profesorul și procurorul Victor Marcusohn 
+       explică impactul blockchain-ului și al contractelor inteligente asupra dreptului 
+       și avertizează că, indiferent cât de avansată devine tehnologia, 
+       responsabilitatea juridică rămâne umană: 
+       „Nu poți chema în judecată un algoritm”.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
         <!-- Stiripesurse.ro - 05 Octombrie, 2026 (Luni) -->
        <item>
