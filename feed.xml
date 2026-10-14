@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Sat, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Tue, 10 October 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 October 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -26,6 +26,99 @@
 
        <!-- Listă Articole -->
 
+               <!-- Stiripesurse.ro - 14 Octombrie, 2026 (Miercuri) -->
+       <item>
+  <title>O femeie aflată la manșa unui A320 despre AI: „Discernământul nu poate fi automatizat” - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/o-femeie-aflata-la-mansa-unui-a320-despre-ai-discernamantul-nu-poate-fi-automatizat_3928241</link>
+  <guid isPermaLink="false">o-femeie-aflata-la-mansa-unui-A320-v2</guid>
+  <pubDate>Wed, 14 October 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Vanina Pinto, Inteligența Artificială, aviație comercială, pilot A320, TAP Air Portugal, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
+
+  <description><![CDATA[
+    <strong>De la Amelia Earhart la era AI: perspectiva unei femei pilot de la TAP Air Portugal</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Într-un dialog dedicat viitorului aviației comerciale</strong>, 
+       Vanina Pinto, Senior First Officer la TAP Air Portugal, 
+       vorbește despre impactul automatizării și al Inteligenței Artificiale 
+       asupra profesiei de pilot. 
+       Interviul explorează relația dintre tehnologie și factorul uman, 
+       evidențiind rolul esențial al discernământului, responsabilității și capacității de adaptare.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
+        <!-- Stiripesurse.ro - 13 Octombrie, 2026 (Marți) -->
+       <item>
+  <title>Conacul bântuit din Bărăgan - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/conacul-bantuit-din-baragan_3927889</link>
+  <guid isPermaLink="false">conacul-bantuit-v2</guid>
+  <pubDate>Tue, 13 October 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Articol</category>
+
+  <tags>Nazâreanca, conac abandonat, Bărăgan, moșie interbelică, legende locale, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
+
+  <description><![CDATA[
+    <strong>Conacul de la Nazâreanca. Documente de arhivă și legenda unei case care refuza să moară</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Pornind de la documente de arhivă</strong>, 
+       fotografii de familie și amintiri locale, 
+       acest text reconstituie povestea conacului dispărut de la Nazâreanca, 
+       o moșie din Bărăgan al cărei destin a traversat România interbelică, 
+       comunismul și uitarea.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
+
         <!-- Stiripesurse.ro - 10 Octombrie, 2026 (Sâmbătă) -->
        <item>
   <title>A început noul război al stelelor? Generalul-locotenent (r.) Corneliu Postu: „Dependența de infrastructura spațială creează vulnerabilități reciproce” - stiripesurse.ro</title>
@@ -37,7 +130,7 @@
   <category>Exclusiv</category>
   <category>Interviu</category>
 
-  <tags>space security, satellite warfare, orbital infrastructure, NATO, national security, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
+  <tags>securitate spațială, războiul sateliților, infrastructura orbitală, NATO, securitate națională, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
 
   <description><![CDATA[
     <strong>Militarizarea spațiului cosmic: avertismentul generalului Corneliu Postu privind viitorul războiului</strong><br/>
