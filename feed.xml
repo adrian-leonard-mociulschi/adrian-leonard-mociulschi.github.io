@@ -11,8 +11,8 @@
     <copyright>© 2025-2026 Adrian Leonard Mociulschi. All rights reserved.</copyright>
     <category>Metacultură</category>
     <category>Jurnalism</category>
-    <pubDate>Sat, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sun, 25 October 2026 12:45:00 GMT</lastBuildDate>
+    <pubDate>Sun, 27 Apr 2026 21:45:00 GMT</pubDate>
+    <lastBuildDate>Sun, 01 November 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,50 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- Stiripesurse.ro - 25 Octombrie, 2026 (Duminică) -->
+       <item>
+  <title>EXCLUSIV | Document rar din al Doilea Război Mondial: de ce a decorat Mareșalul Mannerheim, comandantul suprem al Finlandei, un vânător de munte român? - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/exclusiv-document-rar-din-al-doilea-razboi-mondial-de-ce-a-decorat-maresalul-mannerheim-comandantul-suprem-al-finlandei-un-vanator-de-munte-roman_3931172</link>
+  <guid isPermaLink="false">document-rar-din-al-doilea-razboi-mondial-v2</guid>
+  <pubDate>Sun, 25 October 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Leonard Mociulschi, Mareșalul Mannerheim, Crucea Libertății a Finlandei, Al Doilea Război Mondial, Vânători de munte români, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
+
+  <description><![CDATA[
+    <strong>Leonard Mociulschi, decorat de comandantul suprem al Finlandei. Document exclusiv din timpul războiului</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>Document rar din Al Doilea Război Mondial: 
+       povestea decorației acordate de Mareșalul Mannerheim generalului Leonard Mociulschi, 
+       unul dintre cei mai respectați comandanți ai vânătorilor de munte români.
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Stiripesurse.ro - 24 Octombrie, 2026 (Sâmbătă) -->
        <item>
