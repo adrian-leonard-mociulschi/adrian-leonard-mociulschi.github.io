@@ -12,7 +12,7 @@
     <category>Metacultură</category>
     <category>Jurnalism</category>
     <pubDate>Sun, 27 Apr 2026 21:45:00 GMT</pubDate>
-    <lastBuildDate>Sun, 15 November 2026 12:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 November 2026 12:45:00 GMT</lastBuildDate>
     <ttl>1440</ttl>
     <atom:link href="https://adrian-leonard-mociulschi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
@@ -25,6 +25,53 @@
     </image>
 
        <!-- Listă Articole -->
+
+       <!-- Stiripesurse.ro - 16 Noiembrie, 2026 (Luni) -->
+       <item>
+  <title>Secretele războiului dronelor din Marea Neagră. Viceamiralul Dimitrios Kavoulakos spune cum pot opri avioanele F-16 un atac de 180.000 de dolari cu doar 30.000! - stiripesurse.ro</title>
+  <link>https://www.stiripesurse.ro/secretele-razboiului-dronelor-din-marea-neagra-viceamiralul-dimitrios-kavoulakos_3937240</link>
+  <guid isPermaLink="false">secretele-razboiului-dronelor-din-marea-neagra-v2</guid>
+  <pubDate>Sun, 16 November 2026 12:45:00 GMT</pubDate>
+
+  <author>Adrian Leonard Mociulschi</author>
+  <category>Exclusiv</category>
+  <category>Interviu</category>
+
+  <tags>Marea Neagră, atacuri cu drone, securitate maritimă, avioane F-16, Dimitrios Kavoulakos, Dr. Adrian Leonard Mociulschi, STIRIPESURSE.RO</tags>
+
+  <description><![CDATA[
+    <strong>Războiul dronelor în Marea Neagră: Cum interceptează avioanele F-16 atacurile maritime</strong><br/>
+    <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" alt="Adrian Leonard Mociulschi" width="512" height="512" />
+  ]]></description>
+
+  <content:encoded><![CDATA[
+    <p><strong>O amplă analiză cu viceamiralul Dimitrios Kavoulakos, 
+       reputat strateg al Marinei Elene. Materialul explorează impactul 
+       atacurilor asimetrice cu drone asupra transportului comercial, 
+       limitele dreptului maritim în apele internaționale, 
+       rolul de avertizare al NATO 
+       și economia reală a interceptărilor aeriene. 
+     </p>
+    <p>
+      <img src="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg"
+           alt="Adrian Leonard Mociulschi"
+           width="1200" height="1200" />
+    </p>
+  ]]></content:encoded>
+
+  <!-- Enclosure for maximum compatibility with RSS readers like Inoreader and Feedly -->
+  <enclosure url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" type="image/jpeg" length="0" />
+
+  <media:thumbnail url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg" width="512" height="512" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.jpg"  medium="image" width="512"  height="512"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.jpg"  medium="image" width="800"  height="800"  type="image/jpeg" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.jpg" medium="image" width="1200" height="1200" type="image/jpeg" />
+
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-512.webp"  medium="image" width="512"  height="512"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-800.webp"  medium="image" width="800"  height="800"  type="image/webp" />
+  <media:content url="https://adrian-leonard-mociulschi.github.io/assets/img/slug-1200.webp" medium="image" width="1200" height="1200" type="image/webp" />
+</item>
 
        <!-- Stiripesurse.ro - 15 Noiembrie, 2026 (Duminică) -->
        <item>
